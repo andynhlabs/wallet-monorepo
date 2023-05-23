@@ -22,7 +22,7 @@ jobs:
           node-version: 16.x
           registry-url: 'https://npm.pkg.github.com'
           always-auth: true
-          scope: '@onekeyhq'
+          scope: '@mywallet'
 
       - name: Setup keys secret
         run: |
@@ -38,7 +38,7 @@ jobs:
           echo ${{ secrets.ADHOC_SERVICE_EXTENSION_PROFILE }} | base64 -d > packages/app/ios/certs/serviceextension-profile.mobileprovision
 
       - name: Setup Expo
-        uses: OneKeyHQ/actions/expo-server@main
+        uses: nhlabs/actions/expo-server@main
         with:
           expo-version: 5.x
           eas-version: 3.5.x
@@ -70,12 +70,12 @@ jobs:
 
       - name: Dotenv Action
         id: dotenv
-        uses: OneKeyHQ/actions/dotenv-action@main
+        uses: nhlabs/actions/dotenv-action@main
         with:
           path: .env.version
 
       - name: Modify OneKeyWallet info.plist
-        uses: OneKeyHQ/actions/build-plist-edit@main
+        uses: nhlabs/actions/build-plist-edit@main
         with:
           buildNumber: ${{ env.BUILD_NUMBER }}
           versionName: ${{ steps.dotenv.outputs.version }}
@@ -83,7 +83,7 @@ jobs:
           dir: ./packages/app
 
       - name: Modify ServiceExtension info.plist
-        uses: OneKeyHQ/actions/build-plist-edit@main
+        uses: nhlabs/actions/build-plist-edit@main
         with:
           buildNumber: ${{ env.BUILD_NUMBER }}
           versionName: ${{ steps.dotenv.outputs.version }}

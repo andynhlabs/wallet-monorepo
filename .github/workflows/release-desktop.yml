@@ -26,7 +26,7 @@ jobs:
 
       - name: Dotenv Action
         id: dotenv
-        uses: OneKeyHQ/actions/dotenv-action@main
+        uses: nhlabs/actions/dotenv-action@main
         with:
           path: .env.version
 
@@ -67,7 +67,7 @@ jobs:
           node-version: ${{ matrix.node-version }}
           registry-url: 'https://npm.pkg.github.com'
           always-auth: true
-          scope: '@onekeyhq'
+          scope: '@mywallet'
 
       - name: Setup keys secret
         run: |
@@ -106,7 +106,7 @@ jobs:
           echo ${{ secrets.DESKTOP_KEYS_SECRET }} | base64 -d > packages/desktop/sign.p12
 
       - name: Publish and Sign Static Linux / Macos / Windows Installer
-        if: ${{ (github.event_name == 'workflow_dispatch') && (github.ref == 'refs/heads/onekey') }}
+        if: ${{ (github.event_name == 'workflow_dispatch') && (github.ref == 'refs/heads/wlsa') }}
         env:
           NODE_OPTIONS: '--max_old_space_size=8192'
           APPLEID: ${{ secrets.APPLEID }}
@@ -131,21 +131,21 @@ jobs:
       - name: Upload Artifacts Mac
         uses: actions/upload-artifact@v3
         with:
-          name: onekey-desktop-mac
+          name: wlsa-desktop-mac
           path: |
             ./packages/desktop/build-electron/*.dmg
 
       - name: Upload Artifacts Windows
         uses: actions/upload-artifact@v3
         with:
-          name: onekey-desktop-windows
+          name: wlsa-desktop-windows
           path: |
             ./packages/desktop/build-electron/*.exe
 
       - name: Upload Artifacts Linux
         uses: actions/upload-artifact@v3
         with:
-          name: onekey-desktop-linux
+          name: wlsa-desktop-linux
           path: |
             ./packages/desktop/build-electron/*.AppImage
 
@@ -169,12 +169,12 @@ jobs:
           snapcraft push ./packages/desktop/build-electron/*.snap --release edge
 
       - name: 'Notify to Slack'
-        uses: onekeyhq/actions/notice-slack-app-update@main
+        uses: mywallet/actions/notice-slack-app-update@main
         with:
           web-hook-url: ${{ secrets.SLACK_DEV_WEBHOOK }}
           artifact-type: Desktop
           artifact-name: OneKey-Desktop-RN
-          artifact-bundle-id: 'so.onekey.wallet.desktop'
+          artifact-bundle-id: 'so.wlsa.wallet.desktop'
           artifact-version-name: '${{ steps.dotenv.outputs.version }}@${{ env.BUILD_NUMBER }}'
           artifact-version-code: '${{ env.BUILD_NUMBER }}'
           artifact-download-url: '${{ env.ARTIFACTS_URL }}'

@@ -2,7 +2,7 @@ name: unittest
 
 on:
   pull_request:
-    branches: [onekey]
+    branches: [wlsa]
 
 # Cancel a currently running workflow from the same PR/branch/tag
 # when a new workflow is triggered
@@ -29,7 +29,7 @@ jobs:
           node-version: ${{ matrix.node-version }}
           registry-url: 'https://npm.pkg.github.com'
           always-auth: true
-          scope: '@onekeyhq'
+          scope: '@mywallet'
 
       - name: Get yarn cache directory path
         id: yarn-cache-dir-path
