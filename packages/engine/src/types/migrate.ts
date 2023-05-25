@@ -1,4 +1,4 @@
-import type { IDistributionChannel } from '@onekeyhq/shared/src/platformEnv';
+import type { IDistributionChannel } from '@mywallet/shared/src/platformEnv';
 
 export type MigrateServiceResp<T> = {
   success?: boolean;

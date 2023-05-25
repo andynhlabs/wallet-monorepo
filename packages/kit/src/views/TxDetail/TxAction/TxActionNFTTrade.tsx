@@ -2,7 +2,7 @@ import { useMemo } from 'react';
 
 import BigNumber from 'bignumber.js';
 
-import { shortenAddress } from '@onekeyhq/components/src/utils';
+import { shortenAddress } from '@mywallet/components/src/utils';
 
 import { FormatCurrencyNumber } from '../../../components/Format';
 import { useSimpleTokenPriceValue } from '../../../hooks/useManegeTokenPrice';

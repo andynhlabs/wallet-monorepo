@@ -13,13 +13,13 @@ import {
   Spinner,
   Typography,
   useIsVerticalLayout,
-} from '@onekeyhq/components';
-import type { OnCloseCallback } from '@onekeyhq/components/src/Dialog/components/FooterButton';
+} from '@mywallet/components';
+import type { OnCloseCallback } from '@mywallet/components/src/Dialog/components/FooterButton';
 import type {
   SelectGroupItem,
   SelectItem,
-} from '@onekeyhq/components/src/Select';
-import type { Wallet } from '@onekeyhq/engine/src/types/wallet';
+} from '@mywallet/components/src/Select';
+import type { Wallet } from '@mywallet/engine/src/types/wallet';
 import {
   BackupWalletModalRoutes,
   CreateAccountModalRoutes,
@@ -28,8 +28,8 @@ import {
   ModalRoutes,
   OnekeyHardwareModalRoutes,
   RootRoutes,
-} from '@onekeyhq/kit/src/routes/routesEnum';
-import { showDialog } from '@onekeyhq/kit/src/utils/overlayUtils';
+} from '@mywallet/kit/src/routes/routesEnum';
+import { showDialog } from '@mywallet/kit/src/utils/overlayUtils';
 
 import backgroundApiProxy from '../../../background/instance/backgroundApiProxy';
 import { useAppSelector } from '../../../hooks';

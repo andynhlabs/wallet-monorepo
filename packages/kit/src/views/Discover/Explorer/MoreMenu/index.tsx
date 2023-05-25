@@ -3,8 +3,8 @@ import type { FC } from 'react';
 import { useIntl } from 'react-intl';
 import { Platform, Share } from 'react-native';
 
-import { Select, ToastManager } from '@onekeyhq/components';
-import { copyToClipboard } from '@onekeyhq/components/src/utils/ClipboardUtils';
+import { Select, ToastManager } from '@mywallet/components';
+import { copyToClipboard } from '@mywallet/components/src/utils/ClipboardUtils';
 
 import backgroundApiProxy from '../../../../background/instance/backgroundApiProxy';
 import { homeTab, setWebTabData } from '../../../../store/reducers/webTabs';

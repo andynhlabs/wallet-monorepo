@@ -6,7 +6,7 @@ import { useMemo } from 'react';
 import { StyleSheet, View } from 'react-native';
 import { useSafeAreaInsets } from 'react-native-safe-area-context';
 
-import { useIsVerticalLayout, useThemeValue } from '@onekeyhq/components';
+import { useIsVerticalLayout, useThemeValue } from '@mywallet/components';
 
 import Box from '../Box';
 

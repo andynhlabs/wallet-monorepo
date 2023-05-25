@@ -1,6 +1,6 @@
-import type { MigrateData } from '@onekeyhq/engine/src/types/migrate';
-import type { SearchDevice } from '@onekeyhq/kit/src/utils/hardware';
-import type { IOneKeyDeviceFeatures } from '@onekeyhq/shared/types';
+import type { MigrateData } from '@mywallet/engine/src/types/migrate';
+import type { SearchDevice } from '@mywallet/kit/src/utils/hardware';
+import type { IOneKeyDeviceFeatures } from '@mywallet/shared/types';
 
 import type { IAddExistingWalletMode } from '../../../routes';
 import type { KeyTagRoutes } from '../../KeyTag/Routes/enums';

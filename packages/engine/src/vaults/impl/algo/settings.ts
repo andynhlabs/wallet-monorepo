@@ -1,8 +1,8 @@
-import type { LocaleIds } from '@onekeyhq/components/src/locale';
+import type { LocaleIds } from '@mywallet/components/src/locale';
 import {
   COINTYPE_ALGO,
   INDEX_PLACEHOLDER,
-} from '@onekeyhq/shared/src/engine/engineConsts';
+} from '@mywallet/shared/src/engine/engineConsts';
 
 import type { IVaultSettings } from '../../types';
 

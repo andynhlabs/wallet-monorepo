@@ -16,11 +16,11 @@ import {
   Pressable,
   Typography,
   useThemeValue,
-} from '@onekeyhq/components';
+} from '@mywallet/components';
 import {
   AppUIEventBusNames,
   appUIEventBus,
-} from '@onekeyhq/shared/src/eventBus/appUIEventBus';
+} from '@mywallet/shared/src/eventBus/appUIEventBus';
 
 import useBackHandler from '../../../../hooks/useBackHandler';
 import { useWebTabs } from '../Controller/useWebTabs';

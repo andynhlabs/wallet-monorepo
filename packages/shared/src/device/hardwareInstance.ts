@@ -1,8 +1,8 @@
 import memoizee from 'memoizee';
 
-import { HARDWARE_SDK_IFRAME_SRC } from '@onekeyhq/shared/src/config/appConfig';
-import debugLogger from '@onekeyhq/shared/src/logger/debugLogger';
-import platformEnv from '@onekeyhq/shared/src/platformEnv';
+import { HARDWARE_SDK_IFRAME_SRC } from '@mywallet/shared/src/config/appConfig';
+import debugLogger from '@mywallet/shared/src/logger/debugLogger';
+import platformEnv from '@mywallet/shared/src/platformEnv';
 
 import { importHardwareSDK, importHardwareSDKLowLevel } from './sdk-loader';
 

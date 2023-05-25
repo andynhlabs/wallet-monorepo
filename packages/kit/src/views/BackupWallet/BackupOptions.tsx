@@ -5,11 +5,11 @@ import { useNavigation, useRoute } from '@react-navigation/native';
 import { Column } from 'native-base';
 import { useIntl } from 'react-intl';
 
-import { Modal } from '@onekeyhq/components';
-import type { BackupWalletRoutesParams } from '@onekeyhq/kit/src/routes/Root/Modal/BackupWallet';
-import { BackupWalletModalRoutes } from '@onekeyhq/kit/src/routes/routesEnum';
-import type { ModalScreenProps } from '@onekeyhq/kit/src/routes/types';
-import supportedNFC from '@onekeyhq/shared/src/detector/nfc';
+import { Modal } from '@mywallet/components';
+import type { BackupWalletRoutesParams } from '@mywallet/kit/src/routes/Root/Modal/BackupWallet';
+import { BackupWalletModalRoutes } from '@mywallet/kit/src/routes/routesEnum';
+import type { ModalScreenProps } from '@mywallet/kit/src/routes/types';
+import supportedNFC from '@mywallet/shared/src/detector/nfc';
 
 import { useWallet } from '../../hooks/useWallet';
 import { KeyTagRoutes } from '../KeyTag/Routes/enums';

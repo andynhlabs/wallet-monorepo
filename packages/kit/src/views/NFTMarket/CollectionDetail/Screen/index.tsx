@@ -1,9 +1,9 @@
 import { useRoute } from '@react-navigation/core';
 import { useIntl } from 'react-intl';
 
-import { useIsVerticalLayout, useUserDevice } from '@onekeyhq/components';
-import { Tabs } from '@onekeyhq/components/src/CollapsibleTabView';
-import platformEnv from '@onekeyhq/shared/src/platformEnv';
+import { useIsVerticalLayout, useUserDevice } from '@mywallet/components';
+import { Tabs } from '@mywallet/components/src/CollapsibleTabView';
+import platformEnv from '@mywallet/shared/src/platformEnv';
 
 import AssetsList from '../AssetsList';
 import CollectionInfo from '../CollectionInfo';

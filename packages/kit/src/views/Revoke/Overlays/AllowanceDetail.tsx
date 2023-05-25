@@ -11,7 +11,7 @@ import {
   Typography,
   VStack,
   useSafeAreaInsets,
-} from '@onekeyhq/components';
+} from '@mywallet/components';
 
 import { showOverlay } from '../../../utils/overlayUtils';
 import { BottomSheetSettings } from '../../Overlay/BottomSheetSettings';

@@ -2,8 +2,8 @@ import { useEffect } from 'react';
 
 import { throttle } from 'lodash';
 
-import debugLogger from '@onekeyhq/shared/src/logger/debugLogger';
-import platformEnv from '@onekeyhq/shared/src/platformEnv';
+import debugLogger from '@mywallet/shared/src/logger/debugLogger';
+import platformEnv from '@mywallet/shared/src/platformEnv';
 
 import backgroundApiProxy from '../../../../background/instance/backgroundApiProxy';
 import { useIsFocusedInTab } from '../../../../hooks/useIsFocusedInTab';

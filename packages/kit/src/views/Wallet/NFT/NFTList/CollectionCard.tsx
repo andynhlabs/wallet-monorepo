@@ -10,10 +10,10 @@ import {
   useIsVerticalLayout,
   useTheme,
   useUserDevice,
-} from '@onekeyhq/components';
-import Pressable from '@onekeyhq/components/src/Pressable/Pressable';
-import type { Collection } from '@onekeyhq/engine/src/types/nft';
-import { useActiveWalletAccount } from '@onekeyhq/kit/src/hooks/redux';
+} from '@mywallet/components';
+import Pressable from '@mywallet/components/src/Pressable/Pressable';
+import type { Collection } from '@mywallet/engine/src/types/nft';
+import { useActiveWalletAccount } from '@mywallet/kit/src/hooks/redux';
 
 import { FormatCurrencyNumber } from '../../../../components/Format';
 import { useTokenPrice } from '../../../../hooks/useTokens';

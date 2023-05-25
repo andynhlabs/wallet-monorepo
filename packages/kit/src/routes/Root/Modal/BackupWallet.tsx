@@ -1,5 +1,5 @@
-import { useIsVerticalLayout } from '@onekeyhq/components';
-import type { IWallet } from '@onekeyhq/engine/src/types';
+import { useIsVerticalLayout } from '@mywallet/components';
+import type { IWallet } from '@mywallet/engine/src/types';
 
 import BackupAttentions from '../../../views/BackupWallet/BackupAttentions';
 import BackupLite from '../../../views/BackupWallet/BackupLite';

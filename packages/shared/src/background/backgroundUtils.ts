@@ -16,7 +16,7 @@ import {
 import qs from 'qs';
 import { batch } from 'react-redux';
 
-import { getFiatEndpoint } from '@onekeyhq/engine/src/endpoint';
+import { getFiatEndpoint } from '@mywallet/engine/src/endpoint';
 
 import {
   IMPL_ADA,

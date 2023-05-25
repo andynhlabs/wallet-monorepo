@@ -1,4 +1,4 @@
-import type { LocaleIds } from '@onekeyhq/components/src/locale';
+import type { LocaleIds } from '@mywallet/components/src/locale';
 
 import type { HasName } from './base';
 import type { Token } from './token';

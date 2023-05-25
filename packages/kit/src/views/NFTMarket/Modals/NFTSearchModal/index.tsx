@@ -20,15 +20,15 @@ import {
   Spinner,
   Text,
   useSafeAreaInsets,
-} from '@onekeyhq/components';
-import NavigationButton from '@onekeyhq/components/src/Modal/Container/Header/NavigationButton';
-import useModalClose from '@onekeyhq/components/src/Modal/Container/useModalClose';
-import type { Network } from '@onekeyhq/engine/src/types/network';
+} from '@mywallet/components';
+import NavigationButton from '@mywallet/components/src/Modal/Container/Header/NavigationButton';
+import useModalClose from '@mywallet/components/src/Modal/Container/useModalClose';
+import type { Network } from '@mywallet/engine/src/types/network';
 import type {
   Collection,
   NFTMarketRanking,
-} from '@onekeyhq/engine/src/types/nft';
-import platformEnv from '@onekeyhq/shared/src/platformEnv';
+} from '@mywallet/engine/src/types/nft';
+import platformEnv from '@mywallet/shared/src/platformEnv';
 
 import backgroundApiProxy from '../../../../background/instance/backgroundApiProxy';
 import { useDebounce } from '../../../../hooks';

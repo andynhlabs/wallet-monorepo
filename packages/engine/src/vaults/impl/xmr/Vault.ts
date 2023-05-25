@@ -2,9 +2,9 @@
 import BigNumber from 'bignumber.js';
 import memoizee from 'memoizee';
 
-import { decrypt } from '@onekeyhq/engine/src/secret/encryptors/aes256';
-import { getTimeDurationMs } from '@onekeyhq/kit/src/utils/helper';
-import { JsonRPCRequest } from '@onekeyhq/shared/src/request/JsonRPCRequest';
+import { decrypt } from '@mywallet/engine/src/secret/encryptors/aes256';
+import { getTimeDurationMs } from '@mywallet/kit/src/utils/helper';
+import { JsonRPCRequest } from '@mywallet/shared/src/request/JsonRPCRequest';
 
 import simpleDb from '../../../dbs/simple/simpleDb';
 import {

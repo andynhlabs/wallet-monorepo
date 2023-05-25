@@ -4,16 +4,16 @@ import { useNavigation, useRoute } from '@react-navigation/core';
 import BigNumber from 'bignumber.js';
 import { useIntl } from 'react-intl';
 
-import { Box, Form, Token, Typography, useForm } from '@onekeyhq/components';
-import type { GoPlusAddressSecurity } from '@onekeyhq/engine/src/types/goplus';
-import { GoPlusSupportApis } from '@onekeyhq/engine/src/types/goplus';
-import type { NFTAsset } from '@onekeyhq/engine/src/types/nft';
-import type { IEncodedTxEvm } from '@onekeyhq/engine/src/vaults/impl/evm/Vault';
+import { Box, Form, Token, Typography, useForm } from '@mywallet/components';
+import type { GoPlusAddressSecurity } from '@mywallet/engine/src/types/goplus';
+import { GoPlusSupportApis } from '@mywallet/engine/src/types/goplus';
+import type { NFTAsset } from '@mywallet/engine/src/types/nft';
+import type { IEncodedTxEvm } from '@mywallet/engine/src/vaults/impl/evm/Vault';
 import type {
   INFTInfo,
   ITransferInfo,
-} from '@onekeyhq/engine/src/vaults/types';
-import { makeTimeoutPromise } from '@onekeyhq/shared/src/background/backgroundUtils';
+} from '@mywallet/engine/src/vaults/types';
+import { makeTimeoutPromise } from '@mywallet/shared/src/background/backgroundUtils';
 
 import backgroundApiProxy from '../../../background/instance/backgroundApiProxy';
 import AddressInput from '../../../components/AddressInput';

@@ -20,7 +20,7 @@ import {
   Pressable,
   Token,
   Typography,
-} from '@onekeyhq/components';
+} from '@mywallet/components';
 
 import dappColourPNG from '../../../../../assets/dapp_colour.png';
 import { useAppSelector, useTranslation } from '../../../../hooks';

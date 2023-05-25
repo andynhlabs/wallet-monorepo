@@ -4,19 +4,19 @@ import { IInjectedProviderNames } from '@onekeyfe/cross-inpage-provider-types';
 import BigNumber from 'bignumber.js';
 import memoizee from 'memoizee';
 
-import { ETHMessageTypes } from '@onekeyhq/engine/src/types/message';
-import type { EvmExtraInfo } from '@onekeyhq/engine/src/types/network';
-import type { IEncodedTxCfx } from '@onekeyhq/engine/src/vaults/impl/cfx/Vault';
-import type VaultConflux from '@onekeyhq/engine/src/vaults/impl/cfx/Vault';
-import { getActiveWalletAccount } from '@onekeyhq/kit/src/hooks/redux';
+import { ETHMessageTypes } from '@mywallet/engine/src/types/message';
+import type { EvmExtraInfo } from '@mywallet/engine/src/types/network';
+import type { IEncodedTxCfx } from '@mywallet/engine/src/vaults/impl/cfx/Vault';
+import type VaultConflux from '@mywallet/engine/src/vaults/impl/cfx/Vault';
+import { getActiveWalletAccount } from '@mywallet/kit/src/hooks/redux';
 import {
   backgroundClass,
   permissionRequired,
   providerApiMethod,
-} from '@onekeyhq/shared/src/background/backgroundDecorators';
-import { IMPL_CFX } from '@onekeyhq/shared/src/engine/engineConsts';
-import debugLogger from '@onekeyhq/shared/src/logger/debugLogger';
-import { toBigIntHex } from '@onekeyhq/shared/src/utils/numberUtils';
+} from '@mywallet/shared/src/background/backgroundDecorators';
+import { IMPL_CFX } from '@mywallet/shared/src/engine/engineConsts';
+import debugLogger from '@mywallet/shared/src/logger/debugLogger';
+import { toBigIntHex } from '@mywallet/shared/src/utils/numberUtils';
 
 import ProviderApiBase from './ProviderApiBase';
 

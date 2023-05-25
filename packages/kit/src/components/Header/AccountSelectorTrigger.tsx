@@ -12,15 +12,15 @@ import {
   Typography,
   useIsVerticalLayout,
   useUserDevice,
-} from '@onekeyhq/components';
-import { useActiveWalletAccount } from '@onekeyhq/kit/src/hooks/redux';
-import type { CreateWalletRoutesParams } from '@onekeyhq/kit/src/routes';
-import { RootRoutes } from '@onekeyhq/kit/src/routes/routesEnum';
-import type { ModalScreenProps } from '@onekeyhq/kit/src/routes/types';
-import { getDeviceTypeByDeviceId } from '@onekeyhq/kit/src/utils/hardware';
-import { isPassphraseWallet } from '@onekeyhq/shared/src/engine/engineUtils';
-import platformEnv from '@onekeyhq/shared/src/platformEnv';
-import type { IOneKeyDeviceType } from '@onekeyhq/shared/types';
+} from '@mywallet/components';
+import { useActiveWalletAccount } from '@mywallet/kit/src/hooks/redux';
+import type { CreateWalletRoutesParams } from '@mywallet/kit/src/routes';
+import { RootRoutes } from '@mywallet/kit/src/routes/routesEnum';
+import type { ModalScreenProps } from '@mywallet/kit/src/routes/types';
+import { getDeviceTypeByDeviceId } from '@mywallet/kit/src/utils/hardware';
+import { isPassphraseWallet } from '@mywallet/shared/src/engine/engineUtils';
+import platformEnv from '@mywallet/shared/src/platformEnv';
+import type { IOneKeyDeviceType } from '@mywallet/shared/types';
 
 import ExternalAccountImg from '../../views/ExternalAccount/components/ExternalAccountImg';
 import { useDeviceStatusOfHardwareWallet } from '../NetworkAccountSelector/hooks/useDeviceStatusOfHardwareWallet';

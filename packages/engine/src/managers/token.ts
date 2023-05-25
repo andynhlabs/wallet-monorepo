@@ -1,15 +1,15 @@
 import axios from 'axios';
 import qs from 'qs';
 
-import type { ServerToken, Token } from '@onekeyhq/kit/src/store/typings';
+import type { ServerToken, Token } from '@mywallet/kit/src/store/typings';
 import {
   IMPL_APTOS,
   IMPL_SOL,
   IMPL_STC,
   IMPL_TRON,
   SEPERATOR,
-} from '@onekeyhq/shared/src/engine/engineConsts';
-import debugLogger from '@onekeyhq/shared/src/logger/debugLogger';
+} from '@mywallet/shared/src/engine/engineConsts';
+import debugLogger from '@mywallet/shared/src/logger/debugLogger';
 
 import { getFiatEndpoint } from '../endpoint';
 import { OneKeyInternalError } from '../errors';

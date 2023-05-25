@@ -21,22 +21,22 @@ import {
   Typography,
   useIsVerticalLayout,
   useLocale,
-} from '@onekeyhq/components';
-import type { Device } from '@onekeyhq/engine/src/types/device';
-import TouchConnectDesktop from '@onekeyhq/kit/assets/illus_touch_connect_desktop.png';
-import backgroundApiProxy from '@onekeyhq/kit/src/background/instance/backgroundApiProxy';
-import { useSettings } from '@onekeyhq/kit/src/hooks/redux';
-import type { HardwareUpdateRoutesParams } from '@onekeyhq/kit/src/routes/Root/Modal/HardwareUpdate';
-import { HardwareUpdateModalRoutes } from '@onekeyhq/kit/src/routes/routesEnum';
-import type { ModalScreenProps } from '@onekeyhq/kit/src/routes/types';
-import { showOverlay } from '@onekeyhq/kit/src/utils/overlayUtils';
+} from '@mywallet/components';
+import type { Device } from '@mywallet/engine/src/types/device';
+import TouchConnectDesktop from '@mywallet/kit/assets/illus_touch_connect_desktop.png';
+import backgroundApiProxy from '@mywallet/kit/src/background/instance/backgroundApiProxy';
+import { useSettings } from '@mywallet/kit/src/hooks/redux';
+import type { HardwareUpdateRoutesParams } from '@mywallet/kit/src/routes/Root/Modal/HardwareUpdate';
+import { HardwareUpdateModalRoutes } from '@mywallet/kit/src/routes/routesEnum';
+import type { ModalScreenProps } from '@mywallet/kit/src/routes/types';
+import { showOverlay } from '@mywallet/kit/src/utils/overlayUtils';
 import type {
   BLEFirmwareInfo,
   IResourceUpdateInfo,
   SYSFirmwareInfo,
-} from '@onekeyhq/kit/src/utils/updates/type';
-import platformEnv from '@onekeyhq/shared/src/platformEnv';
-import type { IOneKeyDeviceFeatures } from '@onekeyhq/shared/types';
+} from '@mywallet/kit/src/utils/updates/type';
+import platformEnv from '@mywallet/shared/src/platformEnv';
+import type { IOneKeyDeviceFeatures } from '@mywallet/shared/types';
 
 import { deviceUtils } from '../../../../utils/hardware';
 import { openUrlExternal } from '../../../../utils/openUrl';

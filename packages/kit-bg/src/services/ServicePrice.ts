@@ -1,20 +1,20 @@
 import { debounce, uniq, xor } from 'lodash';
 
-import { updateFiatMoneyMap } from '@onekeyhq/kit/src/store/reducers/fiatMoney';
-import { setSelectedFiatMoneySymbol } from '@onekeyhq/kit/src/store/reducers/settings';
-import type { SimpleTokenPrices } from '@onekeyhq/kit/src/store/reducers/tokens';
-import { setTokenPriceMap } from '@onekeyhq/kit/src/store/reducers/tokens';
+import { updateFiatMoneyMap } from '@mywallet/kit/src/store/reducers/fiatMoney';
+import { setSelectedFiatMoneySymbol } from '@mywallet/kit/src/store/reducers/settings';
+import type { SimpleTokenPrices } from '@mywallet/kit/src/store/reducers/tokens';
+import { setTokenPriceMap } from '@mywallet/kit/src/store/reducers/tokens';
 import {
   backgroundClass,
   backgroundMethod,
   bindThis,
-} from '@onekeyhq/shared/src/background/backgroundDecorators';
-import { fetchData } from '@onekeyhq/shared/src/background/backgroundUtils';
-import { PRICE_EXPIRED_TIME } from '@onekeyhq/shared/src/engine/engineConsts';
+} from '@mywallet/shared/src/background/backgroundDecorators';
+import { fetchData } from '@mywallet/shared/src/background/backgroundUtils';
+import { PRICE_EXPIRED_TIME } from '@mywallet/shared/src/engine/engineConsts';
 import {
   AppEventBusNames,
   appEventBus,
-} from '@onekeyhq/shared/src/eventBus/appEventBus';
+} from '@mywallet/shared/src/eventBus/appEventBus';
 
 import ServiceBase from './ServiceBase';
 

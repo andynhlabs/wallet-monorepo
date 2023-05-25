@@ -5,17 +5,17 @@ import { memo, useCallback, useEffect, useState } from 'react';
 import { useNavigation } from '@react-navigation/core';
 import { useIntl } from 'react-intl';
 
-import { Box, Spinner, ToastManager, Typography } from '@onekeyhq/components';
-import { WALLET_TYPE_EXTERNAL } from '@onekeyhq/engine/src/types/wallet';
-import backgroundApiProxy from '@onekeyhq/kit/src/background/instance/backgroundApiProxy';
+import { Box, Spinner, ToastManager, Typography } from '@mywallet/components';
+import { WALLET_TYPE_EXTERNAL } from '@mywallet/engine/src/types/wallet';
+import backgroundApiProxy from '@mywallet/kit/src/background/instance/backgroundApiProxy';
 import {
   useAppSelector,
   useData,
   useGetWalletDetail,
-} from '@onekeyhq/kit/src/hooks/redux';
-import { deviceUtils } from '@onekeyhq/kit/src/utils/hardware';
-import debugLogger from '@onekeyhq/shared/src/logger/debugLogger';
-import type { IOneKeyDeviceFeatures } from '@onekeyhq/shared/types';
+} from '@mywallet/kit/src/hooks/redux';
+import { deviceUtils } from '@mywallet/kit/src/utils/hardware';
+import debugLogger from '@mywallet/shared/src/logger/debugLogger';
+import type { IOneKeyDeviceFeatures } from '@mywallet/shared/types';
 
 import { useNetwork } from '../../hooks';
 

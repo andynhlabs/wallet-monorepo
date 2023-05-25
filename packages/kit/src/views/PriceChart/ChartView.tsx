@@ -1,7 +1,7 @@
 import type { FC } from 'react';
 import { memo } from 'react';
 
-import { useThemeValue } from '@onekeyhq/components';
+import { useThemeValue } from '@mywallet/components';
 
 import ChartViewAdapter from './ChartViewAdapter';
 

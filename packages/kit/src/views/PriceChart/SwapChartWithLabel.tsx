@@ -1,7 +1,7 @@
 import type { FC, ReactNode } from 'react';
 import { useCallback, useState } from 'react';
 
-import { Box, Spinner, Typography } from '@onekeyhq/components';
+import { Box, Spinner, Typography } from '@mywallet/components';
 
 import useFormatDate from '../../hooks/useFormatDate';
 import { formatDecimalZero } from '../Market/utils';

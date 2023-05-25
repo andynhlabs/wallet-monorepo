@@ -2,7 +2,7 @@ import {
   COINTYPE_ETH,
   IMPL_EVM,
   INDEX_PLACEHOLDER,
-} from '@onekeyhq/shared/src/engine/engineConsts';
+} from '@mywallet/shared/src/engine/engineConsts';
 
 import { getAccountNameInfoByImpl } from '../../../src/managers/impl';
 

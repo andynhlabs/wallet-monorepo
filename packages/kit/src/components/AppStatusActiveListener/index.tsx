@@ -1,7 +1,7 @@
 import type { FC } from 'react';
 import { useCallback, useEffect, useRef } from 'react';
 
-import platformEnv from '@onekeyhq/shared/src/platformEnv';
+import platformEnv from '@mywallet/shared/src/platformEnv';
 
 type Status = 'active' | 'background';
 

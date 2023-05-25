@@ -1,7 +1,7 @@
 import { useIntl } from 'react-intl';
 
-import { Dialog, ToastManager } from '@onekeyhq/components';
-import appUpdates from '@onekeyhq/kit/src/utils/updates/AppUpdates';
+import { Dialog, ToastManager } from '@mywallet/components';
+import appUpdates from '@mywallet/kit/src/utils/updates/AppUpdates';
 
 import { showDialog } from '../../../../utils/overlayUtils';
 

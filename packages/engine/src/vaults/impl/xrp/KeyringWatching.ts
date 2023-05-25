@@ -1,4 +1,4 @@
-import { COINTYPE_XRP as COIN_TYPE } from '@onekeyhq/shared/src/engine/engineConsts';
+import { COINTYPE_XRP as COIN_TYPE } from '@mywallet/shared/src/engine/engineConsts';
 
 import { InvalidAddress } from '../../../errors';
 import { AccountType } from '../../../types/account';

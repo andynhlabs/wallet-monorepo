@@ -1,7 +1,7 @@
 import type { Dispatch, SetStateAction } from 'react';
 import { createContext, useContext, useMemo, useState } from 'react';
 
-import { httpServerEnable } from '@onekeyhq/kit-bg/src/services/ServiceHTTP';
+import { httpServerEnable } from '@mywallet/kit-bg/src/services/ServiceHTTP';
 
 export enum ServerStatus {
   Connecting = 0,

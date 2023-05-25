@@ -9,12 +9,12 @@ import {
   Pressable,
   SectionList,
   Typography,
-} from '@onekeyhq/components';
-import { shortenAddress } from '@onekeyhq/components/src/utils';
-import type { Account } from '@onekeyhq/engine/src/types/account';
-import type { Wallet } from '@onekeyhq/engine/src/types/wallet';
-import { getDeviceTypeByDeviceId } from '@onekeyhq/kit/src/utils/hardware';
-import type { IOneKeyDeviceType } from '@onekeyhq/shared/types';
+} from '@mywallet/components';
+import { shortenAddress } from '@mywallet/components/src/utils';
+import type { Account } from '@mywallet/engine/src/types/account';
+import type { Wallet } from '@mywallet/engine/src/types/wallet';
+import { getDeviceTypeByDeviceId } from '@mywallet/kit/src/utils/hardware';
+import type { IOneKeyDeviceType } from '@mywallet/shared/types';
 
 import backgroundApiProxy from '../../../background/instance/backgroundApiProxy';
 import WalletAvatar from '../../../components/WalletSelector/WalletAvatar';

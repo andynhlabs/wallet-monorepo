@@ -7,7 +7,7 @@ import {
   Skeleton,
   Token,
   Typography,
-} from '@onekeyhq/components';
+} from '@mywallet/components';
 
 import { useSettings } from '../../../../hooks';
 import { useCurrencyUnit } from '../../../Me/GenaralSection/CurrencySelect/hooks';

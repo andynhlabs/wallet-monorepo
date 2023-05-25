@@ -15,10 +15,10 @@ import {
   Text,
   Token,
   VStack,
-} from '@onekeyhq/components';
-import Pressable from '@onekeyhq/components/src/Pressable/Pressable';
-import { formatMessage } from '@onekeyhq/components/src/Provider';
-import { INDEX_PLACEHOLDER } from '@onekeyhq/shared/src/engine/engineConsts';
+} from '@mywallet/components';
+import Pressable from '@mywallet/components/src/Pressable/Pressable';
+import { formatMessage } from '@mywallet/components/src/Provider';
+import { INDEX_PLACEHOLDER } from '@mywallet/shared/src/engine/engineConsts';
 
 import backgroundApiProxy from '../../../../background/instance/backgroundApiProxy';
 import { useNetwork } from '../../../../hooks';

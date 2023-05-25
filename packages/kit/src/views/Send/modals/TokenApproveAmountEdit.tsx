@@ -3,8 +3,8 @@ import { useState } from 'react';
 import { useNavigation, useRoute } from '@react-navigation/native';
 import { useIntl } from 'react-intl';
 
-import { Form, useForm } from '@onekeyhq/components';
-import { InfiniteAmountText } from '@onekeyhq/engine/src/vaults/impl/evm/decoder/decoder';
+import { Form, useForm } from '@mywallet/components';
+import { InfiniteAmountText } from '@mywallet/engine/src/vaults/impl/evm/decoder/decoder';
 
 import backgroundApiProxy from '../../../background/instance/backgroundApiProxy';
 import { useActiveSideAccount } from '../../../hooks';

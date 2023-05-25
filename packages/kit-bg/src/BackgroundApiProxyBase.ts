@@ -1,13 +1,13 @@
 /* eslint-disable @typescript-eslint/no-unsafe-call,@typescript-eslint/no-unsafe-member-access,@typescript-eslint/no-unsafe-return */
 
-import type { IAppSelector, IPersistor, IStore } from '@onekeyhq/kit/src/store';
-import { INTERNAL_METHOD_PREFIX } from '@onekeyhq/shared/src/background/backgroundDecorators';
+import type { IAppSelector, IPersistor, IStore } from '@mywallet/kit/src/store';
+import { INTERNAL_METHOD_PREFIX } from '@mywallet/shared/src/background/backgroundDecorators';
 import {
   ensurePromiseObject,
   ensureSerializable,
   throwMethodNotFound,
-} from '@onekeyhq/shared/src/background/backgroundUtils';
-import platformEnv from '@onekeyhq/shared/src/platformEnv';
+} from '@mywallet/shared/src/background/backgroundUtils';
+import platformEnv from '@mywallet/shared/src/platformEnv';
 
 import type {
   IBackgroundApi,

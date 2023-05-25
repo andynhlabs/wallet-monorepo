@@ -4,9 +4,9 @@ import { useCallback, useEffect, useState } from 'react';
 import { useNavigation, useRoute } from '@react-navigation/core';
 import { useIntl } from 'react-intl';
 
-import { ListItem, Modal, NetImage } from '@onekeyhq/components';
-import type { MarketPlace } from '@onekeyhq/engine/src/types/nft';
-import { OnekeyNetwork } from '@onekeyhq/shared/src/config/networkIds';
+import { ListItem, Modal, NetImage } from '@mywallet/components';
+import type { MarketPlace } from '@mywallet/engine/src/types/nft';
+import { OnekeyNetwork } from '@mywallet/shared/src/config/networkIds';
 
 import backgroundApiProxy from '../../../../background/instance/backgroundApiProxy';
 

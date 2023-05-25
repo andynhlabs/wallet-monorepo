@@ -13,10 +13,10 @@ import {
   QRCode,
   ToastManager,
   Typography,
-} from '@onekeyhq/components';
-import LogoPrimary from '@onekeyhq/components/src/Icon/react/illus/LogoPrimary';
-import { copyToClipboard } from '@onekeyhq/components/src/utils/ClipboardUtils';
-import platformEnv from '@onekeyhq/shared/src/platformEnv';
+} from '@mywallet/components';
+import LogoPrimary from '@mywallet/components/src/Icon/react/illus/LogoPrimary';
+import { copyToClipboard } from '@mywallet/components/src/utils/ClipboardUtils';
+import platformEnv from '@mywallet/shared/src/platformEnv';
 
 import type { DiscoverModalRoutes, DiscoverRoutesParams } from '../type';
 import type { RouteProp } from '@react-navigation/native';
@@ -41,7 +41,7 @@ export const ShareView = () => {
   const onCapture = useCallback(async () => {
     if (!platformEnv.isNative) return null;
     const share = (
-      await import('@onekeyhq/shared/src/modules3rdParty/react-native-share')
+      await import('@mywallet/shared/src/modules3rdParty/react-native-share')
     ).default;
     const uri = await ref.current?.capture?.();
     if (!share || !uri) {

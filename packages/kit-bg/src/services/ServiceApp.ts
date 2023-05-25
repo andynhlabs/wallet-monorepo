@@ -1,56 +1,56 @@
 import { NativeModules } from 'react-native';
 import RNRestart from 'react-native-restart';
 
-import simpleDb from '@onekeyhq/engine/src/dbs/simple/simpleDb';
-import { switchTestEndpoint } from '@onekeyhq/engine/src/endpoint';
-import { RootRoutes } from '@onekeyhq/kit/src/routes/routesEnum';
+import simpleDb from '@mywallet/engine/src/dbs/simple/simpleDb';
+import { switchTestEndpoint } from '@mywallet/engine/src/endpoint';
+import { RootRoutes } from '@mywallet/kit/src/routes/routesEnum';
 import {
   passwordSet,
   release,
   setHandOperatedLock,
-} from '@onekeyhq/kit/src/store/reducers/data';
-import { setActiveIds } from '@onekeyhq/kit/src/store/reducers/general';
+} from '@mywallet/kit/src/store/reducers/data';
+import { setActiveIds } from '@mywallet/kit/src/store/reducers/general';
 import {
   setEnableAppLock,
   setEnableLocalAuthentication,
-} from '@onekeyhq/kit/src/store/reducers/settings';
+} from '@mywallet/kit/src/store/reducers/settings';
 import {
   lock,
   setBoardingCompleted,
   unlock,
-} from '@onekeyhq/kit/src/store/reducers/status';
-import type { OpenUrlRouteInfo } from '@onekeyhq/kit/src/utils/extUtils';
-import extUtils from '@onekeyhq/kit/src/utils/extUtils';
+} from '@mywallet/kit/src/store/reducers/status';
+import type { OpenUrlRouteInfo } from '@mywallet/kit/src/utils/extUtils';
+import extUtils from '@mywallet/kit/src/utils/extUtils';
 import {
   getTimeDurationMs,
   getTimeStamp,
   wait,
-} from '@onekeyhq/kit/src/utils/helper';
+} from '@mywallet/kit/src/utils/helper';
 import {
   getPassword,
   hasHardwareSupported,
-} from '@onekeyhq/kit/src/utils/localAuthentication';
-import appUpdates from '@onekeyhq/kit/src/utils/updates/AppUpdates';
+} from '@mywallet/kit/src/utils/localAuthentication';
+import appUpdates from '@mywallet/kit/src/utils/updates/AppUpdates';
 import {
   backgroundClass,
   backgroundMethod,
-} from '@onekeyhq/shared/src/background/backgroundDecorators';
+} from '@mywallet/shared/src/background/backgroundDecorators';
 import {
   MAX_LOG_LENGTH,
   waitForDataLoaded,
-} from '@onekeyhq/shared/src/background/backgroundUtils';
+} from '@mywallet/shared/src/background/backgroundUtils';
 import {
   isAvailable,
   logoutFromGoogleDrive,
-} from '@onekeyhq/shared/src/cloudfs';
+} from '@mywallet/shared/src/cloudfs';
 import {
   AppEventBusNames,
   appEventBus,
-} from '@onekeyhq/shared/src/eventBus/appEventBus';
-import debugLogger from '@onekeyhq/shared/src/logger/debugLogger';
-import platformEnv from '@onekeyhq/shared/src/platformEnv';
-import appStorage from '@onekeyhq/shared/src/storage/appStorage';
-import timerUtils from '@onekeyhq/shared/src/utils/timerUtils';
+} from '@mywallet/shared/src/eventBus/appEventBus';
+import debugLogger from '@mywallet/shared/src/logger/debugLogger';
+import platformEnv from '@mywallet/shared/src/platformEnv';
+import appStorage from '@mywallet/shared/src/storage/appStorage';
+import timerUtils from '@mywallet/shared/src/utils/timerUtils';
 
 import ServiceBase from './ServiceBase';
 

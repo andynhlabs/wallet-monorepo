@@ -1,7 +1,7 @@
 import { useMemo } from 'react';
 
-import { useIsVerticalLayout, useUserDevice } from '@onekeyhq/components';
-import platformEnv from '@onekeyhq/shared/src/platformEnv';
+import { useIsVerticalLayout, useUserDevice } from '@mywallet/components';
+import platformEnv from '@mywallet/shared/src/platformEnv';
 
 export const useIntroductionBigImage = () => {
   const { screenHeight, screenWidth } = useUserDevice();

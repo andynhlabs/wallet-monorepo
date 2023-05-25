@@ -17,19 +17,19 @@ import {
   Typography,
   useTheme,
   useUserDevice,
-} from '@onekeyhq/components';
-import { Tabs } from '@onekeyhq/components/src/CollapsibleTabView';
-import type { Account } from '@onekeyhq/engine/src/types/account';
-import type { Transaction } from '@onekeyhq/engine/src/types/covalent';
-import { TxStatus } from '@onekeyhq/engine/src/types/covalent';
-import type { Network } from '@onekeyhq/engine/src/types/network';
-import type { EVMDecodedItem } from '@onekeyhq/engine/src/vaults/impl/evm/decoder/decoder';
-import backgroundApiProxy from '@onekeyhq/kit/src/background/instance/backgroundApiProxy';
-import useOpenBlockBrowser from '@onekeyhq/kit/src/hooks/useOpenBlockBrowser';
-import type { TransactionDetailRoutesParams } from '@onekeyhq/kit/src/routes';
-import { ModalRoutes, RootRoutes } from '@onekeyhq/kit/src/routes/routesEnum';
-import type { ModalScreenProps } from '@onekeyhq/kit/src/routes/types';
-import platformEnv from '@onekeyhq/shared/src/platformEnv';
+} from '@mywallet/components';
+import { Tabs } from '@mywallet/components/src/CollapsibleTabView';
+import type { Account } from '@mywallet/engine/src/types/account';
+import type { Transaction } from '@mywallet/engine/src/types/covalent';
+import { TxStatus } from '@mywallet/engine/src/types/covalent';
+import type { Network } from '@mywallet/engine/src/types/network';
+import type { EVMDecodedItem } from '@mywallet/engine/src/vaults/impl/evm/decoder/decoder';
+import backgroundApiProxy from '@mywallet/kit/src/background/instance/backgroundApiProxy';
+import useOpenBlockBrowser from '@mywallet/kit/src/hooks/useOpenBlockBrowser';
+import type { TransactionDetailRoutesParams } from '@mywallet/kit/src/routes';
+import { ModalRoutes, RootRoutes } from '@mywallet/kit/src/routes/routesEnum';
+import type { ModalScreenProps } from '@mywallet/kit/src/routes/types';
+import platformEnv from '@mywallet/shared/src/platformEnv';
 
 import { TransactionDetailModalRoutes } from '../../../routes/routesEnum';
 

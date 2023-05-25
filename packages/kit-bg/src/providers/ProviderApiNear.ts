@@ -2,15 +2,15 @@
 import { web3Errors } from '@onekeyfe/cross-inpage-provider-errors';
 import { IInjectedProviderNames } from '@onekeyfe/cross-inpage-provider-types';
 
-import type VaultNear from '@onekeyhq/engine/src/vaults/impl/near/Vault';
-import { getActiveWalletAccount } from '@onekeyhq/kit/src/hooks/redux';
+import type VaultNear from '@mywallet/engine/src/vaults/impl/near/Vault';
+import { getActiveWalletAccount } from '@mywallet/kit/src/hooks/redux';
 import {
   backgroundClass,
   permissionRequired,
   providerApiMethod,
-} from '@onekeyhq/shared/src/background/backgroundDecorators';
-import { IMPL_NEAR } from '@onekeyhq/shared/src/engine/engineConsts';
-import debugLogger from '@onekeyhq/shared/src/logger/debugLogger';
+} from '@mywallet/shared/src/background/backgroundDecorators';
+import { IMPL_NEAR } from '@mywallet/shared/src/engine/engineConsts';
+import debugLogger from '@mywallet/shared/src/logger/debugLogger';
 
 import ProviderApiBase from './ProviderApiBase';
 

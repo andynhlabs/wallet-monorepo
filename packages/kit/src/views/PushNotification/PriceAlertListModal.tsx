@@ -5,10 +5,10 @@ import { useFocusEffect, useNavigation } from '@react-navigation/core';
 import { useRoute } from '@react-navigation/native';
 import { useIntl } from 'react-intl';
 
-import { Box, Modal, useTheme } from '@onekeyhq/components';
-import type { ModalProps } from '@onekeyhq/components/src/Modal';
-import type { PriceAlertItem } from '@onekeyhq/engine/src/managers/notification';
-import debugLogger from '@onekeyhq/shared/src/logger/debugLogger';
+import { Box, Modal, useTheme } from '@mywallet/components';
+import type { ModalProps } from '@mywallet/components/src/Modal';
+import type { PriceAlertItem } from '@mywallet/engine/src/managers/notification';
+import debugLogger from '@mywallet/shared/src/logger/debugLogger';
 
 import backgroundApiProxy from '../../background/instance/backgroundApiProxy';
 import { useSettings } from '../../hooks/redux';

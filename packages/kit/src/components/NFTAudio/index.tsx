@@ -10,7 +10,7 @@ import {
   NetImage,
   Pressable,
   Spinner,
-} from '@onekeyhq/components';
+} from '@mywallet/components';
 
 import type { AVPlaybackStatus } from 'expo-av';
 

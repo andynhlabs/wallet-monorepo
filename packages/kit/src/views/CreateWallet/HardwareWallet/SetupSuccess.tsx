@@ -4,9 +4,9 @@ import { useCallback } from 'react';
 import { useRoute } from '@react-navigation/core';
 import { useIntl } from 'react-intl';
 
-import { Center, Icon, Modal, Typography } from '@onekeyhq/components';
-import useModalClose from '@onekeyhq/components/src/Modal/Container/useModalClose';
-import type { CreateWalletRoutesParams } from '@onekeyhq/kit/src/routes/Root/Modal/CreateWallet';
+import { Center, Icon, Modal, Typography } from '@mywallet/components';
+import useModalClose from '@mywallet/components/src/Modal/Container/useModalClose';
+import type { CreateWalletRoutesParams } from '@mywallet/kit/src/routes/Root/Modal/CreateWallet';
 
 import { useNavigationActions } from '../../../hooks';
 import {

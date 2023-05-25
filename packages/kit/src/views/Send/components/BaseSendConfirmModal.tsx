@@ -4,14 +4,14 @@ import BigNumber from 'bignumber.js';
 import { find, toLower } from 'lodash';
 import { useIntl } from 'react-intl';
 
-import { Text } from '@onekeyhq/components';
-import useModalClose from '@onekeyhq/components/src/Modal/Container/useModalClose';
-import { NetworkCongestionThresholds } from '@onekeyhq/engine/src/types/network';
-import type { IEncodedTxEvm } from '@onekeyhq/engine/src/vaults/impl/evm/Vault';
-import { IDecodedTxDirection } from '@onekeyhq/engine/src/vaults/types';
-import { IMPL_EVM } from '@onekeyhq/shared/src/engine/engineConsts';
-import { isWatchingAccount } from '@onekeyhq/shared/src/engine/engineUtils';
-import platformEnv from '@onekeyhq/shared/src/platformEnv';
+import { Text } from '@mywallet/components';
+import useModalClose from '@mywallet/components/src/Modal/Container/useModalClose';
+import { NetworkCongestionThresholds } from '@mywallet/engine/src/types/network';
+import type { IEncodedTxEvm } from '@mywallet/engine/src/vaults/impl/evm/Vault';
+import { IDecodedTxDirection } from '@mywallet/engine/src/vaults/types';
+import { IMPL_EVM } from '@mywallet/shared/src/engine/engineConsts';
+import { isWatchingAccount } from '@mywallet/shared/src/engine/engineUtils';
+import platformEnv from '@mywallet/shared/src/platformEnv';
 
 import backgroundApiProxy from '../../../background/instance/backgroundApiProxy';
 import { useActiveSideAccount, useNativeToken } from '../../../hooks';

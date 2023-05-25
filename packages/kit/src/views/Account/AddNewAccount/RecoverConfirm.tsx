@@ -5,18 +5,18 @@ import { useNavigation, useRoute } from '@react-navigation/native';
 import { useKeepAwake } from 'expo-keep-awake';
 import { useIntl } from 'react-intl';
 
-import { Center, Modal, Spinner, Typography } from '@onekeyhq/components';
-import type { IAccount } from '@onekeyhq/engine/src/types';
-import backgroundApiProxy from '@onekeyhq/kit/src/background/instance/backgroundApiProxy';
-import { SkipAppLock } from '@onekeyhq/kit/src/components/AppLock';
+import { Center, Modal, Spinner, Typography } from '@mywallet/components';
+import type { IAccount } from '@mywallet/engine/src/types';
+import backgroundApiProxy from '@mywallet/kit/src/background/instance/backgroundApiProxy';
+import { SkipAppLock } from '@mywallet/kit/src/components/AppLock';
 import Protected, {
   ValidationFields,
-} from '@onekeyhq/kit/src/components/Protected';
-import type { CreateAccountRoutesParams } from '@onekeyhq/kit/src/routes';
-import type { ModalScreenProps } from '@onekeyhq/kit/src/routes/types';
-import { deviceUtils } from '@onekeyhq/kit/src/utils/hardware';
-import debugLogger from '@onekeyhq/shared/src/logger/debugLogger';
-import { toPlainErrorObject } from '@onekeyhq/shared/src/utils/errorUtils';
+} from '@mywallet/kit/src/components/Protected';
+import type { CreateAccountRoutesParams } from '@mywallet/kit/src/routes';
+import type { ModalScreenProps } from '@mywallet/kit/src/routes/types';
+import { deviceUtils } from '@mywallet/kit/src/utils/hardware';
+import debugLogger from '@mywallet/shared/src/logger/debugLogger';
+import { toPlainErrorObject } from '@mywallet/shared/src/utils/errorUtils';
 
 import { wait } from '../../../utils/helper';
 

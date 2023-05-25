@@ -12,9 +12,9 @@ import {
   SectionList,
   Typography,
   useSafeAreaInsets,
-} from '@onekeyhq/components';
-import type { IWallet } from '@onekeyhq/engine/src/types';
-import platformEnv from '@onekeyhq/shared/src/platformEnv';
+} from '@mywallet/components';
+import type { IWallet } from '@mywallet/engine/src/types';
+import platformEnv from '@mywallet/shared/src/platformEnv';
 
 import { useActiveWalletAccount } from '../../../../hooks/redux';
 import { ACCOUNT_SELECTOR_AUTO_SCROLL_DELAY_WALLET } from '../../../Header/AccountSelectorChildren/accountSelectorConsts';

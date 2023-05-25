@@ -11,7 +11,7 @@ import {
   ScrollView,
   Searchbar,
   Typography,
-} from '@onekeyhq/components';
+} from '@mywallet/components';
 
 import { LazyDisplayView } from '../../../LazyDisplayView';
 import { useAccountSelectorModalInfo } from '../../hooks/useAccountSelectorModalInfo';

@@ -3,11 +3,11 @@ import { memo, useEffect, useMemo, useRef, useState } from 'react';
 
 import { useIntl } from 'react-intl';
 
-import { Button } from '@onekeyhq/components';
-import type { Network } from '@onekeyhq/engine/src/types/network';
-import type { Wallet } from '@onekeyhq/engine/src/types/wallet';
-import { isExternalWallet } from '@onekeyhq/shared/src/engine/engineUtils';
-import platformEnv from '@onekeyhq/shared/src/platformEnv';
+import { Button } from '@mywallet/components';
+import type { Network } from '@mywallet/engine/src/types/network';
+import type { Wallet } from '@mywallet/engine/src/types/wallet';
+import { isExternalWallet } from '@mywallet/shared/src/engine/engineUtils';
+import platformEnv from '@mywallet/shared/src/platformEnv';
 
 import { useCreateAccountInWallet } from '../../NetworkAccountSelector/hooks/useCreateAccountInWallet';
 import { WALLET_CONNECT_NEW_CONNECTION_BUTTON_LOADING } from '../../WalletConnect/walletConnectConsts';

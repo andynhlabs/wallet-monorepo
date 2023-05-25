@@ -2,8 +2,8 @@ import { useCallback, useRef } from 'react';
 
 import { ScrollView, View } from 'react-native';
 
-import { Box, Text, Textarea } from '@onekeyhq/components';
-import platformEnv from '@onekeyhq/shared/src/platformEnv';
+import { Box, Text, Textarea } from '@mywallet/components';
+import platformEnv from '@mywallet/shared/src/platformEnv';
 
 import type {
   NativeSyntheticEvent,

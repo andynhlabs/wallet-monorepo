@@ -14,8 +14,8 @@ import {
   Icon,
   Pressable,
   Text,
-} from '@onekeyhq/components';
-import type { PressableItemProps } from '@onekeyhq/components/src/Pressable/PressableItem';
+} from '@mywallet/components';
+import type { PressableItemProps } from '@mywallet/components/src/Pressable/PressableItem';
 
 export const DescriptionList = ({
   children,

@@ -3,8 +3,8 @@ import { useEffect, useRef, useState } from 'react';
 
 import { ResizeMode, Video } from 'expo-av';
 
-import { Box, CustomSkeleton } from '@onekeyhq/components';
-import platformEnv from '@onekeyhq/shared/src/platformEnv';
+import { Box, CustomSkeleton } from '@mywallet/components';
+import platformEnv from '@mywallet/shared/src/platformEnv';
 
 type Props = {
   size: number;

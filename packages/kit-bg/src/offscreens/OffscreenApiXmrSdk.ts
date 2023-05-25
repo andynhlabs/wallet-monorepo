@@ -1,4 +1,4 @@
-import { wait } from '@onekeyhq/kit/src/utils/helper';
+import { wait } from '@mywallet/kit/src/utils/helper';
 
 export default class OffscreenApiXmrSdk {
   async showMe() {

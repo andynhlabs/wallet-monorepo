@@ -1,7 +1,7 @@
 /* eslint-disable import/order */
-import '@onekeyhq/shared/src/polyfills';
+import '@mywallet/shared/src/polyfills';
 
-import { KitProvider } from '@onekeyhq/kit';
-import '@onekeyhq/shared/src/web/index.css';
+import { KitProvider } from '@mywallet/kit';
+import '@mywallet/shared/src/web/index.css';
 
 export default KitProvider;

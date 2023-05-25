@@ -3,7 +3,7 @@ import { memo, useCallback, useEffect, useLayoutEffect, useState } from 'react';
 
 import { useRoute } from '@react-navigation/core';
 
-import { List, useIsVerticalLayout } from '@onekeyhq/components';
+import { List, useIsVerticalLayout } from '@mywallet/components';
 
 import { useAppSelector, useNavigation } from '../../hooks';
 

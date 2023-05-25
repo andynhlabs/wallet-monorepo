@@ -1,6 +1,6 @@
 import { useState } from 'react';
 
-import { Center, Searchbar, Stack } from '@onekeyhq/components';
+import { Center, Searchbar, Stack } from '@mywallet/components';
 
 const SearchbarGallery = () => {
   const [value, setValue] = useState('');

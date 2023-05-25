@@ -13,16 +13,16 @@ import {
   ToastManager,
   Token,
   Typography,
-} from '@onekeyhq/components';
-import type { ModalProps } from '@onekeyhq/components/src/Modal';
-import { TokenVerifiedIcon } from '@onekeyhq/components/src/Token';
-import { shortenAddress } from '@onekeyhq/components/src/utils';
-import { copyToClipboard } from '@onekeyhq/components/src/utils/ClipboardUtils';
-import { getBalanceKey } from '@onekeyhq/engine/src/managers/token';
-import type { Token as TokenType } from '@onekeyhq/engine/src/types/token';
-import { TokenRiskLevel } from '@onekeyhq/engine/src/types/token';
-import debugLogger from '@onekeyhq/shared/src/logger/debugLogger';
-import type { WatchAssetParameters } from '@onekeyhq/shared/src/providerApis/ProviderApiEthereum/ProviderApiEthereum.types';
+} from '@mywallet/components';
+import type { ModalProps } from '@mywallet/components/src/Modal';
+import { TokenVerifiedIcon } from '@mywallet/components/src/Token';
+import { shortenAddress } from '@mywallet/components/src/utils';
+import { copyToClipboard } from '@mywallet/components/src/utils/ClipboardUtils';
+import { getBalanceKey } from '@mywallet/engine/src/managers/token';
+import type { Token as TokenType } from '@mywallet/engine/src/types/token';
+import { TokenRiskLevel } from '@mywallet/engine/src/types/token';
+import debugLogger from '@mywallet/shared/src/logger/debugLogger';
+import type { WatchAssetParameters } from '@mywallet/shared/src/providerApis/ProviderApiEthereum/ProviderApiEthereum.types';
 
 import backgroundApiProxy from '../../background/instance/backgroundApiProxy';
 import { useAccountTokens, useAccountTokensBalance } from '../../hooks';

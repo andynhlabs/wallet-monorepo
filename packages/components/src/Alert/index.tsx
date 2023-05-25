@@ -4,7 +4,7 @@ import { useState } from 'react';
 import { Box } from 'native-base';
 import { StyleSheet } from 'react-native';
 
-import { useThemeValue } from '@onekeyhq/components';
+import { useThemeValue } from '@mywallet/components';
 
 import Icon from '../Icon';
 import Pressable from '../Pressable';

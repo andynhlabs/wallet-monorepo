@@ -2,7 +2,7 @@ import type { FC } from 'react';
 
 import { StyleSheet } from 'react-native';
 
-import type { ICON_NAMES } from '@onekeyhq/components';
+import type { ICON_NAMES } from '@mywallet/components';
 import {
   Box,
   Hidden,
@@ -10,7 +10,7 @@ import {
   Pressable,
   Text,
   useIsVerticalLayout,
-} from '@onekeyhq/components';
+} from '@mywallet/components';
 
 import type { IBoxProps } from 'native-base';
 

@@ -1,8 +1,8 @@
 import type { ComponentProps, FC } from 'react';
 
-import { Box } from '@onekeyhq/components';
-import { getImageWithAsset } from '@onekeyhq/engine/src/managers/nft';
-import type { NFTAsset } from '@onekeyhq/engine/src/types/nft';
+import { Box } from '@mywallet/components';
+import { getImageWithAsset } from '@mywallet/engine/src/managers/nft';
+import type { NFTAsset } from '@mywallet/engine/src/types/nft';
 
 import NFTImage from '../../../../../components/NFTImage';
 import { MemoFallbackElement } from '../../../../../components/NFTPlaceholderElement';

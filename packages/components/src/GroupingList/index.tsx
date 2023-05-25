@@ -3,8 +3,8 @@
 import type { ReactElement } from 'react';
 import { useCallback, useMemo } from 'react';
 
-import { SectionList as NBSectionList } from '@onekeyhq/components';
-import type { SectionListProps } from '@onekeyhq/components/src/SectionList';
+import { SectionList as NBSectionList } from '@mywallet/components';
+import type { SectionListProps } from '@mywallet/components/src/SectionList';
 
 import Footer from '../List/Footer';
 import Header from '../List/Header';

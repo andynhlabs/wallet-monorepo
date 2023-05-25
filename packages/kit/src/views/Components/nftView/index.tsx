@@ -3,7 +3,7 @@ import { useMemo } from 'react';
 
 import { Box, Center, Image } from 'native-base';
 
-import { Icon } from '@onekeyhq/components';
+import { Icon } from '@mywallet/components';
 
 import type { ResponsiveValue } from 'native-base/lib/typescript/components/types';
 

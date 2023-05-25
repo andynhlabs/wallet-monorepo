@@ -3,7 +3,7 @@ import { useCallback, useEffect, useMemo } from 'react';
 import { useRoute } from '@react-navigation/core';
 
 // eslint-disable-next-line @typescript-eslint/no-unused-vars
-import { UserInputCategory } from '@onekeyhq/engine/src/types/credential';
+import { UserInputCategory } from '@mywallet/engine/src/types/credential';
 
 import backgroundApiProxy from '../../background/instance/backgroundApiProxy';
 import useAppNavigation from '../../hooks/useAppNavigation';

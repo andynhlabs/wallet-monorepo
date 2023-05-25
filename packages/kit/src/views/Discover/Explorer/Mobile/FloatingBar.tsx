@@ -8,7 +8,7 @@ import {
   NetImage,
   Pressable,
   Typography,
-} from '@onekeyhq/components';
+} from '@mywallet/components';
 
 import { NetworkAccountSelectorTriggerMobile } from '../../../../components/NetworkAccountSelector';
 import { useWebTabs } from '../Controller/useWebTabs';

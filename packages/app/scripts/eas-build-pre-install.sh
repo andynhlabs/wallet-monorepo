@@ -4,7 +4,7 @@
 
 npm i -g expo-cli@6.0.8
 
-echo "@onekeyhq:registry=https://npm.pkg.github.com\n//npm.pkg.github.com/:_authToken=${NPM_TOKEN}" > ~/.npmrc
+echo "@mywallet:registry=https://npm.pkg.github.com\n//npm.pkg.github.com/:_authToken=${NPM_TOKEN}" > ~/.npmrc
 
 # Install Secret Keys
 echo $IOS_SECRET | base64 -d > .env

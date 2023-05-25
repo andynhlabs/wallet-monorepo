@@ -5,20 +5,20 @@ import { web3Errors } from '@onekeyfe/cross-inpage-provider-errors';
 import { IInjectedProviderNames } from '@onekeyfe/cross-inpage-provider-types';
 import { get } from 'lodash';
 
-import { parseNetworkId } from '@onekeyhq/engine/src/managers/network';
-import type { DBSimpleAccount } from '@onekeyhq/engine/src/types/account';
-import { CommonMessageTypes } from '@onekeyhq/engine/src/types/message';
-import type { IEncodedTxSUI } from '@onekeyhq/engine/src/vaults/impl/sui/types';
-import type VaultSUI from '@onekeyhq/engine/src/vaults/impl/sui/Vault';
-import type { ISignedTxPro } from '@onekeyhq/engine/src/vaults/types';
-import { getActiveWalletAccount } from '@onekeyhq/kit/src/hooks/redux';
+import { parseNetworkId } from '@mywallet/engine/src/managers/network';
+import type { DBSimpleAccount } from '@mywallet/engine/src/types/account';
+import { CommonMessageTypes } from '@mywallet/engine/src/types/message';
+import type { IEncodedTxSUI } from '@mywallet/engine/src/vaults/impl/sui/types';
+import type VaultSUI from '@mywallet/engine/src/vaults/impl/sui/Vault';
+import type { ISignedTxPro } from '@mywallet/engine/src/vaults/types';
+import { getActiveWalletAccount } from '@mywallet/kit/src/hooks/redux';
 import {
   backgroundClass,
   permissionRequired,
   providerApiMethod,
-} from '@onekeyhq/shared/src/background/backgroundDecorators';
-import { IMPL_SUI } from '@onekeyhq/shared/src/engine/engineConsts';
-import debugLogger from '@onekeyhq/shared/src/logger/debugLogger';
+} from '@mywallet/shared/src/background/backgroundDecorators';
+import { IMPL_SUI } from '@mywallet/shared/src/engine/engineConsts';
+import debugLogger from '@mywallet/shared/src/logger/debugLogger';
 
 import ProviderApiBase from './ProviderApiBase';
 

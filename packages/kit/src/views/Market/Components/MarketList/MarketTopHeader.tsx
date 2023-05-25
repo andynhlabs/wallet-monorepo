@@ -12,9 +12,9 @@ import {
   Pressable,
   Typography,
   useIsVerticalLayout,
-} from '@onekeyhq/components';
-import type { MarketTopTabName } from '@onekeyhq/kit/src/store/reducers/market';
-import { setMarketSwapTabName } from '@onekeyhq/kit/src/views/Market/hooks/useMarketList';
+} from '@mywallet/components';
+import type { MarketTopTabName } from '@mywallet/kit/src/store/reducers/market';
+import { setMarketSwapTabName } from '@mywallet/kit/src/views/Market/hooks/useMarketList';
 
 import {
   ModalRoutes,

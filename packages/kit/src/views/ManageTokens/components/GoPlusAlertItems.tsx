@@ -2,9 +2,9 @@ import type { FC } from 'react';
 
 import { useIntl } from 'react-intl';
 
-import { Box, HStack, Typography } from '@onekeyhq/components';
-import type { LocaleIds } from '@onekeyhq/components/src/locale';
-import type { GoPlusAddressSecurity } from '@onekeyhq/engine/src/types/goplus';
+import { Box, HStack, Typography } from '@mywallet/components';
+import type { LocaleIds } from '@mywallet/components/src/locale';
+import type { GoPlusAddressSecurity } from '@mywallet/engine/src/types/goplus';
 
 // @ts-ignore
 const localeMaps: Record<keyof GoPlusAddressSecurity, LocaleIds> = {

@@ -1,7 +1,7 @@
 import { uniqBy } from 'lodash';
 
-import { getTimeDurationMs } from '@onekeyhq/kit/src/utils/helper';
-import { HISTORY_CONSTS } from '@onekeyhq/shared/src/engine/engineConsts';
+import { getTimeDurationMs } from '@mywallet/kit/src/utils/helper';
+import { HISTORY_CONSTS } from '@mywallet/shared/src/engine/engineConsts';
 
 import { IDecodedTxStatus } from '../../../vaults/types';
 

@@ -4,12 +4,12 @@ import { useCallback } from 'react';
 import { useNavigation } from '@react-navigation/core';
 import { useIntl } from 'react-intl';
 
-import { Box, Button, HStack, useIsVerticalLayout } from '@onekeyhq/components';
-import type { Token as TokenDO } from '@onekeyhq/engine/src/types/token';
-import type { ReceiveTokenRoutesParams } from '@onekeyhq/kit/src/routes/Root/Modal/types';
-import type { HomeRoutes } from '@onekeyhq/kit/src/routes/routesEnum';
-import { TabRoutes } from '@onekeyhq/kit/src/routes/routesEnum';
-import type { ModalScreenProps } from '@onekeyhq/kit/src/routes/types';
+import { Box, Button, HStack, useIsVerticalLayout } from '@mywallet/components';
+import type { Token as TokenDO } from '@mywallet/engine/src/types/token';
+import type { ReceiveTokenRoutesParams } from '@mywallet/kit/src/routes/Root/Modal/types';
+import type { HomeRoutes } from '@mywallet/kit/src/routes/routesEnum';
+import { TabRoutes } from '@mywallet/kit/src/routes/routesEnum';
+import type { ModalScreenProps } from '@mywallet/kit/src/routes/types';
 
 import backgroundApiProxy from '../../../background/instance/backgroundApiProxy';
 import { useActiveSideAccount } from '../../../hooks';

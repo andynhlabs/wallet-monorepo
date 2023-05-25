@@ -6,8 +6,8 @@ import {
 import base32Decode from 'base32-decode';
 import blake from 'blakejs';
 
-import { TransactionStatus } from '@onekeyhq/engine/src/types/provider';
-import type { SignedTx } from '@onekeyhq/engine/src/types/provider';
+import { TransactionStatus } from '@mywallet/engine/src/types/provider';
+import type { SignedTx } from '@mywallet/engine/src/types/provider';
 
 import { OneKeyInternalError } from '../../../errors';
 import { IDecodedTxStatus } from '../../types';

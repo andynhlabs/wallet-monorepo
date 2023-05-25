@@ -2,7 +2,7 @@ import type { FC } from 'react';
 
 import { useIntl } from 'react-intl';
 
-import { Box, Button, Empty } from '@onekeyhq/components';
+import { Box, Button, Empty } from '@mywallet/components';
 
 import backgroundApiProxy from '../../../background/instance/backgroundApiProxy';
 import { showOverlay } from '../../../utils/overlayUtils';

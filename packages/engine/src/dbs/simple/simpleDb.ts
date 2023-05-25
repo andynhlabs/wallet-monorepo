@@ -1,4 +1,4 @@
-import platformEnv from '@onekeyhq/shared/src/platformEnv';
+import platformEnv from '@mywallet/shared/src/platformEnv';
 
 import { SimpleDbEntityHistory } from './entity/SimpleDbEntityHistory';
 import { SimpleDbEntityLastActivity } from './entity/SimpleDbEntityLastActivity';

@@ -17,9 +17,9 @@ import {
   Modal,
   Text,
   useIsVerticalLayout,
-} from '@onekeyhq/components';
-import useModalClose from '@onekeyhq/components/src/Modal/Container/useModalClose';
-import type { CollectionAttribute } from '@onekeyhq/engine/src/types/nft';
+} from '@mywallet/components';
+import useModalClose from '@mywallet/components/src/Modal/Container/useModalClose';
+import type { CollectionAttribute } from '@mywallet/engine/src/types/nft';
 
 import { NFTAttributesContext, useNFTAttributesContext } from './context';
 import {

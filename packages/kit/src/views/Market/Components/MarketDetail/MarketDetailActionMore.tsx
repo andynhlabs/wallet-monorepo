@@ -3,14 +3,14 @@ import { useMemo } from 'react';
 
 import { useIntl } from 'react-intl';
 
-import type { ICON_NAMES } from '@onekeyhq/components';
-import { Box, Icon, Text, useIsVerticalLayout } from '@onekeyhq/components';
-import type { ModalProps } from '@onekeyhq/components/src/Modal';
-import PressableItem from '@onekeyhq/components/src/Pressable/PressableItem';
-import type { ThemeToken } from '@onekeyhq/components/src/Provider/theme';
-import type { SelectProps } from '@onekeyhq/components/src/Select';
-import type { MarketTokenItem } from '@onekeyhq/kit/src/store/reducers/market';
-import { showOverlay } from '@onekeyhq/kit/src/utils/overlayUtils';
+import type { ICON_NAMES } from '@mywallet/components';
+import { Box, Icon, Text, useIsVerticalLayout } from '@mywallet/components';
+import type { ModalProps } from '@mywallet/components/src/Modal';
+import PressableItem from '@mywallet/components/src/Pressable/PressableItem';
+import type { ThemeToken } from '@mywallet/components/src/Provider/theme';
+import type { SelectProps } from '@mywallet/components/src/Select';
+import type { MarketTokenItem } from '@mywallet/kit/src/store/reducers/market';
+import { showOverlay } from '@mywallet/kit/src/utils/overlayUtils';
 
 import { OverlayPanel } from '../../../Overlay/OverlayPanel';
 

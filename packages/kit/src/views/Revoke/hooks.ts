@@ -3,15 +3,15 @@ import { useCallback, useEffect, useMemo, useState } from 'react';
 import { useNavigation } from '@react-navigation/core';
 import { useAsync } from 'react-async-hook';
 
-import { useUserDevice } from '@onekeyhq/components';
-import { shortenAddress } from '@onekeyhq/components/src/utils';
-import { ADDRESS_ZERO } from '@onekeyhq/engine/src/managers/revoke';
-import { WALLET_TYPE_WATCHING } from '@onekeyhq/engine/src/types/wallet';
-import type { IEncodedTx } from '@onekeyhq/engine/src/vaults/types';
+import { useUserDevice } from '@mywallet/components';
+import { shortenAddress } from '@mywallet/components/src/utils';
+import { ADDRESS_ZERO } from '@mywallet/engine/src/managers/revoke';
+import { WALLET_TYPE_WATCHING } from '@mywallet/engine/src/types/wallet';
+import type { IEncodedTx } from '@mywallet/engine/src/vaults/types';
 import {
   AppUIEventBusNames,
   appUIEventBus,
-} from '@onekeyhq/shared/src/eventBus/appUIEventBus';
+} from '@mywallet/shared/src/eventBus/appUIEventBus';
 
 import backgroundApiProxy from '../../background/instance/backgroundApiProxy';
 import { useActiveWalletAccount } from '../../hooks';

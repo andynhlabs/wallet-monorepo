@@ -4,8 +4,8 @@ import { BigNumber } from 'bignumber.js';
 import { MotiView } from 'moti';
 import { useIntl } from 'react-intl';
 
-import { Box, List, ListItem } from '@onekeyhq/components';
-import type { NFTMarketCapCollection } from '@onekeyhq/engine/src/types/nft';
+import { Box, List, ListItem } from '@mywallet/components';
+import type { NFTMarketCapCollection } from '@mywallet/engine/src/types/nft';
 
 import { formatMarketValueForComma } from '../../../../../Market/utils';
 import CollectionLogo from '../../../../CollectionLogo';

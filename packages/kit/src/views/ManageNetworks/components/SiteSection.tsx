@@ -1,6 +1,6 @@
 import type { ComponentProps, FC } from 'react';
 
-import { HStack, Icon, Text } from '@onekeyhq/components';
+import { HStack, Icon, Text } from '@mywallet/components';
 
 const isSecureProtocol = (url: string) =>
   ['https', 'wss'].some((p) => url.startsWith(p));

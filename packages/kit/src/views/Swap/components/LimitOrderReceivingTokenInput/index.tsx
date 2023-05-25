@@ -2,7 +2,7 @@ import type { ComponentProps, FC } from 'react';
 
 import { useIntl } from 'react-intl';
 
-import { Box, NumberInput, Pressable, Typography } from '@onekeyhq/components';
+import { Box, NumberInput, Pressable, Typography } from '@mywallet/components';
 
 import { FormatCurrency } from '../../../../components/Format';
 import { useAppSelector } from '../../../../hooks';

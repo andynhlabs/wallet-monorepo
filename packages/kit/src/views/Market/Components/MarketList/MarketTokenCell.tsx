@@ -18,14 +18,14 @@ import {
   Typography,
   useIsVerticalLayout,
   useUserDevice,
-} from '@onekeyhq/components';
-import type { Token as TokenType } from '@onekeyhq/engine/src/types/token';
-import backgroundApiProxy from '@onekeyhq/kit/src/background/instance/backgroundApiProxy';
-import { useSettings } from '@onekeyhq/kit/src/hooks';
-import { TabRoutes } from '@onekeyhq/kit/src/routes/routesEnum';
-import type { TabRoutesParams } from '@onekeyhq/kit/src/routes/types';
-import type { MarketTokenItem } from '@onekeyhq/kit/src/store/reducers/market';
-import { MARKET_FAVORITES_CATEGORYID } from '@onekeyhq/kit/src/store/reducers/market';
+} from '@mywallet/components';
+import type { Token as TokenType } from '@mywallet/engine/src/types/token';
+import backgroundApiProxy from '@mywallet/kit/src/background/instance/backgroundApiProxy';
+import { useSettings } from '@mywallet/kit/src/hooks';
+import { TabRoutes } from '@mywallet/kit/src/routes/routesEnum';
+import type { TabRoutesParams } from '@mywallet/kit/src/routes/types';
+import type { MarketTokenItem } from '@mywallet/kit/src/store/reducers/market';
+import { MARKET_FAVORITES_CATEGORYID } from '@mywallet/kit/src/store/reducers/market';
 
 import { useCurrencyUnit } from '../../../Me/GenaralSection/CurrencySelect/hooks';
 import { EMarketCellData } from '../../config';

@@ -5,7 +5,7 @@ import { Box } from 'native-base';
 import { StyleSheet, useWindowDimensions } from 'react-native';
 import { TabView as RNTabView, TabBar } from 'react-native-tab-view';
 
-import { useThemeValue } from '@onekeyhq/components';
+import { useThemeValue } from '@mywallet/components';
 
 import type {
   NavigationState,

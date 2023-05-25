@@ -10,10 +10,10 @@ import {
   Text,
   Token,
   Tooltip,
-} from '@onekeyhq/components';
-import { batchTransferContractAddress } from '@onekeyhq/engine/src/presets/batchTransferContractAddress';
-import type { INetwork } from '@onekeyhq/engine/src/types';
-import { IMPL_EVM } from '@onekeyhq/shared/src/engine/engineConsts';
+} from '@mywallet/components';
+import { batchTransferContractAddress } from '@mywallet/engine/src/presets/batchTransferContractAddress';
+import type { INetwork } from '@mywallet/engine/src/types';
+import { IMPL_EVM } from '@mywallet/shared/src/engine/engineConsts';
 
 import backgroundApiProxy from '../../background/instance/backgroundApiProxy';
 import { useManageNetworks, useNetwork } from '../../hooks';

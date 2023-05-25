@@ -1,9 +1,9 @@
 import { isString } from 'lodash';
 
-import type { ICON_NAMES } from '@onekeyhq/components';
-import type { ThemeValues } from '@onekeyhq/components/src/Provider/theme';
-import type { IDecodedTx } from '@onekeyhq/engine/src/vaults/types';
-import { IDecodedTxStatus } from '@onekeyhq/engine/src/vaults/types';
+import type { ICON_NAMES } from '@mywallet/components';
+import type { ThemeValues } from '@mywallet/components/src/Provider/theme';
+import type { IDecodedTx } from '@mywallet/engine/src/vaults/types';
+import { IDecodedTxStatus } from '@mywallet/engine/src/vaults/types';
 
 export function fallbackTextComponent(
   target: JSX.Element | string | undefined,

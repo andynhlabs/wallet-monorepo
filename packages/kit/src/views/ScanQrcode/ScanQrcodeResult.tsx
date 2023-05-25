@@ -13,9 +13,9 @@ import {
   Typography,
   useIsVerticalLayout,
   useSafeAreaInsets,
-} from '@onekeyhq/components';
-import { copyToClipboard } from '@onekeyhq/components/src/utils/ClipboardUtils';
-import platformEnv from '@onekeyhq/shared/src/platformEnv';
+} from '@mywallet/components';
+import { copyToClipboard } from '@mywallet/components/src/utils/ClipboardUtils';
+import platformEnv from '@mywallet/shared/src/platformEnv';
 
 import { ModalRoutes, RootRoutes } from '../../routes/routesEnum';
 import { AddressBookRoutes } from '../AddressBook/routes';

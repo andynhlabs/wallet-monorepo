@@ -3,13 +3,13 @@ import { NativeEventEmitter, NativeModules } from 'react-native';
 import {
   backgroundClass,
   backgroundMethod,
-} from '@onekeyhq/shared/src/background/backgroundDecorators';
+} from '@mywallet/shared/src/background/backgroundDecorators';
 import {
   AppEventBusNames,
   appEventBus,
-} from '@onekeyhq/shared/src/eventBus/appEventBus';
-import debugLogger from '@onekeyhq/shared/src/logger/debugLogger';
-import platformEnv from '@onekeyhq/shared/src/platformEnv';
+} from '@mywallet/shared/src/eventBus/appEventBus';
+import debugLogger from '@mywallet/shared/src/logger/debugLogger';
+import platformEnv from '@mywallet/shared/src/platformEnv';
 
 import ServiceBase from './ServiceBase';
 

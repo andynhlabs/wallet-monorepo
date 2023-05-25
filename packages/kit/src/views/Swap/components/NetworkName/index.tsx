@@ -1,6 +1,6 @@
 import type { FC } from 'react';
 
-import { Typography } from '@onekeyhq/components';
+import { Typography } from '@mywallet/components';
 
 import { useNetwork } from '../../../../hooks';
 

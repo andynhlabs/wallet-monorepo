@@ -3,9 +3,9 @@ import { memo, useCallback, useMemo, useRef, useState } from 'react';
 
 import { Pressable } from 'native-base';
 
-import { Box, CustomSkeleton, ImageViewer } from '@onekeyhq/components';
-import { useIsMounted } from '@onekeyhq/kit/src/hooks/useIsMounted';
-import platformEnv from '@onekeyhq/shared/src/platformEnv';
+import { Box, CustomSkeleton, ImageViewer } from '@mywallet/components';
+import { useIsMounted } from '@mywallet/kit/src/hooks/useIsMounted';
+import platformEnv from '@mywallet/shared/src/platformEnv';
 
 import { PlatformImage } from './PlatformImage';
 

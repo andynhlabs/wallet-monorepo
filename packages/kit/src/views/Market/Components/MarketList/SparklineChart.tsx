@@ -3,8 +3,8 @@ import { memo, useCallback } from 'react';
 
 import Canvas from 'react-native-canvas';
 
-import { Box } from '@onekeyhq/components';
-import platformEnv from '@onekeyhq/shared/src/platformEnv';
+import { Box } from '@mywallet/components';
+import platformEnv from '@mywallet/shared/src/platformEnv';
 
 import { useDevicePixelRatio } from '../../hooks/useMarketLayout';
 

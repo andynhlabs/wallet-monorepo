@@ -3,7 +3,7 @@ import { useCallback } from 'react';
 
 import { useIntl } from 'react-intl';
 
-import { Button, HStack, IconButton, Typography } from '@onekeyhq/components';
+import { Button, HStack, IconButton, Typography } from '@mywallet/components';
 
 import showExtraFilters from './Overlays/ExtraFilters';
 import { AssetType } from './types';

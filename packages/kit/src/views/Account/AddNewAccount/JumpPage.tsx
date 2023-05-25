@@ -12,7 +12,7 @@ import {
   VStack,
   useForm,
   useIsVerticalLayout,
-} from '@onekeyhq/components';
+} from '@mywallet/components';
 
 import { showDialog } from '../../../utils/overlayUtils';
 

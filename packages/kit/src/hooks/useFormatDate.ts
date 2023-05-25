@@ -9,8 +9,8 @@ import {
 } from 'date-fns';
 import { enUS, zhCN } from 'date-fns/locale';
 
-import { useLocale } from '@onekeyhq/components';
-import type { LocaleSymbol } from '@onekeyhq/components/src/locale';
+import { useLocale } from '@mywallet/components';
+import type { LocaleSymbol } from '@mywallet/components/src/locale';
 
 import type { Duration } from 'date-fns';
 

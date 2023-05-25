@@ -4,15 +4,15 @@ import { useRoute } from '@react-navigation/core';
 import { useNavigation } from '@react-navigation/native';
 import { useIntl } from 'react-intl';
 
-import { Box, Center, Image, Modal, Typography } from '@onekeyhq/components';
-import ClassicRestoreWalletPng from '@onekeyhq/kit/assets/wallet/restore-classic-device.png';
-import type { CreateWalletRoutesParams } from '@onekeyhq/kit/src/routes/Root/Modal/CreateWallet';
+import { Box, Center, Image, Modal, Typography } from '@mywallet/components';
+import ClassicRestoreWalletPng from '@mywallet/kit/assets/wallet/restore-classic-device.png';
+import type { CreateWalletRoutesParams } from '@mywallet/kit/src/routes/Root/Modal/CreateWallet';
 import {
   CreateWalletModalRoutes,
   ModalRoutes,
   RootRoutes,
-} from '@onekeyhq/kit/src/routes/routesEnum';
-import type { ModalScreenProps } from '@onekeyhq/kit/src/routes/types';
+} from '@mywallet/kit/src/routes/routesEnum';
+import type { ModalScreenProps } from '@mywallet/kit/src/routes/types';
 
 import type { RouteProp } from '@react-navigation/core';
 

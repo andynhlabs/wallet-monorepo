@@ -9,19 +9,19 @@ import {
   HStack,
   Pressable,
   useIsVerticalLayout,
-} from '@onekeyhq/components';
-import type { Account as AccountEngineType } from '@onekeyhq/engine/src/types/account';
-import type { Network } from '@onekeyhq/engine/src/types/network';
-import type { Wallet } from '@onekeyhq/engine/src/types/wallet';
-import backgroundApiProxy from '@onekeyhq/kit/src/background/instance/backgroundApiProxy';
-import { useNavigation, useNavigationActions } from '@onekeyhq/kit/src/hooks';
+} from '@mywallet/components';
+import type { Account as AccountEngineType } from '@mywallet/engine/src/types/account';
+import type { Network } from '@mywallet/engine/src/types/network';
+import type { Wallet } from '@mywallet/engine/src/types/wallet';
+import backgroundApiProxy from '@mywallet/kit/src/background/instance/backgroundApiProxy';
+import { useNavigation, useNavigationActions } from '@mywallet/kit/src/hooks';
 import {
   ManagerAccountModalRoutes,
   ModalRoutes,
   RootRoutes,
-} from '@onekeyhq/kit/src/routes/routesEnum';
-import AccountModifyNameDialog from '@onekeyhq/kit/src/views/ManagerAccount/ModifyAccount';
-import useRemoveAccountDialog from '@onekeyhq/kit/src/views/ManagerAccount/RemoveAccount';
+} from '@mywallet/kit/src/routes/routesEnum';
+import AccountModifyNameDialog from '@mywallet/kit/src/views/ManagerAccount/ModifyAccount';
+import useRemoveAccountDialog from '@mywallet/kit/src/views/ManagerAccount/RemoveAccount';
 
 import { useCopyAddress } from '../../../../hooks/useCopyAddress';
 import reducerAccountSelector from '../../../../store/reducers/reducerAccountSelector';

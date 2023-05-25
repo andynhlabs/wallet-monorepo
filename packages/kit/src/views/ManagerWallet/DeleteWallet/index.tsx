@@ -3,11 +3,11 @@ import { useMemo, useState } from 'react';
 
 import { useIntl } from 'react-intl';
 
-import { CheckBox, Dialog, ToastManager } from '@onekeyhq/components';
-import type { OnCloseCallback } from '@onekeyhq/components/src/Dialog/components/FooterButton';
+import { CheckBox, Dialog, ToastManager } from '@mywallet/components';
+import type { OnCloseCallback } from '@mywallet/components/src/Dialog/components/FooterButton';
 import timelinePerfTrace, {
   ETimelinePerfNames,
-} from '@onekeyhq/shared/src/perf/timelinePerfTrace';
+} from '@mywallet/shared/src/perf/timelinePerfTrace';
 
 import backgroundApiProxy from '../../../background/instance/backgroundApiProxy';
 import { useNavigationActions } from '../../../hooks';

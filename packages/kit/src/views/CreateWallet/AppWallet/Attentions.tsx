@@ -10,7 +10,7 @@ import {
   Modal,
   Typography,
   useSafeAreaInsets,
-} from '@onekeyhq/components';
+} from '@mywallet/components';
 
 type AttentionsProps = {
   navigateMode?: boolean;

@@ -14,7 +14,7 @@ export const defaultHapticStatus = !!(
 export const doHapticsWhenEnabled = supportedHaptics
   ? () => {
       const { appSelector } =
-        require('@onekeyhq/kit/src/store') as typeof import('@onekeyhq/kit/src/store');
+        require('@mywallet/kit/src/store') as typeof import('@mywallet/kit/src/store');
       if (appSelector((s) => s.settings.enableHaptics) ?? defaultHapticStatus) {
         selectionAsync();
       }

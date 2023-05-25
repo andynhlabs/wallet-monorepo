@@ -1,6 +1,6 @@
-import { formatServerToken } from '@onekeyhq/engine/src/managers/token';
-import type { ServerToken } from '@onekeyhq/engine/src/types/token';
-import { OnekeyNetwork } from '@onekeyhq/shared/src/config/networkIds';
+import { formatServerToken } from '@mywallet/engine/src/managers/token';
+import type { ServerToken } from '@mywallet/engine/src/types/token';
+import { OnekeyNetwork } from '@mywallet/shared/src/config/networkIds';
 
 import type { Token } from '../../store/typings';
 import type { Provider } from './typings';

@@ -1,7 +1,7 @@
 import type { FC, ReactElement } from 'react';
 import { useMemo } from 'react';
 
-import type { ICON_NAMES } from '@onekeyhq/components';
+import type { ICON_NAMES } from '@mywallet/components';
 import {
   Center,
   HStack,
@@ -9,7 +9,7 @@ import {
   NetImage,
   Pressable,
   Typography,
-} from '@onekeyhq/components';
+} from '@mywallet/components';
 
 import ScrollableButtonGroup from '../ScrollableButtonGroup/ScrollableButtonGroup';
 

@@ -5,8 +5,8 @@ import { useEffect } from 'react';
 import { useNavigation } from '@react-navigation/core';
 import { useIntl } from 'react-intl';
 
-import { Center, Modal, Spinner } from '@onekeyhq/components';
-import debugLogger from '@onekeyhq/shared/src/logger/debugLogger';
+import { Center, Modal, Spinner } from '@mywallet/components';
+import debugLogger from '@mywallet/shared/src/logger/debugLogger';
 
 import backgroundApiProxy from '../../background/instance/backgroundApiProxy';
 import Protected, { ValidationFields } from '../../components/Protected';

@@ -10,7 +10,7 @@ import {
   Modal,
   Spinner,
   Typography,
-} from '@onekeyhq/components';
+} from '@mywallet/components';
 
 import type { UpdateFeatureRoutesParams } from '../../../routes/Root/Modal/UpdateFeature';
 import type { UpdateFeatureModalRoutes } from '../../../routes/routesEnum';

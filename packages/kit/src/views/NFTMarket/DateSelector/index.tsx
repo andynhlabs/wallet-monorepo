@@ -3,7 +3,7 @@ import type { FC } from 'react';
 import { Row } from 'native-base';
 import { useIntl } from 'react-intl';
 
-import { Box, Icon, Select, Text } from '@onekeyhq/components';
+import { Box, Icon, Select, Text } from '@mywallet/components';
 
 type Props = {
   title?: string;

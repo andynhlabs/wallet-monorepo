@@ -1,5 +1,5 @@
 {
-  "name": "@onekeyhq/app",
+  "name": "@mywallet/app",
   "main": "__generated__/AppEntry.js",
   "version": "0.0.1",
   "scripts": {
@@ -25,9 +25,9 @@
     "@formatjs/intl-pluralrules": "^4.3.3",
     "@onekeyfe/react-native-animated-charts": "https://github.com/OneKeyHQ/react-native-animated-charts.git",
     "@onekeyfe/react-native-ble-plx": "3.0.0",
-    "@onekeyhq/components": "*",
-    "@onekeyhq/engine": "*",
-    "@onekeyhq/kit": "*",
+    "@mywallet/components": "*",
+    "@mywallet/engine": "*",
+    "@mywallet/kit": "*",
     "@react-native-async-storage/async-storage": "1.17.3",
     "@react-native-community/google-signin": "^5.0.0",
     "@react-native-community/netinfo": "^8.1.0",

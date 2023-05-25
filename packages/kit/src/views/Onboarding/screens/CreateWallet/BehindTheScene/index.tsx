@@ -3,17 +3,17 @@ import { memo, useCallback, useEffect, useMemo, useRef, useState } from 'react';
 import { useRoute } from '@react-navigation/native';
 import { useIntl } from 'react-intl';
 
-import { Box, Center, ToastManager } from '@onekeyhq/components';
-import type { LocaleIds } from '@onekeyhq/components/src/locale';
-import { OneKeyErrorClassNames } from '@onekeyhq/engine/src/errors';
-import type { SearchDevice } from '@onekeyhq/kit/src/utils/hardware';
-import { deviceUtils } from '@onekeyhq/kit/src/utils/hardware';
-import debugLogger from '@onekeyhq/shared/src/logger/debugLogger';
+import { Box, Center, ToastManager } from '@mywallet/components';
+import type { LocaleIds } from '@mywallet/components/src/locale';
+import { OneKeyErrorClassNames } from '@mywallet/engine/src/errors';
+import type { SearchDevice } from '@mywallet/kit/src/utils/hardware';
+import { deviceUtils } from '@mywallet/kit/src/utils/hardware';
+import debugLogger from '@mywallet/shared/src/logger/debugLogger';
 import timelinePerfTrace, {
   ETimelinePerfNames,
-} from '@onekeyhq/shared/src/perf/timelinePerfTrace';
-import platformEnv from '@onekeyhq/shared/src/platformEnv';
-import type { IOneKeyDeviceFeatures } from '@onekeyhq/shared/types';
+} from '@mywallet/shared/src/perf/timelinePerfTrace';
+import platformEnv from '@mywallet/shared/src/platformEnv';
+import type { IOneKeyDeviceFeatures } from '@mywallet/shared/types';
 
 import backgroundApiProxy from '../../../../../background/instance/backgroundApiProxy';
 import useAppNavigation from '../../../../../hooks/useAppNavigation';

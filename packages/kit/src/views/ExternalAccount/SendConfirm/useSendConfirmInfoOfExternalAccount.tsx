@@ -1,6 +1,6 @@
 import { useCallback, useEffect, useRef, useState } from 'react';
 
-import type { IBaseExternalAccountInfo } from '@onekeyhq/engine/src/dbs/simple/entity/SimpleDbEntityWalletConnect';
+import type { IBaseExternalAccountInfo } from '@mywallet/engine/src/dbs/simple/entity/SimpleDbEntityWalletConnect';
 
 import backgroundApiProxy from '../../../background/instance/backgroundApiProxy';
 import { useWalletConnectQrcodeModal } from '../../../components/WalletConnect/useWalletConnectQrcodeModal';

@@ -1,6 +1,6 @@
-import adaWebSdk from '@onekeyhq/engine/src/vaults/impl/ada/helper/sdk/adaWebSdk';
-import type { IAdaSdkApi } from '@onekeyhq/engine/src/vaults/impl/ada/helper/sdk/types';
-import { wait } from '@onekeyhq/kit/src/utils/helper';
+import adaWebSdk from '@mywallet/engine/src/vaults/impl/ada/helper/sdk/adaWebSdk';
+import type { IAdaSdkApi } from '@mywallet/engine/src/vaults/impl/ada/helper/sdk/types';
+import { wait } from '@mywallet/kit/src/utils/helper';
 
 export default class OffscreenApiAdaSdk implements IAdaSdkApi {
   async sayHello() {

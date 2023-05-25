@@ -1,6 +1,6 @@
 /* eslint-disable @typescript-eslint/no-unused-vars, @typescript-eslint/require-await, max-classes-per-file */
-import { IMPL_DOT, SEPERATOR } from '@onekeyhq/shared/src/engine/engineConsts';
-import platformEnv from '@onekeyhq/shared/src/platformEnv';
+import { IMPL_DOT, SEPERATOR } from '@mywallet/shared/src/engine/engineConsts';
+import platformEnv from '@mywallet/shared/src/platformEnv';
 
 import { NotImplemented } from '../errors';
 import {

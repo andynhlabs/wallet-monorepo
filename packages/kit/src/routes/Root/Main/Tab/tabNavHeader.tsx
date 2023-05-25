@@ -1,10 +1,10 @@
 /* eslint-disable arrow-body-style, @typescript-eslint/no-unused-vars */
 import { useEffect } from 'react';
 
-import { LayoutHeaderMobile } from '@onekeyhq/components/src/Layout/Header/LayoutHeaderMobile';
-import { WalletSelectorNavHeader } from '@onekeyhq/components/src/Layout/Header/WalletSelectorNavHeader';
-import NavHeader from '@onekeyhq/components/src/NavHeader/NavHeader';
-import platformEnv from '@onekeyhq/shared/src/platformEnv';
+import { LayoutHeaderMobile } from '@mywallet/components/src/Layout/Header/LayoutHeaderMobile';
+import { WalletSelectorNavHeader } from '@mywallet/components/src/Layout/Header/WalletSelectorNavHeader';
+import NavHeader from '@mywallet/components/src/NavHeader/NavHeader';
+import platformEnv from '@mywallet/shared/src/platformEnv';
 
 import { useNavigation } from '../../../../hooks';
 

@@ -1,25 +1,25 @@
 /* eslint-disable @typescript-eslint/no-unused-vars */
 import { cloneDeep, isEmpty, isNil, isNumber } from 'lodash';
 
-import simpleDb from '@onekeyhq/engine/src/dbs/simple/simpleDb';
-import { TransactionStatus } from '@onekeyhq/engine/src/types/provider';
+import simpleDb from '@mywallet/engine/src/dbs/simple/simpleDb';
+import { TransactionStatus } from '@mywallet/engine/src/types/provider';
 import type {
   IFeeInfoUnit,
   IHistoryTx,
-} from '@onekeyhq/engine/src/vaults/types';
-import { IDecodedTxStatus } from '@onekeyhq/engine/src/vaults/types';
-import { setIsPasswordLoadedInVault } from '@onekeyhq/kit/src/store/reducers/data';
-import { refreshHistory } from '@onekeyhq/kit/src/store/reducers/refresher';
+} from '@mywallet/engine/src/vaults/types';
+import { IDecodedTxStatus } from '@mywallet/engine/src/vaults/types';
+import { setIsPasswordLoadedInVault } from '@mywallet/kit/src/store/reducers/data';
+import { refreshHistory } from '@mywallet/kit/src/store/reducers/refresher';
 import type {
   SendConfirmOnSuccessData,
   SendConfirmResendActionInfo,
-} from '@onekeyhq/kit/src/views/Send/types';
-import { isEvmNetworkId } from '@onekeyhq/kit/src/views/Swap/utils';
+} from '@mywallet/kit/src/views/Send/types';
+import { isEvmNetworkId } from '@mywallet/kit/src/views/Swap/utils';
 import {
   backgroundClass,
   backgroundMethod,
-} from '@onekeyhq/shared/src/background/backgroundDecorators';
-import { HISTORY_CONSTS } from '@onekeyhq/shared/src/engine/engineConsts';
+} from '@mywallet/shared/src/background/backgroundDecorators';
+import { HISTORY_CONSTS } from '@mywallet/shared/src/engine/engineConsts';
 
 import ServiceBase from './ServiceBase';
 

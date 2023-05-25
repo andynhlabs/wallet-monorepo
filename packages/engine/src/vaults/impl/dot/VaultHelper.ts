@@ -1,5 +1,5 @@
 /* eslint-disable @typescript-eslint/no-unused-vars */
-import { NotImplemented } from '@onekeyhq/engine/src/errors';
+import { NotImplemented } from '@mywallet/engine/src/errors';
 
 import { VaultHelperBase } from '../../VaultHelperBase';
 

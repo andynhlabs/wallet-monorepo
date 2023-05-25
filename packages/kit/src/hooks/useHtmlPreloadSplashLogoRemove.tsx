@@ -1,6 +1,6 @@
 import { useEffect } from 'react';
 
-import platformEnv from '@onekeyhq/shared/src/platformEnv';
+import platformEnv from '@mywallet/shared/src/platformEnv';
 
 export function useHtmlPreloadSplashLogoRemove(options?: {
   isDelay?: boolean;

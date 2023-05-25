@@ -2,10 +2,10 @@ import { useCallback, useMemo } from 'react';
 
 import { useIntl } from 'react-intl';
 
-import { Form, useIsVerticalLayout } from '@onekeyhq/components';
-import type { Network } from '@onekeyhq/engine/src/types/network';
-import { useManageNetworks } from '@onekeyhq/kit/src/hooks';
-import { useGeneral } from '@onekeyhq/kit/src/hooks/redux';
+import { Form, useIsVerticalLayout } from '@mywallet/components';
+import type { Network } from '@mywallet/engine/src/types/network';
+import { useManageNetworks } from '@mywallet/kit/src/hooks';
+import { useGeneral } from '@mywallet/kit/src/hooks/redux';
 
 import type { ControllerProps, FieldValues } from 'react-hook-form';
 

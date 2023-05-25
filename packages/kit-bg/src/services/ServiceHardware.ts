@@ -2,8 +2,8 @@
 import { HardwareErrorCode } from '@onekeyfe/hd-shared';
 import { get } from 'lodash';
 
-import { OneKeyHardwareError } from '@onekeyhq/engine/src/errors';
-import type { DevicePayload } from '@onekeyhq/engine/src/types/device';
+import { OneKeyHardwareError } from '@mywallet/engine/src/errors';
+import type { DevicePayload } from '@mywallet/engine/src/types/device';
 import {
   addConnectedConnectId,
   removeConnectedConnectId,
@@ -11,37 +11,37 @@ import {
   setPreviousAddress,
   setUpdateFirmwareStep,
   updateDevicePassphraseOpenedState,
-} from '@onekeyhq/kit/src/store/reducers/hardware';
+} from '@mywallet/kit/src/store/reducers/hardware';
 import {
   setDeviceUpdates,
   setDeviceVersion,
   setVerification,
-} from '@onekeyhq/kit/src/store/reducers/settings';
-import { deviceUtils } from '@onekeyhq/kit/src/utils/hardware';
+} from '@mywallet/kit/src/store/reducers/settings';
+import { deviceUtils } from '@mywallet/kit/src/utils/hardware';
 import {
   BridgeTimeoutError,
   FirmwareVersionTooLow,
   InitIframeLoadFail,
   InitIframeTimeout,
-} from '@onekeyhq/kit/src/utils/hardware/errors';
-import { wait } from '@onekeyhq/kit/src/utils/helper';
+} from '@mywallet/kit/src/utils/hardware/errors';
+import { wait } from '@mywallet/kit/src/utils/helper';
 import type {
   BLEFirmwareInfo,
   SYSFirmwareInfo,
-} from '@onekeyhq/kit/src/utils/updates/type';
-import type { FirmwareType } from '@onekeyhq/kit/src/views/Hardware/UpdateFirmware/Updating';
+} from '@mywallet/kit/src/utils/updates/type';
+import type { FirmwareType } from '@mywallet/kit/src/views/Hardware/UpdateFirmware/Updating';
 import {
   backgroundClass,
   backgroundMethod,
-} from '@onekeyhq/shared/src/background/backgroundDecorators';
+} from '@mywallet/shared/src/background/backgroundDecorators';
 import {
   CoreSDKLoader,
   getHardwareSDKInstance,
-} from '@onekeyhq/shared/src/device/hardwareInstance';
-import { isPassphraseWallet } from '@onekeyhq/shared/src/engine/engineUtils';
-import debugLogger from '@onekeyhq/shared/src/logger/debugLogger';
-import platformEnv from '@onekeyhq/shared/src/platformEnv';
-import type { IOneKeyDeviceFeatures } from '@onekeyhq/shared/types';
+} from '@mywallet/shared/src/device/hardwareInstance';
+import { isPassphraseWallet } from '@mywallet/shared/src/engine/engineUtils';
+import debugLogger from '@mywallet/shared/src/logger/debugLogger';
+import platformEnv from '@mywallet/shared/src/platformEnv';
+import type { IOneKeyDeviceFeatures } from '@mywallet/shared/types';
 
 import ServiceBase from './ServiceBase';
 

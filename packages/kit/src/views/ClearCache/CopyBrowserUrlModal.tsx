@@ -1,7 +1,7 @@
 import { useIntl } from 'react-intl';
 
-import { Box, IconButton, Modal, Text } from '@onekeyhq/components';
-import platformEnv from '@onekeyhq/shared/src/platformEnv';
+import { Box, IconButton, Modal, Text } from '@mywallet/components';
+import platformEnv from '@mywallet/shared/src/platformEnv';
 
 import { useClipboard } from '../../hooks/useClipboard';
 

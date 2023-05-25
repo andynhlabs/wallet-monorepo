@@ -1,4 +1,4 @@
-import { Center, PageActions } from '@onekeyhq/components';
+import { Center, PageActions } from '@mywallet/components';
 
 const PageActionsGallery = () => (
   <Center flex="1" bg="background-hovered">

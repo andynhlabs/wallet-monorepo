@@ -1,7 +1,7 @@
 import { useMemo } from 'react';
 
-import { getWalletIdFromAccountId } from '@onekeyhq/engine/src/managers/account';
-import { getNetworkImpl } from '@onekeyhq/engine/src/managers/network';
+import { getWalletIdFromAccountId } from '@mywallet/engine/src/managers/account';
+import { getNetworkImpl } from '@mywallet/engine/src/managers/network';
 
 import { useAccount } from './useAccount';
 import { useNetwork } from './useNetwork';

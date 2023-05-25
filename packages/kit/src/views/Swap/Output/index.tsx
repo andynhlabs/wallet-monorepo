@@ -2,7 +2,7 @@ import { useCallback, useEffect, useMemo, useState } from 'react';
 
 import { useIntl } from 'react-intl';
 
-import type { Token } from '@onekeyhq/engine/src/types/token';
+import type { Token } from '@mywallet/engine/src/types/token';
 
 import backgroundApiProxy from '../../../background/instance/backgroundApiProxy';
 import { useAppSelector, useNavigation } from '../../../hooks';

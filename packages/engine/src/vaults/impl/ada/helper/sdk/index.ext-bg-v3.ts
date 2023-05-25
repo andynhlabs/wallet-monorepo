@@ -1,5 +1,5 @@
 /* eslint-disable @typescript-eslint/no-unsafe-return */
-import offscreenApiProxy from '@onekeyhq/kit-bg/src/offscreens/instance/offscreenApiProxy';
+import offscreenApiProxy from '@mywallet/kit-bg/src/offscreens/instance/offscreenApiProxy';
 
 import type { IAdaSdk, IEnsureSDKReady, IGetCardanoApi } from './types';
 

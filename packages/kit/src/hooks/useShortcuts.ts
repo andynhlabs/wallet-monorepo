@@ -1,7 +1,7 @@
 import { useEffect } from 'react';
 
-import platformEnv from '@onekeyhq/shared/src/platformEnv';
-import { ExplorerShortcutEvents } from '@onekeyhq/shared/src/shortcuts/shortcuts.enum';
+import platformEnv from '@mywallet/shared/src/platformEnv';
+import { ExplorerShortcutEvents } from '@mywallet/shared/src/shortcuts/shortcuts.enum';
 
 import { TabRoutes } from '../routes/routesEnum';
 import { appSelector } from '../store';

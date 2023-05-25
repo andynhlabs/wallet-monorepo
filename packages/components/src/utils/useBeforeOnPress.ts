@@ -2,8 +2,8 @@ import { useCallback } from 'react';
 
 import { makeMutable } from 'react-native-reanimated';
 
-import { doHapticsWhenEnabled } from '@onekeyhq/shared/src/haptics';
-import platformEnv from '@onekeyhq/shared/src/platformEnv';
+import { doHapticsWhenEnabled } from '@mywallet/shared/src/haptics';
+import platformEnv from '@mywallet/shared/src/platformEnv';
 
 import type { GestureResponderEvent } from 'react-native';
 

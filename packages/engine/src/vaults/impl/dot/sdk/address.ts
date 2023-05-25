@@ -2,7 +2,7 @@ import {
   addHexPrefix,
   isHexString,
   stripHexPrefix,
-} from '@onekeyhq/engine/src/vaults/utils/hexUtils';
+} from '@mywallet/engine/src/vaults/utils/hexUtils';
 
 import { SubstrateAddress } from '../substrate/SubstrateAddress';
 

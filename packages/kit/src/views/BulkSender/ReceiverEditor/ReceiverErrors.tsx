@@ -3,7 +3,7 @@ import { useMemo } from 'react';
 import BigNumber from 'bignumber.js';
 import { useIntl } from 'react-intl';
 
-import { HStack, Icon, Text } from '@onekeyhq/components';
+import { HStack, Icon, Text } from '@mywallet/components';
 
 import type { ReceiverError } from '../types';
 

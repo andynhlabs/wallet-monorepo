@@ -9,16 +9,16 @@ import {
   useIsVerticalLayout,
   useSafeAreaInsets,
   useUserDevice,
-} from '@onekeyhq/components';
-import { navigationShortcuts } from '@onekeyhq/kit/src/routes/navigationShortcuts';
+} from '@mywallet/components';
+import { navigationShortcuts } from '@mywallet/kit/src/routes/navigationShortcuts';
 import {
   bottomTabBarDescriptors,
   bottomTabBarRoutes,
   swapAndMarketRoutes,
-} from '@onekeyhq/kit/src/routes/Root/Main/Tab/routes/tabRoutes.base';
-import { TabRoutes } from '@onekeyhq/kit/src/routes/routesEnum';
-import { PortalExit } from '@onekeyhq/kit/src/views/Overlay/RootPortal';
-import platformEnv from '@onekeyhq/shared/src/platformEnv';
+} from '@mywallet/kit/src/routes/Root/Main/Tab/routes/tabRoutes.base';
+import { TabRoutes } from '@mywallet/kit/src/routes/routesEnum';
+import { PortalExit } from '@mywallet/kit/src/views/Overlay/RootPortal';
+import platformEnv from '@mywallet/shared/src/platformEnv';
 
 import Box from '../../Box';
 import Icon from '../../Icon';
@@ -84,7 +84,7 @@ export default function MobileBottomTabBar({
             );
             if (isVertical && isSwapOrMarketRoute) {
               const { appSelector } =
-                require('@onekeyhq/kit/src/store') as typeof import('@onekeyhq/kit/src/store');
+                require('@mywallet/kit/src/store') as typeof import('@mywallet/kit/src/store');
               const marketTopTabName =
                 appSelector((s) => s.market.marketTopTabName) || TabRoutes.Swap;
               // navigation.navigate(marketTopTabName);

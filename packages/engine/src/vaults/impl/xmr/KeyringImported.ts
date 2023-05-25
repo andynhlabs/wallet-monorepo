@@ -1,5 +1,5 @@
-import { decrypt } from '@onekeyhq/engine/src/secret/encryptors/aes256';
-import { COINTYPE_XMR as COIN_TYPE } from '@onekeyhq/shared/src/engine/engineConsts';
+import { decrypt } from '@mywallet/engine/src/secret/encryptors/aes256';
+import { COINTYPE_XMR as COIN_TYPE } from '@mywallet/shared/src/engine/engineConsts';
 
 import { OneKeyInternalError } from '../../../errors';
 import { AccountType } from '../../../types/account';

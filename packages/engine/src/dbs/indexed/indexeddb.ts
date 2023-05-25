@@ -8,7 +8,7 @@ import RNUUID from 'react-native-uuid';
 import {
   filterPassphraseWallet,
   handleDisplayPassphraseWallet,
-} from '@onekeyhq/shared/src/engine/engineUtils';
+} from '@mywallet/shared/src/engine/engineUtils';
 
 import {
   AccountAlreadyExists,

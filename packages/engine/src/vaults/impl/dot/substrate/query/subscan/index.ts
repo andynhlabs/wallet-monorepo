@@ -1,8 +1,8 @@
 import axios from 'axios';
 import memoizee from 'memoizee';
 
-import { OneKeyError } from '@onekeyhq/engine/src/errors';
-import { getChainIdFromNetworkId } from '@onekeyhq/engine/src/managers/network';
+import { OneKeyError } from '@mywallet/engine/src/errors';
+import { getChainIdFromNetworkId } from '@mywallet/engine/src/managers/network';
 
 import { BaseDotClient } from '../BaseDotClient';
 

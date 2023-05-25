@@ -12,17 +12,17 @@ import {
   ToastManager,
   Token,
   VStack,
-} from '@onekeyhq/components';
-import { getUtxoUniqueKey } from '@onekeyhq/engine/src/dbs/simple/entity/SimpleDbEntityUtxoAccounts';
-import type { Network } from '@onekeyhq/engine/src/types/network';
-import type { Token as IToken } from '@onekeyhq/engine/src/types/token';
-import type { ICoinControlListItem } from '@onekeyhq/engine/src/types/utxoAccounts';
-import { IEncodedTxUpdateType } from '@onekeyhq/engine/src/vaults/types';
-import type { IEncodedTxBtc } from '@onekeyhq/engine/src/vaults/utils/btcForkChain/types';
+} from '@mywallet/components';
+import { getUtxoUniqueKey } from '@mywallet/engine/src/dbs/simple/entity/SimpleDbEntityUtxoAccounts';
+import type { Network } from '@mywallet/engine/src/types/network';
+import type { Token as IToken } from '@mywallet/engine/src/types/token';
+import type { ICoinControlListItem } from '@mywallet/engine/src/types/utxoAccounts';
+import { IEncodedTxUpdateType } from '@mywallet/engine/src/vaults/types';
+import type { IEncodedTxBtc } from '@mywallet/engine/src/vaults/utils/btcForkChain/types';
 import {
   FormatBalance,
   FormatCurrencyTokenOfAccount,
-} from '@onekeyhq/kit/src/components/Format';
+} from '@mywallet/kit/src/components/Format';
 
 import backgroundApiProxy from '../../../background/instance/backgroundApiProxy';
 import { useNetwork } from '../../../hooks';

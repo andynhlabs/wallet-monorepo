@@ -7,9 +7,9 @@ import * as SplashScreen from 'expo-splash-screen';
 // @ts-expect-error no .d.ts
 import AnimatedSplash from 'react-native-animated-splash-screen';
 
-import { Box, useThemeValue } from '@onekeyhq/components';
-import backgroundApiProxy from '@onekeyhq/kit/src/background/instance/backgroundApiProxy';
-import platformEnv from '@onekeyhq/shared/src/platformEnv';
+import { Box, useThemeValue } from '@mywallet/components';
+import backgroundApiProxy from '@mywallet/kit/src/background/instance/backgroundApiProxy';
+import platformEnv from '@mywallet/shared/src/platformEnv';
 
 // eslint-disable-next-line @typescript-eslint/no-unused-vars
 const { serviceApp, serviceCronJob } = backgroundApiProxy;

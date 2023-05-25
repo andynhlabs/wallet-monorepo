@@ -10,18 +10,18 @@ import {
 import { Box, Center } from 'native-base';
 import { useIntl } from 'react-intl';
 
-import { parseNetworkId } from '@onekeyhq/engine/src/managers/network';
-import type { Token as IToken } from '@onekeyhq/engine/src/types/token';
-import { TokenRiskLevel } from '@onekeyhq/engine/src/types/token';
-import { useNetwork } from '@onekeyhq/kit/src/hooks';
-import useAppNavigation from '@onekeyhq/kit/src/hooks/useAppNavigation';
+import { parseNetworkId } from '@mywallet/engine/src/managers/network';
+import type { Token as IToken } from '@mywallet/engine/src/types/token';
+import { TokenRiskLevel } from '@mywallet/engine/src/types/token';
+import { useNetwork } from '@mywallet/kit/src/hooks';
+import useAppNavigation from '@mywallet/kit/src/hooks/useAppNavigation';
 import {
   ManageTokenModalRoutes,
   ModalRoutes,
   RootRoutes,
-} from '@onekeyhq/kit/src/routes/routesEnum';
-import { OnekeyNetwork } from '@onekeyhq/shared/src/config/networkIds';
-import platformEnv from '@onekeyhq/shared/src/platformEnv';
+} from '@mywallet/kit/src/routes/routesEnum';
+import { OnekeyNetwork } from '@mywallet/shared/src/config/networkIds';
+import platformEnv from '@mywallet/shared/src/platformEnv';
 
 import Icon from '../Icon';
 import Image from '../Image';

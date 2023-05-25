@@ -1,15 +1,15 @@
 import type { ComponentProps, FC } from 'react';
 import { memo, useCallback, useEffect, useState } from 'react';
 
-import { Provider } from '@onekeyhq/components';
-import type { LocaleSymbol } from '@onekeyhq/components/src/locale';
-import LOCALES from '@onekeyhq/components/src/locale';
-import { useAppSelector, useSettings } from '@onekeyhq/kit/src/hooks/redux';
-import { useColorScheme } from '@onekeyhq/kit/src/hooks/useColorScheme';
+import { Provider } from '@mywallet/components';
+import type { LocaleSymbol } from '@mywallet/components/src/locale';
+import LOCALES from '@mywallet/components/src/locale';
+import { useAppSelector, useSettings } from '@mywallet/kit/src/hooks/redux';
+import { useColorScheme } from '@mywallet/kit/src/hooks/useColorScheme';
 import {
   setLeftSidebarCollapsed,
   setThemePreloadToLocalStorage,
-} from '@onekeyhq/kit/src/store/reducers/settings';
+} from '@mywallet/kit/src/store/reducers/settings';
 
 import backgroundApiProxy from '../background/instance/backgroundApiProxy';
 import { useReduxReady } from '../hooks/useReduxReady';

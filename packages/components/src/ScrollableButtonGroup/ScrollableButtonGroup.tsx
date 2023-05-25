@@ -15,7 +15,7 @@ import Animated, {
   withTiming,
 } from 'react-native-reanimated';
 
-import { Box, Center, IconButton } from '@onekeyhq/components';
+import { Box, Center, IconButton } from '@mywallet/components';
 
 import { useForwardRef } from '../utils/useForwardRef';
 

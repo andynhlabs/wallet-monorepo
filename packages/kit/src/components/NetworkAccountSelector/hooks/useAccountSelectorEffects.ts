@@ -3,7 +3,7 @@ import { useCallback, useEffect, useRef } from 'react';
 
 import { InteractionManager } from 'react-native';
 
-import debugLogger from '@onekeyhq/shared/src/logger/debugLogger';
+import debugLogger from '@mywallet/shared/src/logger/debugLogger';
 
 import backgroundApiProxy from '../../../background/instance/backgroundApiProxy';
 import { useEffectOnUpdate } from '../../../hooks/useEffectOnUpdate';

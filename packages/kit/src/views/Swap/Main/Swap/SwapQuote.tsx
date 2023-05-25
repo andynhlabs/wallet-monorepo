@@ -13,7 +13,7 @@ import {
   Pressable,
   Stack,
   Typography,
-} from '@onekeyhq/components';
+} from '@mywallet/components';
 
 import backgroundApiProxy from '../../../../background/instance/backgroundApiProxy';
 import { useAppSelector, useNavigation, useNetwork } from '../../../../hooks';

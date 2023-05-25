@@ -1,4 +1,4 @@
-import type { IWallet } from '@onekeyhq/engine/src/types';
+import type { IWallet } from '@mywallet/engine/src/types';
 
 import type { KeyTagRoutes } from './enums';
 

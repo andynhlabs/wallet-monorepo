@@ -2,8 +2,8 @@
 import BigNumber from 'bignumber.js';
 import lru from 'tiny-lru';
 
-import type { TokenChartData } from '@onekeyhq/kit/src/store/reducers/tokens';
-import { RestfulRequest } from '@onekeyhq/shared/src/request/RestfulRequest';
+import type { TokenChartData } from '@mywallet/kit/src/store/reducers/tokens';
+import { RestfulRequest } from '@mywallet/shared/src/request/RestfulRequest';
 
 import { getFiatEndpoint } from './endpoint';
 import { getPresetNetworks } from './presets';

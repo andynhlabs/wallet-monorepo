@@ -2,7 +2,7 @@ import type { FC } from 'react';
 
 import { ChartPathProvider } from '@onekeyfe/react-native-animated-charts';
 
-import { Box } from '@onekeyhq/components';
+import { Box } from '@mywallet/components';
 
 import ChartWrapper from './value-chart/Chart';
 import useChartThrottledPoints from './value-chart/useChartThrottledPoints';

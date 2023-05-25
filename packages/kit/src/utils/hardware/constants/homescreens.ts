@@ -1,4 +1,4 @@
-import type { IOneKeyDeviceType } from '@onekeyhq/shared/types';
+import type { IOneKeyDeviceType } from '@mywallet/shared/types';
 
 import { T1Data, TouchData } from './homescreensData';
 

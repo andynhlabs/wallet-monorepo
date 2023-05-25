@@ -13,14 +13,14 @@ import {
   Spinner,
   Text,
   useThemeValue,
-} from '@onekeyhq/components';
-import DeviceMobile from '@onekeyhq/kit/assets/onboarding/device_classic_touch.png';
-import DeviceAll from '@onekeyhq/kit/assets/onboarding/device_mini_classic_touch.png';
+} from '@mywallet/components';
+import DeviceMobile from '@mywallet/kit/assets/onboarding/device_classic_touch.png';
+import DeviceAll from '@mywallet/kit/assets/onboarding/device_mini_classic_touch.png';
 // eslint-disable-next-line @typescript-eslint/no-unused-vars
-import ImgMetaMask from '@onekeyhq/kit/assets/onboarding/logo_metamask.png';
-import OneKeyLite from '@onekeyhq/kit/assets/onekey-lite.png';
-import supportedNFC from '@onekeyhq/shared/src/detector/nfc';
-import platformEnv from '@onekeyhq/shared/src/platformEnv';
+import ImgMetaMask from '@mywallet/kit/assets/onboarding/logo_metamask.png';
+import OneKeyLite from '@mywallet/kit/assets/onekey-lite.png';
+import supportedNFC from '@mywallet/shared/src/detector/nfc';
+import platformEnv from '@mywallet/shared/src/platformEnv';
 
 import { useActiveWalletAccount, useAppSelector } from '../../../../hooks';
 import useAppNavigation from '../../../../hooks/useAppNavigation';

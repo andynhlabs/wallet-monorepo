@@ -1,6 +1,6 @@
 import { useEffect } from 'react';
 
-import { useIsVerticalLayout } from '@onekeyhq/components';
+import { useIsVerticalLayout } from '@mywallet/components';
 
 import backgroundApiProxy from '../../../../../background/instance/backgroundApiProxy';
 import { useStatsListContext } from '../context';

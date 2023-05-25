@@ -8,7 +8,7 @@ import {
   Stack,
   Toast,
   ToastManager,
-} from '@onekeyhq/components';
+} from '@mywallet/components';
 
 const ToastGallery = () => {
   const addToast = useCallback(() => {

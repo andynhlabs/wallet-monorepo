@@ -1,9 +1,9 @@
 // import type only here to avoid cycle-deps error
 
-import type { Engine } from '@onekeyhq/engine';
-import type { Validators } from '@onekeyhq/engine/src/validators';
-import type { VaultFactory } from '@onekeyhq/engine/src/vaults/VaultFactory';
-import type { IAppSelector, IPersistor, IStore } from '@onekeyhq/kit/src/store';
+import type { Engine } from '@mywallet/engine';
+import type { Validators } from '@mywallet/engine/src/validators';
+import type { VaultFactory } from '@mywallet/engine/src/vaults/VaultFactory';
+import type { IAppSelector, IPersistor, IStore } from '@mywallet/kit/src/store';
 
 import type ProviderApiBase from './providers/ProviderApiBase';
 import type { ProviderApiWalletConnect } from './providers/ProviderApiWalletConnect';

@@ -1,6 +1,6 @@
 import type { ReactNode } from 'react';
 
-import { Box, useIsVerticalLayout } from '@onekeyhq/components';
+import { Box, useIsVerticalLayout } from '@mywallet/components';
 
 import { Desktop } from './Desktop';
 import { Mobile } from './Mobile';

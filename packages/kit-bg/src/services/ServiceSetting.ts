@@ -2,27 +2,27 @@
 
 import semver from 'semver';
 
-import simpleDb from '@onekeyhq/engine/src/dbs/simple/simpleDb';
-import { getFiatEndpoint } from '@onekeyhq/engine/src/endpoint';
-import { setShowBookmark } from '@onekeyhq/kit/src/store/reducers/discover';
-import type { WalletSwitchItem } from '@onekeyhq/kit/src/store/reducers/settings';
+import simpleDb from '@mywallet/engine/src/dbs/simple/simpleDb';
+import { getFiatEndpoint } from '@mywallet/engine/src/endpoint';
+import { setShowBookmark } from '@mywallet/kit/src/store/reducers/discover';
+import type { WalletSwitchItem } from '@mywallet/kit/src/store/reducers/settings';
 import {
   disableExtSwitchTips,
   setEnableETH2Unstake,
   setWalletSwitch,
   toggleDisableExt,
   toggleWalletSwitch,
-} from '@onekeyhq/kit/src/store/reducers/settings';
+} from '@mywallet/kit/src/store/reducers/settings';
 import {
   setLimitOrderMaintain,
   setSwapMaintain,
-} from '@onekeyhq/kit/src/store/reducers/swapTransactions';
-import extUtils from '@onekeyhq/kit/src/utils/extUtils';
+} from '@mywallet/kit/src/store/reducers/swapTransactions';
+import extUtils from '@mywallet/kit/src/utils/extUtils';
 import {
   backgroundClass,
   backgroundMethod,
-} from '@onekeyhq/shared/src/background/backgroundDecorators';
-import platformEnv from '@onekeyhq/shared/src/platformEnv';
+} from '@mywallet/shared/src/background/backgroundDecorators';
+import platformEnv from '@mywallet/shared/src/platformEnv';
 
 import ServiceBase from './ServiceBase';
 

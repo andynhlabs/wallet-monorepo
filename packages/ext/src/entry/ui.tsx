@@ -1,5 +1,5 @@
 // eslint-disable-next-line import/order
-import '@onekeyhq/shared/src/polyfills';
+import '@mywallet/shared/src/polyfills';
 
 import hotReload from '../ui/hotReload';
 import uiJsBridge from '../ui/uiJsBridge';

@@ -8,9 +8,9 @@ import {
   Center,
   IconButton,
   useIsVerticalLayout,
-} from '@onekeyhq/components';
-import { ModalRoutes, RootRoutes } from '@onekeyhq/kit/src/routes/routesEnum';
-import platformEnv from '@onekeyhq/shared/src/platformEnv';
+} from '@mywallet/components';
+import { ModalRoutes, RootRoutes } from '@mywallet/kit/src/routes/routesEnum';
+import platformEnv from '@mywallet/shared/src/platformEnv';
 
 import backgroundApiProxy from '../../../../background/instance/backgroundApiProxy';
 import { LazyDisplayView } from '../../../../components/LazyDisplayView';

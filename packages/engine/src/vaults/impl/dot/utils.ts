@@ -1,4 +1,4 @@
-import { IDecodedTxActionType } from '@onekeyhq/engine/src/vaults/types';
+import { IDecodedTxActionType } from '@mywallet/engine/src/vaults/types';
 
 import { OneKeyInternalError } from '../../../errors';
 

@@ -2,9 +2,9 @@ import { useCallback, useLayoutEffect } from 'react';
 
 import { useIntl } from 'react-intl';
 
-import { Box, ScrollView, useTheme } from '@onekeyhq/components';
-import type { PriceAlertItem } from '@onekeyhq/engine/src/managers/notification';
-import { useNavigation } from '@onekeyhq/kit/src/hooks';
+import { Box, ScrollView, useTheme } from '@mywallet/components';
+import type { PriceAlertItem } from '@mywallet/engine/src/managers/notification';
+import { useNavigation } from '@mywallet/kit/src/hooks';
 
 import { ListEmptyComponent } from './Empty';
 import { usePriceAlertlist } from './hooks';

@@ -4,15 +4,15 @@ import { useEffect, useRef, useState } from 'react';
 import { debounce, orderBy } from 'lodash';
 import { InteractionManager } from 'react-native';
 
-import type { IWallet } from '@onekeyhq/engine/src/types';
+import type { IWallet } from '@mywallet/engine/src/types';
 import {
   WALLET_TYPE_EXTERNAL,
   WALLET_TYPE_HD,
   WALLET_TYPE_HW,
   WALLET_TYPE_IMPORTED,
   WALLET_TYPE_WATCHING,
-} from '@onekeyhq/engine/src/types/wallet';
-import debugLogger from '@onekeyhq/shared/src/logger/debugLogger';
+} from '@mywallet/engine/src/types/wallet';
+import debugLogger from '@mywallet/shared/src/logger/debugLogger';
 
 import { useRuntime } from '../../../hooks/redux';
 

@@ -4,8 +4,8 @@ import { useCallback, useEffect, useRef, useState } from 'react';
 import { isNil, isString, pick } from 'lodash';
 import { Dimensions, useWindowDimensions } from 'react-native';
 
-import { wait } from '@onekeyhq/kit/src/utils/helper';
-import platformEnv from '@onekeyhq/shared/src/platformEnv';
+import { wait } from '@mywallet/kit/src/utils/helper';
+import platformEnv from '@mywallet/shared/src/platformEnv';
 
 import { ModalRefStore } from '../Modal';
 

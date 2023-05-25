@@ -2,7 +2,7 @@ import { getPathFromState as getPathFromStateDefault } from '@react-navigation/c
 import * as Linking from 'expo-linking';
 import { merge } from 'lodash';
 
-import platformEnv from '@onekeyhq/shared/src/platformEnv';
+import platformEnv from '@mywallet/shared/src/platformEnv';
 
 import {
   ONEKEY_APP_DEEP_LINK,

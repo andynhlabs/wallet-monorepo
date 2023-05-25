@@ -1,8 +1,8 @@
-import type { LocaleIds } from '@onekeyhq/components/src/locale/';
+import type { LocaleIds } from '@mywallet/components/src/locale/';
 import {
   COINTYPE_XMR,
   INDEX_PLACEHOLDER,
-} from '@onekeyhq/shared/src/engine/engineConsts';
+} from '@mywallet/shared/src/engine/engineConsts';
 
 import { AccountCredentialType } from '../../../types/account';
 

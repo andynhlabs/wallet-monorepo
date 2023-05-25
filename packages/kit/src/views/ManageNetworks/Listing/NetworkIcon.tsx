@@ -1,7 +1,7 @@
 import type { FC } from 'react';
 
-import { Box, Image, Typography } from '@onekeyhq/components';
-import type { Network } from '@onekeyhq/engine/src/types/network';
+import { Box, Image, Typography } from '@mywallet/components';
+import type { Network } from '@mywallet/engine/src/types/network';
 
 type NetworkIconProps = {
   network: Network;

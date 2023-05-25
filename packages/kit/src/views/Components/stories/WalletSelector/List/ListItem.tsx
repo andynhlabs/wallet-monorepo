@@ -1,7 +1,7 @@
 import type { ComponentProps, FC } from 'react';
 
-import { Badge, Box, IconButton, Pressable, Text } from '@onekeyhq/components';
-import WalletAvatar from '@onekeyhq/kit/src/components/WalletSelector/WalletAvatar';
+import { Badge, Box, IconButton, Pressable, Text } from '@mywallet/components';
+import WalletAvatar from '@mywallet/kit/src/components/WalletSelector/WalletAvatar';
 
 type ListItemProps = {
   name?: string;

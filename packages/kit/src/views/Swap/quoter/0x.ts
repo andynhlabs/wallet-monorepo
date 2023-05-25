@@ -1,7 +1,7 @@
 import axios from 'axios';
 
-import type { Network } from '@onekeyhq/engine/src/types/network';
-import { OnekeyNetwork } from '@onekeyhq/shared/src/config/networkIds';
+import type { Network } from '@mywallet/engine/src/types/network';
+import { OnekeyNetwork } from '@mywallet/shared/src/config/networkIds';
 
 import backgroundApiProxy from '../../../background/instance/backgroundApiProxy';
 import { estimatedTime, zeroXenabledNetworkIds } from '../config';

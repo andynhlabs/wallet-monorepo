@@ -1,8 +1,8 @@
 // eslint-disable-next-line @typescript-eslint/naming-convention
 import BigNumber from 'bignumber.js';
 
-import { BaseClient } from '@onekeyhq/engine/src/client/BaseClient';
-import { JsonRPCRequest } from '@onekeyhq/shared/src/request/JsonRPCRequest';
+import { BaseClient } from '@mywallet/engine/src/client/BaseClient';
+import { JsonRPCRequest } from '@mywallet/shared/src/request/JsonRPCRequest';
 
 import { TransactionStatus } from '../../../types/provider';
 

@@ -1,13 +1,13 @@
 import axios from 'axios';
 import BigNumber from 'bignumber.js';
 
-import { getNetworkImpl } from '@onekeyhq/engine/src/managers/network';
-import type { Token } from '@onekeyhq/engine/src/types/token';
-import type { IEncodedTxAptos } from '@onekeyhq/engine/src/vaults/impl/apt/types';
-import type { IEncodedTxEvm } from '@onekeyhq/engine/src/vaults/impl/evm/Vault';
-import { IDecodedTxStatus } from '@onekeyhq/engine/src/vaults/types';
-import { IMPL_APTOS, IMPL_EVM } from '@onekeyhq/shared/src/engine/engineConsts';
-import debugLogger from '@onekeyhq/shared/src/logger/debugLogger';
+import { getNetworkImpl } from '@mywallet/engine/src/managers/network';
+import type { Token } from '@mywallet/engine/src/types/token';
+import type { IEncodedTxAptos } from '@mywallet/engine/src/vaults/impl/apt/types';
+import type { IEncodedTxEvm } from '@mywallet/engine/src/vaults/impl/evm/Vault';
+import { IDecodedTxStatus } from '@mywallet/engine/src/vaults/types';
+import { IMPL_APTOS, IMPL_EVM } from '@mywallet/shared/src/engine/engineConsts';
+import debugLogger from '@mywallet/shared/src/logger/debugLogger';
 
 import backgroundApiProxy from '../../../background/instance/backgroundApiProxy';
 import {

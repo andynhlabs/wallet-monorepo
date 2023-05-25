@@ -55,7 +55,7 @@ Die Repositories sind nach dem Monorepo-Modell organisiert, um den Code auf vers
 
 Jedes Unterverzeichnis unter dem Verzeichnis `packages/` ist ein separates Projekt, dessen Name dem Wert des Feldes `name` im Verzeichnis **package.json** in monorepo entspricht.
 
-Wenn Sie eine Abhängigkeit für ein Unterverzeichnis installieren müssen, verwenden Sie einfach `yarn workspace @onekeyhq/web add axios`. Mit einem Präfix wie `yarn workspace @onekeyhq/web` kann das axios-Modul schließlich im Stammverzeichnis des Web-Unterprojekts installiert werden.
+Wenn Sie eine Abhängigkeit für ein Unterverzeichnis installieren müssen, verwenden Sie einfach `yarn workspace @mywallet/web add axios`. Mit einem Präfix wie `yarn workspace @mywallet/web` kann das axios-Modul schließlich im Stammverzeichnis des Web-Unterprojekts installiert werden.
 
 Einige der Abhängigkeiten haben native Teile, daher müssen Sie in das Verzeichnis `packages/app/ios` gehen und `pod install` ausführen, nachdem Sie die JS-Abhängigkeiten installiert haben.
 

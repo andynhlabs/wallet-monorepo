@@ -3,7 +3,7 @@ import { useMemo } from 'react';
 
 import { useIntl } from 'react-intl';
 
-import { useUserDevice } from '@onekeyhq/components';
+import { useUserDevice } from '@mywallet/components';
 
 import Box from '../../Box';
 import Button from '../../Button';

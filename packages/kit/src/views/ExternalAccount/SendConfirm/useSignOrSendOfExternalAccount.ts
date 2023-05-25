@@ -6,14 +6,14 @@ import { useIntl } from 'react-intl';
 import {
   ETHMessageTypes,
   getEthProviderMethodFromMessageType,
-} from '@onekeyhq/engine/src/types/message';
+} from '@mywallet/engine/src/types/message';
 import type {
   IEncodedTxEvm,
   IUnsignedMessageEvm,
-} from '@onekeyhq/engine/src/vaults/impl/evm/Vault';
-import type { IEncodedTx } from '@onekeyhq/engine/src/vaults/types';
-import debugLogger from '@onekeyhq/shared/src/logger/debugLogger';
-import type { IDappSourceInfo } from '@onekeyhq/shared/types';
+} from '@mywallet/engine/src/vaults/impl/evm/Vault';
+import type { IEncodedTx } from '@mywallet/engine/src/vaults/types';
+import debugLogger from '@mywallet/shared/src/logger/debugLogger';
+import type { IDappSourceInfo } from '@mywallet/shared/types';
 
 import backgroundApiProxy from '../../../background/instance/backgroundApiProxy';
 

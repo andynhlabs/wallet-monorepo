@@ -9,8 +9,8 @@ import {
   Text,
   VStack,
   useIsVerticalLayout,
-} from '@onekeyhq/components';
-import { TokenIcon } from '@onekeyhq/components/src/Token';
+} from '@mywallet/components';
+import { TokenIcon } from '@mywallet/components/src/Token';
 
 import { OverviewBadge } from '../OverviewBadge';
 

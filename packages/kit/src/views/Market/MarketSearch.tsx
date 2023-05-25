@@ -16,12 +16,12 @@ import {
   Spinner,
   Typography,
   useIsVerticalLayout,
-} from '@onekeyhq/components';
-import NavigationButton from '@onekeyhq/components/src/Modal/Container/Header/NavigationButton';
-import useModalClose from '@onekeyhq/components/src/Modal/Container/useModalClose';
-import { HomeRoutes } from '@onekeyhq/kit/src/routes/routesEnum';
-import type { HomeRoutesParams } from '@onekeyhq/kit/src/routes/types';
-import platformEnv from '@onekeyhq/shared/src/platformEnv';
+} from '@mywallet/components';
+import NavigationButton from '@mywallet/components/src/Modal/Container/Header/NavigationButton';
+import useModalClose from '@mywallet/components/src/Modal/Container/useModalClose';
+import { HomeRoutes } from '@mywallet/kit/src/routes/routesEnum';
+import type { HomeRoutesParams } from '@mywallet/kit/src/routes/types';
+import platformEnv from '@mywallet/shared/src/platformEnv';
 
 import backgroundApiProxy from '../../background/instance/backgroundApiProxy';
 

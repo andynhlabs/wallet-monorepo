@@ -18,7 +18,7 @@ import {
   Pressable,
   SegmentedControl,
   Typography,
-} from '@onekeyhq/components';
+} from '@mywallet/components';
 
 import backgroundApiProxy from '../../../background/instance/backgroundApiProxy';
 import { useNavigation, useTranslation } from '../../../hooks';

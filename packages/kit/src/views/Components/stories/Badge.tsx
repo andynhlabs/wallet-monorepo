@@ -1,4 +1,4 @@
-import { Badge, Box, Center } from '@onekeyhq/components';
+import { Badge, Box, Center } from '@mywallet/components';
 
 const BadgeGallery = () => (
   <Center flex="1" bg="background-hovered">

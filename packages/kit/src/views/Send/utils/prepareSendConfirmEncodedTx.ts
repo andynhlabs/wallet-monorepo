@@ -2,11 +2,11 @@
 import BigNumber from 'bignumber.js';
 import { toLower } from 'lodash';
 
-import type { IEncodedTxEvm } from '@onekeyhq/engine/src/vaults/impl/evm/Vault';
-import type { IEncodedTx } from '@onekeyhq/engine/src/vaults/types';
-import { IEncodedTxUpdateType } from '@onekeyhq/engine/src/vaults/types';
-import type { IEncodedTxBtc } from '@onekeyhq/engine/src/vaults/utils/btcForkChain/types';
-import { IMPL_EVM } from '@onekeyhq/shared/src/engine/engineConsts';
+import type { IEncodedTxEvm } from '@mywallet/engine/src/vaults/impl/evm/Vault';
+import type { IEncodedTx } from '@mywallet/engine/src/vaults/types';
+import { IEncodedTxUpdateType } from '@mywallet/engine/src/vaults/types';
+import type { IEncodedTxBtc } from '@mywallet/engine/src/vaults/utils/btcForkChain/types';
+import { IMPL_EVM } from '@mywallet/shared/src/engine/engineConsts';
 
 import backgroundApiProxy from '../../../background/instance/backgroundApiProxy';
 

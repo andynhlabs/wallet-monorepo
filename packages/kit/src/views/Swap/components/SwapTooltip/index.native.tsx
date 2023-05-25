@@ -3,7 +3,7 @@ import { useState } from 'react';
 
 import { StyleSheet, View } from 'react-native';
 
-import { Box, Icon, Typography, useThemeValue } from '@onekeyhq/components';
+import { Box, Icon, Typography, useThemeValue } from '@mywallet/components';
 
 import type { SwapTooltipProps } from './types';
 

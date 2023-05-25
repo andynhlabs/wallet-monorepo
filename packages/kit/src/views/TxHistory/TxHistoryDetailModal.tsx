@@ -3,9 +3,9 @@ import { useEffect } from 'react';
 
 import { useRoute } from '@react-navigation/core';
 
-import { Button, Modal, Spinner } from '@onekeyhq/components';
-import type { TransactionDetailRoutesParams } from '@onekeyhq/kit/src/routes/Root/Modal/TransactionDetail';
-import platformEnv from '@onekeyhq/shared/src/platformEnv';
+import { Button, Modal, Spinner } from '@mywallet/components';
+import type { TransactionDetailRoutesParams } from '@mywallet/kit/src/routes/Root/Modal/TransactionDetail';
+import platformEnv from '@mywallet/shared/src/platformEnv';
 
 import backgroundApiProxy from '../../background/instance/backgroundApiProxy';
 import { TxActionElementTime } from '../TxDetail/elements/TxActionElementTime';

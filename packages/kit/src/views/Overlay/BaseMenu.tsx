@@ -4,9 +4,9 @@ import { Children, Fragment, cloneElement, useCallback } from 'react';
 import { useIntl } from 'react-intl';
 import { initialWindowMetrics } from 'react-native-safe-area-context';
 
-import type { ICON_NAMES } from '@onekeyhq/components';
-import { Menu } from '@onekeyhq/components';
-import platformEnv from '@onekeyhq/shared/src/platformEnv';
+import type { ICON_NAMES } from '@mywallet/components';
+import { Menu } from '@mywallet/components';
+import platformEnv from '@mywallet/shared/src/platformEnv';
 
 import type { IMenuProps } from 'native-base';
 import type { MessageDescriptor } from 'react-intl';

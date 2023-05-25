@@ -3,11 +3,11 @@ import { useMemo } from 'react';
 
 import { useIntl } from 'react-intl';
 
-import { Box, Icon, Text } from '@onekeyhq/components';
-import PressableItem from '@onekeyhq/components/src/Pressable/PressableItem';
-import { formatMessage } from '@onekeyhq/components/src/Provider';
-import backgroundApiProxy from '@onekeyhq/kit/src/background/instance/backgroundApiProxy';
-import { useAppSelector } from '@onekeyhq/kit/src/hooks/redux';
+import { Box, Icon, Text } from '@mywallet/components';
+import PressableItem from '@mywallet/components/src/Pressable/PressableItem';
+import { formatMessage } from '@mywallet/components/src/Provider';
+import backgroundApiProxy from '@mywallet/kit/src/background/instance/backgroundApiProxy';
+import { useAppSelector } from '@mywallet/kit/src/hooks/redux';
 
 import { showOverlay } from '../../utils/overlayUtils';
 

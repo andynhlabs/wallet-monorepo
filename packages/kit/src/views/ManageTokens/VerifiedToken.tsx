@@ -18,9 +18,9 @@ import {
   Token as TokenImage,
   Typography,
   VStack,
-} from '@onekeyhq/components';
-import type { TokenSource } from '@onekeyhq/engine/src/managers/token';
-import NoRisks from '@onekeyhq/kit/assets/NoRisks.png';
+} from '@mywallet/components';
+import type { TokenSource } from '@mywallet/engine/src/managers/token';
+import NoRisks from '@mywallet/kit/assets/NoRisks.png';
 
 import { useNavigation } from '../../hooks';
 import {

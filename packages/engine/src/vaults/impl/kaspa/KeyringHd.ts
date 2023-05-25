@@ -1,24 +1,24 @@
 import { bytesToHex, hexToBytes } from '@noble/hashes/utils';
 
-import type { ExportedSeedCredential } from '@onekeyhq/engine/src/dbs/base';
-import { OneKeyInternalError } from '@onekeyhq/engine/src/errors';
-import { slicePathTemplate } from '@onekeyhq/engine/src/managers/derivation';
-import { Signer } from '@onekeyhq/engine/src/proxy';
-import { batchGetPublicKeys } from '@onekeyhq/engine/src/secret';
-import { AccountType } from '@onekeyhq/engine/src/types/account';
-import type { DBSimpleAccount } from '@onekeyhq/engine/src/types/account';
-import type { UnsignedTx } from '@onekeyhq/engine/src/types/provider';
-import { KeyringHdBase } from '@onekeyhq/engine/src/vaults/keyring/KeyringHdBase';
+import type { ExportedSeedCredential } from '@mywallet/engine/src/dbs/base';
+import { OneKeyInternalError } from '@mywallet/engine/src/errors';
+import { slicePathTemplate } from '@mywallet/engine/src/managers/derivation';
+import { Signer } from '@mywallet/engine/src/proxy';
+import { batchGetPublicKeys } from '@mywallet/engine/src/secret';
+import { AccountType } from '@mywallet/engine/src/types/account';
+import type { DBSimpleAccount } from '@mywallet/engine/src/types/account';
+import type { UnsignedTx } from '@mywallet/engine/src/types/provider';
+import { KeyringHdBase } from '@mywallet/engine/src/vaults/keyring/KeyringHdBase';
 import type {
   IPrepareSoftwareAccountsParams,
   ISignCredentialOptions,
   SignedTxResult,
-} from '@onekeyhq/engine/src/vaults/types';
+} from '@mywallet/engine/src/vaults/types';
 import {
   IMPL_KASPA as COIN_IMPL,
   COINTYPE_KASPA as COIN_TYPE,
-} from '@onekeyhq/shared/src/engine/engineConsts';
-import debugLogger from '@onekeyhq/shared/src/logger/debugLogger';
+} from '@mywallet/shared/src/engine/engineConsts';
+import debugLogger from '@mywallet/shared/src/logger/debugLogger';
 
 import { getAccountNameInfoByImpl } from '../../../managers/impl';
 

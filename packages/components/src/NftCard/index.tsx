@@ -3,7 +3,7 @@ import type { FC, ReactNode } from 'react';
 
 import { useWindowDimensions } from 'react-native';
 
-import { useUserDevice } from '@onekeyhq/components';
+import { useUserDevice } from '@mywallet/components';
 
 import Box from '../Box';
 import Center from '../Center';

@@ -3,7 +3,7 @@
 import { useRoute } from '@react-navigation/core';
 import { useIntl } from 'react-intl';
 
-import { Box, IconButton, Modal } from '@onekeyhq/components';
+import { Box, IconButton, Modal } from '@mywallet/components';
 
 import useAppNavigation from '../../../../hooks/useAppNavigation';
 import {

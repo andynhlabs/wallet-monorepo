@@ -2,11 +2,11 @@ import type { FC } from 'react';
 
 import { useIntl } from 'react-intl';
 
-import { LottieView, Text } from '@onekeyhq/components';
-import ConfirmOnClassic from '@onekeyhq/kit/assets/animations/confirm-on-onekey-classic.json';
-import ConfirmOnMini from '@onekeyhq/kit/assets/animations/confirm-on-onekey-mini.json';
-import ConfirmOnPro from '@onekeyhq/kit/assets/animations/confirm-on-onekey-pro.json';
-import ConfirmOnTouch from '@onekeyhq/kit/assets/animations/confirm-on-onekey-touch.json';
+import { LottieView, Text } from '@mywallet/components';
+import ConfirmOnClassic from '@mywallet/kit/assets/animations/confirm-on-onekey-classic.json';
+import ConfirmOnMini from '@mywallet/kit/assets/animations/confirm-on-onekey-mini.json';
+import ConfirmOnPro from '@mywallet/kit/assets/animations/confirm-on-onekey-pro.json';
+import ConfirmOnTouch from '@mywallet/kit/assets/animations/confirm-on-onekey-touch.json';
 
 import BaseRequestView from './BaseRequest';
 

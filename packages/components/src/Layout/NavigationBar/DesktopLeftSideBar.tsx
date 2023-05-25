@@ -6,9 +6,9 @@ import { CommonActions } from '@react-navigation/native';
 import { LinearGradient } from 'expo-linear-gradient';
 import { AnimatePresence, MotiView } from 'moti';
 
-import { Center, Tooltip, useThemeValue } from '@onekeyhq/components';
-import WalletSelectorTrigger from '@onekeyhq/kit/src/components/WalletSelector/WalletSelectorTrigger/WalletSelectorTrigger';
-import platformEnv from '@onekeyhq/shared/src/platformEnv';
+import { Center, Tooltip, useThemeValue } from '@mywallet/components';
+import WalletSelectorTrigger from '@mywallet/kit/src/components/WalletSelector/WalletSelectorTrigger/WalletSelectorTrigger';
+import platformEnv from '@mywallet/shared/src/platformEnv';
 
 import Box from '../../Box';
 import { DesktopDragZoneAbsoluteBar } from '../../DesktopDragZoneBox';

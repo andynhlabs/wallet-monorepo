@@ -1,20 +1,20 @@
 /* eslint-disable @typescript-eslint/require-await */
 import { debounce } from 'lodash';
 
-import { isAccountCompatibleWithNetwork } from '@onekeyhq/engine/src/managers/account';
-import type { INetwork, IWallet } from '@onekeyhq/engine/src/types';
-import { ACCOUNT_SELECTOR_REFRESH_DEBOUNCE } from '@onekeyhq/kit/src/components/Header/AccountSelectorChildren/accountSelectorConsts';
-import type { AccountGroup } from '@onekeyhq/kit/src/components/Header/AccountSelectorChildren/RightAccountSection/ItemSection';
-import { getActiveWalletAccount } from '@onekeyhq/kit/src/hooks/redux';
-import { getManageNetworks } from '@onekeyhq/kit/src/hooks/useManageNetworks';
-import reducerAccountSelector from '@onekeyhq/kit/src/store/reducers/reducerAccountSelector';
-import { wait } from '@onekeyhq/kit/src/utils/helper';
+import { isAccountCompatibleWithNetwork } from '@mywallet/engine/src/managers/account';
+import type { INetwork, IWallet } from '@mywallet/engine/src/types';
+import { ACCOUNT_SELECTOR_REFRESH_DEBOUNCE } from '@mywallet/kit/src/components/Header/AccountSelectorChildren/accountSelectorConsts';
+import type { AccountGroup } from '@mywallet/kit/src/components/Header/AccountSelectorChildren/RightAccountSection/ItemSection';
+import { getActiveWalletAccount } from '@mywallet/kit/src/hooks/redux';
+import { getManageNetworks } from '@mywallet/kit/src/hooks/useManageNetworks';
+import reducerAccountSelector from '@mywallet/kit/src/store/reducers/reducerAccountSelector';
+import { wait } from '@mywallet/kit/src/utils/helper';
 import {
   backgroundClass,
   backgroundMethod,
   bindThis,
-} from '@onekeyhq/shared/src/background/backgroundDecorators';
-import debugLogger from '@onekeyhq/shared/src/logger/debugLogger';
+} from '@mywallet/shared/src/background/backgroundDecorators';
+import debugLogger from '@mywallet/shared/src/logger/debugLogger';
 
 import ServiceBase from './ServiceBase';
 

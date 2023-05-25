@@ -4,7 +4,7 @@ import {
   IMPL_LTC,
   IMPL_SOL,
   INDEX_PLACEHOLDER,
-} from '@onekeyhq/shared/src/engine/engineConsts';
+} from '@mywallet/shared/src/engine/engineConsts';
 
 import { getAccountNameInfoByImpl } from '../../src/managers/impl';
 

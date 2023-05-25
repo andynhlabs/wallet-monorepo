@@ -3,12 +3,12 @@ import bs58check from 'bs58check';
 import {
   batchGetPublicKeys,
   generateRootFingerprint,
-} from '@onekeyhq/engine/src/secret';
-import { KeyringHd as KeyringHdBtcFork } from '@onekeyhq/engine/src/vaults/utils/btcForkChain/KeyringHd';
+} from '@mywallet/engine/src/secret';
+import { KeyringHd as KeyringHdBtcFork } from '@mywallet/engine/src/vaults/utils/btcForkChain/KeyringHd';
 import {
   COINTYPE_BCH,
   COINTYPE_DOGE,
-} from '@onekeyhq/shared/src/engine/engineConsts';
+} from '@mywallet/shared/src/engine/engineConsts';
 
 import { OneKeyInternalError } from '../../../errors';
 import { slicePathTemplate } from '../../../managers/derivation';

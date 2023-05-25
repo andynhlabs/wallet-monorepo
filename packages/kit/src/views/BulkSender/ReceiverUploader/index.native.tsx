@@ -4,7 +4,7 @@ import { EncodingType, readAsStringAsync } from 'expo-file-system';
 import { pickSingle, types } from 'react-native-document-picker';
 import { read, utils } from 'xlsx';
 
-import { Box, Center, Icon, Pressable } from '@onekeyhq/components';
+import { Box, Center, Icon, Pressable } from '@mywallet/components';
 
 import { ReceiverErrors } from '../ReceiverEditor/ReceiverErrors';
 import { ReceiverExample } from '../ReceiverExample';

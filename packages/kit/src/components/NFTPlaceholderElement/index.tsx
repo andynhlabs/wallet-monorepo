@@ -1,9 +1,9 @@
 import type { FC } from 'react';
 import { memo } from 'react';
 
-import { Box, Center, Icon, Image, NetImage } from '@onekeyhq/components';
-import CollectionDefaultLogo from '@onekeyhq/components/img/collection_default_logo.png';
-import NFTPlaceholderBG from '@onekeyhq/components/img/NFT_placeholder_bg.png';
+import { Box, Center, Icon, Image, NetImage } from '@mywallet/components';
+import CollectionDefaultLogo from '@mywallet/components/img/collection_default_logo.png';
+import NFTPlaceholderBG from '@mywallet/components/img/NFT_placeholder_bg.png';
 
 type Props = {
   contentType?: string | null;

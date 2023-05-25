@@ -1,7 +1,7 @@
 import type { FC } from 'react';
 import { useMemo } from 'react';
 
-import { Box } from '@onekeyhq/components';
+import { Box } from '@mywallet/components';
 
 import { DappSecurityView } from '../../Send/components/DappSecurityView';
 

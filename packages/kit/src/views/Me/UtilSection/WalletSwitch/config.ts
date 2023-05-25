@@ -1,13 +1,13 @@
-import AptosMartianLogo from '@onekeyhq/kit/assets/walletLogo/aptos_martian.png';
-import AptosPetraLogo from '@onekeyhq/kit/assets/walletLogo/aptos_petra.png';
-import CardanoNamiLogo from '@onekeyhq/kit/assets/walletLogo/cardano_nami.png';
-import ConflusFluentLogo from '@onekeyhq/kit/assets/walletLogo/conflux_fluent_wallet.png';
-import CosmosKeplrLogo from '@onekeyhq/kit/assets/walletLogo/cosmos_keplr.png';
-import MetamaskLogo from '@onekeyhq/kit/assets/walletLogo/evm_metamask.png';
-import SolanaPhantomLogo from '@onekeyhq/kit/assets/walletLogo/solana_phantom.png';
-import StarcoinStarmaskLogo from '@onekeyhq/kit/assets/walletLogo/starcoin_starmask.png';
-import SuiWalletLogo from '@onekeyhq/kit/assets/walletLogo/sui_sui_wallet.png';
-import TronLinkLogo from '@onekeyhq/kit/assets/walletLogo/tron_tronlink.png';
+import AptosMartianLogo from '@mywallet/kit/assets/walletLogo/aptos_martian.png';
+import AptosPetraLogo from '@mywallet/kit/assets/walletLogo/aptos_petra.png';
+import CardanoNamiLogo from '@mywallet/kit/assets/walletLogo/cardano_nami.png';
+import ConflusFluentLogo from '@mywallet/kit/assets/walletLogo/conflux_fluent_wallet.png';
+import CosmosKeplrLogo from '@mywallet/kit/assets/walletLogo/cosmos_keplr.png';
+import MetamaskLogo from '@mywallet/kit/assets/walletLogo/evm_metamask.png';
+import SolanaPhantomLogo from '@mywallet/kit/assets/walletLogo/solana_phantom.png';
+import StarcoinStarmaskLogo from '@mywallet/kit/assets/walletLogo/starcoin_starmask.png';
+import SuiWalletLogo from '@mywallet/kit/assets/walletLogo/sui_sui_wallet.png';
+import TronLinkLogo from '@mywallet/kit/assets/walletLogo/tron_tronlink.png';
 
 import type { WalletSwitchItem } from '../../../../store/reducers/settings';
 

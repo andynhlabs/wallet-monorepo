@@ -12,9 +12,9 @@ import {
   Token,
   Typography,
   useIsVerticalLayout,
-} from '@onekeyhq/components';
-import { SCREEN_SIZE } from '@onekeyhq/components/src/Provider/device';
-import platformEnv from '@onekeyhq/shared/src/platformEnv';
+} from '@mywallet/components';
+import { SCREEN_SIZE } from '@mywallet/components/src/Provider/device';
+import platformEnv from '@mywallet/shared/src/platformEnv';
 
 import backgroundApiProxy from '../../background/instance/backgroundApiProxy';
 import { useTokenSupportStakedAssets } from '../../hooks/useTokens';

@@ -7,7 +7,7 @@ import Animated, {
   useAnimatedStyle,
 } from 'react-native-reanimated';
 
-import { Box, Pressable, useSafeAreaInsets } from '@onekeyhq/components';
+import { Box, Pressable, useSafeAreaInsets } from '@mywallet/components';
 
 import DelayedFreeze from '../../../../components/DelayedFreeze';
 import useBackHandler from '../../../../hooks/useBackHandler';

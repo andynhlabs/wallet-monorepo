@@ -1,4 +1,4 @@
-import { Box } from '@onekeyhq/components';
+import { Box } from '@mywallet/components';
 
 import { SwapMainButton } from '../Buttons/swap';
 import { PaddingControl } from '../PaddingControl';

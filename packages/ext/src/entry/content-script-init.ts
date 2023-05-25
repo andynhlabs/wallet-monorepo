@@ -1,6 +1,6 @@
 /* eslint-disable import/order */
 // eslint-disable-next-line import/order
-import '@onekeyhq/shared/src/polyfills/polyfillsExtContentScript';
+import '@mywallet/shared/src/polyfills/polyfillsExtContentScript';
 
 // inject css to dapp web
 // import './content-script.css';
@@ -10,8 +10,8 @@ import '@onekeyhq/shared/src/polyfills/polyfillsExtContentScript';
 import { consts } from '@onekeyfe/cross-inpage-provider-core';
 import { bridgeSetup } from '@onekeyfe/extension-bridge-hosted';
 
-import type { IOneKeyWalletInfo } from '@onekeyhq/kit-bg/src/providers/ProviderApiPrivate';
-import platformEnv from '@onekeyhq/shared/src/platformEnv';
+import type { IWallasaWalletInfo } from '@mywallet/kit-bg/src/providers/ProviderApiPrivate';
+import platformEnv from '@mywallet/shared/src/platformEnv';
 
 // eslint-disable-next-line @typescript-eslint/no-unused-vars
 // import { startKeepAlivePolling } from '../background/keepAlive';
@@ -25,7 +25,7 @@ import injectedCode from './injected.text-js';
 
 if (process.env.NODE_ENV !== 'production') {
   console.log('==== injected script tag start >>>>>>>', performance.now());
-  console.log('[OneKey RN]: Content script works! ', window.location.href);
+  console.log('[Wallasa RN]: Content script works! ', window.location.href);
   console.log('   Must reload extension for modifications to take effect.');
 }
 
@@ -64,7 +64,7 @@ bridgeSetup.contentScript.setupMessagePort();
 if (process.env.NODE_ENV !== 'production') {
   try {
     if (consts.WALLET_INFO_LOACAL_KEY) {
-      const walletInfo: IOneKeyWalletInfo = JSON.parse(
+      const walletInfo: IWallasaWalletInfo = JSON.parse(
         localStorage.getItem(consts.WALLET_INFO_LOACAL_KEY) || '{}',
       );
       console.log(walletInfo);

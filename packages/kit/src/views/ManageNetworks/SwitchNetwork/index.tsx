@@ -9,10 +9,10 @@ import {
   Modal,
   Spinner,
   Typography,
-} from '@onekeyhq/components';
-import type { ModalProps } from '@onekeyhq/components/src/Modal';
-import type { Network } from '@onekeyhq/engine/src/types/network';
-import type { SwitchEthereumChainParameter } from '@onekeyhq/shared/src/providerApis/ProviderApiEthereum/ProviderApiEthereum.types';
+} from '@mywallet/components';
+import type { ModalProps } from '@mywallet/components/src/Modal';
+import type { Network } from '@mywallet/engine/src/types/network';
+import type { SwitchEthereumChainParameter } from '@mywallet/shared/src/providerApis/ProviderApiEthereum/ProviderApiEthereum.types';
 
 import backgroundApiProxy from '../../../background/instance/backgroundApiProxy';
 import useDappApproveAction from '../../../hooks/useDappApproveAction';

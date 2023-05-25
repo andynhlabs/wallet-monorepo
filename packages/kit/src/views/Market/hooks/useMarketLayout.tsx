@@ -7,8 +7,8 @@ import {
   useState,
 } from 'react';
 
-import { Box, useIsVerticalLayout, useUserDevice } from '@onekeyhq/components';
-import platformEnv from '@onekeyhq/shared/src/platformEnv';
+import { Box, useIsVerticalLayout, useUserDevice } from '@mywallet/components';
+import platformEnv from '@mywallet/shared/src/platformEnv';
 
 import type { LayoutChangeEvent } from 'react-native';
 

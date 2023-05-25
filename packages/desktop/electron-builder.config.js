@@ -37,7 +37,7 @@ module.exports = {
   ],
   'publish': {
     'provider': 'github',
-    'repo': 'app-monorepo',
+    'repo': 'wallet-monorepo',
     'owner': 'OneKeyHQ',
   },
   'dmg': {

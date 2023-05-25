@@ -3,13 +3,13 @@
 
 import { VersionedTransaction } from '@solana/web3.js';
 
-import type { SignedTx, UnsignedTx } from '@onekeyhq/engine/src/types/provider';
-import { convertDeviceError } from '@onekeyhq/shared/src/device/deviceErrorUtils';
+import type { SignedTx, UnsignedTx } from '@mywallet/engine/src/types/provider';
+import { convertDeviceError } from '@mywallet/shared/src/device/deviceErrorUtils';
 import {
   COINTYPE_SOL as COIN_TYPE,
   INDEX_PLACEHOLDER,
-} from '@onekeyhq/shared/src/engine/engineConsts';
-import debugLogger from '@onekeyhq/shared/src/logger/debugLogger';
+} from '@mywallet/shared/src/engine/engineConsts';
+import debugLogger from '@mywallet/shared/src/logger/debugLogger';
 
 import { NotImplemented, OneKeyHardwareError } from '../../../errors';
 import { getAccountNameInfoByTemplate } from '../../../managers/impl';

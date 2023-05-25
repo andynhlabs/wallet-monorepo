@@ -7,10 +7,10 @@ import * as Linking from 'expo-linking';
 import { isFunction, isNull, isString } from 'lodash';
 import { useIntl } from 'react-intl';
 
-import { Dialog, Icon } from '@onekeyhq/components';
-import type { LocaleIds } from '@onekeyhq/components/src/locale';
-import type { PrefType } from '@onekeyhq/desktop/src-electron/preload';
-import platformEnv from '@onekeyhq/shared/src/platformEnv';
+import { Dialog, Icon } from '@mywallet/components';
+import type { LocaleIds } from '@mywallet/components/src/locale';
+import type { PrefType } from '@mywallet/desktop/src-electron/preload';
+import platformEnv from '@mywallet/shared/src/platformEnv';
 
 const { isDesktop, isNative, isNativeIOS, isNativeAndroid } = platformEnv;
 

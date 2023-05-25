@@ -2,11 +2,11 @@ import type { ComponentProps } from 'react';
 
 import { useIntl } from 'react-intl';
 
-import { Text } from '@onekeyhq/components';
+import { Text } from '@mywallet/components';
 import type {
   IFeeInfoPrice,
   IFeeInfoUnit,
-} from '@onekeyhq/engine/src/vaults/types';
+} from '@mywallet/engine/src/vaults/types';
 
 import { getCustomFeeSpeedInfo } from '../utils/getCustomFeeSpeedInfo';
 

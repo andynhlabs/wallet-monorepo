@@ -4,7 +4,7 @@ import { useMemo } from 'react';
 import { useIntl } from 'react-intl';
 import { StyleSheet } from 'react-native';
 
-import { useIsVerticalLayout } from '@onekeyhq/components';
+import { useIsVerticalLayout } from '@mywallet/components';
 
 import Box from '../Box';
 import Text from '../Text';

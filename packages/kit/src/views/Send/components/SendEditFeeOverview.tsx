@@ -2,16 +2,16 @@ import type { ComponentProps } from 'react';
 
 import { useIntl } from 'react-intl';
 
-import { Box, Text } from '@onekeyhq/components';
-import type { EIP1559Fee } from '@onekeyhq/engine/src/types/network';
+import { Box, Text } from '@mywallet/components';
+import type { EIP1559Fee } from '@mywallet/engine/src/types/network';
 import type {
   IFeeInfo,
   IFeeInfoPrice,
-} from '@onekeyhq/engine/src/vaults/types';
+} from '@mywallet/engine/src/vaults/types';
 import {
   calculateTotalFeeNative,
   calculateTotalFeeRange,
-} from '@onekeyhq/engine/src/vaults/utils/feeInfoUtils';
+} from '@mywallet/engine/src/vaults/utils/feeInfoUtils';
 
 import { FormatCurrencyNativeOfAccount } from '../../../components/Format';
 

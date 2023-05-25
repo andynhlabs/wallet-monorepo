@@ -3,7 +3,7 @@ import { useCallback, useMemo } from 'react';
 import { useNavigation, useRoute } from '@react-navigation/core';
 import { useIntl } from 'react-intl';
 
-import { Box, Form, Modal, ToastManager, useForm } from '@onekeyhq/components';
+import { Box, Form, Modal, ToastManager, useForm } from '@mywallet/components';
 
 import backgroundApiProxy from '../../../background/instance/backgroundApiProxy';
 import { useAppSelector } from '../../../hooks';

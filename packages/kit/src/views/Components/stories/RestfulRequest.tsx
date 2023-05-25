@@ -2,7 +2,7 @@ import type { FC } from 'react';
 
 import useSWR from 'swr';
 
-import { Button, Center, Typography } from '@onekeyhq/components';
+import { Button, Center, Typography } from '@mywallet/components';
 
 type RequestPayload<T> = {
   message: string;

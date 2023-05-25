@@ -8,7 +8,7 @@ import {
   Stack,
   ToastManager,
   Typography,
-} from '@onekeyhq/components';
+} from '@mywallet/components';
 
 const Modal1 = () => {
   const [visible, setVisible] = useState(false);

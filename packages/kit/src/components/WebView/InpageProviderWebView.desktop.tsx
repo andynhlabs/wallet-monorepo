@@ -3,8 +3,8 @@ import { forwardRef, useImperativeHandle } from 'react';
 
 import { useWebViewBridge } from '@onekeyfe/onekey-cross-webview';
 
-import { useIsVerticalLayout } from '@onekeyhq/components';
-import platformEnv from '@onekeyhq/shared/src/platformEnv';
+import { useIsVerticalLayout } from '@mywallet/components';
+import platformEnv from '@mywallet/shared/src/platformEnv';
 
 // eslint-disable-next-line import/order
 import { DesktopWebView } from './DesktopWebView';

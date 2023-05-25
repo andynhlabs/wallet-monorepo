@@ -1,12 +1,12 @@
 import bs58check from 'bs58check';
 
-import { batchGetPublicKeys } from '@onekeyhq/engine/src/secret';
-import type { SignedTx, UnsignedTx } from '@onekeyhq/engine/src/types/provider';
+import { batchGetPublicKeys } from '@mywallet/engine/src/secret';
+import type { SignedTx, UnsignedTx } from '@mywallet/engine/src/types/provider';
 import {
   COINTYPE_BCH,
   COINTYPE_DOGE,
-} from '@onekeyhq/shared/src/engine/engineConsts';
-import debugLogger from '@onekeyhq/shared/src/logger/debugLogger';
+} from '@mywallet/shared/src/engine/engineConsts';
+import debugLogger from '@mywallet/shared/src/logger/debugLogger';
 
 import { OneKeyInternalError } from '../../../errors';
 import { slicePathTemplate } from '../../../managers/derivation';

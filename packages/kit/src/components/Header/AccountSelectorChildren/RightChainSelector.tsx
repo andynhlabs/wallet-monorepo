@@ -10,16 +10,16 @@ import {
   Text,
   Token,
   useIsVerticalLayout,
-} from '@onekeyhq/components';
-import type { SelectItem } from '@onekeyhq/components/src/Select';
-import type { Wallet } from '@onekeyhq/engine/src/types/wallet';
-import { useManageNetworks } from '@onekeyhq/kit/src/hooks';
-import useAppNavigation from '@onekeyhq/kit/src/hooks/useAppNavigation';
+} from '@mywallet/components';
+import type { SelectItem } from '@mywallet/components/src/Select';
+import type { Wallet } from '@mywallet/engine/src/types/wallet';
+import { useManageNetworks } from '@mywallet/kit/src/hooks';
+import useAppNavigation from '@mywallet/kit/src/hooks/useAppNavigation';
 import {
   ManageNetworkModalRoutes,
   ModalRoutes,
   RootRoutes,
-} from '@onekeyhq/kit/src/routes/routesEnum';
+} from '@mywallet/kit/src/routes/routesEnum';
 
 type Props = {
   selectedNetworkId: string | undefined;

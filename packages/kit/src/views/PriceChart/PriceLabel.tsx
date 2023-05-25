@@ -1,6 +1,6 @@
 import type { FC } from 'react';
 
-import { Box, Icon, Pressable, Typography } from '@onekeyhq/components';
+import { Box, Icon, Pressable, Typography } from '@mywallet/components';
 
 import { FormatCurrencyNumber } from '../../components/Format';
 import { calculateGains } from '../../utils/priceUtils';

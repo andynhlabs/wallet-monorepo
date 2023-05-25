@@ -1,8 +1,8 @@
 import { Linking, Platform } from 'react-native';
 
-import { waitForDataLoaded } from '@onekeyhq/shared/src/background/backgroundUtils';
-import debugLogger from '@onekeyhq/shared/src/logger/debugLogger';
-import platformEnv from '@onekeyhq/shared/src/platformEnv';
+import { waitForDataLoaded } from '@mywallet/shared/src/background/backgroundUtils';
+import debugLogger from '@mywallet/shared/src/logger/debugLogger';
+import platformEnv from '@mywallet/shared/src/platformEnv';
 
 import { getAppNavigation } from '../../../hooks/useAppNavigation';
 import {

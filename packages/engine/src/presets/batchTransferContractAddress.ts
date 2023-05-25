@@ -1,4 +1,4 @@
-import { OnekeyNetwork } from '@onekeyhq/shared/src/config/networkIds';
+import { OnekeyNetwork } from '@mywallet/shared/src/config/networkIds';
 
 /*
 Check Contract Miniity SourceCode:

@@ -1,5 +1,5 @@
-import { useIsVerticalLayout } from '@onekeyhq/components';
-import type { Device } from '@onekeyhq/engine/src/types/device';
+import { useIsVerticalLayout } from '@mywallet/components';
+import type { Device } from '@mywallet/engine/src/types/device';
 
 import UpdateInfoModel from '../../../views/Hardware/UpdateFirmware/UpdateInfo';
 import UpdateResourceModal from '../../../views/Hardware/UpdateFirmware/UpdateResource';

@@ -1,6 +1,6 @@
-import { Divider } from '@onekeyhq/components';
-import { useAutoUpdate, useSettings } from '@onekeyhq/kit/src/hooks/redux';
-import platformEnv from '@onekeyhq/shared/src/platformEnv';
+import { Divider } from '@mywallet/components';
+import { useAutoUpdate, useSettings } from '@mywallet/kit/src/hooks/redux';
+import platformEnv from '@mywallet/shared/src/platformEnv';
 
 import appUpdates from '../../../utils/updates/AppUpdates';
 

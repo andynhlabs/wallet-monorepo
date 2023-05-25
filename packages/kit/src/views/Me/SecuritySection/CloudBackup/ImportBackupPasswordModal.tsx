@@ -13,10 +13,10 @@ import {
   Modal,
   Typography,
   useForm,
-} from '@onekeyhq/components';
-import { useDebounce } from '@onekeyhq/kit/src/hooks';
-import type { ImportBackupPasswordRoutesParams } from '@onekeyhq/kit/src/routes/Root/Modal/ImportBackupPassword';
-import { RestoreResult } from '@onekeyhq/shared/src/services/ServiceCloudBackup/ServiceCloudBackup.enums';
+} from '@mywallet/components';
+import { useDebounce } from '@mywallet/kit/src/hooks';
+import type { ImportBackupPasswordRoutesParams } from '@mywallet/kit/src/routes/Root/Modal/ImportBackupPassword';
+import { RestoreResult } from '@mywallet/shared/src/services/ServiceCloudBackup/ServiceCloudBackup.enums';
 
 import type { ImportBackupPasswordModalRoutes } from '../../../../routes/routesEnum';
 import type { RouteProp } from '@react-navigation/core';

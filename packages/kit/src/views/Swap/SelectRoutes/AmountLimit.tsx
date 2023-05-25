@@ -2,8 +2,8 @@ import type { FC, ReactElement } from 'react';
 
 import { useIntl } from 'react-intl';
 
-import { Box, Divider, Typography } from '@onekeyhq/components';
-import type { Token } from '@onekeyhq/engine/src/types/token';
+import { Box, Divider, Typography } from '@mywallet/components';
+import type { Token } from '@mywallet/engine/src/types/token';
 
 import { useTokenAmount } from '../hooks/useSwap';
 

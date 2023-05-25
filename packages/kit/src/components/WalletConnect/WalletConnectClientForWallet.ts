@@ -1,14 +1,14 @@
 import { merge } from 'lodash';
 import { Linking } from 'react-native';
 
-import { backgroundMethod } from '@onekeyhq/shared/src/background/backgroundDecorators';
+import { backgroundMethod } from '@mywallet/shared/src/background/backgroundDecorators';
 import {
   IMPL_ALGO,
   IMPL_APTOS,
   IMPL_EVM,
-} from '@onekeyhq/shared/src/engine/engineConsts';
-import debugLogger from '@onekeyhq/shared/src/logger/debugLogger';
-import platformEnv from '@onekeyhq/shared/src/platformEnv';
+} from '@mywallet/shared/src/engine/engineConsts';
+import debugLogger from '@mywallet/shared/src/logger/debugLogger';
+import platformEnv from '@mywallet/shared/src/platformEnv';
 
 import { wait } from '../../utils/helper';
 import Minimizer from '../Minimizer';

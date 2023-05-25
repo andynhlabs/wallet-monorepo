@@ -15,10 +15,10 @@ import {
   ToastManager,
   Typography,
   useIsVerticalLayout,
-} from '@onekeyhq/components';
-import { PriceAlertOperator } from '@onekeyhq/engine/src/managers/notification';
-import debugLogger from '@onekeyhq/shared/src/logger/debugLogger';
-import platformEnv from '@onekeyhq/shared/src/platformEnv';
+} from '@mywallet/components';
+import { PriceAlertOperator } from '@mywallet/engine/src/managers/notification';
+import debugLogger from '@mywallet/shared/src/logger/debugLogger';
+import platformEnv from '@mywallet/shared/src/platformEnv';
 
 import backgroundApiProxy from '../../background/instance/backgroundApiProxy';
 import { useSettings } from '../../hooks/redux';

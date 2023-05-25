@@ -1,8 +1,8 @@
 import type { ComponentProps, FC } from 'react';
 
-import { Box, Icon, Image, NetImage } from '@onekeyhq/components';
-import DAppIconBG from '@onekeyhq/kit/assets/DAppIcon_bg.png';
-import multichainPNG from '@onekeyhq/kit/assets/dappIcon_multichain.png';
+import { Box, Icon, Image, NetImage } from '@mywallet/components';
+import DAppIconBG from '@mywallet/kit/assets/DAppIcon_bg.png';
+import multichainPNG from '@mywallet/kit/assets/dappIcon_multichain.png';
 
 import { useNetworkSimple } from '../../../hooks';
 

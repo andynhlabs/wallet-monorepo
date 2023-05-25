@@ -3,8 +3,8 @@ import { useCallback } from 'react';
 import { BigNumber } from 'bignumber.js';
 import { MotiView } from 'moti';
 
-import { Box, List, ListItem } from '@onekeyhq/components';
-import type { NFTAsset } from '@onekeyhq/engine/src/types/nft';
+import { Box, List, ListItem } from '@mywallet/components';
+import type { NFTAsset } from '@mywallet/engine/src/types/nft';
 
 import useFormatDate from '../../../../../hooks/useFormatDate';
 import CollectionLogo from '../../../CollectionLogo';

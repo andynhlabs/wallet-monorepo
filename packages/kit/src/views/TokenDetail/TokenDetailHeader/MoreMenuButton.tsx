@@ -3,15 +3,15 @@ import { useCallback, useEffect, useMemo, useState } from 'react';
 
 import { useNavigation } from '@react-navigation/native';
 
-import { IconButton, useIsVerticalLayout } from '@onekeyhq/components';
-import type { ICON_NAMES } from '@onekeyhq/components';
-import type { Token as TokenDO } from '@onekeyhq/engine/src/types/token';
+import { IconButton, useIsVerticalLayout } from '@mywallet/components';
+import type { ICON_NAMES } from '@mywallet/components';
+import type { Token as TokenDO } from '@mywallet/engine/src/types/token';
 import {
   FiatPayModalRoutes,
   ReceiveTokenModalRoutes,
   SendModalRoutes,
-} from '@onekeyhq/kit/src/routes/routesEnum';
-import platformEnv from '@onekeyhq/shared/src/platformEnv';
+} from '@mywallet/kit/src/routes/routesEnum';
+import platformEnv from '@mywallet/shared/src/platformEnv';
 
 import backgroundApiProxy from '../../../background/instance/backgroundApiProxy';
 import { useActiveSideAccount } from '../../../hooks';

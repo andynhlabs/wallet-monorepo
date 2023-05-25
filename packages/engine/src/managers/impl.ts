@@ -45,7 +45,7 @@ import {
   IMPL_XMR,
   IMPL_XRP,
   getSupportedImpls,
-} from '@onekeyhq/shared/src/engine/engineConsts';
+} from '@mywallet/shared/src/engine/engineConsts';
 
 import { NotImplemented } from '../errors';
 import { AccountType } from '../types/account';

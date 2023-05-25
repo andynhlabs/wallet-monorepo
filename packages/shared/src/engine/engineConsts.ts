@@ -1,4 +1,4 @@
-import { getTimeDurationMs } from '@onekeyhq/kit/src/utils/helper';
+import { getTimeDurationMs } from '@mywallet/kit/src/utils/helper';
 
 import { OnekeyNetwork } from '../config/networkIds';
 

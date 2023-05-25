@@ -1,15 +1,15 @@
 import bs58check from 'bs58check';
 
-import type { ExtendedKey } from '@onekeyhq/engine/src/secret';
-import { BaseBip32KeyDeriver } from '@onekeyhq/engine/src/secret/bip32';
-import type { Bip32KeyDeriver } from '@onekeyhq/engine/src/secret/bip32';
-import { secp256k1 } from '@onekeyhq/engine/src/secret/curves';
+import type { ExtendedKey } from '@mywallet/engine/src/secret';
+import { BaseBip32KeyDeriver } from '@mywallet/engine/src/secret/bip32';
+import type { Bip32KeyDeriver } from '@mywallet/engine/src/secret/bip32';
+import { secp256k1 } from '@mywallet/engine/src/secret/curves';
 import {
   decrypt,
   encrypt,
-} from '@onekeyhq/engine/src/secret/encryptors/aes256';
-import type { SignedTx, UnsignedTx } from '@onekeyhq/engine/src/types/provider';
-import debugLogger from '@onekeyhq/shared/src/logger/debugLogger';
+} from '@mywallet/engine/src/secret/encryptors/aes256';
+import type { SignedTx, UnsignedTx } from '@mywallet/engine/src/types/provider';
+import debugLogger from '@mywallet/shared/src/logger/debugLogger';
 
 import { OneKeyInternalError } from '../../../errors';
 import { Signer } from '../../../proxy';

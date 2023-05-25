@@ -6,8 +6,8 @@ import { useLayoutEffect } from 'react';
 import { useNavigation } from '@react-navigation/core';
 import { useRoute } from '@react-navigation/native';
 
-import { Box, useIsVerticalLayout } from '@onekeyhq/components';
-import type { HomeRoutesParams } from '@onekeyhq/kit/src/routes/types';
+import { Box, useIsVerticalLayout } from '@mywallet/components';
+import type { HomeRoutesParams } from '@mywallet/kit/src/routes/types';
 
 import { useTranslation } from '../../../hooks';
 

@@ -5,7 +5,7 @@ import { Interface } from '@ethersproject/abi';
 import {
   backgroundClass,
   backgroundMethod,
-} from '@onekeyhq/shared/src/background/backgroundDecorators';
+} from '@mywallet/shared/src/background/backgroundDecorators';
 
 import ServiceBase from './ServiceBase';
 

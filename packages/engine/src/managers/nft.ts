@@ -6,10 +6,10 @@ import type {
   NFTAsset,
   NFTServiceResp,
   NFTTransaction,
-} from '@onekeyhq/engine/src/types/nft';
-import { NFTChainMap } from '@onekeyhq/engine/src/types/nft';
-import backgroundApiProxy from '@onekeyhq/kit/src/background/instance/backgroundApiProxy';
-import { OnekeyNetwork } from '@onekeyhq/shared/src/config/networkIds';
+} from '@mywallet/engine/src/types/nft';
+import { NFTChainMap } from '@mywallet/engine/src/types/nft';
+import backgroundApiProxy from '@mywallet/kit/src/background/instance/backgroundApiProxy';
+import { OnekeyNetwork } from '@mywallet/shared/src/config/networkIds';
 
 import simpleDb from '../dbs/simple/simpleDb';
 import { getFiatEndpoint } from '../endpoint';

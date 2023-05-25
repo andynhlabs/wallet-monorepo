@@ -1,6 +1,6 @@
 import { useEffect, useMemo, useState } from 'react';
 
-import platformEnv from '@onekeyhq/shared/src/platformEnv';
+import platformEnv from '@mywallet/shared/src/platformEnv';
 
 import backgroundApiProxy from '../../../../background/instance/backgroundApiProxy';
 import { useAppSelector } from '../../../../hooks';

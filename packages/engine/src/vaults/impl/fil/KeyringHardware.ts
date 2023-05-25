@@ -1,9 +1,9 @@
 import { AddressSecp256k1, Transaction } from '@zondax/izari-filecoin';
 import base32Decode from 'base32-decode';
 
-import { convertDeviceError } from '@onekeyhq/shared/src/device/deviceErrorUtils';
-import { COINTYPE_FIL as COIN_TYPE } from '@onekeyhq/shared/src/engine/engineConsts';
-import debugLogger from '@onekeyhq/shared/src/logger/debugLogger';
+import { convertDeviceError } from '@mywallet/shared/src/device/deviceErrorUtils';
+import { COINTYPE_FIL as COIN_TYPE } from '@mywallet/shared/src/engine/engineConsts';
+import debugLogger from '@mywallet/shared/src/logger/debugLogger';
 
 import {
   NotImplemented,

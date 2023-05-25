@@ -8,7 +8,7 @@ import {
   Menu,
   Pressable,
   Text,
-} from '@onekeyhq/components';
+} from '@mywallet/components';
 
 import BaseMenu from '../../Overlay/BaseMenu';
 

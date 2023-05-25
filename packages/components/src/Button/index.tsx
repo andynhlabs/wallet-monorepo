@@ -14,8 +14,8 @@ import {
 
 import { StyleSheet } from 'react-native';
 
-import { usePrevious } from '@onekeyhq/kit/src/hooks';
-import { useIsMounted } from '@onekeyhq/kit/src/hooks/useIsMounted';
+import { usePrevious } from '@mywallet/kit/src/hooks';
+import { useIsMounted } from '@mywallet/kit/src/hooks/useIsMounted';
 
 import Center from '../Box';
 import Icon from '../Icon';

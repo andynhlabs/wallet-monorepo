@@ -15,18 +15,18 @@ import {
   ZStack,
   useIsVerticalLayout,
   useSafeAreaInsets,
-} from '@onekeyhq/components';
-import AccountDetails from '@onekeyhq/kit/assets/onboarding/account_details_on_metamask.png';
-import ExtStepFourImage from '@onekeyhq/kit/assets/onboarding/desk_reveal.png';
-import ExtStepThreeImage from '@onekeyhq/kit/assets/onboarding/desk_security.png';
-import ExtStepTwoImage from '@onekeyhq/kit/assets/onboarding/desk_settings.png';
-import ExtStepOneImage from '@onekeyhq/kit/assets/onboarding/desk_topbar.png';
-import LogoMetaMask from '@onekeyhq/kit/assets/onboarding/logo_metamask.png';
-import NativeStepFourImage from '@onekeyhq/kit/assets/onboarding/mobile_reveal.png';
-import NativeStepThreeImage from '@onekeyhq/kit/assets/onboarding/mobile_security.png';
-import NativeStepTwoImage from '@onekeyhq/kit/assets/onboarding/mobile_settings.png';
-import ShowPrivateKey from '@onekeyhq/kit/assets/onboarding/mobile_show_private_key.png';
-import NativeStepOneImage from '@onekeyhq/kit/assets/onboarding/mobile_topbar.png';
+} from '@mywallet/components';
+import AccountDetails from '@mywallet/kit/assets/onboarding/account_details_on_metamask.png';
+import ExtStepFourImage from '@mywallet/kit/assets/onboarding/desk_reveal.png';
+import ExtStepThreeImage from '@mywallet/kit/assets/onboarding/desk_security.png';
+import ExtStepTwoImage from '@mywallet/kit/assets/onboarding/desk_settings.png';
+import ExtStepOneImage from '@mywallet/kit/assets/onboarding/desk_topbar.png';
+import LogoMetaMask from '@mywallet/kit/assets/onboarding/logo_metamask.png';
+import NativeStepFourImage from '@mywallet/kit/assets/onboarding/mobile_reveal.png';
+import NativeStepThreeImage from '@mywallet/kit/assets/onboarding/mobile_security.png';
+import NativeStepTwoImage from '@mywallet/kit/assets/onboarding/mobile_settings.png';
+import ShowPrivateKey from '@mywallet/kit/assets/onboarding/mobile_show_private_key.png';
+import NativeStepOneImage from '@mywallet/kit/assets/onboarding/mobile_topbar.png';
 
 import type { IAddExistingWalletMode } from '../../../../routes';
 

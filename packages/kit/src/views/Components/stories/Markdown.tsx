@@ -1,4 +1,4 @@
-import { Box, Center, Markdown, ScrollView } from '@onekeyhq/components';
+import { Box, Center, Markdown, ScrollView } from '@mywallet/components';
 
 const MarkdownGallery = () => {
   const md = `
@@ -43,7 +43,7 @@ const MarkdownGallery = () => {
   
   Each subdirectory under the \`packages/\` directory is a separate project, and the corresponding monorepo name is the value of the \`name\` field in the corresponding directory **package.json**.
   
-  When you need to install a dependency for a subdirectory, just use \`yarn workspace @onekeyhq/web add axios\`. With a prefix like \`yarn workspace @onekeyhq/web\`, the axios module can eventually be installed in the root directory in the web subproject.
+  When you need to install a dependency for a subdirectory, just use \`yarn workspace @mywallet/web add axios\`. With a prefix like \`yarn workspace @mywallet/web\`, the axios module can eventually be installed in the root directory in the web subproject.
   
   Some of the dependencies have native parts, so you need to go into the \`packages/app/ios\` directory and do a \`pod install\` after installing the JS dependencies.
   
@@ -105,7 +105,7 @@ const MarkdownGallery = () => {
   
   \`packages/\` 目录下的每一个子目录即一个独立的项目，对应在 monorepo 名称即为对应目录中 **package.json** 的 \`name\` 字段的值。
   
-  当需要给某一个子目录安装依赖时，只需要使用 \`yarn workspace @onekeyhq/web add axios\`。通过 \`yarn workspace @onekeyhq/web\` 这样的前缀，最终可以在根目录把 axios 模块安装到 web 这个子项目当中。
+  当需要给某一个子目录安装依赖时，只需要使用 \`yarn workspace @mywallet/web add axios\`。通过 \`yarn workspace @mywallet/web\` 这样的前缀，最终可以在根目录把 axios 模块安装到 web 这个子项目当中。
   
   部分依赖有原生部分，所以执行安装完 JS 依赖后需要进入 \`packages/app/ios\` 目录下执行 \`pod install\`。
   

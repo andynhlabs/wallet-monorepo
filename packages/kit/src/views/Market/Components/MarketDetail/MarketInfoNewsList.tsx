@@ -11,9 +11,9 @@ import {
   NetImage,
   Typography,
   useIsVerticalLayout,
-} from '@onekeyhq/components';
-import type { MarketNews } from '@onekeyhq/kit/src/store/reducers/market';
-import { openUrl } from '@onekeyhq/kit/src/utils/openUrl';
+} from '@mywallet/components';
+import type { MarketNews } from '@mywallet/kit/src/store/reducers/market';
+import { openUrl } from '@mywallet/kit/src/utils/openUrl';
 
 import type { ListRenderItem } from 'react-native';
 

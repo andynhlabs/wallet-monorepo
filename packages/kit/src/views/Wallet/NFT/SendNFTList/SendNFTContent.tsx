@@ -1,7 +1,7 @@
 import type { Dispatch, ReactNode, SetStateAction } from 'react';
 import { createContext, useContext, useEffect, useMemo, useState } from 'react';
 
-import type { NFTAsset } from '@onekeyhq/engine/src/types/nft';
+import type { NFTAsset } from '@mywallet/engine/src/types/nft';
 
 export type SelectAsset = NFTAsset & {
   selected: boolean;

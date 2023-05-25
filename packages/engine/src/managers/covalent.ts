@@ -2,8 +2,8 @@ import axios from 'axios';
 import BigNumber from 'bignumber.js';
 import camelcase from 'camelcase-keys';
 
-import debugCodes from '@onekeyhq/shared/src/debug/debugCodes';
-import { HISTORY_CONSTS } from '@onekeyhq/shared/src/engine/engineConsts';
+import debugCodes from '@mywallet/shared/src/debug/debugCodes';
+import { HISTORY_CONSTS } from '@mywallet/shared/src/engine/engineConsts';
 
 import { getCovalentApiEndpoint } from '../endpoint';
 import { EVMTxFromType, TxStatus } from '../types/covalent';

@@ -4,7 +4,7 @@ import { forwardRef, useImperativeHandle, useMemo, useState } from 'react';
 import { useWebViewBridge } from '@onekeyfe/onekey-cross-webview';
 import { Box, Progress } from 'native-base';
 
-import { Center, Spinner } from '@onekeyhq/components';
+import { Center, Spinner } from '@mywallet/components';
 
 // injected hot-reload cache update: 21334400088746
 // eslint-disable-next-line import/order

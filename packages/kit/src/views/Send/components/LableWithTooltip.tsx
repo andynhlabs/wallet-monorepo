@@ -9,8 +9,8 @@ import {
   Pressable,
   RichTooltip,
   Text,
-} from '@onekeyhq/components';
-import type { LocaleIds } from '@onekeyhq/components/src/locale';
+} from '@mywallet/components';
+import type { LocaleIds } from '@mywallet/components/src/locale';
 
 function LabelWithTooltip({
   labelId,

@@ -13,20 +13,20 @@ import {
   Pressable,
   ToastManager,
   Typography,
-} from '@onekeyhq/components';
-import { getWalletIdFromAccountId } from '@onekeyhq/engine/src/managers/account';
-import type { Account as BaseAccount } from '@onekeyhq/engine/src/types/account';
-import type { Token } from '@onekeyhq/engine/src/types/token';
-import type { IEncodedTxEvm } from '@onekeyhq/engine/src/vaults/impl/evm/Vault';
+} from '@mywallet/components';
+import { getWalletIdFromAccountId } from '@mywallet/engine/src/managers/account';
+import type { Account as BaseAccount } from '@mywallet/engine/src/types/account';
+import type { Token } from '@mywallet/engine/src/types/token';
+import type { IEncodedTxEvm } from '@mywallet/engine/src/vaults/impl/evm/Vault';
 import type {
   IDecodedTx,
   IEncodedTx,
   ISwapInfo,
-} from '@onekeyhq/engine/src/vaults/types';
+} from '@mywallet/engine/src/vaults/types';
 import {
   AppUIEventBusNames,
   appUIEventBus,
-} from '@onekeyhq/shared/src/eventBus/appUIEventBus';
+} from '@mywallet/shared/src/eventBus/appUIEventBus';
 
 import backgroundApiProxy from '../../../../background/instance/backgroundApiProxy';
 import { useNavigation, useNetwork } from '../../../../hooks';

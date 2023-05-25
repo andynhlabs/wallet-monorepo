@@ -5,7 +5,7 @@ import type {
   Collection,
   NFTAsset,
   NFTTransaction,
-} from '@onekeyhq/engine/src/types/nft';
+} from '@mywallet/engine/src/types/nft';
 
 export type CollectionDetailContextValue = {
   collection?: Collection;

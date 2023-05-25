@@ -1,8 +1,8 @@
 import { LinearGradient } from 'expo-linear-gradient';
 import { useIntl } from 'react-intl';
 
-import { Box, Button, Center, Icon, Typography } from '@onekeyhq/components';
-import type { INetwork } from '@onekeyhq/engine/src/types';
+import { Box, Button, Center, Icon, Typography } from '@mywallet/components';
+import type { INetwork } from '@mywallet/engine/src/types';
 
 import { useActiveWalletAccount, useNavigation } from '../../../hooks';
 import {

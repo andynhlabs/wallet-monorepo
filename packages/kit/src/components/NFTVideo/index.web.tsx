@@ -2,7 +2,7 @@ import type { FC } from 'react';
 
 import ReactPlayer from 'react-player';
 
-import { Box } from '@onekeyhq/components';
+import { Box } from '@mywallet/components';
 
 type Props = {
   size: number;

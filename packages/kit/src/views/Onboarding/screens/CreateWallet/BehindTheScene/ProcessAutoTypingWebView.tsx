@@ -1,6 +1,6 @@
 import { forwardRef, useCallback, useImperativeHandle, useRef } from 'react';
 
-import platformEnv from '@onekeyhq/shared/src/platformEnv';
+import platformEnv from '@mywallet/shared/src/platformEnv';
 
 import { WebViewWebEmbed } from '../../../../../components/WebView/WebViewWebEmbed';
 

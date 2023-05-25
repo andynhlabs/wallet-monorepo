@@ -3,22 +3,22 @@ import { useMemo } from 'react';
 
 import { useIntl } from 'react-intl';
 
-import type { ICON_NAMES } from '@onekeyhq/components';
+import type { ICON_NAMES } from '@mywallet/components';
 import {
   Box,
   Icon,
   Text,
   ToastManager,
   useIsVerticalLayout,
-} from '@onekeyhq/components';
-import type { ModalProps } from '@onekeyhq/components/src/Modal';
-import PressableItem from '@onekeyhq/components/src/Pressable/PressableItem';
-import type { ThemeToken } from '@onekeyhq/components/src/Provider/theme';
-import type { SelectProps } from '@onekeyhq/components/src/Select';
-import backgroundApiProxy from '@onekeyhq/kit/src/background/instance/backgroundApiProxy';
-import type { MarketTokenItem } from '@onekeyhq/kit/src/store/reducers/market';
-import { MARKET_FAVORITES_CATEGORYID } from '@onekeyhq/kit/src/store/reducers/market';
-import { showOverlay } from '@onekeyhq/kit/src/utils/overlayUtils';
+} from '@mywallet/components';
+import type { ModalProps } from '@mywallet/components/src/Modal';
+import PressableItem from '@mywallet/components/src/Pressable/PressableItem';
+import type { ThemeToken } from '@mywallet/components/src/Provider/theme';
+import type { SelectProps } from '@mywallet/components/src/Select';
+import backgroundApiProxy from '@mywallet/kit/src/background/instance/backgroundApiProxy';
+import type { MarketTokenItem } from '@mywallet/kit/src/store/reducers/market';
+import { MARKET_FAVORITES_CATEGORYID } from '@mywallet/kit/src/store/reducers/market';
+import { showOverlay } from '@mywallet/kit/src/utils/overlayUtils';
 
 import { OverlayPanel } from '../../../Overlay/OverlayPanel';
 import { useMarketSelectedCategoryId } from '../../hooks/useMarketCategory';

@@ -1,7 +1,7 @@
 import Axios from 'axios';
 import BigNumber from 'bignumber.js';
 
-import { OnekeyNetwork } from '@onekeyhq/shared/src/config/networkIds';
+import { OnekeyNetwork } from '@mywallet/shared/src/config/networkIds';
 
 import type {
   Cw20TokenBalance,

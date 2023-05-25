@@ -7,7 +7,7 @@ import {
   Token,
   Typography,
   useThemeValue,
-} from '@onekeyhq/components';
+} from '@mywallet/components';
 
 type TokenTagProps = {
   logoURI?: string;

@@ -1,6 +1,6 @@
 import { NativeEventEmitter, NativeModules, Platform } from 'react-native';
 
-import backgroundApiProxy from '@onekeyhq/kit/src/background/instance/backgroundApiProxy';
+import backgroundApiProxy from '@mywallet/kit/src/background/instance/backgroundApiProxy';
 
 import { CardErrors } from './types';
 

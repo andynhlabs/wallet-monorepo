@@ -1,6 +1,6 @@
 import type { ComponentProps } from 'react';
 
-import { Center, Icon, Token } from '@onekeyhq/components';
+import { Center, Icon, Token } from '@mywallet/components';
 
 import type { ITxActionMeta } from '../types';
 

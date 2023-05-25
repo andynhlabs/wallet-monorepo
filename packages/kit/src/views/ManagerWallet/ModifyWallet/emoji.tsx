@@ -5,15 +5,15 @@ import { useRoute } from '@react-navigation/core';
 import { useNavigation } from '@react-navigation/native';
 import { chunk } from 'lodash';
 
-import { Box, Center, Modal, Pressable, Text } from '@onekeyhq/components';
+import { Box, Center, Modal, Pressable, Text } from '@mywallet/components';
 import RecyclerListView, {
   DataProvider,
   LayoutProvider,
-} from '@onekeyhq/components/src/RecyclerListView';
-import WalletAvatar from '@onekeyhq/kit/src/components/WalletSelector/WalletAvatar';
-import type { ManagerWalletRoutesParams } from '@onekeyhq/kit/src/routes/Root/Modal/ManagerWallet';
-import type { EmojiTypes } from '@onekeyhq/shared/src/utils/emojiUtils';
-import { colors, emojiList } from '@onekeyhq/shared/src/utils/emojiUtils';
+} from '@mywallet/components/src/RecyclerListView';
+import WalletAvatar from '@mywallet/kit/src/components/WalletSelector/WalletAvatar';
+import type { ManagerWalletRoutesParams } from '@mywallet/kit/src/routes/Root/Modal/ManagerWallet';
+import type { EmojiTypes } from '@mywallet/shared/src/utils/emojiUtils';
+import { colors, emojiList } from '@mywallet/shared/src/utils/emojiUtils';
 
 import type { ManagerWalletModalRoutes } from '../../../routes/routesEnum';
 import type { RouteProp } from '@react-navigation/core';

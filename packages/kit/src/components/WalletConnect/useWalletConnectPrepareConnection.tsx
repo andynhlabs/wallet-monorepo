@@ -1,6 +1,6 @@
 import { useEffect } from 'react';
 
-import { isExternalAccount } from '@onekeyhq/shared/src/engine/engineUtils';
+import { isExternalAccount } from '@mywallet/shared/src/engine/engineUtils';
 
 import backgroundApiProxy from '../../background/instance/backgroundApiProxy';
 

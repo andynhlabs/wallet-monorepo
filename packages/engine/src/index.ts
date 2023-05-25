@@ -12,32 +12,32 @@ import RNRestart from 'react-native-restart';
 import {
   mnemonicFromEntropy,
   revealableSeedFromMnemonic,
-} from '@onekeyhq/engine/src/secret';
+} from '@mywallet/engine/src/secret';
 import {
   decrypt,
   encrypt,
-} from '@onekeyhq/engine/src/secret/encryptors/aes256';
-import { appSelector } from '@onekeyhq/kit/src/store';
-import type { TokenChartData } from '@onekeyhq/kit/src/store/reducers/tokens';
-import { generateUUID } from '@onekeyhq/kit/src/utils/helper';
-import type { SendConfirmPayload } from '@onekeyhq/kit/src/views/Send/types';
+} from '@mywallet/engine/src/secret/encryptors/aes256';
+import { appSelector } from '@mywallet/kit/src/store';
+import type { TokenChartData } from '@mywallet/kit/src/store/reducers/tokens';
+import { generateUUID } from '@mywallet/kit/src/utils/helper';
+import type { SendConfirmPayload } from '@mywallet/kit/src/views/Send/types';
 import {
   backgroundClass,
   backgroundMethod,
-} from '@onekeyhq/shared/src/background/backgroundDecorators';
-import { OnekeyNetwork } from '@onekeyhq/shared/src/config/networkIds';
-import { CoreSDKLoader } from '@onekeyhq/shared/src/device/hardwareInstance';
+} from '@mywallet/shared/src/background/backgroundDecorators';
+import { OnekeyNetwork } from '@mywallet/shared/src/config/networkIds';
+import { CoreSDKLoader } from '@mywallet/shared/src/device/hardwareInstance';
 import {
   IMPL_EVM,
   getSupportedImpls,
-} from '@onekeyhq/shared/src/engine/engineConsts';
-import debugLogger from '@onekeyhq/shared/src/logger/debugLogger';
+} from '@mywallet/shared/src/engine/engineConsts';
+import debugLogger from '@mywallet/shared/src/logger/debugLogger';
 import timelinePerfTrace, {
   ETimelinePerfNames,
-} from '@onekeyhq/shared/src/perf/timelinePerfTrace';
-import platformEnv from '@onekeyhq/shared/src/platformEnv';
-import type { Avatar } from '@onekeyhq/shared/src/utils/emojiUtils';
-import type { IOneKeyDeviceFeatures } from '@onekeyhq/shared/types';
+} from '@mywallet/shared/src/perf/timelinePerfTrace';
+import platformEnv from '@mywallet/shared/src/platformEnv';
+import type { Avatar } from '@mywallet/shared/src/utils/emojiUtils';
+import type { IOneKeyDeviceFeatures } from '@mywallet/shared/types';
 
 import { DbApi } from './dbs';
 import { DEFAULT_VERIFY_STRING, checkPassword } from './dbs/base';

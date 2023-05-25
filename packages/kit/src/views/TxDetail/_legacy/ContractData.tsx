@@ -2,9 +2,9 @@ import type { FC } from 'react';
 
 import { useIntl } from 'react-intl';
 
-import { Container } from '@onekeyhq/components';
-import type { ContentItemProps } from '@onekeyhq/components/src/Container/ContentBasisItem';
-import type { EVMDecodedItem } from '@onekeyhq/engine/src/vaults/impl/evm/decoder/types';
+import { Container } from '@mywallet/components';
+import type { ContentItemProps } from '@mywallet/components/src/Container/ContentBasisItem';
+import type { EVMDecodedItem } from '@mywallet/engine/src/vaults/impl/evm/decoder/types';
 
 export type HashProps = {
   tx: EVMDecodedItem;

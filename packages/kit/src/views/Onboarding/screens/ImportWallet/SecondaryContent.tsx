@@ -11,8 +11,8 @@ import {
   Image,
   Pressable,
   Text,
-} from '@onekeyhq/components';
-import LogoMetaMask from '@onekeyhq/kit/assets/onboarding/logo_metamask.png';
+} from '@mywallet/components';
+import LogoMetaMask from '@mywallet/kit/assets/onboarding/logo_metamask.png';
 
 import type { IAddExistingWalletMode } from '../../../../routes';
 import type { MessageDescriptor } from 'react-intl';

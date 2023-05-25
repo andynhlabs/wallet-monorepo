@@ -2,7 +2,7 @@ import { useEffect, useState } from 'react';
 
 import { useIntl } from 'react-intl';
 
-import { Box, Center, Icon, Text } from '@onekeyhq/components';
+import { Box, Center, Icon, Text } from '@mywallet/components';
 
 import { useDebounce } from '../../../hooks';
 import { useDropUpload } from '../hooks';

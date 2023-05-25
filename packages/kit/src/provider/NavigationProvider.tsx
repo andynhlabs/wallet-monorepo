@@ -6,15 +6,15 @@ import { StyleSheet, View } from 'react-native';
 import { RootSiblingParent } from 'react-native-root-siblings';
 import { FullWindowOverlay } from 'react-native-screens';
 
-import { useIsVerticalLayout, useThemeValue } from '@onekeyhq/components';
-import CustomToast from '@onekeyhq/components/src/Toast/Custom';
-import { useSettings } from '@onekeyhq/kit/src/hooks/redux';
-import { RootStackNavigator } from '@onekeyhq/kit/src/routes';
-import type { RootRoutesParams } from '@onekeyhq/kit/src/routes/types';
-import { analyticLogEvent } from '@onekeyhq/shared/src/analytics';
-import { setAttributes } from '@onekeyhq/shared/src/crashlytics';
-import debugLogger from '@onekeyhq/shared/src/logger/debugLogger';
-import platformEnv from '@onekeyhq/shared/src/platformEnv';
+import { useIsVerticalLayout, useThemeValue } from '@mywallet/components';
+import CustomToast from '@mywallet/components/src/Toast/Custom';
+import { useSettings } from '@mywallet/kit/src/hooks/redux';
+import { RootStackNavigator } from '@mywallet/kit/src/routes';
+import type { RootRoutesParams } from '@mywallet/kit/src/routes/types';
+import { analyticLogEvent } from '@mywallet/shared/src/analytics';
+import { setAttributes } from '@mywallet/shared/src/crashlytics';
+import debugLogger from '@mywallet/shared/src/logger/debugLogger';
+import platformEnv from '@mywallet/shared/src/platformEnv';
 
 import { useShortcuts } from '../hooks/useShortcuts';
 import '../routes/deepLink';
@@ -31,7 +31,7 @@ export type RootNavContainerRef = NavigationContainerRef<RootRoutesParams>;
 export const navigationRef = createRef<RootNavContainerRef>();
 
 const ChainWebEmbed = createLazyComponent(
-  () => import('@onekeyhq/kit/src/views/ChainWebEmbed'),
+  () => import('@mywallet/kit/src/views/ChainWebEmbed'),
 );
 
 declare global {

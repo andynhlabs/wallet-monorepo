@@ -3,8 +3,8 @@ import { useMemo } from 'react';
 
 import { useIntl } from 'react-intl';
 
-import { ToastManager, useIsVerticalLayout } from '@onekeyhq/components';
-import { copyToClipboard } from '@onekeyhq/components/src/utils/ClipboardUtils';
+import { ToastManager, useIsVerticalLayout } from '@mywallet/components';
+import { copyToClipboard } from '@mywallet/components/src/utils/ClipboardUtils';
 
 import backgroundApiProxy from '../../../background/instance/backgroundApiProxy';
 import { useAppSelector, useNavigation } from '../../../hooks';

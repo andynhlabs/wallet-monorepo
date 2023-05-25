@@ -1,6 +1,6 @@
 import { useContext } from 'react';
 
-import { Box } from '@onekeyhq/components';
+import { Box } from '@mywallet/components';
 
 import { DiscoverContext } from '../context';
 

@@ -1,4 +1,4 @@
-import { Box, useIsVerticalLayout } from '@onekeyhq/components';
+import { Box, useIsVerticalLayout } from '@mywallet/components';
 
 import { useSwapChartMode } from '../../hooks/useSwapUtils';
 import { LimitOrderMainButton } from '../Buttons/limitOrder';

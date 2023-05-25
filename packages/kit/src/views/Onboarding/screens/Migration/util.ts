@@ -1,9 +1,9 @@
 import { deviceName } from 'expo-device';
 
-import type { ICON_NAMES } from '@onekeyhq/components';
-import type { DeviceInfo } from '@onekeyhq/engine/src/types/migrate';
-import store from '@onekeyhq/kit/src/store';
-import platformEnv from '@onekeyhq/shared/src/platformEnv';
+import type { ICON_NAMES } from '@mywallet/components';
+import type { DeviceInfo } from '@mywallet/engine/src/types/migrate';
+import store from '@mywallet/kit/src/store';
+import platformEnv from '@mywallet/shared/src/platformEnv';
 
 import { ONEKEY_APP_DEEP_LINK } from '../../../../components/WalletConnect/walletConnectConsts';
 

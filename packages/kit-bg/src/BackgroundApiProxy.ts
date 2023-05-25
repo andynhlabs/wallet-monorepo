@@ -1,9 +1,9 @@
 /* eslint-disable @typescript-eslint/no-unsafe-call,@typescript-eslint/no-unsafe-member-access,@typescript-eslint/no-unsafe-return */
 
-import type { Engine } from '@onekeyhq/engine';
-import type { Validators } from '@onekeyhq/engine/src/validators';
-import type { VaultFactory } from '@onekeyhq/engine/src/vaults/VaultFactory';
-import debugLogger from '@onekeyhq/shared/src/logger/debugLogger';
+import type { Engine } from '@mywallet/engine';
+import type { Validators } from '@mywallet/engine/src/validators';
+import type { VaultFactory } from '@mywallet/engine/src/vaults/VaultFactory';
+import debugLogger from '@mywallet/shared/src/logger/debugLogger';
 
 import { BackgroundApiProxyBase } from './BackgroundApiProxyBase';
 

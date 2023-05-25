@@ -3,22 +3,22 @@ import { useCallback, useEffect, useRef, useState } from 'react';
 
 import { useIntl } from 'react-intl';
 
-import type { ForwardRefHandle } from '@onekeyhq/app/src/views/NestedTabView/NestedTabView';
+import type { ForwardRefHandle } from '@mywallet/app/src/views/NestedTabView/NestedTabView';
 import {
   Box,
   Center,
   useIsVerticalLayout,
   useUserDevice,
-} from '@onekeyhq/components';
-import { Tabs } from '@onekeyhq/components/src/CollapsibleTabView';
+} from '@mywallet/components';
+import { Tabs } from '@mywallet/components/src/CollapsibleTabView';
 import {
   getStatus,
   useActiveWalletAccount,
   useStatus,
-} from '@onekeyhq/kit/src/hooks/redux';
-import { MAX_PAGE_CONTAINER_WIDTH } from '@onekeyhq/shared/src/config/appConfig';
-import debugLogger from '@onekeyhq/shared/src/logger/debugLogger';
-import platformEnv from '@onekeyhq/shared/src/platformEnv';
+} from '@mywallet/kit/src/hooks/redux';
+import { MAX_PAGE_CONTAINER_WIDTH } from '@mywallet/shared/src/config/appConfig';
+import debugLogger from '@mywallet/shared/src/logger/debugLogger';
+import platformEnv from '@mywallet/shared/src/platformEnv';
 
 import backgroundApiProxy from '../../background/instance/backgroundApiProxy';
 import IdentityAssertion from '../../components/IdentityAssertion';

@@ -1,4 +1,4 @@
-import { useIsVerticalLayout } from '@onekeyhq/components';
+import { useIsVerticalLayout } from '@mywallet/components';
 
 import ConnectedSites from '../../../views/ManageConnectedSites/ConnectedSites';
 import { ManageConnectedSitesRoutes } from '../../../views/ManageConnectedSites/types';

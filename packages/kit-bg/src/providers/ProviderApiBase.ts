@@ -3,8 +3,8 @@
 import {
   PROVIDER_API_METHOD_PREFIX,
   backgroundClass,
-} from '@onekeyhq/shared/src/background/backgroundDecorators';
-import { throwMethodNotFound } from '@onekeyhq/shared/src/background/backgroundUtils';
+} from '@mywallet/shared/src/background/backgroundDecorators';
+import { throwMethodNotFound } from '@mywallet/shared/src/background/backgroundUtils';
 
 import type { IBackgroundApi } from '../IBackgroundApi';
 import type {

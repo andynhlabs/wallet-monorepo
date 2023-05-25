@@ -4,7 +4,7 @@ import { useEffect } from 'react';
 import { useNavigation } from '@react-navigation/native';
 import { useIntl } from 'react-intl';
 
-import { Center, Modal, Spinner, ToastManager } from '@onekeyhq/components';
+import { Center, Modal, Spinner, ToastManager } from '@mywallet/components';
 
 import backgroundApiProxy from '../../background/instance/backgroundApiProxy';
 import Protected from '../../components/Protected';

@@ -4,8 +4,8 @@ import type { ComponentProps, FC } from 'react';
 import BigNumber from 'bignumber.js';
 import { MotiView } from 'moti';
 
-import { Badge, Box, Icon, Pressable, Text } from '@onekeyhq/components';
-import { IMPL_EVM, IMPL_SOL } from '@onekeyhq/shared/src/engine/engineConsts';
+import { Badge, Box, Icon, Pressable, Text } from '@mywallet/components';
+import { IMPL_EVM, IMPL_SOL } from '@mywallet/shared/src/engine/engineConsts';
 
 import { useActiveSideAccount } from '../../../../hooks';
 import { showAmountInputDialog } from '../AmountInputDialog';

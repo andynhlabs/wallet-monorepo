@@ -13,8 +13,8 @@ interface LatestVersion {
   isManualCheck: boolean;
 }
 
-const PROD_FEEDURL = 'https://web.onekey-asset.com/app-monorepo/assets/';
-const TEST_FEEDURL = 'https://web.onekey-asset.com/app-monorepo/pre-release/';
+const PROD_FEEDURL = 'https://web.onekey-asset.com/wallet-monorepo/assets/';
+const TEST_FEEDURL = 'https://web.onekey-asset.com/wallet-monorepo/pre-release/';
 
 function isNetworkError(errorObject: Error) {
   return (

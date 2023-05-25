@@ -2,11 +2,11 @@ import differenceInDays from 'date-fns/differenceInDays';
 import { openURL as LinkingOpenURL, canOpenURL } from 'expo-linking';
 import semver from 'semver';
 
-import { ToastManager } from '@onekeyhq/components';
-import type { LocaleSymbol } from '@onekeyhq/components/src/locale';
-import { formatMessage } from '@onekeyhq/components/src/Provider';
-import backgroundApiProxy from '@onekeyhq/kit/src/background/instance/backgroundApiProxy';
-import store from '@onekeyhq/kit/src/store';
+import { ToastManager } from '@mywallet/components';
+import type { LocaleSymbol } from '@mywallet/components/src/locale';
+import { formatMessage } from '@mywallet/components/src/Provider';
+import backgroundApiProxy from '@mywallet/kit/src/background/instance/backgroundApiProxy';
+import store from '@mywallet/kit/src/store';
 import {
   available,
   checking,
@@ -16,14 +16,14 @@ import {
   notAvailable,
   ready,
   setLastCheckTimestamp,
-} from '@onekeyhq/kit/src/store/reducers/autoUpdater';
+} from '@mywallet/kit/src/store/reducers/autoUpdater';
 import {
   setForceUpdateVersionInfo,
   setUpdateSetting,
-} from '@onekeyhq/kit/src/store/reducers/settings';
-import { getTimeStamp } from '@onekeyhq/kit/src/utils/helper';
-import debugLogger from '@onekeyhq/shared/src/logger/debugLogger';
-import platformEnv from '@onekeyhq/shared/src/platformEnv';
+} from '@mywallet/kit/src/store/reducers/settings';
+import { getTimeStamp } from '@mywallet/kit/src/utils/helper';
+import debugLogger from '@mywallet/shared/src/logger/debugLogger';
+import platformEnv from '@mywallet/shared/src/platformEnv';
 
 import { getDefaultLocale } from '../locale';
 

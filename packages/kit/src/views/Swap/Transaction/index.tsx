@@ -10,9 +10,9 @@ import {
   Modal,
   ToastManager,
   Typography,
-} from '@onekeyhq/components';
-import { copyToClipboard } from '@onekeyhq/components/src/utils/ClipboardUtils';
-import platformEnv from '@onekeyhq/shared/src/platformEnv';
+} from '@mywallet/components';
+import { copyToClipboard } from '@mywallet/components/src/utils/ClipboardUtils';
+import platformEnv from '@mywallet/shared/src/platformEnv';
 
 import swftLogoPNG from '../../../../assets/swft_logo.png';
 import { ModalRoutes, RootRoutes } from '../../../routes/routesEnum';

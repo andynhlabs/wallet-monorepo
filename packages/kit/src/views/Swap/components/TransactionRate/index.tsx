@@ -3,9 +3,9 @@ import { useState } from 'react';
 
 import BigNumber from 'bignumber.js';
 
-import { Icon, Pressable, Text } from '@onekeyhq/components';
-import type { TypographyStyle } from '@onekeyhq/components/src/Typography';
-import type { Token } from '@onekeyhq/engine/src/types/token';
+import { Icon, Pressable, Text } from '@mywallet/components';
+import type { TypographyStyle } from '@mywallet/components/src/Typography';
+import type { Token } from '@mywallet/engine/src/types/token';
 
 import { formatAmount } from '../../utils';
 

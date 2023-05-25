@@ -3,14 +3,14 @@ import { useCallback, useMemo } from 'react';
 
 import { useIntl } from 'react-intl';
 
-import { ToastManager } from '@onekeyhq/components';
-import { copyToClipboard } from '@onekeyhq/components/src/utils/ClipboardUtils';
-import type { Network } from '@onekeyhq/engine/src/types/network';
-import BaseMenu from '@onekeyhq/kit/src/views/Overlay/BaseMenu';
+import { ToastManager } from '@mywallet/components';
+import { copyToClipboard } from '@mywallet/components/src/utils/ClipboardUtils';
+import type { Network } from '@mywallet/engine/src/types/network';
+import BaseMenu from '@mywallet/kit/src/views/Overlay/BaseMenu';
 import type {
   IBaseMenuOptions,
   IMenu,
-} from '@onekeyhq/kit/src/views/Overlay/BaseMenu';
+} from '@mywallet/kit/src/views/Overlay/BaseMenu';
 
 import useOpenBlockBrowser from '../../../hooks/useOpenBlockBrowser';
 

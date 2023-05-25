@@ -1,7 +1,7 @@
 /* eslint-disable @typescript-eslint/ban-types */
 import type { FC } from 'react';
 
-import { Box, Modal } from '@onekeyhq/components';
+import { Box, Modal } from '@mywallet/components';
 
 import AccountList from './AccountList';
 import ChainSelector from './ChainSelector';

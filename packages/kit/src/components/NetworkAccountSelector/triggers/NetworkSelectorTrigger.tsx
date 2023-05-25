@@ -1,7 +1,7 @@
 import type { FC } from 'react';
 import { useMemo } from 'react';
 
-import { Box, Token } from '@onekeyhq/components';
+import { Box, Token } from '@mywallet/components';
 
 import { useActiveWalletAccount, useNavigationActions } from '../../../hooks';
 import { useRpcMeasureStatus } from '../../../views/ManageNetworks/hooks';

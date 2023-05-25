@@ -1,7 +1,7 @@
 import BigNumber from 'bignumber.js';
 
-import { getBalanceKey } from '@onekeyhq/engine/src/managers/token';
-import type { Token } from '@onekeyhq/engine/src/types/token';
+import { getBalanceKey } from '@mywallet/engine/src/managers/token';
+import type { Token } from '@mywallet/engine/src/types/token';
 
 import { formatDecimalZero } from '../views/Market/utils';
 

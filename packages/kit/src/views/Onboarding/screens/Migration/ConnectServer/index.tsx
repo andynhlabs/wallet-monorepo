@@ -4,8 +4,8 @@ import { useEffect, useLayoutEffect, useMemo } from 'react';
 import { useNavigation, useRoute } from '@react-navigation/core';
 import { useIntl } from 'react-intl';
 
-import { Box, Center, Text, useIsVerticalLayout } from '@onekeyhq/components';
-import platformEnv from '@onekeyhq/shared/src/platformEnv';
+import { Box, Center, Text, useIsVerticalLayout } from '@mywallet/components';
+import platformEnv from '@mywallet/shared/src/platformEnv';
 
 import backgroundApiProxy from '../../../../../background/instance/backgroundApiProxy';
 import Layout from '../../../Layout';

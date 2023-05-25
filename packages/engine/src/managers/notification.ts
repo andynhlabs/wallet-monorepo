@@ -2,9 +2,9 @@ import axios from 'axios';
 import { debounce } from 'lodash';
 import qs from 'qs';
 
-import { appSelector } from '@onekeyhq/kit/src/store';
-import type { SettingsState } from '@onekeyhq/kit/src/store/reducers/settings';
-import debugLogger from '@onekeyhq/shared/src/logger/debugLogger';
+import { appSelector } from '@mywallet/kit/src/store';
+import type { SettingsState } from '@mywallet/kit/src/store/reducers/settings';
+import debugLogger from '@mywallet/shared/src/logger/debugLogger';
 
 import { getFiatEndpoint } from '../endpoint';
 

@@ -1,5 +1,5 @@
-import { revealableSeedFromMnemonic } from '@onekeyhq/engine/src/secret';
-import bufferUitls from '@onekeyhq/shared/src/utils/bufferUtils';
+import { revealableSeedFromMnemonic } from '@mywallet/engine/src/secret';
+import bufferUitls from '@mywallet/shared/src/utils/bufferUtils';
 
 import { getCurveByImpl } from '../src/managers/impl';
 import { fromDBNetworkToNetwork } from '../src/managers/network';

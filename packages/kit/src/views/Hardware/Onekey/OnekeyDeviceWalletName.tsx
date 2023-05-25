@@ -14,11 +14,11 @@ import {
   Modal,
   ToastManager,
   useForm,
-} from '@onekeyhq/components';
-import backgroundApiProxy from '@onekeyhq/kit/src/background/instance/backgroundApiProxy';
-import WalletAvatar from '@onekeyhq/kit/src/components/WalletSelector/WalletAvatar';
-import type { OnekeyHardwareRoutesParams } from '@onekeyhq/kit/src/routes/Root/Modal/HardwareOnekey';
-import { deviceUtils } from '@onekeyhq/kit/src/utils/hardware';
+} from '@mywallet/components';
+import backgroundApiProxy from '@mywallet/kit/src/background/instance/backgroundApiProxy';
+import WalletAvatar from '@mywallet/kit/src/components/WalletSelector/WalletAvatar';
+import type { OnekeyHardwareRoutesParams } from '@mywallet/kit/src/routes/Root/Modal/HardwareOnekey';
+import { deviceUtils } from '@mywallet/kit/src/utils/hardware';
 
 import type { OnekeyHardwareModalRoutes } from '../../../routes/routesEnum';
 import type { RouteProp } from '@react-navigation/core';

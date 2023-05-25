@@ -9,9 +9,9 @@ import {
   Icon,
   useIsVerticalLayout,
   useSafeAreaInsets,
-} from '@onekeyhq/components';
-import type { MarketTokenItem } from '@onekeyhq/kit/src/store/reducers/market';
-import { openUrl } from '@onekeyhq/kit/src/utils/openUrl';
+} from '@mywallet/components';
+import type { MarketTokenItem } from '@mywallet/kit/src/store/reducers/market';
+import { openUrl } from '@mywallet/kit/src/utils/openUrl';
 
 import { ListHeadTagsForSearch, SUBMIT_TOKEN_URL } from '../../config';
 import MarketTokenCell from '../MarketList/MarketTokenCell';

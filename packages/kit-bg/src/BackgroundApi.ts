@@ -1,6 +1,6 @@
 /* eslint-disable new-cap */
 /* eslint-disable @typescript-eslint/no-unsafe-member-access */
-import { Engine } from '@onekeyhq/engine';
+import { Engine } from '@mywallet/engine';
 
 import BackgroundApiBase from './BackgroundApiBase';
 

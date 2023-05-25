@@ -3,7 +3,7 @@ import * as BitcoinJS from 'bitcoinjs-lib';
 import bs58check from 'bs58check';
 import memoziee from 'memoizee';
 
-import { CKDPub, verify } from '@onekeyhq/engine/src/secret';
+import { CKDPub, verify } from '@mywallet/engine/src/secret';
 import type {
   AddressValidation,
   ChainInfo,
@@ -13,8 +13,8 @@ import type {
   TransactionStatus,
   UTXO,
   UnsignedTx,
-} from '@onekeyhq/engine/src/vaults/utils/btcForkChain/types';
-import { AddressEncodings } from '@onekeyhq/engine/src/vaults/utils/btcForkChain/types';
+} from '@mywallet/engine/src/vaults/utils/btcForkChain/types';
+import { AddressEncodings } from '@mywallet/engine/src/vaults/utils/btcForkChain/types';
 
 import { isTaprootXpubSegwit, isWatchAccountTaprootSegwit } from '../utils';
 

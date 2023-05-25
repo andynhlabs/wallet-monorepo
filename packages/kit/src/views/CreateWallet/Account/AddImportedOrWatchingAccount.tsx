@@ -3,15 +3,15 @@ import { useCallback, useMemo } from 'react';
 import { useNavigation, useRoute } from '@react-navigation/native';
 import { useIntl } from 'react-intl';
 
-import { Form, Modal, ToastManager, useForm } from '@onekeyhq/components';
-import type { LocaleIds } from '@onekeyhq/components/src/locale';
-import { UserInputCategory } from '@onekeyhq/engine/src/types/credential';
-import backgroundApiProxy from '@onekeyhq/kit/src/background/instance/backgroundApiProxy';
-import FormChainSelector from '@onekeyhq/kit/src/components/Form/ChainSelector';
-import { useGeneral, useRuntime } from '@onekeyhq/kit/src/hooks/redux';
-import type { CreateWalletRoutesParams } from '@onekeyhq/kit/src/routes/Root/Modal/CreateWallet';
-import { CreateWalletModalRoutes } from '@onekeyhq/kit/src/routes/routesEnum';
-import type { ModalScreenProps } from '@onekeyhq/kit/src/routes/types';
+import { Form, Modal, ToastManager, useForm } from '@mywallet/components';
+import type { LocaleIds } from '@mywallet/components/src/locale';
+import { UserInputCategory } from '@mywallet/engine/src/types/credential';
+import backgroundApiProxy from '@mywallet/kit/src/background/instance/backgroundApiProxy';
+import FormChainSelector from '@mywallet/kit/src/components/Form/ChainSelector';
+import { useGeneral, useRuntime } from '@mywallet/kit/src/hooks/redux';
+import type { CreateWalletRoutesParams } from '@mywallet/kit/src/routes/Root/Modal/CreateWallet';
+import { CreateWalletModalRoutes } from '@mywallet/kit/src/routes/routesEnum';
+import type { ModalScreenProps } from '@mywallet/kit/src/routes/types';
 
 import type { RouteProp } from '@react-navigation/native';
 

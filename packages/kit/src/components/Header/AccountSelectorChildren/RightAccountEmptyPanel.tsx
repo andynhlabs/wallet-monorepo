@@ -2,13 +2,13 @@ import { memo, useMemo } from 'react';
 
 import { useIntl } from 'react-intl';
 
-import { Center, Icon, PresenceTransition, Text } from '@onekeyhq/components';
-import type { Wallet } from '@onekeyhq/engine/src/types/wallet';
+import { Center, Icon, PresenceTransition, Text } from '@mywallet/components';
+import type { Wallet } from '@mywallet/engine/src/types/wallet';
 import {
   WALLET_TYPE_EXTERNAL,
   WALLET_TYPE_IMPORTED,
   WALLET_TYPE_WATCHING,
-} from '@onekeyhq/engine/src/types/wallet';
+} from '@mywallet/engine/src/types/wallet';
 
 import { useNetwork } from '../../../hooks/useNetwork';
 import {

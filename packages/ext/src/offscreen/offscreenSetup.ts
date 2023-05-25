@@ -1,9 +1,9 @@
 /* eslint-disable @typescript-eslint/no-unsafe-member-access, @typescript-eslint/no-unsafe-call, @typescript-eslint/no-unused-vars */
 import { bridgeSetup } from '@onekeyfe/extension-bridge-hosted';
 
-import offscreenApi from '@onekeyhq/kit-bg/src/offscreens/instance/offscreenApi';
-import type { IOffscreenApiMessagePayload } from '@onekeyhq/kit-bg/src/offscreens/types';
-import { OFFSCREEN_API_MESSAGE_TYPE } from '@onekeyhq/kit-bg/src/offscreens/types';
+import offscreenApi from '@mywallet/kit-bg/src/offscreens/instance/offscreenApi';
+import type { IOffscreenApiMessagePayload } from '@mywallet/kit-bg/src/offscreens/types';
+import { OFFSCREEN_API_MESSAGE_TYPE } from '@mywallet/kit-bg/src/offscreens/types';
 
 export function offscreenSetup() {
   const offscreenBridge = bridgeSetup.offscreen.createOffscreenJsBridge({

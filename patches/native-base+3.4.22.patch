@@ -47,7 +47,7 @@ index 46b735e..91de4e4 100644
 +++ b/node_modules/native-base/src/components/composites/Tooltip/Tooltip.tsx
 @@ -1,4 +1,4 @@
 -import { OverlayContainer } from '@react-native-aria/overlays';
-+import { OverlayContainer } from '@onekeyhq/components';
++import { OverlayContainer } from '@mywallet/components';
  import React from 'react';
  import { useControllableState, useKeyboardDismissable } from '../../../hooks';
  import { Popper } from '../Popper';
@@ -181,7 +181,7 @@ index 5693616..c208e86 100644
 @@ -1,5 +1,5 @@
  /* eslint-disable @typescript-eslint/no-unused-vars */
 -import { OverlayContainer } from '@react-native-aria/overlays';
-+import { OverlayContainer as RootOverlayContainer } from '@onekeyhq/components';
++import { OverlayContainer as RootOverlayContainer } from '@mywallet/components';
  import React from 'react';
  import type { ViewStyle } from 'react-native';
  import { Modal, Platform } from 'react-native';

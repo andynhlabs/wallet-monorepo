@@ -14,10 +14,10 @@ import {
   ToastManager,
   ZStack,
   useIsVerticalLayout,
-} from '@onekeyhq/components';
-import { copyToClipboard } from '@onekeyhq/components/src/utils/ClipboardUtils';
-import BlurQRCode from '@onekeyhq/kit/assets/blur-qrcode.png';
-import QrcodeLogo from '@onekeyhq/kit/assets/qrcode_logo.png';
+} from '@mywallet/components';
+import { copyToClipboard } from '@mywallet/components/src/utils/ClipboardUtils';
+import BlurQRCode from '@mywallet/kit/assets/blur-qrcode.png';
+import QrcodeLogo from '@mywallet/kit/assets/qrcode_logo.png';
 
 type ISize = { base: number; md: number };
 export const QRLoadingView: FC<{

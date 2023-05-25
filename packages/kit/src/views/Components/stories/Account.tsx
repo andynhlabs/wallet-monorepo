@@ -1,4 +1,4 @@
-import { Account, Center, VStack } from '@onekeyhq/components';
+import { Account, Center, VStack } from '@mywallet/components';
 
 const AccountGallery = () => (
   <Center flex="1" bg="background-hovered">

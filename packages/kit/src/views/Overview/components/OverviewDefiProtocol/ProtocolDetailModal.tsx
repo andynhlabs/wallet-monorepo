@@ -14,8 +14,8 @@ import {
   Token,
   Typography,
   useIsVerticalLayout,
-} from '@onekeyhq/components';
-import useModalClose from '@onekeyhq/components/src/Modal/Container/useModalClose';
+} from '@mywallet/components';
+import useModalClose from '@mywallet/components/src/Modal/Container/useModalClose';
 
 import { FormatCurrencyNumber } from '../../../../components/Format';
 import { useAccountValues, useAppSelector } from '../../../../hooks';

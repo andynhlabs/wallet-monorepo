@@ -5,7 +5,7 @@ module.exports = {
   // generate extensionId in local
   // 'key': process.env.NODE_ENV !== 'production' ? extensionIdKey : undefined,
   'version': process.env.VERSION,
-  'name': 'OneKey',
+  'name': 'Wallasa',
   'description':
     'Multi-Chain Support for BTC, ETH, BNB, NEAR & other Layer2 Networks',
   /*

@@ -2,7 +2,7 @@ import type { FC } from 'react';
 
 import { useIntl } from 'react-intl';
 
-import { Box, Icon, Pressable, Typography } from '@onekeyhq/components';
+import { Box, Icon, Pressable, Typography } from '@mywallet/components';
 
 import { gotoScanQrcode } from '../../../../utils/gotoScanQrcode';
 

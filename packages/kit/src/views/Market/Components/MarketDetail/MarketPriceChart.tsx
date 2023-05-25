@@ -3,10 +3,10 @@ import { useCallback, useMemo, useState } from 'react';
 
 import { useNavigation } from '@react-navigation/core';
 
-import { Box, useIsVerticalLayout } from '@onekeyhq/components';
-import { isValidCoingeckoId } from '@onekeyhq/engine/src/managers/token';
-import type { Token as TokenDO } from '@onekeyhq/engine/src/types/token';
-import platformEnv from '@onekeyhq/shared/src/platformEnv';
+import { Box, useIsVerticalLayout } from '@mywallet/components';
+import { isValidCoingeckoId } from '@mywallet/engine/src/managers/token';
+import type { Token as TokenDO } from '@mywallet/engine/src/types/token';
+import platformEnv from '@mywallet/shared/src/platformEnv';
 
 import {
   ManageTokenModalRoutes,

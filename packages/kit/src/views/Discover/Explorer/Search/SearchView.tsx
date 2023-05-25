@@ -18,11 +18,11 @@ import {
   Pressable,
   Text,
   Typography,
-} from '@onekeyhq/components';
-import { FlatListRef } from '@onekeyhq/components/src/FlatList';
-import useClickDocumentClose from '@onekeyhq/components/src/hooks/useClickDocumentClose';
-import { useDropdownPosition } from '@onekeyhq/components/src/hooks/useDropdownPosition';
-import { useDebounce } from '@onekeyhq/kit/src/hooks';
+} from '@mywallet/components';
+import { FlatListRef } from '@mywallet/components/src/FlatList';
+import useClickDocumentClose from '@mywallet/components/src/hooks/useClickDocumentClose';
+import { useDropdownPosition } from '@mywallet/components/src/hooks/useDropdownPosition';
+import { useDebounce } from '@mywallet/kit/src/hooks';
 
 import DAppIcon from '../../DAppIcon';
 import { useDiscoverHistory } from '../../hooks';

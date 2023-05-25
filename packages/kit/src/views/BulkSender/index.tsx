@@ -11,12 +11,12 @@ import {
   Text,
   useIsVerticalLayout,
   useThemeValue,
-} from '@onekeyhq/components';
-import { Tabs } from '@onekeyhq/components/src/CollapsibleTabView';
-import { batchTransferContractAddress } from '@onekeyhq/engine/src/presets/batchTransferContractAddress';
-import { useNativeToken } from '@onekeyhq/kit/src/hooks';
-import { IMPL_EVM } from '@onekeyhq/shared/src/engine/engineConsts';
-import platformEnv from '@onekeyhq/shared/src/platformEnv';
+} from '@mywallet/components';
+import { Tabs } from '@mywallet/components/src/CollapsibleTabView';
+import { batchTransferContractAddress } from '@mywallet/engine/src/presets/batchTransferContractAddress';
+import { useNativeToken } from '@mywallet/kit/src/hooks';
+import { IMPL_EVM } from '@mywallet/shared/src/engine/engineConsts';
+import platformEnv from '@mywallet/shared/src/platformEnv';
 
 import { NetworkAccountSelectorTrigger } from '../../components/NetworkAccountSelector';
 import { useActiveWalletAccount } from '../../hooks';

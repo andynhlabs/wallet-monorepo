@@ -4,15 +4,15 @@ import { memo, useCallback, useEffect, useMemo, useRef, useState } from 'react';
 import { useNavigation, useRoute } from '@react-navigation/native';
 import { useIntl } from 'react-intl';
 
-import { Box, Center, Spinner, ToastManager } from '@onekeyhq/components';
-import type { OneKeyError } from '@onekeyhq/engine/src/errors';
-import { OneKeyErrorClassNames } from '@onekeyhq/engine/src/errors';
+import { Box, Center, Spinner, ToastManager } from '@mywallet/components';
+import type { OneKeyError } from '@mywallet/engine/src/errors';
+import { OneKeyErrorClassNames } from '@mywallet/engine/src/errors';
 import type {
   IEncodedTx,
   ISignedTxPro,
-} from '@onekeyhq/engine/src/vaults/types';
-import { isExternalAccount } from '@onekeyhq/shared/src/engine/engineUtils';
-import debugLogger from '@onekeyhq/shared/src/logger/debugLogger';
+} from '@mywallet/engine/src/vaults/types';
+import { isExternalAccount } from '@mywallet/shared/src/engine/engineUtils';
+import debugLogger from '@mywallet/shared/src/logger/debugLogger';
 
 import backgroundApiProxy from '../../../background/instance/backgroundApiProxy';
 import Protected, { ValidationFields } from '../../../components/Protected';

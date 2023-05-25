@@ -1,10 +1,10 @@
 import BigNumber from 'bignumber.js';
 
-import type { EIP1559Fee } from '@onekeyhq/engine/src/types/network';
+import type { EIP1559Fee } from '@mywallet/engine/src/types/network';
 import type {
   IFeeInfoPrice,
   IFeeInfoUnit,
-} from '@onekeyhq/engine/src/vaults/types';
+} from '@mywallet/engine/src/vaults/types';
 
 function getCustomFeeSpeedInfo({
   custom,

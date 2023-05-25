@@ -3,12 +3,12 @@ import { useCallback, useEffect, useState } from 'react';
 import {
   REPLACE_WHOLE_STATE,
   waitForDataLoaded,
-} from '@onekeyhq/shared/src/background/backgroundUtils';
+} from '@mywallet/shared/src/background/backgroundUtils';
 import {
   AppEventBusNames,
   appEventBus,
-} from '@onekeyhq/shared/src/eventBus/appEventBus';
-import platformEnv from '@onekeyhq/shared/src/platformEnv';
+} from '@mywallet/shared/src/eventBus/appEventBus';
+import platformEnv from '@mywallet/shared/src/platformEnv';
 
 import backgroundApiProxy from '../background/instance/backgroundApiProxy';
 

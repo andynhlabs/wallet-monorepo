@@ -2,9 +2,9 @@
 // will NOT be bundled into the final package
 
 // babel-plugin-import will transform the following code
-// import { Box } from '@onekeyhq/components';
+// import { Box } from '@mywallet/components';
 //    into
-// import Box from '@onekeyhq/components/src/Box';
+// import Box from '@mywallet/components/src/Box';
 
 // only export default components or pure types here
 // the component name should be the same as the file name

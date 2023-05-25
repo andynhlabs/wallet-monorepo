@@ -2,8 +2,8 @@ import { useCallback, useEffect, useMemo, useState } from 'react';
 
 import { uniq } from 'lodash';
 
-import type { ThemeToken } from '@onekeyhq/components/src/Provider/theme';
-import { networkIsPreset } from '@onekeyhq/engine/src/presets';
+import type { ThemeToken } from '@mywallet/components/src/Provider/theme';
+import { networkIsPreset } from '@mywallet/engine/src/presets';
 
 import backgroundApiProxy from '../../../background/instance/backgroundApiProxy';
 import { useAppSelector } from '../../../hooks';

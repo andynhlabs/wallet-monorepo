@@ -1,15 +1,15 @@
 import type { DependencyList } from 'react';
 import { useMemo } from 'react';
 
-import { ToastManager } from '@onekeyhq/components';
-import { isAccountCompatibleWithNetwork } from '@onekeyhq/engine/src/managers/account';
-import type { IAccount, INetwork, IWallet } from '@onekeyhq/engine/src/types';
+import { ToastManager } from '@mywallet/components';
+import { isAccountCompatibleWithNetwork } from '@mywallet/engine/src/managers/account';
+import type { IAccount, INetwork, IWallet } from '@mywallet/engine/src/types';
 import {
   WALLET_TYPE_EXTERNAL,
   WALLET_TYPE_HW,
   WALLET_TYPE_WATCHING,
-} from '@onekeyhq/engine/src/types/wallet';
-import debugLogger from '@onekeyhq/shared/src/logger/debugLogger';
+} from '@mywallet/engine/src/types/wallet';
+import debugLogger from '@mywallet/shared/src/logger/debugLogger';
 
 import { appSelector } from '../store';
 import { useTransactionSendContext } from '../views/Send/utils/TransactionSendContext';

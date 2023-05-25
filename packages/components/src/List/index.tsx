@@ -2,8 +2,8 @@
 /* eslint-disable no-nested-ternary */
 import { useCallback, useMemo } from 'react';
 
-import { FlatList as NBFlatList } from '@onekeyhq/components';
-import type { FlatListProps } from '@onekeyhq/components/src/FlatList';
+import { FlatList as NBFlatList } from '@mywallet/components';
+import type { FlatListProps } from '@mywallet/components/src/FlatList';
 
 import Footer from './Footer';
 import Header from './Header';

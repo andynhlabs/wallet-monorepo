@@ -9,10 +9,10 @@ import {
   ScrollView,
   Stack,
   Typography,
-} from '@onekeyhq/components';
-import { T1Data } from '@onekeyhq/kit/src/utils/hardware/constants/homescreensData';
-import { elementToHomescreen } from '@onekeyhq/kit/src/utils/hardware/homescreens';
-import platformEnv from '@onekeyhq/shared/src/platformEnv';
+} from '@mywallet/components';
+import { T1Data } from '@mywallet/kit/src/utils/hardware/constants/homescreensData';
+import { elementToHomescreen } from '@mywallet/kit/src/utils/hardware/homescreens';
+import platformEnv from '@mywallet/shared/src/platformEnv';
 
 import { useNavigationBack } from '../../../hooks/useAppNavigation';
 
@@ -33,7 +33,7 @@ const GenerateHomescreen: FC = () => {
       // serviceHardware.applySettings('Bixin21042003983', { homescreen: hex });
       const imageData = {
         name: imageId,
-        staticPath: `require('@onekeyhq/kit/assets/hardware/homescreens/t1/${imageId}.png')`,
+        staticPath: `require('@mywallet/kit/assets/hardware/homescreens/t1/${imageId}.png')`,
         hex,
       };
       console.log(JSON.stringify(imageData));
@@ -48,7 +48,7 @@ const GenerateHomescreen: FC = () => {
         const hex = elementToHomescreen(element);
         const imageData = {
           name,
-          staticPath: `require('@onekeyhq/kit/assets/hardware/homescreens/t1/${name}.png')`,
+          staticPath: `require('@mywallet/kit/assets/hardware/homescreens/t1/${name}.png')`,
           hex,
         };
         // eslint-disable-next-line @typescript-eslint/no-unsafe-member-access

@@ -1,6 +1,6 @@
 import type { FC } from 'react';
 
-import { Box, Typography, useIsVerticalLayout } from '@onekeyhq/components';
+import { Box, Typography, useIsVerticalLayout } from '@mywallet/components';
 
 import { SwappingViaLogos } from '../components/SwappingVia';
 

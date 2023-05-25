@@ -1,8 +1,8 @@
 /* eslint no-unused-vars: ["warn", { "argsIgnorePattern": "^_" }] */
 /* eslint @typescript-eslint/no-unused-vars: ["warn", { "argsIgnorePattern": "^_" }] */
 
-import { ed25519 } from '@onekeyhq/engine/src/secret/curves';
-import { COINTYPE_STC as COIN_TYPE } from '@onekeyhq/shared/src/engine/engineConsts';
+import { ed25519 } from '@mywallet/engine/src/secret/curves';
+import { COINTYPE_STC as COIN_TYPE } from '@mywallet/shared/src/engine/engineConsts';
 
 import { OneKeyInternalError } from '../../../errors';
 import { Signer } from '../../../proxy';

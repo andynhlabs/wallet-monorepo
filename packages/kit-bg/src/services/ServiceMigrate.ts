@@ -6,35 +6,35 @@ import {
   generateKeypair,
   rsaDecrypt,
   rsaEncrypt,
-} from '@onekeyhq/engine/src/dbs/base';
-import { getFiatEndpoint } from '@onekeyhq/engine/src/endpoint';
+} from '@mywallet/engine/src/dbs/base';
+import { getFiatEndpoint } from '@mywallet/engine/src/endpoint';
 import type {
   DeviceInfo,
   MigrateData,
   MigrateServiceResp,
-} from '@onekeyhq/engine/src/types/migrate';
-import { MigrateErrorCode } from '@onekeyhq/engine/src/types/migrate';
+} from '@mywallet/engine/src/types/migrate';
+import { MigrateErrorCode } from '@mywallet/engine/src/types/migrate';
 import {
   deviceInfo,
   generatePassword,
   parseCloudData,
   randomString,
   shuffle,
-} from '@onekeyhq/kit/src/views/Onboarding/screens/Migration/util';
+} from '@mywallet/kit/src/views/Onboarding/screens/Migration/util';
 import {
   backgroundClass,
   backgroundMethod,
-} from '@onekeyhq/shared/src/background/backgroundDecorators';
+} from '@mywallet/shared/src/background/backgroundDecorators';
 import {
   AppEventBusNames,
   appEventBus,
-} from '@onekeyhq/shared/src/eventBus/appEventBus';
+} from '@mywallet/shared/src/eventBus/appEventBus';
 import {
   AppUIEventBusNames,
   appUIEventBus,
-} from '@onekeyhq/shared/src/eventBus/appUIEventBus';
-import debugLogger from '@onekeyhq/shared/src/logger/debugLogger';
-import platformEnv from '@onekeyhq/shared/src/platformEnv';
+} from '@mywallet/shared/src/eventBus/appUIEventBus';
+import debugLogger from '@mywallet/shared/src/logger/debugLogger';
+import platformEnv from '@mywallet/shared/src/platformEnv';
 
 import ServiceBase from './ServiceBase';
 import { HTTPServiceNames } from './ServiceHTTP';

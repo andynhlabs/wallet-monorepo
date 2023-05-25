@@ -1,7 +1,7 @@
 # TODO
 
 - routes/routesEnum.ts ( background navigate() )
-- @onekeyhq/app/src/hardware/OnekeyLite
+- @mywallet/app/src/hardware/OnekeyLite
 - navigation url required hash url ( @react-navigation+native+6.0.6.patch useLinking.js )
   - deep linking in ios/android 
 - EngineProvider.tsx to background

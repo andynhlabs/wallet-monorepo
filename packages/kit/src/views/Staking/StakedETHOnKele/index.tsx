@@ -18,8 +18,8 @@ import {
   Modal,
   Typography,
   VStack,
-} from '@onekeyhq/components';
-import type { ModalScreenProps } from '@onekeyhq/kit/src/routes/types';
+} from '@mywallet/components';
+import type { ModalScreenProps } from '@mywallet/kit/src/routes/types';
 
 import backgroundApiProxy from '../../../background/instance/backgroundApiProxy';
 import { FormatCurrency } from '../../../components/Format';

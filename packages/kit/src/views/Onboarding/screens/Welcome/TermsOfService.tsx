@@ -3,9 +3,9 @@ import { useCallback } from 'react';
 
 import { useIntl } from 'react-intl';
 
-import { Center, Text, useSafeAreaInsets } from '@onekeyhq/components';
-import { useHelpLink } from '@onekeyhq/kit/src/hooks';
-import { openUrl } from '@onekeyhq/kit/src/utils/openUrl';
+import { Center, Text, useSafeAreaInsets } from '@mywallet/components';
+import { useHelpLink } from '@mywallet/kit/src/hooks';
+import { openUrl } from '@mywallet/kit/src/utils/openUrl';
 
 const TermsOfService: FC = () => {
   const intl = useIntl();

@@ -1,6 +1,6 @@
-import type { INetwork } from '@onekeyhq/engine/src/types';
-import { CHAINS_DISPLAYED_IN_DEV } from '@onekeyhq/shared/src/engine/engineConsts';
-import platformEnv from '@onekeyhq/shared/src/platformEnv';
+import type { INetwork } from '@mywallet/engine/src/types';
+import { CHAINS_DISPLAYED_IN_DEV } from '@mywallet/shared/src/engine/engineConsts';
+import platformEnv from '@mywallet/shared/src/platformEnv';
 
 import { makeSelector } from './redux';
 

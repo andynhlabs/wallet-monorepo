@@ -1,5 +1,5 @@
-import { useIsVerticalLayout } from '@onekeyhq/components';
-import type { Avatar } from '@onekeyhq/shared/src/utils/emojiUtils';
+import { useIsVerticalLayout } from '@mywallet/components';
+import type { Avatar } from '@mywallet/shared/src/utils/emojiUtils';
 
 import ManagerWalletLocalValidationView from '../../../views/ManagerWallet/LocalValidationModal';
 import ModifyWalletEmojiView from '../../../views/ManagerWallet/ModifyWallet/emoji';

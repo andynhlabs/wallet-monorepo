@@ -2,9 +2,9 @@ import { useCallback, useMemo } from 'react';
 
 import { useIntl } from 'react-intl';
 
-import type { Network } from '@onekeyhq/engine/src/types/network';
-import { IMPL_FIL } from '@onekeyhq/shared/src/engine/engineConsts';
-import platformEnv from '@onekeyhq/shared/src/platformEnv';
+import type { Network } from '@mywallet/engine/src/types/network';
+import { IMPL_FIL } from '@mywallet/shared/src/engine/engineConsts';
+import platformEnv from '@mywallet/shared/src/platformEnv';
 
 import { openUrl } from '../utils/openUrl';
 

@@ -13,15 +13,15 @@ import {
   ScrollView,
   VStack,
   useIsVerticalLayout,
-} from '@onekeyhq/components';
+} from '@mywallet/components';
 import type {
   ERC20TokenAllowance,
   ERC721TokenAllowance,
-} from '@onekeyhq/engine/src/managers/revoke';
-import { toFloat } from '@onekeyhq/engine/src/managers/revoke';
-import { TokenRiskLevel } from '@onekeyhq/engine/src/types/token';
-import { IMPL_EVM } from '@onekeyhq/shared/src/engine/engineConsts';
-import platformEnv from '@onekeyhq/shared/src/platformEnv';
+} from '@mywallet/engine/src/managers/revoke';
+import { toFloat } from '@mywallet/engine/src/managers/revoke';
+import { TokenRiskLevel } from '@mywallet/engine/src/types/token';
+import { IMPL_EVM } from '@mywallet/shared/src/engine/engineConsts';
+import platformEnv from '@mywallet/shared/src/platformEnv';
 
 import { NetworkAccountSelectorTrigger } from '../../components/NetworkAccountSelector';
 import { useActiveWalletAccount } from '../../hooks';

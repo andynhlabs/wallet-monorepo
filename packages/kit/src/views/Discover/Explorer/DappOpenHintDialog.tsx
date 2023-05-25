@@ -2,7 +2,7 @@ import type { FC } from 'react';
 
 import { useIntl } from 'react-intl';
 
-import { Dialog } from '@onekeyhq/components';
+import { Dialog } from '@mywallet/components';
 
 export type DappOpenHintDialogProps = {
   onVisibilityChange: (visible: boolean) => void;

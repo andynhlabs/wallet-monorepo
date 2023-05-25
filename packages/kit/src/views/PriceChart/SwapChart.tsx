@@ -1,8 +1,8 @@
 import { useCallback, useEffect, useMemo, useRef, useState } from 'react';
 import type { FC } from 'react';
 
-import { Box } from '@onekeyhq/components';
-import type { Token } from '@onekeyhq/engine/src/types/token';
+import { Box } from '@mywallet/components';
+import type { Token } from '@mywallet/engine/src/types/token';
 
 import { useInterval } from '../../hooks';
 

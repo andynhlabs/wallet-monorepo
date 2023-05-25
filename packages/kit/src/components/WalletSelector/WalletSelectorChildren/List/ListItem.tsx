@@ -7,27 +7,27 @@ import {
   Pressable,
   Text,
   useIsVerticalLayout,
-} from '@onekeyhq/components';
-import type { IWallet } from '@onekeyhq/engine/src/types';
-import backgroundApiProxy from '@onekeyhq/kit/src/background/instance/backgroundApiProxy';
+} from '@mywallet/components';
+import type { IWallet } from '@mywallet/engine/src/types';
+import backgroundApiProxy from '@mywallet/kit/src/background/instance/backgroundApiProxy';
 import {
   ACCOUNT_SELECTOR_CHANGE_ACCOUNT_CLOSE_DRAWER_DELAY,
   WALLET_SELECTOR_DESKTOP_ACTION_DELAY_AFTER_CLOSE,
-} from '@onekeyhq/kit/src/components/Header/AccountSelectorChildren/accountSelectorConsts';
-import type { IHardwareDeviceStatusMap } from '@onekeyhq/kit/src/components/NetworkAccountSelector/hooks/useDeviceStatusOfHardwareWallet';
-import type { DeviceState } from '@onekeyhq/kit/src/components/WalletSelector/WalletAvatar';
+} from '@mywallet/kit/src/components/Header/AccountSelectorChildren/accountSelectorConsts';
+import type { IHardwareDeviceStatusMap } from '@mywallet/kit/src/components/NetworkAccountSelector/hooks/useDeviceStatusOfHardwareWallet';
+import type { DeviceState } from '@mywallet/kit/src/components/WalletSelector/WalletAvatar';
 import {
   WalletAvatarPro,
   useHardwareWalletInfo,
-} from '@onekeyhq/kit/src/components/WalletSelector/WalletAvatar';
+} from '@mywallet/kit/src/components/WalletSelector/WalletAvatar';
 import {
   useActiveWalletAccount,
   useNavigationActions,
-} from '@onekeyhq/kit/src/hooks';
-import { useWalletName } from '@onekeyhq/kit/src/hooks/useWalletName';
-import reducerAccountSelector from '@onekeyhq/kit/src/store/reducers/reducerAccountSelector';
-import { wait } from '@onekeyhq/kit/src/utils/helper';
-import platformEnv from '@onekeyhq/shared/src/platformEnv';
+} from '@mywallet/kit/src/hooks';
+import { useWalletName } from '@mywallet/kit/src/hooks/useWalletName';
+import reducerAccountSelector from '@mywallet/kit/src/store/reducers/reducerAccountSelector';
+import { wait } from '@mywallet/kit/src/utils/helper';
+import platformEnv from '@mywallet/shared/src/platformEnv';
 
 import { WalletItemSelectDropdown } from '../WalletItemSelectDropdown';
 

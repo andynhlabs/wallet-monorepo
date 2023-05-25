@@ -4,13 +4,13 @@ import BigNumber from 'bignumber.js';
 import { TypedDataUtils } from 'eth-sig-util';
 import { omitBy } from 'lodash';
 
-import { UnsignedTx } from '@onekeyhq/engine/src/types/provider';
-import type { SignedTx } from '@onekeyhq/engine/src/types/provider';
-import { isHexString } from '@onekeyhq/kit/src/utils/helper';
-import { convertDeviceError } from '@onekeyhq/shared/src/device/deviceErrorUtils';
-import { COINTYPE_CFX as COIN_TYPE } from '@onekeyhq/shared/src/engine/engineConsts';
-import debugLogger from '@onekeyhq/shared/src/logger/debugLogger';
-import { toBigIntHex } from '@onekeyhq/shared/src/utils/numberUtils';
+import { UnsignedTx } from '@mywallet/engine/src/types/provider';
+import type { SignedTx } from '@mywallet/engine/src/types/provider';
+import { isHexString } from '@mywallet/kit/src/utils/helper';
+import { convertDeviceError } from '@mywallet/shared/src/device/deviceErrorUtils';
+import { COINTYPE_CFX as COIN_TYPE } from '@mywallet/shared/src/engine/engineConsts';
+import debugLogger from '@mywallet/shared/src/logger/debugLogger';
+import { toBigIntHex } from '@mywallet/shared/src/utils/numberUtils';
 
 import { NotImplemented, OneKeyHardwareError } from '../../../errors';
 import { AccountType } from '../../../types/account';

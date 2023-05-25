@@ -1,15 +1,15 @@
 import * as BitcoinJS from 'bitcoinjs-lib';
 
-import type { SignedTx, UnsignedTx } from '@onekeyhq/engine/src/types/provider';
-import { convertDeviceError } from '@onekeyhq/shared/src/device/deviceErrorUtils';
+import type { SignedTx, UnsignedTx } from '@mywallet/engine/src/types/provider';
+import { convertDeviceError } from '@mywallet/shared/src/device/deviceErrorUtils';
 import {
   CoreSDKLoader,
   HardwareSDK,
-} from '@onekeyhq/shared/src/device/hardwareInstance';
+} from '@mywallet/shared/src/device/hardwareInstance';
 import {
   COINTYPE_BCH,
   COINTYPE_DOGE,
-} from '@onekeyhq/shared/src/engine/engineConsts';
+} from '@mywallet/shared/src/engine/engineConsts';
 
 import {
   NotImplemented,

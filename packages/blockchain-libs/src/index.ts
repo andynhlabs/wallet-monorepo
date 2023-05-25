@@ -1,4 +1,4 @@
 export type {
   StorageLike,
   ExternalConfig,
-} from '@onekeyhq/engine/src/types/external-config';
+} from '@mywallet/engine/src/types/external-config';

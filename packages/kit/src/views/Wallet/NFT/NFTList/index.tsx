@@ -10,21 +10,21 @@ import {
   Empty,
   useIsVerticalLayout,
   useUserDevice,
-} from '@onekeyhq/components';
-import { Tabs } from '@onekeyhq/components/src/CollapsibleTabView';
-import type { FlatListProps } from '@onekeyhq/components/src/FlatList';
-import { isAccountCompatibleWithNetwork } from '@onekeyhq/engine/src/managers/account';
-import { isCollectibleSupportedChainId } from '@onekeyhq/engine/src/managers/nft';
-import type { Collection, NFTAsset } from '@onekeyhq/engine/src/types/nft';
+} from '@mywallet/components';
+import { Tabs } from '@mywallet/components/src/CollapsibleTabView';
+import type { FlatListProps } from '@mywallet/components/src/FlatList';
+import { isAccountCompatibleWithNetwork } from '@mywallet/engine/src/managers/account';
+import { isCollectibleSupportedChainId } from '@mywallet/engine/src/managers/nft';
+import type { Collection, NFTAsset } from '@mywallet/engine/src/types/nft';
 import {
   useActiveWalletAccount,
   useAppSelector,
-} from '@onekeyhq/kit/src/hooks/redux';
-import type { CollectiblesRoutesParams } from '@onekeyhq/kit/src/routes/Root/Modal/Collectibles';
-import { ModalRoutes, RootRoutes } from '@onekeyhq/kit/src/routes/routesEnum';
-import type { ModalScreenProps } from '@onekeyhq/kit/src/routes/types';
-import { MAX_PAGE_CONTAINER_WIDTH } from '@onekeyhq/shared/src/config/appConfig';
-import platformEnv from '@onekeyhq/shared/src/platformEnv';
+} from '@mywallet/kit/src/hooks/redux';
+import type { CollectiblesRoutesParams } from '@mywallet/kit/src/routes/Root/Modal/Collectibles';
+import { ModalRoutes, RootRoutes } from '@mywallet/kit/src/routes/routesEnum';
+import type { ModalScreenProps } from '@mywallet/kit/src/routes/types';
+import { MAX_PAGE_CONTAINER_WIDTH } from '@mywallet/shared/src/config/appConfig';
+import platformEnv from '@mywallet/shared/src/platformEnv';
 
 import backgroundApiProxy from '../../../../background/instance/backgroundApiProxy';
 import { useIsMounted } from '../../../../hooks/useIsMounted';

@@ -2,7 +2,7 @@ import { useCallback, useEffect, useMemo } from 'react';
 
 import { useIntl } from 'react-intl';
 
-import { Box, Icon, SectionList, Typography } from '@onekeyhq/components';
+import { Box, Icon, SectionList, Typography } from '@mywallet/components';
 
 import { useAppSelector, useNavigation } from '../../../../hooks';
 import { showEnableExtTipsSheet } from '../enableExtSheet';

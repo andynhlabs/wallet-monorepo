@@ -1,4 +1,4 @@
-import { Center, Image } from '@onekeyhq/components';
+import { Center, Image } from '@mywallet/components';
 
 const ImageViewerGallery = () => (
   <Center flex="1" bg="background-hovered">

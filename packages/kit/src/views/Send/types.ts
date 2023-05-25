@@ -1,10 +1,10 @@
 import type { ReactElement } from 'react';
 
-import type { ModalProps } from '@onekeyhq/components/src/Modal';
-import type { IBaseExternalAccountInfo } from '@onekeyhq/engine/src/dbs/simple/entity/SimpleDbEntityWalletConnect';
-import type { Account } from '@onekeyhq/engine/src/types/account';
-import type { Network } from '@onekeyhq/engine/src/types/network';
-import type { IUnsignedMessageEvm } from '@onekeyhq/engine/src/vaults/impl/evm/Vault';
+import type { ModalProps } from '@mywallet/components/src/Modal';
+import type { IBaseExternalAccountInfo } from '@mywallet/engine/src/dbs/simple/entity/SimpleDbEntityWalletConnect';
+import type { Account } from '@mywallet/engine/src/types/account';
+import type { Network } from '@mywallet/engine/src/types/network';
+import type { IUnsignedMessageEvm } from '@mywallet/engine/src/vaults/impl/evm/Vault';
 import type {
   IDecodedTx,
   IDecodedTxLegacy,
@@ -16,8 +16,8 @@ import type {
   IStakeInfo,
   ISwapInfo,
   ITransferInfo,
-} from '@onekeyhq/engine/src/vaults/types';
-import type { IDappSourceInfo } from '@onekeyhq/shared/types';
+} from '@mywallet/engine/src/vaults/types';
+import type { IDappSourceInfo } from '@mywallet/shared/types';
 
 import { SendModalRoutes } from './enums';
 

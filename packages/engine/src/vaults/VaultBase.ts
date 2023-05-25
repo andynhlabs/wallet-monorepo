@@ -7,15 +7,15 @@ import { isNil } from 'lodash';
 import type {
   BaseClient,
   BaseProvider,
-} from '@onekeyhq/engine/src/client/BaseClient';
+} from '@mywallet/engine/src/client/BaseClient';
 import type {
   PartialTokenInfo,
   TransactionStatus,
   UnsignedTx,
-} from '@onekeyhq/engine/src/types/provider';
-import { HISTORY_CONSTS } from '@onekeyhq/shared/src/engine/engineConsts';
-import debugLogger from '@onekeyhq/shared/src/logger/debugLogger';
-import platformEnv from '@onekeyhq/shared/src/platformEnv';
+} from '@mywallet/engine/src/types/provider';
+import { HISTORY_CONSTS } from '@mywallet/shared/src/engine/engineConsts';
+import debugLogger from '@mywallet/shared/src/logger/debugLogger';
+import platformEnv from '@mywallet/shared/src/platformEnv';
 
 import simpleDb from '../dbs/simple/simpleDb';
 import {

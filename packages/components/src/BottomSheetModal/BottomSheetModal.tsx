@@ -9,10 +9,10 @@ import {
   useIsVerticalLayout,
   useSafeAreaInsets,
   useThemeValue,
-} from '@onekeyhq/components';
-import { CloseBackDrop } from '@onekeyhq/components/src/Select';
-import { useCloseOnEsc } from '@onekeyhq/kit/src/hooks/useOnKeydown';
-import platformEnv from '@onekeyhq/shared/src/platformEnv';
+} from '@mywallet/components';
+import { CloseBackDrop } from '@mywallet/components/src/Select';
+import { useCloseOnEsc } from '@mywallet/kit/src/hooks/useOnKeydown';
+import platformEnv from '@mywallet/shared/src/platformEnv';
 
 import Header from '../Modal/Container/Header/Header';
 

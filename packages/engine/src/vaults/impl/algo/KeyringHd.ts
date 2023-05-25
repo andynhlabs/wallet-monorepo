@@ -1,7 +1,7 @@
-import { batchGetPublicKeys } from '@onekeyhq/engine/src/secret';
-import type { CurveName } from '@onekeyhq/engine/src/secret';
-import type { SignedTx, UnsignedTx } from '@onekeyhq/engine/src/types/provider';
-import { COINTYPE_ALGO as COIN_TYPE } from '@onekeyhq/shared/src/engine/engineConsts';
+import { batchGetPublicKeys } from '@mywallet/engine/src/secret';
+import type { CurveName } from '@mywallet/engine/src/secret';
+import type { SignedTx, UnsignedTx } from '@mywallet/engine/src/types/provider';
+import { COINTYPE_ALGO as COIN_TYPE } from '@mywallet/shared/src/engine/engineConsts';
 
 import { OneKeyInternalError } from '../../../errors';
 import { Signer } from '../../../proxy';

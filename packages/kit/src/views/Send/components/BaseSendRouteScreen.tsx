@@ -1,9 +1,9 @@
 import { useRoute } from '@react-navigation/core';
 import { useIntl } from 'react-intl';
 
-import { Center, Empty } from '@onekeyhq/components';
-import type { LocaleIds } from '@onekeyhq/components/src/locale';
-import type { IDappSourceInfo } from '@onekeyhq/shared/types';
+import { Center, Empty } from '@mywallet/components';
+import type { LocaleIds } from '@mywallet/components/src/locale';
+import type { IDappSourceInfo } from '@mywallet/shared/types';
 
 import useDappApproveAction from '../../../hooks/useDappApproveAction';
 

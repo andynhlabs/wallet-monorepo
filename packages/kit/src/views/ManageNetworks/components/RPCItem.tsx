@@ -12,7 +12,7 @@ import {
   Skeleton,
   Typography,
   VStack,
-} from '@onekeyhq/components';
+} from '@mywallet/components';
 
 import Speedindicator from '../../../components/NetworkAccountSelector/modals/NetworkAccountSelectorModal/SpeedIndicator';
 

@@ -3,9 +3,9 @@ import { useCallback, useMemo } from 'react';
 
 import { useIntl } from 'react-intl';
 
-import { Button, ScrollView } from '@onekeyhq/components';
-import type { MarketLinks } from '@onekeyhq/kit/src/store/reducers/market';
-import { openUrl } from '@onekeyhq/kit/src/utils/openUrl';
+import { Button, ScrollView } from '@mywallet/components';
+import type { MarketLinks } from '@mywallet/kit/src/store/reducers/market';
+import { openUrl } from '@mywallet/kit/src/utils/openUrl';
 
 type MarketInfoLinksProps = {
   links: MarketLinks;

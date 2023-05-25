@@ -1,7 +1,7 @@
 import { Linking, Platform } from 'react-native';
 import InAppReview from 'react-native-in-app-review';
 
-import debugLogger from '@onekeyhq/shared/src/logger/debugLogger';
+import debugLogger from '@mywallet/shared/src/logger/debugLogger';
 
 import backgroundApiProxy from '../background/instance/backgroundApiProxy';
 

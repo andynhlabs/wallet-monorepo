@@ -3,8 +3,8 @@ import { useState } from 'react';
 import { useRoute } from '@react-navigation/native';
 import { useIntl } from 'react-intl';
 
-import { Box, Center, Hidden, Text, ToastManager } from '@onekeyhq/components';
-import platformEnv from '@onekeyhq/shared/src/platformEnv';
+import { Box, Center, Hidden, Text, ToastManager } from '@mywallet/components';
+import platformEnv from '@mywallet/shared/src/platformEnv';
 
 import { ConnectWalletListView } from '../../../../components/WalletConnect/WalletConnectQrcodeModal';
 import useAppNavigation from '../../../../hooks/useAppNavigation';

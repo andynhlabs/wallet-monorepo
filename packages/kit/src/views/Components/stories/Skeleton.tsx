@@ -1,4 +1,4 @@
-import { Box, Skeleton } from '@onekeyhq/components';
+import { Box, Skeleton } from '@mywallet/components';
 
 const SkeletonGallery = () => (
   <Box bgColor="background-default" flex={1}>

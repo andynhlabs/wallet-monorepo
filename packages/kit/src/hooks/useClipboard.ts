@@ -2,13 +2,13 @@ import { useCallback } from 'react';
 
 import { useIntl } from 'react-intl';
 
-import { ToastManager } from '@onekeyhq/components';
-import type { LocaleIds } from '@onekeyhq/components/src/locale';
+import { ToastManager } from '@mywallet/components';
+import type { LocaleIds } from '@mywallet/components/src/locale';
 import {
   copyToClipboard,
   getClipboard,
-} from '@onekeyhq/components/src/utils/ClipboardUtils';
-import platformEnv from '@onekeyhq/shared/src/platformEnv';
+} from '@mywallet/components/src/utils/ClipboardUtils';
+import platformEnv from '@mywallet/shared/src/platformEnv';
 
 export function useClipboard() {
   const intl = useIntl();

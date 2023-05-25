@@ -1,8 +1,8 @@
 import type { ComponentProps, FC } from 'react';
 import { useCallback } from 'react';
 
-import NetImage from '@onekeyhq/components/src/NetImage';
-import { syncImage } from '@onekeyhq/engine/src/managers/nft';
+import NetImage from '@mywallet/components/src/NetImage';
+import { syncImage } from '@mywallet/engine/src/managers/nft';
 
 type Props = {
   url?: string | null;

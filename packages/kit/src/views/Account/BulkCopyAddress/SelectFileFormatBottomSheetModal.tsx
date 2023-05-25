@@ -8,8 +8,8 @@ import {
   Button,
   SegmentedControl,
   VStack,
-} from '@onekeyhq/components';
-import { formatMessage } from '@onekeyhq/components/src/Provider';
+} from '@mywallet/components';
+import { formatMessage } from '@mywallet/components/src/Provider';
 
 import { showOverlay } from '../../../utils/overlayUtils';
 

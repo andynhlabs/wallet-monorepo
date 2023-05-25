@@ -1,7 +1,7 @@
 import { isWalletConnectSession } from '@walletconnect/utils';
 
-import debugLogger from '@onekeyhq/shared/src/logger/debugLogger';
-import appStorage from '@onekeyhq/shared/src/storage/appStorage';
+import debugLogger from '@mywallet/shared/src/logger/debugLogger';
+import appStorage from '@mywallet/shared/src/storage/appStorage';
 
 import {
   WALLET_CONNECT_STORAGE_KEY_DAPP_SIDE,

@@ -1,6 +1,6 @@
 import { useCallback, useEffect, useMemo, useState } from 'react';
 
-import { OnekeyNetwork } from '@onekeyhq/shared/src/config/networkIds';
+import { OnekeyNetwork } from '@mywallet/shared/src/config/networkIds';
 
 import backgroundApiProxy from '../../../../background/instance/backgroundApiProxy';
 import { useDebounce } from '../../../../hooks';

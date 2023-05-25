@@ -1,7 +1,7 @@
 /* eslint-disable no-nested-ternary */
 import type { ComponentProps, FC } from 'react';
 
-import { HStack, Pressable } from '@onekeyhq/components';
+import { HStack, Pressable } from '@mywallet/components';
 
 import Column from './Column';
 

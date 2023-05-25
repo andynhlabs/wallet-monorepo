@@ -2,49 +2,49 @@ import BigNumber from 'bignumber.js';
 import { debounce, isEmpty, uniq, xor } from 'lodash';
 import memoizee from 'memoizee';
 
-import { getBalancesFromApi } from '@onekeyhq/engine/src/apiProxyUtils';
-import simpleDb from '@onekeyhq/engine/src/dbs/simple/simpleDb';
-import { isAccountCompatibleWithNetwork } from '@onekeyhq/engine/src/managers/account';
-import type { CheckParams } from '@onekeyhq/engine/src/managers/goplus';
+import { getBalancesFromApi } from '@mywallet/engine/src/apiProxyUtils';
+import simpleDb from '@mywallet/engine/src/dbs/simple/simpleDb';
+import { isAccountCompatibleWithNetwork } from '@mywallet/engine/src/managers/account';
+import type { CheckParams } from '@mywallet/engine/src/managers/goplus';
 import {
   checkSite,
   fetchSecurityInfo,
   getAddressRiskyItems,
   getRiskLevel,
   getTokenRiskyItems,
-} from '@onekeyhq/engine/src/managers/goplus';
+} from '@mywallet/engine/src/managers/goplus';
 import {
   fetchTokenSource,
   fetchTools,
   formatServerToken,
   getBalanceKey,
-} from '@onekeyhq/engine/src/managers/token';
-import { AccountType } from '@onekeyhq/engine/src/types/account';
-import type { GoPlusTokenSecurity } from '@onekeyhq/engine/src/types/goplus';
-import { GoPlusSupportApis } from '@onekeyhq/engine/src/types/goplus';
-import { TokenRiskLevel } from '@onekeyhq/engine/src/types/token';
-import type { ServerToken, Token } from '@onekeyhq/engine/src/types/token';
+} from '@mywallet/engine/src/managers/token';
+import { AccountType } from '@mywallet/engine/src/types/account';
+import type { GoPlusTokenSecurity } from '@mywallet/engine/src/types/goplus';
+import { GoPlusSupportApis } from '@mywallet/engine/src/types/goplus';
+import { TokenRiskLevel } from '@mywallet/engine/src/types/token';
+import type { ServerToken, Token } from '@mywallet/engine/src/types/token';
 import {
   setIsPasswordLoadedInVault,
   setTools,
-} from '@onekeyhq/kit/src/store/reducers/data';
-import type { TokenBalanceValue } from '@onekeyhq/kit/src/store/reducers/tokens';
+} from '@mywallet/kit/src/store/reducers/data';
+import type { TokenBalanceValue } from '@mywallet/kit/src/store/reducers/tokens';
 import {
   setAccountTokens,
   setAccountTokensBalances,
-} from '@onekeyhq/kit/src/store/reducers/tokens';
-import { getTimeDurationMs } from '@onekeyhq/kit/src/utils/helper';
+} from '@mywallet/kit/src/store/reducers/tokens';
+import { getTimeDurationMs } from '@mywallet/kit/src/utils/helper';
 import {
   backgroundClass,
   backgroundMethod,
   bindThis,
-} from '@onekeyhq/shared/src/background/backgroundDecorators';
-import { fetchData } from '@onekeyhq/shared/src/background/backgroundUtils';
+} from '@mywallet/shared/src/background/backgroundDecorators';
+import { fetchData } from '@mywallet/shared/src/background/backgroundUtils';
 import {
   AppEventBusNames,
   appEventBus,
-} from '@onekeyhq/shared/src/eventBus/appEventBus';
-import debugLogger from '@onekeyhq/shared/src/logger/debugLogger';
+} from '@mywallet/shared/src/eventBus/appEventBus';
+import debugLogger from '@mywallet/shared/src/logger/debugLogger';
 
 import ServiceBase from './ServiceBase';
 

@@ -1,7 +1,7 @@
 import type { ComponentProps, FC } from 'react';
 import { useCallback, useMemo, useState } from 'react';
 
-import { Box, Center, HStack, Slider } from '@onekeyhq/components';
+import { Box, Center, HStack, Slider } from '@mywallet/components';
 
 type PercentInputProps = Exclude<
   ComponentProps<typeof Slider>,

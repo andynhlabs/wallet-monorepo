@@ -1,13 +1,13 @@
 import { useEffect, useState } from 'react';
 import type { FC } from 'react';
-import { useIsMounted } from '@onekeyhq/kit/src/hooks/useIsMounted';
+import { useIsMounted } from '@mywallet/kit/src/hooks/useIsMounted';
 import type { SvgProps } from 'react-native-svg';
 
-import { useThemeValue } from '@onekeyhq/components';
+import { useThemeValue } from '@mywallet/components';
 import { ThemeToken } from '../Provider/theme';
 
 import ICON_CONFIG, { ICON_NAMES } from './Icons';
-import platformEnv from '@onekeyhq/shared/src/platformEnv';
+import platformEnv from '@mywallet/shared/src/platformEnv';
 
 export type IconProps = Omit<SvgProps, 'color'> & {
   name: ICON_NAMES;

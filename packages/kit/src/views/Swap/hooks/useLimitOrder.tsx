@@ -2,8 +2,8 @@ import { useCallback, useMemo } from 'react';
 
 import { useIntl } from 'react-intl';
 
-import { ToastManager } from '@onekeyhq/components';
-import type { Account } from '@onekeyhq/engine/src/types/account';
+import { ToastManager } from '@mywallet/components';
+import type { Account } from '@mywallet/engine/src/types/account';
 
 import backgroundApiProxy from '../../../background/instance/backgroundApiProxy';
 import { useAppSelector, useDebounce } from '../../../hooks';

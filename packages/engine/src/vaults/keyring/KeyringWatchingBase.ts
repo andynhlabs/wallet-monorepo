@@ -1,6 +1,6 @@
 /* eslint-disable @typescript-eslint/no-unused-vars, @typescript-eslint/require-await */
 
-import type { SignedTx, UnsignedTx } from '@onekeyhq/engine/src/types/provider';
+import type { SignedTx, UnsignedTx } from '@mywallet/engine/src/types/provider';
 
 import { OneKeyInternalError } from '../../errors';
 

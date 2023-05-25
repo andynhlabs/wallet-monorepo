@@ -1,4 +1,4 @@
-import platformEnv from '@onekeyhq/shared/src/platformEnv';
+import platformEnv from '@mywallet/shared/src/platformEnv';
 
 import type { DesktopRef } from '../Select/Container/Desktop';
 

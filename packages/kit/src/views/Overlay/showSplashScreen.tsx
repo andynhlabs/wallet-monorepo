@@ -1,7 +1,7 @@
 import { Image, Keyboard, View } from 'react-native';
 
-import splashImage from '@onekeyhq/kit/assets/splash.png';
-import platformEnv from '@onekeyhq/shared/src/platformEnv';
+import splashImage from '@mywallet/kit/assets/splash.png';
+import platformEnv from '@mywallet/shared/src/platformEnv';
 
 import { showOverlay } from '../../utils/overlayUtils';
 

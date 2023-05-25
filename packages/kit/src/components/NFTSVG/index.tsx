@@ -2,7 +2,7 @@ import type { FC } from 'react';
 
 import { WebView } from 'react-native-webview';
 
-import { Box } from '@onekeyhq/components';
+import { Box } from '@mywallet/components';
 
 type Props = {
   size: number;

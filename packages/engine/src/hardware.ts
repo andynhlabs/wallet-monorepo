@@ -8,13 +8,13 @@ import { web3Errors } from '@onekeyfe/cross-inpage-provider-errors';
 import { BigNumber } from 'bignumber.js';
 import { TypedDataUtils } from 'eth-sig-util';
 
-import type { SignedTx, UnsignedTx } from '@onekeyhq/engine/src/types/provider';
-import type { IPrepareHardwareAccountsParams } from '@onekeyhq/engine/src/vaults/types';
-import { isHexString } from '@onekeyhq/kit/src/utils/helper';
-import { convertDeviceError } from '@onekeyhq/shared/src/device/deviceErrorUtils';
-import { IMPL_EVM } from '@onekeyhq/shared/src/engine/engineConsts';
-import * as engineUtils from '@onekeyhq/shared/src/engine/engineUtils';
-import { toBigIntHex } from '@onekeyhq/shared/src/utils/numberUtils';
+import type { SignedTx, UnsignedTx } from '@mywallet/engine/src/types/provider';
+import type { IPrepareHardwareAccountsParams } from '@mywallet/engine/src/vaults/types';
+import { isHexString } from '@mywallet/kit/src/utils/helper';
+import { convertDeviceError } from '@mywallet/shared/src/device/deviceErrorUtils';
+import { IMPL_EVM } from '@mywallet/shared/src/engine/engineConsts';
+import * as engineUtils from '@mywallet/shared/src/engine/engineUtils';
+import { toBigIntHex } from '@mywallet/shared/src/utils/numberUtils';
 
 import {
   NotImplemented,

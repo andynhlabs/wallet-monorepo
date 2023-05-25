@@ -10,8 +10,8 @@ import {
   Pressable,
   Text,
   Typography,
-} from '@onekeyhq/components';
-import { useDebounce } from '@onekeyhq/kit/src/hooks';
+} from '@mywallet/components';
+import { useDebounce } from '@mywallet/kit/src/hooks';
 
 import { homeTab } from '../../../../store/reducers/webTabs';
 import DAppIcon from '../../DAppIcon';

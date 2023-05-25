@@ -1,7 +1,7 @@
 // eslint-disable-next-line max-classes-per-file
 import { deserialize, serialize } from 'borsh';
 
-import { sha256 } from '@onekeyhq/engine/src/secret/hash';
+import { sha256 } from '@mywallet/engine/src/secret/hash';
 
 import { Assignable, Enum } from './enums';
 import { PublicKey } from './key_pair';

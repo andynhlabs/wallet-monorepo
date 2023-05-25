@@ -2,7 +2,7 @@ import type { FC } from 'react';
 
 import { useIntl } from 'react-intl';
 
-import { Box, Hidden, Icon, Text } from '@onekeyhq/components';
+import { Box, Hidden, Icon, Text } from '@mywallet/components';
 
 const defaultProps = {} as const;
 

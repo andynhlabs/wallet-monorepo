@@ -1,7 +1,7 @@
 import { useCallback, useMemo, useRef } from 'react';
 
-import { useIsVerticalLayout } from '@onekeyhq/components';
-import type { INetwork, IWallet } from '@onekeyhq/engine/src/types';
+import { useIsVerticalLayout } from '@mywallet/components';
+import type { INetwork, IWallet } from '@mywallet/engine/src/types';
 
 import backgroundApiProxy from '../../../background/instance/backgroundApiProxy';
 import {

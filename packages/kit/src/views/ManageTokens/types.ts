@@ -1,5 +1,5 @@
-import type { PriceAlertItem } from '@onekeyhq/engine/src/managers/notification';
-import type { Token, TokenRiskLevel } from '@onekeyhq/engine/src/types/token';
+import type { PriceAlertItem } from '@mywallet/engine/src/managers/notification';
+import type { Token, TokenRiskLevel } from '@mywallet/engine/src/types/token';
 
 import type { ManageTokenModalRoutes } from '../../routes/routesEnum';
 

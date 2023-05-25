@@ -6,7 +6,7 @@ import {
   Modal,
   PinCode,
   Typography,
-} from '@onekeyhq/components';
+} from '@mywallet/components';
 
 import { SkipAppLock } from '../../../components/AppLock';
 

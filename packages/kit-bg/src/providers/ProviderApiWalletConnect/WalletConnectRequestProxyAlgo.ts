@@ -1,6 +1,6 @@
 import { IInjectedProviderNames } from '@onekeyfe/cross-inpage-provider-types';
 
-import type { OneKeyWalletConnector } from '@onekeyhq/kit/src/components/WalletConnect/OneKeyWalletConnector';
+import type { OneKeyWalletConnector } from '@mywallet/kit/src/components/WalletConnect/OneKeyWalletConnector';
 
 import { WalletConnectRequestProxy } from './WalletConnectRequestProxy';
 

@@ -1,13 +1,13 @@
 import { useCallback } from 'react';
 
-import { getWalletIdFromAccountId } from '@onekeyhq/engine/src/managers/account';
-import type { IUnsignedMessageEvm } from '@onekeyhq/engine/src/vaults/impl/evm/Vault';
+import { getWalletIdFromAccountId } from '@mywallet/engine/src/managers/account';
+import type { IUnsignedMessageEvm } from '@mywallet/engine/src/vaults/impl/evm/Vault';
 import type {
   IDecodedTx,
   IEncodedTx,
   ISignedTxPro,
-} from '@onekeyhq/engine/src/vaults/types';
-import debugLogger from '@onekeyhq/shared/src/logger/debugLogger';
+} from '@mywallet/engine/src/vaults/types';
+import debugLogger from '@mywallet/shared/src/logger/debugLogger';
 
 import backgroundApiProxy from '../../../background/instance/backgroundApiProxy';
 import useAppNavigation from '../../../hooks/useAppNavigation';

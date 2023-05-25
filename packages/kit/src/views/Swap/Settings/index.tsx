@@ -10,8 +10,8 @@ import {
   NumberInput,
   Pressable,
   Typography,
-} from '@onekeyhq/components';
-import { FormErrorMessage } from '@onekeyhq/components/src/Form/FormErrorMessage';
+} from '@mywallet/components';
+import { FormErrorMessage } from '@mywallet/components/src/Form/FormErrorMessage';
 
 import backgroundApiProxy from '../../../background/instance/backgroundApiProxy';
 import { useSettings } from '../../../hooks/redux';

@@ -7,7 +7,7 @@ const { getPathsAsync } = require('@expo/webpack-config/env');
 const path = require('path');
 const ReactRefreshWebpackPlugin = require('@pmmmwh/react-refresh-webpack-plugin');
 const DuplicatePackageCheckerPlugin = require('duplicate-package-checker-webpack-plugin');
-const devUtils = require('@onekeyhq/ext/development/devUtils');
+const devUtils = require('@mywallet/ext/development/devUtils');
 const developmentConsts = require('./developmentConsts');
 const indexHtmlParameter = require('./indexHtmlParameter');
 

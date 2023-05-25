@@ -1,4 +1,4 @@
-import { IconButton, useIsVerticalLayout } from '@onekeyhq/components';
+import { IconButton, useIsVerticalLayout } from '@mywallet/components';
 
 import { getAppNavigation } from '../../../hooks/useAppNavigation';
 import DAppList from '../../../views/Discover/DAppList';

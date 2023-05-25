@@ -1,7 +1,7 @@
 /* eslint-disable  @typescript-eslint/no-unused-vars  */
 import { useState } from 'react';
 
-import { Box, Button, Center, TypeWriter } from '@onekeyhq/components';
+import { Box, Button, Center, TypeWriter } from '@mywallet/components';
 
 import WebView from '../../../components/WebView';
 import ProcessAutoTypingWebView from '../../Onboarding/screens/CreateWallet/BehindTheScene/ProcessAutoTypingWebView';

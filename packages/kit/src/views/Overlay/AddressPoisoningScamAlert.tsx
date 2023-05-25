@@ -8,7 +8,7 @@ import {
   HStack,
   Icon,
   Text,
-} from '@onekeyhq/components';
+} from '@mywallet/components';
 
 import { useClipboard } from '../../hooks/useClipboard';
 import { showOverlay } from '../../utils/overlayUtils';

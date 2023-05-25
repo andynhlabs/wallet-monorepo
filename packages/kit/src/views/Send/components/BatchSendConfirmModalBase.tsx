@@ -12,13 +12,13 @@ import {
   Spinner,
   Text,
   useIsVerticalLayout,
-} from '@onekeyhq/components';
-import type { IEncodedTxEvm } from '@onekeyhq/engine/src/vaults/impl/evm/Vault';
-import type { IDecodedTx } from '@onekeyhq/engine/src/vaults/types';
-import { IDecodedTxActionType } from '@onekeyhq/engine/src/vaults/types';
-import { IMPL_EVM } from '@onekeyhq/shared/src/engine/engineConsts';
-import { isWatchingAccount } from '@onekeyhq/shared/src/engine/engineUtils';
-import platformEnv from '@onekeyhq/shared/src/platformEnv';
+} from '@mywallet/components';
+import type { IEncodedTxEvm } from '@mywallet/engine/src/vaults/impl/evm/Vault';
+import type { IDecodedTx } from '@mywallet/engine/src/vaults/types';
+import { IDecodedTxActionType } from '@mywallet/engine/src/vaults/types';
+import { IMPL_EVM } from '@mywallet/shared/src/engine/engineConsts';
+import { isWatchingAccount } from '@mywallet/shared/src/engine/engineUtils';
+import platformEnv from '@mywallet/shared/src/platformEnv';
 
 import { useActiveSideAccount } from '../../../hooks';
 import {

@@ -1,4 +1,4 @@
-import { Center, Icon } from '@onekeyhq/components';
+import { Center, Icon } from '@mywallet/components';
 
 const BackupIcon = ({ enabled, size }: { enabled: boolean; size?: string }) => (
   <Center

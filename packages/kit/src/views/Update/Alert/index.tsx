@@ -9,18 +9,18 @@ import {
   Pressable,
   Text,
   useIsVerticalLayout,
-} from '@onekeyhq/components';
-import backgroundApiProxy from '@onekeyhq/kit/src/background/instance/backgroundApiProxy';
-import { useAutoUpdate } from '@onekeyhq/kit/src/hooks/redux';
-import useAppNavigation from '@onekeyhq/kit/src/hooks/useAppNavigation';
+} from '@mywallet/components';
+import backgroundApiProxy from '@mywallet/kit/src/background/instance/backgroundApiProxy';
+import { useAutoUpdate } from '@mywallet/kit/src/hooks/redux';
+import useAppNavigation from '@mywallet/kit/src/hooks/useAppNavigation';
 import {
   ModalRoutes,
   RootRoutes,
   UpdateFeatureModalRoutes,
-} from '@onekeyhq/kit/src/routes/routesEnum';
-import { disable } from '@onekeyhq/kit/src/store/reducers/autoUpdater';
-import appUpdates from '@onekeyhq/kit/src/utils/updates/AppUpdates';
-import platformEnv from '@onekeyhq/shared/src/platformEnv';
+} from '@mywallet/kit/src/routes/routesEnum';
+import { disable } from '@mywallet/kit/src/store/reducers/autoUpdater';
+import appUpdates from '@mywallet/kit/src/utils/updates/AppUpdates';
+import platformEnv from '@mywallet/shared/src/platformEnv';
 
 const UpdateAlert: FC = () => {
   const intl = useIntl();

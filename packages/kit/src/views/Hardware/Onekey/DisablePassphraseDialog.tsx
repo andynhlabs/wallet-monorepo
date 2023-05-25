@@ -1,7 +1,7 @@
 import type { FC } from 'react';
 
-import backgroundApiProxy from '@onekeyhq/kit/src/background/instance/backgroundApiProxy';
-import { deviceUtils } from '@onekeyhq/kit/src/utils/hardware';
+import backgroundApiProxy from '@mywallet/kit/src/background/instance/backgroundApiProxy';
+import { deviceUtils } from '@mywallet/kit/src/utils/hardware';
 
 import HardwareLoadingDialog from './OnekeyHardwareConnectDialog';
 

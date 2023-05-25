@@ -2,7 +2,7 @@ import { useEffect, useMemo } from 'react';
 
 import { useIsFocused } from '@react-navigation/core';
 
-import { useIsVerticalLayout } from '@onekeyhq/components';
+import { useIsVerticalLayout } from '@mywallet/components';
 
 import backgroundApiProxy from '../../../background/instance/backgroundApiProxy';
 import { useAppSelector } from '../../../hooks';

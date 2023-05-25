@@ -11,12 +11,12 @@ import {
   Switch,
   Text,
   ToastManager,
-} from '@onekeyhq/components';
-import backgroundApiProxy from '@onekeyhq/kit/src/background/instance/backgroundApiProxy';
-import { useAutoUpdate, useSettings } from '@onekeyhq/kit/src/hooks/redux';
-import { setUpdateSetting } from '@onekeyhq/kit/src/store/reducers/settings';
-import appUpdates from '@onekeyhq/kit/src/utils/updates/AppUpdates';
-import platformEnv from '@onekeyhq/shared/src/platformEnv';
+} from '@mywallet/components';
+import backgroundApiProxy from '@mywallet/kit/src/background/instance/backgroundApiProxy';
+import { useAutoUpdate, useSettings } from '@mywallet/kit/src/hooks/redux';
+import { setUpdateSetting } from '@mywallet/kit/src/store/reducers/settings';
+import appUpdates from '@mywallet/kit/src/utils/updates/AppUpdates';
+import platformEnv from '@mywallet/shared/src/platformEnv';
 
 import type { DesktopVersion } from '../../../utils/updates/type';
 

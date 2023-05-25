@@ -1,7 +1,7 @@
 import type { FC } from 'react';
 import { isValidElement } from 'react';
 
-import { Text } from '@onekeyhq/components';
+import { Text } from '@mywallet/components';
 
 interface FooterProps {
   text: string;

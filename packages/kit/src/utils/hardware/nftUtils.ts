@@ -6,8 +6,8 @@ import axios from 'axios';
 import { SaveFormat, manipulateAsync } from 'expo-image-manipulator';
 import { Image } from 'react-native';
 
-import { getFiatEndpoint } from '@onekeyhq/engine/src/endpoint';
-import debugLogger from '@onekeyhq/shared/src/logger/debugLogger';
+import { getFiatEndpoint } from '@mywallet/engine/src/endpoint';
+import debugLogger from '@mywallet/shared/src/logger/debugLogger';
 
 import { formatBytes } from './homescreens';
 

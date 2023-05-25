@@ -1,4 +1,4 @@
-import { RestfulRequest } from '@onekeyhq/shared/src/request/RestfulRequest';
+import { RestfulRequest } from '@mywallet/shared/src/request/RestfulRequest';
 
 import { getFiatEndpoint } from './endpoint';
 

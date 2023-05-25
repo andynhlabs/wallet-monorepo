@@ -20,13 +20,13 @@ import {
   Spinner,
   Text,
   ToastManager,
-} from '@onekeyhq/components';
-import { MigrateErrorCode } from '@onekeyhq/engine/src/types/migrate';
-import type { DeviceInfo } from '@onekeyhq/engine/src/types/migrate';
-import PermissionDialog from '@onekeyhq/kit/src/components/PermissionDialog/PermissionDialog';
-import { RootRoutes } from '@onekeyhq/kit/src/routes/routesEnum';
-import platformEnv from '@onekeyhq/shared/src/platformEnv';
-import type { PublicBackupData } from '@onekeyhq/shared/src/services/ServiceCloudBackup/ServiceCloudBackup.types';
+} from '@mywallet/components';
+import { MigrateErrorCode } from '@mywallet/engine/src/types/migrate';
+import type { DeviceInfo } from '@mywallet/engine/src/types/migrate';
+import PermissionDialog from '@mywallet/kit/src/components/PermissionDialog/PermissionDialog';
+import { RootRoutes } from '@mywallet/kit/src/routes/routesEnum';
+import platformEnv from '@mywallet/shared/src/platformEnv';
+import type { PublicBackupData } from '@mywallet/shared/src/services/ServiceCloudBackup/ServiceCloudBackup.types';
 
 import backgroundApiProxy from '../../../../../background/instance/backgroundApiProxy';
 import { showDialog, showOverlay } from '../../../../../utils/overlayUtils';

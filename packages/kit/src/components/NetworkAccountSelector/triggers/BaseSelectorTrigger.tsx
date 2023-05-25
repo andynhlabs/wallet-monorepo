@@ -9,7 +9,7 @@ import {
   Pressable,
   Typography,
   VStack,
-} from '@onekeyhq/components';
+} from '@mywallet/components';
 
 import type { EAccountSelectorMode } from '../../../store/reducers/reducerAccountSelector';
 import type { ColorType } from 'native-base/lib/typescript/components/types';

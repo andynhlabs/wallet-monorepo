@@ -1,7 +1,7 @@
 /* eslint-disable @typescript-eslint/no-unsafe-member-access */
 import BigNumber from 'bignumber.js';
 
-import { RestfulRequest } from '@onekeyhq/shared/src/request/RestfulRequest';
+import { RestfulRequest } from '@mywallet/shared/src/request/RestfulRequest';
 
 import type { EIP1559Fee, EIP1559Price } from './geth';
 

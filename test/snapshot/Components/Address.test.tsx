@@ -1,6 +1,6 @@
 import renderer from 'react-test-renderer';
 
-import Address from '@onekeyhq/components/src/Address';
+import Address from '@mywallet/components/src/Address';
 
 it('renders correctly', () => {
   const tree = renderer

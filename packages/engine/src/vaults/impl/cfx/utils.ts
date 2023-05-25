@@ -2,7 +2,7 @@ import { hexZeroPad } from '@ethersproject/bytes';
 import { keccak256 } from '@ethersproject/keccak256';
 import memoizee from 'memoizee';
 
-import type { SignedTx } from '@onekeyhq/engine/src/types/provider';
+import type { SignedTx } from '@mywallet/engine/src/types/provider';
 
 import { IDecodedTxActionType, IDecodedTxStatus } from '../../types';
 

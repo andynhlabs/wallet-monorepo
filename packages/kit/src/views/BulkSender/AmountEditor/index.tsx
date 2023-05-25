@@ -12,7 +12,7 @@ import {
   Input,
   Text,
   useIsVerticalLayout,
-} from '@onekeyhq/components';
+} from '@mywallet/components';
 
 import { showOverlay } from '../../../utils/overlayUtils';
 

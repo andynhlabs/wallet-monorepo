@@ -5,7 +5,7 @@
 // @ts-expect-error
 import { bech32, mnemonicToRootKeypair, toPublic } from 'cardano-crypto.js';
 
-import { mnemonicFromEntropy } from '@onekeyhq/engine/src/secret';
+import { mnemonicFromEntropy } from '@mywallet/engine/src/secret';
 
 import { DERIVATION_SCHEME, HARDENED_THRESHOLD } from './constants';
 

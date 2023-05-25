@@ -3,8 +3,8 @@ import { useMemo } from 'react';
 import { useRoute } from '@react-navigation/native';
 import { useIntl } from 'react-intl';
 
-import { Alert, Center, Spinner } from '@onekeyhq/components';
-import { OneKeyError } from '@onekeyhq/engine/src/errors';
+import { Alert, Center, Spinner } from '@mywallet/components';
+import { OneKeyError } from '@mywallet/engine/src/errors';
 
 import { BaseSendConfirmModal } from '../../components/BaseSendConfirmModal';
 import { FeeInfoInputForSpeedUpOrCancel } from '../../components/FeeInfoInput';

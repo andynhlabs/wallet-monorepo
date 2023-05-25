@@ -1,6 +1,6 @@
-import { useIsVerticalLayout } from '@onekeyhq/components';
-import type { IEncodedTxBtc } from '@onekeyhq/engine/src/vaults/utils/btcForkChain/types';
-import CoinControl from '@onekeyhq/kit/src/views/CoinControl';
+import { useIsVerticalLayout } from '@mywallet/components';
+import type { IEncodedTxBtc } from '@mywallet/engine/src/vaults/utils/btcForkChain/types';
+import CoinControl from '@mywallet/kit/src/views/CoinControl';
 
 import { CoinControlModalRoutes } from '../../routesEnum';
 

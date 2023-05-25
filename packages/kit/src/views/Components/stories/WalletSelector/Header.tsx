@@ -5,7 +5,7 @@ import {
   IconButton,
   Text,
   useIsVerticalLayout,
-} from '@onekeyhq/components';
+} from '@mywallet/components';
 
 type HeaderProps = {
   title?: string;

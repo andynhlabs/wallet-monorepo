@@ -10,17 +10,17 @@ import {
   Pressable,
   Text,
   useTheme,
-} from '@onekeyhq/components';
+} from '@mywallet/components';
 import {
   HomeRoutes,
   ModalRoutes,
   RootRoutes,
-} from '@onekeyhq/kit/src/routes/routesEnum';
+} from '@mywallet/kit/src/routes/routesEnum';
 import type {
   HomeRoutesParams,
   ModalScreenProps,
-} from '@onekeyhq/kit/src/routes/types';
-import platformEnv from '@onekeyhq/shared/src/platformEnv';
+} from '@mywallet/kit/src/routes/types';
+import platformEnv from '@mywallet/shared/src/platformEnv';
 
 import backgroundApiProxy from '../../../background/instance/backgroundApiProxy';
 import { useAppSelector } from '../../../hooks';

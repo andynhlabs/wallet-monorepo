@@ -10,24 +10,24 @@ import {
   InvalidTokenAddress,
   NotImplemented,
   OneKeyInternalError,
-} from '@onekeyhq/engine/src/errors';
-import { parseNetworkId } from '@onekeyhq/engine/src/managers/network';
-import { decrypt } from '@onekeyhq/engine/src/secret/encryptors/aes256';
+} from '@mywallet/engine/src/errors';
+import { parseNetworkId } from '@mywallet/engine/src/managers/network';
+import { decrypt } from '@mywallet/engine/src/secret/encryptors/aes256';
 import type {
   DBAccount,
   DBVariantAccount,
-} from '@onekeyhq/engine/src/types/account';
-import type { PartialTokenInfo } from '@onekeyhq/engine/src/types/provider';
-import { TransactionStatus } from '@onekeyhq/engine/src/types/provider';
-import type { Token } from '@onekeyhq/engine/src/types/token';
-import { WALLET_TYPE_HW } from '@onekeyhq/engine/src/types/wallet';
-import type { KeyringSoftwareBase } from '@onekeyhq/engine/src/vaults/keyring/KeyringSoftwareBase';
+} from '@mywallet/engine/src/types/account';
+import type { PartialTokenInfo } from '@mywallet/engine/src/types/provider';
+import { TransactionStatus } from '@mywallet/engine/src/types/provider';
+import type { Token } from '@mywallet/engine/src/types/token';
+import { WALLET_TYPE_HW } from '@mywallet/engine/src/types/wallet';
+import type { KeyringSoftwareBase } from '@mywallet/engine/src/vaults/keyring/KeyringSoftwareBase';
 import {
   IDecodedTxActionType,
   IDecodedTxDirection,
   IDecodedTxStatus,
   IEncodedTxUpdateType,
-} from '@onekeyhq/engine/src/vaults/types';
+} from '@mywallet/engine/src/vaults/types';
 import type {
   IApproveInfo,
   IDecodedTx,
@@ -43,18 +43,18 @@ import type {
   ISignedTxPro,
   ITransferInfo,
   IUnsignedTxPro,
-} from '@onekeyhq/engine/src/vaults/types';
+} from '@mywallet/engine/src/vaults/types';
 import {
   convertFeeGweiToValue,
   convertFeeValueToGwei,
-} from '@onekeyhq/engine/src/vaults/utils/feeInfoUtils';
+} from '@mywallet/engine/src/vaults/utils/feeInfoUtils';
 import {
   addHexPrefix,
   stripHexPrefix,
-} from '@onekeyhq/engine/src/vaults/utils/hexUtils';
-import { VaultBase } from '@onekeyhq/engine/src/vaults/VaultBase';
-import { CoreSDKLoader } from '@onekeyhq/shared/src/device/hardwareInstance';
-import debugLogger from '@onekeyhq/shared/src/logger/debugLogger';
+} from '@mywallet/engine/src/vaults/utils/hexUtils';
+import { VaultBase } from '@mywallet/engine/src/vaults/VaultBase';
+import { CoreSDKLoader } from '@mywallet/shared/src/device/hardwareInstance';
+import debugLogger from '@mywallet/shared/src/logger/debugLogger';
 
 import { KeyringHardware } from './KeyringHardware';
 import { KeyringHd } from './KeyringHd';

@@ -4,9 +4,9 @@ import { useCallback, useMemo } from 'react';
 import { useNavigation } from '@react-navigation/native';
 import { useIntl } from 'react-intl';
 
-import { ToastManager } from '@onekeyhq/components';
-import type { ICON_NAMES } from '@onekeyhq/components';
-import { copyToClipboard } from '@onekeyhq/components/src/utils/ClipboardUtils';
+import { ToastManager } from '@mywallet/components';
+import type { ICON_NAMES } from '@mywallet/components';
+import { copyToClipboard } from '@mywallet/components/src/utils/ClipboardUtils';
 
 import backgroundApiProxy from '../../../background/instance/backgroundApiProxy';
 import { ModalRoutes, RootRoutes } from '../../../routes/routesEnum';

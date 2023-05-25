@@ -8,11 +8,11 @@ import { find, map, uniq } from 'lodash';
 import memoizee from 'memoizee';
 import TronWeb from 'tronweb';
 
-import { decrypt } from '@onekeyhq/engine/src/secret/encryptors/aes256';
-import { TransactionStatus } from '@onekeyhq/engine/src/types/provider';
-import { getTimeDurationMs } from '@onekeyhq/kit/src/utils/helper';
-import { toBigIntHex } from '@onekeyhq/shared/src/engine/engineUtils';
-import debugLogger from '@onekeyhq/shared/src/logger/debugLogger';
+import { decrypt } from '@mywallet/engine/src/secret/encryptors/aes256';
+import { TransactionStatus } from '@mywallet/engine/src/types/provider';
+import { getTimeDurationMs } from '@mywallet/kit/src/utils/helper';
+import { toBigIntHex } from '@mywallet/shared/src/engine/engineUtils';
+import debugLogger from '@mywallet/shared/src/logger/debugLogger';
 
 import {
   InsufficientBalance,

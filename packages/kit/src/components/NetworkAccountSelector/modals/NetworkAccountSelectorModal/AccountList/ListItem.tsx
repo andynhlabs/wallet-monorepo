@@ -2,8 +2,8 @@
 import type { FC } from 'react';
 import { useLayoutEffect, useMemo } from 'react';
 
-import { Box, Pressable, Skeleton, Text } from '@onekeyhq/components';
-import type { IAccount, INetwork, IWallet } from '@onekeyhq/engine/src/types';
+import { Box, Pressable, Skeleton, Text } from '@mywallet/components';
+import type { IAccount, INetwork, IWallet } from '@mywallet/engine/src/types';
 
 import { useActiveWalletAccount, useAppSelector } from '../../../../../hooks';
 import { useNativeTokenBalance } from '../../../../../hooks/useTokens';

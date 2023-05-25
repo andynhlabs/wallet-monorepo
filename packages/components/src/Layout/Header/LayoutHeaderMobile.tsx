@@ -1,9 +1,9 @@
 import LayoutHeader from './index';
 
-import { HStack, IconButton } from '@onekeyhq/components';
-import { NetworkAccountSelectorTriggerMobile } from '@onekeyhq/kit/src/components/NetworkAccountSelector';
-import WalletSelectorTrigger from '@onekeyhq/kit/src/components/WalletSelector/WalletSelectorTrigger/WalletSelectorTrigger';
-import HomeMoreMenu from '@onekeyhq/kit/src/views/Overlay/HomeMoreMenu';
+import { HStack, IconButton } from '@mywallet/components';
+import { NetworkAccountSelectorTriggerMobile } from '@mywallet/kit/src/components/NetworkAccountSelector';
+import WalletSelectorTrigger from '@mywallet/kit/src/components/WalletSelector/WalletSelectorTrigger/WalletSelectorTrigger';
+import HomeMoreMenu from '@mywallet/kit/src/views/Overlay/HomeMoreMenu';
 
 const headerLeft = () => <WalletSelectorTrigger />;
 const headerRight = () => (

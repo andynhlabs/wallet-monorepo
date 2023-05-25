@@ -3,9 +3,9 @@ import type { FC } from 'react';
 
 import { useIntl } from 'react-intl';
 
-import { Alert, Box } from '@onekeyhq/components';
-import type { Token } from '@onekeyhq/engine/src/types/token';
-import { OnekeyNetwork } from '@onekeyhq/shared/src/config/networkIds';
+import { Alert, Box } from '@mywallet/components';
+import type { Token } from '@mywallet/engine/src/types/token';
+import { OnekeyNetwork } from '@mywallet/shared/src/config/networkIds';
 
 import backgroundApiProxy from '../../../../background/instance/backgroundApiProxy';
 import {

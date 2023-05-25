@@ -11,10 +11,10 @@ import {
   ListItem,
   Pressable,
   Skeleton,
-} from '@onekeyhq/components';
-import type { Network } from '@onekeyhq/engine/src/types/network';
-import type { NFTAsset, NFTPNL } from '@onekeyhq/engine/src/types/nft';
-import { ModalRoutes, RootRoutes } from '@onekeyhq/kit/src/routes/routesEnum';
+} from '@mywallet/components';
+import type { Network } from '@mywallet/engine/src/types/network';
+import type { NFTAsset, NFTPNL } from '@mywallet/engine/src/types/nft';
+import { ModalRoutes, RootRoutes } from '@mywallet/kit/src/routes/routesEnum';
 
 import useFormatDate from '../../../../../hooks/useFormatDate';
 import { CollectiblesModalRoutes } from '../../../../../routes/routesEnum';

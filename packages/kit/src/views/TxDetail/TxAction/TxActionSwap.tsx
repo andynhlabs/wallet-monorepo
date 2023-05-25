@@ -2,8 +2,8 @@ import { useMemo } from 'react';
 
 import { useIntl } from 'react-intl';
 
-import { shortenAddress } from '@onekeyhq/components/src/utils';
-import { IDecodedTxDirection } from '@onekeyhq/engine/src/vaults/types';
+import { shortenAddress } from '@mywallet/components/src/utils';
+import { IDecodedTxDirection } from '@mywallet/engine/src/vaults/types';
 
 import { useNetwork } from '../../../hooks/useNetwork';
 import { TxDetailActionBoxAutoTransform } from '../components/TxDetailActionBoxAutoTransform';

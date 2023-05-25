@@ -1,11 +1,11 @@
 import { useCallback, useEffect, useState } from 'react';
 
-import type { TokenSource } from '@onekeyhq/engine/src/managers/token';
+import type { TokenSource } from '@mywallet/engine/src/managers/token';
 import type {
   GoPlusAddressSecurity,
   GoPlusTokenSecurity,
-} from '@onekeyhq/engine/src/types/goplus';
-import { GoPlusSupportApis } from '@onekeyhq/engine/src/types/goplus';
+} from '@mywallet/engine/src/types/goplus';
+import { GoPlusSupportApis } from '@mywallet/engine/src/types/goplus';
 
 import backgroundApiProxy from '../../background/instance/backgroundApiProxy';
 import { setAccountTokensBalances } from '../../store/reducers/tokens';

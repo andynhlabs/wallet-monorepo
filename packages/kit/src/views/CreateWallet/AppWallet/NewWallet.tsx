@@ -3,13 +3,13 @@ import { useEffect } from 'react';
 
 import { useNavigation } from '@react-navigation/native';
 
-import { Center, Modal, Spinner } from '@onekeyhq/components';
+import { Center, Modal, Spinner } from '@mywallet/components';
 import Protected, {
   ValidationFields,
-} from '@onekeyhq/kit/src/components/Protected';
-import type { CreateWalletRoutesParams } from '@onekeyhq/kit/src/routes/Root/Modal/CreateWallet';
-import { CreateWalletModalRoutes } from '@onekeyhq/kit/src/routes/routesEnum';
-import type { ModalScreenProps } from '@onekeyhq/kit/src/routes/types';
+} from '@mywallet/kit/src/components/Protected';
+import type { CreateWalletRoutesParams } from '@mywallet/kit/src/routes/Root/Modal/CreateWallet';
+import { CreateWalletModalRoutes } from '@mywallet/kit/src/routes/routesEnum';
+import type { ModalScreenProps } from '@mywallet/kit/src/routes/types';
 
 type NewWalletProps = {
   password: string;

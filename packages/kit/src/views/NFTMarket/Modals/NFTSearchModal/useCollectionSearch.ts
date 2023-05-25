@@ -1,6 +1,6 @@
 import { useEffect, useState } from 'react';
 
-import type { Collection } from '@onekeyhq/engine/src/types/nft';
+import type { Collection } from '@mywallet/engine/src/types/nft';
 
 import backgroundApiProxy from '../../../../background/instance/backgroundApiProxy';
 

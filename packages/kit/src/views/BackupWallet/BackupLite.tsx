@@ -3,9 +3,9 @@ import { useEffect } from 'react';
 
 import { useNavigation, useRoute } from '@react-navigation/native';
 
-import { Center, Modal, Spinner } from '@onekeyhq/components';
-import type { BackupWalletRoutesParams } from '@onekeyhq/kit/src/routes/Root/Modal/BackupWallet';
-import type { ModalScreenProps } from '@onekeyhq/kit/src/routes/types';
+import { Center, Modal, Spinner } from '@mywallet/components';
+import type { BackupWalletRoutesParams } from '@mywallet/kit/src/routes/Root/Modal/BackupWallet';
+import type { ModalScreenProps } from '@mywallet/kit/src/routes/types';
 
 import backgroundApiProxy from '../../background/instance/backgroundApiProxy';
 import Protected, { ValidationFields } from '../../components/Protected';

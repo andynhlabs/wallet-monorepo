@@ -4,7 +4,7 @@ import { useMemo } from 'react';
 import { StyleSheet } from 'react-native';
 import RNMarkdown from 'react-native-markdown-display';
 
-import { useIsVerticalLayout, useThemeValue } from '@onekeyhq/components';
+import { useIsVerticalLayout, useThemeValue } from '@mywallet/components';
 
 import {
   Body1Props,

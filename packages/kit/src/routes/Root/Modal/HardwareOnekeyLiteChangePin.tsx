@@ -1,4 +1,4 @@
-import { useIsVerticalLayout } from '@onekeyhq/components';
+import { useIsVerticalLayout } from '@mywallet/components';
 
 import OnekeyLiteChangePin from '../../../views/Hardware/OnekeyLite/ChangePin';
 import {

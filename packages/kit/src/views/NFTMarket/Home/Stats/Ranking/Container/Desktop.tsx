@@ -11,8 +11,8 @@ import {
   List,
   ListItem,
   useUserDevice,
-} from '@onekeyhq/components';
-import type { NFTMarketRanking } from '@onekeyhq/engine/src/types/nft';
+} from '@mywallet/components';
+import type { NFTMarketRanking } from '@mywallet/engine/src/types/nft';
 
 import CollectionLogo from '../../../../CollectionLogo';
 import { PriceString } from '../../../../PriceText';

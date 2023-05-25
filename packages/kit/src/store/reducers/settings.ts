@@ -3,12 +3,12 @@ import { dequal as deepEqual } from 'dequal';
 import { debounce, uniq } from 'lodash';
 import uuid from 'react-native-uuid';
 
-import type { LocaleSymbol } from '@onekeyhq/components/src/locale';
-import type { ThemeVariant } from '@onekeyhq/components/src/Provider/theme';
-import { getTimeStamp } from '@onekeyhq/kit/src/utils/helper';
-import type { FirmwareType } from '@onekeyhq/kit/src/views/Hardware/UpdateFirmware/Updating';
-import { defaultHapticStatus } from '@onekeyhq/shared/src/haptics';
-import platformEnv from '@onekeyhq/shared/src/platformEnv';
+import type { LocaleSymbol } from '@mywallet/components/src/locale';
+import type { ThemeVariant } from '@mywallet/components/src/Provider/theme';
+import { getTimeStamp } from '@mywallet/kit/src/utils/helper';
+import type { FirmwareType } from '@mywallet/kit/src/views/Hardware/UpdateFirmware/Updating';
+import { defaultHapticStatus } from '@mywallet/shared/src/haptics';
+import platformEnv from '@mywallet/shared/src/platformEnv';
 
 import { ValidationFields } from '../../components/Protected/types';
 

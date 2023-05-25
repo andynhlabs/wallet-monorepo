@@ -1,6 +1,6 @@
 import { isEmpty } from 'lodash';
 
-import { SEPERATOR } from '@onekeyhq/shared/src/engine/engineConsts';
+import { SEPERATOR } from '@mywallet/shared/src/engine/engineConsts';
 
 import { OneKeyInternalError } from '../errors';
 import { AccountType } from '../types/account';

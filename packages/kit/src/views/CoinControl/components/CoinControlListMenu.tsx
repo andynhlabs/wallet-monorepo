@@ -1,11 +1,11 @@
 import type { FC } from 'react';
 import { useCallback, useMemo, useState } from 'react';
 
-import BaseMenu from '@onekeyhq/kit/src/views/Overlay/BaseMenu';
+import BaseMenu from '@mywallet/kit/src/views/Overlay/BaseMenu';
 import type {
   IBaseMenuOptions,
   IMenu,
-} from '@onekeyhq/kit/src/views/Overlay/BaseMenu';
+} from '@mywallet/kit/src/views/Overlay/BaseMenu';
 
 export function useCoinControlListMenu(): {
   menuSortByIndex: number;

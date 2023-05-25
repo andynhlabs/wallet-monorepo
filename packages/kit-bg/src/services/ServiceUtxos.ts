@@ -1,16 +1,16 @@
 import BigNumber from 'bignumber.js';
 import memoizee from 'memoizee';
 
-import { getUtxoId } from '@onekeyhq/engine/src/dbs/simple/entity/SimpleDbEntityUtxoAccounts';
-import simpleDb from '@onekeyhq/engine/src/dbs/simple/simpleDb';
-import type { DBUTXOAccount } from '@onekeyhq/engine/src/types/account';
-import type { ICoinControlListItem } from '@onekeyhq/engine/src/types/utxoAccounts';
-import type VaultBtcFork from '@onekeyhq/engine/src/vaults/utils/btcForkChain/VaultBtcFork';
-import { getTimeDurationMs } from '@onekeyhq/kit/src/utils/helper';
+import { getUtxoId } from '@mywallet/engine/src/dbs/simple/entity/SimpleDbEntityUtxoAccounts';
+import simpleDb from '@mywallet/engine/src/dbs/simple/simpleDb';
+import type { DBUTXOAccount } from '@mywallet/engine/src/types/account';
+import type { ICoinControlListItem } from '@mywallet/engine/src/types/utxoAccounts';
+import type VaultBtcFork from '@mywallet/engine/src/vaults/utils/btcForkChain/VaultBtcFork';
+import { getTimeDurationMs } from '@mywallet/kit/src/utils/helper';
 import {
   backgroundClass,
   backgroundMethod,
-} from '@onekeyhq/shared/src/background/backgroundDecorators';
+} from '@mywallet/shared/src/background/backgroundDecorators';
 
 import ServiceBase from './ServiceBase';
 

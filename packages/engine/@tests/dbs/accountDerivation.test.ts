@@ -1,4 +1,4 @@
-import { IMPL_EVM } from '@onekeyhq/shared/src/engine/engineConsts';
+import { IMPL_EVM } from '@mywallet/shared/src/engine/engineConsts';
 
 import { DbApi } from '../../src/dbs/index';
 import { getAccountNameInfoByImpl } from '../../src/managers/impl';

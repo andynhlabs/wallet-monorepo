@@ -2,8 +2,8 @@ import type { FC } from 'react';
 
 import { StyleSheet, View } from 'react-native';
 
-import { FULLWINDOW_OVERLAY_PORTAL } from '@onekeyhq/kit/src/utils/overlayUtils';
-import { PortalEntry } from '@onekeyhq/kit/src/views/Overlay/RootPortal';
+import { FULLWINDOW_OVERLAY_PORTAL } from '@mywallet/kit/src/utils/overlayUtils';
+import { PortalEntry } from '@mywallet/kit/src/views/Overlay/RootPortal';
 
 import type { StyleProp, ViewStyle } from 'react-native';
 

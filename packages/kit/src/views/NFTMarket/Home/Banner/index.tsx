@@ -10,8 +10,8 @@ import {
   Image,
   Pressable,
   Text,
-} from '@onekeyhq/components';
-import BannerPnl from '@onekeyhq/kit/assets/nft_banner_pnl.png';
+} from '@mywallet/components';
+import BannerPnl from '@mywallet/kit/assets/nft_banner_pnl.png';
 
 const Banner = () => {
   const intl = useIntl();

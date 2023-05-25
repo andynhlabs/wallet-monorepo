@@ -1,4 +1,4 @@
-import { useIsVerticalLayout } from '@onekeyhq/components';
+import { useIsVerticalLayout } from '@mywallet/components';
 
 import { TokenSelector } from '../../../views/BulkSender/TokenSelector';
 import { BulkSenderRoutes } from '../../../views/BulkSender/types';

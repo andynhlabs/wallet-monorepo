@@ -11,7 +11,7 @@ import {
   ToastManager,
   Typography,
   useForm,
-} from '@onekeyhq/components';
+} from '@mywallet/components';
 
 import backgroundApiProxy from '../../background/instance/backgroundApiProxy';
 import { useAppSelector, useLocalAuthentication } from '../../hooks';

@@ -1,4 +1,4 @@
-import { Center, QRCode } from '@onekeyhq/components';
+import { Center, QRCode } from '@mywallet/components';
 
 const QRCodeGallery = () => (
   <Center flex="1" bg="background-hovered">

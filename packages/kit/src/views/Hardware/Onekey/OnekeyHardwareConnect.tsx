@@ -4,10 +4,10 @@ import { useEffect } from 'react';
 import { useRoute } from '@react-navigation/core';
 import { useIntl } from 'react-intl';
 
-import { Box, Modal, Spinner, Typography } from '@onekeyhq/components';
-import backgroundApiProxy from '@onekeyhq/kit/src/background/instance/backgroundApiProxy';
-import useAppNavigation from '@onekeyhq/kit/src/hooks/useAppNavigation';
-import type { OnekeyHardwareRoutesParams } from '@onekeyhq/kit/src/routes/Root/Modal/HardwareOnekey';
+import { Box, Modal, Spinner, Typography } from '@mywallet/components';
+import backgroundApiProxy from '@mywallet/kit/src/background/instance/backgroundApiProxy';
+import useAppNavigation from '@mywallet/kit/src/hooks/useAppNavigation';
+import type { OnekeyHardwareRoutesParams } from '@mywallet/kit/src/routes/Root/Modal/HardwareOnekey';
 
 import type { OnekeyHardwareModalRoutes } from '../../../routes/routesEnum';
 import type { RouteProp } from '@react-navigation/native';

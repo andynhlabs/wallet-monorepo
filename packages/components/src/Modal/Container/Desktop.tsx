@@ -5,8 +5,8 @@ import { useNavigation, useNavigationState } from '@react-navigation/core';
 import { useIntl } from 'react-intl';
 import { StyleSheet } from 'react-native';
 
-import { useCloseOnEsc } from '@onekeyhq/kit/src/hooks/useOnKeydown';
-import platformEnv from '@onekeyhq/shared/src/platformEnv';
+import { useCloseOnEsc } from '@mywallet/kit/src/hooks/useOnKeydown';
+import platformEnv from '@mywallet/shared/src/platformEnv';
 
 import Box from '../../Box';
 import Button from '../../Button';

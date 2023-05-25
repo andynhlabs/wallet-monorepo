@@ -5,15 +5,15 @@ import BigNumber from 'bignumber.js';
 import { isUndefined } from 'lodash';
 import memoizee from 'memoizee';
 
-import { TransactionStatus } from '@onekeyhq/engine/src/types/provider';
-import type { PartialTokenInfo } from '@onekeyhq/engine/src/types/provider';
-import { getTimeDurationMs } from '@onekeyhq/kit/src/utils/helper';
+import { TransactionStatus } from '@mywallet/engine/src/types/provider';
+import type { PartialTokenInfo } from '@mywallet/engine/src/types/provider';
+import { getTimeDurationMs } from '@mywallet/kit/src/utils/helper';
 import {
   COINTYPE_ADA,
   IMPL_ADA,
-} from '@onekeyhq/shared/src/engine/engineConsts';
-import debugLogger from '@onekeyhq/shared/src/logger/debugLogger';
-import platformEnv from '@onekeyhq/shared/src/platformEnv';
+} from '@mywallet/shared/src/engine/engineConsts';
+import debugLogger from '@mywallet/shared/src/logger/debugLogger';
+import platformEnv from '@mywallet/shared/src/platformEnv';
 
 import {
   InsufficientBalance,

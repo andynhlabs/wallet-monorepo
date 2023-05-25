@@ -13,10 +13,10 @@ import {
   Icon,
   Text,
   useForm,
-} from '@onekeyhq/components';
-import backgroundApiProxy from '@onekeyhq/kit/src/background/instance/backgroundApiProxy';
-import { SkipAppLock } from '@onekeyhq/kit/src/components/AppLock';
-import { setPendingRememberWalletConnectId } from '@onekeyhq/kit/src/store/reducers/hardware';
+} from '@mywallet/components';
+import backgroundApiProxy from '@mywallet/kit/src/background/instance/backgroundApiProxy';
+import { SkipAppLock } from '@mywallet/kit/src/components/AppLock';
+import { setPendingRememberWalletConnectId } from '@mywallet/kit/src/store/reducers/hardware';
 
 import BaseRequestView from './BaseRequest';
 

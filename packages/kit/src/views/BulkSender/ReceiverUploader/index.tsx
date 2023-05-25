@@ -2,7 +2,7 @@ import { useDropzone } from 'react-dropzone';
 import { useIntl } from 'react-intl';
 import { read, utils } from 'xlsx';
 
-import { Box, Center, Icon, Text, useThemeValue } from '@onekeyhq/components';
+import { Box, Center, Icon, Text, useThemeValue } from '@mywallet/components';
 
 import { ReceiverErrors } from '../ReceiverEditor/ReceiverErrors';
 import { ReceiverExample } from '../ReceiverExample';

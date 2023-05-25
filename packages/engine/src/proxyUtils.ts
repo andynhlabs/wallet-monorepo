@@ -2,7 +2,7 @@ import { web3Errors } from '@onekeyfe/cross-inpage-provider-errors';
 import BigNumber from 'bignumber.js';
 import { isNil } from 'lodash';
 
-import type { TxInput, UnsignedTx } from '@onekeyhq/engine/src/types/provider';
+import type { TxInput, UnsignedTx } from '@mywallet/engine/src/types/provider';
 import {
   IMPL_ALGO,
   IMPL_BTC,
@@ -11,7 +11,7 @@ import {
   IMPL_NEAR,
   IMPL_SOL,
   IMPL_STC,
-} from '@onekeyhq/shared/src/engine/engineConsts';
+} from '@mywallet/shared/src/engine/engineConsts';
 
 import type { DBAccount, DBSimpleAccount } from './types/account';
 import type { Network } from './types/network';

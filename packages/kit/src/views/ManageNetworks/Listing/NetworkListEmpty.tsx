@@ -1,6 +1,6 @@
 import { useIntl } from 'react-intl';
 
-import { Empty, KeyboardDismissView } from '@onekeyhq/components';
+import { Empty, KeyboardDismissView } from '@mywallet/components';
 
 export const NetworkListEmpty = () => {
   const intl = useIntl();

@@ -12,7 +12,7 @@ import {
   ListItem,
   Modal,
   Typography,
-} from '@onekeyhq/components';
+} from '@mywallet/components';
 
 import backgroundApiProxy from '../../../background/instance/backgroundApiProxy';
 import { useNetwork } from '../../../hooks';

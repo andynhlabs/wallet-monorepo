@@ -1,13 +1,13 @@
 import type { FC } from 'react';
 import { useCallback, useEffect, useMemo, useState } from 'react';
 
-import { Divider, IconButton } from '@onekeyhq/components';
-import type { IAccount, INetwork, IWallet } from '@onekeyhq/engine/src/types';
-import BaseMenu from '@onekeyhq/kit/src/views/Overlay/BaseMenu';
+import { Divider, IconButton } from '@mywallet/components';
+import type { IAccount, INetwork, IWallet } from '@mywallet/engine/src/types';
+import BaseMenu from '@mywallet/kit/src/views/Overlay/BaseMenu';
 import type {
   IBaseMenuOptions,
   IMenu,
-} from '@onekeyhq/kit/src/views/Overlay/BaseMenu';
+} from '@mywallet/kit/src/views/Overlay/BaseMenu';
 
 import backgroundApiProxy from '../../../../background/instance/backgroundApiProxy';
 import { useAppSelector } from '../../../../hooks';

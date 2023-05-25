@@ -1,5 +1,5 @@
-import { createLazyKitProvider } from '@onekeyhq/kit/src/provider/createLazyKitProvider';
-import '@onekeyhq/shared/src/web/index.css';
+import { createLazyKitProvider } from '@mywallet/kit/src/provider/createLazyKitProvider';
+import '@mywallet/shared/src/web/index.css';
 
 const KitProviderExt = createLazyKitProvider({
   displayName: 'KitProviderExt',

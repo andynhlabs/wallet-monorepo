@@ -1,6 +1,6 @@
 import { useCallback } from 'react';
 
-import useLocale from '@onekeyhq/components/src/Provider/hooks/useLocale';
+import useLocale from '@mywallet/components/src/Provider/hooks/useLocale';
 
 import { getDefaultLocale } from '../utils/locale';
 

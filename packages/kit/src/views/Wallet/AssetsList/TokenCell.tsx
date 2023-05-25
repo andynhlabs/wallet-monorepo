@@ -10,8 +10,8 @@ import {
   Token,
   Typography,
   useIsVerticalLayout,
-} from '@onekeyhq/components';
-import type { Token as TokenType } from '@onekeyhq/engine/src/types/token';
+} from '@mywallet/components';
+import type { Token as TokenType } from '@mywallet/engine/src/types/token';
 
 import {
   FormatBalance,

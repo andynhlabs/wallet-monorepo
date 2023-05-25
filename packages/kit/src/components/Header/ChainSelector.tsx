@@ -13,8 +13,8 @@ import {
   Typography,
   useIsVerticalLayout,
   useUserDevice,
-} from '@onekeyhq/components';
-import { useActiveWalletAccount } from '@onekeyhq/kit/src/hooks/redux';
+} from '@mywallet/components';
+import { useActiveWalletAccount } from '@mywallet/kit/src/hooks/redux';
 
 import backgroundApiProxy from '../../background/instance/backgroundApiProxy';
 import { useManageNetworks } from '../../hooks';

@@ -1,4 +1,4 @@
-import { Box } from '@onekeyhq/components';
+import { Box } from '@mywallet/components';
 
 import CloudBackupDetails from '../../../Me/SecuritySection/CloudBackup/BackupDetails';
 import Layout from '../../Layout';

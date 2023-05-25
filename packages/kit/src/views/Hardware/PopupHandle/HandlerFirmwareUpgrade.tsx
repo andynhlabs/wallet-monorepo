@@ -1,12 +1,12 @@
 import type { FC } from 'react';
 
-import { Dialog } from '@onekeyhq/components';
-import useAppNavigation from '@onekeyhq/kit/src/hooks/useAppNavigation';
+import { Dialog } from '@mywallet/components';
+import useAppNavigation from '@mywallet/kit/src/hooks/useAppNavigation';
 import {
   HardwareUpdateModalRoutes,
   ModalRoutes,
   RootRoutes,
-} from '@onekeyhq/kit/src/routes/routesEnum';
+} from '@mywallet/kit/src/routes/routesEnum';
 
 type HandlerFirmwareUpgradeViewProps = {
   connectId: string;

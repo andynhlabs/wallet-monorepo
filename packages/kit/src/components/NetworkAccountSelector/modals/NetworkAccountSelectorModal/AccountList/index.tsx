@@ -15,9 +15,9 @@ import {
   Text,
   ToastManager,
   useSafeAreaInsets,
-} from '@onekeyhq/components';
-import { shortenAddress } from '@onekeyhq/components/src/utils';
-import type { IAccount } from '@onekeyhq/engine/src/types';
+} from '@mywallet/components';
+import { shortenAddress } from '@mywallet/components/src/utils';
+import type { IAccount } from '@mywallet/engine/src/types';
 
 import backgroundApiProxy from '../../../../../background/instance/backgroundApiProxy';
 import { useDebounce, useNetwork } from '../../../../../hooks';

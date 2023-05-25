@@ -10,13 +10,13 @@ import {
   Pressable,
   Text,
   ToastManager,
-} from '@onekeyhq/components';
-import LogoMetaMask from '@onekeyhq/kit/assets/onboarding/logo_metamask.png';
-import LogoRainbow from '@onekeyhq/kit/assets/onboarding/logo_rainbow.png';
-import LogoTrustWallet from '@onekeyhq/kit/assets/onboarding/logo_trustwallet.png';
-import LogoWalletconnect from '@onekeyhq/kit/assets/onboarding/logo_walletconnect.png';
-import debugLogger from '@onekeyhq/shared/src/logger/debugLogger';
-import platformEnv from '@onekeyhq/shared/src/platformEnv';
+} from '@mywallet/components';
+import LogoMetaMask from '@mywallet/kit/assets/onboarding/logo_metamask.png';
+import LogoRainbow from '@mywallet/kit/assets/onboarding/logo_rainbow.png';
+import LogoTrustWallet from '@mywallet/kit/assets/onboarding/logo_trustwallet.png';
+import LogoWalletconnect from '@mywallet/kit/assets/onboarding/logo_walletconnect.png';
+import debugLogger from '@mywallet/shared/src/logger/debugLogger';
+import platformEnv from '@mywallet/shared/src/platformEnv';
 
 import { useOnboardingDone } from '../../../../hooks/useOnboardingRequired';
 import { wait } from '../../../../utils/helper';

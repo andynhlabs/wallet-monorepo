@@ -4,12 +4,12 @@ import { useCallback, useRef, useState } from 'react';
 import QRCodeModalWeb from '@walletconnect/qrcode-modal';
 import { Linking } from 'react-native';
 
-import { ToastManager } from '@onekeyhq/components';
-import useModalClose from '@onekeyhq/components/src/Modal/Container/useModalClose';
-import { copyToClipboard } from '@onekeyhq/components/src/utils/ClipboardUtils';
-import type { IBaseExternalAccountInfo } from '@onekeyhq/engine/src/dbs/simple/entity/SimpleDbEntityWalletConnect';
-import debugLogger from '@onekeyhq/shared/src/logger/debugLogger';
-import platformEnv from '@onekeyhq/shared/src/platformEnv';
+import { ToastManager } from '@mywallet/components';
+import useModalClose from '@mywallet/components/src/Modal/Container/useModalClose';
+import { copyToClipboard } from '@mywallet/components/src/utils/ClipboardUtils';
+import type { IBaseExternalAccountInfo } from '@mywallet/engine/src/dbs/simple/entity/SimpleDbEntityWalletConnect';
+import debugLogger from '@mywallet/shared/src/logger/debugLogger';
+import platformEnv from '@mywallet/shared/src/platformEnv';
 
 import backgroundApiProxy from '../../background/instance/backgroundApiProxy';
 import useAppNavigation from '../../hooks/useAppNavigation';

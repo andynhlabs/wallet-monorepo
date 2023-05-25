@@ -12,13 +12,13 @@ import {
   SegmentedControl,
   Spinner,
   ToastManager,
-} from '@onekeyhq/components';
-import { getUtxoUniqueKey } from '@onekeyhq/engine/src/dbs/simple/entity/SimpleDbEntityUtxoAccounts';
-import type { Network } from '@onekeyhq/engine/src/types/network';
-import type { Token } from '@onekeyhq/engine/src/types/token';
-import type { ICoinControlListItem } from '@onekeyhq/engine/src/types/utxoAccounts';
-import type { CoinControlRoutesParams } from '@onekeyhq/kit/src/routes';
-import type { CoinControlModalRoutes } from '@onekeyhq/kit/src/routes/routesEnum';
+} from '@mywallet/components';
+import { getUtxoUniqueKey } from '@mywallet/engine/src/dbs/simple/entity/SimpleDbEntityUtxoAccounts';
+import type { Network } from '@mywallet/engine/src/types/network';
+import type { Token } from '@mywallet/engine/src/types/token';
+import type { ICoinControlListItem } from '@mywallet/engine/src/types/utxoAccounts';
+import type { CoinControlRoutesParams } from '@mywallet/kit/src/routes';
+import type { CoinControlModalRoutes } from '@mywallet/kit/src/routes/routesEnum';
 
 import backgroundApiProxy from '../../background/instance/backgroundApiProxy';
 import { useAppSelector, useNetwork } from '../../hooks';

@@ -5,24 +5,24 @@ import BigNumber from 'bignumber.js';
 import { Contract } from 'ethers';
 import { groupBy, keys } from 'lodash';
 
-import { OneKeyError } from '@onekeyhq/engine/src/errors';
-import { batchTransferContractAddress } from '@onekeyhq/engine/src/presets/batchTransferContractAddress';
-import { InfiniteAmountText } from '@onekeyhq/engine/src/vaults/impl/evm/decoder/decoder';
-import type { IEncodedTxEvm } from '@onekeyhq/engine/src/vaults/impl/evm/Vault';
-import type { IEncodedTxSol } from '@onekeyhq/engine/src/vaults/impl/sol/types';
+import { OneKeyError } from '@mywallet/engine/src/errors';
+import { batchTransferContractAddress } from '@mywallet/engine/src/presets/batchTransferContractAddress';
+import { InfiniteAmountText } from '@mywallet/engine/src/vaults/impl/evm/decoder/decoder';
+import type { IEncodedTxEvm } from '@mywallet/engine/src/vaults/impl/evm/Vault';
+import type { IEncodedTxSol } from '@mywallet/engine/src/vaults/impl/sol/types';
 import type {
   IEncodedTx,
   ISetApprovalForAll,
   ISignedTxPro,
   ITransferInfo,
-} from '@onekeyhq/engine/src/vaults/types';
-import lib0xSequenceMulticall from '@onekeyhq/shared/src/asyncModules/lib0xSequenceMulticall';
+} from '@mywallet/engine/src/vaults/types';
+import lib0xSequenceMulticall from '@mywallet/shared/src/asyncModules/lib0xSequenceMulticall';
 import {
   backgroundClass,
   backgroundMethod,
-} from '@onekeyhq/shared/src/background/backgroundDecorators';
-import { CoreSDKLoader } from '@onekeyhq/shared/src/device/hardwareInstance';
-import { IMPL_SOL } from '@onekeyhq/shared/src/engine/engineConsts';
+} from '@mywallet/shared/src/background/backgroundDecorators';
+import { CoreSDKLoader } from '@mywallet/shared/src/device/hardwareInstance';
+import { IMPL_SOL } from '@mywallet/shared/src/engine/engineConsts';
 
 import ServiceBase from './ServiceBase';
 

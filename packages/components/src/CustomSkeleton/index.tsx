@@ -3,8 +3,8 @@ import type { ComponentProps, FC } from 'react';
 import ContentLoader from 'react-content-loader/native';
 import { Rect } from 'react-native-svg';
 
-import { useThemeValue } from '@onekeyhq/components';
-import platformEnv from '@onekeyhq/shared/src/platformEnv';
+import { useThemeValue } from '@mywallet/components';
+import platformEnv from '@mywallet/shared/src/platformEnv';
 
 import Box from '../Box';
 

@@ -14,9 +14,9 @@ import {
   VStack,
   ZStack,
   useTheme,
-} from '@onekeyhq/components';
-import type { NFTPNL } from '@onekeyhq/engine/src/types/nft';
-import BlurBackground from '@onekeyhq/kit/assets/pnl_share_blur_bg.png';
+} from '@mywallet/components';
+import type { NFTPNL } from '@mywallet/engine/src/types/nft';
+import BlurBackground from '@mywallet/kit/assets/pnl_share_blur_bg.png';
 
 import useFormatDate from '../../../../hooks/useFormatDate';
 import NFTListImage from '../../../Wallet/NFT/NFTList/NFTListImage';

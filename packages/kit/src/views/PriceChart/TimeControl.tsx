@@ -1,6 +1,6 @@
 import type { FC } from 'react';
 
-import { SegmentedControl, useThemeValue } from '@onekeyhq/components';
+import { SegmentedControl, useThemeValue } from '@mywallet/components';
 
 import type { MessageDescriptor } from 'react-intl';
 

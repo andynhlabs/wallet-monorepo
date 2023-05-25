@@ -8,8 +8,8 @@ import {
   Button,
   Typography,
   useIsVerticalLayout,
-} from '@onekeyhq/components';
-import backgroundApiProxy from '@onekeyhq/kit/src/background/instance/backgroundApiProxy';
+} from '@mywallet/components';
+import backgroundApiProxy from '@mywallet/kit/src/background/instance/backgroundApiProxy';
 
 import { GRID_MAX_WIDTH } from '../../hooks/useMarketLayout';
 

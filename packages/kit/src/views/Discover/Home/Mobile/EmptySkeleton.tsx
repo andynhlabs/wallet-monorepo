@@ -1,7 +1,7 @@
 import type { ComponentType, FC, ReactElement } from 'react';
 
-import { Box, CustomSkeleton, FlatList } from '@onekeyhq/components';
-import platformEnv from '@onekeyhq/shared/src/platformEnv';
+import { Box, CustomSkeleton, FlatList } from '@mywallet/components';
+import platformEnv from '@mywallet/shared/src/platformEnv';
 
 type EmptySkeletonContentProps = {
   ListHeaderComponent: ComponentType<any> | ReactElement | null | undefined;

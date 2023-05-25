@@ -4,11 +4,11 @@ import BigNumber from 'bignumber.js';
 import { isEmpty, map } from 'lodash';
 import { useIntl } from 'react-intl';
 
-import { GroupingList, ListItem, Text } from '@onekeyhq/components';
+import { GroupingList, ListItem, Text } from '@mywallet/components';
 import type {
   IDecodedTx,
   ISignedTxPro,
-} from '@onekeyhq/engine/src/vaults/types';
+} from '@mywallet/engine/src/vaults/types';
 
 import backgroundApiProxy from '../../../../background/instance/backgroundApiProxy';
 import { useWalletConnectPrepareConnection } from '../../../../components/WalletConnect/useWalletConnectPrepareConnection';

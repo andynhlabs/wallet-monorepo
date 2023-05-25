@@ -10,10 +10,10 @@ import {
   Center,
   Typography,
   useIsVerticalLayout,
-} from '@onekeyhq/components';
-import useModalClose from '@onekeyhq/components/src/Modal/Container/useModalClose';
-import type { IWallet } from '@onekeyhq/engine/src/types';
-import platformEnv from '@onekeyhq/shared/src/platformEnv';
+} from '@mywallet/components';
+import useModalClose from '@mywallet/components/src/Modal/Container/useModalClose';
+import type { IWallet } from '@mywallet/engine/src/types';
+import platformEnv from '@mywallet/shared/src/platformEnv';
 
 import { WalletAvatarPro } from '../../../components/WalletSelector/WalletAvatar';
 import LayoutContainer from '../../Onboarding/Layout';

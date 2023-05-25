@@ -1,7 +1,7 @@
 import { useMemo } from 'react';
 
-import { useIsVerticalLayout } from '@onekeyhq/components';
-import { WALLET_TYPE_HW } from '@onekeyhq/engine/src/types/wallet';
+import { useIsVerticalLayout } from '@mywallet/components';
+import { WALLET_TYPE_HW } from '@mywallet/engine/src/types/wallet';
 
 import { useAppSelector, usePrevious } from '../../../hooks';
 import { useRuntimeWallets } from '../../../hooks/redux';

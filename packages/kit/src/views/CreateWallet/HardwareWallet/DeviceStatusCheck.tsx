@@ -10,21 +10,21 @@ import {
   Spinner,
   ToastManager,
   Typography,
-} from '@onekeyhq/components';
-import backgroundApiProxy from '@onekeyhq/kit/src/background/instance/backgroundApiProxy';
-import NeedBridgeDialog from '@onekeyhq/kit/src/components/NeedBridgeDialog';
-import type { CreateWalletRoutesParams } from '@onekeyhq/kit/src/routes/Root/Modal/CreateWallet';
+} from '@mywallet/components';
+import backgroundApiProxy from '@mywallet/kit/src/background/instance/backgroundApiProxy';
+import NeedBridgeDialog from '@mywallet/kit/src/components/NeedBridgeDialog';
+import type { CreateWalletRoutesParams } from '@mywallet/kit/src/routes/Root/Modal/CreateWallet';
 import {
   CreateWalletModalRoutes,
   ModalRoutes,
   RootRoutes,
-} from '@onekeyhq/kit/src/routes/routesEnum';
+} from '@mywallet/kit/src/routes/routesEnum';
 import type {
   ModalScreenProps,
   RootRoutesParams,
-} from '@onekeyhq/kit/src/routes/types';
-import { CustomOneKeyHardwareError } from '@onekeyhq/kit/src/utils/hardware/errors';
-import type { IOneKeyDeviceFeatures } from '@onekeyhq/shared/types';
+} from '@mywallet/kit/src/routes/types';
+import { CustomOneKeyHardwareError } from '@mywallet/kit/src/utils/hardware/errors';
+import type { IOneKeyDeviceFeatures } from '@mywallet/shared/types';
 
 import { closeExtensionWindowIfOnboardingFinished } from '../../../hooks/useOnboardingRequired';
 import { setOnBoardingLoadingBehindModal } from '../../../store/reducers/runtime';

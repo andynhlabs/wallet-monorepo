@@ -3,21 +3,21 @@ import type { FC } from 'react';
 import { useNavigation } from '@react-navigation/core';
 import { useIntl } from 'react-intl';
 
-import type { ICON_NAMES } from '@onekeyhq/components';
+import type { ICON_NAMES } from '@mywallet/components';
 import {
   Center,
   Icon,
   Select,
   useIsVerticalLayout,
-} from '@onekeyhq/components';
-import type { SubmitRequestModalRoutesParams } from '@onekeyhq/kit/src/routes';
+} from '@mywallet/components';
+import type { SubmitRequestModalRoutesParams } from '@mywallet/kit/src/routes';
 import {
   ModalRoutes,
   RootRoutes,
   SubmitRequestModalRoutes,
-} from '@onekeyhq/kit/src/routes/routesEnum';
-import type { ModalScreenProps } from '@onekeyhq/kit/src/routes/types';
-import platformEnv from '@onekeyhq/shared/src/platformEnv';
+} from '@mywallet/kit/src/routes/routesEnum';
+import type { ModalScreenProps } from '@mywallet/kit/src/routes/types';
+import platformEnv from '@mywallet/shared/src/platformEnv';
 
 import backgroundApiProxy from '../../background/instance/backgroundApiProxy';
 import { useHelpLink } from '../../hooks/useHelpLink';

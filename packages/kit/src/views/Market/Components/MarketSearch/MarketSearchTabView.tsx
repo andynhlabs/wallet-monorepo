@@ -3,7 +3,7 @@ import { useCallback, useMemo, useState } from 'react';
 
 import { TabView as RNTabView } from 'react-native-tab-view';
 
-import { SceneMap, SegmentedControl } from '@onekeyhq/components';
+import { SceneMap, SegmentedControl } from '@mywallet/components';
 
 import { useMarketSearchContainerStyle } from '../../hooks/useMarketSearch';
 

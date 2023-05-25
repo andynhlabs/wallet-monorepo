@@ -1,4 +1,4 @@
-import { Center, Spinner } from '@onekeyhq/components';
+import { Center, Spinner } from '@mywallet/components';
 
 import { BaseSendConfirmModal } from '../../components/BaseSendConfirmModal';
 

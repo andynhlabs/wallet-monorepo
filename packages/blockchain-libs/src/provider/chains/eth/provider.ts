@@ -12,19 +12,19 @@ import {
 import BigNumber from 'bignumber.js';
 import * as ethUtil from 'ethereumjs-util';
 
-import { BaseProvider } from '@onekeyhq/engine/src/client/BaseClient';
+import { BaseProvider } from '@mywallet/engine/src/client/BaseClient';
 import type {
   AddressValidation,
   SignedTx,
   TypedMessage,
   UnsignedTx,
-} from '@onekeyhq/engine/src/types/provider';
-import type { Signer, Verifier } from '@onekeyhq/engine/src/types/secret';
-import { check, checkIsDefined } from '@onekeyhq/shared/src/utils/assertUtils';
+} from '@mywallet/engine/src/types/provider';
+import type { Signer, Verifier } from '@mywallet/engine/src/types/secret';
+import { check, checkIsDefined } from '@mywallet/shared/src/utils/assertUtils';
 import {
   fromBigIntHex,
   toBigIntHex,
-} from '@onekeyhq/shared/src/utils/numberUtils';
+} from '@mywallet/shared/src/utils/numberUtils';
 
 import { Geth } from './geth';
 import { hashMessage } from './sdk/message';
@@ -208,7 +208,7 @@ class Provider extends BaseProvider {
     let finalMessage: any = message.message;
 
     // Special temporary fix for attribute name error on SpaceSwap
-    // https://onekeyhq.atlassian.net/browse/OK-18748
+    // https://mywallet.atlassian.net/browse/OK-18748
     try {
       finalMessage = JSON.parse(message.message);
       if (

@@ -14,17 +14,17 @@ import {
   ToastManager,
   Typography,
   useTheme,
-} from '@onekeyhq/components';
-import { shortenAddress } from '@onekeyhq/components/src/utils';
-import { copyToClipboard } from '@onekeyhq/components/src/utils/ClipboardUtils';
+} from '@mywallet/components';
+import { shortenAddress } from '@mywallet/components/src/utils';
+import { copyToClipboard } from '@mywallet/components/src/utils/ClipboardUtils';
 import {
   getCovalentApiEndpoint,
   getFiatEndpoint,
   getSocketEndpoint,
-} from '@onekeyhq/engine/src/endpoint';
-import backgroundApiProxy from '@onekeyhq/kit/src/background/instance/backgroundApiProxy';
-import { useSettings } from '@onekeyhq/kit/src/hooks/redux';
-import type { ISettingsDevModeInfo } from '@onekeyhq/kit/src/store/reducers/settings';
+} from '@mywallet/engine/src/endpoint';
+import backgroundApiProxy from '@mywallet/kit/src/background/instance/backgroundApiProxy';
+import { useSettings } from '@mywallet/kit/src/hooks/redux';
+import type { ISettingsDevModeInfo } from '@mywallet/kit/src/store/reducers/settings';
 import {
   setDevMode,
   setEnablePerfCheck,
@@ -39,9 +39,9 @@ import {
   setUpdateDeviceBle,
   setUpdateDeviceRes,
   setUpdateDeviceSys,
-} from '@onekeyhq/kit/src/store/reducers/settings';
-import timelinePerfTrace from '@onekeyhq/shared/src/perf/timelinePerfTrace';
-import platformEnv from '@onekeyhq/shared/src/platformEnv';
+} from '@mywallet/kit/src/store/reducers/settings';
+import timelinePerfTrace from '@mywallet/shared/src/perf/timelinePerfTrace';
+import platformEnv from '@mywallet/shared/src/platformEnv';
 
 import { NetworkAccountSelectorTrigger } from '../../../components/NetworkAccountSelector';
 import { EAccountSelectorMode } from '../../../store/reducers/reducerAccountSelector';

@@ -2,8 +2,8 @@ import { useCallback, useLayoutEffect, useMemo, useState } from 'react';
 
 import { useNavigation, useRoute } from '@react-navigation/core';
 
-import { ScrollView, useSafeAreaInsets } from '@onekeyhq/components';
-import type { Network } from '@onekeyhq/engine/src/types/network';
+import { ScrollView, useSafeAreaInsets } from '@mywallet/components';
+import type { Network } from '@mywallet/engine/src/types/network';
 
 import ChainSelector from '../ChainSelector';
 import { StatsList } from '../Home/Stats';

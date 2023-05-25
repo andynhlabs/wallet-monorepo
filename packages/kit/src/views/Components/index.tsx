@@ -10,7 +10,7 @@ import {
   FlatList,
   Pressable,
   Typography,
-} from '@onekeyhq/components';
+} from '@mywallet/components';
 
 import { useNavigationBack } from '../../hooks/useAppNavigation';
 import { GalleryRoutes } from '../../routes/routesEnum';

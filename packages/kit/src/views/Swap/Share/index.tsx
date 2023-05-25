@@ -4,9 +4,9 @@ import { useRoute } from '@react-navigation/native';
 import { Platform } from 'react-native';
 import ViewShot from 'react-native-view-shot';
 
-import { Box, Modal, QRCode, Typography } from '@onekeyhq/components';
-import LogoPrimary from '@onekeyhq/components/src/Icon/react/illus/LogoPrimary';
-import platformEnv from '@onekeyhq/shared/src/platformEnv';
+import { Box, Modal, QRCode, Typography } from '@mywallet/components';
+import LogoPrimary from '@mywallet/components/src/Icon/react/illus/LogoPrimary';
+import platformEnv from '@mywallet/shared/src/platformEnv';
 
 import { useNavigation } from '../../../hooks';
 import Transaction from '../components/Transaction';
@@ -20,7 +20,7 @@ type RouteProps = RouteProp<SwapRoutesParams, SwapRoutes.Transaction>;
 const getShareModule = async () => {
   if (!platformEnv.isNative) return null;
   return (
-    await import('@onekeyhq/shared/src/modules3rdParty/react-native-share')
+    await import('@mywallet/shared/src/modules3rdParty/react-native-share')
   ).default;
 };
 

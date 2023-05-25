@@ -1,4 +1,4 @@
-import { useIsVerticalLayout } from '@onekeyhq/components';
+import { useIsVerticalLayout } from '@mywallet/components';
 
 import CalculatorModal from '../../../views/NFTMarket/Modals/Calculator';
 import MarketPlaceList from '../../../views/NFTMarket/Modals/Calculator/MarketPlaceList';

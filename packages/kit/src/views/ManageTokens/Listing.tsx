@@ -18,11 +18,11 @@ import {
   ToastManager,
   Token as TokenImage,
   Typography,
-} from '@onekeyhq/components';
-import { getBalanceKey } from '@onekeyhq/engine/src/managers/token';
-import type { Token } from '@onekeyhq/engine/src/types/token';
-import { TokenRiskLevel } from '@onekeyhq/engine/src/types/token';
-import debugLogger from '@onekeyhq/shared/src/logger/debugLogger';
+} from '@mywallet/components';
+import { getBalanceKey } from '@mywallet/engine/src/managers/token';
+import type { Token } from '@mywallet/engine/src/types/token';
+import { TokenRiskLevel } from '@mywallet/engine/src/types/token';
+import debugLogger from '@mywallet/shared/src/logger/debugLogger';
 
 import backgroundApiProxy from '../../background/instance/backgroundApiProxy';
 import { FormatBalance } from '../../components/Format';

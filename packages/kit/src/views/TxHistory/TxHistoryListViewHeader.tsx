@@ -1,6 +1,6 @@
 import { useIntl } from 'react-intl';
 
-import { Box, IconButton, Typography } from '@onekeyhq/components';
+import { Box, IconButton, Typography } from '@mywallet/components';
 
 import { useNetwork } from '../../hooks';
 import { showTokenValueSettings } from '../Overlay/TokenValueSettings';

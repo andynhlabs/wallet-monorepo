@@ -1,6 +1,6 @@
 import { createContext } from 'react';
 
-import type { Token } from '@onekeyhq/engine/src/types/token';
+import type { Token } from '@mywallet/engine/src/types/token';
 
 import type { TokenListItem } from '../../typings';
 

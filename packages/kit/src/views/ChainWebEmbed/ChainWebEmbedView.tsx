@@ -8,11 +8,11 @@ import {
   useState,
 } from 'react';
 
-import { Pressable } from '@onekeyhq/components';
-import backgroundApiProxy from '@onekeyhq/kit/src/background/instance/backgroundApiProxy';
-import { WebViewWebEmbed } from '@onekeyhq/kit/src/components/WebView/WebViewWebEmbed';
-import debugLogger from '@onekeyhq/shared/src/logger/debugLogger';
-import platformEnv from '@onekeyhq/shared/src/platformEnv';
+import { Pressable } from '@mywallet/components';
+import backgroundApiProxy from '@mywallet/kit/src/background/instance/backgroundApiProxy';
+import { WebViewWebEmbed } from '@mywallet/kit/src/components/WebView/WebViewWebEmbed';
+import debugLogger from '@mywallet/shared/src/logger/debugLogger';
+import platformEnv from '@mywallet/shared/src/platformEnv';
 
 import { useShowWebEmbedWebviewAgent } from '../../hooks/useSettingsDevMode';
 

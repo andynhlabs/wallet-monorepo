@@ -9,8 +9,8 @@ import {
   Typography,
   VStack,
   useSafeAreaInsets,
-} from '@onekeyhq/components';
-import type { ModalProps } from '@onekeyhq/components/src/Modal';
+} from '@mywallet/components';
+import type { ModalProps } from '@mywallet/components/src/Modal';
 
 import { showOverlay } from '../../utils/overlayUtils';
 

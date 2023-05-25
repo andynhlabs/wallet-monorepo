@@ -12,9 +12,9 @@ import {
   ToastManager,
   Typography,
   useIsVerticalLayout,
-} from '@onekeyhq/components';
-import NavHeader from '@onekeyhq/components/src/NavHeader/NavHeader';
-import platformEnv from '@onekeyhq/shared/src/platformEnv';
+} from '@mywallet/components';
+import NavHeader from '@mywallet/components/src/NavHeader/NavHeader';
+import platformEnv from '@mywallet/shared/src/platformEnv';
 
 import backgroundApiProxy from '../../../background/instance/backgroundApiProxy';
 import LayoutContainer from '../../Onboarding/Layout';

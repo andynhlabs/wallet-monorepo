@@ -5,7 +5,7 @@ import {
   ResizeTextMode,
 } from 'react-native-auto-size-text';
 
-import { Text, useThemeValue } from '@onekeyhq/components';
+import { Text, useThemeValue } from '@mywallet/components';
 
 export const AutoSizeText: FC<{
   text: string;

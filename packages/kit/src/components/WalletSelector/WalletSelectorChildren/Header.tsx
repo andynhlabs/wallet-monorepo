@@ -1,7 +1,7 @@
 import type { FC } from 'react';
 
-import { Box, IconButton, Text } from '@onekeyhq/components';
-import platformEnv from '@onekeyhq/shared/src/platformEnv';
+import { Box, IconButton, Text } from '@mywallet/components';
+import platformEnv from '@mywallet/shared/src/platformEnv';
 
 import { useNavigationActions } from '../../../hooks';
 import useAppNavigation from '../../../hooks/useAppNavigation';

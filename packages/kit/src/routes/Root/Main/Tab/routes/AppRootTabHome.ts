@@ -1,4 +1,4 @@
-import { withTabLayout } from '@onekeyhq/components/src/Layout/withTabLayout';
+import { withTabLayout } from '@mywallet/components/src/Layout/withTabLayout';
 
 import { toFocusedLazy } from '../../../../../components/LazyRenderWhenFocus';
 import BulkSender from '../../../../../views/BulkSender';

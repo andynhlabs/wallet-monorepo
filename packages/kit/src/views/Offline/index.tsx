@@ -4,7 +4,7 @@ import { memo, useEffect, useState } from 'react';
 import { Row } from 'native-base';
 import { useIntl } from 'react-intl';
 
-import { Box, Icon, Typography } from '@onekeyhq/components';
+import { Box, Icon, Typography } from '@mywallet/components';
 
 import { useActiveWalletAccount } from '../../hooks';
 import { useRpcMeasureStatus } from '../ManageNetworks/hooks';

@@ -1,4 +1,4 @@
-import { Alert, ScrollView, VStack } from '@onekeyhq/components';
+import { Alert, ScrollView, VStack } from '@mywallet/components';
 
 const AlertGallery = () => (
   <ScrollView>

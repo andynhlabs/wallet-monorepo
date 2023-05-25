@@ -1,12 +1,12 @@
 import { useCallback } from 'react';
 
-import { useIsVerticalLayout } from '@onekeyhq/components';
-import useModalClose from '@onekeyhq/components/src/Modal/Container/useModalClose';
+import { useIsVerticalLayout } from '@mywallet/components';
+import useModalClose from '@mywallet/components/src/Modal/Container/useModalClose';
 import {
   AppUIEventBusNames,
   appUIEventBus,
-} from '@onekeyhq/shared/src/eventBus/appUIEventBus';
-import debugLogger from '@onekeyhq/shared/src/logger/debugLogger';
+} from '@mywallet/shared/src/eventBus/appUIEventBus';
+import debugLogger from '@mywallet/shared/src/logger/debugLogger';
 
 import backgroundApiProxy from '../../../background/instance/backgroundApiProxy';
 import { useNavigationActions } from '../../../hooks';

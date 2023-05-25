@@ -13,12 +13,12 @@ import {
   Text,
   Typography,
   VStack,
-} from '@onekeyhq/components';
-import useModalClose from '@onekeyhq/components/src/Modal/Container/useModalClose';
+} from '@mywallet/components';
+import useModalClose from '@mywallet/components/src/Modal/Container/useModalClose';
 import {
   AppUIEventBusNames,
   appUIEventBus,
-} from '@onekeyhq/shared/src/eventBus/appUIEventBus';
+} from '@mywallet/shared/src/eventBus/appUIEventBus';
 
 const HardwareContine = () => {
   const intl = useIntl();
@@ -39,7 +39,7 @@ const HardwareContine = () => {
         <Box w="200px" h="200px">
           <LottieView
             width={200}
-            source={require('@onekeyhq/kit/assets/animations/lottie_send_success_feedback.json')}
+            source={require('@mywallet/kit/assets/animations/lottie_send_success_feedback.json')}
             autoPlay
             loop={false}
           />

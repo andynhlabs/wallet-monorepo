@@ -4,8 +4,8 @@ import {
   Box,
   DesktopDragZoneBox,
   useSafeAreaInsets,
-} from '@onekeyhq/components';
-import { useDesktopTopDragBarController } from '@onekeyhq/components/src/DesktopDragZoneBox/useDesktopTopDragBarController';
+} from '@mywallet/components';
+import { useDesktopTopDragBarController } from '@mywallet/components/src/DesktopDragZoneBox/useDesktopTopDragBarController';
 
 import WebHomeContainer from '../Content/WebHomeContainer';
 import { webHandler } from '../explorerUtils';

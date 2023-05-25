@@ -2,8 +2,8 @@ import { useMemo } from 'react';
 
 import { useNavigation, useRoute } from '@react-navigation/native';
 
-import { Modal } from '@onekeyhq/components';
-import type { ModalScreenProps } from '@onekeyhq/kit/src/routes/types';
+import { Modal } from '@mywallet/components';
+import type { ModalScreenProps } from '@mywallet/kit/src/routes/types';
 
 import Protected, { ValidationFields } from '../../../components/Protected';
 import LayoutContainer from '../../Onboarding/Layout';

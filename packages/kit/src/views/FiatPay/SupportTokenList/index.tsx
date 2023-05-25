@@ -18,10 +18,10 @@ import {
   Skeleton,
   Text,
   Token as TokenImage,
-} from '@onekeyhq/components';
-import type { Network } from '@onekeyhq/engine/src/types/network';
-import type { Token } from '@onekeyhq/engine/src/types/token';
-import type { ModalScreenProps } from '@onekeyhq/kit/src/routes/types';
+} from '@mywallet/components';
+import type { Network } from '@mywallet/engine/src/types/network';
+import type { Token } from '@mywallet/engine/src/types/token';
+import type { ModalScreenProps } from '@mywallet/kit/src/routes/types';
 
 import backgroundApiProxy from '../../../background/instance/backgroundApiProxy';
 import { FormatBalance } from '../../../components/Format';

@@ -4,7 +4,7 @@ import { TransitionPresets } from '@react-navigation/stack';
 import { isNil } from 'lodash';
 import { Easing } from 'react-native';
 
-import platformEnv from '@onekeyhq/shared/src/platformEnv';
+import platformEnv from '@mywallet/shared/src/platformEnv';
 
 import type { RouteProp } from '@react-navigation/core';
 import type { StackNavigationOptions } from '@react-navigation/stack';

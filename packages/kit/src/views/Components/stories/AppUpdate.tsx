@@ -1,6 +1,6 @@
 import type { ComponentProps, FC } from 'react';
 
-import { Markdown, Modal } from '@onekeyhq/components';
+import { Markdown, Modal } from '@mywallet/components';
 
 // –– ChangeLogModal Start ––
 type ChangeLogModalProps = {

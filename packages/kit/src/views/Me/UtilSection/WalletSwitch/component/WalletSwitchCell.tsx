@@ -1,7 +1,7 @@
 import type { FC } from 'react';
 import { useState } from 'react';
 
-import { Box, Switch, Typography } from '@onekeyhq/components';
+import { Box, Switch, Typography } from '@mywallet/components';
 
 import backgroundApiProxy from '../../../../../background/instance/backgroundApiProxy';
 import { useWalletSwitchConfig } from '../hooks/useWalletSwitch';

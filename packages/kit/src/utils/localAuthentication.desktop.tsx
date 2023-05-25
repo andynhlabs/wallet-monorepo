@@ -1,4 +1,4 @@
-import LOCALES from '@onekeyhq/components/src/locale';
+import LOCALES from '@mywallet/components/src/locale';
 
 import { getDefaultLocale } from './locale';
 

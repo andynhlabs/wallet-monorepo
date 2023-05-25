@@ -9,15 +9,15 @@ import {
 } from '@starcoin/starcoin';
 import * as ethUtil from 'ethereumjs-util';
 
-import { BaseProvider } from '@onekeyhq/engine/src/client/BaseClient';
+import { BaseProvider } from '@mywallet/engine/src/client/BaseClient';
 import type {
   AddressValidation,
   SignedTx,
   TypedMessage,
   UnsignedTx,
-} from '@onekeyhq/engine/src/types/provider';
-import type { Signer, Verifier } from '@onekeyhq/engine/src/types/secret';
-import { check } from '@onekeyhq/shared/src/utils/assertUtils';
+} from '@mywallet/engine/src/types/provider';
+import type { Signer, Verifier } from '@mywallet/engine/src/types/secret';
+import { check } from '@mywallet/shared/src/utils/assertUtils';
 
 import { StcClient } from './starcoin';
 

@@ -10,9 +10,9 @@ import {
   Pressable,
   Textarea,
   Typography,
-} from '@onekeyhq/components';
-import { getClipboard } from '@onekeyhq/components/src/utils/ClipboardUtils';
-import platformEnv from '@onekeyhq/shared/src/platformEnv';
+} from '@mywallet/components';
+import { getClipboard } from '@mywallet/components/src/utils/ClipboardUtils';
+import platformEnv from '@mywallet/shared/src/platformEnv';
 
 import backgroundApiProxy from '../../background/instance/backgroundApiProxy';
 import { useNavigation } from '../../hooks';

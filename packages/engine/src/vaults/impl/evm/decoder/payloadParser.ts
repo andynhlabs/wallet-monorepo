@@ -1,5 +1,5 @@
-import type { SendConfirmPayload } from '@onekeyhq/kit/src/views/Send/types';
-import type { SwapQuoteTx } from '@onekeyhq/kit/src/views/Swap/typings';
+import type { SendConfirmPayload } from '@mywallet/kit/src/views/Send/types';
+import type { SwapQuoteTx } from '@mywallet/kit/src/views/Swap/typings';
 
 import { ethers } from '../sdk/ethers';
 

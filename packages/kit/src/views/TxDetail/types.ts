@@ -1,14 +1,14 @@
 import type { ComponentProps } from 'react';
 
-import type { ICON_NAMES, Text } from '@onekeyhq/components';
-import type { LocaleIds } from '@onekeyhq/components/src/locale';
-import type { Network } from '@onekeyhq/engine/src/types/network';
+import type { ICON_NAMES, Text } from '@mywallet/components';
+import type { LocaleIds } from '@mywallet/components/src/locale';
+import type { Network } from '@mywallet/engine/src/types/network';
 import type {
   IDecodedTx,
   IDecodedTxAction,
   IDecodedTxDirection,
   IHistoryTx,
-} from '@onekeyhq/engine/src/vaults/types';
+} from '@mywallet/engine/src/vaults/types';
 
 import type { useSendConfirmRouteParamsParsed } from '../Send/utils/useSendConfirmRouteParamsParsed';
 import type { ITxDetailContextData } from './TxDetailContext';

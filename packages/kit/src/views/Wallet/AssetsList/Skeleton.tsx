@@ -9,8 +9,8 @@ import {
   Skeleton,
   Typography,
   useIsVerticalLayout,
-} from '@onekeyhq/components';
-import { MAX_PAGE_CONTAINER_WIDTH } from '@onekeyhq/shared/src/config/appConfig';
+} from '@mywallet/components';
+import { MAX_PAGE_CONTAINER_WIDTH } from '@mywallet/shared/src/config/appConfig';
 
 const ListItemSkeleton: FC<{ borderBottomRadius?: number }> = ({
   borderBottomRadius = 0,

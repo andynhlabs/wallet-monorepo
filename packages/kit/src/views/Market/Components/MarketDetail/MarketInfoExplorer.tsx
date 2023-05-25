@@ -1,9 +1,9 @@
 import type { FC } from 'react';
 import { useMemo, useRef } from 'react';
 
-import { Box, Icon, Image, Pressable, Typography } from '@onekeyhq/components';
-import { SCREEN_SIZE } from '@onekeyhq/components/src/Provider/device';
-import { shortenAddress } from '@onekeyhq/components/src/utils';
+import { Box, Icon, Image, Pressable, Typography } from '@mywallet/components';
+import { SCREEN_SIZE } from '@mywallet/components/src/Provider/device';
+import { shortenAddress } from '@mywallet/components/src/utils';
 
 import { useNetwork } from '../../../../hooks';
 import { useGridBoxStyle } from '../../hooks/useMarketLayout';

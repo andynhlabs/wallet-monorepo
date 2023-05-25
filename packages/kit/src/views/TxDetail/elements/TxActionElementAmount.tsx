@@ -4,8 +4,8 @@ import { useMemo } from 'react';
 import BigNumber from 'bignumber.js';
 import { isNil } from 'lodash';
 
-import { Text, VStack } from '@onekeyhq/components';
-import { IDecodedTxDirection } from '@onekeyhq/engine/src/vaults/types';
+import { Text, VStack } from '@mywallet/components';
+import { IDecodedTxDirection } from '@mywallet/engine/src/vaults/types';
 
 import { formatBalanceDisplay } from '../../../components/Format';
 

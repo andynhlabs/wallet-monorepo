@@ -1,6 +1,6 @@
 import { useEffect, useState } from 'react';
 
-import type { IEncodedTx } from '@onekeyhq/engine/src/vaults/types';
+import type { IEncodedTx } from '@mywallet/engine/src/vaults/types';
 
 import { prepareSendConfirmEncodedTx } from './prepareSendConfirmEncodedTx';
 

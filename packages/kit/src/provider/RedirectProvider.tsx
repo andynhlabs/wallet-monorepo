@@ -3,7 +3,7 @@ import { useEffect } from 'react';
 
 import { useLinkTo } from '@react-navigation/native';
 
-import platformEnv from '@onekeyhq/shared/src/platformEnv';
+import platformEnv from '@mywallet/shared/src/platformEnv';
 
 const RedirectProvider: FC = ({ children }) => {
   const linkTo = useLinkTo();

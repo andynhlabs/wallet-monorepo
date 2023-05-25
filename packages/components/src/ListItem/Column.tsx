@@ -2,7 +2,7 @@
 import type { ComponentProps, ReactNode } from 'react';
 import { forwardRef, isValidElement } from 'react';
 
-import { Icon, Image, Text, VStack } from '@onekeyhq/components';
+import { Icon, Image, Text, VStack } from '@mywallet/components';
 
 interface ColumnProps extends ComponentProps<typeof VStack> {
   text?: {

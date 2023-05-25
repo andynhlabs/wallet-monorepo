@@ -1,6 +1,6 @@
 import uuid from 'react-native-uuid';
 
-import debugLogger from '@onekeyhq/shared/src/logger/debugLogger';
+import debugLogger from '@mywallet/shared/src/logger/debugLogger';
 
 import { OneKeyInternalError } from '../errors';
 

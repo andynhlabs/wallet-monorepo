@@ -7,7 +7,7 @@ import {
   getHeaderTitle,
 } from '@react-navigation/elements';
 
-import { useSafeAreaInsets } from '@onekeyhq/components';
+import { useSafeAreaInsets } from '@mywallet/components';
 
 import type { NativeStackHeaderProps } from '@react-navigation/native-stack';
 

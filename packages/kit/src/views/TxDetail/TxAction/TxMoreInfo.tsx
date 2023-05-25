@@ -1,5 +1,5 @@
-import { Button, Center, Icon, Text } from '@onekeyhq/components';
-import type { IDecodedTx } from '@onekeyhq/engine/src/vaults/types';
+import { Button, Center, Icon, Text } from '@mywallet/components';
+import type { IDecodedTx } from '@mywallet/engine/src/vaults/types';
 
 import { useNetwork } from '../../../hooks/useNetwork';
 import useOpenBlockBrowser from '../../../hooks/useOpenBlockBrowser';

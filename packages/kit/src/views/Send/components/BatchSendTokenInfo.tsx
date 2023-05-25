@@ -1,7 +1,7 @@
 import BigNumber from 'bignumber.js';
 import { useIntl } from 'react-intl';
 
-import { Box, Divider, HStack, Text } from '@onekeyhq/components';
+import { Box, Divider, HStack, Text } from '@mywallet/components';
 
 import {
   useNativeToken,

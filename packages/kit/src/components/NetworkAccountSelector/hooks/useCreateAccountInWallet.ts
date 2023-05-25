@@ -2,10 +2,10 @@ import { useCallback, useRef } from 'react';
 
 import { useIntl } from 'react-intl';
 
-import { ToastManager } from '@onekeyhq/components';
-import type { Network } from '@onekeyhq/engine/src/types/network';
-import type { Wallet } from '@onekeyhq/engine/src/types/wallet';
-import type { IVaultSettings } from '@onekeyhq/engine/src/vaults/types';
+import { ToastManager } from '@mywallet/components';
+import type { Network } from '@mywallet/engine/src/types/network';
+import type { Wallet } from '@mywallet/engine/src/types/wallet';
+import type { IVaultSettings } from '@mywallet/engine/src/vaults/types';
 
 import backgroundApiProxy from '../../../background/instance/backgroundApiProxy';
 import useAppNavigation from '../../../hooks/useAppNavigation';

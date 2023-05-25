@@ -3,7 +3,7 @@ import { useEffect, useRef, useState } from 'react';
 import { monotoneCubicInterpolation } from '@onekeyfe/react-native-animated-charts';
 import { debounce } from 'lodash';
 
-import platformEnv from '@onekeyhq/shared/src/platformEnv';
+import platformEnv from '@mywallet/shared/src/platformEnv';
 
 import type { MarketApiData } from '../chartService';
 

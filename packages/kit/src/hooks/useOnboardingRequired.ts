@@ -1,6 +1,6 @@
 import { useCallback, useEffect } from 'react';
 
-import platformEnv from '@onekeyhq/shared/src/platformEnv';
+import platformEnv from '@mywallet/shared/src/platformEnv';
 
 import backgroundApiProxy from '../background/instance/backgroundApiProxy';
 import { RootRoutes } from '../routes/routesEnum';

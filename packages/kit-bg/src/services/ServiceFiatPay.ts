@@ -1,11 +1,11 @@
-import { getFiatEndpoint } from '@onekeyhq/engine/src/endpoint';
-import { formatServerToken } from '@onekeyhq/engine/src/managers/token';
-import type { ServerToken } from '@onekeyhq/engine/src/types/token';
-import type { FiatPayModeType } from '@onekeyhq/kit/src/views/FiatPay/types';
+import { getFiatEndpoint } from '@mywallet/engine/src/endpoint';
+import { formatServerToken } from '@mywallet/engine/src/managers/token';
+import type { ServerToken } from '@mywallet/engine/src/types/token';
+import type { FiatPayModeType } from '@mywallet/kit/src/views/FiatPay/types';
 import {
   backgroundClass,
   backgroundMethod,
-} from '@onekeyhq/shared/src/background/backgroundDecorators';
+} from '@mywallet/shared/src/background/backgroundDecorators';
 
 import ServiceBase from './ServiceBase';
 

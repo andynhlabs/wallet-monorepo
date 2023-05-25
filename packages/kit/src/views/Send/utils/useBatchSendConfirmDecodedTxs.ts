@@ -7,8 +7,8 @@ import type {
   IDecodedTxInteractInfo,
   IDecodedTxLegacy,
   IEncodedTx,
-} from '@onekeyhq/engine/src/vaults/types';
-import type { IDappSourceInfo } from '@onekeyhq/shared/types';
+} from '@mywallet/engine/src/vaults/types';
+import type { IDappSourceInfo } from '@mywallet/shared/types';
 
 import backgroundApiProxy from '../../../background/instance/backgroundApiProxy';
 

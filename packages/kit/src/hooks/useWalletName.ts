@@ -2,12 +2,12 @@ import { useMemo } from 'react';
 
 import { useIntl } from 'react-intl';
 
-import type { IWallet } from '@onekeyhq/engine/src/types';
+import type { IWallet } from '@mywallet/engine/src/types';
 import {
   WALLET_TYPE_EXTERNAL,
   WALLET_TYPE_IMPORTED,
   WALLET_TYPE_WATCHING,
-} from '@onekeyhq/engine/src/types/wallet';
+} from '@mywallet/engine/src/types/wallet';
 
 import type { IntlShape } from 'react-intl';
 

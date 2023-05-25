@@ -9,7 +9,7 @@ import {
   FlatList,
   IconButton,
   useUserDevice,
-} from '@onekeyhq/components';
+} from '@mywallet/components';
 
 import { HomeRoutes } from '../../routes/routesEnum';
 import { MARKET_FAVORITES_CATEGORYID } from '../../store/reducers/market';

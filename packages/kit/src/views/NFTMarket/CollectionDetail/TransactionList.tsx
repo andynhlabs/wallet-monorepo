@@ -14,10 +14,10 @@ import {
   Skeleton,
   Text,
   useIsVerticalLayout,
-} from '@onekeyhq/components';
-import type { Network } from '@onekeyhq/engine/src/types/network';
-import type { NFTTransaction } from '@onekeyhq/engine/src/types/nft';
-import useOpenBlockBrowser from '@onekeyhq/kit/src/hooks/useOpenBlockBrowser';
+} from '@mywallet/components';
+import type { Network } from '@mywallet/engine/src/types/network';
+import type { NFTTransaction } from '@mywallet/engine/src/types/nft';
+import useOpenBlockBrowser from '@mywallet/kit/src/hooks/useOpenBlockBrowser';
 
 import backgroundApiProxy from '../../../background/instance/backgroundApiProxy';
 import { useNetworks } from '../../../hooks/redux';

@@ -1,8 +1,8 @@
 import BigNumber from 'bignumber.js';
 import { useIntl } from 'react-intl';
 
-import { Alert, Box } from '@onekeyhq/components';
-import { OnekeyNetwork } from '@onekeyhq/shared/src/config/networkIds';
+import { Alert, Box } from '@mywallet/components';
+import { OnekeyNetwork } from '@mywallet/shared/src/config/networkIds';
 
 import { useFrozenBalance } from '../../../hooks/useTokens';
 

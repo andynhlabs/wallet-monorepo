@@ -3,8 +3,8 @@ import { useEffect } from 'react';
 
 import { useIntl } from 'react-intl';
 
-import { Box, Dialog, Spinner, Typography } from '@onekeyhq/components';
-import backgroundApiProxy from '@onekeyhq/kit/src/background/instance/backgroundApiProxy';
+import { Box, Dialog, Spinner, Typography } from '@mywallet/components';
+import backgroundApiProxy from '@mywallet/kit/src/background/instance/backgroundApiProxy';
 
 export type HardwareLoadingDialogProps = {
   deviceId?: string;

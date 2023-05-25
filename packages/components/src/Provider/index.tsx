@@ -5,8 +5,8 @@ import { NativeBaseProvider, StatusBar, extendTheme } from 'native-base';
 import { IntlProvider } from 'react-intl';
 import { Easing, StyleSheet, useWindowDimensions } from 'react-native';
 
-import debugLogger from '@onekeyhq/shared/src/logger/debugLogger';
-import platformEnv from '@onekeyhq/shared/src/platformEnv';
+import debugLogger from '@mywallet/shared/src/logger/debugLogger';
+import platformEnv from '@mywallet/shared/src/platformEnv';
 
 import LOCALES from '../locale';
 import { Body1Props, Body2Props, SubheadingProps } from '../Typography';

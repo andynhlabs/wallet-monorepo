@@ -6,32 +6,32 @@ import { IInjectedProviderNames } from '@onekeyfe/cross-inpage-provider-types';
 import { BCS, TxnBuilderTypes } from 'aptos';
 import { isArray } from 'lodash';
 
-import { AptosMessageTypes } from '@onekeyhq/engine/src/types/message';
+import { AptosMessageTypes } from '@mywallet/engine/src/types/message';
 import type {
   IEncodedTxAptos,
   SignMessagePayload,
   SignMessageResponse,
-} from '@onekeyhq/engine/src/vaults/impl/apt/types';
+} from '@mywallet/engine/src/vaults/impl/apt/types';
 import {
   APTOS_SIGN_MESSAGE_PREFIX,
   formatSignMessageRequest,
   generateTransferCreateCollection,
   generateTransferCreateNft,
   transactionPayloadToTxPayload,
-} from '@onekeyhq/engine/src/vaults/impl/apt/utils';
-import type VaultAptos from '@onekeyhq/engine/src/vaults/impl/apt/Vault';
+} from '@mywallet/engine/src/vaults/impl/apt/utils';
+import type VaultAptos from '@mywallet/engine/src/vaults/impl/apt/Vault';
 import {
   hexlify,
   stripHexPrefix,
-} from '@onekeyhq/engine/src/vaults/utils/hexUtils';
-import { getActiveWalletAccount } from '@onekeyhq/kit/src/hooks/redux';
+} from '@mywallet/engine/src/vaults/utils/hexUtils';
+import { getActiveWalletAccount } from '@mywallet/kit/src/hooks/redux';
 import {
   backgroundClass,
   permissionRequired,
   providerApiMethod,
-} from '@onekeyhq/shared/src/background/backgroundDecorators';
-import { IMPL_APTOS } from '@onekeyhq/shared/src/engine/engineConsts';
-import debugLogger from '@onekeyhq/shared/src/logger/debugLogger';
+} from '@mywallet/shared/src/background/backgroundDecorators';
+import { IMPL_APTOS } from '@mywallet/shared/src/engine/engineConsts';
+import debugLogger from '@mywallet/shared/src/logger/debugLogger';
 
 import ProviderApiBase from './ProviderApiBase';
 

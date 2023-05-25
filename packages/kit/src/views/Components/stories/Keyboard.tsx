@@ -1,6 +1,6 @@
 import { useState } from 'react';
 
-import { Center, Keyboard, Text } from '@onekeyhq/components';
+import { Center, Keyboard, Text } from '@mywallet/components';
 
 const KeyboardGallery = () => {
   const [inputText, updateInputText] = useState('');

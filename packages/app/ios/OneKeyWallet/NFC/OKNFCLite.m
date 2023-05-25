@@ -603,7 +603,7 @@ typedef NS_ENUM(NSInteger, OKNFCLiteChangePinResult) {
             return;
         }
 
-        /// https://onekeyhq.atlassian.net/wiki/spaces/ONEKEY/pages/10551684/Lite
+        /// https://mywallet.atlassian.net/wiki/spaces/ONEKEY/pages/10551684/Lite
         mnc = responseData.toHexString;
 
         dispatch_semaphore_signal(sema);

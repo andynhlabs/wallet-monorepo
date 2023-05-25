@@ -1,8 +1,8 @@
 import axios from 'axios';
 import BigNumber from 'bignumber.js';
 
-import { OnekeyNetwork } from '@onekeyhq/shared/src/config/networkIds';
-import { SEPERATOR } from '@onekeyhq/shared/src/engine/engineConsts';
+import { OnekeyNetwork } from '@mywallet/shared/src/config/networkIds';
+import { SEPERATOR } from '@mywallet/shared/src/engine/engineConsts';
 
 import { NotImplemented, OneKeyInternalError } from '../errors';
 

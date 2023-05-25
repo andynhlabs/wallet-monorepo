@@ -15,18 +15,18 @@ import {
   Pressable,
   Typography,
   VStack,
-} from '@onekeyhq/components';
-import { Tabs } from '@onekeyhq/components/src/CollapsibleTabView';
-import type { LocaleIds } from '@onekeyhq/components/src/locale';
-import type { ThemeToken } from '@onekeyhq/components/src/Provider/theme';
-import { batchTransferContractAddress } from '@onekeyhq/engine/src/presets/batchTransferContractAddress';
-import { HomeRoutes, RootRoutes } from '@onekeyhq/kit/src/routes/routesEnum';
+} from '@mywallet/components';
+import { Tabs } from '@mywallet/components/src/CollapsibleTabView';
+import type { LocaleIds } from '@mywallet/components/src/locale';
+import type { ThemeToken } from '@mywallet/components/src/Provider/theme';
+import { batchTransferContractAddress } from '@mywallet/engine/src/presets/batchTransferContractAddress';
+import { HomeRoutes, RootRoutes } from '@mywallet/kit/src/routes/routesEnum';
 import type {
   HomeRoutesParams,
   RootRoutesParams,
-} from '@onekeyhq/kit/src/routes/types';
-import { IMPL_EVM } from '@onekeyhq/shared/src/engine/engineConsts';
-import platformEnv from '@onekeyhq/shared/src/platformEnv';
+} from '@mywallet/kit/src/routes/types';
+import { IMPL_EVM } from '@mywallet/shared/src/engine/engineConsts';
+import platformEnv from '@mywallet/shared/src/platformEnv';
 
 import backgroundApiProxy from '../../../background/instance/backgroundApiProxy';
 import { useActiveWalletAccount } from '../../../hooks';

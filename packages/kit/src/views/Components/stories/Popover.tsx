@@ -1,7 +1,7 @@
 /* eslint-disable react/no-unstable-nested-components */
 import { Button } from 'native-base';
 
-import { Box, Center, Popover, Text } from '@onekeyhq/components';
+import { Box, Center, Popover, Text } from '@mywallet/components';
 
 const PopoverGallery = () => (
   <Center flex="1" bg="background-hovered">

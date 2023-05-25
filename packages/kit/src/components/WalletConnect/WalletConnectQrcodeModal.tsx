@@ -11,12 +11,12 @@ import {
   Pressable,
   Skeleton,
   Text,
-} from '@onekeyhq/components';
-import useModalClose from '@onekeyhq/components/src/Modal/Container/useModalClose';
-import LogoAmber from '@onekeyhq/kit/assets/onboarding/logo_amber.png';
-import LogoCoboWallet from '@onekeyhq/kit/assets/onboarding/logo_cobo_wallet.png';
-import debugLogger from '@onekeyhq/shared/src/logger/debugLogger';
-import platformEnv from '@onekeyhq/shared/src/platformEnv';
+} from '@mywallet/components';
+import useModalClose from '@mywallet/components/src/Modal/Container/useModalClose';
+import LogoAmber from '@mywallet/kit/assets/onboarding/logo_amber.png';
+import LogoCoboWallet from '@mywallet/kit/assets/onboarding/logo_cobo_wallet.png';
+import debugLogger from '@mywallet/shared/src/logger/debugLogger';
+import platformEnv from '@mywallet/shared/src/platformEnv';
 
 import LogoWalletConnect from '../../../assets/onboarding/logo_walletconnect.png';
 import { wait } from '../../utils/helper';

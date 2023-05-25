@@ -1,8 +1,8 @@
 import type { ComponentProps } from 'react';
 import { useCallback, useEffect, useState } from 'react';
 
-import { Divider, HStack, Icon, Text, VStack } from '@onekeyhq/components';
-import { shortenAddress } from '@onekeyhq/components/src/utils';
+import { Divider, HStack, Icon, Text, VStack } from '@mywallet/components';
+import { shortenAddress } from '@mywallet/components/src/utils';
 
 import backgroundApiProxy from '../../../background/instance/backgroundApiProxy';
 import { useClipboard } from '../../../hooks/useClipboard';

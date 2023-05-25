@@ -1,6 +1,6 @@
 import { useIntl } from 'react-intl';
 
-import { Box, Empty } from '@onekeyhq/components';
+import { Box, Empty } from '@mywallet/components';
 
 import { useTxHistoryContext } from './TxHistoryContext';
 

@@ -27,28 +27,28 @@ import {
   useIsVerticalLayout,
   useSafeAreaInsets,
   useTheme,
-} from '@onekeyhq/components';
-import NavigationButton from '@onekeyhq/components/src/Modal/Container/Header/NavigationButton';
-import useModalClose from '@onekeyhq/components/src/Modal/Container/useModalClose';
-import { shortenAddress } from '@onekeyhq/components/src/utils';
-import { copyToClipboard } from '@onekeyhq/components/src/utils/ClipboardUtils';
-import { getContentWithAsset } from '@onekeyhq/engine/src/managers/nft';
-import type { Device } from '@onekeyhq/engine/src/types/device';
-import type { Collection } from '@onekeyhq/engine/src/types/nft';
-import { WALLET_TYPE_WATCHING } from '@onekeyhq/engine/src/types/wallet';
+} from '@mywallet/components';
+import NavigationButton from '@mywallet/components/src/Modal/Container/Header/NavigationButton';
+import useModalClose from '@mywallet/components/src/Modal/Container/useModalClose';
+import { shortenAddress } from '@mywallet/components/src/utils';
+import { copyToClipboard } from '@mywallet/components/src/utils/ClipboardUtils';
+import { getContentWithAsset } from '@mywallet/engine/src/managers/nft';
+import type { Device } from '@mywallet/engine/src/types/device';
+import type { Collection } from '@mywallet/engine/src/types/nft';
+import { WALLET_TYPE_WATCHING } from '@mywallet/engine/src/types/wallet';
 import {
   getActiveWalletAccount,
   useActiveWalletAccount,
-} from '@onekeyhq/kit/src/hooks/redux';
-import type { CollectiblesRoutesParams } from '@onekeyhq/kit/src/routes/Root/Modal/Collectibles';
-import { ModalRoutes, RootRoutes } from '@onekeyhq/kit/src/routes/routesEnum';
-import type { ModalScreenProps } from '@onekeyhq/kit/src/routes/types';
-import { generateUploadNFTParams } from '@onekeyhq/kit/src/utils/hardware/nftUtils';
-import NFTDetailMenu from '@onekeyhq/kit/src/views/Overlay/NFTDetailMenu';
-import { OnekeyNetwork } from '@onekeyhq/shared/src/config/networkIds';
-import { IMPL_EVM } from '@onekeyhq/shared/src/engine/engineConsts';
-import debugLogger from '@onekeyhq/shared/src/logger/debugLogger';
-import platformEnv from '@onekeyhq/shared/src/platformEnv';
+} from '@mywallet/kit/src/hooks/redux';
+import type { CollectiblesRoutesParams } from '@mywallet/kit/src/routes/Root/Modal/Collectibles';
+import { ModalRoutes, RootRoutes } from '@mywallet/kit/src/routes/routesEnum';
+import type { ModalScreenProps } from '@mywallet/kit/src/routes/types';
+import { generateUploadNFTParams } from '@mywallet/kit/src/utils/hardware/nftUtils';
+import NFTDetailMenu from '@mywallet/kit/src/views/Overlay/NFTDetailMenu';
+import { OnekeyNetwork } from '@mywallet/shared/src/config/networkIds';
+import { IMPL_EVM } from '@mywallet/shared/src/engine/engineConsts';
+import debugLogger from '@mywallet/shared/src/logger/debugLogger';
+import platformEnv from '@mywallet/shared/src/platformEnv';
 
 import backgroundApiProxy from '../../../../background/instance/backgroundApiProxy';
 import { SendModalRoutes } from '../../../../routes/routesEnum';

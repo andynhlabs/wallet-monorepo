@@ -1,4 +1,4 @@
-import { useIsVerticalLayout } from '@onekeyhq/components';
+import { useIsVerticalLayout } from '@mywallet/components';
 
 import { HistoryRequest } from '../../../views/Help/Request/HistoryRequest';
 import { ReplyTicket } from '../../../views/Help/Request/ReplyTicket';

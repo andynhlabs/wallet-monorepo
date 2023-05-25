@@ -4,7 +4,7 @@ import { bytesToHex, hexToBytes } from '@noble/hashes/utils';
 import { BCS, TransactionBuilder, TxnBuilderTypes } from 'aptos';
 import { get } from 'lodash';
 
-import type { UnsignedTx } from '@onekeyhq/engine/src/types/provider';
+import type { UnsignedTx } from '@mywallet/engine/src/types/provider';
 
 import {
   InvalidAccount,

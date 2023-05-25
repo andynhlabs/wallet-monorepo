@@ -1,8 +1,8 @@
 import type { FC } from 'react';
 import { useEffect, useMemo } from 'react';
 
-import { Box, OverlayContainer } from '@onekeyhq/components';
-import platformEnv from '@onekeyhq/shared/src/platformEnv';
+import { Box, OverlayContainer } from '@mywallet/components';
+import platformEnv from '@mywallet/shared/src/platformEnv';
 
 import backgroundApiProxy from '../../background/instance/backgroundApiProxy';
 import { useAppSelector, useDebounce } from '../../hooks';

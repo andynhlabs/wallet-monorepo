@@ -3,8 +3,8 @@ import { useEffect, useMemo, useState } from 'react';
 import BigNumber from 'bignumber.js';
 import { useIntl } from 'react-intl';
 
-import { Box, Divider, VStack } from '@onekeyhq/components';
-import type { IHistoryTx } from '@onekeyhq/engine/src/vaults/types';
+import { Box, Divider, VStack } from '@mywallet/components';
+import type { IHistoryTx } from '@mywallet/engine/src/vaults/types';
 
 import backgroundApiProxy from '../../background/instance/backgroundApiProxy';
 import { useNetworkSimple } from '../../hooks';

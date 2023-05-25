@@ -10,21 +10,21 @@ import { hexZeroPad } from '@ethersproject/bytes';
 import { keccak256 } from '@ethersproject/keccak256';
 import BigNumber from 'bignumber.js';
 
-import { BaseProvider } from '@onekeyhq/engine/src/client/BaseClient';
+import { BaseProvider } from '@mywallet/engine/src/client/BaseClient';
 import type {
   AddressValidation,
   SignedTx,
   TypedMessage,
   UnsignedTx,
-} from '@onekeyhq/engine/src/types/provider';
-import type { Signer, Verifier } from '@onekeyhq/engine/src/types/secret';
-import type { ISdkCfxTransaction } from '@onekeyhq/engine/src/vaults/impl/cfx/sdkCfx';
-import sdkCfx from '@onekeyhq/engine/src/vaults/impl/cfx/sdkCfx';
-import { check, checkIsDefined } from '@onekeyhq/shared/src/utils/assertUtils';
+} from '@mywallet/engine/src/types/provider';
+import type { Signer, Verifier } from '@mywallet/engine/src/types/secret';
+import type { ISdkCfxTransaction } from '@mywallet/engine/src/vaults/impl/cfx/sdkCfx';
+import sdkCfx from '@mywallet/engine/src/vaults/impl/cfx/sdkCfx';
+import { check, checkIsDefined } from '@mywallet/shared/src/utils/assertUtils';
 import {
   fromBigIntHex,
   toBigIntHex,
-} from '@onekeyhq/shared/src/utils/numberUtils';
+} from '@mywallet/shared/src/utils/numberUtils';
 
 import { MessageTypes } from '../eth/sdk/message';
 

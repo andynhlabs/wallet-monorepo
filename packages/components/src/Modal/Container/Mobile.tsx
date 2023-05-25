@@ -9,8 +9,8 @@ import {
 } from '@react-navigation/core';
 import { useIntl } from 'react-intl';
 
-import { VStack, useSafeAreaInsets } from '@onekeyhq/components';
-import platformEnv from '@onekeyhq/shared/src/platformEnv';
+import { VStack, useSafeAreaInsets } from '@mywallet/components';
+import platformEnv from '@mywallet/shared/src/platformEnv';
 
 import Box from '../../Box';
 import Button from '../../Button';

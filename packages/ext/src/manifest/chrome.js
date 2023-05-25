@@ -30,7 +30,7 @@ object-src 'self';
     'default_icon': {
       '128': 'icon-128.png',
     },
-    'default_title': 'OneKey',
+    'default_title': 'Wallasa',
     // 'default_popup': 'ui-popup-boot.html',
     'default_popup': 'ui-popup.html',
   },
@@ -78,6 +78,6 @@ object-src 'self';
 };
 /*
 action:{
-      "default_title": "OneKey",
+      "default_title": "Wallasa",
 
  */

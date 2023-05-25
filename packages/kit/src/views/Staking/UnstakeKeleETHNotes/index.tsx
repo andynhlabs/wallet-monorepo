@@ -3,8 +3,8 @@ import { useCallback } from 'react';
 import { useNavigation, useRoute } from '@react-navigation/core';
 import { useIntl } from 'react-intl';
 
-import { Box, Center, Image, Modal, Typography } from '@onekeyhq/components';
-import type { ModalScreenProps } from '@onekeyhq/kit/src/routes/types';
+import { Box, Center, Image, Modal, Typography } from '@mywallet/components';
+import type { ModalScreenProps } from '@mywallet/kit/src/routes/types';
 
 import ETHLogoPNG from '../../../../assets/staking/eth_unstake.png';
 import { ModalRoutes, RootRoutes } from '../../../routes/routesEnum';

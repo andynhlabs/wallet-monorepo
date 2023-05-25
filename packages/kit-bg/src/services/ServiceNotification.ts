@@ -10,7 +10,7 @@ import type {
   NotificationType,
   PartialNotificationType,
   RemovePriceAlertConfig,
-} from '@onekeyhq/engine/src/managers/notification';
+} from '@mywallet/engine/src/managers/notification';
 import {
   NotificationAction,
   addAccountDynamic,
@@ -23,37 +23,37 @@ import {
   removePriceAlertConfig,
   syncLocalEnabledAccounts,
   syncPushNotificationConfig,
-} from '@onekeyhq/engine/src/managers/notification';
-import type { EVMDecodedItem } from '@onekeyhq/engine/src/vaults/impl/evm/decoder/types';
-import { EVMDecodedTxType } from '@onekeyhq/engine/src/vaults/impl/evm/decoder/types';
-import { getAppNavigation } from '@onekeyhq/kit/src/hooks/useAppNavigation';
-import { navigationShortcuts } from '@onekeyhq/kit/src/routes/navigationShortcuts';
+} from '@mywallet/engine/src/managers/notification';
+import type { EVMDecodedItem } from '@mywallet/engine/src/vaults/impl/evm/decoder/types';
+import { EVMDecodedTxType } from '@mywallet/engine/src/vaults/impl/evm/decoder/types';
+import { getAppNavigation } from '@mywallet/kit/src/hooks/useAppNavigation';
+import { navigationShortcuts } from '@mywallet/kit/src/routes/navigationShortcuts';
 import {
   HomeRoutes,
   MainRoutes,
   RootRoutes,
   TabRoutes,
-} from '@onekeyhq/kit/src/routes/routesEnum';
-import { setPushNotificationConfig } from '@onekeyhq/kit/src/store/reducers/settings';
-import { setHomeTabName } from '@onekeyhq/kit/src/store/reducers/status';
-import { getTimeDurationMs, wait } from '@onekeyhq/kit/src/utils/helper';
-import { getDefaultLocale } from '@onekeyhq/kit/src/utils/locale';
-import { WalletHomeTabEnum } from '@onekeyhq/kit/src/views/Wallet/type';
+} from '@mywallet/kit/src/routes/routesEnum';
+import { setPushNotificationConfig } from '@mywallet/kit/src/store/reducers/settings';
+import { setHomeTabName } from '@mywallet/kit/src/store/reducers/status';
+import { getTimeDurationMs, wait } from '@mywallet/kit/src/utils/helper';
+import { getDefaultLocale } from '@mywallet/kit/src/utils/locale';
+import { WalletHomeTabEnum } from '@mywallet/kit/src/views/Wallet/type';
 import {
   backgroundClass,
   backgroundMethod,
   bindThis,
-} from '@onekeyhq/shared/src/background/backgroundDecorators';
-import { fetchData } from '@onekeyhq/shared/src/background/backgroundUtils';
-import { OnekeyNetwork } from '@onekeyhq/shared/src/config/networkIds';
-import { SocketEvents } from '@onekeyhq/shared/src/engine/engineConsts';
+} from '@mywallet/shared/src/background/backgroundDecorators';
+import { fetchData } from '@mywallet/shared/src/background/backgroundUtils';
+import { OnekeyNetwork } from '@mywallet/shared/src/config/networkIds';
+import { SocketEvents } from '@mywallet/shared/src/engine/engineConsts';
 import {
   AppEventBusNames,
   appEventBus,
-} from '@onekeyhq/shared/src/eventBus/appEventBus';
-import debugLogger from '@onekeyhq/shared/src/logger/debugLogger';
-import { initJpush } from '@onekeyhq/shared/src/notification';
-import platformEnv from '@onekeyhq/shared/src/platformEnv';
+} from '@mywallet/shared/src/eventBus/appEventBus';
+import debugLogger from '@mywallet/shared/src/logger/debugLogger';
+import { initJpush } from '@mywallet/shared/src/notification';
+import platformEnv from '@mywallet/shared/src/platformEnv';
 
 import ServiceBase from './ServiceBase';
 

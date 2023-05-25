@@ -5,16 +5,16 @@ import { useCallback, useEffect, useMemo, useState } from 'react';
 import { useNavigation, useRoute } from '@react-navigation/core';
 import { useIntl } from 'react-intl';
 
-import { Alert, Box, Icon, ListItem, Modal, Text } from '@onekeyhq/components';
-import type { SectionListProps } from '@onekeyhq/components/src/SectionList';
+import { Alert, Box, Icon, ListItem, Modal, Text } from '@mywallet/components';
+import type { SectionListProps } from '@mywallet/components/src/SectionList';
 import type {
   Account,
   AccountCredential,
-} from '@onekeyhq/engine/src/types/account';
-import type { Wallet } from '@onekeyhq/engine/src/types/wallet';
-import backgroundApiProxy from '@onekeyhq/kit/src/background/instance/backgroundApiProxy';
-import type { ManagerAccountRoutesParams } from '@onekeyhq/kit/src/routes/Root/Modal/ManagerAccount';
-import { ManagerAccountModalRoutes } from '@onekeyhq/kit/src/routes/routesEnum';
+} from '@mywallet/engine/src/types/account';
+import type { Wallet } from '@mywallet/engine/src/types/wallet';
+import backgroundApiProxy from '@mywallet/kit/src/background/instance/backgroundApiProxy';
+import type { ManagerAccountRoutesParams } from '@mywallet/kit/src/routes/Root/Modal/ManagerAccount';
+import { ManagerAccountModalRoutes } from '@mywallet/kit/src/routes/routesEnum';
 
 import { useWalletName } from '../../../hooks/useWalletName';
 import { ModalRoutes, RootRoutes } from '../../../routes/routesEnum';

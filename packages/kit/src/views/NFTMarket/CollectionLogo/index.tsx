@@ -2,7 +2,7 @@
 import type { ComponentProps, FC } from 'react';
 import { memo, useMemo } from 'react';
 
-import { Box, Center, Icon, NetImage } from '@onekeyhq/components';
+import { Box, Center, Icon, NetImage } from '@mywallet/components';
 
 type Props = {
   verified?: boolean;

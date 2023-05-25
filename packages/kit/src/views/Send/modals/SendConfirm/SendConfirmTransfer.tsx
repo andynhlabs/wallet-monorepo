@@ -5,8 +5,8 @@ import BigNumber from 'bignumber.js';
 import type {
   IDecodedTx,
   IEncodedTxUpdatePayloadTransfer,
-} from '@onekeyhq/engine/src/vaults/types';
-import { IEncodedTxUpdateType } from '@onekeyhq/engine/src/vaults/types';
+} from '@mywallet/engine/src/vaults/types';
+import { IEncodedTxUpdateType } from '@mywallet/engine/src/vaults/types';
 
 import backgroundApiProxy from '../../../../background/instance/backgroundApiProxy';
 import { useActiveSideAccount } from '../../../../hooks';

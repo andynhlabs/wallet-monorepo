@@ -1,8 +1,8 @@
-import type { INetwork } from '@onekeyhq/engine/src/types';
+import type { INetwork } from '@mywallet/engine/src/types';
 import type {
   AddEVMNetworkParams,
   SwitchRpcParams,
-} from '@onekeyhq/engine/src/types/network';
+} from '@mywallet/engine/src/types/network';
 
 import { ManageNetworkModalRoutes } from '../../routes/routesEnum';
 

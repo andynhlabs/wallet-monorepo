@@ -1,7 +1,7 @@
 import type { FC } from 'react';
 import { useMemo } from 'react';
 
-import type { ICON_NAMES } from '@onekeyhq/components';
+import type { ICON_NAMES } from '@mywallet/components';
 
 import BaseMenu from './BaseMenu';
 

@@ -1,14 +1,14 @@
 import { sha256 } from '@noble/hashes/sha256';
 
-import type { ExportedSeedCredential } from '@onekeyhq/engine/src/dbs/base';
-import { OneKeyInternalError } from '@onekeyhq/engine/src/errors';
-import { Signer } from '@onekeyhq/engine/src/proxy';
-import { batchGetPublicKeys } from '@onekeyhq/engine/src/secret';
-import type { DBVariantAccount } from '@onekeyhq/engine/src/types/account';
-import { AccountType } from '@onekeyhq/engine/src/types/account';
-import type { SignedTx, UnsignedTx } from '@onekeyhq/engine/src/types/provider';
-import { COINTYPE_COSMOS as COIN_TYPE } from '@onekeyhq/shared/src/engine/engineConsts';
-import debugLogger from '@onekeyhq/shared/src/logger/debugLogger';
+import type { ExportedSeedCredential } from '@mywallet/engine/src/dbs/base';
+import { OneKeyInternalError } from '@mywallet/engine/src/errors';
+import { Signer } from '@mywallet/engine/src/proxy';
+import { batchGetPublicKeys } from '@mywallet/engine/src/secret';
+import type { DBVariantAccount } from '@mywallet/engine/src/types/account';
+import { AccountType } from '@mywallet/engine/src/types/account';
+import type { SignedTx, UnsignedTx } from '@mywallet/engine/src/types/provider';
+import { COINTYPE_COSMOS as COIN_TYPE } from '@mywallet/shared/src/engine/engineConsts';
+import debugLogger from '@mywallet/shared/src/logger/debugLogger';
 
 import { KeyringHdBase } from '../../keyring/KeyringHdBase';
 

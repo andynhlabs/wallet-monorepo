@@ -2,7 +2,7 @@ import type { FC } from 'react';
 
 import { Text as NBText } from 'native-base';
 
-import { useIsVerticalLayout } from '@onekeyhq/components';
+import { useIsVerticalLayout } from '@mywallet/components';
 
 import { getTypographyStyleProps } from '../Typography';
 

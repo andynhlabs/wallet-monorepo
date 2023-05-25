@@ -10,7 +10,7 @@ import {
   Icon,
   Text,
   useForm,
-} from '@onekeyhq/components';
+} from '@mywallet/components';
 
 import { useNetworkSimple } from '../../../hooks';
 import { useFormOnChangeDebounced } from '../../../hooks/useFormOnChangeDebounced';

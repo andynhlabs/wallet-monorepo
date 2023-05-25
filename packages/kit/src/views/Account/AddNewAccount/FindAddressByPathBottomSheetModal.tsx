@@ -11,13 +11,13 @@ import {
   Form,
   useForm,
   useIsVerticalLayout,
-} from '@onekeyhq/components';
-import Pressable from '@onekeyhq/components/src/Pressable/Pressable';
-import { formatMessage } from '@onekeyhq/components/src/Provider';
-import type { Account } from '@onekeyhq/engine/src/types/account';
-import showDerivationPathBottomSheetModal from '@onekeyhq/kit/src/components/NetworkAccountSelector/modals/NetworkAccountSelectorModal/DerivationPathBottomSheetModal';
-import debugLogger from '@onekeyhq/shared/src/logger/debugLogger';
-import platformEnv from '@onekeyhq/shared/src/platformEnv';
+} from '@mywallet/components';
+import Pressable from '@mywallet/components/src/Pressable/Pressable';
+import { formatMessage } from '@mywallet/components/src/Provider';
+import type { Account } from '@mywallet/engine/src/types/account';
+import showDerivationPathBottomSheetModal from '@mywallet/kit/src/components/NetworkAccountSelector/modals/NetworkAccountSelectorModal/DerivationPathBottomSheetModal';
+import debugLogger from '@mywallet/shared/src/logger/debugLogger';
+import platformEnv from '@mywallet/shared/src/platformEnv';
 
 import backgroundApiProxy from '../../../background/instance/backgroundApiProxy';
 import { useDerivationPath } from '../../../components/NetworkAccountSelector/hooks/useDerivationPath';

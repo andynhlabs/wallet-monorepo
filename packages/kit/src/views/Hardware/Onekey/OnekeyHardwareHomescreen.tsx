@@ -18,18 +18,18 @@ import {
   ToastManager,
   useIsVerticalLayout,
   useSafeAreaInsets,
-} from '@onekeyhq/components';
-import backgroundApiProxy from '@onekeyhq/kit/src/background/instance/backgroundApiProxy';
-import type { OnekeyHardwareRoutesParams } from '@onekeyhq/kit/src/routes/Root/Modal/HardwareOnekey';
-import { deviceUtils } from '@onekeyhq/kit/src/utils/hardware';
-import type { HomescreenItem } from '@onekeyhq/kit/src/utils/hardware/constants/homescreens';
-import { getHomescreenData } from '@onekeyhq/kit/src/utils/hardware/constants/homescreens';
+} from '@mywallet/components';
+import backgroundApiProxy from '@mywallet/kit/src/background/instance/backgroundApiProxy';
+import type { OnekeyHardwareRoutesParams } from '@mywallet/kit/src/routes/Root/Modal/HardwareOnekey';
+import { deviceUtils } from '@mywallet/kit/src/utils/hardware';
+import type { HomescreenItem } from '@mywallet/kit/src/utils/hardware/constants/homescreens';
+import { getHomescreenData } from '@mywallet/kit/src/utils/hardware/constants/homescreens';
 import {
   generateUploadResParams,
   imageCache,
-} from '@onekeyhq/kit/src/utils/hardware/homescreens';
-import { CoreSDKLoader } from '@onekeyhq/shared/src/device/hardwareInstance';
-import debugLogger from '@onekeyhq/shared/src/logger/debugLogger';
+} from '@mywallet/kit/src/utils/hardware/homescreens';
+import { CoreSDKLoader } from '@mywallet/shared/src/device/hardwareInstance';
+import debugLogger from '@mywallet/shared/src/logger/debugLogger';
 
 import type { OnekeyHardwareModalRoutes } from '../../../routes/routesEnum';
 import type { DeviceUploadResourceParams } from '@onekeyfe/hd-core';

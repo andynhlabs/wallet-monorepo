@@ -6,7 +6,7 @@ import BigNumber from 'bignumber.js';
 import { isNil } from 'lodash';
 import { FormattedNumber } from 'react-intl';
 
-import { Text } from '@onekeyhq/components';
+import { Text } from '@mywallet/components';
 
 import {
   useActiveSideAccount,

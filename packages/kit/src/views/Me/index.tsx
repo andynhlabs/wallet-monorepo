@@ -1,5 +1,5 @@
-import { Box, ScrollView, useSafeAreaInsets } from '@onekeyhq/components';
-import { useSettings } from '@onekeyhq/kit/src/hooks/redux';
+import { Box, ScrollView, useSafeAreaInsets } from '@mywallet/components';
+import { useSettings } from '@mywallet/kit/src/hooks/redux';
 
 // eslint-disable-next-line @typescript-eslint/no-unused-vars
 import HelpSelector from '../Help/HelpSelector';

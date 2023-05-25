@@ -1,7 +1,7 @@
 /* eslint-disable @typescript-eslint/no-unused-vars */
 import { memo, useMemo } from 'react';
 
-import { useIsVerticalLayout } from '@onekeyhq/components';
+import { useIsVerticalLayout } from '@mywallet/components';
 
 import { createLazyComponent } from '../../../utils/createLazyComponent';
 import { ModalRoutes } from '../../routesEnum';

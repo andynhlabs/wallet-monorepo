@@ -1,12 +1,12 @@
 import type { ComponentProps } from 'react';
 import { memo } from 'react';
 
-import { Image } from '@onekeyhq/components';
-import type { IAccount } from '@onekeyhq/engine/src/types';
-import ImgImToken from '@onekeyhq/kit/assets/onboarding/logo_imtoken.png';
+import { Image } from '@mywallet/components';
+import type { IAccount } from '@mywallet/engine/src/types';
+import ImgImToken from '@mywallet/kit/assets/onboarding/logo_imtoken.png';
 // eslint-disable-next-line @typescript-eslint/no-unused-vars
-import ImgMetaMask from '@onekeyhq/kit/assets/onboarding/logo_metamask.png';
-import { isExternalAccount } from '@onekeyhq/shared/src/engine/engineUtils';
+import ImgMetaMask from '@mywallet/kit/assets/onboarding/logo_metamask.png';
+import { isExternalAccount } from '@mywallet/shared/src/engine/engineUtils';
 
 import backgroundApiProxy from '../../../background/instance/backgroundApiProxy';
 import { usePromiseResult } from '../../../hooks/usePromiseResult';

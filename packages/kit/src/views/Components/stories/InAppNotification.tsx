@@ -1,5 +1,5 @@
-import { Box, Button, useThemeValue } from '@onekeyhq/components';
-import { showNotification } from '@onekeyhq/components/src/utils/showNotification';
+import { Box, Button, useThemeValue } from '@mywallet/components';
+import { showNotification } from '@mywallet/components/src/utils/showNotification';
 
 const InAppNotificationGallery = () => {
   const bg = useThemeValue('background-default');

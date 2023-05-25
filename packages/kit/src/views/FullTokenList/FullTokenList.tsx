@@ -1,6 +1,6 @@
 import type { FC } from 'react';
 
-import { Box, useSafeAreaInsets } from '@onekeyhq/components';
+import { Box, useSafeAreaInsets } from '@mywallet/components';
 
 import { useActiveWalletAccount } from '../../hooks';
 import AssetsList from '../Wallet/AssetsList';

@@ -22,27 +22,27 @@ import {
   Token,
   Typography,
   useForm,
-} from '@onekeyhq/components';
-import Pressable from '@onekeyhq/components/src/Pressable/Pressable';
-import { shortenAddress } from '@onekeyhq/components/src/utils';
-import { isBtcLikeImpl } from '@onekeyhq/engine/src/managers/impl';
+} from '@mywallet/components';
+import Pressable from '@mywallet/components/src/Pressable/Pressable';
+import { shortenAddress } from '@mywallet/components/src/utils';
+import { isBtcLikeImpl } from '@mywallet/engine/src/managers/impl';
 import type {
   Account,
   ImportableHDAccount,
-} from '@onekeyhq/engine/src/types/account';
-import type { Network } from '@onekeyhq/engine/src/types/network';
-import backgroundApiProxy from '@onekeyhq/kit/src/background/instance/backgroundApiProxy';
-import showDerivationPathBottomSheetModal from '@onekeyhq/kit/src/components/NetworkAccountSelector/modals/NetworkAccountSelectorModal/DerivationPathBottomSheetModal';
-import { useRuntime } from '@onekeyhq/kit/src/hooks/redux';
-import type { CreateAccountRoutesParams } from '@onekeyhq/kit/src/routes';
+} from '@mywallet/engine/src/types/account';
+import type { Network } from '@mywallet/engine/src/types/network';
+import backgroundApiProxy from '@mywallet/kit/src/background/instance/backgroundApiProxy';
+import showDerivationPathBottomSheetModal from '@mywallet/kit/src/components/NetworkAccountSelector/modals/NetworkAccountSelectorModal/DerivationPathBottomSheetModal';
+import { useRuntime } from '@mywallet/kit/src/hooks/redux';
+import type { CreateAccountRoutesParams } from '@mywallet/kit/src/routes';
 import {
   CreateAccountModalRoutes,
   ModalRoutes,
   RootRoutes,
-} from '@onekeyhq/kit/src/routes/routesEnum';
-import type { ModalScreenProps } from '@onekeyhq/kit/src/routes/types';
-import { getTimeStamp } from '@onekeyhq/kit/src/utils/helper';
-import platformEnv from '@onekeyhq/shared/src/platformEnv';
+} from '@mywallet/kit/src/routes/routesEnum';
+import type { ModalScreenProps } from '@mywallet/kit/src/routes/types';
+import { getTimeStamp } from '@mywallet/kit/src/utils/helper';
+import platformEnv from '@mywallet/shared/src/platformEnv';
 
 import { FormatBalance } from '../../../components/Format';
 import { useDerivationPath } from '../../../components/NetworkAccountSelector/hooks/useDerivationPath';

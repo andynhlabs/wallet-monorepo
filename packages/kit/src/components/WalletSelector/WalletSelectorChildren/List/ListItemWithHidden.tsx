@@ -2,7 +2,7 @@ import { useCallback } from 'react';
 
 import { useIntl } from 'react-intl';
 
-import { Box, Button } from '@onekeyhq/components';
+import { Box, Button } from '@mywallet/components';
 
 import { showDialog } from '../../../../utils/overlayUtils';
 import CreateHwWalletDialog from '../../../../views/CreateWallet/HardwareWallet/CreateHwWalletDialog';

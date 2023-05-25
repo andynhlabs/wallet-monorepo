@@ -9,7 +9,7 @@ import {
   FlatList,
   Pressable,
   Skeleton,
-} from '@onekeyhq/components';
+} from '@mywallet/components';
 
 import type { ListRenderItem } from 'react-native';
 

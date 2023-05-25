@@ -1,5 +1,5 @@
 /* eslint-disable prefer-const */
-import platformEnv from '@onekeyhq/shared/src/platformEnv';
+import platformEnv from '@mywallet/shared/src/platformEnv';
 
 let refreshDataDebounce = 300;
 let resetDataAfterCloseDelay = 0; //  DO NOT add delay here, feedback slowly in Desktop

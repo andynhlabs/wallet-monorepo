@@ -1,6 +1,6 @@
 import { useIntl } from 'react-intl';
 
-import { HStack, Pressable, Text } from '@onekeyhq/components';
+import { HStack, Pressable, Text } from '@mywallet/components';
 
 import { ReceiverExampleType } from '../types';
 import { downloadReceiverExample } from '../utils';

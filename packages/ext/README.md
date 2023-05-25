@@ -10,7 +10,7 @@ yarn ext
 # - Open Chrome Browser, navigate to chrome://extensions/
 # - Toggle on 「Developer mode」
 # - Click button 「Load unpacked」
-# - Choose folder ./app-monorepo/packages/ext/build/chrome/
+# - Choose folder ./wallet-monorepo/packages/ext/build/chrome/
 ```
 
 # Firefox

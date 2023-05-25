@@ -11,8 +11,8 @@ import {
   Progress,
   Text,
   VStack,
-} from '@onekeyhq/components';
-import type { Account } from '@onekeyhq/engine/src/types/account';
+} from '@mywallet/components';
+import type { Account } from '@mywallet/engine/src/types/account';
 
 import backgroundApiProxy from '../../../background/instance/backgroundApiProxy';
 import { CreateAccountModalRoutes } from '../../../routes/routesEnum';

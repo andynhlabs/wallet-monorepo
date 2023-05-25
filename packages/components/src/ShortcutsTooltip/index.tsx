@@ -1,8 +1,8 @@
 import type { FC } from 'react';
 import { Fragment, memo } from 'react';
 
-import platformEnv from '@onekeyhq/shared/src/platformEnv';
-import { getDisplayKeysMap } from '@onekeyhq/shared/src/shortcuts/shortcuts.enum';
+import platformEnv from '@mywallet/shared/src/platformEnv';
+import { getDisplayKeysMap } from '@mywallet/shared/src/shortcuts/shortcuts.enum';
 
 import Box from '../Box';
 import Tooltip from '../Tooltip';

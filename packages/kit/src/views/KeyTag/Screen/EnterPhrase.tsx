@@ -10,7 +10,7 @@ import {
   Typography,
   useForm,
   useIsVerticalLayout,
-} from '@onekeyhq/components';
+} from '@mywallet/components';
 
 import backgroundApiProxy from '../../../background/instance/backgroundApiProxy';
 import { useFormOnChangeDebounced } from '../../../hooks/useFormOnChangeDebounced';

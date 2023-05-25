@@ -12,16 +12,16 @@ import {
   LottieView,
   Text,
   Typography,
-} from '@onekeyhq/components';
-import EnterPinCodeOnClassic from '@onekeyhq/kit/assets/animations/enter-pin-code-on-onekey-classic.json';
-import EnterPinCodeOnMini from '@onekeyhq/kit/assets/animations/enter-pin-code-on-onekey-mini.json';
-import EnterPinCodeOnPro from '@onekeyhq/kit/assets/animations/enter-pin-code-on-onekey-pro.json';
-import EnterPinCodeOnTouch from '@onekeyhq/kit/assets/animations/enter-pin-code-on-onekey-touch.json';
+} from '@mywallet/components';
+import EnterPinCodeOnClassic from '@mywallet/kit/assets/animations/enter-pin-code-on-onekey-classic.json';
+import EnterPinCodeOnMini from '@mywallet/kit/assets/animations/enter-pin-code-on-onekey-mini.json';
+import EnterPinCodeOnPro from '@mywallet/kit/assets/animations/enter-pin-code-on-onekey-pro.json';
+import EnterPinCodeOnTouch from '@mywallet/kit/assets/animations/enter-pin-code-on-onekey-touch.json';
 import {
   AppUIEventBusNames,
   appUIEventBus,
-} from '@onekeyhq/shared/src/eventBus/appUIEventBus';
-import platformEnv from '@onekeyhq/shared/src/platformEnv';
+} from '@mywallet/shared/src/eventBus/appUIEventBus';
+import platformEnv from '@mywallet/shared/src/platformEnv';
 
 import BaseRequestView from './BaseRequest';
 

@@ -7,27 +7,27 @@ import { Buffer } from 'buffer';
 import { web3Errors } from '@onekeyfe/cross-inpage-provider-errors';
 import BigNumber from 'bignumber.js';
 
-import { ProviderController as BaseProviderController } from '@onekeyhq/blockchain-libs/src/provider';
-import { Geth } from '@onekeyhq/blockchain-libs/src/provider/chains/eth/geth';
+import { ProviderController as BaseProviderController } from '@mywallet/blockchain-libs/src/provider';
+import { Geth } from '@mywallet/blockchain-libs/src/provider/chains/eth/geth';
 import type {
   BaseClient,
   BaseProvider,
   ClientFilter,
-} from '@onekeyhq/engine/src/client/BaseClient';
+} from '@mywallet/engine/src/client/BaseClient';
 import {
   N,
   sign,
   uncompressPublicKey,
   verify,
-} from '@onekeyhq/engine/src/secret';
-import { decrypt } from '@onekeyhq/engine/src/secret/encryptors/aes256';
-import type { ChainInfo } from '@onekeyhq/engine/src/types/chain';
-import { TransactionStatus } from '@onekeyhq/engine/src/types/provider';
-import type { UnsignedTx } from '@onekeyhq/engine/src/types/provider';
+} from '@mywallet/engine/src/secret';
+import { decrypt } from '@mywallet/engine/src/secret/encryptors/aes256';
+import type { ChainInfo } from '@mywallet/engine/src/types/chain';
+import { TransactionStatus } from '@mywallet/engine/src/types/provider';
+import type { UnsignedTx } from '@mywallet/engine/src/types/provider';
 import type {
   Signer as ISigner,
   Verifier as IVerifier,
-} from '@onekeyhq/engine/src/types/secret';
+} from '@mywallet/engine/src/types/secret';
 import {
   IMPL_ALGO,
   IMPL_BCH,
@@ -36,8 +36,8 @@ import {
   IMPL_LTC,
   IMPL_TBTC,
   SEPERATOR,
-} from '@onekeyhq/shared/src/engine/engineConsts';
-import bufferUitls from '@onekeyhq/shared/src/utils/bufferUtils';
+} from '@mywallet/shared/src/engine/engineConsts';
+import bufferUitls from '@mywallet/shared/src/utils/bufferUtils';
 
 import { OneKeyInternalError } from './errors';
 import { getBlockNativeGasInfo } from './managers/blockNative';

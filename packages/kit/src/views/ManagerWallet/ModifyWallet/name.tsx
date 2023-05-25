@@ -17,20 +17,20 @@ import {
   ToastManager,
   ZStack,
   useForm,
-} from '@onekeyhq/components';
-import backgroundApiProxy from '@onekeyhq/kit/src/background/instance/backgroundApiProxy';
-import WalletAvatar from '@onekeyhq/kit/src/components/WalletSelector/WalletAvatar';
-import { useRuntime } from '@onekeyhq/kit/src/hooks/redux';
-import type { ManagerWalletRoutesParams } from '@onekeyhq/kit/src/routes/Root/Modal/ManagerWallet';
+} from '@mywallet/components';
+import backgroundApiProxy from '@mywallet/kit/src/background/instance/backgroundApiProxy';
+import WalletAvatar from '@mywallet/kit/src/components/WalletSelector/WalletAvatar';
+import { useRuntime } from '@mywallet/kit/src/hooks/redux';
+import type { ManagerWalletRoutesParams } from '@mywallet/kit/src/routes/Root/Modal/ManagerWallet';
 import {
   ManagerWalletModalRoutes,
   ModalRoutes,
   RootRoutes,
-} from '@onekeyhq/kit/src/routes/routesEnum';
-import { setRefreshTS } from '@onekeyhq/kit/src/store/reducers/settings';
-import platformEnv from '@onekeyhq/shared/src/platformEnv';
-import type { Avatar } from '@onekeyhq/shared/src/utils/emojiUtils';
-import { defaultAvatar } from '@onekeyhq/shared/src/utils/emojiUtils';
+} from '@mywallet/kit/src/routes/routesEnum';
+import { setRefreshTS } from '@mywallet/kit/src/store/reducers/settings';
+import platformEnv from '@mywallet/shared/src/platformEnv';
+import type { Avatar } from '@mywallet/shared/src/utils/emojiUtils';
+import { defaultAvatar } from '@mywallet/shared/src/utils/emojiUtils';
 
 import type { RouteProp } from '@react-navigation/core';
 

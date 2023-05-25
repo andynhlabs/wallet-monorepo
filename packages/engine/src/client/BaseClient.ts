@@ -1,6 +1,6 @@
 /* eslint-disable @typescript-eslint/no-unused-vars */
 // eslint-disable-next-line max-classes-per-file
-import type { ChainInfo, CoinInfo } from '@onekeyhq/engine/src/types/chain';
+import type { ChainInfo, CoinInfo } from '@mywallet/engine/src/types/chain';
 import type {
   AddressInfo,
   AddressValidation,
@@ -12,12 +12,12 @@ import type {
   TypedMessage,
   UTXO,
   UnsignedTx,
-} from '@onekeyhq/engine/src/types/provider';
-import type { Signer, Verifier } from '@onekeyhq/engine/src/types/secret';
+} from '@mywallet/engine/src/types/provider';
+import type { Signer, Verifier } from '@mywallet/engine/src/types/secret';
 import {
   HardwareError,
   NotImplementedError,
-} from '@onekeyhq/shared/src/errors/common-errors';
+} from '@mywallet/shared/src/errors/common-errors';
 
 import type BigNumber from 'bignumber.js';
 

@@ -1,6 +1,6 @@
 import { Platform } from 'react-native';
 
-import platformEnv from '@onekeyhq/shared/src/platformEnv';
+import platformEnv from '@mywallet/shared/src/platformEnv';
 
 import { getTimeDurationMs } from '../../utils/helper';
 

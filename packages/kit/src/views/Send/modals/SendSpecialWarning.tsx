@@ -1,7 +1,7 @@
 import { useRoute } from '@react-navigation/native';
 import { useIntl } from 'react-intl';
 
-import { Box, Center, Icon, Typography } from '@onekeyhq/components';
+import { Box, Center, Icon, Typography } from '@mywallet/components';
 
 import { closeExtensionWindowIfOnboardingFinished } from '../../../hooks/useOnboardingRequired';
 import { BaseSendModal } from '../components/BaseSendModal';

@@ -3,8 +3,8 @@ import { useCallback, useState } from 'react';
 
 import { useIntl } from 'react-intl';
 
-import { Box, Empty, Spinner, useIsVerticalLayout } from '@onekeyhq/components';
-import platformEnv from '@onekeyhq/shared/src/platformEnv';
+import { Box, Empty, Spinner, useIsVerticalLayout } from '@mywallet/components';
+import platformEnv from '@mywallet/shared/src/platformEnv';
 
 import useFormatDate from '../../hooks/useFormatDate';
 

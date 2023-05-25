@@ -16,9 +16,9 @@ import {
   useIsVerticalLayout,
   useSafeAreaInsets,
   useUserDevice,
-} from '@onekeyhq/components';
-import useModalClose from '@onekeyhq/components/src/Modal/Container/useModalClose';
-import { SCREEN_SIZE } from '@onekeyhq/components/src/Provider/device';
+} from '@mywallet/components';
+import useModalClose from '@mywallet/components/src/Modal/Container/useModalClose';
+import { SCREEN_SIZE } from '@mywallet/components/src/Provider/device';
 
 import backgroundApiProxy from '../../../../background/instance/backgroundApiProxy';
 import { useAppSelector, useDebounce, useSettings } from '../../../../hooks';

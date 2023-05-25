@@ -10,7 +10,7 @@ import {
   IconButton,
   Pressable,
   Token,
-} from '@onekeyhq/components';
+} from '@mywallet/components';
 
 type ChainSelectorProps = {};
 

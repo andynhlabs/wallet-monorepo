@@ -4,9 +4,9 @@ import {
   Icon,
   ScrollView,
   Typography,
-} from '@onekeyhq/components';
-import type { ICON_NAMES } from '@onekeyhq/components/src/Icon/Icons';
-import Icons from '@onekeyhq/components/src/Icon/Icons';
+} from '@mywallet/components';
+import type { ICON_NAMES } from '@mywallet/components/src/Icon/Icons';
+import Icons from '@mywallet/components/src/Icon/Icons';
 
 const IconGallery = () => (
   <ScrollView bg="background-hovered">

@@ -1,5 +1,5 @@
 /* eslint-disable max-classes-per-file */
-import type { IJsonRpcResponsePro } from '@onekeyhq/engine/src/types';
+import type { IJsonRpcResponsePro } from '@mywallet/engine/src/types';
 
 // import type { Response as FetchResponse } from 'cross-fetch';
 

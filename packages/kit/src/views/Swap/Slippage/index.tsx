@@ -11,7 +11,7 @@ import {
   Modal,
   NumberInput,
   Typography,
-} from '@onekeyhq/components';
+} from '@mywallet/components';
 
 import backgroundApiProxy from '../../../background/instance/backgroundApiProxy';
 import { useNavigation } from '../../../hooks';

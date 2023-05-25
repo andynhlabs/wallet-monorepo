@@ -13,7 +13,7 @@ import {
   Skeleton,
   Typography,
   useIsVerticalLayout,
-} from '@onekeyhq/components';
+} from '@mywallet/components';
 
 import { useActiveWalletAccount, useAppSelector } from '../../../hooks/redux';
 import { useWalletName } from '../../../hooks/useWalletName';

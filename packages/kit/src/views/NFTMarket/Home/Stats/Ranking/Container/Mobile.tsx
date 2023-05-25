@@ -5,12 +5,12 @@ import { BigNumber } from 'bignumber.js';
 import { MotiView } from 'moti';
 import { useIntl } from 'react-intl';
 
-import { Box, List, ListItem, Text } from '@onekeyhq/components';
-import type { Network } from '@onekeyhq/engine/src/types/network';
+import { Box, List, ListItem, Text } from '@mywallet/components';
+import type { Network } from '@mywallet/engine/src/types/network';
 import type {
   Collection,
   NFTMarketRanking,
-} from '@onekeyhq/engine/src/types/nft';
+} from '@mywallet/engine/src/types/nft';
 
 import CollectionLogo from '../../../../CollectionLogo';
 import { PriceString } from '../../../../PriceText';

@@ -14,8 +14,8 @@ import {
   Spinner,
   Text,
   Tooltip,
-} from '@onekeyhq/components';
-import type { IFeeInfoPayload } from '@onekeyhq/engine/src/vaults/types';
+} from '@mywallet/components';
+import type { IFeeInfoPayload } from '@mywallet/engine/src/vaults/types';
 
 import { FormatCurrencyNativeOfAccount } from '../../../components/Format';
 import { removeTrailingZeros } from '../../../utils/helper';

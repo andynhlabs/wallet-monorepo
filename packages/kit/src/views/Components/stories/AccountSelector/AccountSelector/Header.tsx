@@ -1,6 +1,6 @@
 import type { FC } from 'react';
 
-import { Box, IconButton, Text } from '@onekeyhq/components';
+import { Box, IconButton, Text } from '@mywallet/components';
 
 type HeaderProps = {
   title?: string;

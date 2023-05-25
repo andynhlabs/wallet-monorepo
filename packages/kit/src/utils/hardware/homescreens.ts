@@ -6,7 +6,7 @@ import { bytesToHex } from '@noble/hashes/utils';
 import { ResourceType } from '@onekeyfe/hd-transport';
 import { SaveFormat, manipulateAsync } from 'expo-image-manipulator';
 
-import debugLogger from '@onekeyhq/shared/src/logger/debugLogger';
+import debugLogger from '@mywallet/shared/src/logger/debugLogger';
 
 import type { HomescreenItem } from './constants/homescreens';
 import type { DeviceUploadResourceParams } from '@onekeyfe/hd-core';

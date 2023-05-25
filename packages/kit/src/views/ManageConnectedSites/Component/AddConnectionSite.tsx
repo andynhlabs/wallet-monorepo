@@ -9,8 +9,8 @@ import {
   Input,
   Text,
   ToastManager,
-} from '@onekeyhq/components';
-import backgroundApiProxy from '@onekeyhq/kit/src/background/instance/backgroundApiProxy';
+} from '@mywallet/components';
+import backgroundApiProxy from '@mywallet/kit/src/background/instance/backgroundApiProxy';
 
 import walletConnectUtils from '../../../components/WalletConnect/utils/walletConnectUtils';
 import { useActiveWalletAccount } from '../../../hooks';

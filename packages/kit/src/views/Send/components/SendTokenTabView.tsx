@@ -7,7 +7,7 @@ import {
   SceneMap,
   SegmentedControl,
   useThemeValue,
-} from '@onekeyhq/components';
+} from '@mywallet/components';
 
 import type { Route as TabViewRoute } from 'react-native-tab-view';
 

@@ -17,10 +17,10 @@ import {
   Token as TokenIcon,
   Typography,
   VStack,
-} from '@onekeyhq/components';
-import Logo from '@onekeyhq/components/src/Icon/react/illus/Logo';
-import { shortenAddress } from '@onekeyhq/components/src/utils';
-import { copyToClipboard } from '@onekeyhq/components/src/utils/ClipboardUtils';
+} from '@mywallet/components';
+import Logo from '@mywallet/components/src/Icon/react/illus/Logo';
+import { shortenAddress } from '@mywallet/components/src/utils';
+import { copyToClipboard } from '@mywallet/components/src/utils/ClipboardUtils';
 
 import backgroundApiProxy from '../../../../background/instance/backgroundApiProxy';
 import { useAddressName, useNetworkSimple } from '../../../../hooks';

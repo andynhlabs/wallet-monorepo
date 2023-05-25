@@ -7,7 +7,7 @@ import {
   Select,
   Token,
   useIsVerticalLayout,
-} from '@onekeyhq/components';
+} from '@mywallet/components';
 
 import { useManageNetworks } from '../../hooks';
 

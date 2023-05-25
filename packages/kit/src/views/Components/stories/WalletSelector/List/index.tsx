@@ -15,7 +15,7 @@ import {
   SectionList,
   Text,
   VStack,
-} from '@onekeyhq/components';
+} from '@mywallet/components';
 
 import ListItem from './ListItem';
 

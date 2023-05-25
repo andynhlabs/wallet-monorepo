@@ -21,19 +21,19 @@ import {
   Skeleton,
   Text,
   VStack,
-} from '@onekeyhq/components';
-import ListItemSeparator from '@onekeyhq/components/src/List/ListItemSeparator';
-import { shortenAddress } from '@onekeyhq/components/src/utils';
-import { getUtxoUniqueKey } from '@onekeyhq/engine/src/dbs/simple/entity/SimpleDbEntityUtxoAccounts';
-import type { Network } from '@onekeyhq/engine/src/types/network';
-import type { Token } from '@onekeyhq/engine/src/types/token';
-import type { ICoinControlListItem } from '@onekeyhq/engine/src/types/utxoAccounts';
+} from '@mywallet/components';
+import ListItemSeparator from '@mywallet/components/src/List/ListItemSeparator';
+import { shortenAddress } from '@mywallet/components/src/utils';
+import { getUtxoUniqueKey } from '@mywallet/engine/src/dbs/simple/entity/SimpleDbEntityUtxoAccounts';
+import type { Network } from '@mywallet/engine/src/types/network';
+import type { Token } from '@mywallet/engine/src/types/token';
+import type { ICoinControlListItem } from '@mywallet/engine/src/types/utxoAccounts';
 import {
   FormatBalance,
   FormatCurrencyTokenOfAccount,
-} from '@onekeyhq/kit/src/components/Format';
-import { showJumpPageDialog } from '@onekeyhq/kit/src/views/Account/AddNewAccount/JumpPage';
-import platformEnv from '@onekeyhq/shared/src/platformEnv';
+} from '@mywallet/kit/src/components/Format';
+import { showJumpPageDialog } from '@mywallet/kit/src/views/Account/AddNewAccount/JumpPage';
+import platformEnv from '@mywallet/shared/src/platformEnv';
 
 import useFormatDate from '../../../hooks/useFormatDate';
 

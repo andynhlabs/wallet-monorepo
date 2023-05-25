@@ -11,19 +11,19 @@ import {
   ToastManager,
   Token,
   Typography,
-} from '@onekeyhq/components';
-import type { ButtonSize, ButtonType } from '@onekeyhq/components/src/Button';
-import type { ThemeToken } from '@onekeyhq/components/src/Provider/theme';
-import { TokenVerifiedIcon } from '@onekeyhq/components/src/Token';
-import type { Token as TokenDO } from '@onekeyhq/engine/src/types/token';
-import type { ReceiveTokenRoutesParams } from '@onekeyhq/kit/src/routes/Root/Modal/types';
+} from '@mywallet/components';
+import type { ButtonSize, ButtonType } from '@mywallet/components/src/Button';
+import type { ThemeToken } from '@mywallet/components/src/Provider/theme';
+import { TokenVerifiedIcon } from '@mywallet/components/src/Token';
+import type { Token as TokenDO } from '@mywallet/engine/src/types/token';
+import type { ReceiveTokenRoutesParams } from '@mywallet/kit/src/routes/Root/Modal/types';
 import {
   ModalRoutes,
   ReceiveTokenModalRoutes,
   RootRoutes,
   SendModalRoutes,
-} from '@onekeyhq/kit/src/routes/routesEnum';
-import type { ModalScreenProps } from '@onekeyhq/kit/src/routes/types';
+} from '@mywallet/kit/src/routes/routesEnum';
+import type { ModalScreenProps } from '@mywallet/kit/src/routes/types';
 
 import backgroundApiProxy from '../../../background/instance/backgroundApiProxy';
 import { useActiveSideAccount } from '../../../hooks';

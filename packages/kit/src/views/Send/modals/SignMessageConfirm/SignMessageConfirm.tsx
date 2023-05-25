@@ -5,11 +5,11 @@ import BigNumber from 'bignumber.js';
 import { find } from 'lodash';
 import { useIntl } from 'react-intl';
 
-import { ToastManager } from '@onekeyhq/components';
-import { OneKeyError } from '@onekeyhq/engine/src/errors';
-import { parseNetworkId } from '@onekeyhq/engine/src/managers/network';
-import { ETHMessageTypes } from '@onekeyhq/engine/src/types/message';
-import debugLogger from '@onekeyhq/shared/src/logger/debugLogger';
+import { ToastManager } from '@mywallet/components';
+import { OneKeyError } from '@mywallet/engine/src/errors';
+import { parseNetworkId } from '@mywallet/engine/src/managers/network';
+import { ETHMessageTypes } from '@mywallet/engine/src/types/message';
+import debugLogger from '@mywallet/shared/src/logger/debugLogger';
 
 import { useActiveSideAccount } from '../../../../hooks';
 import useDappApproveAction from '../../../../hooks/useDappApproveAction';

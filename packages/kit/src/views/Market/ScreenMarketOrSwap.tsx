@@ -6,7 +6,7 @@ import {
   Box,
   useIsVerticalLayout,
   useSafeAreaInsets,
-} from '@onekeyhq/components';
+} from '@mywallet/components';
 
 import { TabRoutes } from '../../routes/routesEnum';
 import { PortalEntry, PortalExit } from '../Overlay/RootPortal';

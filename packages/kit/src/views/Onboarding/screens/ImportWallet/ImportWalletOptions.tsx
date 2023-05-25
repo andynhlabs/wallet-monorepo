@@ -13,10 +13,10 @@ import {
   Text,
   useTheme,
   useThemeValue,
-} from '@onekeyhq/components';
-import type { IconProps } from '@onekeyhq/components/src/Icon';
-import KeyTagPNG from '@onekeyhq/kit/assets/onboarding/import_with_keytag.png';
-import OneKeyLitePNG from '@onekeyhq/kit/assets/onboarding/import_with_lite.png';
+} from '@mywallet/components';
+import type { IconProps } from '@mywallet/components/src/Icon';
+import KeyTagPNG from '@mywallet/kit/assets/onboarding/import_with_keytag.png';
+import OneKeyLitePNG from '@mywallet/kit/assets/onboarding/import_with_lite.png';
 
 interface OptionProps {
   icon?: IconProps['name'];

@@ -3,7 +3,7 @@ import { forwardRef, useEffect, useImperativeHandle, useRef } from 'react';
 
 import { Input as BaseInput, Stack } from 'native-base';
 
-import { useIsVerticalLayout } from '@onekeyhq/components';
+import { useIsVerticalLayout } from '@mywallet/components';
 
 import Box from '../Box';
 import Divider from '../Divider';

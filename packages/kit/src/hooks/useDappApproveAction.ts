@@ -3,8 +3,8 @@ import { useCallback, useEffect, useState } from 'react';
 
 import { web3Errors } from '@onekeyfe/cross-inpage-provider-errors';
 
-import platformEnv from '@onekeyhq/shared/src/platformEnv';
-import { toPlainErrorObject } from '@onekeyhq/shared/src/utils/errorUtils';
+import platformEnv from '@mywallet/shared/src/platformEnv';
+import { toPlainErrorObject } from '@mywallet/shared/src/utils/errorUtils';
 
 import backgroundApiProxy from '../background/instance/backgroundApiProxy';
 

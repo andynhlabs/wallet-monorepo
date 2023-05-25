@@ -1,8 +1,8 @@
 import type { FC } from 'react';
 import { useMemo } from 'react';
 
-import type { ICON_NAMES } from '@onekeyhq/components';
-import { Box, Icon, Text, useIsVerticalLayout } from '@onekeyhq/components';
+import type { ICON_NAMES } from '@mywallet/components';
+import { Box, Icon, Text, useIsVerticalLayout } from '@mywallet/components';
 
 import useFormatDate from '../../../../hooks/useFormatDate';
 

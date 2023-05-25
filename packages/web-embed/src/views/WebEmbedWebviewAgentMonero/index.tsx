@@ -1,12 +1,12 @@
 /* eslint-disable @typescript-eslint/no-unsafe-call,@typescript-eslint/no-unsafe-member-access */
 import { memo, useCallback, useEffect } from 'react';
 
-import { Center, Text } from '@onekeyhq/components';
-import { Helper } from '@onekeyhq/engine/src/vaults/impl/xmr/sdk/helper';
-import { getMoneroCoreInstance } from '@onekeyhq/engine/src/vaults/impl/xmr/sdk/moneroCore/instance';
-import { getMoneroUtilInstance } from '@onekeyhq/engine/src/vaults/impl/xmr/sdk/moneroUtil/instance';
-import { MoneroEvent } from '@onekeyhq/shared/src/engine/xmrConsts';
-import platformEnv from '@onekeyhq/shared/src/platformEnv';
+import { Center, Text } from '@mywallet/components';
+import { Helper } from '@mywallet/engine/src/vaults/impl/xmr/sdk/helper';
+import { getMoneroCoreInstance } from '@mywallet/engine/src/vaults/impl/xmr/sdk/moneroCore/instance';
+import { getMoneroUtilInstance } from '@mywallet/engine/src/vaults/impl/xmr/sdk/moneroUtil/instance';
+import { MoneroEvent } from '@mywallet/shared/src/engine/xmrConsts';
+import platformEnv from '@mywallet/shared/src/platformEnv';
 
 import type { IJsonRpcRequest } from '@onekeyfe/cross-inpage-provider-types';
 

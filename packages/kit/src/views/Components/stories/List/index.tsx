@@ -16,7 +16,7 @@ import {
   Switch,
   Text,
   VStack,
-} from '@onekeyhq/components';
+} from '@mywallet/components';
 
 interface TokenListDataType {
   id: string;

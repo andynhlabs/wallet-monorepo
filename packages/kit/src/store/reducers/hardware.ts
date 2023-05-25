@@ -1,7 +1,7 @@
 import { createSlice } from '@reduxjs/toolkit';
 
-import platformEnv from '@onekeyhq/shared/src/platformEnv';
-import type { IOneKeyDeviceType } from '@onekeyhq/shared/types';
+import platformEnv from '@mywallet/shared/src/platformEnv';
+import type { IOneKeyDeviceType } from '@mywallet/shared/types';
 
 import type { KnownDevice } from '@onekeyfe/hd-core';
 import type { PayloadAction } from '@reduxjs/toolkit';

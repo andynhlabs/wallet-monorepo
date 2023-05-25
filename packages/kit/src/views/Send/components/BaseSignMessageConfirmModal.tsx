@@ -1,6 +1,6 @@
 import { useMemo } from 'react';
 
-import { ETHMessageTypes } from '@onekeyhq/engine/src/types/message';
+import { ETHMessageTypes } from '@mywallet/engine/src/types/message';
 
 import { useActiveSideAccount } from '../../../hooks';
 

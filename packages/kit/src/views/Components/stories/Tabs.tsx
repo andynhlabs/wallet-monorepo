@@ -1,4 +1,4 @@
-import { Box, SceneMap, TabView, useThemeValue } from '@onekeyhq/components';
+import { Box, SceneMap, TabView, useThemeValue } from '@mywallet/components';
 
 const FirstRoute = () => (
   <Box flex={1} bg={useThemeValue('background-default')} />

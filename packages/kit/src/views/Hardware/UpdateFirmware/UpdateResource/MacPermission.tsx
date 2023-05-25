@@ -14,10 +14,10 @@ import {
   Text,
   VStack,
   useTheme,
-} from '@onekeyhq/components';
-import RestartTouch from '@onekeyhq/kit/assets/animations/restart-touch.json';
-import MacSecurityPrivacyLightImage from '@onekeyhq/kit/assets/mac_security_and_privacy.png';
-import MacSecurityPrivacyDarkImage from '@onekeyhq/kit/assets/mac_security_and_privacy_dark.png';
+} from '@mywallet/components';
+import RestartTouch from '@mywallet/kit/assets/animations/restart-touch.json';
+import MacSecurityPrivacyLightImage from '@mywallet/kit/assets/mac_security_and_privacy.png';
+import MacSecurityPrivacyDarkImage from '@mywallet/kit/assets/mac_security_and_privacy_dark.png';
 
 const Title = ({ marker, title }: { marker: string; title: string }) => (
   <HStack space={3}>

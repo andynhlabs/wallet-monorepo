@@ -1,4 +1,4 @@
-import { showOverlay } from '@onekeyhq/kit/src/utils/overlayUtils';
+import { showOverlay } from '@mywallet/kit/src/utils/overlayUtils';
 
 import InAppNotification from '../InAppNotification';
 

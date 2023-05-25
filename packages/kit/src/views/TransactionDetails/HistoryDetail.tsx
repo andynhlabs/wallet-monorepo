@@ -3,12 +3,12 @@ import type { FC } from 'react';
 import { useRoute } from '@react-navigation/core';
 import { useIntl } from 'react-intl';
 
-import { Modal, Spinner } from '@onekeyhq/components';
-import type { LocaleIds } from '@onekeyhq/components/src/locale';
-import { shortenAddress } from '@onekeyhq/components/src/utils';
-import type { EVMDecodedItem } from '@onekeyhq/engine/src/vaults/impl/evm/decoder/types';
-import { EVMDecodedTxType } from '@onekeyhq/engine/src/vaults/impl/evm/decoder/types';
-import type { TransactionDetailRoutesParams } from '@onekeyhq/kit/src/routes/Root/Modal/TransactionDetail';
+import { Modal, Spinner } from '@mywallet/components';
+import type { LocaleIds } from '@mywallet/components/src/locale';
+import { shortenAddress } from '@mywallet/components/src/utils';
+import type { EVMDecodedItem } from '@mywallet/engine/src/vaults/impl/evm/decoder/types';
+import { EVMDecodedTxType } from '@mywallet/engine/src/vaults/impl/evm/decoder/types';
+import type { TransactionDetailRoutesParams } from '@mywallet/kit/src/routes/Root/Modal/TransactionDetail';
 
 import TxHistoryDetail from '../TxDetail/_legacy/TxHistoryDetail';
 

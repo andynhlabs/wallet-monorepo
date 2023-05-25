@@ -2,8 +2,8 @@
 import { keccak256 } from '@ethersproject/keccak256';
 import TronWeb from 'tronweb';
 
-import { uncompressPublicKey } from '@onekeyhq/engine/src/secret';
-import type { SignedTx, UnsignedTx } from '@onekeyhq/engine/src/types/provider';
+import { uncompressPublicKey } from '@mywallet/engine/src/secret';
+import type { SignedTx, UnsignedTx } from '@mywallet/engine/src/types/provider';
 
 import type { Signer } from '../../../proxy';
 

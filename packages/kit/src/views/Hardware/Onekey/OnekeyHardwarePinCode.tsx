@@ -14,16 +14,16 @@ import {
   Modal,
   Typography,
   VStack,
-} from '@onekeyhq/components';
-import OnekeyMiniEnterPin from '@onekeyhq/kit/assets/animations/lottie_hardware_onekey_classic_enter_pin_code.json';
-// import OnekeyClassicEnterPin from '@onekeyhq/kit/assets/animations/lottie_hardware_onekey_mini_enter_pin_code.json';
-import type { OnekeyHardwareRoutesParams } from '@onekeyhq/kit/src/routes/Root/Modal/HardwareOnekey';
-import { RootRoutes } from '@onekeyhq/kit/src/routes/routesEnum';
-import type { OnekeyHardwareModalRoutes } from '@onekeyhq/kit/src/routes/routesEnum';
+} from '@mywallet/components';
+import OnekeyMiniEnterPin from '@mywallet/kit/assets/animations/lottie_hardware_onekey_classic_enter_pin_code.json';
+// import OnekeyClassicEnterPin from '@mywallet/kit/assets/animations/lottie_hardware_onekey_mini_enter_pin_code.json';
+import type { OnekeyHardwareRoutesParams } from '@mywallet/kit/src/routes/Root/Modal/HardwareOnekey';
+import { RootRoutes } from '@mywallet/kit/src/routes/routesEnum';
+import type { OnekeyHardwareModalRoutes } from '@mywallet/kit/src/routes/routesEnum';
 import type {
   ModalScreenProps,
   RootRoutesParams,
-} from '@onekeyhq/kit/src/routes/types';
+} from '@mywallet/kit/src/routes/types';
 
 import type { RouteProp } from '@react-navigation/core';
 

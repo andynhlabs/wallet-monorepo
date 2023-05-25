@@ -10,9 +10,9 @@ import {
   Text,
   ToastManager,
   Typography,
-} from '@onekeyhq/components';
-import type { ModalProps } from '@onekeyhq/components/src/Modal';
-import type { AddEthereumChainParameter } from '@onekeyhq/shared/src/providerApis/ProviderApiEthereum/ProviderApiEthereum.types';
+} from '@mywallet/components';
+import type { ModalProps } from '@mywallet/components/src/Modal';
+import type { AddEthereumChainParameter } from '@mywallet/shared/src/providerApis/ProviderApiEthereum/ProviderApiEthereum.types';
 
 import backgroundApiProxy from '../../../background/instance/backgroundApiProxy';
 import useDappApproveAction from '../../../hooks/useDappApproveAction';

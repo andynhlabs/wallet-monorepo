@@ -1,7 +1,7 @@
 import type { FC } from 'react';
 import { Fragment } from 'react';
 
-import { useIsVerticalLayout } from '@onekeyhq/components';
+import { useIsVerticalLayout } from '@mywallet/components';
 
 import Badge from '../../Badge';
 import Box from '../../Box';
@@ -149,7 +149,7 @@ export const RenderOptions: IRenderOptionsFC = <T,>({
         return (
           <Fragment key={`${option.title}${index}`}>
             {option.title.length > 0 ? (
-              // add Pressabel fix https://onekeyhq.atlassian.net/browse/OK-16171  Sliding events do not trigger problems
+              // add Pressabel fix https://mywallet.atlassian.net/browse/OK-16171  Sliding events do not trigger problems
               <Pressable>
                 <Typography.Subheading
                   px={{ base: '4', md: '2' }}

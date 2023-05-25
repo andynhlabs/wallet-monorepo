@@ -15,9 +15,9 @@ import {
   Text,
   ToastManager,
   Typography,
-} from '@onekeyhq/components';
-import type { ModalScreenProps } from '@onekeyhq/kit/src/routes/types';
-import platformEnv from '@onekeyhq/shared/src/platformEnv';
+} from '@mywallet/components';
+import type { ModalScreenProps } from '@mywallet/kit/src/routes/types';
+import platformEnv from '@mywallet/shared/src/platformEnv';
 
 import backgroundApiProxy from '../../../background/instance/backgroundApiProxy';
 import { AutoSizeText } from '../../../components/AutoSizeText';

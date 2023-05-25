@@ -4,9 +4,9 @@ import { useEffect, useState } from 'react';
 import axios from 'axios';
 import { SvgUri } from 'react-native-svg';
 
-import { Box } from '@onekeyhq/components';
-import type NetImage from '@onekeyhq/components/src/NetImage';
-import { syncImage } from '@onekeyhq/engine/src/managers/nft';
+import { Box } from '@mywallet/components';
+import type NetImage from '@mywallet/components/src/NetImage';
+import { syncImage } from '@mywallet/engine/src/managers/nft';
 
 type Props = {
   s3Url: string;

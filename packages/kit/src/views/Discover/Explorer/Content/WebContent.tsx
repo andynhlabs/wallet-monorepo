@@ -1,7 +1,7 @@
 import type { FC } from 'react';
 import { useMemo } from 'react';
 
-import WebView from '@onekeyhq/kit/src/components/WebView';
+import WebView from '@mywallet/kit/src/components/WebView';
 
 import backgroundApiProxy from '../../../../background/instance/backgroundApiProxy';
 import { setWebTabData } from '../../../../store/reducers/webTabs';

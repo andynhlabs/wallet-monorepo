@@ -2,13 +2,13 @@ import type { FC } from 'react';
 
 import { useIntl } from 'react-intl';
 
-import { Box, Container, Typography } from '@onekeyhq/components';
+import { Box, Container, Typography } from '@mywallet/components';
 import type {
   EVMDecodedItem,
   EVMDecodedItemERC20Transfer,
-} from '@onekeyhq/engine/src/vaults/impl/evm/decoder/decoder';
-import { EVMDecodedTxType } from '@onekeyhq/engine/src/vaults/impl/evm/decoder/decoder';
-import type { IFeeInfoPayload } from '@onekeyhq/engine/src/vaults/types';
+} from '@mywallet/engine/src/vaults/impl/evm/decoder/decoder';
+import { EVMDecodedTxType } from '@mywallet/engine/src/vaults/impl/evm/decoder/decoder';
+import type { IFeeInfoPayload } from '@mywallet/engine/src/vaults/types';
 
 import Address from './Address';
 import HeaderIcon from './HeaderIcon';

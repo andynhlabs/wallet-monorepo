@@ -2,7 +2,7 @@ import { useCallback } from 'react';
 
 import { useIntl } from 'react-intl';
 
-import { Alert, Box, Text } from '@onekeyhq/components';
+import { Alert, Box, Text } from '@mywallet/components';
 
 import { openUrl } from '../../../../../utils/openUrl';
 import { MONERO_GUI_URL } from '../../../consts';

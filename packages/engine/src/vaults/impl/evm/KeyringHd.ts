@@ -1,5 +1,5 @@
-import { slicePathTemplate } from '@onekeyhq/engine/src/managers/derivation';
-import { batchGetPublicKeys } from '@onekeyhq/engine/src/secret';
+import { slicePathTemplate } from '@mywallet/engine/src/managers/derivation';
+import { batchGetPublicKeys } from '@mywallet/engine/src/secret';
 
 import { OneKeyInternalError } from '../../../errors';
 import {

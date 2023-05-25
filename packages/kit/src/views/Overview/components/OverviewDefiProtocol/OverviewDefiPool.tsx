@@ -13,9 +13,9 @@ import {
   Typography,
   VStack,
   useIsVerticalLayout,
-} from '@onekeyhq/components';
-import type { LocaleIds } from '@onekeyhq/components/src/locale';
-import { TokenIcon } from '@onekeyhq/components/src/Token';
+} from '@mywallet/components';
+import type { LocaleIds } from '@mywallet/components/src/locale';
+import { TokenIcon } from '@mywallet/components/src/Token';
 
 import { FormatCurrencyNumber } from '../../../../components/Format';
 

@@ -1,26 +1,26 @@
 import { bytesToHex } from '@noble/hashes/utils';
 import { mnemonicFromEntropy } from '@onekeyfe/blockchain-libs/dist/secret';
 
-import type { ExportedSeedCredential } from '@onekeyhq/engine/src/dbs/base';
-import { encrypt } from '@onekeyhq/engine/src/dbs/base';
-import { OneKeyInternalError } from '@onekeyhq/engine/src/errors';
-import { getAccountNameInfoByImpl } from '@onekeyhq/engine/src/managers/impl';
-import { Signer } from '@onekeyhq/engine/src/proxy';
-import type { DBVariantAccount } from '@onekeyhq/engine/src/types/account';
-import { AccountType } from '@onekeyhq/engine/src/types/account';
-import type { CommonMessage } from '@onekeyhq/engine/src/types/message';
-import { KeyringHdBase } from '@onekeyhq/engine/src/vaults/keyring/KeyringHdBase';
+import type { ExportedSeedCredential } from '@mywallet/engine/src/dbs/base';
+import { encrypt } from '@mywallet/engine/src/dbs/base';
+import { OneKeyInternalError } from '@mywallet/engine/src/errors';
+import { getAccountNameInfoByImpl } from '@mywallet/engine/src/managers/impl';
+import { Signer } from '@mywallet/engine/src/proxy';
+import type { DBVariantAccount } from '@mywallet/engine/src/types/account';
+import { AccountType } from '@mywallet/engine/src/types/account';
+import type { CommonMessage } from '@mywallet/engine/src/types/message';
+import { KeyringHdBase } from '@mywallet/engine/src/vaults/keyring/KeyringHdBase';
 import type {
   IPrepareSoftwareAccountsParams,
   ISignCredentialOptions,
   ISignedTxPro,
-} from '@onekeyhq/engine/src/vaults/types';
-import { addHexPrefix } from '@onekeyhq/engine/src/vaults/utils/hexUtils';
+} from '@mywallet/engine/src/vaults/types';
+import { addHexPrefix } from '@mywallet/engine/src/vaults/utils/hexUtils';
 import {
   IMPL_DOT as COIN_IMPL,
   COINTYPE_DOT as COIN_TYPE,
-} from '@onekeyhq/shared/src/engine/engineConsts';
-import debugLogger from '@onekeyhq/shared/src/logger/debugLogger';
+} from '@mywallet/shared/src/engine/engineConsts';
+import debugLogger from '@mywallet/shared/src/logger/debugLogger';
 
 import { TYPE_PREFIX } from './consts';
 import polkadotSdk from './sdk/polkadotSdk';

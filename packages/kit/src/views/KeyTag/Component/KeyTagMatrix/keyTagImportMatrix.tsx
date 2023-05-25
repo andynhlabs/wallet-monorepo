@@ -1,6 +1,6 @@
 import type { FC } from 'react';
 
-import { Box } from '@onekeyhq/components';
+import { Box } from '@mywallet/components';
 
 import { useImportKeytagSpaceSize } from '../../hooks/useKeyTagLayout';
 import DotMnemonicWord from '../DotMap/DotMnemonicWord';

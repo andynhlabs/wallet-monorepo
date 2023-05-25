@@ -1,5 +1,5 @@
 // eslint-disable-next-line import/order
-import '@onekeyhq/shared/src/polyfills';
+import '@mywallet/shared/src/polyfills';
 
 import { bridgeSetup } from '@onekeyfe/extension-bridge-hosted';
 // @ts-ignore
@@ -7,18 +7,18 @@ import axiosAdapter from '@vespaiach/axios-fetch-adapter';
 import axios from 'axios';
 import urlParse from 'url-parse';
 
-import offscreenApiProxy from '@onekeyhq/kit-bg/src/offscreens/instance/offscreenApiProxy';
-import { getExtensionIndexHtml } from '@onekeyhq/kit/src/utils/extUtils.getHtml';
-import debugLogger from '@onekeyhq/shared/src/logger/debugLogger';
-import platformEnv from '@onekeyhq/shared/src/platformEnv';
+import offscreenApiProxy from '@mywallet/kit-bg/src/offscreens/instance/offscreenApiProxy';
+import { getExtensionIndexHtml } from '@mywallet/kit/src/utils/extUtils.getHtml';
+import debugLogger from '@mywallet/shared/src/logger/debugLogger';
+import platformEnv from '@mywallet/shared/src/platformEnv';
 
 import { setupKeepAlive } from '../background/keepAlive';
 import serviceWorker from '../background/serviceWorker';
 
 function initBackground() {
-  const backgroundApiProxy: typeof import('@onekeyhq/kit/src/background/instance/backgroundApiProxy').default =
+  const backgroundApiProxy: typeof import('@mywallet/kit/src/background/instance/backgroundApiProxy').default =
     // eslint-disable-next-line @typescript-eslint/no-unsafe-member-access
-    require('@onekeyhq/kit/src/background/instance/backgroundApiProxy').default;
+    require('@mywallet/kit/src/background/instance/backgroundApiProxy').default;
 
   const bridge = bridgeSetup.background.createHostBridge({
     receiveHandler: backgroundApiProxy.bridgeReceiveHandler,
@@ -38,7 +38,7 @@ if (platformEnv.isExtensionBackgroundServiceWorker) {
   serviceWorker.disableCacheInBackground();
 }
 console.log(
-  `[OneKey RN] Extension background page ready: 666  ${new Date().toLocaleTimeString()}`,
+  `[Wallasa RN] Extension background page ready: 666  ${new Date().toLocaleTimeString()}`,
 );
 initBackground();
 

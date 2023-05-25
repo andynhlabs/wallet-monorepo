@@ -1,4 +1,4 @@
-import { Box, Button } from '@onekeyhq/components';
+import { Box, Button } from '@mywallet/components';
 
 import WebView from '../../../components/WebView';
 import useNavigation from '../../../hooks/useNavigation';

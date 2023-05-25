@@ -2,18 +2,18 @@ import { useCallback } from 'react';
 
 import { useRoute } from '@react-navigation/native';
 
-import { Button } from '@onekeyhq/components';
-import type VaultHelperEvm from '@onekeyhq/engine/src/vaults/impl/evm/VaultHelper';
-import type { IFeeInfoPayload } from '@onekeyhq/engine/src/vaults/types';
-import { IMPL_EVM } from '@onekeyhq/shared/src/engine/engineConsts';
-import platformEnv from '@onekeyhq/shared/src/platformEnv';
+import { Button } from '@mywallet/components';
+import type VaultHelperEvm from '@mywallet/engine/src/vaults/impl/evm/VaultHelper';
+import type { IFeeInfoPayload } from '@mywallet/engine/src/vaults/types';
+import { IMPL_EVM } from '@mywallet/shared/src/engine/engineConsts';
+import platformEnv from '@mywallet/shared/src/platformEnv';
 
 import backgroundApiProxy from '../../../background/instance/backgroundApiProxy';
 import { useActiveSideAccount } from '../../../hooks';
 import useAppNavigation from '../../../hooks/useAppNavigation';
 import { useInteractWithInfo } from '../../../hooks/useDecodedTx';
 
-// import { createVaultHelperInstance } from '@onekeyhq/engine/src/vaults/factory';
+// import { createVaultHelperInstance } from '@mywallet/engine/src/vaults/factory';
 const createVaultHelperInstance = (options: any) =>
   ({ ...options } as VaultHelperEvm);
 

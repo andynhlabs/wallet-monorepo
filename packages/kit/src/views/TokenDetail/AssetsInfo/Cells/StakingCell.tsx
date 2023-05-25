@@ -12,10 +12,10 @@ import {
   ListItem,
   Typography,
   useIsVerticalLayout,
-} from '@onekeyhq/components';
-import type { Token as TokenDO } from '@onekeyhq/engine/src/types/token';
-import KeleLogoPNG from '@onekeyhq/kit/assets/staking/kele_pool.png';
-import { useActiveWalletAccount } from '@onekeyhq/kit/src/hooks/redux';
+} from '@mywallet/components';
+import type { Token as TokenDO } from '@mywallet/engine/src/types/token';
+import KeleLogoPNG from '@mywallet/kit/assets/staking/kele_pool.png';
+import { useActiveWalletAccount } from '@mywallet/kit/src/hooks/redux';
 
 import backgroundApiProxy from '../../../../background/instance/backgroundApiProxy';
 import {

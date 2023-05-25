@@ -1,4 +1,4 @@
-import { useIsVerticalLayout } from '@onekeyhq/components';
+import { useIsVerticalLayout } from '@mywallet/components';
 
 import Feedback from '../../../views/Staking/Feedback';
 import StakedETHOnKele from '../../../views/Staking/StakedETHOnKele';

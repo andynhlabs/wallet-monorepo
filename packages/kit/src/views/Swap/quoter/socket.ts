@@ -1,8 +1,8 @@
 import axios from 'axios';
 import BigNumber from 'bignumber.js';
 
-import type { Network } from '@onekeyhq/engine/src/types/network';
-import type { Token } from '@onekeyhq/engine/src/types/token';
+import type { Network } from '@mywallet/engine/src/types/network';
+import type { Token } from '@mywallet/engine/src/types/token';
 
 import backgroundApiProxy from '../../../background/instance/backgroundApiProxy';
 import { QuoterType } from '../typings';

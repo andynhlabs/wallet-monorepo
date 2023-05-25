@@ -1,6 +1,6 @@
 import type { ComponentProps, FC } from 'react';
 
-import { Box, CustomSkeleton } from '@onekeyhq/components';
+import { Box, CustomSkeleton } from '@mywallet/components';
 
 import { useAppSelector } from '../../../../hooks';
 

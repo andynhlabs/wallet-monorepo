@@ -8,25 +8,25 @@ import { AuthInfo, TxBody } from 'cosmjs-types/cosmos/tx/v1beta1/tx';
 import { get } from 'lodash';
 import memoizee from 'memoizee';
 
-import type { BroadcastMode } from '@onekeyhq/engine/src/vaults/impl/cosmos/NodeClient';
-import type { StdSignDoc } from '@onekeyhq/engine/src/vaults/impl/cosmos/sdk/amino/types';
-import { deserializeTx } from '@onekeyhq/engine/src/vaults/impl/cosmos/sdk/txBuilder';
-import { TransactionWrapper } from '@onekeyhq/engine/src/vaults/impl/cosmos/sdk/wrapper';
-import { getAminoSignDoc } from '@onekeyhq/engine/src/vaults/impl/cosmos/sdk/wrapper/utils';
+import type { BroadcastMode } from '@mywallet/engine/src/vaults/impl/cosmos/NodeClient';
+import type { StdSignDoc } from '@mywallet/engine/src/vaults/impl/cosmos/sdk/amino/types';
+import { deserializeTx } from '@mywallet/engine/src/vaults/impl/cosmos/sdk/txBuilder';
+import { TransactionWrapper } from '@mywallet/engine/src/vaults/impl/cosmos/sdk/wrapper';
+import { getAminoSignDoc } from '@mywallet/engine/src/vaults/impl/cosmos/sdk/wrapper/utils';
 import {
   getADR36SignDoc,
   getDataForADR36,
-} from '@onekeyhq/engine/src/vaults/impl/cosmos/utils';
-import type VaultCosmos from '@onekeyhq/engine/src/vaults/impl/cosmos/Vault';
-import type { ISignedTxPro } from '@onekeyhq/engine/src/vaults/types';
-import { getActiveWalletAccount } from '@onekeyhq/kit/src/hooks/redux';
+} from '@mywallet/engine/src/vaults/impl/cosmos/utils';
+import type VaultCosmos from '@mywallet/engine/src/vaults/impl/cosmos/Vault';
+import type { ISignedTxPro } from '@mywallet/engine/src/vaults/types';
+import { getActiveWalletAccount } from '@mywallet/kit/src/hooks/redux';
 import {
   backgroundClass,
   permissionRequired,
   providerApiMethod,
-} from '@onekeyhq/shared/src/background/backgroundDecorators';
-import { IMPL_COSMOS } from '@onekeyhq/shared/src/engine/engineConsts';
-import debugLogger from '@onekeyhq/shared/src/logger/debugLogger';
+} from '@mywallet/shared/src/background/backgroundDecorators';
+import { IMPL_COSMOS } from '@mywallet/shared/src/engine/engineConsts';
+import debugLogger from '@mywallet/shared/src/logger/debugLogger';
 
 import ProviderApiBase from './ProviderApiBase';
 

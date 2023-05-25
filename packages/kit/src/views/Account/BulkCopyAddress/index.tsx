@@ -10,8 +10,8 @@ import {
   SegmentedControl,
   ToastManager,
   Token,
-} from '@onekeyhq/components';
-import type { Network } from '@onekeyhq/engine/src/types/network';
+} from '@mywallet/components';
+import type { Network } from '@mywallet/engine/src/types/network';
 
 import { useDebounce } from '../../../hooks';
 import { useRuntime } from '../../../hooks/redux';

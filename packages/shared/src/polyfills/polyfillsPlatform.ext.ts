@@ -4,7 +4,7 @@ import 'globalthis';
 import browser from 'webextension-polyfill'; // or extensionizer
 import './xhrShim';
 
-import platformEnv from '@onekeyhq/shared/src/platformEnv';
+import platformEnv from '@mywallet/shared/src/platformEnv';
 
 /*
 requestAnimationFrame is missing in mv3 background:

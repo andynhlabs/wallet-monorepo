@@ -63,7 +63,7 @@ const tsRules = {
           'position': 'before',
         },
         {
-          'pattern': '@onekeyhq/**',
+          'pattern': '@mywallet/**',
           'group': 'external',
           'position': 'after',
         },

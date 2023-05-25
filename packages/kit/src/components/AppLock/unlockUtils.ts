@@ -1,12 +1,12 @@
 import {
   AppEventBusNames,
   appEventBus,
-} from '@onekeyhq/shared/src/eventBus/appEventBus';
+} from '@mywallet/shared/src/eventBus/appEventBus';
 import {
   AppUIEventBusNames,
   appUIEventBus,
-} from '@onekeyhq/shared/src/eventBus/appUIEventBus';
-import platformEnv from '@onekeyhq/shared/src/platformEnv';
+} from '@mywallet/shared/src/eventBus/appUIEventBus';
+import platformEnv from '@mywallet/shared/src/platformEnv';
 
 import store from '../../store';
 import { wait } from '../../utils/helper';

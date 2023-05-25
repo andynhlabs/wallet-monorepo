@@ -1,11 +1,11 @@
 import type { Dispatch, SetStateAction } from 'react';
 import { createContext, useContext } from 'react';
 
-import type { Network } from '@onekeyhq/engine/src/types/network';
+import type { Network } from '@mywallet/engine/src/types/network';
 import type {
   NFTMarketCapCollection,
   NFTMarketRanking,
-} from '@onekeyhq/engine/src/types/nft';
+} from '@mywallet/engine/src/types/nft';
 
 export type StatsListContextValue = {
   isTab: boolean;

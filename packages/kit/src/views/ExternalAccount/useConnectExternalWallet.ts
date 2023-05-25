@@ -1,6 +1,6 @@
 import { useCallback } from 'react';
 
-import platformEnv from '@onekeyhq/shared/src/platformEnv';
+import platformEnv from '@mywallet/shared/src/platformEnv';
 
 import { useWalletConnectQrcodeModal } from '../../components/WalletConnect/useWalletConnectQrcodeModal';
 import { WALLET_CONNECT_WALLET_NAMES } from '../../components/WalletConnect/walletConnectConsts';

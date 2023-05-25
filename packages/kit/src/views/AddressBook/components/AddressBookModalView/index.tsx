@@ -10,10 +10,10 @@ import {
   Modal,
   useForm,
   useIsVerticalLayout,
-} from '@onekeyhq/components';
+} from '@mywallet/components';
 import NameServiceResolver, {
   useNameServiceStatus,
-} from '@onekeyhq/kit/src/components/NameServiceResolver';
+} from '@mywallet/kit/src/components/NameServiceResolver';
 
 import backgroundApiProxy from '../../../../background/instance/backgroundApiProxy';
 import AddressInput from '../../../../components/AddressInput';

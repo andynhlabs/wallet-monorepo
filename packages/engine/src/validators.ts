@@ -3,14 +3,14 @@ import BigNumber from 'bignumber.js';
 import * as bip39 from 'bip39';
 import { isString } from 'lodash';
 
-import type { Network } from '@onekeyhq/kit/src/store/typings';
-import { backgroundMethod } from '@onekeyhq/shared/src/background/backgroundDecorators';
+import type { Network } from '@mywallet/kit/src/store/typings';
+import { backgroundMethod } from '@mywallet/shared/src/background/backgroundDecorators';
 import {
   IMPL_COSMOS,
   IMPL_DOT,
   IMPL_XMR,
-} from '@onekeyhq/shared/src/engine/engineConsts';
-import platformEnv from '@onekeyhq/shared/src/platformEnv';
+} from '@mywallet/shared/src/engine/engineConsts';
+import platformEnv from '@mywallet/shared/src/platformEnv';
 
 import * as errors from './errors';
 import { OneKeyValidatorError, OneKeyValidatorTip } from './errors';

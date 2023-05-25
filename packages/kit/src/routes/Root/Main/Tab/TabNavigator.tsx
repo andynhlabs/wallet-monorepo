@@ -4,9 +4,9 @@ import { memo, useCallback, useMemo } from 'react';
 import { createNativeStackNavigator } from '@react-navigation/native-stack';
 import { useIntl } from 'react-intl';
 
-import { useIsVerticalLayout, useThemeValue } from '@onekeyhq/components';
-import { createBottomTabNavigator } from '@onekeyhq/components/src/Layout/BottomTabs';
-import platformEnv from '@onekeyhq/shared/src/platformEnv';
+import { useIsVerticalLayout, useThemeValue } from '@mywallet/components';
+import { createBottomTabNavigator } from '@mywallet/components/src/Layout/BottomTabs';
+import platformEnv from '@mywallet/shared/src/platformEnv';
 
 import { LazyDisplayView } from '../../../../components/LazyDisplayView';
 import { TabRoutes } from '../../../routesEnum';

@@ -11,8 +11,8 @@ import {
   CheckBox,
   Icon,
   Text,
-} from '@onekeyhq/components';
-import type { DeviceInfo } from '@onekeyhq/engine/src/types/migrate';
+} from '@mywallet/components';
+import type { DeviceInfo } from '@mywallet/engine/src/types/migrate';
 
 import { showOverlay } from '../../../../../utils/overlayUtils';
 import { deviceInfo, parseDeviceInfo } from '../util';

@@ -1,7 +1,7 @@
 import {
   COINTYPE_LTC,
   INDEX_PLACEHOLDER,
-} from '@onekeyhq/shared/src/engine/engineConsts';
+} from '@mywallet/shared/src/engine/engineConsts';
 
 import type { AccountNameInfo } from '../../../types/network';
 import type { IVaultSettings } from '../../types';

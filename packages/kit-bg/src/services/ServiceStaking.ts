@@ -2,7 +2,7 @@
 
 import { add, sum } from 'lodash';
 
-import { getFiatEndpoint } from '@onekeyhq/engine/src/endpoint';
+import { getFiatEndpoint } from '@mywallet/engine/src/endpoint';
 import {
   setAccountStakingActivity,
   setKeleDashboardGlobal,
@@ -12,7 +12,7 @@ import {
   setKelePendingWithdraw,
   setKeleUnstakeOverview,
   setKeleWithdrawOverview,
-} from '@onekeyhq/kit/src/store/reducers/staking';
+} from '@mywallet/kit/src/store/reducers/staking';
 import type {
   KeleDashboardGlobal,
   KeleHttpResponse,
@@ -22,12 +22,12 @@ import type {
   KeleUnstakeOverviewDTO,
   KeleWithdrawOverviewDTO,
   StakingActivity,
-} from '@onekeyhq/kit/src/views/Staking/typing';
+} from '@mywallet/kit/src/views/Staking/typing';
 import {
   backgroundClass,
   backgroundMethod,
-} from '@onekeyhq/shared/src/background/backgroundDecorators';
-import { OnekeyNetwork } from '@onekeyhq/shared/src/config/networkIds';
+} from '@mywallet/shared/src/background/backgroundDecorators';
+import { OnekeyNetwork } from '@mywallet/shared/src/config/networkIds';
 
 import ServiceBase from './ServiceBase';
 

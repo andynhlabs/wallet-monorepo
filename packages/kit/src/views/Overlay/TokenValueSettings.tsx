@@ -6,7 +6,7 @@ import {
   HStack,
   Switch,
   Text,
-} from '@onekeyhq/components';
+} from '@mywallet/components';
 
 import backgroundApiProxy from '../../background/instance/backgroundApiProxy';
 import { useAppSelector } from '../../hooks';

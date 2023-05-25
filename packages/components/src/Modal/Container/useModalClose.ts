@@ -3,8 +3,8 @@ import { useCallback } from 'react';
 import { useNavigation } from '@react-navigation/core';
 
 // eslint-disable-next-line @typescript-eslint/no-unused-vars
-import { useNavigationGoHomeForceReload } from '@onekeyhq/kit/src/hooks/useAppNavigation';
-import platformEnv from '@onekeyhq/shared/src/platformEnv';
+import { useNavigationGoHomeForceReload } from '@mywallet/kit/src/hooks/useAppNavigation';
+import platformEnv from '@mywallet/shared/src/platformEnv';
 
 function useModalClose({
   onClose,

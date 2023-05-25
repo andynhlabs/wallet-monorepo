@@ -1,6 +1,6 @@
 import type { FC } from 'react';
 
-import { Box, Pressable, ScrollView, Typography } from '@onekeyhq/components';
+import { Box, Pressable, ScrollView, Typography } from '@mywallet/components';
 
 import { useTranslation } from '../../../../hooks';
 import DAppIcon from '../../DAppIcon';

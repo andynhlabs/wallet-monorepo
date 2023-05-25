@@ -9,7 +9,7 @@ import {
 
 import Animated from 'react-native-reanimated';
 
-import { Box } from '@onekeyhq/components';
+import { Box } from '@mywallet/components';
 
 import { useForwardRef } from '../utils/useForwardRef';
 

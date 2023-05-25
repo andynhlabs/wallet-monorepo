@@ -3,8 +3,8 @@ import { memo, useCallback, useMemo, useRef, useState } from 'react';
 import { useWindowDimensions } from 'react-native';
 import { SceneMap, TabView } from 'react-native-tab-view';
 
-import { enableOnPressAnim } from '@onekeyhq/components/src/utils/useBeforeOnPress';
-import platformEnv from '@onekeyhq/shared/src/platformEnv';
+import { enableOnPressAnim } from '@mywallet/components/src/utils/useBeforeOnPress';
+import platformEnv from '@mywallet/shared/src/platformEnv';
 
 import { TabRoutes } from '../../routes/routesEnum';
 import Swap from '../Swap';

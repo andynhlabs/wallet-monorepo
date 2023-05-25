@@ -6,7 +6,7 @@ import {
   ScrollView,
   Typography,
   VStack,
-} from '@onekeyhq/components';
+} from '@mywallet/components';
 
 const NftCardGallery = () => (
   <ScrollView bg="background-hovered" flex="1">

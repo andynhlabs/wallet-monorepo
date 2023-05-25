@@ -1,7 +1,7 @@
 import { useIntl } from 'react-intl';
 
-import { Center, Icon, Typography } from '@onekeyhq/components';
-import type { IDecodedTx } from '@onekeyhq/engine/src/vaults/types';
+import { Center, Icon, Typography } from '@mywallet/components';
+import type { IDecodedTx } from '@mywallet/engine/src/vaults/types';
 
 import { getTxStatusInfo } from '../utils/utilsTxDetail';
 

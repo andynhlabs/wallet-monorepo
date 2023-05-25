@@ -1,8 +1,8 @@
-import { useIsVerticalLayout } from '@onekeyhq/components';
+import { useIsVerticalLayout } from '@mywallet/components';
 import type {
   Account,
   ImportableHDAccount,
-} from '@onekeyhq/engine/src/types/account';
+} from '@mywallet/engine/src/types/account';
 
 import AddNewAccountModal from '../../../views/Account/AddNewAccount';
 import CreateAccountAuthenticationModal from '../../../views/Account/AddNewAccount/Authentication';

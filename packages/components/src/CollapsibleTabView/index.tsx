@@ -12,9 +12,9 @@ import {
 import { useWindowDimensions } from 'react-native';
 import { TabBar, TabView } from 'react-native-tab-view';
 
-import type { ForwardRefHandle } from '@onekeyhq/app/src/views/NestedTabView/NestedTabView';
-import { useIsVerticalLayout, useThemeValue } from '@onekeyhq/components';
-import { MAX_PAGE_CONTAINER_WIDTH } from '@onekeyhq/shared/src/config/appConfig';
+import type { ForwardRefHandle } from '@mywallet/app/src/views/NestedTabView/NestedTabView';
+import { useIsVerticalLayout, useThemeValue } from '@mywallet/components';
+import { MAX_PAGE_CONTAINER_WIDTH } from '@mywallet/shared/src/config/appConfig';
 
 import Box from '../Box';
 import FlatList from '../FlatList';

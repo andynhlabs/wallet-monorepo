@@ -14,17 +14,17 @@ import {
   Switch,
   Text,
   useTheme,
-} from '@onekeyhq/components';
-import type { PressableItemProps } from '@onekeyhq/components/src/Pressable/Pressable';
-import type { SelectItem } from '@onekeyhq/components/src/Select';
-import backgroundApiProxy from '@onekeyhq/kit/src/background/instance/backgroundApiProxy';
-import { useNavigation } from '@onekeyhq/kit/src/hooks';
-import { useSettings, useStatus } from '@onekeyhq/kit/src/hooks/redux';
-import type { SettingsState } from '@onekeyhq/kit/src/store/reducers/settings';
+} from '@mywallet/components';
+import type { PressableItemProps } from '@mywallet/components/src/Pressable/Pressable';
+import type { SelectItem } from '@mywallet/components/src/Select';
+import backgroundApiProxy from '@mywallet/kit/src/background/instance/backgroundApiProxy';
+import { useNavigation } from '@mywallet/kit/src/hooks';
+import { useSettings, useStatus } from '@mywallet/kit/src/hooks/redux';
+import type { SettingsState } from '@mywallet/kit/src/store/reducers/settings';
 import {
   defaultPushNotification,
   setPushNotificationConfig,
-} from '@onekeyhq/kit/src/store/reducers/settings';
+} from '@mywallet/kit/src/store/reducers/settings';
 
 import { HomeRoutes } from '../../routes/routesEnum';
 

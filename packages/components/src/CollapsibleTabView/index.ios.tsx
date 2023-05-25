@@ -1,10 +1,10 @@
 import type { ForwardRefRenderFunction } from 'react';
 import { Children, Fragment, forwardRef } from 'react';
 
-import type { ForwardRefHandle } from '@onekeyhq/app/src/views/NestedTabView/NestedTabView';
-import NestedTabView from '@onekeyhq/app/src/views/NestedTabView/NestedTabView';
-import type { TabProps } from '@onekeyhq/app/src/views/NestedTabView/types';
-import { useThemeValue } from '@onekeyhq/components';
+import type { ForwardRefHandle } from '@mywallet/app/src/views/NestedTabView/NestedTabView';
+import NestedTabView from '@mywallet/app/src/views/NestedTabView/NestedTabView';
+import type { TabProps } from '@mywallet/app/src/views/NestedTabView/types';
+import { useThemeValue } from '@mywallet/components';
 
 import FlatList from '../FlatList';
 import ScrollView from '../ScrollView';

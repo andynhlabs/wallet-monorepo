@@ -5,7 +5,7 @@ import { type RouteProp, useRoute } from '@react-navigation/native';
 import { type StackNavigationProp } from '@react-navigation/stack';
 import { useIntl } from 'react-intl';
 
-import { Center, Spinner } from '@onekeyhq/components';
+import { Center, Spinner } from '@mywallet/components';
 
 import backgroundApiProxy from '../../../../../background/instance/backgroundApiProxy';
 import Protected, {

@@ -8,7 +8,7 @@ import {
   ListItem,
   Skeleton,
   useIsVerticalLayout,
-} from '@onekeyhq/components';
+} from '@mywallet/components';
 
 type Props = {
   isTab?: boolean;

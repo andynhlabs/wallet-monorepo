@@ -1,4 +1,4 @@
-import { useIsVerticalLayout } from '@onekeyhq/components';
+import { useIsVerticalLayout } from '@mywallet/components';
 
 import { ChangeModal } from '../../../views/Revoke/ChangeModal';
 import { ShareModal } from '../../../views/Revoke/ShareModal';

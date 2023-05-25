@@ -1,6 +1,6 @@
 /* eslint-disable react/no-unstable-nested-components */
-import { Box, IconButton } from '@onekeyhq/components';
-import NavHeader from '@onekeyhq/components/src/NavHeader/NavHeader';
+import { Box, IconButton } from '@mywallet/components';
+import NavHeader from '@mywallet/components/src/NavHeader/NavHeader';
 
 const NavHeaderGallery = () => (
   <Box p="20px">

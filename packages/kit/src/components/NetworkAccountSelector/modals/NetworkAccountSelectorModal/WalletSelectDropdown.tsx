@@ -12,9 +12,9 @@ import {
   Select,
   Text,
   useIsVerticalLayout,
-} from '@onekeyhq/components';
-import type { IWallet } from '@onekeyhq/engine/src/types';
-import debugLogger from '@onekeyhq/shared/src/logger/debugLogger';
+} from '@mywallet/components';
+import type { IWallet } from '@mywallet/engine/src/types';
+import debugLogger from '@mywallet/shared/src/logger/debugLogger';
 
 import backgroundApiProxy from '../../../../background/instance/backgroundApiProxy';
 import { useRuntime } from '../../../../hooks/redux';

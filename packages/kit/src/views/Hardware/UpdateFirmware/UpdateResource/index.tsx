@@ -15,18 +15,18 @@ import {
   Progress,
   Text,
   useTheme,
-} from '@onekeyhq/components';
-import RestartTouch from '@onekeyhq/kit/assets/animations/restart-touch.json';
-import SelectFirmwareResources from '@onekeyhq/kit/assets/select_firmware_resources.png';
-import SelectFirmwareResourcesDark from '@onekeyhq/kit/assets/select_firmware_resources_dark.png';
-import backgroundApiProxy from '@onekeyhq/kit/src/background/instance/backgroundApiProxy';
-import { useSettings } from '@onekeyhq/kit/src/hooks/redux';
-import type { HardwareUpdateRoutesParams } from '@onekeyhq/kit/src/routes/Root/Modal/HardwareUpdate';
-import { HardwareUpdateModalRoutes } from '@onekeyhq/kit/src/routes/routesEnum';
-import type { ModalScreenProps } from '@onekeyhq/kit/src/routes/types';
-import { deviceUtils } from '@onekeyhq/kit/src/utils/hardware';
-import debugLogger from '@onekeyhq/shared/src/logger/debugLogger';
-import platformEnv from '@onekeyhq/shared/src/platformEnv';
+} from '@mywallet/components';
+import RestartTouch from '@mywallet/kit/assets/animations/restart-touch.json';
+import SelectFirmwareResources from '@mywallet/kit/assets/select_firmware_resources.png';
+import SelectFirmwareResourcesDark from '@mywallet/kit/assets/select_firmware_resources_dark.png';
+import backgroundApiProxy from '@mywallet/kit/src/background/instance/backgroundApiProxy';
+import { useSettings } from '@mywallet/kit/src/hooks/redux';
+import type { HardwareUpdateRoutesParams } from '@mywallet/kit/src/routes/Root/Modal/HardwareUpdate';
+import { HardwareUpdateModalRoutes } from '@mywallet/kit/src/routes/routesEnum';
+import type { ModalScreenProps } from '@mywallet/kit/src/routes/types';
+import { deviceUtils } from '@mywallet/kit/src/utils/hardware';
+import debugLogger from '@mywallet/shared/src/logger/debugLogger';
+import platformEnv from '@mywallet/shared/src/platformEnv';
 
 import MacPermission from './MacPermission';
 

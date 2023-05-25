@@ -9,9 +9,9 @@ import {
   Dialog,
   Stack,
   Typography,
-} from '@onekeyhq/components';
-import type { OnCloseCallback } from '@onekeyhq/components/src/Dialog/components/FooterButton';
-import { Metamask } from '@onekeyhq/components/src/Icon/react/illus';
+} from '@mywallet/components';
+import type { OnCloseCallback } from '@mywallet/components/src/Dialog/components/FooterButton';
+import { Metamask } from '@mywallet/components/src/Icon/react/illus';
 
 import { showDialog } from '../../../utils/overlayUtils';
 

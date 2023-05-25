@@ -14,20 +14,20 @@ import {
   ToastManager,
   useForm,
   useIsVerticalLayout,
-} from '@onekeyhq/components';
-import type { LocaleIds } from '@onekeyhq/components/src/locale';
-import useModalClose from '@onekeyhq/components/src/Modal/Container/useModalClose';
-import { getClipboard } from '@onekeyhq/components/src/utils/ClipboardUtils';
-import { UserInputCategory } from '@onekeyhq/engine/src/types/credential';
-import backgroundApiProxy from '@onekeyhq/kit/src/background/instance/backgroundApiProxy';
+} from '@mywallet/components';
+import type { LocaleIds } from '@mywallet/components/src/locale';
+import useModalClose from '@mywallet/components/src/Modal/Container/useModalClose';
+import { getClipboard } from '@mywallet/components/src/utils/ClipboardUtils';
+import { UserInputCategory } from '@mywallet/engine/src/types/credential';
+import backgroundApiProxy from '@mywallet/kit/src/background/instance/backgroundApiProxy';
 import NameServiceResolver, {
   useNameServiceStatus,
-} from '@onekeyhq/kit/src/components/NameServiceResolver';
+} from '@mywallet/kit/src/components/NameServiceResolver';
 import {
   useActiveWalletAccount,
   useGeneral,
   useRuntime,
-} from '@onekeyhq/kit/src/hooks/redux';
+} from '@mywallet/kit/src/hooks/redux';
 import type {
   CreateWalletRoutesParams,
   IAddExistingWalletModalParams,
@@ -35,17 +35,17 @@ import type {
   IAddImportedAccountDoneModalParams,
   IAddImportedOrWatchingAccountModalParams,
   IAppWalletDoneModalParams,
-} from '@onekeyhq/kit/src/routes/Root/Modal/CreateWallet';
+} from '@mywallet/kit/src/routes/Root/Modal/CreateWallet';
 import {
   CreateWalletModalRoutes,
   ModalRoutes,
   RootRoutes,
-} from '@onekeyhq/kit/src/routes/routesEnum';
-import type { ModalScreenProps } from '@onekeyhq/kit/src/routes/types';
-import { OnekeyNetwork } from '@onekeyhq/shared/src/config/networkIds';
-import supportedNFC from '@onekeyhq/shared/src/detector/nfc';
-import debugLogger from '@onekeyhq/shared/src/logger/debugLogger';
-import platformEnv from '@onekeyhq/shared/src/platformEnv';
+} from '@mywallet/kit/src/routes/routesEnum';
+import type { ModalScreenProps } from '@mywallet/kit/src/routes/types';
+import { OnekeyNetwork } from '@mywallet/shared/src/config/networkIds';
+import supportedNFC from '@mywallet/shared/src/detector/nfc';
+import debugLogger from '@mywallet/shared/src/logger/debugLogger';
+import platformEnv from '@mywallet/shared/src/platformEnv';
 
 import showDerivationPathBottomSheetModal from '../../components/NetworkAccountSelector/modals/NetworkAccountSelectorModal/DerivationPathBottomSheetModal';
 import { BaseSelectorTrigger } from '../../components/NetworkAccountSelector/triggers/BaseSelectorTrigger';

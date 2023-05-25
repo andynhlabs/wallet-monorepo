@@ -1,15 +1,15 @@
 import { io } from 'socket.io-client';
 
-import { getSocketEndpoint } from '@onekeyhq/engine/src/endpoint';
-import { appSelector } from '@onekeyhq/kit/src/store';
-import { getTimeDurationMs } from '@onekeyhq/kit/src/utils/helper';
+import { getSocketEndpoint } from '@mywallet/engine/src/endpoint';
+import { appSelector } from '@mywallet/kit/src/store';
+import { getTimeDurationMs } from '@mywallet/kit/src/utils/helper';
 import {
   backgroundClass,
   backgroundMethod,
   bindThis,
-} from '@onekeyhq/shared/src/background/backgroundDecorators';
-import type { SocketEvents } from '@onekeyhq/shared/src/engine/engineConsts';
-import debugLogger from '@onekeyhq/shared/src/logger/debugLogger';
+} from '@mywallet/shared/src/background/backgroundDecorators';
+import type { SocketEvents } from '@mywallet/shared/src/engine/engineConsts';
+import debugLogger from '@mywallet/shared/src/logger/debugLogger';
 
 import ServiceBase from './ServiceBase';
 

@@ -2,18 +2,18 @@
 import type { ComponentProps, FC } from 'react';
 import { memo, useMemo } from 'react';
 
-import { Box, Center, Icon, Image, Text } from '@onekeyhq/components';
-import ClassicIcon from '@onekeyhq/components/img/deviceIcon_classic.png';
-import MiniIcon from '@onekeyhq/components/img/deviceIcon_mini.png';
-import TouchIcon from '@onekeyhq/components/img/deviceicon_touch.png';
-import type { TypographyStyle } from '@onekeyhq/components/src/Typography';
-import type { IWallet } from '@onekeyhq/engine/src/types';
-import { WALLET_TYPE_HW } from '@onekeyhq/engine/src/types/wallet';
-import { getDeviceTypeByDeviceId } from '@onekeyhq/kit/src/utils/hardware';
-import { isPassphraseWallet } from '@onekeyhq/shared/src/engine/engineUtils';
-import type { Avatar } from '@onekeyhq/shared/src/utils/emojiUtils';
-import { defaultAvatar } from '@onekeyhq/shared/src/utils/emojiUtils';
-import type { IOneKeyDeviceType } from '@onekeyhq/shared/types';
+import { Box, Center, Icon, Image, Text } from '@mywallet/components';
+import ClassicIcon from '@mywallet/components/img/deviceIcon_classic.png';
+import MiniIcon from '@mywallet/components/img/deviceIcon_mini.png';
+import TouchIcon from '@mywallet/components/img/deviceicon_touch.png';
+import type { TypographyStyle } from '@mywallet/components/src/Typography';
+import type { IWallet } from '@mywallet/engine/src/types';
+import { WALLET_TYPE_HW } from '@mywallet/engine/src/types/wallet';
+import { getDeviceTypeByDeviceId } from '@mywallet/kit/src/utils/hardware';
+import { isPassphraseWallet } from '@mywallet/shared/src/engine/engineUtils';
+import type { Avatar } from '@mywallet/shared/src/utils/emojiUtils';
+import { defaultAvatar } from '@mywallet/shared/src/utils/emojiUtils';
+import type { IOneKeyDeviceType } from '@mywallet/shared/types';
 
 import type {
   DeviceStatusType,

@@ -4,15 +4,15 @@ import { useEffect, useState } from 'react';
 import { useRoute } from '@react-navigation/core';
 import { useIntl } from 'react-intl';
 
-import { Modal } from '@onekeyhq/components';
+import { Modal } from '@mywallet/components';
 import type {
   AccountCredentialType,
   Account as AccountEngineType,
-} from '@onekeyhq/engine/src/types/account';
+} from '@mywallet/engine/src/types/account';
 import Protected, {
   ValidationFields,
-} from '@onekeyhq/kit/src/components/Protected';
-import type { ManagerAccountRoutesParams } from '@onekeyhq/kit/src/routes/Root/Modal/ManagerAccount';
+} from '@mywallet/kit/src/components/Protected';
+import type { ManagerAccountRoutesParams } from '@mywallet/kit/src/routes/Root/Modal/ManagerAccount';
 
 import backgroundApiProxy from '../../../background/instance/backgroundApiProxy';
 

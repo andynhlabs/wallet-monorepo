@@ -1,8 +1,8 @@
 /* eslint-disable @typescript-eslint/no-unsafe-return, @typescript-eslint/no-unsafe-member-access */
-import backgroundApiProxy from '@onekeyhq/kit/src/background/instance/backgroundApiProxy';
-import { getTimeDurationMs, wait } from '@onekeyhq/kit/src/utils/helper';
-import { waitForDataLoaded } from '@onekeyhq/shared/src/background/backgroundUtils';
-import platformEnv from '@onekeyhq/shared/src/platformEnv';
+import backgroundApiProxy from '@mywallet/kit/src/background/instance/backgroundApiProxy';
+import { getTimeDurationMs, wait } from '@mywallet/kit/src/utils/helper';
+import { waitForDataLoaded } from '@mywallet/shared/src/background/backgroundUtils';
+import platformEnv from '@mywallet/shared/src/platformEnv';
 
 import { OFFSCREEN_API_MESSAGE_TYPE } from './types';
 

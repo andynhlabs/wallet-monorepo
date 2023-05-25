@@ -11,7 +11,7 @@ import {
   Pressable,
   Text,
   useIsVerticalLayout,
-} from '@onekeyhq/components';
+} from '@mywallet/components';
 
 import backgroundApiProxy from '../../../background/instance/backgroundApiProxy';
 import { showDialog, showOverlay } from '../../../utils/overlayUtils';

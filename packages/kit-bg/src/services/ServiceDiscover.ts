@@ -2,7 +2,7 @@
 
 import uuid from 'react-native-uuid';
 
-import { getFiatEndpoint } from '@onekeyhq/engine/src/endpoint';
+import { getFiatEndpoint } from '@mywallet/engine/src/endpoint';
 import {
   addBookmark,
   cleanOldState,
@@ -16,20 +16,20 @@ import {
   setFavoritesMigrated,
   setHomeData,
   updateBookmark,
-} from '@onekeyhq/kit/src/store/reducers/discover';
-import { setWebTabData } from '@onekeyhq/kit/src/store/reducers/webTabs';
-import type { MatchDAppItemType } from '@onekeyhq/kit/src/views/Discover/Explorer/explorerUtils';
+} from '@mywallet/kit/src/store/reducers/discover';
+import { setWebTabData } from '@mywallet/kit/src/store/reducers/webTabs';
+import type { MatchDAppItemType } from '@mywallet/kit/src/views/Discover/Explorer/explorerUtils';
 import type {
   BookmarkItem,
   DAppItemType,
   TagDappsType,
   UrlInfo,
-} from '@onekeyhq/kit/src/views/Discover/type';
+} from '@mywallet/kit/src/views/Discover/type';
 import {
   backgroundClass,
   backgroundMethod,
-} from '@onekeyhq/shared/src/background/backgroundDecorators';
-import debugLogger from '@onekeyhq/shared/src/logger/debugLogger';
+} from '@mywallet/shared/src/background/backgroundDecorators';
+import debugLogger from '@mywallet/shared/src/logger/debugLogger';
 
 import ServiceBase from './ServiceBase';
 

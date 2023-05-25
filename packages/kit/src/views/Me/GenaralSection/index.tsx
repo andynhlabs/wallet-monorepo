@@ -12,23 +12,23 @@ import {
   Text,
   Typography,
   useTheme,
-} from '@onekeyhq/components';
-import { LOCALES_OPTION } from '@onekeyhq/components/src/locale';
-import type { ThemeVariant } from '@onekeyhq/components/src/Provider/theme';
-import backgroundApiProxy from '@onekeyhq/kit/src/background/instance/backgroundApiProxy';
-import { useSettings } from '@onekeyhq/kit/src/hooks/redux';
+} from '@mywallet/components';
+import { LOCALES_OPTION } from '@mywallet/components/src/locale';
+import type { ThemeVariant } from '@mywallet/components/src/Provider/theme';
+import backgroundApiProxy from '@mywallet/kit/src/background/instance/backgroundApiProxy';
+import { useSettings } from '@mywallet/kit/src/hooks/redux';
 import {
   HomeRoutes,
   ModalRoutes,
   RootRoutes,
-} from '@onekeyhq/kit/src/routes/routesEnum';
+} from '@mywallet/kit/src/routes/routesEnum';
 import type {
   HomeRoutesParams,
   ModalScreenProps,
   RootRoutesParams,
-} from '@onekeyhq/kit/src/routes/types';
-import { setLocale, setTheme } from '@onekeyhq/kit/src/store/reducers/settings';
-import { supportedHaptics } from '@onekeyhq/shared/src/haptics';
+} from '@mywallet/kit/src/routes/types';
+import { setLocale, setTheme } from '@mywallet/kit/src/store/reducers/settings';
+import { supportedHaptics } from '@mywallet/shared/src/haptics';
 
 import { SelectTrigger } from '../SelectTrigger';
 

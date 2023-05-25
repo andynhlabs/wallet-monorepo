@@ -3,7 +3,7 @@ import { useCallback, useEffect, useMemo } from 'react';
 import { canOpenURL, parse } from 'expo-linking';
 import { useIntl } from 'react-intl';
 
-import { Button, Center, Icon, Typography } from '@onekeyhq/components';
+import { Button, Center, Icon, Typography } from '@mywallet/components';
 
 import walletConnectUtils from '../../components/WalletConnect/utils/walletConnectUtils';
 import { WalletConnectUniversalLinkPath } from '../../routes/deepLink';

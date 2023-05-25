@@ -2,16 +2,16 @@
 import BigNumber from 'bignumber.js';
 import * as borsh from 'borsh';
 
-import { SimpleClient } from '@onekeyhq/engine/src/client/BaseClient';
-import type { CoinInfo } from '@onekeyhq/engine/src/types/chain';
-import { TransactionStatus } from '@onekeyhq/engine/src/types/provider';
+import { SimpleClient } from '@mywallet/engine/src/client/BaseClient';
+import type { CoinInfo } from '@mywallet/engine/src/types/chain';
+import { TransactionStatus } from '@mywallet/engine/src/types/provider';
 import type {
   AddressInfo,
   ClientInfo,
   FeePricePerUnit,
-} from '@onekeyhq/engine/src/types/provider';
-import { JsonPRCResponseError } from '@onekeyhq/shared/src/errors/request-errors';
-import { JsonRPCRequest } from '@onekeyhq/shared/src/request/JsonRPCRequest';
+} from '@mywallet/engine/src/types/provider';
+import { JsonPRCResponseError } from '@mywallet/shared/src/errors/request-errors';
+import { JsonRPCRequest } from '@mywallet/shared/src/request/JsonRPCRequest';
 
 export type NearAccessKey = {
   type: 'FullAccess' | 'FunctionCall';

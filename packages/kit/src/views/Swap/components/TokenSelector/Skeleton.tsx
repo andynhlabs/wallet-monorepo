@@ -1,6 +1,6 @@
 import { useCallback } from 'react';
 
-import { Box, CustomSkeleton, FlatList } from '@onekeyhq/components';
+import { Box, CustomSkeleton, FlatList } from '@mywallet/components';
 
 const ItemSeparatorComponent4 = () => <Box h="4" />;
 const ItemSeparatorComponent3 = () => <Box w="3" />;

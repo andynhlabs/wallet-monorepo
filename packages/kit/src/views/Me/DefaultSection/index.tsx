@@ -8,10 +8,10 @@ import {
   Pressable,
   Text,
   useTheme,
-} from '@onekeyhq/components';
-import { HomeRoutes, RootRoutes } from '@onekeyhq/kit/src/routes/routesEnum';
-import type { HomeRoutesParams } from '@onekeyhq/kit/src/routes/types';
-import supportedNFC from '@onekeyhq/shared/src/detector/nfc';
+} from '@mywallet/components';
+import { HomeRoutes, RootRoutes } from '@mywallet/kit/src/routes/routesEnum';
+import type { HomeRoutesParams } from '@mywallet/kit/src/routes/types';
+import supportedNFC from '@mywallet/shared/src/detector/nfc';
 
 import useAppNavigation from '../../../hooks/useAppNavigation';
 import { useAddressBook } from '../../AddressBook/Listing';

@@ -4,8 +4,8 @@ import {
   FlatList,
   Typography,
   useTheme,
-} from '@onekeyhq/components';
-import theme from '@onekeyhq/components/src/Provider/theme';
+} from '@mywallet/components';
+import theme from '@mywallet/components/src/Provider/theme';
 
 const ThemeGallery = () => {
   const { themeVariant } = useTheme();

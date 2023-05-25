@@ -10,7 +10,7 @@ import { JsBridgeNativeHost } from '@onekeyfe/onekey-cross-webview';
 import { StyleSheet } from 'react-native';
 import { WebView } from 'react-native-webview';
 
-import debugLogger from '@onekeyhq/shared/src/logger/debugLogger';
+import debugLogger from '@mywallet/shared/src/logger/debugLogger';
 
 import ErrorView from './ErrorView';
 

@@ -1,6 +1,6 @@
 import { useMemo } from 'react';
 
-import { ENABLED_DAPP_SCOPE } from '@onekeyhq/shared/src/background/backgroundUtils';
+import { ENABLED_DAPP_SCOPE } from '@mywallet/shared/src/background/backgroundUtils';
 
 import { BatchSendConfirmModalBase } from '../../components/BatchSendConfirmModalBase';
 import { SendConfirmErrorsAlert } from '../../components/SendConfirmErrorsAlert';

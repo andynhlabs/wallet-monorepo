@@ -1,4 +1,4 @@
-import { useIsVerticalLayout } from '@onekeyhq/components';
+import { useIsVerticalLayout } from '@mywallet/components';
 
 import GuideToPushFirstTime from '../../../views/PushNotification/GuideToPushFirstTime';
 import { PushNotificationRoutes } from '../../../views/PushNotification/types';

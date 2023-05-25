@@ -1,3 +1,3 @@
-import { KeyringImported as KeyringImportedBtc } from '@onekeyhq/engine/src/vaults/impl/btc/KeyringImported';
+import { KeyringImported as KeyringImportedBtc } from '@mywallet/engine/src/vaults/impl/btc/KeyringImported';
 
 export class KeyringImported extends KeyringImportedBtc {}

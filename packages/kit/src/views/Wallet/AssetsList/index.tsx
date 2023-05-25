@@ -9,19 +9,19 @@ import {
   FlatList,
   useIsVerticalLayout,
   useUserDevice,
-} from '@onekeyhq/components';
-import { Tabs } from '@onekeyhq/components/src/CollapsibleTabView';
-import type { FlatListProps } from '@onekeyhq/components/src/FlatList';
-import type { Token } from '@onekeyhq/engine/src/types/token';
-import type { EVMDecodedItem } from '@onekeyhq/engine/src/vaults/impl/evm/decoder/types';
-import { EVMDecodedTxType } from '@onekeyhq/engine/src/vaults/impl/evm/decoder/types';
-import type { RootRoutes } from '@onekeyhq/kit/src/routes/routesEnum';
-import { HomeRoutes } from '@onekeyhq/kit/src/routes/routesEnum';
+} from '@mywallet/components';
+import { Tabs } from '@mywallet/components/src/CollapsibleTabView';
+import type { FlatListProps } from '@mywallet/components/src/FlatList';
+import type { Token } from '@mywallet/engine/src/types/token';
+import type { EVMDecodedItem } from '@mywallet/engine/src/vaults/impl/evm/decoder/types';
+import { EVMDecodedTxType } from '@mywallet/engine/src/vaults/impl/evm/decoder/types';
+import type { RootRoutes } from '@mywallet/kit/src/routes/routesEnum';
+import { HomeRoutes } from '@mywallet/kit/src/routes/routesEnum';
 import type {
   HomeRoutesParams,
   RootRoutesParams,
-} from '@onekeyhq/kit/src/routes/types';
-import { MAX_PAGE_CONTAINER_WIDTH } from '@onekeyhq/shared/src/config/appConfig';
+} from '@mywallet/kit/src/routes/types';
+import { MAX_PAGE_CONTAINER_WIDTH } from '@mywallet/shared/src/config/appConfig';
 
 import backgroundApiProxy from '../../../background/instance/backgroundApiProxy';
 import { useAccountTokens, useActiveSideAccount } from '../../../hooks';

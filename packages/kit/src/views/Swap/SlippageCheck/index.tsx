@@ -3,7 +3,7 @@ import { useCallback } from 'react';
 import { useNavigation, useRoute } from '@react-navigation/native';
 import { useIntl } from 'react-intl';
 
-import { Box, Button, Center, Modal, Typography } from '@onekeyhq/components';
+import { Box, Button, Center, Modal, Typography } from '@mywallet/components';
 
 import backgroundApiProxy from '../../../background/instance/backgroundApiProxy';
 import { setSlippage as setSlippageAction } from '../../../store/reducers/swapTransactions';

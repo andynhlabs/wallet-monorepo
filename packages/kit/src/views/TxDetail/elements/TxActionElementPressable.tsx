@@ -1,4 +1,4 @@
-import { Box, Icon, Pressable } from '@onekeyhq/components';
+import { Box, Icon, Pressable } from '@mywallet/components';
 
 function TxActionElementWithIcon(props: {
   children?: any;

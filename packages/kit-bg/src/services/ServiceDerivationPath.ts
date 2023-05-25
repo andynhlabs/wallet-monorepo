@@ -4,21 +4,21 @@ import {
   OneKeyErrorClassNames,
   OneKeyHardwareError,
   OneKeyInternalError,
-} from '@onekeyhq/engine/src/errors';
-import { getNextAccountId } from '@onekeyhq/engine/src/managers/derivation';
-import type { IAccount } from '@onekeyhq/engine/src/types';
+} from '@mywallet/engine/src/errors';
+import { getNextAccountId } from '@mywallet/engine/src/managers/derivation';
+import type { IAccount } from '@mywallet/engine/src/types';
 import type {
   Account,
   DBUTXOAccount,
   ImportableHDAccount,
-} from '@onekeyhq/engine/src/types/account';
-import type VaultBtcFork from '@onekeyhq/engine/src/vaults/utils/btcForkChain/VaultBtcFork';
+} from '@mywallet/engine/src/types/account';
+import type VaultBtcFork from '@mywallet/engine/src/vaults/utils/btcForkChain/VaultBtcFork';
 import {
   backgroundClass,
   backgroundMethod,
-} from '@onekeyhq/shared/src/background/backgroundDecorators';
-import { INDEX_PLACEHOLDER } from '@onekeyhq/shared/src/engine/engineConsts';
-import debugLogger from '@onekeyhq/shared/src/logger/debugLogger';
+} from '@mywallet/shared/src/background/backgroundDecorators';
+import { INDEX_PLACEHOLDER } from '@mywallet/shared/src/engine/engineConsts';
+import debugLogger from '@mywallet/shared/src/logger/debugLogger';
 
 import ServiceBase from './ServiceBase';
 

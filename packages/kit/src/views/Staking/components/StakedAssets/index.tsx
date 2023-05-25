@@ -1,7 +1,7 @@
 import type { FC } from 'react';
 
-import { Box } from '@onekeyhq/components';
-import { useTokenSupportStakedAssets } from '@onekeyhq/kit/src/hooks/useTokens';
+import { Box } from '@mywallet/components';
+import { useTokenSupportStakedAssets } from '@mywallet/kit/src/hooks/useTokens';
 
 import { useActiveWalletAccount } from '../../../../hooks';
 

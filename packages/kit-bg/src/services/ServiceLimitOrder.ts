@@ -1,9 +1,9 @@
 /* eslint-disable @typescript-eslint/require-await, @typescript-eslint/no-unsafe-return, @typescript-eslint/no-unsafe-member-access */
 
-import { getFiatEndpoint } from '@onekeyhq/engine/src/endpoint';
-import { isAccountCompatibleWithNetwork } from '@onekeyhq/engine/src/managers/account';
-import type { Network } from '@onekeyhq/engine/src/types/network';
-import type { Token } from '@onekeyhq/engine/src/types/token';
+import { getFiatEndpoint } from '@mywallet/engine/src/endpoint';
+import { isAccountCompatibleWithNetwork } from '@mywallet/engine/src/managers/account';
+import type { Network } from '@mywallet/engine/src/types/network';
+import type { Token } from '@mywallet/engine/src/types/token';
 import {
   resetState,
   setActiveAccount,
@@ -14,24 +14,24 @@ import {
   setTokenOut,
   setTypedPrice,
   setTypedValue,
-} from '@onekeyhq/kit/src/store/reducers/limitOrder';
+} from '@mywallet/kit/src/store/reducers/limitOrder';
 import {
   deleteLimitOrderTransaction,
   resetLimitOrderTransactions,
   updateLimitOrderTransaction,
-} from '@onekeyhq/kit/src/store/reducers/swapTransactions';
+} from '@mywallet/kit/src/store/reducers/swapTransactions';
 import {
   WETH9,
   limitOrderNetworkIds,
   wToken,
-} from '@onekeyhq/kit/src/views/Swap/config';
+} from '@mywallet/kit/src/views/Swap/config';
 import type {
   ILimitOrderQuoteParams,
   LimitOrder,
   LimitOrderDetailsResponse,
   LimitOrderTransactionDetails,
   ProgressStatus,
-} from '@onekeyhq/kit/src/views/Swap/typings';
+} from '@mywallet/kit/src/views/Swap/typings';
 import {
   div,
   formatAmount,
@@ -41,12 +41,12 @@ import {
   getTokenAmountValue,
   multiply,
   tokenEqual,
-} from '@onekeyhq/kit/src/views/Swap/utils';
+} from '@mywallet/kit/src/views/Swap/utils';
 import {
   backgroundClass,
   backgroundMethod,
-} from '@onekeyhq/shared/src/background/backgroundDecorators';
-import { OnekeyNetwork } from '@onekeyhq/shared/src/config/networkIds';
+} from '@mywallet/shared/src/background/backgroundDecorators';
+import { OnekeyNetwork } from '@mywallet/shared/src/config/networkIds';
 
 import ServiceBase from './ServiceBase';
 

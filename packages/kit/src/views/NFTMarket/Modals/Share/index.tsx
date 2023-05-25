@@ -13,10 +13,10 @@ import {
   SegmentedControl,
   Text,
   useTheme,
-} from '@onekeyhq/components';
-import LogoBlack from '@onekeyhq/components/src/Icon/react/illus/LogoBlack';
-import LogoWhite from '@onekeyhq/components/src/Icon/react/illus/LogoWhite';
-import platformEnv from '@onekeyhq/shared/src/platformEnv';
+} from '@mywallet/components';
+import LogoBlack from '@mywallet/components/src/Icon/react/illus/LogoBlack';
+import LogoWhite from '@mywallet/components/src/Icon/react/illus/LogoWhite';
+import platformEnv from '@mywallet/shared/src/platformEnv';
 
 import useFormatDate from '../../../../hooks/useFormatDate';
 import { PriceString } from '../../PriceText';
@@ -34,7 +34,7 @@ type RouteProps = RouteProp<
 const getShareModule = async () => {
   if (!platformEnv.isNative) return null;
   return (
-    await import('@onekeyhq/shared/src/modules3rdParty/react-native-share')
+    await import('@mywallet/shared/src/modules3rdParty/react-native-share')
   ).default;
 };
 

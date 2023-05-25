@@ -3,7 +3,7 @@ import { useMemo } from 'react';
 import BigNumber from 'bignumber.js';
 import { useIntl } from 'react-intl';
 
-import { Alert, Box } from '@onekeyhq/components';
+import { Alert, Box } from '@mywallet/components';
 
 import { useAppSelector } from '../../../../hooks';
 import { gt } from '../../utils';

@@ -1,4 +1,4 @@
-import type { OneKeyWalletConnector } from '@onekeyhq/kit/src/components/WalletConnect/OneKeyWalletConnector';
+import type { OneKeyWalletConnector } from '@mywallet/kit/src/components/WalletConnect/OneKeyWalletConnector';
 
 import type ProviderApiWalletConnect from './ProviderApiWalletConnect';
 import type { IInjectedProviderNames } from '@onekeyfe/cross-inpage-provider-types';

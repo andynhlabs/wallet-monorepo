@@ -6,11 +6,11 @@ import { MotiView } from 'moti';
 import { useIntl } from 'react-intl';
 import Svg, { ClipPath, Defs, G, Path, Rect } from 'react-native-svg';
 
-import { Box, HStack, Text, Tooltip, VStack } from '@onekeyhq/components';
-import type { LocaleIds } from '@onekeyhq/components/src/locale';
-import Pressable from '@onekeyhq/components/src/Pressable/Pressable';
-import type { BlockNativeGasInfo } from '@onekeyhq/engine/src/types/blockNative';
-import type { EIP1559Fee } from '@onekeyhq/engine/src/types/network';
+import { Box, HStack, Text, Tooltip, VStack } from '@mywallet/components';
+import type { LocaleIds } from '@mywallet/components/src/locale';
+import Pressable from '@mywallet/components/src/Pressable/Pressable';
+import type { BlockNativeGasInfo } from '@mywallet/engine/src/types/blockNative';
+import type { EIP1559Fee } from '@mywallet/engine/src/types/network';
 
 import { getConfidenceInfoLevel } from '../utils/getConfidenceInfoLevel';
 import {

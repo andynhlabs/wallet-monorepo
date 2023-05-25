@@ -3,12 +3,12 @@ import { memo, useLayoutEffect } from 'react';
 
 import { useIntl } from 'react-intl';
 
-import { Box, Switch, Text, useTheme } from '@onekeyhq/components';
-import backgroundApiProxy from '@onekeyhq/kit/src/background/instance/backgroundApiProxy';
-import { useNavigation } from '@onekeyhq/kit/src/hooks';
-import { useSettings, useStatus } from '@onekeyhq/kit/src/hooks/redux';
-import { setEnableHaptics } from '@onekeyhq/kit/src/store/reducers/settings';
-import { defaultHapticStatus } from '@onekeyhq/shared/src/haptics';
+import { Box, Switch, Text, useTheme } from '@mywallet/components';
+import backgroundApiProxy from '@mywallet/kit/src/background/instance/backgroundApiProxy';
+import { useNavigation } from '@mywallet/kit/src/hooks';
+import { useSettings, useStatus } from '@mywallet/kit/src/hooks/redux';
+import { setEnableHaptics } from '@mywallet/kit/src/store/reducers/settings';
+import { defaultHapticStatus } from '@mywallet/shared/src/haptics';
 
 type OptionsProps = {
   title?: string;

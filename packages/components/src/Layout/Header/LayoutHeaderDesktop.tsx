@@ -2,11 +2,11 @@ import { useCallback, useEffect } from 'react';
 
 import LayoutHeader from './index';
 
-import { Box, HStack, IconButton } from '@onekeyhq/components';
-import { NetworkAccountSelectorTriggerDesktop } from '@onekeyhq/kit/src/components/NetworkAccountSelector';
-import { useCheckUpdate } from '@onekeyhq/kit/src/hooks/useCheckUpdate';
-import HomeMoreMenu from '@onekeyhq/kit/src/views/Overlay/HomeMoreMenu';
-import debugLogger from '@onekeyhq/shared/src/logger/debugLogger';
+import { Box, HStack, IconButton } from '@mywallet/components';
+import { NetworkAccountSelectorTriggerDesktop } from '@mywallet/kit/src/components/NetworkAccountSelector';
+import { useCheckUpdate } from '@mywallet/kit/src/hooks/useCheckUpdate';
+import HomeMoreMenu from '@mywallet/kit/src/views/Overlay/HomeMoreMenu';
+import debugLogger from '@mywallet/shared/src/logger/debugLogger';
 
 import type { MessageDescriptor } from 'react-intl';
 

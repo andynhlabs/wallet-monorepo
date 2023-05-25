@@ -4,7 +4,7 @@ import { forwardRef, useCallback } from 'react';
 
 import { TextArea as NativeBaseTextArea } from 'native-base';
 
-import { useIsVerticalLayout } from '@onekeyhq/components';
+import { useIsVerticalLayout } from '@mywallet/components';
 
 import Box from '../Box';
 import Button from '../Button';

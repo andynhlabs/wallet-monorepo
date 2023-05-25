@@ -10,7 +10,7 @@ import {
   PresenceTransition,
   Text,
   useIsVerticalLayout,
-} from '@onekeyhq/components';
+} from '@mywallet/components';
 
 import PhraseSheet from '../PhraseSheet';
 

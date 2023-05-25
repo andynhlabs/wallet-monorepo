@@ -1,8 +1,8 @@
 import JPush from 'jpush-react-native';
 
-import { getPermissionsAsync } from '@onekeyhq/shared/src/modules3rdParty/expo-notifications';
-import type { NotificationPermissionsStatus } from '@onekeyhq/shared/src/modules3rdParty/expo-notifications/types';
-import { IosAuthorizationStatus } from '@onekeyhq/shared/src/modules3rdParty/expo-notifications/types';
+import { getPermissionsAsync } from '@mywallet/shared/src/modules3rdParty/expo-notifications';
+import type { NotificationPermissionsStatus } from '@mywallet/shared/src/modules3rdParty/expo-notifications/types';
+import { IosAuthorizationStatus } from '@mywallet/shared/src/modules3rdParty/expo-notifications/types';
 
 import { JPUSH_KEY } from '../config/appConfig';
 import debugLogger from '../logger/debugLogger';

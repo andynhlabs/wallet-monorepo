@@ -1,4 +1,4 @@
-import type { IOneKeyDeviceFeatures } from '@onekeyhq/shared/types';
+import type { IOneKeyDeviceFeatures } from '@mywallet/shared/types';
 
 import type { IDeviceType, IVersionArray } from '@onekeyfe/hd-core';
 

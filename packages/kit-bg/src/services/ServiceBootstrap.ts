@@ -6,15 +6,15 @@ import {
   getDefaultAccountNameInfoByImpl,
   getImplByCoinType,
   migrateNextAccountIds,
-} from '@onekeyhq/engine/src/managers/impl';
-import { setAccountDerivationDbMigrationVersion } from '@onekeyhq/kit/src/store/reducers/settings';
-import { updateAutoSwitchDefaultRpcAtVersion } from '@onekeyhq/kit/src/store/reducers/status';
+} from '@mywallet/engine/src/managers/impl';
+import { setAccountDerivationDbMigrationVersion } from '@mywallet/kit/src/store/reducers/settings';
+import { updateAutoSwitchDefaultRpcAtVersion } from '@mywallet/kit/src/store/reducers/status';
 import {
   backgroundClass,
   backgroundMethod,
   bindThis,
-} from '@onekeyhq/shared/src/background/backgroundDecorators';
-import { fetchData } from '@onekeyhq/shared/src/background/backgroundUtils';
+} from '@mywallet/shared/src/background/backgroundDecorators';
+import { fetchData } from '@mywallet/shared/src/background/backgroundUtils';
 import {
   ACCOUNT_DERIVATION_DB_MIGRATION_VERSION,
   AUTO_SWITCH_DEFAULT_RPC_AT_VERSION,
@@ -24,8 +24,8 @@ import {
   IMPL_COSMOS,
   INDEX_PLACEHOLDER,
   enabledAccountDynamicNetworkIds,
-} from '@onekeyhq/shared/src/engine/engineConsts';
-import debugLogger from '@onekeyhq/shared/src/logger/debugLogger';
+} from '@mywallet/shared/src/engine/engineConsts';
+import debugLogger from '@mywallet/shared/src/logger/debugLogger';
 
 import ServiceBase from './ServiceBase';
 

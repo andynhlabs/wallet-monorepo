@@ -1,6 +1,6 @@
 import type { FC, ReactNode } from 'react';
 
-import { Box, Pressable, Text, ToastManager } from '@onekeyhq/components';
+import { Box, Pressable, Text, ToastManager } from '@mywallet/components';
 
 import { formatMessage } from '../Provider';
 import { copyToClipboard } from '../utils/ClipboardUtils';

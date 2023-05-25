@@ -8,7 +8,7 @@ import {
   Pressable,
   Typography,
   useIsVerticalLayout,
-} from '@onekeyhq/components';
+} from '@mywallet/components';
 
 import { useGridBoxStyle } from '../../hooks/useMarketLayout';
 

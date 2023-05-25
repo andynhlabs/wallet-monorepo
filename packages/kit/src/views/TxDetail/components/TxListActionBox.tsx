@@ -1,6 +1,6 @@
 import type { ComponentProps } from 'react';
 
-import { Box, HStack, Text } from '@onekeyhq/components';
+import { Box, HStack, Text } from '@mywallet/components';
 
 import { TxActionElementIconLarge } from '../elements/TxActionElementIcon';
 import { TxActionElementTitleNormal } from '../elements/TxActionElementTitle';

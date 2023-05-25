@@ -4,21 +4,21 @@ import { web3Errors } from '@onekeyfe/cross-inpage-provider-errors';
 import { IInjectedProviderNames } from '@onekeyfe/cross-inpage-provider-types';
 import uuid from 'react-native-uuid';
 
-// import { ETHMessageTypes } from '@onekeyhq/engine/src/types/message';
-import { ETHMessageTypes } from '@onekeyhq/engine/src/types/message';
-import type { EvmExtraInfo, Network } from '@onekeyhq/engine/src/types/network';
-import type { IUnsignedMessageEvm } from '@onekeyhq/engine/src/vaults/impl/evm/Vault';
-import { IEncodedTxEvm } from '@onekeyhq/engine/src/vaults/impl/evm/Vault';
-import type { IEncodedTxSTC } from '@onekeyhq/engine/src/vaults/impl/stc/types';
-import { getActiveWalletAccount } from '@onekeyhq/kit/src/hooks/redux';
+// import { ETHMessageTypes } from '@mywallet/engine/src/types/message';
+import { ETHMessageTypes } from '@mywallet/engine/src/types/message';
+import type { EvmExtraInfo, Network } from '@mywallet/engine/src/types/network';
+import type { IUnsignedMessageEvm } from '@mywallet/engine/src/vaults/impl/evm/Vault';
+import { IEncodedTxEvm } from '@mywallet/engine/src/vaults/impl/evm/Vault';
+import type { IEncodedTxSTC } from '@mywallet/engine/src/vaults/impl/stc/types';
+import { getActiveWalletAccount } from '@mywallet/kit/src/hooks/redux';
 import {
   backgroundClass,
   permissionRequired,
   providerApiMethod,
-} from '@onekeyhq/shared/src/background/backgroundDecorators';
-import { IMPL_STC } from '@onekeyhq/shared/src/engine/engineConsts';
-import { fixAddressCase } from '@onekeyhq/shared/src/engine/engineUtils';
-import debugLogger from '@onekeyhq/shared/src/logger/debugLogger';
+} from '@mywallet/shared/src/background/backgroundDecorators';
+import { IMPL_STC } from '@mywallet/shared/src/engine/engineConsts';
+import { fixAddressCase } from '@mywallet/shared/src/engine/engineUtils';
+import debugLogger from '@mywallet/shared/src/logger/debugLogger';
 
 import ProviderApiBase from './ProviderApiBase';
 
@@ -202,9 +202,9 @@ class ProviderApiStarcoin extends ProviderApiBase {
   // ----------------------------------------------
   /**
    * Depends on the data we have, show contract call or send confirm modal to the user
-   * Open @type {import("@onekeyhq/kit/src/views/DappModals/Multicall.tsx").default} contract modal
-   * Open @type {import("@onekeyhq/kit/src/views/DappModals/SendConfirm.tsx").default} send modal
-   * Open @type {import("@onekeyhq/kit/src/views/DappModals/Approve.tsx").default} approve modal
+   * Open @type {import("@mywallet/kit/src/views/DappModals/Multicall.tsx").default} contract modal
+   * Open @type {import("@mywallet/kit/src/views/DappModals/SendConfirm.tsx").default} send modal
+   * Open @type {import("@mywallet/kit/src/views/DappModals/Approve.tsx").default} approve modal
    *
    * Example:
    * const result = await starcoin.request({
@@ -389,7 +389,7 @@ class ProviderApiStarcoin extends ProviderApiBase {
   }
 
   /** Sign transaction
-   * Open @type {import("@onekeyhq/kit/src/views/DappModals/Signature.tsx").default} modal
+   * Open @type {import("@mywallet/kit/src/views/DappModals/Signature.tsx").default} modal
    */
   @providerApiMethod()
   stc_signTransaction(req: IJsBridgeMessagePayload, ...params: string[]) {
@@ -407,7 +407,7 @@ class ProviderApiStarcoin extends ProviderApiBase {
   }
 
   /** Sign unapproved message
-   * Open @type {import("@onekeyhq/kit/src/views/DappModals/Signature.tsx").default} modal
+   * Open @type {import("@mywallet/kit/src/views/DappModals/Signature.tsx").default} modal
    * arg req: IJsBridgeMessagePayload, ...[msg, from, passphrase]
    */
   @providerApiMethod()

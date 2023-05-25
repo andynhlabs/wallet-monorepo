@@ -3,11 +3,11 @@ import { useMemo } from 'react';
 
 import { useIntl } from 'react-intl';
 
-import type { ICON_NAMES } from '@onekeyhq/components';
-import { Center, Icon, Image, Typography } from '@onekeyhq/components';
-import type { ThemeValues } from '@onekeyhq/components/src/Provider/theme';
-import { TxStatus } from '@onekeyhq/engine/src/types/covalent';
-import type { Network } from '@onekeyhq/engine/src/types/network';
+import type { ICON_NAMES } from '@mywallet/components';
+import { Center, Icon, Image, Typography } from '@mywallet/components';
+import type { ThemeValues } from '@mywallet/components/src/Provider/theme';
+import { TxStatus } from '@mywallet/engine/src/types/covalent';
+import type { Network } from '@mywallet/engine/src/types/network';
 
 import type { Token } from '../../../store/typings';
 

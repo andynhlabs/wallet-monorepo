@@ -1,9 +1,9 @@
 /* eslint-disable @typescript-eslint/no-unsafe-return */
 /* eslint-disable @typescript-eslint/no-unsafe-member-access, @typescript-eslint/no-unsafe-call */
-import type { SignedTx, UnsignedTx } from '@onekeyhq/engine/src/types/provider';
-import { convertDeviceError } from '@onekeyhq/shared/src/device/deviceErrorUtils';
-import { COINTYPE_ALGO as COIN_TYPE } from '@onekeyhq/shared/src/engine/engineConsts';
-import debugLogger from '@onekeyhq/shared/src/logger/debugLogger';
+import type { SignedTx, UnsignedTx } from '@mywallet/engine/src/types/provider';
+import { convertDeviceError } from '@mywallet/shared/src/device/deviceErrorUtils';
+import { COINTYPE_ALGO as COIN_TYPE } from '@mywallet/shared/src/engine/engineConsts';
+import debugLogger from '@mywallet/shared/src/logger/debugLogger';
 
 import { NotImplemented, OneKeyHardwareError } from '../../../errors';
 import { AccountType } from '../../../types/account';

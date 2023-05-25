@@ -6,13 +6,13 @@ import {
   supportedAuthenticationTypesAsync,
 } from 'expo-local-authentication';
 
-import backgroundApiProxy from '@onekeyhq/kit/src/background/instance/backgroundApiProxy';
-import { AppLock } from '@onekeyhq/kit/src/components/AppLock';
-import { useSettings } from '@onekeyhq/kit/src/hooks/redux';
-import { updateVersionAndBuildNumber } from '@onekeyhq/kit/src/store/reducers/settings';
-import { setAuthenticationType } from '@onekeyhq/kit/src/store/reducers/status';
-import appUpdates from '@onekeyhq/kit/src/utils/updates/AppUpdates';
-import platformEnv from '@onekeyhq/shared/src/platformEnv';
+import backgroundApiProxy from '@mywallet/kit/src/background/instance/backgroundApiProxy';
+import { AppLock } from '@mywallet/kit/src/components/AppLock';
+import { useSettings } from '@mywallet/kit/src/hooks/redux';
+import { updateVersionAndBuildNumber } from '@mywallet/kit/src/store/reducers/settings';
+import { setAuthenticationType } from '@mywallet/kit/src/store/reducers/status';
+import appUpdates from '@mywallet/kit/src/utils/updates/AppUpdates';
+import platformEnv from '@mywallet/shared/src/platformEnv';
 
 import { useHtmlPreloadSplashLogoRemove } from '../../hooks/useHtmlPreloadSplashLogoRemove';
 import {

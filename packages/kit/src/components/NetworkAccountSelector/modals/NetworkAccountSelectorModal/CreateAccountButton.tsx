@@ -1,9 +1,9 @@
 import { useCallback, useEffect, useMemo, useRef, useState } from 'react';
 
-import { IconButton } from '@onekeyhq/components';
-import AccountSelectorWalletMenu from '@onekeyhq/kit/src/views/Overlay/Accounts/AccountSelectorWalletMenu';
-import { isExternalWallet } from '@onekeyhq/shared/src/engine/engineUtils';
-import platformEnv from '@onekeyhq/shared/src/platformEnv';
+import { IconButton } from '@mywallet/components';
+import AccountSelectorWalletMenu from '@mywallet/kit/src/views/Overlay/Accounts/AccountSelectorWalletMenu';
+import { isExternalWallet } from '@mywallet/shared/src/engine/engineUtils';
+import platformEnv from '@mywallet/shared/src/platformEnv';
 
 import { WALLET_CONNECT_NEW_CONNECTION_BUTTON_LOADING } from '../../../WalletConnect/walletConnectConsts';
 import { InitWalletServicesData } from '../../../WalletConnect/WalletConnectQrcodeModal';

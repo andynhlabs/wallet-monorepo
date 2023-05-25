@@ -1,6 +1,6 @@
 import { isNil } from 'lodash';
 
-import platformEnv from '@onekeyhq/shared/src/platformEnv';
+import platformEnv from '@mywallet/shared/src/platformEnv';
 
 import { normalRouteWhiteList } from '../routes/linking';
 

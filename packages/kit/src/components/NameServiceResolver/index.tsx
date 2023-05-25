@@ -12,11 +12,11 @@ import {
   Spinner,
   Typography,
   useIsVerticalLayout,
-} from '@onekeyhq/components';
-import type { LocaleIds } from '@onekeyhq/components/src/locale';
-import type { SelectGroupItem } from '@onekeyhq/components/src/Select';
-import backgroundApiProxy from '@onekeyhq/kit/src/background/instance/backgroundApiProxy';
-import { useDebounce } from '@onekeyhq/kit/src/hooks';
+} from '@mywallet/components';
+import type { LocaleIds } from '@mywallet/components/src/locale';
+import type { SelectGroupItem } from '@mywallet/components/src/Select';
+import backgroundApiProxy from '@mywallet/kit/src/background/instance/backgroundApiProxy';
+import { useDebounce } from '@mywallet/kit/src/hooks';
 
 import type { IBoxProps } from 'native-base';
 

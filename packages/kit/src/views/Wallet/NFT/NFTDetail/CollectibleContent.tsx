@@ -4,13 +4,13 @@ import {
   CustomSkeleton,
   useIsVerticalLayout,
   useUserDevice,
-} from '@onekeyhq/components';
+} from '@mywallet/components';
 import {
   getContentWithAsset,
   getHttpImageWithAsset,
-} from '@onekeyhq/engine/src/managers/nft';
-import type { NFTAsset } from '@onekeyhq/engine/src/types/nft';
-import platformEnv from '@onekeyhq/shared/src/platformEnv';
+} from '@mywallet/engine/src/managers/nft';
+import type { NFTAsset } from '@mywallet/engine/src/types/nft';
+import platformEnv from '@mywallet/shared/src/platformEnv';
 
 import NFTAudio from '../../../../components/NFTAudio';
 import { MemoFallbackElement } from '../../../../components/NFTPlaceholderElement';

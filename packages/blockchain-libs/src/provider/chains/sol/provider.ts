@@ -4,14 +4,14 @@ import { PublicKey, SystemProgram, Transaction } from '@solana/web3.js';
 import BigNumber from 'bignumber.js';
 import bs58 from 'bs58';
 
-import { BaseProvider } from '@onekeyhq/engine/src/client/BaseClient';
+import { BaseProvider } from '@mywallet/engine/src/client/BaseClient';
 import type {
   AddressValidation,
   SignedTx,
   UnsignedTx,
-} from '@onekeyhq/engine/src/types/provider';
-import type { Signer, Verifier } from '@onekeyhq/engine/src/types/secret';
-import { check } from '@onekeyhq/shared/src/utils/assertUtils';
+} from '@mywallet/engine/src/types/provider';
+import type { Signer, Verifier } from '@mywallet/engine/src/types/secret';
+import { check } from '@mywallet/shared/src/utils/assertUtils';
 
 import { Solana } from './solana';
 

@@ -9,7 +9,7 @@ import {
   FlatList,
   Pressable,
   Typography,
-} from '@onekeyhq/components';
+} from '@mywallet/components';
 
 import { useTranslation } from '../../../hooks';
 import DAppIcon from '../DAppIcon';

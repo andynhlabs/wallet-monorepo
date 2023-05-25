@@ -1,8 +1,8 @@
-import VaultBtcFork from '@onekeyhq/engine/src/vaults/utils/btcForkChain/VaultBtcFork';
+import VaultBtcFork from '@mywallet/engine/src/vaults/utils/btcForkChain/VaultBtcFork';
 import {
   COINTYPE_TBTC,
   IMPL_TBTC,
-} from '@onekeyhq/shared/src/engine/engineConsts';
+} from '@mywallet/shared/src/engine/engineConsts';
 
 import { getAccountNameInfoByImpl } from '../../../managers/impl';
 import Provider from '../btc/provider';

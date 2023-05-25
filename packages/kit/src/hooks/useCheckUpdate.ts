@@ -1,6 +1,6 @@
 import { useMemo } from 'react';
 
-import debugLogger from '@onekeyhq/shared/src/logger/debugLogger';
+import debugLogger from '@mywallet/shared/src/logger/debugLogger';
 
 import appUpdates from '../utils/updates/AppUpdates';
 

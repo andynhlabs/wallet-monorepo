@@ -17,14 +17,14 @@ import {
   Text,
   ToastManager,
   useIsVerticalLayout,
-} from '@onekeyhq/components';
-import { backupPlatform } from '@onekeyhq/shared/src/cloudfs';
-import { RestoreResult } from '@onekeyhq/shared/src/services/ServiceCloudBackup/ServiceCloudBackup.enums';
+} from '@mywallet/components';
+import { backupPlatform } from '@mywallet/shared/src/cloudfs';
+import { RestoreResult } from '@mywallet/shared/src/services/ServiceCloudBackup/ServiceCloudBackup.enums';
 import type {
   ISimpleDBBackUp,
   PublicBackupData,
-} from '@onekeyhq/shared/src/services/ServiceCloudBackup/ServiceCloudBackup.types';
-import type { Avatar } from '@onekeyhq/shared/src/utils/emojiUtils';
+} from '@mywallet/shared/src/services/ServiceCloudBackup/ServiceCloudBackup.types';
+import type { Avatar } from '@mywallet/shared/src/utils/emojiUtils';
 
 import backgroundApiProxy from '../../../../background/instance/backgroundApiProxy';
 import { useNavigation } from '../../../../hooks';

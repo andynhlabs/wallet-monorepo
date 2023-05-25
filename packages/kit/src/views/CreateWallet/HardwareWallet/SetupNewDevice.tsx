@@ -4,17 +4,17 @@ import { useMemo } from 'react';
 import { useNavigation, useRoute } from '@react-navigation/native';
 import { useIntl } from 'react-intl';
 
-import { Box, Center, Image, Modal, Typography } from '@onekeyhq/components';
-import ClassicRestoreDevicePng from '@onekeyhq/kit/assets/wallet/restore-classic-device.png';
-import MiniRestoreDevicePng from '@onekeyhq/kit/assets/wallet/restore-mini-device.png';
-import TouchRestoreDevicePng from '@onekeyhq/kit/assets/wallet/restore-touch-device.png';
-import ClassicSetupNewDevicePng from '@onekeyhq/kit/assets/wallet/setup-new-classic-device.png';
-import MiniSetupNewDevicePng from '@onekeyhq/kit/assets/wallet/setup-new-mini-device.png';
-import TouchSetupNewDevicePng from '@onekeyhq/kit/assets/wallet/setup-new-touch-device.png';
-import { useHelpLink } from '@onekeyhq/kit/src/hooks';
-import type { CreateWalletRoutesParams } from '@onekeyhq/kit/src/routes/Root/Modal/CreateWallet';
-import type { ModalScreenProps } from '@onekeyhq/kit/src/routes/types';
-import { openUrl } from '@onekeyhq/kit/src/utils/openUrl';
+import { Box, Center, Image, Modal, Typography } from '@mywallet/components';
+import ClassicRestoreDevicePng from '@mywallet/kit/assets/wallet/restore-classic-device.png';
+import MiniRestoreDevicePng from '@mywallet/kit/assets/wallet/restore-mini-device.png';
+import TouchRestoreDevicePng from '@mywallet/kit/assets/wallet/restore-touch-device.png';
+import ClassicSetupNewDevicePng from '@mywallet/kit/assets/wallet/setup-new-classic-device.png';
+import MiniSetupNewDevicePng from '@mywallet/kit/assets/wallet/setup-new-mini-device.png';
+import TouchSetupNewDevicePng from '@mywallet/kit/assets/wallet/setup-new-touch-device.png';
+import { useHelpLink } from '@mywallet/kit/src/hooks';
+import type { CreateWalletRoutesParams } from '@mywallet/kit/src/routes/Root/Modal/CreateWallet';
+import type { ModalScreenProps } from '@mywallet/kit/src/routes/types';
+import { openUrl } from '@mywallet/kit/src/utils/openUrl';
 
 import type { CreateWalletModalRoutes } from '../../../routes/routesEnum';
 import type { IDeviceType } from '@onekeyfe/hd-core';

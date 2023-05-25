@@ -4,8 +4,8 @@ import BigNumber from 'bignumber.js';
 import { groupBy } from 'lodash';
 import memoizee from 'memoizee';
 
-import type { DBSimpleAccount } from '@onekeyhq/engine/src/types/account';
-import { getTimeDurationMs } from '@onekeyhq/kit/src/utils/helper';
+import type { DBSimpleAccount } from '@mywallet/engine/src/types/account';
+import { getTimeDurationMs } from '@mywallet/kit/src/utils/helper';
 
 import { InvalidAddress, OneKeyInternalError } from '../../../errors';
 import { decrypt } from '../../../secret/encryptors/aes256';

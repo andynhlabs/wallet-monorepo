@@ -1,8 +1,8 @@
 import { createSlice } from '@reduxjs/toolkit';
 
-import type { Tool } from '@onekeyhq/engine/src/types/token';
-import { stopTrace } from '@onekeyhq/shared/src/perf/perfTrace';
-import platformEnv from '@onekeyhq/shared/src/platformEnv';
+import type { Tool } from '@mywallet/engine/src/types/token';
+import { stopTrace } from '@mywallet/shared/src/perf/perfTrace';
+import platformEnv from '@mywallet/shared/src/platformEnv';
 
 import type { PayloadAction } from '@reduxjs/toolkit';
 

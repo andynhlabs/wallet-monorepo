@@ -4,14 +4,14 @@ import { MotiView } from 'moti';
 import { PermissionsAndroid, Platform } from 'react-native';
 import RootSiblingsManager from 'react-native-root-siblings';
 
-import { OverlayContainer } from '@onekeyhq/components';
-import { CloseBackDrop } from '@onekeyhq/components/src/Select';
-import backgroundApiProxy from '@onekeyhq/kit/src/background/instance/backgroundApiProxy';
-import NeedBridgeDialog from '@onekeyhq/kit/src/components/NeedBridgeDialog';
-import PermissionDialog from '@onekeyhq/kit/src/components/PermissionDialog/PermissionDialog';
-import { getAppNavigation } from '@onekeyhq/kit/src/hooks/useAppNavigation';
-import { CoreSDKLoader } from '@onekeyhq/shared/src/device/hardwareInstance';
-import platformEnv from '@onekeyhq/shared/src/platformEnv';
+import { OverlayContainer } from '@mywallet/components';
+import { CloseBackDrop } from '@mywallet/components/src/Select';
+import backgroundApiProxy from '@mywallet/kit/src/background/instance/backgroundApiProxy';
+import NeedBridgeDialog from '@mywallet/kit/src/components/NeedBridgeDialog';
+import PermissionDialog from '@mywallet/kit/src/components/PermissionDialog/PermissionDialog';
+import { getAppNavigation } from '@mywallet/kit/src/hooks/useAppNavigation';
+import { CoreSDKLoader } from '@mywallet/shared/src/device/hardwareInstance';
+import platformEnv from '@mywallet/shared/src/platformEnv';
 
 import { showDialog } from '../../../utils/overlayUtils';
 

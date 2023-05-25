@@ -2,11 +2,11 @@ import { useCallback, useState } from 'react';
 
 import { RefreshControl } from 'react-native';
 
-import { Box, Center, ScrollView } from '@onekeyhq/components';
+import { Box, Center, ScrollView } from '@mywallet/components';
 import {
   AppUIEventBusNames,
   appUIEventBus,
-} from '@onekeyhq/shared/src/eventBus/appUIEventBus';
+} from '@mywallet/shared/src/eventBus/appUIEventBus';
 
 import { Main } from './Main';
 import { SwapHeader } from './SwapHeader';

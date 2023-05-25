@@ -9,8 +9,8 @@ import {
   PresenceTransition,
   Text,
   useThemeValue,
-} from '@onekeyhq/components';
-import platformEnv from '@onekeyhq/shared/src/platformEnv';
+} from '@mywallet/components';
+import platformEnv from '@mywallet/shared/src/platformEnv';
 
 type PinPanelProps = {
   visible?: boolean;

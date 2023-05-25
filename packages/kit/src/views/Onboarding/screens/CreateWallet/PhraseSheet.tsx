@@ -9,7 +9,7 @@ import {
   MnemonicCard,
   Text,
   useIsVerticalLayout,
-} from '@onekeyhq/components';
+} from '@mywallet/components';
 
 import { wait } from '../../../../utils/helper';
 

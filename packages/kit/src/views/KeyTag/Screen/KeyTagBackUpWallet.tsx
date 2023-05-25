@@ -11,10 +11,10 @@ import {
   Icon,
   Typography,
   useIsVerticalLayout,
-} from '@onekeyhq/components';
-import type { IWallet } from '@onekeyhq/engine/src/types';
-import { openUrlExternal } from '@onekeyhq/kit/src/utils/openUrl';
-import platformEnv from '@onekeyhq/shared/src/platformEnv';
+} from '@mywallet/components';
+import type { IWallet } from '@mywallet/engine/src/types';
+import { openUrlExternal } from '@mywallet/kit/src/utils/openUrl';
+import platformEnv from '@mywallet/shared/src/platformEnv';
 
 import { useWalletSelectorSectionData } from '../../../components/WalletSelector/hooks/useWalletSelectorSectionData';
 import { WalletAvatarPro } from '../../../components/WalletSelector/WalletAvatar';

@@ -2,9 +2,9 @@ import { useNavigation } from '@react-navigation/native';
 import { find } from 'lodash';
 import { useIntl } from 'react-intl';
 
-import { Box, VStack } from '@onekeyhq/components';
-import { FormErrorMessage } from '@onekeyhq/components/src/Form/FormErrorMessage';
-import type { Token, Tool } from '@onekeyhq/engine/src/types/token';
+import { Box, VStack } from '@mywallet/components';
+import { FormErrorMessage } from '@mywallet/components/src/Form/FormErrorMessage';
+import type { Token, Tool } from '@mywallet/engine/src/types/token';
 
 import backgroundApiProxy from '../../../background/instance/backgroundApiProxy';
 import { useNetwork } from '../../../hooks';

@@ -1,4 +1,4 @@
-import { Box, useThemeValue } from '@onekeyhq/components';
+import { Box, useThemeValue } from '@mywallet/components';
 
 import PriceChart from '../../PriceChart/PriceChart';
 

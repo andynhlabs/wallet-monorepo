@@ -8,9 +8,9 @@ import {
   Text,
   Typography,
   useTheme,
-} from '@onekeyhq/components';
-import { HomeRoutes } from '@onekeyhq/kit/src/routes/routesEnum';
-import type { HomeRoutesParams } from '@onekeyhq/kit/src/routes/types';
+} from '@mywallet/components';
+import { HomeRoutes } from '@mywallet/kit/src/routes/routesEnum';
+import type { HomeRoutesParams } from '@mywallet/kit/src/routes/types';
 
 import type { NativeStackNavigationProp } from '@react-navigation/native-stack';
 

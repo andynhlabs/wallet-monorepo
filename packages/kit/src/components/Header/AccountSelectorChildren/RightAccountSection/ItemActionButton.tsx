@@ -3,8 +3,8 @@ import { memo } from 'react';
 
 import { useIntl } from 'react-intl';
 
-import { Box, Icon, Select, useIsVerticalLayout } from '@onekeyhq/components';
-import type { WalletType } from '@onekeyhq/engine/src/types/wallet';
+import { Box, Icon, Select, useIsVerticalLayout } from '@mywallet/components';
+import type { WalletType } from '@mywallet/engine/src/types/wallet';
 
 export type AccountType = WalletType;
 

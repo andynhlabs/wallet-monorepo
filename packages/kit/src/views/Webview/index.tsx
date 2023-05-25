@@ -7,11 +7,11 @@ import { useIntl } from 'react-intl';
 import { Platform, Share } from 'react-native';
 import { URL } from 'react-native-url-polyfill';
 
-import { Box, Icon, Select, ToastManager } from '@onekeyhq/components';
-import NavHeader from '@onekeyhq/components/src/NavHeader/NavHeader';
-import { copyToClipboard } from '@onekeyhq/components/src/utils/ClipboardUtils';
-import type { ModalRoutes } from '@onekeyhq/kit/src/routes/routesEnum';
-import type { ModalRoutesParams } from '@onekeyhq/kit/src/routes/types';
+import { Box, Icon, Select, ToastManager } from '@mywallet/components';
+import NavHeader from '@mywallet/components/src/NavHeader/NavHeader';
+import { copyToClipboard } from '@mywallet/components/src/utils/ClipboardUtils';
+import type { ModalRoutes } from '@mywallet/kit/src/routes/routesEnum';
+import type { ModalRoutesParams } from '@mywallet/kit/src/routes/types';
 
 import WebView from '../../components/WebView';
 import { openUrlExternal } from '../../utils/openUrl';

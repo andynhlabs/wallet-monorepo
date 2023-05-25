@@ -2,8 +2,8 @@ import {
   ImportBackupPasswordModalRoutes,
   ModalRoutes,
   RootRoutes,
-} from '@onekeyhq/kit/src/routes/routesEnum';
-import type { RestoreResult } from '@onekeyhq/shared/src/services/ServiceCloudBackup/ServiceCloudBackup.enums';
+} from '@mywallet/kit/src/routes/routesEnum';
+import type { RestoreResult } from '@mywallet/shared/src/services/ServiceCloudBackup/ServiceCloudBackup.enums';
 
 import useAppNavigation from './useAppNavigation';
 

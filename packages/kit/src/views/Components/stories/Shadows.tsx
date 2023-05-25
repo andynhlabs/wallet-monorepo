@@ -1,4 +1,4 @@
-import { Center, HStack } from '@onekeyhq/components';
+import { Center, HStack } from '@mywallet/components';
 
 const ShadowsGallery = () => (
   <HStack flex="1" bg="white" space={10} p={10}>

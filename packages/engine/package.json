@@ -1,8 +1,8 @@
 {
-  "name": "@onekeyhq/engine",
+  "name": "@mywallet/engine",
   "version": "0.0.1",
   "main": "./src/index.ts",
-  "license": "SEE https://github.com/OneKeyHQ/app-monorepo/blob/onekey/LICENSE.md",
+  "license": "SEE https://github.com/OneKeyHQ/wallet-monorepo/blob/onekey/LICENSE.md",
   "private": true,
   "scripts": {
     "build": "run-s clean build:main",

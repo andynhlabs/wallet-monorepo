@@ -1,4 +1,4 @@
-import { useIsVerticalLayout } from '@onekeyhq/components';
+import { useIsVerticalLayout } from '@mywallet/components';
 
 import UpdateFeature from '../../../views/Update/Feature';
 import ForcedUpdate from '../../../views/Update/ForcedUpdate';

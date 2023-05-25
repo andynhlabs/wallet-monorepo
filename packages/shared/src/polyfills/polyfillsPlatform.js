@@ -113,7 +113,7 @@ try {
   console.log('Missing FileReader; unsupported platform');
 }
 
-const platformEnv = require('@onekeyhq/shared/src/platformEnv');
+const platformEnv = require('@mywallet/shared/src/platformEnv');
 
 if (platformEnv.isNativeAndroid) {
   const shimConsoleLog = (method) => {

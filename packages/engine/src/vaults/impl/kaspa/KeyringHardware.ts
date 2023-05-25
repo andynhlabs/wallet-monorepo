@@ -1,12 +1,12 @@
 import { Transaction } from '@kaspa/core-lib';
 import { bytesToHex } from '@noble/hashes/utils';
 
-import { convertDeviceError } from '@onekeyhq/shared/src/device/deviceErrorUtils';
+import { convertDeviceError } from '@mywallet/shared/src/device/deviceErrorUtils';
 import {
   IMPL_KASPA as COIN_IMPL,
   COINTYPE_KASPA as COIN_TYPE,
-} from '@onekeyhq/shared/src/engine/engineConsts';
-import debugLogger from '@onekeyhq/shared/src/logger/debugLogger';
+} from '@mywallet/shared/src/engine/engineConsts';
+import debugLogger from '@mywallet/shared/src/logger/debugLogger';
 
 import { OneKeyHardwareError } from '../../../errors';
 import { slicePathTemplate } from '../../../managers/derivation';

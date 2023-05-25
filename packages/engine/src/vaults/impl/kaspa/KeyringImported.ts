@@ -1,7 +1,7 @@
 import { bytesToHex, hexToBytes } from '@noble/hashes/utils';
 
-import { COINTYPE_KASPA as COIN_TYPE } from '@onekeyhq/shared/src/engine/engineConsts';
-import debugLogger from '@onekeyhq/shared/src/logger/debugLogger';
+import { COINTYPE_KASPA as COIN_TYPE } from '@mywallet/shared/src/engine/engineConsts';
+import debugLogger from '@mywallet/shared/src/logger/debugLogger';
 
 import { OneKeyInternalError } from '../../../errors';
 import { Signer } from '../../../proxy';

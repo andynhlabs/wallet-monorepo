@@ -1,13 +1,13 @@
 import BigNumber from 'bignumber.js';
 import { baseDecode, baseEncode } from 'borsh';
 
-import { BaseProvider } from '@onekeyhq/engine/src/client/BaseClient';
+import { BaseProvider } from '@mywallet/engine/src/client/BaseClient';
 import type {
   AddressValidation,
   SignedTx,
   UnsignedTx,
-} from '@onekeyhq/engine/src/types/provider';
-import type { Signer, Verifier } from '@onekeyhq/engine/src/types/secret';
+} from '@mywallet/engine/src/types/provider';
+import type { Signer, Verifier } from '@mywallet/engine/src/types/secret';
 
 import { NearCli } from './nearcli';
 import { PublicKey } from './sdk/key_pair';

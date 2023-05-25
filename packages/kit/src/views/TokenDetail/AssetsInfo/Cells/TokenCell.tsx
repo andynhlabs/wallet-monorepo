@@ -11,10 +11,10 @@ import {
   Token,
   Typography,
   useIsVerticalLayout,
-} from '@onekeyhq/components';
-import { getBalanceKey } from '@onekeyhq/engine/src/managers/token';
-import type { Token as TokenDO } from '@onekeyhq/engine/src/types/token';
-import { useActiveWalletAccount } from '@onekeyhq/kit/src/hooks/redux';
+} from '@mywallet/components';
+import { getBalanceKey } from '@mywallet/engine/src/managers/token';
+import type { Token as TokenDO } from '@mywallet/engine/src/types/token';
+import { useActiveWalletAccount } from '@mywallet/kit/src/hooks/redux';
 
 import { FormatBalance } from '../../../../components/Format';
 import { useAccountTokensBalance } from '../../../../hooks';

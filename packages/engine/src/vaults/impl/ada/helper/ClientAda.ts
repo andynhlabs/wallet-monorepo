@@ -3,8 +3,8 @@ import BigNumber from 'bignumber.js';
 import { isUndefined } from 'lodash';
 import memoizee from 'memoizee';
 
-import { getFiatEndpoint } from '@onekeyhq/engine/src/endpoint';
-import { getTimeDurationMs } from '@onekeyhq/kit/src/utils/helper';
+import { getFiatEndpoint } from '@mywallet/engine/src/endpoint';
+import { getTimeDurationMs } from '@mywallet/kit/src/utils/helper';
 
 import { OneKeyInternalError } from '../../../../errors';
 

@@ -3,8 +3,8 @@ import { memo, useMemo } from 'react';
 
 import { useIntl } from 'react-intl';
 
-import { Box, HStack, Icon, Typography } from '@onekeyhq/components';
-import type { ThemeToken } from '@onekeyhq/components/src/Provider/theme';
+import { Box, HStack, Icon, Typography } from '@mywallet/components';
+import type { ThemeToken } from '@mywallet/components/src/Provider/theme';
 
 import { KeyTagMnemonicStatus } from '../../types';
 

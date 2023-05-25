@@ -9,8 +9,8 @@ import {
   Image,
   Typography,
   useIsVerticalLayout,
-} from '@onekeyhq/components';
-import introductionImage from '@onekeyhq/kit/assets/keytag/introduction.png';
+} from '@mywallet/components';
+import introductionImage from '@mywallet/kit/assets/keytag/introduction.png';
 
 import { useNavigation } from '../../../hooks';
 import LayoutContainer from '../../Onboarding/Layout';

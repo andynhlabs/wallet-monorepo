@@ -3,8 +3,8 @@ import { useCallback } from 'react';
 import { useNavigation, useRoute } from '@react-navigation/native';
 import { useIntl } from 'react-intl';
 
-import { Box, LottieView, Modal, Text, VStack } from '@onekeyhq/components';
-import type { ModalScreenProps } from '@onekeyhq/kit/src/routes/types';
+import { Box, LottieView, Modal, Text, VStack } from '@mywallet/components';
+import type { ModalScreenProps } from '@mywallet/kit/src/routes/types';
 
 import { ModalRoutes, RootRoutes } from '../../../routes/routesEnum';
 import { StakingRoutes } from '../typing';
@@ -44,7 +44,7 @@ const TransactionFeedback = () => {
         <Box w="200px" h="200px">
           <LottieView
             width={200}
-            source={require('@onekeyhq/kit/assets/animations/lottie_send_success_feedback.json')}
+            source={require('@mywallet/kit/assets/animations/lottie_send_success_feedback.json')}
             autoPlay
             loop={false}
           />

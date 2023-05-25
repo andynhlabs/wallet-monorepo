@@ -2,7 +2,7 @@ import type { FC } from 'react';
 
 import { useIntl } from 'react-intl';
 
-import { Box, Icon, Typography } from '@onekeyhq/components';
+import { Box, Icon, Typography } from '@mywallet/components';
 
 import { calculateGains } from '../../utils/priceUtils';
 

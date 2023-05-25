@@ -10,9 +10,9 @@ import {
   Typography,
   VStack,
   useIsVerticalLayout,
-} from '@onekeyhq/components';
-import { Tabs } from '@onekeyhq/components/src/CollapsibleTabView';
-import type { Token as TokenDO } from '@onekeyhq/engine/src/types/token';
+} from '@mywallet/components';
+import { Tabs } from '@mywallet/components/src/CollapsibleTabView';
+import type { Token as TokenDO } from '@mywallet/engine/src/types/token';
 
 import backgroundApiProxy from '../../../background/instance/backgroundApiProxy';
 import {

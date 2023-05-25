@@ -3,14 +3,14 @@ import { memo, useCallback, useEffect } from 'react';
 
 import { AppState, NativeModules } from 'react-native';
 
-import type { NotificationExtra } from '@onekeyhq/engine/src/managers/notification';
-import { useSettings } from '@onekeyhq/kit/src/hooks/redux';
-import { requestPermissionsAsync } from '@onekeyhq/shared/src/modules3rdParty/expo-notifications';
+import type { NotificationExtra } from '@mywallet/engine/src/managers/notification';
+import { useSettings } from '@mywallet/kit/src/hooks/redux';
+import { requestPermissionsAsync } from '@mywallet/shared/src/modules3rdParty/expo-notifications';
 import {
   checkPushNotificationPermission,
   hasPermission,
-} from '@onekeyhq/shared/src/notification';
-import platformEnv from '@onekeyhq/shared/src/platformEnv';
+} from '@mywallet/shared/src/notification';
+import platformEnv from '@mywallet/shared/src/platformEnv';
 
 import backgroundApiProxy from '../background/instance/backgroundApiProxy';
 import PermissionDialog from '../components/PermissionDialog/PermissionDialog';

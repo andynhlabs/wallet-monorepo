@@ -3,10 +3,10 @@ import { useCallback } from 'react';
 
 import { useIntl } from 'react-intl';
 
-import { Container, ToastManager } from '@onekeyhq/components';
-import type { ContentItemProps } from '@onekeyhq/components/src/Container/ContentBasisItem';
-import { shortenAddress } from '@onekeyhq/components/src/utils';
-import { copyToClipboard } from '@onekeyhq/components/src/utils/ClipboardUtils';
+import { Container, ToastManager } from '@mywallet/components';
+import type { ContentItemProps } from '@mywallet/components/src/Container/ContentBasisItem';
+import { shortenAddress } from '@mywallet/components/src/utils';
+import { copyToClipboard } from '@mywallet/components/src/utils/ClipboardUtils';
 
 export type HashProps = {
   hash: string; // tx hash

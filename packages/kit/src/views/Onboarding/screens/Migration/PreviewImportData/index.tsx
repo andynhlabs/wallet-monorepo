@@ -19,12 +19,12 @@ import {
   Text,
   ToastManager,
   useIsVerticalLayout,
-} from '@onekeyhq/components';
-import { RestoreResult } from '@onekeyhq/shared/src/services/ServiceCloudBackup/ServiceCloudBackup.enums';
+} from '@mywallet/components';
+import { RestoreResult } from '@mywallet/shared/src/services/ServiceCloudBackup/ServiceCloudBackup.enums';
 import type {
   ISimpleDBBackUp,
   PublicBackupData,
-} from '@onekeyhq/shared/src/services/ServiceCloudBackup/ServiceCloudBackup.types';
+} from '@mywallet/shared/src/services/ServiceCloudBackup/ServiceCloudBackup.types';
 
 import backgroundApiProxy from '../../../../../background/instance/backgroundApiProxy';
 import { useAppSelector, useData } from '../../../../../hooks/redux';

@@ -2,9 +2,9 @@ import { memo, useCallback, useMemo } from 'react';
 
 import { createDrawerNavigator } from '@react-navigation/drawer';
 
-import { getDrawerWidth } from '@onekeyhq/app/src/views/NestedTabView/types';
-import { useThemeValue } from '@onekeyhq/components';
-import platformEnv from '@onekeyhq/shared/src/platformEnv';
+import { getDrawerWidth } from '@mywallet/app/src/views/NestedTabView/types';
+import { useThemeValue } from '@mywallet/components';
+import platformEnv from '@mywallet/shared/src/platformEnv';
 
 import { WalletSelectorMobile } from '../../../components/WalletSelector';
 import { MainRoutes } from '../../routesEnum';

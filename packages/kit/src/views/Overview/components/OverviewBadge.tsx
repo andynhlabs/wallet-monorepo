@@ -2,7 +2,7 @@ import type { FC } from 'react';
 
 import { useIntl } from 'react-intl';
 
-import { Badge, Box, Tooltip, useIsVerticalLayout } from '@onekeyhq/components';
+import { Badge, Box, Tooltip, useIsVerticalLayout } from '@mywallet/components';
 
 import type B from 'bignumber.js';
 

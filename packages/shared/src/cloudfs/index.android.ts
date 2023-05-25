@@ -2,7 +2,7 @@ import { GoogleSignin } from '@react-native-community/google-signin';
 import axios from 'axios';
 import RNCloudFs from 'react-native-cloud-fs';
 
-import debugLogger from '@onekeyhq/shared/src/logger/debugLogger';
+import debugLogger from '@mywallet/shared/src/logger/debugLogger';
 
 import platformEnv from '../platformEnv';
 

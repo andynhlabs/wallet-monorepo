@@ -13,7 +13,7 @@ import {
   Token as TokenImage,
   Typography,
   VStack,
-} from '@onekeyhq/components';
+} from '@mywallet/components';
 
 import { useAccount, useAppSelector, useNavigation } from '../../../../hooks';
 import useFormatDate from '../../../../hooks/useFormatDate';

@@ -43,7 +43,7 @@ import {
   IMPL_XRP,
   INDEX_PLACEHOLDER,
   SEPERATOR,
-} from '@onekeyhq/shared/src/engine/engineConsts';
+} from '@mywallet/shared/src/engine/engineConsts';
 
 import { OneKeyInternalError } from '../errors';
 

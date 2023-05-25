@@ -1,17 +1,17 @@
-import simpleDb from '@onekeyhq/engine/src/dbs/simple/simpleDb';
+import simpleDb from '@mywallet/engine/src/dbs/simple/simpleDb';
 import {
   decrypt,
   encrypt,
-} from '@onekeyhq/engine/src/secret/encryptors/aes256';
-import { generateUUID } from '@onekeyhq/kit/src/utils/helper';
+} from '@mywallet/engine/src/secret/encryptors/aes256';
+import { generateUUID } from '@mywallet/kit/src/utils/helper';
 import {
   backgroundClass,
   backgroundMethod,
-} from '@onekeyhq/shared/src/background/backgroundDecorators';
+} from '@mywallet/shared/src/background/backgroundDecorators';
 import {
   AppEventBusNames,
   appEventBus,
-} from '@onekeyhq/shared/src/eventBus/appEventBus';
+} from '@mywallet/shared/src/eventBus/appEventBus';
 
 import ServiceBase from './ServiceBase';
 

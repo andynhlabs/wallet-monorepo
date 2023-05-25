@@ -1,4 +1,4 @@
-import { useIsVerticalLayout } from '@onekeyhq/components';
+import { useIsVerticalLayout } from '@mywallet/components';
 
 import EditAddress from '../../../views/AddressBook/EditAddress';
 import EnterAddress from '../../../views/AddressBook/EnterAddress';

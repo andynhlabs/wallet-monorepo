@@ -6,8 +6,8 @@ import { useIntl } from 'react-intl';
 import { Platform } from 'react-native';
 import KeyboardManager from 'react-native-keyboard-manager';
 
-import { useIsVerticalLayout } from '@onekeyhq/components';
-import platformEnv from '@onekeyhq/shared/src/platformEnv';
+import { useIsVerticalLayout } from '@mywallet/components';
+import platformEnv from '@mywallet/shared/src/platformEnv';
 
 import { createLazyComponent } from '../../utils/createLazyComponent';
 import { RootRoutes } from '../routesEnum';
@@ -17,14 +17,14 @@ import createStackNavigator from './Modal/createStackNavigator';
 
 const ModalStackNavigator = createLazyComponent(() => import('./Modal'));
 const OnLanding = createLazyComponent(
-  () => import('@onekeyhq/kit/src/views/OnLanding'),
+  () => import('@mywallet/kit/src/views/OnLanding'),
 );
 const Main = createLazyComponent(() => import('./Main/index'));
 const AccountRootLanding = createLazyComponent(
   () => import('./AccountRootLanding'),
 );
 const RouteOnboarding = createLazyComponent(
-  () => import('@onekeyhq/kit/src/views/Onboarding/routes/RouteOnboarding'),
+  () => import('@mywallet/kit/src/views/Onboarding/routes/RouteOnboarding'),
 );
 
 const RootStack = createStackNavigator();

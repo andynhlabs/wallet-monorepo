@@ -1,4 +1,4 @@
-import { useIsVerticalLayout } from '@onekeyhq/components';
+import { useIsVerticalLayout } from '@mywallet/components';
 
 import MoonpayWebView from '../../../views/FiatPay/MoonpayWebView';
 import SupportTokenList from '../../../views/FiatPay/SupportTokenList';

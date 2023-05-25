@@ -20,23 +20,23 @@ import {
   Skeleton,
   Text,
   ToastManager,
-} from '@onekeyhq/components';
-import { copyToClipboard } from '@onekeyhq/components/src/utils/ClipboardUtils';
+} from '@mywallet/components';
+import { copyToClipboard } from '@mywallet/components/src/utils/ClipboardUtils';
 import type {
   DeviceInfo,
   MigrateData,
-} from '@onekeyhq/engine/src/types/migrate';
-import { MigrateErrorCode } from '@onekeyhq/engine/src/types/migrate';
-import { httpServerEnable } from '@onekeyhq/kit-bg/src/services/ServiceHTTP';
-import { MigrateNotificationNames } from '@onekeyhq/kit-bg/src/services/ServiceMigrate';
-import type { MigrateNotificationData } from '@onekeyhq/kit-bg/src/services/ServiceMigrate';
-import qrcodeLogo from '@onekeyhq/kit/assets/qrcode_logo.png';
-import { RootRoutes } from '@onekeyhq/kit/src/routes/routesEnum';
+} from '@mywallet/engine/src/types/migrate';
+import { MigrateErrorCode } from '@mywallet/engine/src/types/migrate';
+import { httpServerEnable } from '@mywallet/kit-bg/src/services/ServiceHTTP';
+import { MigrateNotificationNames } from '@mywallet/kit-bg/src/services/ServiceMigrate';
+import type { MigrateNotificationData } from '@mywallet/kit-bg/src/services/ServiceMigrate';
+import qrcodeLogo from '@mywallet/kit/assets/qrcode_logo.png';
+import { RootRoutes } from '@mywallet/kit/src/routes/routesEnum';
 import {
   AppUIEventBusNames,
   appUIEventBus,
-} from '@onekeyhq/shared/src/eventBus/appUIEventBus';
-import debugLogger from '@onekeyhq/shared/src/logger/debugLogger';
+} from '@mywallet/shared/src/eventBus/appUIEventBus';
+import debugLogger from '@mywallet/shared/src/logger/debugLogger';
 
 import backgroundApiProxy from '../../../../../background/instance/backgroundApiProxy';
 import { gotoScanQrcode } from '../../../../../utils/gotoScanQrcode';

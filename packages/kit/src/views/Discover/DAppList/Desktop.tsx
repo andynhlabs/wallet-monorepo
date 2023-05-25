@@ -10,7 +10,7 @@ import {
   Pressable,
   Skeleton,
   Typography,
-} from '@onekeyhq/components';
+} from '@mywallet/components';
 
 import { useTranslation } from '../../../hooks';
 import { Chains } from '../Chains';

@@ -3,11 +3,11 @@ import { memo, useMemo } from 'react';
 
 import { SectionList } from 'react-native';
 
-import { Box, Skeleton, Typography } from '@onekeyhq/components';
-import type { Account as AccountEngineType } from '@onekeyhq/engine/src/types/account';
-import type { Network } from '@onekeyhq/engine/src/types/network';
-import type { Wallet } from '@onekeyhq/engine/src/types/wallet';
-import { NetworkIcon } from '@onekeyhq/kit/src/views/ManageNetworks/Listing/NetworkIcon';
+import { Box, Skeleton, Typography } from '@mywallet/components';
+import type { Account as AccountEngineType } from '@mywallet/engine/src/types/account';
+import type { Network } from '@mywallet/engine/src/types/network';
+import type { Wallet } from '@mywallet/engine/src/types/wallet';
+import { NetworkIcon } from '@mywallet/kit/src/views/ManageNetworks/Listing/NetworkIcon';
 
 import { useAppSelector } from '../../../../hooks';
 

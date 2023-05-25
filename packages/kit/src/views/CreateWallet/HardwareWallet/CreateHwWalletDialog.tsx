@@ -3,10 +3,10 @@ import { useEffect } from 'react';
 
 import { useIntl } from 'react-intl';
 
-import { Dialog, Spinner, ToastManager } from '@onekeyhq/components';
-import { OneKeyErrorClassNames } from '@onekeyhq/engine/src/errors';
-import type { Device } from '@onekeyhq/engine/src/types/device';
-import backgroundApiProxy from '@onekeyhq/kit/src/background/instance/backgroundApiProxy';
+import { Dialog, Spinner, ToastManager } from '@mywallet/components';
+import { OneKeyErrorClassNames } from '@mywallet/engine/src/errors';
+import type { Device } from '@mywallet/engine/src/types/device';
+import backgroundApiProxy from '@mywallet/kit/src/background/instance/backgroundApiProxy';
 
 import { deviceUtils } from '../../../utils/hardware';
 import { DeviceNotFind } from '../../../utils/hardware/errors';

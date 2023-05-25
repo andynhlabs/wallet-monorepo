@@ -6,7 +6,7 @@ import {
   useDrawerStatus,
 } from '@react-navigation/drawer';
 
-import platformEnv from '@onekeyhq/shared/src/platformEnv';
+import platformEnv from '@mywallet/shared/src/platformEnv';
 
 import { LazyDisplayView } from '../LazyDisplayView';
 import { useAccountSelectorInfo } from '../NetworkAccountSelector/hooks/useAccountSelectorInfo';

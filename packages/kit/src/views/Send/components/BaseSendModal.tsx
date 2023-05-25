@@ -1,6 +1,6 @@
 import type { ComponentProps } from 'react';
 
-import { Box, Image, Modal, Text } from '@onekeyhq/components';
+import { Box, Image, Modal, Text } from '@mywallet/components';
 
 import { useNetwork } from '../../../hooks';
 

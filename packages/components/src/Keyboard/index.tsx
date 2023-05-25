@@ -3,7 +3,7 @@ import type { FC } from 'react';
 import { chunk } from 'lodash';
 import { Center, Column, Pressable, Row } from 'native-base';
 
-import { doHapticsWhenEnabled } from '@onekeyhq/shared/src/haptics';
+import { doHapticsWhenEnabled } from '@mywallet/shared/src/haptics';
 
 import Box from '../Box';
 import Icon from '../Icon';

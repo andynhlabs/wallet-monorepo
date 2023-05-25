@@ -17,16 +17,16 @@ import {
   Text,
   Typography,
   VStack,
-} from '@onekeyhq/components';
-import { FormErrorMessage } from '@onekeyhq/components/src/Form/FormErrorMessage';
+} from '@mywallet/components';
+import { FormErrorMessage } from '@mywallet/components/src/Form/FormErrorMessage';
 import {
   AptosMessageTypes,
   CommonMessageTypes,
   ETHMessageTypes,
-} from '@onekeyhq/engine/src/types/message';
-import type { IUnsignedMessageEvm } from '@onekeyhq/engine/src/vaults/impl/evm/Vault';
-import X from '@onekeyhq/kit/assets/red_x.png';
-import type { IDappSourceInfo } from '@onekeyhq/shared/types';
+} from '@mywallet/engine/src/types/message';
+import type { IUnsignedMessageEvm } from '@mywallet/engine/src/vaults/impl/evm/Vault';
+import X from '@mywallet/kit/assets/red_x.png';
+import type { IDappSourceInfo } from '@mywallet/shared/types';
 
 import { useActiveSideAccount } from '../../hooks';
 

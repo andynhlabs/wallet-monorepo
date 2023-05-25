@@ -2,7 +2,7 @@ import { useMemo } from 'react';
 
 import WebView from './index';
 
-import platformEnv from '@onekeyhq/shared/src/platformEnv';
+import platformEnv from '@mywallet/shared/src/platformEnv';
 
 import { useThemeProviderVariant } from '../../provider/ThemeProvider';
 

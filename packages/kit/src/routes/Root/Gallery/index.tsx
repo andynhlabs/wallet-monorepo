@@ -1,6 +1,6 @@
 import { createNativeStackNavigator } from '@react-navigation/native-stack';
 
-import { useThemeValue } from '@onekeyhq/components';
+import { useThemeValue } from '@mywallet/components';
 
 import ComponentsScreen from '../../../views/Components';
 import AccountGallery from '../../../views/Components/stories/Account';

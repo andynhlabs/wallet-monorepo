@@ -4,7 +4,7 @@ import { useFocusEffect } from '@react-navigation/native';
 import { Freeze } from 'react-freeze';
 import { StyleSheet, View } from 'react-native';
 
-import { Box } from '@onekeyhq/components';
+import { Box } from '@mywallet/components';
 
 import { homeTab } from '../../../../store/reducers/webTabs';
 import DiscoverHome from '../../Home';

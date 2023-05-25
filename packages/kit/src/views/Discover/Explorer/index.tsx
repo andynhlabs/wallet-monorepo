@@ -2,8 +2,8 @@
 import type { FC } from 'react';
 import { memo } from 'react';
 
-import { Box, useIsVerticalLayout } from '@onekeyhq/components';
-import platformEnv from '@onekeyhq/shared/src/platformEnv';
+import { Box, useIsVerticalLayout } from '@mywallet/components';
+import platformEnv from '@mywallet/shared/src/platformEnv';
 
 // import ExplorerDesktop from './Desktop/ExplorerDesktop';
 // import ExplorerMobile from './Mobile/ExplorerMobile';

@@ -1,5 +1,5 @@
-import { useIsVerticalLayout } from '@onekeyhq/components';
-import type { IOneKeyDeviceType } from '@onekeyhq/shared/types';
+import { useIsVerticalLayout } from '@mywallet/components';
+import type { IOneKeyDeviceType } from '@mywallet/shared/types';
 
 import OnekeyDeviceWalletName from '../../../views/Hardware/Onekey/OnekeyDeviceWalletName';
 import OnekeyHardwareConfirm from '../../../views/Hardware/Onekey/OnekeyHardwareConfirm';

@@ -1,4 +1,4 @@
-import { Address, Center } from '@onekeyhq/components';
+import { Address, Center } from '@mywallet/components';
 
 const AddressGallery = () => (
   <Center flex="1" bg="background-hovered">

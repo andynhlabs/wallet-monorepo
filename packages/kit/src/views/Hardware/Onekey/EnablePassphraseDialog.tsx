@@ -3,10 +3,10 @@ import { useCallback, useState } from 'react';
 
 import { useIntl } from 'react-intl';
 
-import { CheckBox, Dialog } from '@onekeyhq/components';
-import backgroundApiProxy from '@onekeyhq/kit/src/background/instance/backgroundApiProxy';
-import { deviceUtils } from '@onekeyhq/kit/src/utils/hardware';
-import { showDialog } from '@onekeyhq/kit/src/utils/overlayUtils';
+import { CheckBox, Dialog } from '@mywallet/components';
+import backgroundApiProxy from '@mywallet/kit/src/background/instance/backgroundApiProxy';
+import { deviceUtils } from '@mywallet/kit/src/utils/hardware';
+import { showDialog } from '@mywallet/kit/src/utils/overlayUtils';
 
 import HardwareLoadingDialog from './OnekeyHardwareConnectDialog';
 

@@ -1,7 +1,7 @@
 import { useEffect } from 'react';
 
-import { Box, useProviderValue } from '@onekeyhq/components';
-import { setMainScreenDom } from '@onekeyhq/components/src/utils/SelectAutoHide';
+import { Box, useProviderValue } from '@mywallet/components';
+import { setMainScreenDom } from '@mywallet/components/src/utils/SelectAutoHide';
 
 import backgroundApiProxy from '../../../background/instance/backgroundApiProxy';
 import { NetworkAccountSelectorEffectsSingleton } from '../../../components/NetworkAccountSelector/hooks/useAccountSelectorEffects';

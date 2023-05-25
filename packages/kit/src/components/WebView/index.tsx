@@ -1,8 +1,8 @@
 import type { ComponentProps, FC } from 'react';
 import { useCallback } from 'react';
 
-import { Box, Button, Center } from '@onekeyhq/components';
-import platformEnv from '@onekeyhq/shared/src/platformEnv';
+import { Box, Button, Center } from '@mywallet/components';
+import platformEnv from '@mywallet/shared/src/platformEnv';
 
 import backgroundApiProxy from '../../background/instance/backgroundApiProxy';
 import extUtils from '../../utils/extUtils';

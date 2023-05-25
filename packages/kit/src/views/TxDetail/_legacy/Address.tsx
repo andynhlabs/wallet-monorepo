@@ -4,8 +4,8 @@ import { useEffect, useState } from 'react';
 import _ from 'lodash';
 import { useIntl } from 'react-intl';
 
-import { Container } from '@onekeyhq/components';
-import type { ContentItemProps } from '@onekeyhq/components/src/Container/ContentBasisItem';
+import { Container } from '@mywallet/components';
+import type { ContentItemProps } from '@mywallet/components/src/Container/ContentBasisItem';
 
 import backgroundApiProxy from '../../../background/instance/backgroundApiProxy';
 

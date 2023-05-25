@@ -11,8 +11,8 @@ import {
   Pressable,
   Spinner,
   Text,
-} from '@onekeyhq/components';
-import type { IBackupItemSummary } from '@onekeyhq/shared/src/services/ServiceCloudBackup/ServiceCloudBackup.types';
+} from '@mywallet/components';
+import type { IBackupItemSummary } from '@mywallet/shared/src/services/ServiceCloudBackup/ServiceCloudBackup.types';
 
 import backgroundApiProxy from '../../../../background/instance/backgroundApiProxy';
 import { useNavigation } from '../../../../hooks';

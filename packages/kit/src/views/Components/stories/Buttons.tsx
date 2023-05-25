@@ -1,7 +1,7 @@
 import type { ComponentProps, FC } from 'react';
 import { useCallback } from 'react';
 
-import { Button, Center, ScrollView, Stack } from '@onekeyhq/components';
+import { Button, Center, ScrollView, Stack } from '@mywallet/components';
 
 type SetProps = { size?: ComponentProps<typeof Button>['size'] };
 

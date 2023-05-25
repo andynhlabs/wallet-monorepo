@@ -2,8 +2,8 @@ import { networkList } from '@onekeyfe/network-list';
 import B from 'bignumber.js';
 import { uniq } from 'lodash';
 
-import type { LocaleIds } from '@onekeyhq/components/src/locale';
-import { OnekeyNetwork } from '@onekeyhq/shared/src/config/networkIds';
+import type { LocaleIds } from '@mywallet/components/src/locale';
+import { OnekeyNetwork } from '@mywallet/shared/src/config/networkIds';
 
 import { GoPlusSupportApis } from '../types/goplus';
 import { TokenRiskLevel } from '../types/token';

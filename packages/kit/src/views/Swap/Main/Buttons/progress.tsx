@@ -1,6 +1,6 @@
 import type { FC } from 'react';
 
-import { Box, Center, Spinner, Typography } from '@onekeyhq/components';
+import { Box, Center, Spinner, Typography } from '@mywallet/components';
 
 import { useAppSelector } from '../../../../hooks';
 

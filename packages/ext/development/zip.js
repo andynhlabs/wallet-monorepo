@@ -24,7 +24,7 @@ browsers.forEach((browser) => {
   mkdir -p ${browserFolder}
   cd ${browserFolder}
   touch .gitkeep
-  zip -r ../_dist/OneKey-Wallet-${version}-${browser}.zip ./
+  zip -r ../_dist/Wallasa-Wallet-${version}-${browser}.zip ./
 `;
   devUtils.execSync(cmd);
 });

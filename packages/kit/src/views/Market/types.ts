@@ -1,5 +1,5 @@
-import type { ICON_NAMES } from '@onekeyhq/components';
-import type { Token as TokenType } from '@onekeyhq/engine/src/types/token';
+import type { ICON_NAMES } from '@mywallet/components';
+import type { Token as TokenType } from '@mywallet/engine/src/types/token';
 
 import type { MarketCategory } from '../../store/reducers/market';
 import type { EMarketCellData } from './config';

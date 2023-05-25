@@ -1,4 +1,4 @@
-import backgroundApiProxy from '@onekeyhq/kit/src/background/instance/backgroundApiProxy';
+import backgroundApiProxy from '@mywallet/kit/src/background/instance/backgroundApiProxy';
 
 import type {
   BusinessDay,

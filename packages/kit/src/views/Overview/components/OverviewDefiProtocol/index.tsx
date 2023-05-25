@@ -13,8 +13,8 @@ import {
   Typography,
   VStack,
   useIsVerticalLayout,
-} from '@onekeyhq/components';
-import defiLogoShadow from '@onekeyhq/kit/assets/defiLogoShadow.png';
+} from '@mywallet/components';
+import defiLogoShadow from '@mywallet/kit/assets/defiLogoShadow.png';
 
 import { ErrorBoundary } from '../../../../components/ErrorBoundary';
 import { FormatCurrencyNumber } from '../../../../components/Format';

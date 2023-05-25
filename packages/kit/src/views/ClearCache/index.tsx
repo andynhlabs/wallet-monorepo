@@ -3,9 +3,9 @@ import { useCallback, useLayoutEffect } from 'react';
 
 import { useIntl } from 'react-intl';
 
-import { Box, ListItem, ToastManager, VStack } from '@onekeyhq/components';
-import { clearWebViewData } from '@onekeyhq/shared/src/cacheManager';
-import platformEnv from '@onekeyhq/shared/src/platformEnv';
+import { Box, ListItem, ToastManager, VStack } from '@mywallet/components';
+import { clearWebViewData } from '@mywallet/shared/src/cacheManager';
+import platformEnv from '@mywallet/shared/src/platformEnv';
 
 import { useNavigation } from '../../hooks';
 import {

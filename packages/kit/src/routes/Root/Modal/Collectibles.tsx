@@ -1,6 +1,6 @@
-import { useIsVerticalLayout } from '@onekeyhq/components';
-import type { Network } from '@onekeyhq/engine/src/types/network';
-import type { Collection, NFTAsset } from '@onekeyhq/engine/src/types/nft';
+import { useIsVerticalLayout } from '@mywallet/components';
+import type { Network } from '@mywallet/engine/src/types/network';
+import type { Collection, NFTAsset } from '@mywallet/engine/src/types/nft';
 
 import CollectionModalView from '../../../views/Wallet/NFT/CollectionModal';
 import NFTDetailView from '../../../views/Wallet/NFT/NFTDetail';

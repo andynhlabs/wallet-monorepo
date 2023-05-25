@@ -11,12 +11,12 @@ import {
   Box,
   OverlayContainer,
   PresenceTransition,
-} from '@onekeyhq/components';
-import { useDomID } from '@onekeyhq/components/src/hooks/useClickDocumentClose';
-import { CloseBackDrop } from '@onekeyhq/components/src/Select';
-import type { DesktopRef } from '@onekeyhq/components/src/Select/Container/Desktop';
-import debugLogger from '@onekeyhq/shared/src/logger/debugLogger';
-import platformEnv from '@onekeyhq/shared/src/platformEnv';
+} from '@mywallet/components';
+import { useDomID } from '@mywallet/components/src/hooks/useClickDocumentClose';
+import { CloseBackDrop } from '@mywallet/components/src/Select';
+import type { DesktopRef } from '@mywallet/components/src/Select/Container/Desktop';
+import debugLogger from '@mywallet/shared/src/logger/debugLogger';
+import platformEnv from '@mywallet/shared/src/platformEnv';
 
 import WalletSelectorChildren from './WalletSelectorChildren';
 

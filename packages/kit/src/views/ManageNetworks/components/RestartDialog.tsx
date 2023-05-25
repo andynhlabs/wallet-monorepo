@@ -3,8 +3,8 @@ import { useCallback } from 'react';
 
 import { useIntl } from 'react-intl';
 
-import { Dialog } from '@onekeyhq/components';
-import platformEnv from '@onekeyhq/shared/src/platformEnv';
+import { Dialog } from '@mywallet/components';
+import platformEnv from '@mywallet/shared/src/platformEnv';
 
 type Props = {
   onClose?: () => void;

@@ -1,21 +1,21 @@
-import { FailedToEstimatedGasError } from '@onekeyhq/engine/src/errors';
-import type { EIP1559Fee } from '@onekeyhq/engine/src/types/network';
-import type { IUnsignedMessageEvm } from '@onekeyhq/engine/src/vaults/impl/evm/Vault';
+import { FailedToEstimatedGasError } from '@mywallet/engine/src/errors';
+import type { EIP1559Fee } from '@mywallet/engine/src/types/network';
+import type { IUnsignedMessageEvm } from '@mywallet/engine/src/vaults/impl/evm/Vault';
 import type {
   IEncodedTx,
   IFeeInfo,
   IFeeInfoUnit,
-} from '@onekeyhq/engine/src/vaults/types';
+} from '@mywallet/engine/src/vaults/types';
 import {
   calculateTotalFeeNative,
   calculateTotalFeeRange,
-} from '@onekeyhq/engine/src/vaults/utils/feeInfoUtils';
-import type { SendConfirmParams } from '@onekeyhq/kit/src/views/Send/types';
+} from '@mywallet/engine/src/vaults/utils/feeInfoUtils';
+import type { SendConfirmParams } from '@mywallet/kit/src/views/Send/types';
 import {
   backgroundClass,
   backgroundMethod,
-} from '@onekeyhq/shared/src/background/backgroundDecorators';
-import { IMPL_EVM } from '@onekeyhq/shared/src/engine/engineConsts';
+} from '@mywallet/shared/src/background/backgroundDecorators';
+import { IMPL_EVM } from '@mywallet/shared/src/engine/engineConsts';
 
 import ServiceBase from './ServiceBase';
 

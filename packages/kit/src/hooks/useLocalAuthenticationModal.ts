@@ -2,7 +2,7 @@ import {
   ManagerWalletModalRoutes,
   ModalRoutes,
   RootRoutes,
-} from '@onekeyhq/kit/src/routes/routesEnum';
+} from '@mywallet/kit/src/routes/routesEnum';
 
 import useAppNavigation from './useAppNavigation';
 

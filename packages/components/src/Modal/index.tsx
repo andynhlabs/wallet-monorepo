@@ -8,8 +8,8 @@ import { cloneElement, useCallback, useMemo, useRef } from 'react';
 
 import { useFocusEffect } from '@react-navigation/native';
 
-import { useIsVerticalLayout, useUserDevice } from '@onekeyhq/components';
-import platformEnv from '@onekeyhq/shared/src/platformEnv';
+import { useIsVerticalLayout, useUserDevice } from '@mywallet/components';
+import platformEnv from '@mywallet/shared/src/platformEnv';
 
 import Box from '../Box';
 import FlatList from '../FlatList';

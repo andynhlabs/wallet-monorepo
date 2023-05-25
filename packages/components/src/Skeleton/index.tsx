@@ -2,7 +2,7 @@ import type { PropsWithChildren } from 'react';
 
 import ContentLoader from 'react-content-loader/native';
 
-import { useThemeValue } from '@onekeyhq/components';
+import { useThemeValue } from '@mywallet/components';
 
 import {
   Avatar,

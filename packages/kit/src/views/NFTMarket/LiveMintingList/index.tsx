@@ -2,7 +2,7 @@ import { useCallback, useLayoutEffect, useMemo, useState } from 'react';
 
 import { useNavigation, useRoute } from '@react-navigation/core';
 
-import { ScrollView, useSafeAreaInsets } from '@onekeyhq/components';
+import { ScrollView, useSafeAreaInsets } from '@mywallet/components';
 
 import ChainSelector from '../ChainSelector';
 import { useDefaultNetWork } from '../Home/hook';

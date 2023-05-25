@@ -1,6 +1,6 @@
 import { useState } from 'react';
 
-import { Center, Switch } from '@onekeyhq/components';
+import { Center, Switch } from '@mywallet/components';
 
 const SwitchGallery = () => {
   const [checked, setChecked] = useState(false);

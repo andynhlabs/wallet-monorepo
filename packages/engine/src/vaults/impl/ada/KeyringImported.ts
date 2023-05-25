@@ -1,5 +1,5 @@
-import { COINTYPE_ADA as COIN_TYPE } from '@onekeyhq/shared/src/engine/engineConsts';
-import debugLogger from '@onekeyhq/shared/src/logger/debugLogger';
+import { COINTYPE_ADA as COIN_TYPE } from '@mywallet/shared/src/engine/engineConsts';
+import debugLogger from '@mywallet/shared/src/logger/debugLogger';
 
 import { NotImplemented, OneKeyInternalError } from '../../../errors';
 import { Signer } from '../../../proxy';

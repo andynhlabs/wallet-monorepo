@@ -13,9 +13,9 @@ import {
   Switch,
   Text,
   VStack,
-} from '@onekeyhq/components';
-import type { Network } from '@onekeyhq/engine/src/types/network';
-import type { IEncodedTxBtc } from '@onekeyhq/engine/src/vaults/utils/btcForkChain/types';
+} from '@mywallet/components';
+import type { Network } from '@mywallet/engine/src/types/network';
+import type { IEncodedTxBtc } from '@mywallet/engine/src/vaults/utils/btcForkChain/types';
 
 import useAppNavigation from '../../../hooks/useAppNavigation';
 import {

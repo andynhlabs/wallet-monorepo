@@ -1,6 +1,6 @@
 /* eslint-disable no-var,vars-on-top */
-import type { LocaleIds } from '@onekeyhq/components/src/locale';
-import type { IBackgroundApi } from '@onekeyhq/kit-bg/src/IBackgroundApi';
+import type { LocaleIds } from '@mywallet/components/src/locale';
+import type { IBackgroundApi } from '@mywallet/kit-bg/src/IBackgroundApi';
 
 import type { JsBridgeBase } from '@onekeyfe/cross-inpage-provider-core';
 import type { ProviderPrivate } from '@onekeyfe/onekey-private-provider';

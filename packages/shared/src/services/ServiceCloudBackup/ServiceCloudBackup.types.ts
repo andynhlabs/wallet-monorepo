@@ -1,4 +1,4 @@
-import type { ISimpleDbEntityUtxoData } from '@onekeyhq/engine/src/dbs/simple/entity/SimpleDbEntityUtxoAccounts';
+import type { ISimpleDbEntityUtxoData } from '@mywallet/engine/src/dbs/simple/entity/SimpleDbEntityUtxoAccounts';
 
 import type { Avatar } from '../../utils/emojiUtils';
 

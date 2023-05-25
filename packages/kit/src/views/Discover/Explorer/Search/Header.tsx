@@ -10,7 +10,7 @@ import {
   Searchbar,
   Spinner,
   Typography,
-} from '@onekeyhq/components';
+} from '@mywallet/components';
 
 import type { MatchDAppItemType } from '../explorerUtils';
 

@@ -1,6 +1,6 @@
 import { Row } from 'native-base';
 
-import { Icon, Text } from '@onekeyhq/components';
+import { Icon, Text } from '@mywallet/components';
 
 function TxTitleDetailView({
   title,

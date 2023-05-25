@@ -1,6 +1,6 @@
 import type { FC } from 'react';
 
-import { useTheme } from '@onekeyhq/components';
+import { useTheme } from '@mywallet/components';
 
 import SvgRevokeDark from './SvgRevokeDark';
 import SvgRevokeLight from './SvgRevokeLight';

@@ -1,6 +1,6 @@
-import { Box, Icon, Text, Typography } from '@onekeyhq/components';
-import type { ICON_NAMES } from '@onekeyhq/components/src/Icon';
-import type { SelectItem } from '@onekeyhq/components/src/Select';
+import { Box, Icon, Text, Typography } from '@mywallet/components';
+import type { ICON_NAMES } from '@mywallet/components/src/Icon';
+import type { SelectItem } from '@mywallet/components/src/Select';
 
 type FieldProps<T> = {
   title: string;

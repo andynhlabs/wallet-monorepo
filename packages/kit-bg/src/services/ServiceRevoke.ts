@@ -12,12 +12,12 @@ import {
   hexZeroPad,
 } from 'ethers/lib/utils';
 
-import { shortenAddress } from '@onekeyhq/components/src/utils';
+import { shortenAddress } from '@mywallet/components/src/utils';
 import {
   fetchSecurityInfo,
   fetchValidGoPlusChainId,
-} from '@onekeyhq/engine/src/managers/goplus';
-import { parseNetworkId } from '@onekeyhq/engine/src/managers/network';
+} from '@mywallet/engine/src/managers/goplus';
+import { parseNetworkId } from '@mywallet/engine/src/managers/network';
 import type {
   ERC20TokenAllowance,
   ERC20TokenApproval,
@@ -25,7 +25,7 @@ import type {
   ERC721TokenAllowance,
   ERC721TokenApproval,
   Events,
-} from '@onekeyhq/engine/src/managers/revoke';
+} from '@mywallet/engine/src/managers/revoke';
 import {
   BackendProvider,
   DUMMY_ADDRESS,
@@ -44,29 +44,29 @@ import {
   toFloat,
   unpackResult,
   withFallback,
-} from '@onekeyhq/engine/src/managers/revoke';
-import { fetchData } from '@onekeyhq/engine/src/managers/token';
+} from '@mywallet/engine/src/managers/revoke';
+import { fetchData } from '@mywallet/engine/src/managers/token';
 import type {
   GoPlusApproval,
   GoPlusNFTApproval,
-} from '@onekeyhq/engine/src/types/goplus';
-import { GoPlusSupportApis } from '@onekeyhq/engine/src/types/goplus';
-import type { Network } from '@onekeyhq/engine/src/types/network';
-import type { Token } from '@onekeyhq/engine/src/types/token';
-import { Erc721MethodSelectors } from '@onekeyhq/engine/src/vaults/impl/evm/decoder/abi';
-import type { IEncodedTxEvm } from '@onekeyhq/engine/src/vaults/impl/evm/Vault';
+} from '@mywallet/engine/src/types/goplus';
+import { GoPlusSupportApis } from '@mywallet/engine/src/types/goplus';
+import type { Network } from '@mywallet/engine/src/types/network';
+import type { Token } from '@mywallet/engine/src/types/token';
+import { Erc721MethodSelectors } from '@mywallet/engine/src/vaults/impl/evm/decoder/abi';
+import type { IEncodedTxEvm } from '@mywallet/engine/src/vaults/impl/evm/Vault';
 import type {
   IERC721Approve,
   ISetApprovalForAll,
-} from '@onekeyhq/engine/src/vaults/types';
-import { appSelector } from '@onekeyhq/kit/src/store';
-import { AssetType } from '@onekeyhq/kit/src/views/Revoke/types';
-import lib0xSequenceMulticall from '@onekeyhq/shared/src/asyncModules/lib0xSequenceMulticall';
+} from '@mywallet/engine/src/vaults/types';
+import { appSelector } from '@mywallet/kit/src/store';
+import { AssetType } from '@mywallet/kit/src/views/Revoke/types';
+import lib0xSequenceMulticall from '@mywallet/shared/src/asyncModules/lib0xSequenceMulticall';
 import {
   backgroundClass,
   backgroundMethod,
-} from '@onekeyhq/shared/src/background/backgroundDecorators';
-import debugLogger from '@onekeyhq/shared/src/logger/debugLogger';
+} from '@mywallet/shared/src/background/backgroundDecorators';
+import debugLogger from '@mywallet/shared/src/logger/debugLogger';
 
 import ServiceBase from './ServiceBase';
 

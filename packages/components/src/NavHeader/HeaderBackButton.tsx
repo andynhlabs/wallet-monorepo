@@ -1,9 +1,9 @@
 /* eslint-disable @typescript-eslint/no-use-before-define */
 import type { FC } from 'react';
 
-import { IconButton, useIsVerticalLayout } from '@onekeyhq/components';
-import { getAppNavigation } from '@onekeyhq/kit/src/hooks/useAppNavigation';
-import { navigationShortcuts } from '@onekeyhq/kit/src/routes/navigationShortcuts';
+import { IconButton, useIsVerticalLayout } from '@mywallet/components';
+import { getAppNavigation } from '@mywallet/kit/src/hooks/useAppNavigation';
+import { navigationShortcuts } from '@mywallet/kit/src/routes/navigationShortcuts';
 
 import type { NativeStackNavigationProp } from '@react-navigation/native-stack';
 

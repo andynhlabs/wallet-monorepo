@@ -15,8 +15,8 @@ import {
   ToastManager,
   Typography,
   useSafeAreaInsets,
-} from '@onekeyhq/components';
-import { copyToClipboard } from '@onekeyhq/components/src/utils/ClipboardUtils';
+} from '@mywallet/components';
+import { copyToClipboard } from '@mywallet/components/src/utils/ClipboardUtils';
 
 import { useAppSelector } from '../../../hooks';
 import { ModalRoutes, RootRoutes } from '../../../routes/routesEnum';

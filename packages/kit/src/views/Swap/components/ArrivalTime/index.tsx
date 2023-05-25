@@ -3,7 +3,7 @@ import { useMemo } from 'react';
 
 import { useIntl } from 'react-intl';
 
-import { Text } from '@onekeyhq/components';
+import { Text } from '@mywallet/components';
 
 type ArrivalTimeProps = {
   value?: number;

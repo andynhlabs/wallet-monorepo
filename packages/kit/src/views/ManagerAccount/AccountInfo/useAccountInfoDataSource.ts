@@ -2,7 +2,7 @@ import { useEffect, useMemo, useState } from 'react';
 
 import { useIntl } from 'react-intl';
 
-import type { Wallet } from '@onekeyhq/engine/src/types/wallet';
+import type { Wallet } from '@mywallet/engine/src/types/wallet';
 
 import { useNetwork } from '../../../hooks';
 

@@ -11,9 +11,9 @@ import {
 import { blake2b } from '@noble/hashes/blake2b';
 import { hexToBytes } from '@noble/hashes/utils';
 
-import { ed25519 } from '@onekeyhq/engine/src/secret/curves';
-import type { UnsignedTx } from '@onekeyhq/engine/src/types/provider';
-import { COINTYPE_SUI as COIN_TYPE } from '@onekeyhq/shared/src/engine/engineConsts';
+import { ed25519 } from '@mywallet/engine/src/secret/curves';
+import type { UnsignedTx } from '@mywallet/engine/src/types/provider';
+import { COINTYPE_SUI as COIN_TYPE } from '@mywallet/shared/src/engine/engineConsts';
 
 import { OneKeyInternalError } from '../../../errors';
 import { Signer } from '../../../proxy';

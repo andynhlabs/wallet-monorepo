@@ -11,9 +11,9 @@ import {
   Typography,
   VStack,
   useIsVerticalLayout,
-} from '@onekeyhq/components';
-import { copyToClipboard } from '@onekeyhq/components/src/utils/ClipboardUtils';
-import type { Token as TokenType } from '@onekeyhq/engine/src/types/token';
+} from '@mywallet/components';
+import { copyToClipboard } from '@mywallet/components/src/utils/ClipboardUtils';
+import type { Token as TokenType } from '@mywallet/engine/src/types/token';
 
 import { useActiveWalletAccount } from '../../../hooks';
 import { showDialog } from '../../../utils/overlayUtils';

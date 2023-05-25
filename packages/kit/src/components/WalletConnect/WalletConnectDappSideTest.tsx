@@ -1,4 +1,4 @@
-import { Pressable, Typography, VStack } from '@onekeyhq/components';
+import { Pressable, Typography, VStack } from '@mywallet/components';
 
 import { useWalletConnectQrcodeModal } from './useWalletConnectQrcodeModal';
 

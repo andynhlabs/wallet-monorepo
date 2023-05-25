@@ -11,20 +11,20 @@ import {
   persistStore,
 } from 'redux-persist';
 
-import { REPLACE_WHOLE_STATE } from '@onekeyhq/shared/src/background/backgroundUtils';
+import { REPLACE_WHOLE_STATE } from '@mywallet/shared/src/background/backgroundUtils';
 import {
   AppEventBusNames,
   appEventBus,
-} from '@onekeyhq/shared/src/eventBus/appEventBus';
+} from '@mywallet/shared/src/eventBus/appEventBus';
 import {
   AppUIEventBusNames,
   appUIEventBus,
-} from '@onekeyhq/shared/src/eventBus/appUIEventBus';
-import debugLogger from '@onekeyhq/shared/src/logger/debugLogger';
-import platformEnv from '@onekeyhq/shared/src/platformEnv';
+} from '@mywallet/shared/src/eventBus/appUIEventBus';
+import debugLogger from '@mywallet/shared/src/logger/debugLogger';
+import platformEnv from '@mywallet/shared/src/platformEnv';
 import appStorage, {
   mockStorage,
-} from '@onekeyhq/shared/src/storage/appStorage';
+} from '@mywallet/shared/src/storage/appStorage';
 
 import middlewares from './middlewares';
 import { persistWhiteList } from './persistWhiteList';

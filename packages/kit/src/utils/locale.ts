@@ -1,8 +1,8 @@
 import { locale as LocalizationLocale } from 'expo-localization';
 import memoizee from 'memoizee';
 
-import type { LocaleSymbol } from '@onekeyhq/components/src/locale';
-import { LOCALES_OPTION } from '@onekeyhq/components/src/locale';
+import type { LocaleSymbol } from '@mywallet/components/src/locale';
+import { LOCALES_OPTION } from '@mywallet/components/src/locale';
 
 const locales = LOCALES_OPTION.map((locale) => locale.value);
 

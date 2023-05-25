@@ -1,4 +1,4 @@
-import { Center, Text, Typography } from '@onekeyhq/components';
+import { Center, Text, Typography } from '@mywallet/components';
 
 const TypographyGallery = () => (
   <Center flex="1" bg="background-hovered">

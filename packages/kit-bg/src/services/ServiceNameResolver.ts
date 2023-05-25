@@ -3,18 +3,18 @@ import { Resolution } from '@unstoppabledomains/resolution';
 import { createInstance } from 'dotbit';
 import { filter, groupBy, map } from 'lodash';
 
-import { shortenAddress } from '@onekeyhq/components/src/utils';
+import { shortenAddress } from '@mywallet/components/src/utils';
 import {
   backgroundClass,
   backgroundMethod,
-} from '@onekeyhq/shared/src/background/backgroundDecorators';
-import { OnekeyNetwork } from '@onekeyhq/shared/src/config/networkIds';
+} from '@mywallet/shared/src/background/backgroundDecorators';
+import { OnekeyNetwork } from '@mywallet/shared/src/config/networkIds';
 import {
   COINTYPE_BTC,
   COINTYPE_DOGE,
   COINTYPE_ETH,
   COINTYPE_LTC,
-} from '@onekeyhq/shared/src/engine/engineConsts';
+} from '@mywallet/shared/src/engine/engineConsts';
 
 import ServiceBase from './ServiceBase';
 

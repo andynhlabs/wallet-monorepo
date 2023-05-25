@@ -10,8 +10,8 @@ import {
   Typography,
   useForm,
   useIsVerticalLayout,
-} from '@onekeyhq/components';
-import DialogCommon from '@onekeyhq/components/src/Dialog/components';
+} from '@mywallet/components';
+import DialogCommon from '@mywallet/components/src/Dialog/components';
 
 import backgroundApiProxy from '../../../background/instance/backgroundApiProxy';
 import { updateCustomNetworkRpc } from '../../../store/reducers/settings';

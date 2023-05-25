@@ -16,8 +16,8 @@ import {
   Typography,
   useForm,
   useIsVerticalLayout,
-} from '@onekeyhq/components';
-import { OnekeyNetwork } from '@onekeyhq/shared/src/config/networkIds';
+} from '@mywallet/components';
+import { OnekeyNetwork } from '@mywallet/shared/src/config/networkIds';
 
 import backgroundApiProxy from '../../../background/instance/backgroundApiProxy';
 import { useDebounce } from '../../../hooks';

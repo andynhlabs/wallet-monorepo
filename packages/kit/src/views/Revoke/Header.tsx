@@ -12,11 +12,11 @@ import {
   Typography,
   VStack,
   useIsVerticalLayout,
-} from '@onekeyhq/components';
+} from '@mywallet/components';
 import {
   AppUIEventBusNames,
   appUIEventBus,
-} from '@onekeyhq/shared/src/eventBus/appUIEventBus';
+} from '@mywallet/shared/src/eventBus/appUIEventBus';
 
 import backgroundApiProxy from '../../background/instance/backgroundApiProxy';
 import { useActiveWalletAccount, useNavigation } from '../../hooks';

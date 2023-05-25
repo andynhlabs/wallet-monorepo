@@ -12,15 +12,15 @@ import {
   ToastManager,
   Typography,
   VStack,
-} from '@onekeyhq/components';
-import { SCREEN_SIZE } from '@onekeyhq/components/src/Provider/device';
-import { copyToClipboard } from '@onekeyhq/components/src/utils/ClipboardUtils';
-import { useNetwork, useSettings } from '@onekeyhq/kit/src/hooks';
+} from '@mywallet/components';
+import { SCREEN_SIZE } from '@mywallet/components/src/Provider/device';
+import { copyToClipboard } from '@mywallet/components/src/utils/ClipboardUtils';
+import { useNetwork, useSettings } from '@mywallet/kit/src/hooks';
 import type {
   MarketEXplorer,
   MarketLinks,
-} from '@onekeyhq/kit/src/store/reducers/market';
-import { openUrl } from '@onekeyhq/kit/src/utils/openUrl';
+} from '@mywallet/kit/src/store/reducers/market';
+import { openUrl } from '@mywallet/kit/src/utils/openUrl';
 
 import { buildAddressDetailsUrl } from '../../../../hooks/useOpenBlockBrowser';
 import { useCurrencyUnit } from '../../../Me/GenaralSection/CurrencySelect/hooks';

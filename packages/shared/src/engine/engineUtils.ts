@@ -1,16 +1,16 @@
 // safe import
 import { toLower } from 'lodash';
 
-import type { WalletSchema } from '@onekeyhq/engine/src/dbs/realms/schemas';
+import type { WalletSchema } from '@mywallet/engine/src/dbs/realms/schemas';
 import {
   WALLET_TYPE_EXTERNAL,
   WALLET_TYPE_HD,
   WALLET_TYPE_HW,
   WALLET_TYPE_WATCHING,
-} from '@onekeyhq/engine/src/types/wallet';
-import type { Wallet } from '@onekeyhq/engine/src/types/wallet';
-import { addDisplayPassphraseWallet } from '@onekeyhq/kit/src/store/reducers/runtime';
-import { toBigIntHex } from '@onekeyhq/shared/src/utils/numberUtils';
+} from '@mywallet/engine/src/types/wallet';
+import type { Wallet } from '@mywallet/engine/src/types/wallet';
+import { addDisplayPassphraseWallet } from '@mywallet/kit/src/store/reducers/runtime';
+import { toBigIntHex } from '@mywallet/shared/src/utils/numberUtils';
 
 import { IMPL_EVM } from './engineConsts';
 

@@ -11,10 +11,10 @@ import {
   Token,
   Typography,
   VStack,
-} from '@onekeyhq/components';
-import useModalClose from '@onekeyhq/components/src/Modal/Container/useModalClose';
-import { getNetworkImplFromDappScope } from '@onekeyhq/shared/src/background/backgroundUtils';
-import type { IDappSourceInfo } from '@onekeyhq/shared/types';
+} from '@mywallet/components';
+import useModalClose from '@mywallet/components/src/Modal/Container/useModalClose';
+import { getNetworkImplFromDappScope } from '@mywallet/shared/src/background/backgroundUtils';
+import type { IDappSourceInfo } from '@mywallet/shared/types';
 
 import { useActiveWalletAccount, useNavigationActions } from '../../hooks';
 import useDappApproveAction from '../../hooks/useDappApproveAction';

@@ -8,7 +8,7 @@ import {
   SortableList,
   Switch,
   Typography,
-} from '@onekeyhq/components';
+} from '@mywallet/components';
 
 const initialData: { id: number; text: string }[] = [
   { id: 1, text: 'Chloe' },

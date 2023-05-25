@@ -3,7 +3,7 @@ import { useCallback } from 'react';
 import { useNavigation, useRoute } from '@react-navigation/core';
 import { useIntl } from 'react-intl';
 
-import { ToastManager } from '@onekeyhq/components';
+import { ToastManager } from '@mywallet/components';
 
 import backgroundApiProxy from '../../../background/instance/backgroundApiProxy';
 import { useNetworks } from '../../../hooks/redux';

@@ -1,8 +1,8 @@
 import type { FC } from 'react';
 
-import { Box, Image } from '@onekeyhq/components';
-import onekeyLogoDisable from '@onekeyhq/kit/assets/walletLogo/onekey_logo_sm_disable.png';
-import onekeyLogoEnable from '@onekeyhq/kit/assets/walletLogo/onekey_logo_sm_enable.png';
+import { Box, Image } from '@mywallet/components';
+import onekeyLogoDisable from '@mywallet/kit/assets/walletLogo/onekey_logo_sm_disable.png';
+import onekeyLogoEnable from '@mywallet/kit/assets/walletLogo/onekey_logo_sm_enable.png';
 
 import type { ImageSourcePropType } from 'react-native';
 

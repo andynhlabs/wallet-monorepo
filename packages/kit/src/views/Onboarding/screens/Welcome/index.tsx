@@ -12,13 +12,13 @@ import {
   Image,
   Text,
   useUserDevice,
-} from '@onekeyhq/components';
-import ContentHardwareImage from '@onekeyhq/kit/assets/onboarding/welcome_hardware.png';
+} from '@mywallet/components';
+import ContentHardwareImage from '@mywallet/kit/assets/onboarding/welcome_hardware.png';
 import {
   AppUIEventBusNames,
   appUIEventBus,
-} from '@onekeyhq/shared/src/eventBus/appUIEventBus';
-import platformEnv from '@onekeyhq/shared/src/platformEnv';
+} from '@mywallet/shared/src/eventBus/appUIEventBus';
+import platformEnv from '@mywallet/shared/src/platformEnv';
 
 import backgroundApiProxy from '../../../../background/instance/backgroundApiProxy';
 import { useNavigationActions } from '../../../../hooks';

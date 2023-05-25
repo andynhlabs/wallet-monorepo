@@ -3,10 +3,10 @@ import { memo, useMemo } from 'react';
 import { useIntl } from 'react-intl';
 import { StyleSheet } from 'react-native';
 
-import { Box, Center, Hidden, ToastManager } from '@onekeyhq/components';
-import LogoLedger from '@onekeyhq/kit/assets/onboarding/logo_ledger.png';
-import LogoTrezor from '@onekeyhq/kit/assets/onboarding/logo_trezor.png';
-import platformEnv from '@onekeyhq/shared/src/platformEnv';
+import { Box, Center, Hidden, ToastManager } from '@mywallet/components';
+import LogoLedger from '@mywallet/kit/assets/onboarding/logo_ledger.png';
+import LogoTrezor from '@mywallet/kit/assets/onboarding/logo_trezor.png';
+import platformEnv from '@mywallet/shared/src/platformEnv';
 
 import {
   ConnectWalletListItem,

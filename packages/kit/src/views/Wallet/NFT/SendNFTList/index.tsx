@@ -10,12 +10,12 @@ import {
   Text,
   useIsVerticalLayout,
   useSafeAreaInsets,
-} from '@onekeyhq/components';
-import type { FlatListProps } from '@onekeyhq/components/src/FlatList';
-import { batchTransferContractAddress } from '@onekeyhq/engine/src/presets/batchTransferContractAddress';
-import type { Collection } from '@onekeyhq/engine/src/types/nft';
-import { IMPL_SOL } from '@onekeyhq/shared/src/engine/engineConsts';
-import platformEnv from '@onekeyhq/shared/src/platformEnv';
+} from '@mywallet/components';
+import type { FlatListProps } from '@mywallet/components/src/FlatList';
+import { batchTransferContractAddress } from '@mywallet/engine/src/presets/batchTransferContractAddress';
+import type { Collection } from '@mywallet/engine/src/types/nft';
+import { IMPL_SOL } from '@mywallet/shared/src/engine/engineConsts';
+import platformEnv from '@mywallet/shared/src/platformEnv';
 
 import backgroundApiProxy from '../../../../background/instance/backgroundApiProxy';
 import { useActiveSideAccount, useNetwork } from '../../../../hooks';

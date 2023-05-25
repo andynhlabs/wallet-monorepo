@@ -3,7 +3,7 @@ import { useCallback } from 'react';
 
 import { useNavigation } from '@react-navigation/core';
 
-import platformEnv from '@onekeyhq/shared/src/platformEnv';
+import platformEnv from '@mywallet/shared/src/platformEnv';
 
 import { RootRoutes } from '../routes/routesEnum';
 

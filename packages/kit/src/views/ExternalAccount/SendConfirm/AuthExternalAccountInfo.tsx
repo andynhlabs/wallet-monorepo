@@ -9,8 +9,8 @@ import {
   Spinner,
   Text,
   VStack,
-} from '@onekeyhq/components';
-import { shortenAddress } from '@onekeyhq/components/src/utils';
+} from '@mywallet/components';
+import { shortenAddress } from '@mywallet/components/src/utils';
 
 import { terminateWcConnection } from '../../../components/WalletConnect/utils/terminateWcConnection';
 import { WALLET_CONNECT_SEND_SHOW_DISCONNECT_BUTTON_DELAY } from '../../../components/WalletConnect/walletConnectConsts';

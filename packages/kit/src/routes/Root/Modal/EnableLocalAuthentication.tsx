@@ -1,4 +1,4 @@
-import { useIsVerticalLayout } from '@onekeyhq/components';
+import { useIsVerticalLayout } from '@mywallet/components';
 
 import EnableLocalAuthentication from '../../../views/EnableLocalAuthentication';
 import { EnableLocalAuthenticationRoutes } from '../../../views/EnableLocalAuthentication/types';

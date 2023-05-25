@@ -1,4 +1,4 @@
-import { Center } from '@onekeyhq/components';
+import { Center } from '@mywallet/components';
 
 import NFTImage from '../../../components/NFTImage';
 

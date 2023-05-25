@@ -8,8 +8,8 @@ import {
   KeyboardAvoidingView,
   Spinner,
   useThemeValue,
-} from '@onekeyhq/components';
-import platformEnv from '@onekeyhq/shared/src/platformEnv';
+} from '@mywallet/components';
+import platformEnv from '@mywallet/shared/src/platformEnv';
 
 import { useAppSelector } from '../../../../hooks';
 import { OnboardingAddExistingWallet } from '../../../CreateWallet/AddExistingWallet';

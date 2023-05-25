@@ -1,4 +1,4 @@
-import { Button, Divider, Empty, ScrollView } from '@onekeyhq/components';
+import { Button, Divider, Empty, ScrollView } from '@mywallet/components';
 
 const EmptyGallery = () => (
   <ScrollView bg="background-hovered">

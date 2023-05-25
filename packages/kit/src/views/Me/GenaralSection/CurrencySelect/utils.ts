@@ -1,6 +1,6 @@
 import Fuse from 'fuse.js';
 
-import type { TExchangeRate } from '@onekeyhq/kit/src/store/reducers/fiatMoney';
+import type { TExchangeRate } from '@mywallet/kit/src/store/reducers/fiatMoney';
 
 export const fuseSearch = (list: TExchangeRate[], keyword: string) => {
   const options = {

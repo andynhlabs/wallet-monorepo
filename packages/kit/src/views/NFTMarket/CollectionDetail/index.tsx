@@ -10,9 +10,9 @@ import {
 import { useNavigation, useRoute } from '@react-navigation/core';
 import { useIntl } from 'react-intl';
 
-import { Box, Button, Hidden, IconButton } from '@onekeyhq/components';
-import { ModalRoutes, RootRoutes } from '@onekeyhq/kit/src/routes/routesEnum';
-import type { ModalScreenProps } from '@onekeyhq/kit/src/routes/types';
+import { Box, Button, Hidden, IconButton } from '@mywallet/components';
+import { ModalRoutes, RootRoutes } from '@mywallet/kit/src/routes/routesEnum';
+import type { ModalScreenProps } from '@mywallet/kit/src/routes/types';
 
 import backgroundApiProxy from '../../../background/instance/backgroundApiProxy';
 import { NFTMarketRoutes } from '../Modals/type';

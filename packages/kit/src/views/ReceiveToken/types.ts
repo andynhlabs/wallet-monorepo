@@ -1,6 +1,6 @@
-import type { Account } from '@onekeyhq/engine/src/types/account';
-import type { Network } from '@onekeyhq/engine/src/types/network';
-import type { Wallet } from '@onekeyhq/engine/src/types/wallet';
+import type { Account } from '@mywallet/engine/src/types/account';
+import type { Network } from '@mywallet/engine/src/types/network';
+import type { Wallet } from '@mywallet/engine/src/types/wallet';
 
 import { ReceiveTokenModalRoutes } from '../../routes/routesEnum';
 

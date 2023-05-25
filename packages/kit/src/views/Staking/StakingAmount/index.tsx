@@ -19,10 +19,10 @@ import {
   ToastManager,
   Typography,
   useIsVerticalLayout,
-} from '@onekeyhq/components';
-import type { Network } from '@onekeyhq/engine/src/types/network';
-import type { Token } from '@onekeyhq/engine/src/types/token';
-import platformEnv from '@onekeyhq/shared/src/platformEnv';
+} from '@mywallet/components';
+import type { Network } from '@mywallet/engine/src/types/network';
+import type { Token } from '@mywallet/engine/src/types/token';
+import platformEnv from '@mywallet/shared/src/platformEnv';
 
 import KeleLogoPNG from '../../../../assets/staking/kele_pool.png';
 import { AutoSizeText } from '../../../components/AutoSizeText';

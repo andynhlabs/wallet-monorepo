@@ -14,7 +14,7 @@ import { consts } from '@onekeyfe/cross-inpage-provider-core';
 import { JsBridgeDesktopHost } from '@onekeyfe/onekey-cross-webview';
 import { Freeze } from 'react-freeze';
 
-import { waitForDataLoaded } from '@onekeyhq/shared/src/background/backgroundUtils';
+import { waitForDataLoaded } from '@mywallet/shared/src/background/backgroundUtils';
 
 import backgroundApiProxy from '../../background/instance/backgroundApiProxy';
 

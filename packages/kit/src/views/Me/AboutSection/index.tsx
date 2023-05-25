@@ -10,12 +10,12 @@ import {
   ToastManager,
   Typography,
   useTheme,
-} from '@onekeyhq/components';
-import { copyToClipboard } from '@onekeyhq/components/src/utils/ClipboardUtils';
-import backgroundApiProxy from '@onekeyhq/kit/src/background/instance/backgroundApiProxy';
-import { useSettings } from '@onekeyhq/kit/src/hooks/redux';
-import { useHelpLink } from '@onekeyhq/kit/src/hooks/useHelpLink';
-import { setDevMode } from '@onekeyhq/kit/src/store/reducers/settings';
+} from '@mywallet/components';
+import { copyToClipboard } from '@mywallet/components/src/utils/ClipboardUtils';
+import backgroundApiProxy from '@mywallet/kit/src/background/instance/backgroundApiProxy';
+import { useSettings } from '@mywallet/kit/src/hooks/redux';
+import { useHelpLink } from '@mywallet/kit/src/hooks/useHelpLink';
+import { setDevMode } from '@mywallet/kit/src/store/reducers/settings';
 
 import { openUrlByWebview, openUrlExternal } from '../../../utils/openUrl';
 
@@ -240,7 +240,7 @@ export const AboutSection = () => {
           alignItems="center"
           py={4}
           px={{ base: 4, md: 6 }}
-          onPress={() => openUrlExternal('https://www.twitter.com/onekeyhq')}
+          onPress={() => openUrlExternal('https://www.twitter.com/mywallet')}
         >
           <Icon name="TwitterOutline" />
           <Text

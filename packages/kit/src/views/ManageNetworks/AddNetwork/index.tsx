@@ -20,7 +20,7 @@ import {
   VStack,
   useForm,
   useIsVerticalLayout,
-} from '@onekeyhq/components';
+} from '@mywallet/components';
 
 import backgroundApiProxy from '../../../background/instance/backgroundApiProxy';
 import { useActiveWalletAccount, useDebounce } from '../../../hooks';

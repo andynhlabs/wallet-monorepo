@@ -1,4 +1,4 @@
-import { useIsVerticalLayout } from '@onekeyhq/components';
+import { useIsVerticalLayout } from '@mywallet/components';
 
 import { Password } from '../../../views/Password';
 import { PasswordRoutes } from '../../../views/Password/types';

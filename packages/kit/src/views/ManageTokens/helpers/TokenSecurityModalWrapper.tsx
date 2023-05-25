@@ -1,9 +1,9 @@
-import { ToastManager } from '@onekeyhq/components';
-import { formatMessage } from '@onekeyhq/components/src/Provider';
-import { generateNetworkIdByChainId } from '@onekeyhq/engine/src/managers/network';
-import { GoPlusSupportApis } from '@onekeyhq/engine/src/types/goplus';
-import type { Token } from '@onekeyhq/engine/src/types/token';
-import { TokenRiskLevel } from '@onekeyhq/engine/src/types/token';
+import { ToastManager } from '@mywallet/components';
+import { formatMessage } from '@mywallet/components/src/Provider';
+import { generateNetworkIdByChainId } from '@mywallet/engine/src/managers/network';
+import { GoPlusSupportApis } from '@mywallet/engine/src/types/goplus';
+import type { Token } from '@mywallet/engine/src/types/token';
+import { TokenRiskLevel } from '@mywallet/engine/src/types/token';
 
 import backgroundApiProxy from '../../../background/instance/backgroundApiProxy';
 

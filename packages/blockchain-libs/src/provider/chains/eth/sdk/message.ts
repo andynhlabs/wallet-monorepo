@@ -1,4 +1,4 @@
-import * as signUtil from '@metamask/eth-sig-util'; // TODO patch legacyToBuffer in app-monorepo
+import * as signUtil from '@metamask/eth-sig-util'; // TODO patch legacyToBuffer in wallet-monorepo
 import * as ethUtil from 'ethereumjs-util';
 
 enum MessageTypes {

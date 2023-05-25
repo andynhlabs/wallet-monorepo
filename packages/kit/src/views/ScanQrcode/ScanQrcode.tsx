@@ -15,9 +15,9 @@ import {
   Modal,
   useIsVerticalLayout,
   useSafeAreaInsets,
-} from '@onekeyhq/components';
-import { getClipboard } from '@onekeyhq/components/src/utils/ClipboardUtils';
-import platformEnv from '@onekeyhq/shared/src/platformEnv';
+} from '@mywallet/components';
+import { getClipboard } from '@mywallet/components/src/utils/ClipboardUtils';
+import platformEnv from '@mywallet/shared/src/platformEnv';
 
 import PermissionDialog from '../../components/PermissionDialog/PermissionDialog';
 import useNavigation from '../../hooks/useNavigation';

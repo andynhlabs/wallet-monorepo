@@ -1,6 +1,6 @@
 import type { ComponentProps } from 'react';
 
-import type { List } from '@onekeyhq/components';
+import type { List } from '@mywallet/components';
 
 export enum TabEnum {
   Items = 'items',

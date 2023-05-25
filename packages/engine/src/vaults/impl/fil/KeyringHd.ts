@@ -1,10 +1,10 @@
 import { CoinType, newSecp256k1Address } from '@glif/filecoin-address';
 
-import { batchGetPublicKeys } from '@onekeyhq/engine/src/secret';
-import type { CurveName } from '@onekeyhq/engine/src/secret';
-import { secp256k1 } from '@onekeyhq/engine/src/secret/curves';
-import type { SignedTx } from '@onekeyhq/engine/src/types/provider';
-import { COINTYPE_FIL as COIN_TYPE } from '@onekeyhq/shared/src/engine/engineConsts';
+import { batchGetPublicKeys } from '@mywallet/engine/src/secret';
+import type { CurveName } from '@mywallet/engine/src/secret';
+import { secp256k1 } from '@mywallet/engine/src/secret/curves';
+import type { SignedTx } from '@mywallet/engine/src/types/provider';
+import { COINTYPE_FIL as COIN_TYPE } from '@mywallet/shared/src/engine/engineConsts';
 
 import { OneKeyInternalError } from '../../../errors';
 import { Signer } from '../../../proxy';

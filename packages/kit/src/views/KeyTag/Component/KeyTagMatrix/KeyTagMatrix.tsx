@@ -3,7 +3,7 @@ import { useMemo } from 'react';
 
 import { useIntl } from 'react-intl';
 
-import { Box, Typography } from '@onekeyhq/components';
+import { Box, Typography } from '@mywallet/components';
 
 import { KeyTagMnemonicStatus } from '../../types';
 import DotMnemonicWord from '../DotMap/DotMnemonicWord';

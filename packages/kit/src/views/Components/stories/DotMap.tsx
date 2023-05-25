@@ -8,7 +8,7 @@ import {
   FlatList,
   ScrollView,
   Typography,
-} from '@onekeyhq/components';
+} from '@mywallet/components';
 
 import DotMnemonicWord from '../../KeyTag/Component/DotMap/DotMnemonicWord';
 import { mnemonicWordToKeyTagMnemonic } from '../../KeyTag/utils';

@@ -11,7 +11,7 @@ import {
   Typography,
   useForm,
   useUserDevice,
-} from '@onekeyhq/components';
+} from '@mywallet/components';
 
 type FormValues = {
   username: string;

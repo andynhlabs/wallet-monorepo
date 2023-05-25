@@ -1,6 +1,6 @@
 import type { FC } from 'react';
 
-import { deviceUtils } from '@onekeyhq/kit/src/utils/hardware';
+import { deviceUtils } from '@mywallet/kit/src/utils/hardware';
 
 import EnablePassphraseDialog from '../Onekey/EnablePassphraseDialog';
 

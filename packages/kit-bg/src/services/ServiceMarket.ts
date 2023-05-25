@@ -1,14 +1,14 @@
 import { debounce } from 'lodash';
 
-import type { ISimpleSearchHistoryToken } from '@onekeyhq/engine/src/dbs/simple/entity/SimpleDbEntityMarket';
-import simpleDb from '@onekeyhq/engine/src/dbs/simple/simpleDb';
-import { formatServerToken } from '@onekeyhq/engine/src/managers/token';
+import type { ISimpleSearchHistoryToken } from '@mywallet/engine/src/dbs/simple/entity/SimpleDbEntityMarket';
+import simpleDb from '@mywallet/engine/src/dbs/simple/simpleDb';
+import { formatServerToken } from '@mywallet/engine/src/managers/token';
 import type {
   MarketCategory,
   MarketListSortType,
   MarketTokenItem,
   MarketTopTabName,
-} from '@onekeyhq/kit/src/store/reducers/market';
+} from '@mywallet/kit/src/store/reducers/market';
 import {
   MARKET_FAVORITES_CATEGORYID,
   cancleMarketFavorite,
@@ -28,15 +28,15 @@ import {
   updateSearchTabCategory,
   updateSearchTokens,
   updateSelectedCategory,
-} from '@onekeyhq/kit/src/store/reducers/market';
-import type { ServerToken } from '@onekeyhq/kit/src/store/typings';
-import { getDefaultLocale } from '@onekeyhq/kit/src/utils/locale';
+} from '@mywallet/kit/src/store/reducers/market';
+import type { ServerToken } from '@mywallet/kit/src/store/typings';
+import { getDefaultLocale } from '@mywallet/kit/src/utils/locale';
 import {
   backgroundClass,
   backgroundMethod,
   bindThis,
-} from '@onekeyhq/shared/src/background/backgroundDecorators';
-import { fetchData } from '@onekeyhq/shared/src/background/backgroundUtils';
+} from '@mywallet/shared/src/background/backgroundDecorators';
+import { fetchData } from '@mywallet/shared/src/background/backgroundUtils';
 
 import ServiceBase from './ServiceBase';
 

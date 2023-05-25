@@ -12,16 +12,16 @@ import {
   IconButton,
   Pressable,
   Text,
-} from '@onekeyhq/components';
+} from '@mywallet/components';
 import {
   HomeRoutes,
   ModalRoutes,
   RootRoutes,
-} from '@onekeyhq/kit/src/routes/routesEnum';
+} from '@mywallet/kit/src/routes/routesEnum';
 import type {
   HomeRoutesParams,
   ModalScreenProps,
-} from '@onekeyhq/kit/src/routes/types';
+} from '@mywallet/kit/src/routes/types';
 
 import { NFTMarketRoutes } from '../../Modals/type';
 import { useCollectionDetail } from '../hook';

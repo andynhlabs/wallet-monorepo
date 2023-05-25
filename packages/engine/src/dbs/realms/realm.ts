@@ -8,8 +8,8 @@ import Realm from 'realm';
 import {
   filterPassphraseWallet,
   handleDisplayPassphraseWallet,
-} from '@onekeyhq/shared/src/engine/engineUtils';
-import debugLogger from '@onekeyhq/shared/src/logger/debugLogger';
+} from '@mywallet/shared/src/engine/engineUtils';
+import debugLogger from '@mywallet/shared/src/logger/debugLogger';
 
 import {
   AccountAlreadyExists,

@@ -1,7 +1,7 @@
 import type { ReactNode } from 'react';
 
-import debugLogger from '@onekeyhq/shared/src/logger/debugLogger';
-import platformEnv from '@onekeyhq/shared/src/platformEnv';
+import debugLogger from '@mywallet/shared/src/logger/debugLogger';
+import platformEnv from '@mywallet/shared/src/platformEnv';
 
 import type { DAppItemType, WebSiteHistory } from '../type';
 import type { IElectronWebView } from '@onekeyfe/cross-inpage-provider-types';

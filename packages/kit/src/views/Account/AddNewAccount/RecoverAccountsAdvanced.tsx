@@ -16,8 +16,8 @@ import {
   Token,
   useForm,
   useIsVerticalLayout,
-} from '@onekeyhq/components';
-import type { CreateAccountRoutesParams } from '@onekeyhq/kit/src/routes';
+} from '@mywallet/components';
+import type { CreateAccountRoutesParams } from '@mywallet/kit/src/routes';
 
 import { useNetwork } from '../../../hooks';
 

@@ -14,18 +14,18 @@ import {
   Typography,
   useForm,
   useIsVerticalLayout,
-} from '@onekeyhq/components';
-import Pressable from '@onekeyhq/components/src/Pressable/Pressable';
-import { getNextAccountId } from '@onekeyhq/engine/src/managers/derivation';
-import type { IAccount } from '@onekeyhq/engine/src/types';
-import backgroundApiProxy from '@onekeyhq/kit/src/background/instance/backgroundApiProxy';
-import FormChainSelector from '@onekeyhq/kit/src/components/Form/ChainSelector';
-import { useHelpLink } from '@onekeyhq/kit/src/hooks';
-import { useGeneral, useRuntime } from '@onekeyhq/kit/src/hooks/redux';
-import type { CreateAccountRoutesParams } from '@onekeyhq/kit/src/routes';
-import { CreateAccountModalRoutes } from '@onekeyhq/kit/src/routes/routesEnum';
-import type { ModalScreenProps } from '@onekeyhq/kit/src/routes/types';
-import { openUrl } from '@onekeyhq/kit/src/utils/openUrl';
+} from '@mywallet/components';
+import Pressable from '@mywallet/components/src/Pressable/Pressable';
+import { getNextAccountId } from '@mywallet/engine/src/managers/derivation';
+import type { IAccount } from '@mywallet/engine/src/types';
+import backgroundApiProxy from '@mywallet/kit/src/background/instance/backgroundApiProxy';
+import FormChainSelector from '@mywallet/kit/src/components/Form/ChainSelector';
+import { useHelpLink } from '@mywallet/kit/src/hooks';
+import { useGeneral, useRuntime } from '@mywallet/kit/src/hooks/redux';
+import type { CreateAccountRoutesParams } from '@mywallet/kit/src/routes';
+import { CreateAccountModalRoutes } from '@mywallet/kit/src/routes/routesEnum';
+import type { ModalScreenProps } from '@mywallet/kit/src/routes/types';
+import { openUrl } from '@mywallet/kit/src/utils/openUrl';
 
 import { deviceUtils } from '../../../utils/hardware';
 

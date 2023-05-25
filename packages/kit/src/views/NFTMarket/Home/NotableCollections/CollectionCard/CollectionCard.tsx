@@ -4,7 +4,7 @@ import { useCallback } from 'react';
 import { MotiPressable } from 'moti/interactions';
 import { useIntl } from 'react-intl';
 
-import { Box, Icon, NetImage, Text } from '@onekeyhq/components';
+import { Box, Icon, NetImage, Text } from '@mywallet/components';
 
 import PriceText from '../../../PriceText';
 

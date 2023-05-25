@@ -55,7 +55,7 @@ I repository sono organizzati utilizzando il modello monorepo per mantenere il c
 
 Ogni sottodirectory sotto la directory `packages/` è un progetto separato, il cui nome è il valore del campo `name` nella directory **package.json** in monorepo.
 
-Quando hai bisogno di installare una dipendenza per una sottodirectory, usa semplicemente `yarn workspace @onekeyhq/web add axios`. Con un prefisso come `yarn workspace @onekeyhq/web`, il modulo axios può eventualmente essere installato nella directory principale del sottoprogetto web.
+Quando hai bisogno di installare una dipendenza per una sottodirectory, usa semplicemente `yarn workspace @mywallet/web add axios`. Con un prefisso come `yarn workspace @mywallet/web`, il modulo axios può eventualmente essere installato nella directory principale del sottoprogetto web.
 
 Alcune delle dipendenze hanno parti native, quindi dovrai andare nella directory `packages/app/ios` ed eseguire `pod install` dopo aver installato le dipendenze JS.
 

@@ -1,5 +1,5 @@
 {
-  "name": "@onekeyhq/desktop",
+  "name": "@mywallet/desktop",
   "main": "__generated__/AppEntry.js",
   "version": "0.0.1",
   "description": "Multi-chain support for BTC/ETH/BNB/NEAR/Polygon/Solana/Avalanche/Fantom and others",
@@ -33,8 +33,8 @@
     ]
   },
   "dependencies": {
-    "@onekeyhq/components": "*",
-    "@onekeyhq/kit": "*",
+    "@mywallet/components": "*",
+    "@mywallet/kit": "*",
     "adm-zip": "^0.5.10",
     "electron-config": "^2.0.0",
     "electron-context-menu": "^3.5.0",

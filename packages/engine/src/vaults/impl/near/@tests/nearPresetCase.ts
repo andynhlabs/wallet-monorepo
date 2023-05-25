@@ -1,4 +1,4 @@
-import { wait } from '@onekeyhq/kit/src/utils/helper';
+import { wait } from '@mywallet/kit/src/utils/helper';
 
 import { prepareMockVault } from '../../../../../@tests/prepareMockVault';
 import { deserializeSignedTransaction } from '../utils';

@@ -15,16 +15,16 @@ import {
   Text,
   ToastManager,
   useIsVerticalLayout,
-} from '@onekeyhq/components';
-import { shortenAddress } from '@onekeyhq/components/src/utils';
-import { copyToClipboard } from '@onekeyhq/components/src/utils/ClipboardUtils';
-import BlurQRCode from '@onekeyhq/kit/assets/blur-qrcode.png';
-import qrcodeLogo from '@onekeyhq/kit/assets/qrcode_logo.png';
-import backgroundApiProxy from '@onekeyhq/kit/src/background/instance/backgroundApiProxy';
-import type { IActiveWalletAccount } from '@onekeyhq/kit/src/hooks/redux';
-import { useActiveWalletAccount } from '@onekeyhq/kit/src/hooks/redux';
-import { deviceUtils } from '@onekeyhq/kit/src/utils/hardware';
-import platformEnv from '@onekeyhq/shared/src/platformEnv';
+} from '@mywallet/components';
+import { shortenAddress } from '@mywallet/components/src/utils';
+import { copyToClipboard } from '@mywallet/components/src/utils/ClipboardUtils';
+import BlurQRCode from '@mywallet/kit/assets/blur-qrcode.png';
+import qrcodeLogo from '@mywallet/kit/assets/qrcode_logo.png';
+import backgroundApiProxy from '@mywallet/kit/src/background/instance/backgroundApiProxy';
+import type { IActiveWalletAccount } from '@mywallet/kit/src/hooks/redux';
+import { useActiveWalletAccount } from '@mywallet/kit/src/hooks/redux';
+import { deviceUtils } from '@mywallet/kit/src/utils/hardware';
+import platformEnv from '@mywallet/shared/src/platformEnv';
 
 import type {
   ReceiveTokenModalRoutes,

@@ -8,8 +8,8 @@ import {
   Slider,
   Typography,
   useThemeValue,
-} from '@onekeyhq/components';
-import { doHapticsWhenEnabled } from '@onekeyhq/shared/src/haptics';
+} from '@mywallet/components';
+import { doHapticsWhenEnabled } from '@mywallet/shared/src/haptics';
 
 type PercentInputProps = ComponentProps<typeof Slider> & {
   value: number;

@@ -11,14 +11,14 @@ import {
   Typography,
   useIsVerticalLayout,
   useUserDevice,
-} from '@onekeyhq/components';
+} from '@mywallet/components';
 import RecyclerListView, {
   DataProvider,
   LayoutProvider,
-} from '@onekeyhq/components/src/RecyclerListView';
-import type { Collection, NFTAsset } from '@onekeyhq/engine/src/types/nft';
-import { ModalRoutes, RootRoutes } from '@onekeyhq/kit/src/routes/routesEnum';
-import type { ModalScreenProps } from '@onekeyhq/kit/src/routes/types';
+} from '@mywallet/components/src/RecyclerListView';
+import type { Collection, NFTAsset } from '@mywallet/engine/src/types/nft';
+import { ModalRoutes, RootRoutes } from '@mywallet/kit/src/routes/routesEnum';
+import type { ModalScreenProps } from '@mywallet/kit/src/routes/types';
 
 import { CollectiblesModalRoutes } from '../../../routes/routesEnum';
 

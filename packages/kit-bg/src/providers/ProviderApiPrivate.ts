@@ -3,18 +3,18 @@
 /* eslint-disable camelcase */
 import { IInjectedProviderNames } from '@onekeyfe/cross-inpage-provider-types';
 
-import walletConnectUtils from '@onekeyhq/kit/src/components/WalletConnect/utils/walletConnectUtils';
-import extUtils from '@onekeyhq/kit/src/utils/extUtils';
-import { timeout } from '@onekeyhq/kit/src/utils/helper';
-import { scanFromURLAsync } from '@onekeyhq/kit/src/views/ScanQrcode/scanFromURLAsync';
+import walletConnectUtils from '@mywallet/kit/src/components/WalletConnect/utils/walletConnectUtils';
+import extUtils from '@mywallet/kit/src/utils/extUtils';
+import { timeout } from '@mywallet/kit/src/utils/helper';
+import { scanFromURLAsync } from '@mywallet/kit/src/views/ScanQrcode/scanFromURLAsync';
 import {
   backgroundClass,
   providerApiMethod,
-} from '@onekeyhq/shared/src/background/backgroundDecorators';
+} from '@mywallet/shared/src/background/backgroundDecorators';
 import debugLogger, {
   getDebugLoggerSettings,
-} from '@onekeyhq/shared/src/logger/debugLogger';
-import platformEnv from '@onekeyhq/shared/src/platformEnv';
+} from '@mywallet/shared/src/logger/debugLogger';
+import platformEnv from '@mywallet/shared/src/platformEnv';
 
 import ProviderApiBase from './ProviderApiBase';
 

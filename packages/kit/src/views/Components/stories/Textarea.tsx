@@ -1,4 +1,4 @@
-import { Box, Center, Icon, Stack, Textarea } from '@onekeyhq/components';
+import { Box, Center, Icon, Stack, Textarea } from '@mywallet/components';
 
 const TextareaGallery = () => (
   <Center flex="1" bg="background-hovered">

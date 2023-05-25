@@ -15,23 +15,23 @@ import {
   Tooltip,
   Typography,
   useIsVerticalLayout,
-} from '@onekeyhq/components';
-import { DesktopDragZoneAbsoluteBar } from '@onekeyhq/components/src/DesktopDragZoneBox';
-import { shortenAddress } from '@onekeyhq/components/src/utils';
-import { FormatCurrencyNumber } from '@onekeyhq/kit/src/components/Format';
+} from '@mywallet/components';
+import { DesktopDragZoneAbsoluteBar } from '@mywallet/components/src/DesktopDragZoneBox';
+import { shortenAddress } from '@mywallet/components/src/utils';
+import { FormatCurrencyNumber } from '@mywallet/kit/src/components/Format';
 import {
   getActiveWalletAccount,
   useActiveWalletAccount,
-} from '@onekeyhq/kit/src/hooks/redux';
-import type { ReceiveTokenRoutesParams } from '@onekeyhq/kit/src/routes/Root/Modal/types';
+} from '@mywallet/kit/src/hooks/redux';
+import type { ReceiveTokenRoutesParams } from '@mywallet/kit/src/routes/Root/Modal/types';
 import {
   ModalRoutes,
   ReceiveTokenModalRoutes,
   RootRoutes,
   TabRoutes,
-} from '@onekeyhq/kit/src/routes/routesEnum';
-import type { ModalScreenProps } from '@onekeyhq/kit/src/routes/types';
-import type { SendRoutesParams } from '@onekeyhq/kit/src/views/Send/types';
+} from '@mywallet/kit/src/routes/routesEnum';
+import type { ModalScreenProps } from '@mywallet/kit/src/routes/types';
+import type { SendRoutesParams } from '@mywallet/kit/src/views/Send/types';
 
 import backgroundApiProxy from '../../../background/instance/backgroundApiProxy';
 import { useAccountValues, useNavigationActions } from '../../../hooks';

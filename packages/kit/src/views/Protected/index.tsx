@@ -10,7 +10,7 @@ import {
   Text,
   Typography,
   useTheme,
-} from '@onekeyhq/components';
+} from '@mywallet/components';
 
 import backgroundApiProxy from '../../background/instance/backgroundApiProxy';
 import { ValidationFields } from '../../components/Protected';

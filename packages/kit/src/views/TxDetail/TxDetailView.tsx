@@ -1,6 +1,6 @@
 import { useIntl } from 'react-intl';
 
-import { Alert, Box } from '@onekeyhq/components';
+import { Alert, Box } from '@mywallet/components';
 
 import { TxDetailExtraInfoBox } from './components/TxDetailExtraInfoBox';
 import { TxInteractInfo } from './components/TxInteractInfo';

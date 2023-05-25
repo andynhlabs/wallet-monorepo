@@ -7,7 +7,7 @@ import {
   RadioFee,
   ScrollView,
   Typography,
-} from '@onekeyhq/components';
+} from '@mywallet/components';
 
 const RadioBoxGallery = () => {
   const [radioValue, setValue] = useState('1');

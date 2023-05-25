@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-import type { Network } from '@onekeyhq/engine/src/types/network';
+import type { Network } from '@mywallet/engine/src/types/network';
 
 import backgroundApiProxy from '../../../background/instance/backgroundApiProxy';
 import { networkProviderInfos, quoterServerEndpoints } from '../config';

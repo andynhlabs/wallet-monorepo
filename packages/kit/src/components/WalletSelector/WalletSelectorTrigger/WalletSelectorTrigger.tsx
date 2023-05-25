@@ -2,12 +2,12 @@
 import type { FC, ReactNode } from 'react';
 import { memo, useCallback, useMemo, useRef } from 'react';
 
-import { Box, useIsVerticalLayout } from '@onekeyhq/components';
-import type { DesktopRef } from '@onekeyhq/components/src/Select/Container/Desktop';
+import { Box, useIsVerticalLayout } from '@mywallet/components';
+import type { DesktopRef } from '@mywallet/components/src/Select/Container/Desktop';
 import {
   addNewRef,
   removeOldRef,
-} from '@onekeyhq/components/src/utils/SelectAutoHide';
+} from '@mywallet/components/src/utils/SelectAutoHide';
 
 import backgroundApiProxy from '../../../background/instance/backgroundApiProxy';
 import { useAppSelector, useNavigationActions } from '../../../hooks';

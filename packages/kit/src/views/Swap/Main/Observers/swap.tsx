@@ -1,10 +1,10 @@
 import { useCallback, useEffect, useMemo } from 'react';
 
-import type { Account } from '@onekeyhq/engine/src/types/account';
+import type { Account } from '@mywallet/engine/src/types/account';
 import {
   AppUIEventBusNames,
   appUIEventBus,
-} from '@onekeyhq/shared/src/eventBus/appUIEventBus';
+} from '@mywallet/shared/src/eventBus/appUIEventBus';
 
 import backgroundApiProxy from '../../../../background/instance/backgroundApiProxy';
 import { useAppSelector, usePrevious } from '../../../../hooks';

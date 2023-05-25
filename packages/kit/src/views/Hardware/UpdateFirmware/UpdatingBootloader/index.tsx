@@ -6,20 +6,20 @@ import { useNavigation, useRoute } from '@react-navigation/core';
 import { useKeepAwake } from 'expo-keep-awake';
 import { useIntl } from 'react-intl';
 
-import { Modal, ToastManager } from '@onekeyhq/components';
-import type { OneKeyHardwareError } from '@onekeyhq/engine/src/errors';
-import backgroundApiProxy from '@onekeyhq/kit/src/background/instance/backgroundApiProxy';
-import { useAppSelector } from '@onekeyhq/kit/src/hooks/redux';
-import type { HardwareUpdateRoutesParams } from '@onekeyhq/kit/src/routes/Root/Modal/HardwareUpdate';
-import type { ModalScreenProps } from '@onekeyhq/kit/src/routes/types';
-import { deviceUtils } from '@onekeyhq/kit/src/utils/hardware';
-import * as Errors from '@onekeyhq/kit/src/utils/hardware/errors';
+import { Modal, ToastManager } from '@mywallet/components';
+import type { OneKeyHardwareError } from '@mywallet/engine/src/errors';
+import backgroundApiProxy from '@mywallet/kit/src/background/instance/backgroundApiProxy';
+import { useAppSelector } from '@mywallet/kit/src/hooks/redux';
+import type { HardwareUpdateRoutesParams } from '@mywallet/kit/src/routes/Root/Modal/HardwareUpdate';
+import type { ModalScreenProps } from '@mywallet/kit/src/routes/types';
+import { deviceUtils } from '@mywallet/kit/src/utils/hardware';
+import * as Errors from '@mywallet/kit/src/utils/hardware/errors';
 import {
   AppUIEventBusNames,
   appUIEventBus,
-} from '@onekeyhq/shared/src/eventBus/appUIEventBus';
-import platformEnv from '@onekeyhq/shared/src/platformEnv';
-import type { IOneKeyDeviceType } from '@onekeyhq/shared/types';
+} from '@mywallet/shared/src/eventBus/appUIEventBus';
+import platformEnv from '@mywallet/shared/src/platformEnv';
+import type { IOneKeyDeviceType } from '@mywallet/shared/types';
 
 import { HardwareUpdateModalRoutes } from '../../../../routes/routesEnum';
 import {

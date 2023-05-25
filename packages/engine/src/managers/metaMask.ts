@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-import { SEPERATOR } from '@onekeyhq/shared/src/engine/engineConsts';
+import { SEPERATOR } from '@mywallet/shared/src/engine/engineConsts';
 
 import { OneKeyInternalError } from '../errors';
 

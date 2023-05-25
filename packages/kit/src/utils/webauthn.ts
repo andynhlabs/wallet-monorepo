@@ -1,6 +1,6 @@
 /* eslint-disable no-plusplus, no-bitwise, @typescript-eslint/require-await, @typescript-eslint/no-unsafe-return, @typescript-eslint/no-unsafe-member-access, @typescript-eslint/no-unsafe-call  */
 
-import platformEnv from '@onekeyhq/shared/src/platformEnv';
+import platformEnv from '@mywallet/shared/src/platformEnv';
 
 import backgroundApiProxy from '../background/instance/backgroundApiProxy';
 import { setEnableWebAuthn } from '../store/reducers/settings';

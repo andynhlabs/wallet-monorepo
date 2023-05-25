@@ -2,7 +2,7 @@
 
 import type { FC } from 'react';
 
-import { useIsVerticalLayout } from '@onekeyhq/components';
+import { useIsVerticalLayout } from '@mywallet/components';
 
 import type { SectionDataType } from '../../type';
 

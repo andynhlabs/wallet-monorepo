@@ -1,10 +1,10 @@
 import type { FC } from 'react';
 import { useCallback, useMemo } from 'react';
 
-import { Divider } from '@onekeyhq/components';
-import type { CreateAccountRoutesParams } from '@onekeyhq/kit/src/routes';
-import type { ModalScreenProps } from '@onekeyhq/kit/src/routes/types';
-import platformEnv from '@onekeyhq/shared/src/platformEnv';
+import { Divider } from '@mywallet/components';
+import type { CreateAccountRoutesParams } from '@mywallet/kit/src/routes';
+import type { ModalScreenProps } from '@mywallet/kit/src/routes/types';
+import platformEnv from '@mywallet/shared/src/platformEnv';
 
 import { useCreateAccountInWallet } from '../../../components/NetworkAccountSelector/hooks/useCreateAccountInWallet';
 import { useNavigation } from '../../../hooks';

@@ -1,12 +1,12 @@
 import { useMemo } from 'react';
 
-import { Box, HStack, RadioFee, VStack } from '@onekeyhq/components';
+import { Box, HStack, RadioFee, VStack } from '@mywallet/components';
 import type {
   IFeeInfo,
   IFeeInfoPayload,
   IFeeInfoSelectedType,
   IFeeInfoUnit,
-} from '@onekeyhq/engine/src/vaults/types';
+} from '@mywallet/engine/src/vaults/types';
 
 import { FeeSpeedLabel } from '../../components/FeeSpeedLabel';
 import {

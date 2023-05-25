@@ -3,9 +3,9 @@ import LWSClient from '@mymonero/mymonero-lws-client';
 import axios from 'axios';
 import BigNumber from 'bignumber.js';
 
-import { BaseClient } from '@onekeyhq/engine/src/client/BaseClient';
-import type { CoinInfo } from '@onekeyhq/engine/src/types/chain';
-import { JsonRPCRequest } from '@onekeyhq/shared/src/request/JsonRPCRequest';
+import { BaseClient } from '@mywallet/engine/src/client/BaseClient';
+import type { CoinInfo } from '@mywallet/engine/src/types/chain';
+import { JsonRPCRequest } from '@mywallet/shared/src/request/JsonRPCRequest';
 
 import { NotImplemented } from '../../../errors';
 

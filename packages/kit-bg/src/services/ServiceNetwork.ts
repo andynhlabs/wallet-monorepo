@@ -1,40 +1,40 @@
 /* eslint-disable @typescript-eslint/require-await */
 import { debounce } from 'lodash';
 
-import simpleDb from '@onekeyhq/engine/src/dbs/simple/simpleDb';
-import { fetchChainList } from '@onekeyhq/engine/src/managers/network';
+import simpleDb from '@mywallet/engine/src/dbs/simple/simpleDb';
+import { fetchChainList } from '@mywallet/engine/src/managers/network';
 import type {
   AddNetworkParams,
   Network,
   UpdateNetworkParams,
-} from '@onekeyhq/engine/src/types/network';
-import type { IFeeInfoUnit } from '@onekeyhq/engine/src/vaults/types';
-import type { GeneralInitialState } from '@onekeyhq/kit/src/store/reducers/general';
-import { changeActiveNetwork } from '@onekeyhq/kit/src/store/reducers/general';
-import reducerAccountSelector from '@onekeyhq/kit/src/store/reducers/reducerAccountSelector';
-import { updateNetworks } from '@onekeyhq/kit/src/store/reducers/runtime';
+} from '@mywallet/engine/src/types/network';
+import type { IFeeInfoUnit } from '@mywallet/engine/src/vaults/types';
+import type { GeneralInitialState } from '@mywallet/kit/src/store/reducers/general';
+import { changeActiveNetwork } from '@mywallet/kit/src/store/reducers/general';
+import reducerAccountSelector from '@mywallet/kit/src/store/reducers/reducerAccountSelector';
+import { updateNetworks } from '@mywallet/kit/src/store/reducers/runtime';
 import {
   clearNetworkCustomRpcs,
   updateCustomNetworkRpc,
-} from '@onekeyhq/kit/src/store/reducers/settings';
-import type { IRpcStatus } from '@onekeyhq/kit/src/store/reducers/status';
+} from '@mywallet/kit/src/store/reducers/settings';
+import type { IRpcStatus } from '@mywallet/kit/src/store/reducers/status';
 import {
   setRpcStatus,
   updateUserSwitchNetworkFlag,
-} from '@onekeyhq/kit/src/store/reducers/status';
-import { getTimeDurationMs, wait } from '@onekeyhq/kit/src/utils/helper';
+} from '@mywallet/kit/src/store/reducers/status';
+import { getTimeDurationMs, wait } from '@mywallet/kit/src/utils/helper';
 import {
   backgroundClass,
   backgroundMethod,
   bindThis,
-} from '@onekeyhq/shared/src/background/backgroundDecorators';
-import { IMPL_EVM } from '@onekeyhq/shared/src/engine/engineConsts';
+} from '@mywallet/shared/src/background/backgroundDecorators';
+import { IMPL_EVM } from '@mywallet/shared/src/engine/engineConsts';
 import {
   AppEventBusNames,
   appEventBus,
-} from '@onekeyhq/shared/src/eventBus/appEventBus';
-import debugLogger from '@onekeyhq/shared/src/logger/debugLogger';
-import NetInfo from '@onekeyhq/shared/src/modules3rdParty/@react-native-community/netinfo';
+} from '@mywallet/shared/src/eventBus/appEventBus';
+import debugLogger from '@mywallet/shared/src/logger/debugLogger';
+import NetInfo from '@mywallet/shared/src/modules3rdParty/@react-native-community/netinfo';
 
 import ServiceBase from './ServiceBase';
 

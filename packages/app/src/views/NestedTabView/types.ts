@@ -3,7 +3,7 @@ import type { ForwardedRef, ReactNode } from 'react';
 import { Dimensions } from 'react-native';
 import { makeMutable, withSpring } from 'react-native-reanimated';
 
-import type { FontProps } from '@onekeyhq/components/src/Typography';
+import type { FontProps } from '@mywallet/components/src/Typography';
 
 import type { NativeSyntheticEvent, StyleProp, ViewStyle } from 'react-native';
 

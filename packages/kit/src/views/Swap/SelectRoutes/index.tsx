@@ -17,8 +17,8 @@ import {
   Pressable,
   ScrollView,
   Typography,
-} from '@onekeyhq/components';
-import platformEnv from '@onekeyhq/shared/src/platformEnv';
+} from '@mywallet/components';
+import platformEnv from '@mywallet/shared/src/platformEnv';
 
 import backgroundApiProxy from '../../../background/instance/backgroundApiProxy';
 import { useAppSelector, useNavigation } from '../../../hooks';

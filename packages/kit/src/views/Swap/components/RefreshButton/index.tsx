@@ -5,12 +5,12 @@ import { useCallback, useEffect, useRef } from 'react';
 import { useIsFocused } from '@react-navigation/native';
 import { Animated } from 'react-native';
 
-import { Center, LottieView, useTheme } from '@onekeyhq/components';
-import Pressable from '@onekeyhq/components/src/Pressable/Pressable';
+import { Center, LottieView, useTheme } from '@mywallet/components';
+import Pressable from '@mywallet/components/src/Pressable/Pressable';
 import {
   AppUIEventBusNames,
   appUIEventBus,
-} from '@onekeyhq/shared/src/eventBus/appUIEventBus';
+} from '@mywallet/shared/src/eventBus/appUIEventBus';
 
 import { useAppSelector } from '../../../../hooks';
 import { appSelector } from '../../../../store';
@@ -89,8 +89,8 @@ const RefreshButton = () => {
             width={20}
             source={
               themeVariant === 'light'
-                ? require('@onekeyhq/kit/assets/animations/lottie_onekey_swap_refresh_light.json')
-                : require('@onekeyhq/kit/assets/animations/lottie_onekey_swap_refresh_dark.json')
+                ? require('@mywallet/kit/assets/animations/lottie_onekey_swap_refresh_light.json')
+                : require('@mywallet/kit/assets/animations/lottie_onekey_swap_refresh_dark.json')
             }
           />
         </Center>

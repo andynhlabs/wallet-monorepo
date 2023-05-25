@@ -1,13 +1,13 @@
 import type {
   IBaseExternalAccountInfo,
   IExternalAccountType,
-} from '@onekeyhq/engine/src/dbs/simple/entity/SimpleDbEntityWalletConnect';
-import simpleDb from '@onekeyhq/engine/src/dbs/simple/simpleDb';
-import type { WalletService } from '@onekeyhq/kit/src/components/WalletConnect/types';
+} from '@mywallet/engine/src/dbs/simple/entity/SimpleDbEntityWalletConnect';
+import simpleDb from '@mywallet/engine/src/dbs/simple/simpleDb';
+import type { WalletService } from '@mywallet/kit/src/components/WalletConnect/types';
 import {
   backgroundClass,
   backgroundMethod,
-} from '@onekeyhq/shared/src/background/backgroundDecorators';
+} from '@mywallet/shared/src/background/backgroundDecorators';
 
 import ServiceBase from './ServiceBase';
 

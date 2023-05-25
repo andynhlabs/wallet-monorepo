@@ -1,7 +1,7 @@
 /* eslint-disable no-nested-ternary */
 import type { ComponentProps, FC } from 'react';
 
-import { Box, HStack, Pressable, Typography } from '@onekeyhq/components';
+import { Box, HStack, Pressable, Typography } from '@mywallet/components';
 
 export interface SectionHeaderProps extends ComponentProps<typeof HStack> {
   title?: string;

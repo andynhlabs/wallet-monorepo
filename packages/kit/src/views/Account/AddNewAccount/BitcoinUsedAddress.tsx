@@ -13,11 +13,11 @@ import {
   SegmentedControl,
   Spinner,
   Token,
-} from '@onekeyhq/components';
+} from '@mywallet/components';
 import type {
   Account,
   BtcForkChainUsedAccount,
-} from '@onekeyhq/engine/src/types/account';
+} from '@mywallet/engine/src/types/account';
 
 import backgroundApiProxy from '../../../background/instance/backgroundApiProxy';
 import { useNetwork } from '../../../hooks';

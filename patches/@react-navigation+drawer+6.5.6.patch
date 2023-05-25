@@ -7,7 +7,7 @@ index 1356741..c74fe9e 100644
  } from 'react-native-reanimated';
  
 +
-+import { nestedTabTransX as translationX, nestedTabStartX as touchStartX } from '@onekeyhq/app/src/views/NestedTabView/types';
++import { nestedTabTransX as translationX, nestedTabStartX as touchStartX } from '@mywallet/app/src/views/NestedTabView/types';
 +
  import type { DrawerProps } from '../../types';
  import DrawerProgressContext from '../../utils/DrawerProgressContext';

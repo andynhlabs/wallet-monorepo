@@ -2,7 +2,7 @@ import { useCallback, useContext, useMemo, useState } from 'react';
 
 import { useIntl } from 'react-intl';
 
-import { ToggleButtonGroup } from '@onekeyhq/components';
+import { ToggleButtonGroup } from '@mywallet/components';
 
 import { useTranslation } from '../../../../hooks';
 import { useCategories } from '../../hooks';

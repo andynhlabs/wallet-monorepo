@@ -1,4 +1,4 @@
-import { useIsVerticalLayout } from '@onekeyhq/components';
+import { useIsVerticalLayout } from '@mywallet/components';
 
 import MarketSrarchModal from '../../../views/Market/MarketSearch';
 import { MarketRoutes } from '../../../views/Market/types';

@@ -2,7 +2,7 @@ import type { ComponentProps, FC } from 'react';
 
 import { Spinner as NBSpinner } from 'native-base';
 
-import { useThemeValue } from '@onekeyhq/components';
+import { useThemeValue } from '@mywallet/components';
 
 type SpinnerSize = 'sm' | 'lg';
 

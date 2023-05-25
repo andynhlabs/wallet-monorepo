@@ -1,4 +1,4 @@
-import { useIsVerticalLayout } from '@onekeyhq/components';
+import { useIsVerticalLayout } from '@mywallet/components';
 
 import ReceiveToken from '../../../views/ReceiveToken';
 import { ReceiveTokenModalRoutes } from '../../../views/ReceiveToken/types';

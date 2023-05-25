@@ -2,9 +2,9 @@ import { useCallback, useMemo } from 'react';
 
 import { useNavigation } from '@react-navigation/core';
 
-import type { Network } from '@onekeyhq/engine/src/types/network';
-import type { Collection } from '@onekeyhq/engine/src/types/nft';
-import { OnekeyNetwork } from '@onekeyhq/shared/src/config/networkIds';
+import type { Network } from '@mywallet/engine/src/types/network';
+import type { Collection } from '@mywallet/engine/src/types/nft';
+import { OnekeyNetwork } from '@mywallet/shared/src/config/networkIds';
 
 import { useNetworks } from '../../../hooks/redux';
 import { HomeRoutes } from '../../../routes/routesEnum';

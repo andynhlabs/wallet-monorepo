@@ -5,9 +5,9 @@ import { useRoute } from '@react-navigation/native';
 import { isFunction } from 'lodash';
 import { useIntl } from 'react-intl';
 
-import { Box, LottieView, Text, VStack } from '@onekeyhq/components';
-import useModalClose from '@onekeyhq/components/src/Modal/Container/useModalClose';
-import platformEnv from '@onekeyhq/shared/src/platformEnv';
+import { Box, LottieView, Text, VStack } from '@mywallet/components';
+import useModalClose from '@mywallet/components/src/Modal/Container/useModalClose';
+import platformEnv from '@mywallet/shared/src/platformEnv';
 
 import backgroundApiProxy from '../../../background/instance/backgroundApiProxy';
 import { useActiveSideAccount, useInterval } from '../../../hooks';
@@ -130,7 +130,7 @@ export function SendFeedbackReceipt() {
         <Box w="200px" h="200px">
           <LottieView
             width={200}
-            source={require('@onekeyhq/kit/assets/animations/lottie_send_success_feedback.json')}
+            source={require('@mywallet/kit/assets/animations/lottie_send_success_feedback.json')}
             autoPlay
             loop={false}
           />

@@ -3,7 +3,7 @@ import { useCallback, useRef } from 'react';
 import { useIntl } from 'react-intl';
 import { Animated, Easing } from 'react-native';
 
-import { Box, HStack, Icon, Typography } from '@onekeyhq/components';
+import { Box, HStack, Icon, Typography } from '@mywallet/components';
 
 const SwapFeatureText = () => {
   const intl = useIntl();

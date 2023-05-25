@@ -1,20 +1,20 @@
 import { useCallback, useEffect, useState } from 'react';
 
-import { isCoinTypeCompatibleWithImpl } from '@onekeyhq/engine/src/managers/impl';
+import { isCoinTypeCompatibleWithImpl } from '@mywallet/engine/src/managers/impl';
 import type {
   AccountDynamicItem,
   PriceAlertItem,
-} from '@onekeyhq/engine/src/managers/notification';
+} from '@mywallet/engine/src/managers/notification';
 import {
   ADDRESS_ZERO,
   DUMMY_ADDRESS,
   DUMMY_ADDRESS_2,
   DUMMY_ADDRESS_3,
-} from '@onekeyhq/engine/src/managers/revoke';
-import type { Account } from '@onekeyhq/engine/src/types/account';
-import type { Wallet } from '@onekeyhq/engine/src/types/wallet';
-import { makeTimeoutPromise } from '@onekeyhq/shared/src/background/backgroundUtils';
-import { IMPL_EVM } from '@onekeyhq/shared/src/engine/engineConsts';
+} from '@mywallet/engine/src/managers/revoke';
+import type { Account } from '@mywallet/engine/src/types/account';
+import type { Wallet } from '@mywallet/engine/src/types/wallet';
+import { makeTimeoutPromise } from '@mywallet/shared/src/background/backgroundUtils';
+import { IMPL_EVM } from '@mywallet/shared/src/engine/engineConsts';
 
 import backgroundApiProxy from '../../background/instance/backgroundApiProxy';
 import { useRuntime } from '../../hooks/redux';

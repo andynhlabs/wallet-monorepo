@@ -14,8 +14,8 @@ import {
   Text,
   Typography,
   VStack,
-} from '@onekeyhq/components';
-import type { SwitchRpcParams } from '@onekeyhq/engine/src/types/network';
+} from '@mywallet/components';
+import type { SwitchRpcParams } from '@mywallet/engine/src/types/network';
 
 import backgroundApiProxy from '../../../background/instance/backgroundApiProxy';
 import Speedindicator from '../../../components/NetworkAccountSelector/modals/NetworkAccountSelectorModal/SpeedIndicator';

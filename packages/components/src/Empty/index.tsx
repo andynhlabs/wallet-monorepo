@@ -1,7 +1,7 @@
 import type { ComponentProps, FC, ReactNode } from 'react';
 import { isValidElement } from 'react';
 
-import { useIsVerticalLayout } from '@onekeyhq/components';
+import { useIsVerticalLayout } from '@mywallet/components';
 
 import Box from '../Box';
 import Button from '../Button';

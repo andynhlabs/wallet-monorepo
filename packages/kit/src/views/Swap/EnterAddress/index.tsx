@@ -3,10 +3,10 @@ import { useCallback, useEffect } from 'react';
 import { useNavigation, useRoute } from '@react-navigation/native';
 import { useIntl } from 'react-intl';
 
-import { Form, Modal, ToastManager, useForm } from '@onekeyhq/components';
+import { Form, Modal, ToastManager, useForm } from '@mywallet/components';
 import NameServiceResolver, {
   useNameServiceStatus,
-} from '@onekeyhq/kit/src/components/NameServiceResolver';
+} from '@mywallet/kit/src/components/NameServiceResolver';
 
 import backgroundApiProxy from '../../../background/instance/backgroundApiProxy';
 import AddressInput from '../../../components/AddressInput';

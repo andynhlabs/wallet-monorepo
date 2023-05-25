@@ -55,7 +55,7 @@ npm install -g expo-cli
 
 packages/` ディレクトリの下のサブディレクトリはそれぞれ別のプロジェクトで、その名前は monorepo の **package.json** ディレクトリにある `name` フィールドの値になります。
 
-サブディレクトリの依存関係をインストールする必要があるときは、`yarn workspace @onekeyhq/web add axios`とすればよいでしょう。 yarn workspace @onekeyhq/web` のような接頭辞をつけると、最終的に axios モジュールは web サブプロジェクトのルートディレクトリにインストールされるようになります。
+サブディレクトリの依存関係をインストールする必要があるときは、`yarn workspace @mywallet/web add axios`とすればよいでしょう。 yarn workspace @mywallet/web` のような接頭辞をつけると、最終的に axios モジュールは web サブプロジェクトのルートディレクトリにインストールされるようになります。
 
 依存関係の中にはネイティブな部分もあるので、JSの依存関係をインストールした後に、`packages/app/ios`ディレクトリに移動して、`pod install`を実行する必要があります。
 

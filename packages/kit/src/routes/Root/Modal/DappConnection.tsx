@@ -1,4 +1,4 @@
-import { useIsVerticalLayout } from '@onekeyhq/components';
+import { useIsVerticalLayout } from '@mywallet/components';
 
 import { useOnboardingRequired } from '../../../hooks/useOnboardingRequired';
 import Connection from '../../../views/DappModals/Connection';

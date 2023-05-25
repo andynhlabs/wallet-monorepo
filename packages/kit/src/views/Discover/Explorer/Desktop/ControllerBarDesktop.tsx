@@ -3,8 +3,8 @@ import { forwardRef, useCallback, useEffect, useRef, useState } from 'react';
 
 import { useIntl } from 'react-intl';
 
-import type { ICON_NAMES } from '@onekeyhq/components';
-import { HStack, IconButton, Input, Pressable } from '@onekeyhq/components';
+import type { ICON_NAMES } from '@mywallet/components';
+import { HStack, IconButton, Input, Pressable } from '@mywallet/components';
 
 import backgroundApiProxy from '../../../../background/instance/backgroundApiProxy';
 import { NetworkAccountSelectorTriggerDesktop } from '../../../../components/NetworkAccountSelector';

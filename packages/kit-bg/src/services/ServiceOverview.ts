@@ -1,19 +1,19 @@
 import { debounce, pick, throttle, uniqBy } from 'lodash';
 
-import { setOverviewPortfolioDefi } from '@onekeyhq/kit/src/store/reducers/overview';
-import { getTimeDurationMs } from '@onekeyhq/kit/src/utils/helper';
+import { setOverviewPortfolioDefi } from '@mywallet/kit/src/store/reducers/overview';
+import { getTimeDurationMs } from '@mywallet/kit/src/utils/helper';
 import type {
   IOverviewScanTaskItem,
   IOverviewScanTaskType,
   OverviewDefiRes,
-} from '@onekeyhq/kit/src/views/Overview/types';
+} from '@mywallet/kit/src/views/Overview/types';
 import {
   backgroundClass,
   backgroundMethod,
   bindThis,
-} from '@onekeyhq/shared/src/background/backgroundDecorators';
-import { fetchData } from '@onekeyhq/shared/src/background/backgroundUtils';
-import debugLogger from '@onekeyhq/shared/src/logger/debugLogger';
+} from '@mywallet/shared/src/background/backgroundDecorators';
+import { fetchData } from '@mywallet/shared/src/background/backgroundUtils';
+import debugLogger from '@mywallet/shared/src/logger/debugLogger';
 
 import ServiceBase from './ServiceBase';
 

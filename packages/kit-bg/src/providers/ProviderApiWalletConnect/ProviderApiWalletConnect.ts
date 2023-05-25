@@ -3,22 +3,22 @@
 import { IInjectedProviderNames } from '@onekeyfe/cross-inpage-provider-types';
 import { debounce } from 'lodash';
 
-import unlockUtils from '@onekeyhq/kit/src/components/AppLock/unlockUtils';
-import type { OneKeyWalletConnector } from '@onekeyhq/kit/src/components/WalletConnect/OneKeyWalletConnector';
+import unlockUtils from '@mywallet/kit/src/components/AppLock/unlockUtils';
+import type { OneKeyWalletConnector } from '@mywallet/kit/src/components/WalletConnect/OneKeyWalletConnector';
 import type {
   IWalletConnectClientEventDestroy,
   IWalletConnectClientEventRpc,
-} from '@onekeyhq/kit/src/components/WalletConnect/WalletConnectClient';
-import { WalletConnectClientForWallet } from '@onekeyhq/kit/src/components/WalletConnect/WalletConnectClientForWallet';
-import { closeDappConnectionPreloading } from '@onekeyhq/kit/src/store/reducers/refresher';
-import { backgroundClass } from '@onekeyhq/shared/src/background/backgroundDecorators';
+} from '@mywallet/kit/src/components/WalletConnect/WalletConnectClient';
+import { WalletConnectClientForWallet } from '@mywallet/kit/src/components/WalletConnect/WalletConnectClientForWallet';
+import { closeDappConnectionPreloading } from '@mywallet/kit/src/store/reducers/refresher';
+import { backgroundClass } from '@mywallet/shared/src/background/backgroundDecorators';
 import {
   IMPL_ALGO,
   IMPL_APTOS,
   IMPL_EVM,
-} from '@onekeyhq/shared/src/engine/engineConsts';
-import debugLogger from '@onekeyhq/shared/src/logger/debugLogger';
-import platformEnv from '@onekeyhq/shared/src/platformEnv';
+} from '@mywallet/shared/src/engine/engineConsts';
+import debugLogger from '@mywallet/shared/src/logger/debugLogger';
+import platformEnv from '@mywallet/shared/src/platformEnv';
 
 import { WalletConnectRequestProxyAlgo } from './WalletConnectRequestProxyAlgo';
 import { WalletConnectRequestProxyAptos } from './WalletConnectRequestProxyAptos';

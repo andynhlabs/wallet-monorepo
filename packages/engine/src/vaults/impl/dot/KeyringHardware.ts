@@ -2,23 +2,23 @@
 /* eslint-disable @typescript-eslint/no-unsafe-member-access */
 import { bytesToHex, hexToBytes } from '@noble/hashes/utils';
 
-import { OneKeyHardwareError } from '@onekeyhq/engine/src/errors';
-import { getAccountNameInfoByImpl } from '@onekeyhq/engine/src/managers/impl';
-import type { DBVariantAccount } from '@onekeyhq/engine/src/types/account';
-import { AccountType } from '@onekeyhq/engine/src/types/account';
-import { KeyringHardwareBase } from '@onekeyhq/engine/src/vaults/keyring/KeyringHardwareBase';
+import { OneKeyHardwareError } from '@mywallet/engine/src/errors';
+import { getAccountNameInfoByImpl } from '@mywallet/engine/src/managers/impl';
+import type { DBVariantAccount } from '@mywallet/engine/src/types/account';
+import { AccountType } from '@mywallet/engine/src/types/account';
+import { KeyringHardwareBase } from '@mywallet/engine/src/vaults/keyring/KeyringHardwareBase';
 import type {
   IHardwareGetAddressParams,
   IPrepareHardwareAccountsParams,
   ISignCredentialOptions,
-} from '@onekeyhq/engine/src/vaults/types';
-import { addHexPrefix } from '@onekeyhq/engine/src/vaults/utils/hexUtils';
-import { convertDeviceError } from '@onekeyhq/shared/src/device/deviceErrorUtils';
+} from '@mywallet/engine/src/vaults/types';
+import { addHexPrefix } from '@mywallet/engine/src/vaults/utils/hexUtils';
+import { convertDeviceError } from '@mywallet/shared/src/device/deviceErrorUtils';
 import {
   IMPL_DOT as COIN_IMPL,
   COINTYPE_DOT as COIN_TYPE,
-} from '@onekeyhq/shared/src/engine/engineConsts';
-import debugLogger from '@onekeyhq/shared/src/logger/debugLogger';
+} from '@mywallet/shared/src/engine/engineConsts';
+import debugLogger from '@mywallet/shared/src/logger/debugLogger';
 
 import { TYPE_PREFIX } from './consts';
 import polkadotSdk from './sdk/polkadotSdk';

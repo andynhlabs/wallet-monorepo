@@ -1,6 +1,6 @@
 import type { FC } from 'react';
 
-import { Input } from '@onekeyhq/components';
+import { Input } from '@mywallet/components';
 
 export const AutoSizeText: FC<{
   text: string;

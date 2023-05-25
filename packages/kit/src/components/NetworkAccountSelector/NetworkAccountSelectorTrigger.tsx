@@ -11,7 +11,7 @@ import {
   Pressable,
   Token,
   Typography,
-} from '@onekeyhq/components';
+} from '@mywallet/components';
 
 import { useActiveWalletAccount, useNavigationActions } from '../../hooks';
 import { useRpcMeasureStatus } from '../../views/ManageNetworks/hooks';

@@ -1,5 +1,5 @@
-import { useIsVerticalLayout } from '@onekeyhq/components';
-import type { AccountCredential } from '@onekeyhq/engine/src/types/account';
+import { useIsVerticalLayout } from '@mywallet/components';
+import type { AccountCredential } from '@mywallet/engine/src/types/account';
 
 import ManagerAccountModalView from '../../../views/ManagerAccount/AccountInfo';
 import ExportPrivateViewModal from '../../../views/ManagerAccount/ExportPrivate';

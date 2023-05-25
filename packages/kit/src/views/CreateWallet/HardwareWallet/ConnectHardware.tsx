@@ -20,34 +20,34 @@ import {
   ToastManager,
   Typography,
   VStack,
-} from '@onekeyhq/components';
-import ClassicDeviceIcon from '@onekeyhq/components/img/deviceIcon_classic.png';
-import MiniDeviceIcon from '@onekeyhq/components/img/deviceIcon_mini.png';
-import TouchDeviceIcon from '@onekeyhq/components/img/deviceicon_touch.png';
-import PressableItem from '@onekeyhq/components/src/Pressable/PressableItem';
-import type { OneKeyHardwareError } from '@onekeyhq/engine/src/errors';
-import { OneKeyErrorClassNames } from '@onekeyhq/engine/src/errors';
-import type { Device } from '@onekeyhq/engine/src/types/device';
-import type { Wallet } from '@onekeyhq/engine/src/types/wallet';
-import KeepDeviceAroundSource from '@onekeyhq/kit/assets/wallet/keep_device_close.png';
-import backgroundApiProxy from '@onekeyhq/kit/src/background/instance/backgroundApiProxy';
-import NeedBridgeDialog from '@onekeyhq/kit/src/components/NeedBridgeDialog';
-import { useRuntime } from '@onekeyhq/kit/src/hooks/redux';
-import type { CreateWalletRoutesParams } from '@onekeyhq/kit/src/routes/Root/Modal/CreateWallet';
+} from '@mywallet/components';
+import ClassicDeviceIcon from '@mywallet/components/img/deviceIcon_classic.png';
+import MiniDeviceIcon from '@mywallet/components/img/deviceIcon_mini.png';
+import TouchDeviceIcon from '@mywallet/components/img/deviceicon_touch.png';
+import PressableItem from '@mywallet/components/src/Pressable/PressableItem';
+import type { OneKeyHardwareError } from '@mywallet/engine/src/errors';
+import { OneKeyErrorClassNames } from '@mywallet/engine/src/errors';
+import type { Device } from '@mywallet/engine/src/types/device';
+import type { Wallet } from '@mywallet/engine/src/types/wallet';
+import KeepDeviceAroundSource from '@mywallet/kit/assets/wallet/keep_device_close.png';
+import backgroundApiProxy from '@mywallet/kit/src/background/instance/backgroundApiProxy';
+import NeedBridgeDialog from '@mywallet/kit/src/components/NeedBridgeDialog';
+import { useRuntime } from '@mywallet/kit/src/hooks/redux';
+import type { CreateWalletRoutesParams } from '@mywallet/kit/src/routes/Root/Modal/CreateWallet';
 import {
   CreateWalletModalRoutes,
   ModalRoutes,
   RootRoutes,
-} from '@onekeyhq/kit/src/routes/routesEnum';
+} from '@mywallet/kit/src/routes/routesEnum';
 import type {
   ModalScreenProps,
   RootRoutesParams,
-} from '@onekeyhq/kit/src/routes/types';
-import type { SearchDevice } from '@onekeyhq/kit/src/utils/hardware';
-import { deviceUtils } from '@onekeyhq/kit/src/utils/hardware';
-import debugLogger from '@onekeyhq/shared/src/logger/debugLogger';
-import platformEnv from '@onekeyhq/shared/src/platformEnv';
-import type { IOneKeyDeviceType } from '@onekeyhq/shared/types';
+} from '@mywallet/kit/src/routes/types';
+import type { SearchDevice } from '@mywallet/kit/src/utils/hardware';
+import { deviceUtils } from '@mywallet/kit/src/utils/hardware';
+import debugLogger from '@mywallet/shared/src/logger/debugLogger';
+import platformEnv from '@mywallet/shared/src/platformEnv';
+import type { IOneKeyDeviceType } from '@mywallet/shared/types';
 
 import {
   BleLocationServiceError,
@@ -433,7 +433,7 @@ const ConnectHardwareModal: FC = () => {
           <Box w="358px" h="220px" mb={-4}>
             <LottieView
               // eslint-disable-next-line global-require
-              source={require('@onekeyhq/kit/assets/animations/lottie_connect_onekey_by_bluetooth.json')}
+              source={require('@mywallet/kit/assets/animations/lottie_connect_onekey_by_bluetooth.json')}
               autoPlay
               loop
             />
@@ -461,7 +461,7 @@ const ConnectHardwareModal: FC = () => {
       <Box>
         <LottieView
           // eslint-disable-next-line global-require
-          source={require('@onekeyhq/kit/assets/animations/lottie_connect_onekey_by_usb.json')}
+          source={require('@mywallet/kit/assets/animations/lottie_connect_onekey_by_usb.json')}
           autoPlay
           loop
         />

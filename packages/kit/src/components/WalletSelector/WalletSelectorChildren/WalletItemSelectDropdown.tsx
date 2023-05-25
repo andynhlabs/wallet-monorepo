@@ -13,17 +13,17 @@ import {
   IconButton,
   Menu,
   ToastManager,
-} from '@onekeyhq/components';
-import type { OnCloseCallback } from '@onekeyhq/components/src/Dialog/components/FooterButton';
-import type { IWallet } from '@onekeyhq/engine/src/types';
-import { WALLET_TYPE_HW } from '@onekeyhq/engine/src/types/wallet';
-import backgroundApiProxy from '@onekeyhq/kit/src/background/instance/backgroundApiProxy';
-import type { IHardwareDeviceStatusMap } from '@onekeyhq/kit/src/components/NetworkAccountSelector/hooks/useDeviceStatusOfHardwareWallet';
-import { ValidationFields } from '@onekeyhq/kit/src/components/Protected';
-import { useAppSelector } from '@onekeyhq/kit/src/hooks';
-import useAppNavigation from '@onekeyhq/kit/src/hooks/useAppNavigation';
-import useLocalAuthenticationModal from '@onekeyhq/kit/src/hooks/useLocalAuthenticationModal';
-import type { RootNavContainerRef } from '@onekeyhq/kit/src/provider/NavigationProvider';
+} from '@mywallet/components';
+import type { OnCloseCallback } from '@mywallet/components/src/Dialog/components/FooterButton';
+import type { IWallet } from '@mywallet/engine/src/types';
+import { WALLET_TYPE_HW } from '@mywallet/engine/src/types/wallet';
+import backgroundApiProxy from '@mywallet/kit/src/background/instance/backgroundApiProxy';
+import type { IHardwareDeviceStatusMap } from '@mywallet/kit/src/components/NetworkAccountSelector/hooks/useDeviceStatusOfHardwareWallet';
+import { ValidationFields } from '@mywallet/kit/src/components/Protected';
+import { useAppSelector } from '@mywallet/kit/src/hooks';
+import useAppNavigation from '@mywallet/kit/src/hooks/useAppNavigation';
+import useLocalAuthenticationModal from '@mywallet/kit/src/hooks/useLocalAuthenticationModal';
+import type { RootNavContainerRef } from '@mywallet/kit/src/provider/NavigationProvider';
 import {
   BackupWalletModalRoutes,
   HardwareUpdateModalRoutes,
@@ -31,18 +31,18 @@ import {
   ModalRoutes,
   OnekeyHardwareModalRoutes,
   RootRoutes,
-} from '@onekeyhq/kit/src/routes/routesEnum';
+} from '@mywallet/kit/src/routes/routesEnum';
 import {
   forgetPassphraseWallet,
   rememberPassphraseWallet,
-} from '@onekeyhq/kit/src/store/reducers/settings';
-import { deviceUtils } from '@onekeyhq/kit/src/utils/hardware';
-import { getHomescreenKeys } from '@onekeyhq/kit/src/utils/hardware/constants/homescreens';
-import { showDialog } from '@onekeyhq/kit/src/utils/overlayUtils';
-import showDeviceAdvancedSettings from '@onekeyhq/kit/src/views/Hardware/Onekey/DeviceAdvancedSettingsBottomSheetModal';
-import HardwareLoadingDialog from '@onekeyhq/kit/src/views/Hardware/Onekey/OnekeyHardwareConnectDialog';
-import ManagerWalletDeleteDialog from '@onekeyhq/kit/src/views/ManagerWallet/DeleteWallet';
-import type { DeleteWalletProp } from '@onekeyhq/kit/src/views/ManagerWallet/DeleteWallet';
+} from '@mywallet/kit/src/store/reducers/settings';
+import { deviceUtils } from '@mywallet/kit/src/utils/hardware';
+import { getHomescreenKeys } from '@mywallet/kit/src/utils/hardware/constants/homescreens';
+import { showDialog } from '@mywallet/kit/src/utils/overlayUtils';
+import showDeviceAdvancedSettings from '@mywallet/kit/src/views/Hardware/Onekey/DeviceAdvancedSettingsBottomSheetModal';
+import HardwareLoadingDialog from '@mywallet/kit/src/views/Hardware/Onekey/OnekeyHardwareConnectDialog';
+import ManagerWalletDeleteDialog from '@mywallet/kit/src/views/ManagerWallet/DeleteWallet';
+import type { DeleteWalletProp } from '@mywallet/kit/src/views/ManagerWallet/DeleteWallet';
 
 import reducerAccountSelector from '../../../store/reducers/reducerAccountSelector';
 import { defaultMenuOffset } from '../../../views/Overlay/BaseMenu';

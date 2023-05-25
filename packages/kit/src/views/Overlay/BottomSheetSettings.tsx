@@ -9,7 +9,7 @@ import {
   Modal,
   useIsVerticalLayout,
   useThemeValue,
-} from '@onekeyhq/components';
+} from '@mywallet/components';
 
 export const BottomSheetSettings: FC<{
   closeOverlay: () => void;

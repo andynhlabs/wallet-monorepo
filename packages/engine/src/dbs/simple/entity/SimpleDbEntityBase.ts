@@ -1,7 +1,7 @@
 import { isNil, isString } from 'lodash';
 
-import platformEnv from '@onekeyhq/shared/src/platformEnv';
-import appStorage from '@onekeyhq/shared/src/storage/appStorage';
+import platformEnv from '@mywallet/shared/src/platformEnv';
+import appStorage from '@mywallet/shared/src/storage/appStorage';
 
 const SIMPLE_DB_KEY_PREFIX = 'simple_db';
 

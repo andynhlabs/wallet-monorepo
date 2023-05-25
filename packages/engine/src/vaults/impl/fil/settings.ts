@@ -1,7 +1,7 @@
 import {
   COINTYPE_FIL,
   INDEX_PLACEHOLDER,
-} from '@onekeyhq/shared/src/engine/engineConsts';
+} from '@mywallet/shared/src/engine/engineConsts';
 
 import type { IVaultSettings } from '../../types';
 

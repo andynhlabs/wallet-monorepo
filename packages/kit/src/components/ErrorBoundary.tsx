@@ -2,8 +2,8 @@
 // eslint-disable-next-line max-classes-per-file
 import { PureComponent } from 'react';
 
-import { Box, Button, Typography } from '@onekeyhq/components';
-import platformEnv from '@onekeyhq/shared/src/platformEnv';
+import { Box, Button, Typography } from '@mywallet/components';
+import platformEnv from '@mywallet/shared/src/platformEnv';
 
 type ErrorBoundaryProps = {
   onError?: (error: Error, componentStack: string | null) => void;

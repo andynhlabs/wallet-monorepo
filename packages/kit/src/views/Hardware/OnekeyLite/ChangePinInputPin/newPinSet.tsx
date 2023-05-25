@@ -6,9 +6,9 @@ import { useIntl } from 'react-intl';
 import type {
   OnekeyLiteChangePinRoutesParams,
   OnekeyLiteResetRoutesParams,
-} from '@onekeyhq/kit/src/routes';
-import { OnekeyLiteChangePinModalRoutes } from '@onekeyhq/kit/src/routes/routesEnum';
-import type { ModalScreenProps } from '@onekeyhq/kit/src/routes/types';
+} from '@mywallet/kit/src/routes';
+import { OnekeyLiteChangePinModalRoutes } from '@mywallet/kit/src/routes/routesEnum';
+import type { ModalScreenProps } from '@mywallet/kit/src/routes/types';
 
 import HardwarePinCode from '../../BasePinCode';
 

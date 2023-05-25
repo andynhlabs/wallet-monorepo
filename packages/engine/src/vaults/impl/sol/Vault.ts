@@ -24,11 +24,11 @@ import bs58 from 'bs58';
 import { isArray, isEmpty, omit } from 'lodash';
 import memoizee from 'memoizee';
 
-import { ed25519 } from '@onekeyhq/engine/src/secret/curves';
-import { decrypt } from '@onekeyhq/engine/src/secret/encryptors/aes256';
-import type { PartialTokenInfo } from '@onekeyhq/engine/src/types/provider';
-import { getTimeDurationMs, wait } from '@onekeyhq/kit/src/utils/helper';
-import debugLogger from '@onekeyhq/shared/src/logger/debugLogger';
+import { ed25519 } from '@mywallet/engine/src/secret/curves';
+import { decrypt } from '@mywallet/engine/src/secret/encryptors/aes256';
+import type { PartialTokenInfo } from '@mywallet/engine/src/types/provider';
+import { getTimeDurationMs, wait } from '@mywallet/kit/src/utils/helper';
+import debugLogger from '@mywallet/shared/src/logger/debugLogger';
 
 import {
   InvalidAddress,

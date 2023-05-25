@@ -1,4 +1,4 @@
-import { Center, IconButton, Stack } from '@onekeyhq/components';
+import { Center, IconButton, Stack } from '@mywallet/components';
 
 const IconButtons = () => (
   <Center flex="1" bg="background-hovered">

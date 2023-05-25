@@ -4,17 +4,17 @@ import { useCallback, useEffect, useState } from 'react';
 import BigNumber from 'bignumber.js';
 import { useIntl } from 'react-intl';
 
-import type { OneKeyError } from '@onekeyhq/engine/src/errors';
+import type { OneKeyError } from '@mywallet/engine/src/errors';
 import {
   OneKeyErrorClassNames,
   OneKeyValidatorError,
   OneKeyValidatorTip,
-} from '@onekeyhq/engine/src/errors';
+} from '@mywallet/engine/src/errors';
 import type {
   IEncodedTx,
   IFeeInfoSelectedType,
-} from '@onekeyhq/engine/src/vaults/types';
-import type { CustomAlert } from '@onekeyhq/kit/src/views/Send/modals/SendEditFee/SendEditFeeCustomForm';
+} from '@mywallet/engine/src/vaults/types';
+import type { CustomAlert } from '@mywallet/kit/src/views/Send/modals/SendEditFee/SendEditFeeCustomForm';
 
 import backgroundApiProxy from '../../../background/instance/backgroundApiProxy';
 import { useDebounce } from '../../../hooks';

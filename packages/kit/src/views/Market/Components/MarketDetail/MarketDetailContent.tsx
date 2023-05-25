@@ -11,9 +11,9 @@ import {
   ScrollView,
   useIsVerticalLayout,
   useSafeAreaInsets,
-} from '@onekeyhq/components';
-import backgroundApiProxy from '@onekeyhq/kit/src/background/instance/backgroundApiProxy';
-import type { MarketTokenDetail } from '@onekeyhq/kit/src/store/reducers/market';
+} from '@mywallet/components';
+import backgroundApiProxy from '@mywallet/kit/src/background/instance/backgroundApiProxy';
+import type { MarketTokenDetail } from '@mywallet/kit/src/store/reducers/market';
 
 import { useAppSelector } from '../../../../hooks';
 import { TabRoutes } from '../../../../routes/routesEnum';

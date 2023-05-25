@@ -2,7 +2,7 @@ import type { ComponentProps, FC } from 'react';
 
 import { Badge as NBBadge } from 'native-base';
 
-import type { Text } from '@onekeyhq/components';
+import type { Text } from '@mywallet/components';
 
 import Typography from '../Typography';
 

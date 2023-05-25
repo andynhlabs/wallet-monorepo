@@ -5,9 +5,9 @@ import { useNavigation } from '@react-navigation/core';
 import { useRoute } from '@react-navigation/native';
 import { Center } from 'native-base';
 
-import { Modal, OverlayContainer, Spinner } from '@onekeyhq/components';
-import Protected from '@onekeyhq/kit/src/components/Protected';
-import type { ManagerWalletRoutesParams } from '@onekeyhq/kit/src/routes/Root/Modal/ManagerWallet';
+import { Modal, OverlayContainer, Spinner } from '@mywallet/components';
+import Protected from '@mywallet/kit/src/components/Protected';
+import type { ManagerWalletRoutesParams } from '@mywallet/kit/src/routes/Root/Modal/ManagerWallet';
 
 import type { ManagerWalletModalRoutes } from '../../../routes/routesEnum';
 import type { RouteProp } from '@react-navigation/core';

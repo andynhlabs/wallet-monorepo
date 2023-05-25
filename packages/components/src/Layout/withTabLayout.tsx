@@ -1,4 +1,4 @@
-import type { TabRoutes } from '@onekeyhq/kit/src/routes/routesEnum';
+import type { TabRoutes } from '@mywallet/kit/src/routes/routesEnum';
 
 import { Box } from '../index';
 

@@ -1,6 +1,6 @@
 import { useCallback, useEffect, useRef } from 'react';
 
-import platformEnv from '@onekeyhq/shared/src/platformEnv';
+import platformEnv from '@mywallet/shared/src/platformEnv';
 
 import { crossWebviewLoadUrl, getWebviewWrapperRef } from '../explorerUtils';
 

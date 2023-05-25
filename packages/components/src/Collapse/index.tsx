@@ -5,7 +5,7 @@ import { MotiView } from 'moti';
 import { HStack, Pressable } from 'native-base';
 import Collapsible from 'react-native-collapsible';
 
-import { Box } from '@onekeyhq/components';
+import { Box } from '@mywallet/components';
 
 import Icon from '../Icon';
 

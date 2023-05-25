@@ -10,8 +10,8 @@ import {
   Modal,
   Text,
   ToastManager,
-} from '@onekeyhq/components';
-import type { LocaleIds } from '@onekeyhq/components/src/locale';
+} from '@mywallet/components';
+import type { LocaleIds } from '@mywallet/components/src/locale';
 
 import backgroundApiProxy from '../../../background/instance/backgroundApiProxy';
 import { useNavigationActions } from '../../../hooks';

@@ -3,11 +3,11 @@ import { memo, useCallback, useMemo } from 'react';
 
 import { useIntl } from 'react-intl';
 
-import { Box, CustomSkeleton, ToggleButtonGroup } from '@onekeyhq/components';
-import type { ToggleButtonProps } from '@onekeyhq/components/src/ToggleButtonGroup/ToggleButtonGroup';
-import backgroundApiProxy from '@onekeyhq/kit/src/background/instance/backgroundApiProxy';
-import type { MarketCategory } from '@onekeyhq/kit/src/store/reducers/market';
-import { MARKET_FAVORITES_CATEGORYID } from '@onekeyhq/kit/src/store/reducers/market';
+import { Box, CustomSkeleton, ToggleButtonGroup } from '@mywallet/components';
+import type { ToggleButtonProps } from '@mywallet/components/src/ToggleButtonGroup/ToggleButtonGroup';
+import backgroundApiProxy from '@mywallet/kit/src/background/instance/backgroundApiProxy';
+import type { MarketCategory } from '@mywallet/kit/src/store/reducers/market';
+import { MARKET_FAVORITES_CATEGORYID } from '@mywallet/kit/src/store/reducers/market';
 
 import { MARKET_FAKE_SKELETON_CATEGORY_ARRAY } from '../../config';
 import { useMarketSelectedCategoryId } from '../../hooks/useMarketCategory';

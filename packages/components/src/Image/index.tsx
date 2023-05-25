@@ -3,8 +3,8 @@ import { useState } from 'react';
 
 import { Image as NBImage } from 'native-base';
 
-import { ImageViewer, Pressable } from '@onekeyhq/components';
-import platformEnv from '@onekeyhq/shared/src/platformEnv';
+import { ImageViewer, Pressable } from '@mywallet/components';
+import platformEnv from '@mywallet/shared/src/platformEnv';
 
 type ImageProps = { preview?: boolean } & ComponentProps<typeof NBImage>;
 

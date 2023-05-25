@@ -5,12 +5,12 @@ import { pick } from 'lodash';
 import natsort from 'natsort';
 import { useAsync } from 'react-async-hook';
 
-import { getBalanceKey } from '@onekeyhq/engine/src/managers/token';
-import type { Token } from '@onekeyhq/engine/src/types/token';
-import { TokenRiskLevel } from '@onekeyhq/engine/src/types/token';
-import { useActiveWalletAccount } from '@onekeyhq/kit/src/hooks/redux';
-import { OnekeyNetwork } from '@onekeyhq/shared/src/config/networkIds';
-import debugLogger from '@onekeyhq/shared/src/logger/debugLogger';
+import { getBalanceKey } from '@mywallet/engine/src/managers/token';
+import type { Token } from '@mywallet/engine/src/types/token';
+import { TokenRiskLevel } from '@mywallet/engine/src/types/token';
+import { useActiveWalletAccount } from '@mywallet/kit/src/hooks/redux';
+import { OnekeyNetwork } from '@mywallet/shared/src/config/networkIds';
+import debugLogger from '@mywallet/shared/src/logger/debugLogger';
 
 import backgroundApiProxy from '../background/instance/backgroundApiProxy';
 import { appSelector } from '../store';

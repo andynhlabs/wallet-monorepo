@@ -1,6 +1,6 @@
 import { useEffect, useState } from 'react';
 
-import { Box } from '@onekeyhq/components';
+import { Box } from '@mywallet/components';
 
 import { useDebounce } from '../../../hooks';
 import { TextareaWithLineNumber } from '../TextareaWithLineNumber';

@@ -3,14 +3,14 @@ import { useCallback, useRef } from 'react';
 import BigNumber from 'bignumber.js';
 import { useIntl } from 'react-intl';
 
-import { Button, ToastManager } from '@onekeyhq/components';
-import { getWalletIdFromAccountId } from '@onekeyhq/engine/src/managers/account';
-import { ethers } from '@onekeyhq/engine/src/vaults/impl/evm/sdk/ethers';
-import type { IEncodedTxEvm } from '@onekeyhq/engine/src/vaults/impl/evm/Vault';
+import { Button, ToastManager } from '@mywallet/components';
+import { getWalletIdFromAccountId } from '@mywallet/engine/src/managers/account';
+import { ethers } from '@mywallet/engine/src/vaults/impl/evm/sdk/ethers';
+import type { IEncodedTxEvm } from '@mywallet/engine/src/vaults/impl/evm/Vault';
 import {
   AppUIEventBusNames,
   appUIEventBus,
-} from '@onekeyhq/shared/src/eventBus/appUIEventBus';
+} from '@mywallet/shared/src/eventBus/appUIEventBus';
 
 import backgroundApiProxy from '../../../../background/instance/backgroundApiProxy';
 import { useNavigation } from '../../../../hooks';

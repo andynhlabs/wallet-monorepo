@@ -1,4 +1,4 @@
-import { Modal } from '@onekeyhq/components';
+import { Modal } from '@mywallet/components';
 
 import { NativeWebView } from '../../../components/WebView/NativeWebView';
 import { swftcCustomerSupportUrl } from '../config';

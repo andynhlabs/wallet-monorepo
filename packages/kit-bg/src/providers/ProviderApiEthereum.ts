@@ -8,35 +8,35 @@ import { get } from 'lodash';
 import memoizee from 'memoizee';
 import uuid from 'react-native-uuid';
 
-// import { ETHMessageTypes } from '@onekeyhq/engine/src/types/message';
-import { ETHMessageTypes } from '@onekeyhq/engine/src/types/message';
+// import { ETHMessageTypes } from '@mywallet/engine/src/types/message';
+import { ETHMessageTypes } from '@mywallet/engine/src/types/message';
 import type {
   EvmExtraInfo,
   Network,
   SwitchRpcParams,
-} from '@onekeyhq/engine/src/types/network';
-import type VaultEvm from '@onekeyhq/engine/src/vaults/impl/evm/Vault';
+} from '@mywallet/engine/src/types/network';
+import type VaultEvm from '@mywallet/engine/src/vaults/impl/evm/Vault';
 import type {
   IEncodedTxEvm,
   IUnsignedMessageEvm,
-} from '@onekeyhq/engine/src/vaults/impl/evm/Vault';
-import { getActiveWalletAccount } from '@onekeyhq/kit/src/hooks/redux';
+} from '@mywallet/engine/src/vaults/impl/evm/Vault';
+import { getActiveWalletAccount } from '@mywallet/kit/src/hooks/redux';
 import {
   backgroundClass,
   permissionRequired,
   providerApiMethod,
-} from '@onekeyhq/shared/src/background/backgroundDecorators';
-import { IMPL_EVM } from '@onekeyhq/shared/src/engine/engineConsts';
+} from '@mywallet/shared/src/background/backgroundDecorators';
+import { IMPL_EVM } from '@mywallet/shared/src/engine/engineConsts';
 import {
   fixAddressCase,
   toBigIntHex,
-} from '@onekeyhq/shared/src/engine/engineUtils';
-import debugLogger from '@onekeyhq/shared/src/logger/debugLogger';
+} from '@mywallet/shared/src/engine/engineUtils';
+import debugLogger from '@mywallet/shared/src/logger/debugLogger';
 import type {
   AddEthereumChainParameter,
   SwitchEthereumChainParameter,
   WatchAssetParameters,
-} from '@onekeyhq/shared/src/providerApis/ProviderApiEthereum/ProviderApiEthereum.types';
+} from '@mywallet/shared/src/providerApis/ProviderApiEthereum/ProviderApiEthereum.types';
 
 import ProviderApiBase from './ProviderApiBase';
 
@@ -144,9 +144,9 @@ class ProviderApiEthereum extends ProviderApiBase {
   // ----------------------------------------------
   /**
    * Depends on the data we have, show contract call or send confirm modal to the user
-   * Open @type {import("@onekeyhq/kit/src/views/DappModals/Multicall.tsx").default} contract modal
-   * Open @type {import("@onekeyhq/kit/src/views/DappModals/SendConfirm.tsx").default} send modal
-   * Open @type {import("@onekeyhq/kit/src/views/DappModals/Approve.tsx").default} approve modal
+   * Open @type {import("@mywallet/kit/src/views/DappModals/Multicall.tsx").default} contract modal
+   * Open @type {import("@mywallet/kit/src/views/DappModals/SendConfirm.tsx").default} send modal
+   * Open @type {import("@mywallet/kit/src/views/DappModals/Approve.tsx").default} approve modal
    *
    * Example:
    * const result = await ethereum.request({
@@ -333,7 +333,7 @@ class ProviderApiEthereum extends ProviderApiBase {
   }
 
   /** Sign transaction
-   * Open @type {import("@onekeyhq/kit/src/views/DappModals/Signature.tsx").default} modal
+   * Open @type {import("@mywallet/kit/src/views/DappModals/Signature.tsx").default} modal
    */
   @providerApiMethod()
   eth_signTransaction(req: IJsBridgeMessagePayload, ...params: string[]) {
@@ -351,7 +351,7 @@ class ProviderApiEthereum extends ProviderApiBase {
   }
 
   /** Sign unapproved message
-   * Open @type {import("@onekeyhq/kit/src/views/DappModals/Signature.tsx").default} modal
+   * Open @type {import("@mywallet/kit/src/views/DappModals/Signature.tsx").default} modal
    * arg req: IJsBridgeMessagePayload, ...[msg, from, passphrase]
    */
   @providerApiMethod()

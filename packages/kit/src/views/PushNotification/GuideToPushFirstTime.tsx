@@ -11,10 +11,10 @@ import {
   Text,
   Typography,
   VStack,
-} from '@onekeyhq/components';
-import { isPassphraseWallet } from '@onekeyhq/shared/src/engine/engineUtils';
-import debugLogger from '@onekeyhq/shared/src/logger/debugLogger';
-import platformEnv from '@onekeyhq/shared/src/platformEnv';
+} from '@mywallet/components';
+import { isPassphraseWallet } from '@mywallet/shared/src/engine/engineUtils';
+import debugLogger from '@mywallet/shared/src/logger/debugLogger';
+import platformEnv from '@mywallet/shared/src/platformEnv';
 
 import backgroundApiProxy from '../../background/instance/backgroundApiProxy';
 import useAppNavigation from '../../hooks/useAppNavigation';

@@ -2,9 +2,9 @@
 
 import { CrossEventEmitter } from '@onekeyfe/cross-inpage-provider-core';
 
-import { backgroundMethod } from '@onekeyhq/shared/src/background/backgroundDecorators';
-import { waitForDataLoaded } from '@onekeyhq/shared/src/background/backgroundUtils';
-import debugLogger from '@onekeyhq/shared/src/logger/debugLogger';
+import { backgroundMethod } from '@mywallet/shared/src/background/backgroundDecorators';
+import { waitForDataLoaded } from '@mywallet/shared/src/background/backgroundUtils';
+import debugLogger from '@mywallet/shared/src/logger/debugLogger';
 
 import { OneKeyWalletConnector } from './OneKeyWalletConnector';
 import {

@@ -1,7 +1,7 @@
 import { TabActions } from '@react-navigation/routers';
 import { openURL as LinkingOpenURL } from 'expo-linking';
 
-import platformEnv from '@onekeyhq/shared/src/platformEnv';
+import platformEnv from '@mywallet/shared/src/platformEnv';
 
 import backgroundApiProxy from '../background/instance/backgroundApiProxy';
 import { getAppNavigation } from '../hooks/useAppNavigation';

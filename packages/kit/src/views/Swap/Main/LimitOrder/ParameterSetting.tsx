@@ -9,8 +9,8 @@ import {
   Pressable,
   Select,
   Typography,
-} from '@onekeyhq/components';
-import platformEnv from '@onekeyhq/shared/src/platformEnv';
+} from '@mywallet/components';
+import platformEnv from '@mywallet/shared/src/platformEnv';
 
 import backgroundApiProxy from '../../../../background/instance/backgroundApiProxy';
 import { useAppSelector } from '../../../../hooks';

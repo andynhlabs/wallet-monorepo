@@ -4,9 +4,9 @@ import { cloneElement, useCallback } from 'react';
 import { Controller } from 'react-hook-form';
 import { useIntl } from 'react-intl';
 
-import { useIsVerticalLayout } from '@onekeyhq/components';
-import { gotoScanQrcode } from '@onekeyhq/kit/src/utils/gotoScanQrcode';
-import platformEnv from '@onekeyhq/shared/src/platformEnv';
+import { useIsVerticalLayout } from '@mywallet/components';
+import { gotoScanQrcode } from '@mywallet/kit/src/utils/gotoScanQrcode';
+import platformEnv from '@mywallet/shared/src/platformEnv';
 
 import Box from '../Box';
 import FormControl from '../FormControl';

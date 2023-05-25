@@ -15,12 +15,12 @@ import {
   Spinner,
   Text,
   useIsVerticalLayout,
-} from '@onekeyhq/components';
+} from '@mywallet/components';
 import {
   backupPlatform,
   logoutFromGoogleDrive,
-} from '@onekeyhq/shared/src/cloudfs';
-import platformEnv from '@onekeyhq/shared/src/platformEnv';
+} from '@mywallet/shared/src/cloudfs';
+import platformEnv from '@mywallet/shared/src/platformEnv';
 
 import backgroundApiProxy from '../../../../background/instance/backgroundApiProxy';
 import { useNavigation } from '../../../../hooks';

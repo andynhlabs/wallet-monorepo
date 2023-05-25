@@ -12,9 +12,9 @@ import {
   ScrollView,
   Text,
   ToastManager,
-} from '@onekeyhq/components';
-import { copyToClipboard } from '@onekeyhq/components/src/utils/ClipboardUtils';
-import platformEnv from '@onekeyhq/shared/src/platformEnv';
+} from '@mywallet/components';
+import { copyToClipboard } from '@mywallet/components/src/utils/ClipboardUtils';
+import platformEnv from '@mywallet/shared/src/platformEnv';
 
 import backgroundApiProxy from '../../../background/instance/backgroundApiProxy';
 
@@ -34,7 +34,7 @@ type FileType = 'txt' | 'csv';
 const getShareModule = async () => {
   if (!platformEnv.isNative) return null;
   return (
-    await import('@onekeyhq/shared/src/modules3rdParty/react-native-share')
+    await import('@mywallet/shared/src/modules3rdParty/react-native-share')
   ).default;
 };
 

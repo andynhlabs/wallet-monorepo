@@ -2,9 +2,9 @@ import { isValidElement, useEffect, useMemo, useRef } from 'react';
 
 import { Modalize } from 'react-native-modalize';
 
-import { useSafeAreaInsets, useThemeValue } from '@onekeyhq/components';
-import { FULLWINDOW_OVERLAY_PORTAL } from '@onekeyhq/kit/src/utils/overlayUtils';
-import { PortalEntry } from '@onekeyhq/kit/src/views/Overlay/RootPortal';
+import { useSafeAreaInsets, useThemeValue } from '@mywallet/components';
+import { FULLWINDOW_OVERLAY_PORTAL } from '@mywallet/kit/src/utils/overlayUtils';
+import { PortalEntry } from '@mywallet/kit/src/views/Overlay/RootPortal';
 
 import Box from '../../Box';
 import Button from '../../Button';

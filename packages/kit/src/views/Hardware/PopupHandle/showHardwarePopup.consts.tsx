@@ -1,4 +1,4 @@
-import type { HardwareUiEventPayload } from '@onekeyhq/kit/src/store/reducers/hardware';
+import type { HardwareUiEventPayload } from '@mywallet/kit/src/store/reducers/hardware';
 
 export type HardwarePopup = {
   uiRequest?: string;

@@ -9,10 +9,10 @@ import {
   ListItem,
   Modal,
   ToastManager,
-} from '@onekeyhq/components';
-import type { LocaleIds } from '@onekeyhq/components/src/locale';
-import useModalClose from '@onekeyhq/components/src/Modal/Container/useModalClose';
-import simpleDb from '@onekeyhq/engine/src/dbs/simple/simpleDb';
+} from '@mywallet/components';
+import type { LocaleIds } from '@mywallet/components/src/locale';
+import useModalClose from '@mywallet/components/src/Modal/Container/useModalClose';
+import simpleDb from '@mywallet/engine/src/dbs/simple/simpleDb';
 
 import backgroundApiProxy from '../../background/instance/backgroundApiProxy';
 

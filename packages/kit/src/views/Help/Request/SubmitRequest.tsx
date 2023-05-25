@@ -24,9 +24,9 @@ import {
   Typography,
   useForm,
   useIsVerticalLayout,
-} from '@onekeyhq/components';
-import type { SubmitRequestModalRoutesParams } from '@onekeyhq/kit/src/routes';
-import platformEnv from '@onekeyhq/shared/src/platformEnv';
+} from '@mywallet/components';
+import type { SubmitRequestModalRoutesParams } from '@mywallet/kit/src/routes';
+import platformEnv from '@mywallet/shared/src/platformEnv';
 
 import { SkipAppLock } from '../../../components/AppLock';
 import { useSettings } from '../../../hooks/redux';

@@ -14,7 +14,7 @@ import {
   Typography,
   VStack,
   useIsVerticalLayout,
-} from '@onekeyhq/components';
+} from '@mywallet/components';
 
 import { FormatCurrencyNumber } from '../../components/Format';
 import { useAccountValues, useAppSelector, useNavigation } from '../../hooks';

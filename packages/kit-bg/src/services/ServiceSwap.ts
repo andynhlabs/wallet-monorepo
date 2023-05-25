@@ -1,16 +1,16 @@
 /* eslint-disable @typescript-eslint/require-await, @typescript-eslint/no-unsafe-return, @typescript-eslint/no-unsafe-member-access, @typescript-eslint/no-unsafe-call */
 
-import type { ISwftcCoin } from '@onekeyhq/engine/src/dbs/simple/entity/SimpleDbEntitySwap';
-import simpleDb from '@onekeyhq/engine/src/dbs/simple/simpleDb';
-import { getFiatEndpoint } from '@onekeyhq/engine/src/endpoint';
-import { isAccountCompatibleWithNetwork } from '@onekeyhq/engine/src/managers/account';
-import { formatServerToken } from '@onekeyhq/engine/src/managers/token';
-import type { Account } from '@onekeyhq/engine/src/types/account';
-import type { Network } from '@onekeyhq/engine/src/types/network';
-import type { ServerToken, Token } from '@onekeyhq/engine/src/types/token';
-import type { IEncodedTx } from '@onekeyhq/engine/src/vaults/types';
-import backgroundApiProxy from '@onekeyhq/kit/src/background/instance/backgroundApiProxy';
-import { getActiveWalletAccount } from '@onekeyhq/kit/src/hooks/redux';
+import type { ISwftcCoin } from '@mywallet/engine/src/dbs/simple/entity/SimpleDbEntitySwap';
+import simpleDb from '@mywallet/engine/src/dbs/simple/simpleDb';
+import { getFiatEndpoint } from '@mywallet/engine/src/endpoint';
+import { isAccountCompatibleWithNetwork } from '@mywallet/engine/src/managers/account';
+import { formatServerToken } from '@mywallet/engine/src/managers/token';
+import type { Account } from '@mywallet/engine/src/types/account';
+import type { Network } from '@mywallet/engine/src/types/network';
+import type { ServerToken, Token } from '@mywallet/engine/src/types/token';
+import type { IEncodedTx } from '@mywallet/engine/src/vaults/types';
+import backgroundApiProxy from '@mywallet/kit/src/background/instance/backgroundApiProxy';
+import { getActiveWalletAccount } from '@mywallet/kit/src/hooks/redux';
 import {
   clearState,
   clearUserSelectedQuoter,
@@ -28,7 +28,7 @@ import {
   setTypedValue,
   setUserSelectedQuoter,
   switchTokens,
-} from '@onekeyhq/kit/src/store/reducers/swap';
+} from '@mywallet/kit/src/store/reducers/swap';
 import {
   clearTransactions,
   setApprovalIssueTokens,
@@ -42,8 +42,8 @@ import {
   setSwapFeePresetIndex,
   setWrapperTokens,
   updateTokenList,
-} from '@onekeyhq/kit/src/store/reducers/swapTransactions';
-import type { SendConfirmParams } from '@onekeyhq/kit/src/views/Send/types';
+} from '@mywallet/kit/src/store/reducers/swapTransactions';
+import type { SendConfirmParams } from '@mywallet/kit/src/views/Send/types';
 import type {
   FetchQuoteParams,
   FieldType,
@@ -53,22 +53,22 @@ import type {
   Recipient,
   SwapRecord,
   WrapperTransactionInfo,
-} from '@onekeyhq/kit/src/views/Swap/typings';
+} from '@mywallet/kit/src/views/Swap/typings';
 import {
   convertBuildParams,
   recipientMustBeSendingAccount,
   stringifyTokens,
-} from '@onekeyhq/kit/src/views/Swap/utils';
+} from '@mywallet/kit/src/views/Swap/utils';
 import {
   backgroundClass,
   backgroundMethod,
   bindThis,
-} from '@onekeyhq/shared/src/background/backgroundDecorators';
-import { OnekeyNetwork } from '@onekeyhq/shared/src/config/networkIds';
+} from '@mywallet/shared/src/background/backgroundDecorators';
+import { OnekeyNetwork } from '@mywallet/shared/src/config/networkIds';
 import {
   AppEventBusNames,
   appEventBus,
-} from '@onekeyhq/shared/src/eventBus/appEventBus';
+} from '@mywallet/shared/src/eventBus/appEventBus';
 
 import ServiceBase from './ServiceBase';
 

@@ -1,7 +1,7 @@
 import type { ComponentProps } from 'react';
 
-import { Box } from '@onekeyhq/components';
-import type { ThemeToken } from '@onekeyhq/components/src/Provider/theme';
+import { Box } from '@mywallet/components';
+import type { ThemeToken } from '@mywallet/components/src/Provider/theme';
 
 type Props = {
   backgroundColor: ThemeToken;

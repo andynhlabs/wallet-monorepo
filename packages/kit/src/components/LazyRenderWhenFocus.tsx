@@ -2,7 +2,7 @@ import { useEffect, useMemo, useRef } from 'react';
 
 import { useIsFocused } from '@react-navigation/native';
 
-import platformEnv from '@onekeyhq/shared/src/platformEnv';
+import platformEnv from '@mywallet/shared/src/platformEnv';
 
 import {
   getAppRootTabInfoOfTab,

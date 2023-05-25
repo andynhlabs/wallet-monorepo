@@ -1,4 +1,4 @@
-import { useIsVerticalLayout } from '@onekeyhq/components';
+import { useIsVerticalLayout } from '@mywallet/components';
 
 import CurrencySelect from '../../../views/Me/GenaralSection/CurrencySelect';
 import { CurrencySelectModal } from '../../../views/Me/GenaralSection/CurrencySelect/types';

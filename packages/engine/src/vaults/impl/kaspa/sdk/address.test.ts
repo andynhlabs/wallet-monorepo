@@ -1,7 +1,7 @@
 import { bytesToHex, hexToBytes } from '@noble/hashes/utils';
 
-import { batchGetPublicKeys } from '@onekeyhq/engine/src/secret';
-import * as encryptor from '@onekeyhq/engine/src/secret/encryptors/aes256';
+import { batchGetPublicKeys } from '@mywallet/engine/src/secret';
+import * as encryptor from '@mywallet/engine/src/secret/encryptors/aes256';
 
 import { addressFromPublicKey, isValidAddress } from './address';
 import { publicKeyFromOriginPubkey } from './publickey';

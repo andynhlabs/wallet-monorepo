@@ -1,7 +1,7 @@
 /* eslint-disable no-nested-ternary */
 import type { FC } from 'react';
 
-import { Box, IconButton, Pressable, Text } from '@onekeyhq/components';
+import { Box, IconButton, Pressable, Text } from '@mywallet/components';
 
 type ListItemProps = {
   isActive?: boolean;

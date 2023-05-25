@@ -1,6 +1,6 @@
 import { useCallback, useEffect, useState } from 'react';
 
-import type { IFeeInfoUnit } from '@onekeyhq/engine/src/vaults/types';
+import type { IFeeInfoUnit } from '@mywallet/engine/src/vaults/types';
 
 import backgroundApiProxy from '../../../background/instance/backgroundApiProxy';
 

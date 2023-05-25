@@ -20,9 +20,9 @@ import {
   RadioButton,
   useForm,
   useIsVerticalLayout,
-} from '@onekeyhq/components';
-import showDerivationPathBottomSheetModal from '@onekeyhq/kit/src/components/NetworkAccountSelector/modals/NetworkAccountSelectorModal/DerivationPathBottomSheetModal';
-import platformEnv from '@onekeyhq/shared/src/platformEnv';
+} from '@mywallet/components';
+import showDerivationPathBottomSheetModal from '@mywallet/kit/src/components/NetworkAccountSelector/modals/NetworkAccountSelectorModal/DerivationPathBottomSheetModal';
+import platformEnv from '@mywallet/shared/src/platformEnv';
 
 import { useDerivationPath } from '../../../components/NetworkAccountSelector/hooks/useDerivationPath';
 

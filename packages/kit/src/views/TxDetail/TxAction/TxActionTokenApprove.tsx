@@ -1,8 +1,8 @@
 import { useNavigation } from '@react-navigation/core';
 import { useIntl } from 'react-intl';
 
-import { Typography } from '@onekeyhq/components';
-import { shortenAddress } from '@onekeyhq/components/src/utils';
+import { Typography } from '@mywallet/components';
+import { shortenAddress } from '@mywallet/components/src/utils';
 
 import { SendModalRoutes } from '../../Send/types';
 import { IS_REPLACE_ROUTE_TO_FEE_EDIT } from '../../Send/utils/sendConfirmConsts';

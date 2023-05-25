@@ -12,14 +12,14 @@ import {
   Typography,
   useForm,
   useSafeAreaInsets,
-} from '@onekeyhq/components';
-import backgroundApiProxy from '@onekeyhq/kit/src/background/instance/backgroundApiProxy';
+} from '@mywallet/components';
+import backgroundApiProxy from '@mywallet/kit/src/background/instance/backgroundApiProxy';
 import {
   getActiveWalletAccount,
   useActiveWalletAccount,
-} from '@onekeyhq/kit/src/hooks/redux';
-import { getDeviceTypeByDeviceId } from '@onekeyhq/kit/src/utils/hardware';
-import type { IOneKeyDeviceType } from '@onekeyhq/shared/types';
+} from '@mywallet/kit/src/hooks/redux';
+import { getDeviceTypeByDeviceId } from '@mywallet/kit/src/utils/hardware';
+import type { IOneKeyDeviceType } from '@mywallet/shared/types';
 
 import FormChainSelector from '../../components/Form/ChainSelector';
 import WalletAvatar from '../../components/WalletSelector/WalletAvatar';

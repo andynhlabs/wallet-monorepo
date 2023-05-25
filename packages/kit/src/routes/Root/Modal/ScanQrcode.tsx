@@ -1,4 +1,4 @@
-import { useIsVerticalLayout } from '@onekeyhq/components';
+import { useIsVerticalLayout } from '@mywallet/components';
 
 import PreviewSend from '../../../views/ScanQrcode/PreviewSend';
 import ScanQrcode from '../../../views/ScanQrcode/ScanQrcode';

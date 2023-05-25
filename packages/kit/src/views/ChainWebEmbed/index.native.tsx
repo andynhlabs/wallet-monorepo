@@ -1,12 +1,12 @@
 import { memo, useCallback, useEffect, useMemo, useRef, useState } from 'react';
 
-import { useGeneral } from '@onekeyhq/kit/src/hooks/redux';
-import { OnekeyNetwork } from '@onekeyhq/shared/src/config/networkIds';
+import { useGeneral } from '@mywallet/kit/src/hooks/redux';
+import { OnekeyNetwork } from '@mywallet/shared/src/config/networkIds';
 import {
   AppUIEventBusNames,
   appUIEventBus,
-} from '@onekeyhq/shared/src/eventBus/appUIEventBus';
-import debugLogger from '@onekeyhq/shared/src/logger/debugLogger';
+} from '@mywallet/shared/src/eventBus/appUIEventBus';
+import debugLogger from '@mywallet/shared/src/logger/debugLogger';
 
 import { ChainWebEmbedViewCardano } from './ChainWebEmbedViewCardano';
 import { ChainWebEmbedViewMonero } from './ChainWebEmbedViewMonero';

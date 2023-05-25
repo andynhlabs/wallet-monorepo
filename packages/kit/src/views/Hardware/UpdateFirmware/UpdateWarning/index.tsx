@@ -4,12 +4,12 @@ import { useEffect } from 'react';
 import { useNavigation, useRoute } from '@react-navigation/core';
 import { useIntl } from 'react-intl';
 
-import { Box, Center, Image, Modal, Typography } from '@onekeyhq/components';
-import RecoveryPhrase from '@onekeyhq/kit/assets/3d_recovery_phrase.png';
-import type { HardwareUpdateRoutesParams } from '@onekeyhq/kit/src/routes/Root/Modal/HardwareUpdate';
-import { HardwareUpdateModalRoutes } from '@onekeyhq/kit/src/routes/routesEnum';
-import type { ModalScreenProps } from '@onekeyhq/kit/src/routes/types';
-import debugLogger from '@onekeyhq/shared/src/logger/debugLogger';
+import { Box, Center, Image, Modal, Typography } from '@mywallet/components';
+import RecoveryPhrase from '@mywallet/kit/assets/3d_recovery_phrase.png';
+import type { HardwareUpdateRoutesParams } from '@mywallet/kit/src/routes/Root/Modal/HardwareUpdate';
+import { HardwareUpdateModalRoutes } from '@mywallet/kit/src/routes/routesEnum';
+import type { ModalScreenProps } from '@mywallet/kit/src/routes/types';
+import debugLogger from '@mywallet/shared/src/logger/debugLogger';
 
 import type { RouteProp } from '@react-navigation/core';
 

@@ -1,4 +1,4 @@
-import { Typography } from '@onekeyhq/components';
+import { Typography } from '@mywallet/components';
 
 export function FeeTipsWarning({ message }: { message: string }) {
   if (!message) {

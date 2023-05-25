@@ -14,21 +14,21 @@ import {
   ToastManager,
   Token as TokenComponent,
   useIsVerticalLayout,
-} from '@onekeyhq/components';
-import { Tabs } from '@onekeyhq/components/src/CollapsibleTabView';
-import type { Token } from '@onekeyhq/engine/src/types/token';
-import type { IEncodedTxEvm } from '@onekeyhq/engine/src/vaults/impl/evm/Vault';
-import type { ITransferInfo } from '@onekeyhq/engine/src/vaults/types';
-import { useAccountTokens, useNetwork } from '@onekeyhq/kit/src/hooks';
+} from '@mywallet/components';
+import { Tabs } from '@mywallet/components/src/CollapsibleTabView';
+import type { Token } from '@mywallet/engine/src/types/token';
+import type { IEncodedTxEvm } from '@mywallet/engine/src/vaults/impl/evm/Vault';
+import type { ITransferInfo } from '@mywallet/engine/src/vaults/types';
+import { useAccountTokens, useNetwork } from '@mywallet/kit/src/hooks';
 import {
   useAccountTokenLoading,
   useTokenBalance,
-} from '@onekeyhq/kit/src/hooks/useTokens';
+} from '@mywallet/kit/src/hooks/useTokens';
 import {
   ModalRoutes,
   RootRoutes,
   SendModalRoutes,
-} from '@onekeyhq/kit/src/routes/routesEnum';
+} from '@mywallet/kit/src/routes/routesEnum';
 
 import backgroundApiProxy from '../../background/instance/backgroundApiProxy';
 

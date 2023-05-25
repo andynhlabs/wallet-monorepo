@@ -16,26 +16,26 @@ import {
   ToastManager,
   Typography,
   VStack,
-} from '@onekeyhq/components';
-import { getClipboard } from '@onekeyhq/components/src/utils/ClipboardUtils';
-import type { OneKeyError } from '@onekeyhq/engine/src/errors';
-import { batchTransferContractAddress } from '@onekeyhq/engine/src/presets/batchTransferContractAddress';
-import backgroundApiProxy from '@onekeyhq/kit/src/background/instance/backgroundApiProxy';
+} from '@mywallet/components';
+import { getClipboard } from '@mywallet/components/src/utils/ClipboardUtils';
+import type { OneKeyError } from '@mywallet/engine/src/errors';
+import { batchTransferContractAddress } from '@mywallet/engine/src/presets/batchTransferContractAddress';
+import backgroundApiProxy from '@mywallet/kit/src/background/instance/backgroundApiProxy';
 import {
   getActiveWalletAccount,
   useActiveWalletAccount,
   useAppSelector,
-} from '@onekeyhq/kit/src/hooks/redux';
+} from '@mywallet/kit/src/hooks/redux';
 import {
   HomeRoutes,
   ModalRoutes,
   RootRoutes,
-} from '@onekeyhq/kit/src/routes/routesEnum';
+} from '@mywallet/kit/src/routes/routesEnum';
 import type {
   HomeRoutesParams,
   RootRoutesParams,
-} from '@onekeyhq/kit/src/routes/types';
-import platformEnv from '@onekeyhq/shared/src/platformEnv';
+} from '@mywallet/kit/src/routes/types';
+import platformEnv from '@mywallet/shared/src/platformEnv';
 
 import walletConnectUtils from '../../components/WalletConnect/utils/walletConnectUtils';
 import { WalletConnectDappSideTest } from '../../components/WalletConnect/WalletConnectDappSideTest';
@@ -363,7 +363,7 @@ export const Debug = () => {
                   searchParams,
                   hash,
                 } = new URL(
-                  'https://github.com:80/OneKeyHQ/app-monorepo/pulls?q=is%3Apr+is%3Aclosed#link',
+                  'https://github.com:80/OneKeyHQ/wallet-monorepo/pulls?q=is%3Apr+is%3Aclosed#link',
                 );
                 console.log({
                   href,

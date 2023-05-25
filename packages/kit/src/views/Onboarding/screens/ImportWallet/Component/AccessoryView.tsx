@@ -3,8 +3,8 @@ import { useMemo } from 'react';
 
 import { useIntl } from 'react-intl';
 
-import { Alert, Box, Button, ScrollView } from '@onekeyhq/components';
-import useIsKeyboardShown from '@onekeyhq/components/src/Layout/BottomTabs/utils/useIsKeyboardShown';
+import { Alert, Box, Button, ScrollView } from '@mywallet/components';
+import useIsKeyboardShown from '@mywallet/components/src/Layout/BottomTabs/utils/useIsKeyboardShown';
 
 interface AccessoryViewProps extends ComponentProps<typeof ScrollView> {
   withKeybord?: boolean;

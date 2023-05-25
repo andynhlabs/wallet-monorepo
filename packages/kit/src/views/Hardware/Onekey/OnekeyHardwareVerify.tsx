@@ -16,16 +16,16 @@ import {
   Text,
   Typography,
   useIsVerticalLayout,
-} from '@onekeyhq/components';
-import type { LocaleIds } from '@onekeyhq/components/src/locale';
-import { OneKeyErrorClassNames } from '@onekeyhq/engine/src/errors';
-import type { Device } from '@onekeyhq/engine/src/types/device';
-import backgroundApiProxy from '@onekeyhq/kit/src/background/instance/backgroundApiProxy';
-import type { OnekeyHardwareRoutesParams } from '@onekeyhq/kit/src/routes/Root/Modal/HardwareOnekey';
-import { setVerification } from '@onekeyhq/kit/src/store/reducers/settings';
-import { deviceUtils } from '@onekeyhq/kit/src/utils/hardware';
-import { getTimeStamp, hexlify } from '@onekeyhq/kit/src/utils/helper';
-import { CERTIFICATE_URL } from '@onekeyhq/shared/src/config/appConfig';
+} from '@mywallet/components';
+import type { LocaleIds } from '@mywallet/components/src/locale';
+import { OneKeyErrorClassNames } from '@mywallet/engine/src/errors';
+import type { Device } from '@mywallet/engine/src/types/device';
+import backgroundApiProxy from '@mywallet/kit/src/background/instance/backgroundApiProxy';
+import type { OnekeyHardwareRoutesParams } from '@mywallet/kit/src/routes/Root/Modal/HardwareOnekey';
+import { setVerification } from '@mywallet/kit/src/store/reducers/settings';
+import { deviceUtils } from '@mywallet/kit/src/utils/hardware';
+import { getTimeStamp, hexlify } from '@mywallet/kit/src/utils/helper';
+import { CERTIFICATE_URL } from '@mywallet/shared/src/config/appConfig';
 
 import type { OnekeyHardwareModalRoutes } from '../../../routes/routesEnum';
 import type { RouteProp } from '@react-navigation/core';
@@ -209,7 +209,7 @@ const OnekeyHardwareVerifyDetail: FC<HardwareVerifyDetail> = ({ walletId }) => {
           <Center flex="1" alignSelf="center" mt={-6}>
             <Box w={200} h={200} ml={5}>
               <LottieView
-                source={require('@onekeyhq/kit/assets/animations/lottie_searching.json')}
+                source={require('@mywallet/kit/assets/animations/lottie_searching.json')}
                 autoPlay
                 loop
               />
@@ -233,7 +233,7 @@ const OnekeyHardwareVerifyDetail: FC<HardwareVerifyDetail> = ({ walletId }) => {
           <Center flex="1" alignSelf="center" mt={-6}>
             <Box w={200} h={200}>
               <LottieView
-                source={require('@onekeyhq/kit/assets/animations/lottie_send_success_feedback.json')}
+                source={require('@mywallet/kit/assets/animations/lottie_send_success_feedback.json')}
                 autoPlay
                 loop={false}
               />

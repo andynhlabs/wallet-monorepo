@@ -2,7 +2,7 @@ import { useEffect, useMemo } from 'react';
 
 import { createNativeStackNavigator } from '@react-navigation/native-stack';
 
-import { RouteKeytag } from '@onekeyhq/kit/src/views/KeyTag/Routes/RouteKeytag';
+import { RouteKeytag } from '@mywallet/kit/src/views/KeyTag/Routes/RouteKeytag';
 
 import backgroundApiProxy from '../../../background/instance/backgroundApiProxy';
 import ConnectHardware from '../../CreateWallet/HardwareWallet/ConnectHardware';

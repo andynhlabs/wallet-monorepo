@@ -1,4 +1,4 @@
-import type { SignedTx, UnsignedTx } from '@onekeyhq/engine/src/types/provider';
+import type { SignedTx, UnsignedTx } from '@mywallet/engine/src/types/provider';
 
 import sdk from './sdkAlgo';
 

@@ -5,10 +5,10 @@ import { GestureHandlerRootView } from 'react-native-gesture-handler';
 import { Provider as ReduxProvider } from 'react-redux';
 import { SWRConfig } from 'swr';
 
-import type { NotificationExtra } from '@onekeyhq/engine/src/managers/notification';
-import { ErrorBoundary } from '@onekeyhq/kit/src/components/ErrorBoundary';
-import store from '@onekeyhq/kit/src/store';
-import platformEnv from '@onekeyhq/shared/src/platformEnv';
+import type { NotificationExtra } from '@mywallet/engine/src/managers/notification';
+import { ErrorBoundary } from '@mywallet/kit/src/components/ErrorBoundary';
+import store from '@mywallet/kit/src/store';
+import platformEnv from '@mywallet/shared/src/platformEnv';
 
 import AppLoading from './AppLoading';
 import NavigationProvider from './NavigationProvider';

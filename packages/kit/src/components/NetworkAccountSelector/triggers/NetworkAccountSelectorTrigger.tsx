@@ -1,6 +1,6 @@
 import type { FC } from 'react';
 
-import { HStack, useIsVerticalLayout } from '@onekeyhq/components';
+import { HStack, useIsVerticalLayout } from '@mywallet/components';
 
 import { useActiveWalletAccount } from '../../../hooks';
 

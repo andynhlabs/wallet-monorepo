@@ -10,7 +10,7 @@ import {
   Text,
   VStack,
   useTheme,
-} from '@onekeyhq/components';
+} from '@mywallet/components';
 
 import backgroundApiProxy from '../../background/instance/backgroundApiProxy';
 import { useAppSelector, useNavigation } from '../../hooks';

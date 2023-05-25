@@ -3,19 +3,19 @@ import { decode as toEthAddress } from '@conflux-dev/conflux-address-js';
 import { defaultAbiCoder } from '@ethersproject/abi';
 import BigNumber from 'bignumber.js';
 
-import { BaseClient } from '@onekeyhq/engine/src/client/BaseClient';
-import type { CoinInfo } from '@onekeyhq/engine/src/types/chain';
+import { BaseClient } from '@mywallet/engine/src/client/BaseClient';
+import type { CoinInfo } from '@mywallet/engine/src/types/chain';
 import type {
   AddressInfo,
   ClientInfo,
   FeePricePerUnit,
   PartialTokenInfo,
-} from '@onekeyhq/engine/src/types/provider';
-import { TransactionStatus } from '@onekeyhq/engine/src/types/provider';
-import { JsonPRCResponseError } from '@onekeyhq/shared/src/errors/request-errors';
-import { JsonRPCRequest } from '@onekeyhq/shared/src/request/JsonRPCRequest';
-import { check } from '@onekeyhq/shared/src/utils/assertUtils';
-import { fromBigIntHex } from '@onekeyhq/shared/src/utils/numberUtils';
+} from '@mywallet/engine/src/types/provider';
+import { TransactionStatus } from '@mywallet/engine/src/types/provider';
+import { JsonPRCResponseError } from '@mywallet/shared/src/errors/request-errors';
+import { JsonRPCRequest } from '@mywallet/shared/src/request/JsonRPCRequest';
+import { check } from '@mywallet/shared/src/utils/assertUtils';
+import { fromBigIntHex } from '@mywallet/shared/src/utils/numberUtils';
 
 class Conflux extends BaseClient {
   static readonly __EPOCH_TAG__ = 'latest_state';

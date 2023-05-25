@@ -1,15 +1,15 @@
 // eslint-disable-next-line import/order
-import '@onekeyhq/shared/src/polyfills';
+import '@mywallet/shared/src/polyfills';
 
 import type { FC } from 'react';
 
-import { DesktopDragZoneBox } from '@onekeyhq/components';
+import { DesktopDragZoneBox } from '@mywallet/components';
 import {
   DESKTOP_TOP_DRAG_BAR_HEIGHT,
   DESKTOP_TOP_DRAG_BAR_ID,
-} from '@onekeyhq/components/src/DesktopDragZoneBox/useDesktopTopDragBarController.desktop';
-import { createLazyKitProvider } from '@onekeyhq/kit/src/provider/createLazyKitProvider';
-import '@onekeyhq/shared/src/web/index.css';
+} from '@mywallet/components/src/DesktopDragZoneBox/useDesktopTopDragBarController.desktop';
+import { createLazyKitProvider } from '@mywallet/kit/src/provider/createLazyKitProvider';
+import '@mywallet/shared/src/web/index.css';
 
 const KitProviderDesktop = createLazyKitProvider({
   displayName: 'KitProviderDesktop',

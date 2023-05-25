@@ -1,4 +1,4 @@
-import type { SelectProps } from '@onekeyhq/components/src/Select';
+import type { SelectProps } from '@mywallet/components/src/Select';
 
 import type { MatchDAppItemType } from '../../Discover/Explorer/explorerUtils';
 

@@ -7,7 +7,7 @@ import { isString } from 'lodash';
 import * as nearApiJs from 'near-api-js';
 import { SignedTransaction } from 'near-api-js/lib/transaction';
 
-import debugLogger from '@onekeyhq/shared/src/logger/debugLogger';
+import debugLogger from '@mywallet/shared/src/logger/debugLogger';
 
 import { TxStatus } from '../../../types/covalent';
 import { IDecodedTxActionType } from '../../types';

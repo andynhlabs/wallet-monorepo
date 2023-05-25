@@ -12,13 +12,13 @@ import {
   ToastManager,
   Typography,
   ZStack,
-} from '@onekeyhq/components';
-import type { ButtonType } from '@onekeyhq/components/src/Button';
-import Button from '@onekeyhq/components/src/Button';
-import iconNFCScanHint from '@onekeyhq/kit/assets/hardware/ic_pair_hint_scan_lite.png';
-import supportedNFC from '@onekeyhq/shared/src/detector/nfc';
-import debugLogger from '@onekeyhq/shared/src/logger/debugLogger';
-import platformEnv from '@onekeyhq/shared/src/platformEnv';
+} from '@mywallet/components';
+import type { ButtonType } from '@mywallet/components/src/Button';
+import Button from '@mywallet/components/src/Button';
+import iconNFCScanHint from '@mywallet/kit/assets/hardware/ic_pair_hint_scan_lite.png';
+import supportedNFC from '@mywallet/shared/src/detector/nfc';
+import debugLogger from '@mywallet/shared/src/logger/debugLogger';
+import platformEnv from '@mywallet/shared/src/platformEnv';
 
 export type ConnectType = 'ble' | 'nfc';
 export type OperateType =
@@ -57,7 +57,7 @@ const HardwareConnect: FC<HardwareConnectViewProps> = ({
 
   const [visibleIosHint, setVisibleIosHint] = useState(false);
   const [lottieConnectingIcon, setLottieConnectingIcon] = useState<any>(
-    require('@onekeyhq/kit/assets/animations/lottie_onekey_lite_nfc_connect.json'),
+    require('@mywallet/kit/assets/animations/lottie_onekey_lite_nfc_connect.json'),
   );
   const [lottieAutoPlay, setLottieAutoPlay] = useState<boolean>(
     !platformEnv.isNativeIOS,
@@ -70,7 +70,7 @@ const HardwareConnect: FC<HardwareConnectViewProps> = ({
 
     if (operateType === 'guide') {
       setLottieConnectingIcon(
-        require('@onekeyhq/kit/assets/animations/lottie_onekey_lite_nfc_connect.json'),
+        require('@mywallet/kit/assets/animations/lottie_onekey_lite_nfc_connect.json'),
       );
       if (platformEnv.isNativeIOS) {
         setVisibleIosHint(false);
@@ -78,7 +78,7 @@ const HardwareConnect: FC<HardwareConnectViewProps> = ({
     }
     if (operateType === 'connect') {
       setLottieConnectingIcon(
-        require('@onekeyhq/kit/assets/animations/lottie_onekey_lite_nfc_connect.json'),
+        require('@mywallet/kit/assets/animations/lottie_onekey_lite_nfc_connect.json'),
       );
       if (platformEnv.isNativeIOS) {
         setVisibleIosHint(true);
@@ -86,11 +86,11 @@ const HardwareConnect: FC<HardwareConnectViewProps> = ({
     }
     if (operateType === 'transfer') {
       setLottieConnectingIcon(
-        require('@onekeyhq/kit/assets/animations/lottie_onekey_lite_nfc_transfer.json'),
+        require('@mywallet/kit/assets/animations/lottie_onekey_lite_nfc_transfer.json'),
       );
       setTimeout(() => {
         setLottieConnectingIcon(
-          require('@onekeyhq/kit/assets/animations/lottie_onekey_lite_nfc_transmitting.json'),
+          require('@mywallet/kit/assets/animations/lottie_onekey_lite_nfc_transmitting.json'),
         );
       }, 1000);
       if (platformEnv.isNativeIOS) {
@@ -99,7 +99,7 @@ const HardwareConnect: FC<HardwareConnectViewProps> = ({
     }
     if (operateType === 'complete' || operateType === 'done') {
       setLottieConnectingIcon(
-        require('@onekeyhq/kit/assets/animations/lottie_onekey_lite_nfc_complete.json'),
+        require('@mywallet/kit/assets/animations/lottie_onekey_lite_nfc_complete.json'),
       );
       if (platformEnv.isNativeIOS) {
         setVisibleIosHint(false);

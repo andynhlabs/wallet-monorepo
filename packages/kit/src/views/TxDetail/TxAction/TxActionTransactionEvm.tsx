@@ -1,7 +1,7 @@
 import { useIntl } from 'react-intl';
 
-import { shortenAddress } from '@onekeyhq/components/src/utils';
-import type { IEncodedTxEvm } from '@onekeyhq/engine/src/vaults/impl/evm/Vault';
+import { shortenAddress } from '@mywallet/components/src/utils';
+import type { IEncodedTxEvm } from '@mywallet/engine/src/vaults/impl/evm/Vault';
 
 import { TxDetailActionBoxAutoTransform } from '../components/TxDetailActionBoxAutoTransform';
 import { TxListActionBox } from '../components/TxListActionBox';

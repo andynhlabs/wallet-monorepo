@@ -1,5 +1,5 @@
-import { useIsVerticalLayout } from '@onekeyhq/components';
-import BitcoinUsedAddress from '@onekeyhq/kit/src/views/Account/AddNewAccount/BitcoinUsedAddress';
+import { useIsVerticalLayout } from '@mywallet/components';
+import BitcoinUsedAddress from '@mywallet/kit/src/views/Account/AddNewAccount/BitcoinUsedAddress';
 
 import RecoverAccountsAdvanced from '../../../views/Account/AddNewAccount/RecoverAccountsAdvanced';
 import BulkCopyAddresses from '../../../views/Account/BulkCopyAddress';

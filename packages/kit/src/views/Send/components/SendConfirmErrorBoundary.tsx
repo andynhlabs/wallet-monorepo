@@ -1,4 +1,4 @@
-import { Text } from '@onekeyhq/components';
+import { Text } from '@mywallet/components';
 
 import { ErrorBoundaryBase } from '../../../components/ErrorBoundary';
 

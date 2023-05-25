@@ -3,7 +3,7 @@ import { useCallback } from 'react';
 import BigNumber from 'bignumber.js';
 import { useIntl } from 'react-intl';
 
-import { Container, Text } from '@onekeyhq/components';
+import { Container, Text } from '@mywallet/components';
 
 import { useNetworkSimple } from '../../hooks';
 import { MAX_ACTIONS_DISPLAY_IN_CONFIRM } from '../Send/constants';

@@ -1,6 +1,6 @@
 import { getStringAsync, setStringAsync } from 'expo-clipboard';
 
-import platformEnv from '@onekeyhq/shared/src/platformEnv';
+import platformEnv from '@mywallet/shared/src/platformEnv';
 
 export const copyToClipboard = setStringAsync;
 

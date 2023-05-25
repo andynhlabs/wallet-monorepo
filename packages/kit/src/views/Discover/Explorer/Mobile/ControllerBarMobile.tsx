@@ -17,9 +17,9 @@ import {
   Typography,
   useSafeAreaInsets,
   useThemeValue,
-} from '@onekeyhq/components';
-import useFloatingBottomTabBarHeight from '@onekeyhq/components/src/Layout/BottomTabs/utils/useBottomTabBarHeight';
-import PressableItem from '@onekeyhq/components/src/Pressable/PressableItem';
+} from '@mywallet/components';
+import useFloatingBottomTabBarHeight from '@mywallet/components/src/Layout/BottomTabs/utils/useBottomTabBarHeight';
+import PressableItem from '@mywallet/components/src/Pressable/PressableItem';
 
 import backgroundApiProxy from '../../../../background/instance/backgroundApiProxy';
 import { TabRoutes } from '../../../../routes/routesEnum';

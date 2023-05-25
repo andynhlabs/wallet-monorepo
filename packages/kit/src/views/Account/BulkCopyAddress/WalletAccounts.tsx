@@ -10,13 +10,13 @@ import {
 
 import { useIntl } from 'react-intl';
 
-import { Box, Center, Empty, HStack, Text, VStack } from '@onekeyhq/components';
-import type { DBAccountDerivation } from '@onekeyhq/engine/src/types/accountDerivation';
-import type { Wallet } from '@onekeyhq/engine/src/types/wallet';
-import WalletAvatar from '@onekeyhq/kit/src/components/WalletSelector/WalletAvatar';
-import { getDeviceTypeByDeviceId } from '@onekeyhq/kit/src/utils/hardware';
-import { isPassphraseWallet } from '@onekeyhq/shared/src/engine/engineUtils';
-import type { IOneKeyDeviceType } from '@onekeyhq/shared/types';
+import { Box, Center, Empty, HStack, Text, VStack } from '@mywallet/components';
+import type { DBAccountDerivation } from '@mywallet/engine/src/types/accountDerivation';
+import type { Wallet } from '@mywallet/engine/src/types/wallet';
+import WalletAvatar from '@mywallet/kit/src/components/WalletSelector/WalletAvatar';
+import { getDeviceTypeByDeviceId } from '@mywallet/kit/src/utils/hardware';
+import { isPassphraseWallet } from '@mywallet/shared/src/engine/engineUtils';
+import type { IOneKeyDeviceType } from '@mywallet/shared/types';
 
 import backgroundApiProxy from '../../../background/instance/backgroundApiProxy';
 import { useDerivationPath } from '../../../components/NetworkAccountSelector/hooks/useDerivationPath';

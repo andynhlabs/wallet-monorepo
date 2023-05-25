@@ -17,8 +17,8 @@ import {
   Switch,
   Token,
   useIsVerticalLayout,
-} from '@onekeyhq/components';
-import type { Network } from '@onekeyhq/engine/src/types/network';
+} from '@mywallet/components';
+import type { Network } from '@mywallet/engine/src/types/network';
 
 import backgroundApiProxy from '../../../background/instance/backgroundApiProxy';
 import { getActiveWalletAccount } from '../../../hooks/redux';

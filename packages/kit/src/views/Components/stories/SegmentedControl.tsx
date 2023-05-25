@@ -1,6 +1,6 @@
 import { useState } from 'react';
 
-import { Center, SegmentedControl } from '@onekeyhq/components';
+import { Center, SegmentedControl } from '@mywallet/components';
 
 const SegmentedControlGallery = () => {
   const [selectIndex, setSelectedIndex] = useState(0);

@@ -2,7 +2,7 @@ import { useEffect } from 'react';
 
 import { useIntl } from 'react-intl';
 
-import { Box, Center, Modal, Typography } from '@onekeyhq/components';
+import { Box, Center, Modal, Typography } from '@mywallet/components';
 
 import backgroundApiProxy from '../../../background/instance/backgroundApiProxy';
 import { useNavigation } from '../../../hooks';

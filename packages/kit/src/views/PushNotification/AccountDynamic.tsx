@@ -12,17 +12,17 @@ import {
   Switch,
   Typography,
   useTheme,
-} from '@onekeyhq/components';
-import { isCoinTypeCompatibleWithImpl } from '@onekeyhq/engine/src/managers/impl';
-import type { AccountDynamicItem } from '@onekeyhq/engine/src/managers/notification';
-import type { Account } from '@onekeyhq/engine/src/types/account';
+} from '@mywallet/components';
+import { isCoinTypeCompatibleWithImpl } from '@mywallet/engine/src/managers/impl';
+import type { AccountDynamicItem } from '@mywallet/engine/src/managers/notification';
+import type { Account } from '@mywallet/engine/src/types/account';
 import {
   WALLET_TYPE_EXTERNAL,
   WALLET_TYPE_IMPORTED,
   WALLET_TYPE_WATCHING,
-} from '@onekeyhq/engine/src/types/wallet';
-import { useNavigation } from '@onekeyhq/kit/src/hooks';
-import { IMPL_EVM } from '@onekeyhq/shared/src/engine/engineConsts';
+} from '@mywallet/engine/src/types/wallet';
+import { useNavigation } from '@mywallet/kit/src/hooks';
+import { IMPL_EVM } from '@mywallet/shared/src/engine/engineConsts';
 
 import backgroundApiProxy from '../../background/instance/backgroundApiProxy';
 import WalletAvatar from '../../components/WalletSelector/WalletAvatar';

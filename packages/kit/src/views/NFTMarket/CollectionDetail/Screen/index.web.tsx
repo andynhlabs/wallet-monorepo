@@ -10,7 +10,7 @@ import {
   Pressable,
   Text,
   useIsVerticalLayout,
-} from '@onekeyhq/components';
+} from '@mywallet/components';
 
 import AssetsList from '../AssetsList';
 import CollectionInfo from '../CollectionInfo';

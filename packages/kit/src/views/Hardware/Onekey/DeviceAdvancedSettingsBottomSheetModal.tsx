@@ -11,11 +11,11 @@ import {
   Switch,
   Typography,
   useIsVerticalLayout,
-} from '@onekeyhq/components';
-import backgroundApiProxy from '@onekeyhq/kit/src/background/instance/backgroundApiProxy';
-import { deviceUtils } from '@onekeyhq/kit/src/utils/hardware';
-import { showOverlay } from '@onekeyhq/kit/src/utils/overlayUtils';
-import type { IOneKeyDeviceFeatures } from '@onekeyhq/shared/types';
+} from '@mywallet/components';
+import backgroundApiProxy from '@mywallet/kit/src/background/instance/backgroundApiProxy';
+import { deviceUtils } from '@mywallet/kit/src/utils/hardware';
+import { showOverlay } from '@mywallet/kit/src/utils/overlayUtils';
+import type { IOneKeyDeviceFeatures } from '@mywallet/shared/types';
 
 import DisablePassphraseDialog from './DisablePassphraseDialog';
 import EnablePassphraseDialog from './EnablePassphraseDialog';

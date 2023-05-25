@@ -9,7 +9,7 @@ import {
 /* patch node_modules/cross-fetch/dist/browser-ponyfill.js
 
 var ctx = __self__; // this line disable service worker support temporarily
-ctx.fetch = require('@onekeyhq/shared/src/request/normalize/normalizeCrossFetch').normalizeCrossFetch({
+ctx.fetch = require('@mywallet/shared/src/request/normalize/normalizeCrossFetch').normalizeCrossFetch({
   fetch: ctx.fetch
 });
 

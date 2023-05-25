@@ -3,12 +3,12 @@ import { useCallback, useEffect, useMemo, useState } from 'react';
 
 import { useIntl } from 'react-intl';
 
-import { Box, HStack, Icon, Typography, VStack } from '@onekeyhq/components';
-import type { LocaleIds } from '@onekeyhq/components/src/locale';
+import { Box, HStack, Icon, Typography, VStack } from '@mywallet/components';
+import type { LocaleIds } from '@mywallet/components/src/locale';
 import type {
   GoPlusDappContract,
   GoPlusPhishing,
-} from '@onekeyhq/engine/src/types/goplus';
+} from '@mywallet/engine/src/types/goplus';
 
 import backgroundApiProxy from '../../../background/instance/backgroundApiProxy';
 

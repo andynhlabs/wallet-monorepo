@@ -12,10 +12,10 @@ import {
   IconButton,
   Pressable,
   Typography,
-} from '@onekeyhq/components';
-import { shortenAddress } from '@onekeyhq/components/src/utils';
-import backgroundApiProxy from '@onekeyhq/kit/src/background/instance/backgroundApiProxy';
-import { gotoScanQrcode } from '@onekeyhq/kit/src/utils/gotoScanQrcode';
+} from '@mywallet/components';
+import { shortenAddress } from '@mywallet/components/src/utils';
+import backgroundApiProxy from '@mywallet/kit/src/background/instance/backgroundApiProxy';
+import { gotoScanQrcode } from '@mywallet/kit/src/utils/gotoScanQrcode';
 
 import { useActiveWalletAccount, useAppSelector } from '../../../hooks';
 import { wait } from '../../../utils/helper';

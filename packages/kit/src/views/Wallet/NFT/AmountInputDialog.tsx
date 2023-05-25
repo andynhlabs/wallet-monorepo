@@ -4,7 +4,7 @@ import { useState } from 'react';
 import BigNumber from 'bignumber.js';
 import { useIntl } from 'react-intl';
 
-import { Box, Dialog, NumberInput, Text } from '@onekeyhq/components';
+import { Box, Dialog, NumberInput, Text } from '@mywallet/components';
 
 import { showDialog } from '../../../utils/overlayUtils';
 

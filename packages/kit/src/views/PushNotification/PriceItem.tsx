@@ -4,9 +4,9 @@ import { useCallback, useState } from 'react';
 import { pick } from 'lodash';
 import { FormattedNumber } from 'react-intl';
 
-import { Box, IconButton, Spinner, Text, Token } from '@onekeyhq/components';
-import type { PriceAlertItem } from '@onekeyhq/engine/src/managers/notification';
-import debugLogger from '@onekeyhq/shared/src/logger/debugLogger';
+import { Box, IconButton, Spinner, Text, Token } from '@mywallet/components';
+import type { PriceAlertItem } from '@mywallet/engine/src/managers/notification';
+import debugLogger from '@mywallet/shared/src/logger/debugLogger';
 
 import backgroundApiProxy from '../../background/instance/backgroundApiProxy';
 import { formatDecimalZero } from '../Market/utils';

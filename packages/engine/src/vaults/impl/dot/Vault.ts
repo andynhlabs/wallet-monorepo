@@ -18,13 +18,13 @@ import {
   InvalidTransferValue,
   NotImplemented,
   OneKeyInternalError,
-} from '@onekeyhq/engine/src/errors';
+} from '@mywallet/engine/src/errors';
 import type {
   DBAccount,
   DBVariantAccount,
-} from '@onekeyhq/engine/src/types/account';
-import type { Token } from '@onekeyhq/engine/src/types/token';
-import type { KeyringSoftwareBase } from '@onekeyhq/engine/src/vaults/keyring/KeyringSoftwareBase';
+} from '@mywallet/engine/src/types/account';
+import type { Token } from '@mywallet/engine/src/types/token';
+import type { KeyringSoftwareBase } from '@mywallet/engine/src/vaults/keyring/KeyringSoftwareBase';
 import type {
   IDecodedTx,
   IDecodedTxAction,
@@ -38,24 +38,24 @@ import type {
   ISignedTxPro,
   ITransferInfo,
   IUnsignedTxPro,
-} from '@onekeyhq/engine/src/vaults/types';
+} from '@mywallet/engine/src/vaults/types';
 import {
   IDecodedTxActionType,
   IDecodedTxDirection,
   IDecodedTxStatus,
-} from '@onekeyhq/engine/src/vaults/types';
+} from '@mywallet/engine/src/vaults/types';
 import {
   convertFeeGweiToValue,
   convertFeeValueToGwei,
-} from '@onekeyhq/engine/src/vaults/utils/feeInfoUtils';
+} from '@mywallet/engine/src/vaults/utils/feeInfoUtils';
 import {
   addHexPrefix,
   stripHexPrefix,
-} from '@onekeyhq/engine/src/vaults/utils/hexUtils';
-import { VaultBase } from '@onekeyhq/engine/src/vaults/VaultBase';
-import backgroundApiProxy from '@onekeyhq/kit/src/background/instance/backgroundApiProxy';
-import { formatBalanceDisplay } from '@onekeyhq/kit/src/components/Format';
-import debugLogger from '@onekeyhq/shared/src/logger/debugLogger';
+} from '@mywallet/engine/src/vaults/utils/hexUtils';
+import { VaultBase } from '@mywallet/engine/src/vaults/VaultBase';
+import backgroundApiProxy from '@mywallet/kit/src/background/instance/backgroundApiProxy';
+import { formatBalanceDisplay } from '@mywallet/kit/src/components/Format';
+import debugLogger from '@mywallet/shared/src/logger/debugLogger';
 
 import { KeyringHardware } from './KeyringHardware';
 import { KeyringHd } from './KeyringHd';

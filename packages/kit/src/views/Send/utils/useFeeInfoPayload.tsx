@@ -5,23 +5,23 @@ import { useRoute } from '@react-navigation/core';
 import { useIsFocused } from '@react-navigation/native';
 import BigNumber from 'bignumber.js';
 
-import { ToastManager } from '@onekeyhq/components';
-import type { EIP1559Fee } from '@onekeyhq/engine/src/types/network';
-import type { IEncodedTxEvm } from '@onekeyhq/engine/src/vaults/impl/evm/Vault';
+import { ToastManager } from '@mywallet/components';
+import type { EIP1559Fee } from '@mywallet/engine/src/types/network';
+import type { IEncodedTxEvm } from '@mywallet/engine/src/vaults/impl/evm/Vault';
 import type {
   IEncodedTx,
   IFeeInfo,
   IFeeInfoPayload,
   IFeeInfoSelected,
   IFeeInfoUnit,
-} from '@onekeyhq/engine/src/vaults/types';
+} from '@mywallet/engine/src/vaults/types';
 import {
   calculateTotalFeeNative,
   calculateTotalFeeRange,
-} from '@onekeyhq/engine/src/vaults/utils/feeInfoUtils';
-import debugLogger from '@onekeyhq/shared/src/logger/debugLogger';
+} from '@mywallet/engine/src/vaults/utils/feeInfoUtils';
+import debugLogger from '@mywallet/shared/src/logger/debugLogger';
 // eslint-disable-next-line @typescript-eslint/no-unused-vars
-import platformEnv from '@onekeyhq/shared/src/platformEnv';
+import platformEnv from '@mywallet/shared/src/platformEnv';
 
 import backgroundApiProxy from '../../../background/instance/backgroundApiProxy';
 import { useActiveSideAccount, useAppSelector } from '../../../hooks';

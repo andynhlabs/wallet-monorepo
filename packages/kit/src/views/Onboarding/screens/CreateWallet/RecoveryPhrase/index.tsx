@@ -4,7 +4,7 @@ import { useNavigation } from '@react-navigation/core';
 import { useRoute } from '@react-navigation/native';
 import { useIntl } from 'react-intl';
 
-import { Box, Icon, Text } from '@onekeyhq/components';
+import { Box, Icon, Text } from '@mywallet/components';
 
 import Layout from '../../../Layout';
 import { EOnboardingRoutes } from '../../../routes/enums';

@@ -2,7 +2,7 @@ import { memo } from 'react';
 
 import { useIntl } from 'react-intl';
 
-import { Box } from '@onekeyhq/components';
+import { Box } from '@mywallet/components';
 
 import Header from './Header';
 import List from './List';

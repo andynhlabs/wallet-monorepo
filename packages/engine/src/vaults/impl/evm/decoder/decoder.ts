@@ -1,4 +1,4 @@
-import debugLogger from '@onekeyhq/shared/src/logger/debugLogger';
+import debugLogger from '@mywallet/shared/src/logger/debugLogger';
 
 import { TxStatus } from '../../../../types/covalent';
 import { ethers } from '../sdk/ethers';

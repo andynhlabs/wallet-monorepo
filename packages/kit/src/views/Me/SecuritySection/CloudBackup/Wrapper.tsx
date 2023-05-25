@@ -1,6 +1,6 @@
 import type { FC, ReactNode } from 'react';
 
-import { Box, ScrollView, useSafeAreaInsets } from '@onekeyhq/components';
+import { Box, ScrollView, useSafeAreaInsets } from '@mywallet/components';
 
 // eslint-disable-next-line @typescript-eslint/ban-types
 type WrapperProps = {

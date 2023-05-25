@@ -3,7 +3,7 @@ import type { FC, ReactNode } from 'react';
 import { BlurView } from 'expo-blur';
 import { Platform } from 'react-native';
 
-import { Box, useIsVerticalLayout, useTheme } from '@onekeyhq/components';
+import { Box, useIsVerticalLayout, useTheme } from '@mywallet/components';
 
 import DesktopDragZoneBox from '../../DesktopDragZoneBox';
 import NavHeader from '../../NavHeader/NavHeader';

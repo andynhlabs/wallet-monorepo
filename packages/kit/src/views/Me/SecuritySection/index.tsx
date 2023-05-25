@@ -13,13 +13,13 @@ import {
   ToastManager,
   Typography,
   useTheme,
-} from '@onekeyhq/components';
-import { useAppSelector } from '@onekeyhq/kit/src/hooks/redux';
+} from '@mywallet/components';
+import { useAppSelector } from '@mywallet/kit/src/hooks/redux';
 import {
   setAppLockDuration,
   setEnableAppLock,
-} from '@onekeyhq/kit/src/store/reducers/settings';
-import platformEnv from '@onekeyhq/shared/src/platformEnv';
+} from '@mywallet/kit/src/store/reducers/settings';
+import platformEnv from '@mywallet/shared/src/platformEnv';
 
 import backgroundApiProxy from '../../../background/instance/backgroundApiProxy';
 import { useLocalAuthentication } from '../../../hooks/useLocalAuthentication';

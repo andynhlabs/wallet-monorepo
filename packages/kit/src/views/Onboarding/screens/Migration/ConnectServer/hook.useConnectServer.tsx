@@ -1,7 +1,7 @@
 import { useCallback } from 'react';
 
-import PermissionDialog from '@onekeyhq/kit/src/components/PermissionDialog/PermissionDialog';
-import platformEnv from '@onekeyhq/shared/src/platformEnv';
+import PermissionDialog from '@mywallet/kit/src/components/PermissionDialog/PermissionDialog';
+import platformEnv from '@mywallet/shared/src/platformEnv';
 
 import backgroundApiProxy from '../../../../../background/instance/backgroundApiProxy';
 import { showDialog } from '../../../../../utils/overlayUtils';

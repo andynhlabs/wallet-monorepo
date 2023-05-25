@@ -14,17 +14,17 @@ import {
   Text,
   Typography,
   useIsVerticalLayout,
-} from '@onekeyhq/components';
-import { WALLET_TYPE_WATCHING } from '@onekeyhq/engine/src/types/wallet';
+} from '@mywallet/components';
+import { WALLET_TYPE_WATCHING } from '@mywallet/engine/src/types/wallet';
 import {
   HomeRoutes,
   ModalRoutes,
   RootRoutes,
-} from '@onekeyhq/kit/src/routes/routesEnum';
+} from '@mywallet/kit/src/routes/routesEnum';
 import type {
   HomeRoutesParams,
   RootRoutesParams,
-} from '@onekeyhq/kit/src/routes/types';
+} from '@mywallet/kit/src/routes/types';
 
 import backgroundApiProxy from '../../../background/instance/backgroundApiProxy';
 import { FormatCurrencyNumber } from '../../../components/Format';

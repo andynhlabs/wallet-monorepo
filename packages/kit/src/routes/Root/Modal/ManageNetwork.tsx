@@ -1,4 +1,4 @@
-import { useIsVerticalLayout } from '@onekeyhq/components';
+import { useIsVerticalLayout } from '@mywallet/components';
 
 import { NetworkAccountSelectorModal } from '../../../components/NetworkAccountSelector';
 import { NetworkSelectorModal } from '../../../components/NetworkAccountSelector/modals/NetworkSelectorModal/NetworkSelectorModal';

@@ -32,15 +32,15 @@ import {
   ToastManager,
   Tooltip,
   useIsVerticalLayout,
-} from '@onekeyhq/components';
-import { shortenAddress } from '@onekeyhq/components/src/utils';
-import { copyToClipboard } from '@onekeyhq/components/src/utils/ClipboardUtils';
-import type { Network } from '@onekeyhq/engine/src/types/network';
-import type { NFTAsset, NFTPNL } from '@onekeyhq/engine/src/types/nft';
-import { ModalRoutes, RootRoutes } from '@onekeyhq/kit/src/routes/routesEnum';
-import type { ModalScreenProps } from '@onekeyhq/kit/src/routes/types';
-import { IMPL_EVM } from '@onekeyhq/shared/src/engine/engineConsts';
-import platformEnv from '@onekeyhq/shared/src/platformEnv';
+} from '@mywallet/components';
+import { shortenAddress } from '@mywallet/components/src/utils';
+import { copyToClipboard } from '@mywallet/components/src/utils/ClipboardUtils';
+import type { Network } from '@mywallet/engine/src/types/network';
+import type { NFTAsset, NFTPNL } from '@mywallet/engine/src/types/nft';
+import { ModalRoutes, RootRoutes } from '@mywallet/kit/src/routes/routesEnum';
+import type { ModalScreenProps } from '@mywallet/kit/src/routes/types';
+import { IMPL_EVM } from '@mywallet/shared/src/engine/engineConsts';
+import platformEnv from '@mywallet/shared/src/platformEnv';
 
 import backgroundApiProxy from '../../../../background/instance/backgroundApiProxy';
 import { AccountSelectorTrigger } from '../../../../components/NetworkAccountSelector/triggers/AccountSelectorTrigger';

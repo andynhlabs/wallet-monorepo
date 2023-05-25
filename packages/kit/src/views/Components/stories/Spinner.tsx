@@ -1,4 +1,4 @@
-import { Box, Center, Spinner } from '@onekeyhq/components';
+import { Box, Center, Spinner } from '@mywallet/components';
 
 const SpinnerGallery = () => (
   <Center flex="1" bg="background-hovered">

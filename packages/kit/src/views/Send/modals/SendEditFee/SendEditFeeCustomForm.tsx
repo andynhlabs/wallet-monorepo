@@ -17,22 +17,22 @@ import {
   Text,
   Tooltip,
   useIsVerticalLayout,
-} from '@onekeyhq/components';
+} from '@mywallet/components';
 import type {
   OneKeyError,
   OneKeyValidatorError,
-} from '@onekeyhq/engine/src/errors';
+} from '@mywallet/engine/src/errors';
 import {
   NotImplemented,
   OneKeyErrorClassNames,
-} from '@onekeyhq/engine/src/errors';
-import { getBlockNativeGasInfo } from '@onekeyhq/engine/src/managers/blockNative';
-import type { BlockNativeGasInfo } from '@onekeyhq/engine/src/types/blockNative';
-import type { EIP1559Fee } from '@onekeyhq/engine/src/types/network';
+} from '@mywallet/engine/src/errors';
+import { getBlockNativeGasInfo } from '@mywallet/engine/src/managers/blockNative';
+import type { BlockNativeGasInfo } from '@mywallet/engine/src/types/blockNative';
+import type { EIP1559Fee } from '@mywallet/engine/src/types/network';
 import type {
   IEncodedTx,
   IFeeInfoPayload,
-} from '@onekeyhq/engine/src/vaults/types';
+} from '@mywallet/engine/src/vaults/types';
 
 import backgroundApiProxy from '../../../../background/instance/backgroundApiProxy';
 import { useFormOnChangeDebounced } from '../../../../hooks/useFormOnChangeDebounced';

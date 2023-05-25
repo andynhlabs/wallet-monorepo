@@ -1,6 +1,6 @@
 import type { FC } from 'react';
 
-import { useThemeValue } from '@onekeyhq/components';
+import { useThemeValue } from '@mywallet/components';
 
 import Box from '../Box';
 import Button from '../Button';

@@ -1,14 +1,14 @@
 import { IInjectedProviderNames } from '@onekeyfe/cross-inpage-provider-types';
 
-import type VaultTron from '@onekeyhq/engine/src/vaults/impl/tron/Vault';
-import { getActiveWalletAccount } from '@onekeyhq/kit/src/hooks/redux';
+import type VaultTron from '@mywallet/engine/src/vaults/impl/tron/Vault';
+import { getActiveWalletAccount } from '@mywallet/kit/src/hooks/redux';
 import {
   backgroundClass,
   permissionRequired,
   providerApiMethod,
-} from '@onekeyhq/shared/src/background/backgroundDecorators';
-import { IMPL_TRON } from '@onekeyhq/shared/src/engine/engineConsts';
-import debugLogger from '@onekeyhq/shared/src/logger/debugLogger';
+} from '@mywallet/shared/src/background/backgroundDecorators';
+import { IMPL_TRON } from '@mywallet/shared/src/engine/engineConsts';
+import debugLogger from '@mywallet/shared/src/logger/debugLogger';
 
 import ProviderApiBase from './ProviderApiBase';
 

@@ -16,9 +16,9 @@ import {
   Switch,
   Token,
   Typography,
-} from '@onekeyhq/components';
-import type { ChainListConfig } from '@onekeyhq/engine/src/managers/network';
-import debugLogger from '@onekeyhq/shared/src/logger/debugLogger';
+} from '@mywallet/components';
+import type { ChainListConfig } from '@mywallet/engine/src/managers/network';
+import debugLogger from '@mywallet/shared/src/logger/debugLogger';
 
 import backgroundApiProxy from '../../../background/instance/backgroundApiProxy';
 import { useDebounce, useManageNetworks } from '../../../hooks';

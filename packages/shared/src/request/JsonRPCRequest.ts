@@ -1,12 +1,12 @@
 import fetch from 'cross-fetch';
 import timeoutSignal from 'timeout-signal';
 
-import simpleDb from '@onekeyhq/engine/src/dbs/simple/simpleDb';
-import type { IJsonRpcResponsePro } from '@onekeyhq/engine/src/types';
+import simpleDb from '@mywallet/engine/src/dbs/simple/simpleDb';
+import type { IJsonRpcResponsePro } from '@mywallet/engine/src/types';
 import {
   JsonPRCResponseError,
   ResponseError,
-} from '@onekeyhq/shared/src/errors/request-errors';
+} from '@mywallet/shared/src/errors/request-errors';
 
 import type { IJsonRpcRequest } from '@onekeyfe/cross-inpage-provider-types';
 

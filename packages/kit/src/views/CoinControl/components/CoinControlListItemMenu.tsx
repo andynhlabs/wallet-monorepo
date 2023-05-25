@@ -1,14 +1,14 @@
 import type { FC } from 'react';
 import { useCallback, useMemo } from 'react';
 
-import { Divider } from '@onekeyhq/components';
-import type { Network } from '@onekeyhq/engine/src/types/network';
-import type { ICoinControlListItem } from '@onekeyhq/engine/src/types/utxoAccounts';
-import BaseMenu from '@onekeyhq/kit/src/views/Overlay/BaseMenu';
+import { Divider } from '@mywallet/components';
+import type { Network } from '@mywallet/engine/src/types/network';
+import type { ICoinControlListItem } from '@mywallet/engine/src/types/utxoAccounts';
+import BaseMenu from '@mywallet/kit/src/views/Overlay/BaseMenu';
 import type {
   IBaseMenuOptions,
   IMenu,
-} from '@onekeyhq/kit/src/views/Overlay/BaseMenu';
+} from '@mywallet/kit/src/views/Overlay/BaseMenu';
 
 import useOpenBlockBrowser from '../../../hooks/useOpenBlockBrowser';
 

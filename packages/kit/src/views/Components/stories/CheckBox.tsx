@@ -6,7 +6,7 @@ import {
   CheckBox,
   Divider,
   ScrollView,
-} from '@onekeyhq/components';
+} from '@mywallet/components';
 
 const CheckboxWithChildren = () => {
   const [checked, setChecked] = useState(false);

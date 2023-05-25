@@ -17,12 +17,12 @@ import {
   Text,
   Token,
   useSafeAreaInsets,
-} from '@onekeyhq/components';
-import { FlatListRef } from '@onekeyhq/components/src/FlatList';
-import type { INetwork } from '@onekeyhq/engine/src/types';
-import { WALLET_TYPE_HW } from '@onekeyhq/engine/src/types/wallet';
-import debugLogger from '@onekeyhq/shared/src/logger/debugLogger';
-import platformEnv from '@onekeyhq/shared/src/platformEnv';
+} from '@mywallet/components';
+import { FlatListRef } from '@mywallet/components/src/FlatList';
+import type { INetwork } from '@mywallet/engine/src/types';
+import { WALLET_TYPE_HW } from '@mywallet/engine/src/types/wallet';
+import debugLogger from '@mywallet/shared/src/logger/debugLogger';
+import platformEnv from '@mywallet/shared/src/platformEnv';
 
 import backgroundApiProxy from '../../../../background/instance/backgroundApiProxy';
 import { useManageNetworks } from '../../../../hooks';

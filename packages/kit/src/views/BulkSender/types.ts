@@ -1,4 +1,4 @@
-import type { Token } from '@onekeyhq/engine/src/types/token';
+import type { Token } from '@mywallet/engine/src/types/token';
 
 export enum BulkSenderTypeEnum {
   NativeToken = 'NativeToken',

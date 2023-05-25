@@ -11,8 +11,8 @@ import {
   ToastManager,
   useForm,
   useIsVerticalLayout,
-} from '@onekeyhq/components';
-import type { Token } from '@onekeyhq/engine/src/types/token';
+} from '@mywallet/components';
+import type { Token } from '@mywallet/engine/src/types/token';
 
 import backgroundApiProxy from '../../background/instance/backgroundApiProxy';
 import {

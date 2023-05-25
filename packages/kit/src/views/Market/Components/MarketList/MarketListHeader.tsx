@@ -12,8 +12,8 @@ import {
   Typography,
   useIsVerticalLayout,
   useUserDevice,
-} from '@onekeyhq/components';
-import backgroundApiProxy from '@onekeyhq/kit/src/background/instance/backgroundApiProxy';
+} from '@mywallet/components';
+import backgroundApiProxy from '@mywallet/kit/src/background/instance/backgroundApiProxy';
 
 import { EMarketCellData } from '../../config';
 import { useListSort } from '../../hooks/useMarketList';

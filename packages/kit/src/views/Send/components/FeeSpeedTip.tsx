@@ -2,14 +2,14 @@
 import BigNumber from 'bignumber.js';
 import { useIntl } from 'react-intl';
 
-import { Box, HStack, Icon, RichTooltip, Text } from '@onekeyhq/components';
-import type { LocaleIds } from '@onekeyhq/components/src/locale';
-import Pressable from '@onekeyhq/components/src/Pressable/Pressable';
-import type { EIP1559Fee } from '@onekeyhq/engine/src/types/network';
+import { Box, HStack, Icon, RichTooltip, Text } from '@mywallet/components';
+import type { LocaleIds } from '@mywallet/components/src/locale';
+import Pressable from '@mywallet/components/src/Pressable/Pressable';
+import type { EIP1559Fee } from '@mywallet/engine/src/types/network';
 import type {
   IFeeInfo,
   IFeeInfoPrice,
-} from '@onekeyhq/engine/src/vaults/types';
+} from '@mywallet/engine/src/vaults/types';
 
 function FeeInfoItem({ title, value }: { title: string; value: string }) {
   return (

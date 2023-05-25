@@ -2,7 +2,7 @@
 import type { FC } from 'react';
 import { isValidElement } from 'react';
 
-import { Box, HStack, Pressable, Text } from '@onekeyhq/components';
+import { Box, HStack, Pressable, Text } from '@mywallet/components';
 
 export interface HeaderProps {
   title?: string;

@@ -1,19 +1,19 @@
 import { bytesToHex } from '@noble/hashes/utils';
 import { ed25519 } from '@onekeyfe/blockchain-libs/dist/secret/curves';
 
-import { OneKeyInternalError } from '@onekeyhq/engine/src/errors';
-import { Signer } from '@onekeyhq/engine/src/proxy';
-import type { DBVariantAccount } from '@onekeyhq/engine/src/types/account';
-import { AccountType } from '@onekeyhq/engine/src/types/account';
-import type { CommonMessage } from '@onekeyhq/engine/src/types/message';
-import { KeyringImportedBase } from '@onekeyhq/engine/src/vaults/keyring/KeyringImportedBase';
+import { OneKeyInternalError } from '@mywallet/engine/src/errors';
+import { Signer } from '@mywallet/engine/src/proxy';
+import type { DBVariantAccount } from '@mywallet/engine/src/types/account';
+import { AccountType } from '@mywallet/engine/src/types/account';
+import type { CommonMessage } from '@mywallet/engine/src/types/message';
+import { KeyringImportedBase } from '@mywallet/engine/src/vaults/keyring/KeyringImportedBase';
 import type {
   IPrepareImportedAccountsParams,
   ISignCredentialOptions,
-} from '@onekeyhq/engine/src/vaults/types';
-import { addHexPrefix } from '@onekeyhq/engine/src/vaults/utils/hexUtils';
-import { COINTYPE_DOT as COIN_TYPE } from '@onekeyhq/shared/src/engine/engineConsts';
-import debugLogger from '@onekeyhq/shared/src/logger/debugLogger';
+} from '@mywallet/engine/src/vaults/types';
+import { addHexPrefix } from '@mywallet/engine/src/vaults/utils/hexUtils';
+import { COINTYPE_DOT as COIN_TYPE } from '@mywallet/shared/src/engine/engineConsts';
+import debugLogger from '@mywallet/shared/src/logger/debugLogger';
 
 import { TYPE_PREFIX } from './consts';
 import polkadotSdk from './sdk/polkadotSdk';

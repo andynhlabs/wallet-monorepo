@@ -14,8 +14,8 @@ import {
   Switch,
   Typography,
   useThemeValue,
-} from '@onekeyhq/components';
-import { shortenAddress } from '@onekeyhq/components/src/utils';
+} from '@mywallet/components';
+import { shortenAddress } from '@mywallet/components/src/utils';
 
 import backgroundApiProxy from '../../../../background/instance/backgroundApiProxy';
 import { FormatCurrency } from '../../../../components/Format';

@@ -1,61 +1,61 @@
 import { find, flatten, pick } from 'lodash';
 
-import simpleDb from '@onekeyhq/engine/src/dbs/simple/simpleDb';
+import simpleDb from '@mywallet/engine/src/dbs/simple/simpleDb';
 import {
   OneKeyAlreadyExistWalletError,
   OneKeyErrorClassNames,
   TooManyHWPassphraseWallets,
-} from '@onekeyhq/engine/src/errors';
-import { HW_PASSPHRASE_WALLET_MAX_NUM } from '@onekeyhq/engine/src/limits';
+} from '@mywallet/engine/src/errors';
+import { HW_PASSPHRASE_WALLET_MAX_NUM } from '@mywallet/engine/src/limits';
 import {
   getWalletTypeFromAccountId,
   isAccountCompatibleWithNetwork,
-} from '@onekeyhq/engine/src/managers/account';
+} from '@mywallet/engine/src/managers/account';
 import {
   generateNetworkIdByChainId,
   getCoinTypeFromNetworkId,
   parseNetworkId,
-} from '@onekeyhq/engine/src/managers/network';
-import type { IAccount, INetwork, IWallet } from '@onekeyhq/engine/src/types';
-import type { Account, DBAccount } from '@onekeyhq/engine/src/types/account';
-import { AccountType } from '@onekeyhq/engine/src/types/account';
-import type { Network } from '@onekeyhq/engine/src/types/network';
-import type { Wallet, WalletType } from '@onekeyhq/engine/src/types/wallet';
-import { getActiveWalletAccount } from '@onekeyhq/kit/src/hooks/redux';
-import { getManageNetworks } from '@onekeyhq/kit/src/hooks/useManageNetworks';
-import { passwordSet, release } from '@onekeyhq/kit/src/store/reducers/data';
+} from '@mywallet/engine/src/managers/network';
+import type { IAccount, INetwork, IWallet } from '@mywallet/engine/src/types';
+import type { Account, DBAccount } from '@mywallet/engine/src/types/account';
+import { AccountType } from '@mywallet/engine/src/types/account';
+import type { Network } from '@mywallet/engine/src/types/network';
+import type { Wallet, WalletType } from '@mywallet/engine/src/types/wallet';
+import { getActiveWalletAccount } from '@mywallet/kit/src/hooks/redux';
+import { getManageNetworks } from '@mywallet/kit/src/hooks/useManageNetworks';
+import { passwordSet, release } from '@mywallet/kit/src/store/reducers/data';
 import {
   changeActiveAccount,
   changeActiveExternalWalletName,
   setActiveIds,
-} from '@onekeyhq/kit/src/store/reducers/general';
-import { setPendingRememberWalletConnectId } from '@onekeyhq/kit/src/store/reducers/hardware';
+} from '@mywallet/kit/src/store/reducers/general';
+import { setPendingRememberWalletConnectId } from '@mywallet/kit/src/store/reducers/hardware';
 import {
   updateAccountDetail,
   updateAccounts,
   updateWallet,
   updateWallets,
-} from '@onekeyhq/kit/src/store/reducers/runtime';
+} from '@mywallet/kit/src/store/reducers/runtime';
 import {
   forgetPassphraseWallet,
   rememberPassphraseWallet,
   setEnableAppLock,
   setRefreshTS,
-} from '@onekeyhq/kit/src/store/reducers/settings';
+} from '@mywallet/kit/src/store/reducers/settings';
 import {
   setBoardingCompleted,
   setBoardingNotCompleted,
   unlock,
-} from '@onekeyhq/kit/src/store/reducers/status';
-import { DeviceNotOpenedPassphrase } from '@onekeyhq/kit/src/utils/hardware/errors';
-import { wait } from '@onekeyhq/kit/src/utils/helper';
-import { getNetworkIdImpl } from '@onekeyhq/kit/src/views/Swap/utils';
+} from '@mywallet/kit/src/store/reducers/status';
+import { DeviceNotOpenedPassphrase } from '@mywallet/kit/src/utils/hardware/errors';
+import { wait } from '@mywallet/kit/src/utils/helper';
+import { getNetworkIdImpl } from '@mywallet/kit/src/views/Swap/utils';
 import {
   backgroundClass,
   backgroundMethod,
   bindThis,
-} from '@onekeyhq/shared/src/background/backgroundDecorators';
-import { OnekeyNetwork } from '@onekeyhq/shared/src/config/networkIds';
+} from '@mywallet/shared/src/background/backgroundDecorators';
+import { OnekeyNetwork } from '@mywallet/shared/src/config/networkIds';
 import {
   COINTYPE_ETH,
   IMPL_ADA,
@@ -64,23 +64,23 @@ import {
   IMPL_DOT,
   IMPL_FIL,
   IMPL_XMR,
-} from '@onekeyhq/shared/src/engine/engineConsts';
+} from '@mywallet/shared/src/engine/engineConsts';
 import {
   isHardwareWallet,
   isPassphraseWallet,
-} from '@onekeyhq/shared/src/engine/engineUtils';
+} from '@mywallet/shared/src/engine/engineUtils';
 import {
   AppEventBusNames,
   appEventBus,
-} from '@onekeyhq/shared/src/eventBus/appEventBus';
-import debugLogger from '@onekeyhq/shared/src/logger/debugLogger';
-import { startTrace, stopTrace } from '@onekeyhq/shared/src/perf/perfTrace';
+} from '@mywallet/shared/src/eventBus/appEventBus';
+import debugLogger from '@mywallet/shared/src/logger/debugLogger';
+import { startTrace, stopTrace } from '@mywallet/shared/src/perf/perfTrace';
 import timelinePerfTrace, {
   ETimelinePerfNames,
-} from '@onekeyhq/shared/src/perf/timelinePerfTrace';
-import type { Avatar } from '@onekeyhq/shared/src/utils/emojiUtils';
-import { randomAvatar } from '@onekeyhq/shared/src/utils/emojiUtils';
-import type { IOneKeyDeviceFeatures } from '@onekeyhq/shared/types';
+} from '@mywallet/shared/src/perf/timelinePerfTrace';
+import type { Avatar } from '@mywallet/shared/src/utils/emojiUtils';
+import { randomAvatar } from '@mywallet/shared/src/utils/emojiUtils';
+import type { IOneKeyDeviceFeatures } from '@mywallet/shared/types';
 
 import ServiceBase from './ServiceBase';
 

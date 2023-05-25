@@ -1,4 +1,4 @@
-import { useIsVerticalLayout } from '@onekeyhq/components';
+import { useIsVerticalLayout } from '@mywallet/components';
 
 import OverviewProtocolDetail from '../../../views/Overview/components/OverviewDefiProtocol/ProtocolDetailModal';
 import { OverviewModalRoutes } from '../../../views/Overview/types';

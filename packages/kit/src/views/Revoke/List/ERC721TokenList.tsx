@@ -10,8 +10,8 @@ import {
   Token,
   Typography,
   VStack,
-} from '@onekeyhq/components';
-import type { ERC721TokenAllowance } from '@onekeyhq/engine/src/managers/revoke';
+} from '@mywallet/components';
+import type { ERC721TokenAllowance } from '@mywallet/engine/src/managers/revoke';
 
 import { useIsVerticalOrMiddleLayout } from '../hooks';
 

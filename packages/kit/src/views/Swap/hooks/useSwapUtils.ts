@@ -3,7 +3,7 @@ import { useCallback, useMemo } from 'react';
 import BigNumber from 'bignumber.js';
 import { useIntl } from 'react-intl';
 
-import { useIsVerticalLayout } from '@onekeyhq/components';
+import { useIsVerticalLayout } from '@mywallet/components';
 
 import { useAppSelector, useDebounce } from '../../../hooks';
 import { div, formatAmount, lte, minus, multiply } from '../utils';

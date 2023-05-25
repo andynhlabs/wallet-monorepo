@@ -3,12 +3,12 @@ import { debounce } from 'lodash';
 import memoizee from 'memoizee';
 import uuid from 'react-native-uuid';
 
-import { shortenAddress } from '@onekeyhq/components/src/utils';
-import type { ISimpleDbEntityUtxoData } from '@onekeyhq/engine/src/dbs/simple/entity/SimpleDbEntityUtxoAccounts';
+import { shortenAddress } from '@mywallet/components/src/utils';
+import type { ISimpleDbEntityUtxoData } from '@mywallet/engine/src/dbs/simple/entity/SimpleDbEntityUtxoAccounts';
 import {
   decrypt,
   encrypt,
-} from '@onekeyhq/engine/src/secret/encryptors/aes256';
+} from '@mywallet/engine/src/secret/encryptors/aes256';
 import {
   incrBackupRequests,
   setDisabled,
@@ -16,34 +16,34 @@ import {
   setInProgress,
   setIsAvailable,
   setNotInProgress,
-} from '@onekeyhq/kit/src/store/reducers/cloudBackup';
-import { create } from '@onekeyhq/kit/src/store/reducers/contacts';
-import type { Contact } from '@onekeyhq/kit/src/store/reducers/contacts';
-import { release } from '@onekeyhq/kit/src/store/reducers/data';
-import { setEnableLocalAuthentication } from '@onekeyhq/kit/src/store/reducers/settings';
-import { unlock } from '@onekeyhq/kit/src/store/reducers/status';
+} from '@mywallet/kit/src/store/reducers/cloudBackup';
+import { create } from '@mywallet/kit/src/store/reducers/contacts';
+import type { Contact } from '@mywallet/kit/src/store/reducers/contacts';
+import { release } from '@mywallet/kit/src/store/reducers/data';
+import { setEnableLocalAuthentication } from '@mywallet/kit/src/store/reducers/settings';
+import { unlock } from '@mywallet/kit/src/store/reducers/status';
 import {
   hasHardwareSupported,
   savePassword,
-} from '@onekeyhq/kit/src/utils/localAuthentication';
-import { parseCloudData } from '@onekeyhq/kit/src/views/Onboarding/screens/Migration/util';
+} from '@mywallet/kit/src/utils/localAuthentication';
+import { parseCloudData } from '@mywallet/kit/src/views/Onboarding/screens/Migration/util';
 import {
   backgroundClass,
   backgroundMethod,
-} from '@onekeyhq/shared/src/background/backgroundDecorators';
-import * as CloudFs from '@onekeyhq/shared/src/cloudfs';
+} from '@mywallet/shared/src/background/backgroundDecorators';
+import * as CloudFs from '@mywallet/shared/src/cloudfs';
 import {
   AppEventBusNames,
   appEventBus,
-} from '@onekeyhq/shared/src/eventBus/appEventBus';
-import debugLogger from '@onekeyhq/shared/src/logger/debugLogger';
-import platformEnv from '@onekeyhq/shared/src/platformEnv';
-import { RestoreResult } from '@onekeyhq/shared/src/services/ServiceCloudBackup/ServiceCloudBackup.enums';
+} from '@mywallet/shared/src/eventBus/appEventBus';
+import debugLogger from '@mywallet/shared/src/logger/debugLogger';
+import platformEnv from '@mywallet/shared/src/platformEnv';
+import { RestoreResult } from '@mywallet/shared/src/services/ServiceCloudBackup/ServiceCloudBackup.enums';
 import type {
   BackupedContacts,
   IBackupItemSummary,
   PublicBackupData,
-} from '@onekeyhq/shared/src/services/ServiceCloudBackup/ServiceCloudBackup.types';
+} from '@mywallet/shared/src/services/ServiceCloudBackup/ServiceCloudBackup.types';
 
 import ServiceBase from './ServiceBase';
 

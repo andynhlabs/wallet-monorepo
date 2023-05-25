@@ -12,12 +12,12 @@ import {
   Text,
   useIsVerticalLayout,
   useUserDevice,
-} from '@onekeyhq/components';
-import { Tabs } from '@onekeyhq/components/src/CollapsibleTabView';
-import type { NFTAsset } from '@onekeyhq/engine/src/types/nft';
-import type { CollectiblesRoutesParams } from '@onekeyhq/kit/src/routes/Root/Modal/Collectibles';
-import { ModalRoutes, RootRoutes } from '@onekeyhq/kit/src/routes/routesEnum';
-import type { ModalScreenProps } from '@onekeyhq/kit/src/routes/types';
+} from '@mywallet/components';
+import { Tabs } from '@mywallet/components/src/CollapsibleTabView';
+import type { NFTAsset } from '@mywallet/engine/src/types/nft';
+import type { CollectiblesRoutesParams } from '@mywallet/kit/src/routes/Root/Modal/Collectibles';
+import { ModalRoutes, RootRoutes } from '@mywallet/kit/src/routes/routesEnum';
+import type { ModalScreenProps } from '@mywallet/kit/src/routes/types';
 
 import backgroundApiProxy from '../../../background/instance/backgroundApiProxy';
 import { useNetworks } from '../../../hooks/redux';

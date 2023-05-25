@@ -1,4 +1,4 @@
-import { useIsVerticalLayout } from '@onekeyhq/components';
+import { useIsVerticalLayout } from '@mywallet/components';
 
 import { BaseSendRouteScreen } from '../../../views/Send/components/BaseSendRouteScreen';
 import { BatchSendConfirm } from '../../../views/Send/modals/BatchSendConfirm';

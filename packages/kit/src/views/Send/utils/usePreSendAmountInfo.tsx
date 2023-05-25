@@ -2,10 +2,10 @@ import { useCallback, useEffect, useMemo, useState } from 'react';
 
 import BigNumber from 'bignumber.js';
 
-import { IconButton, Text } from '@onekeyhq/components';
-import type { INetwork } from '@onekeyhq/engine/src/types';
-import type { Token } from '@onekeyhq/engine/src/types/token';
-import platformEnv from '@onekeyhq/shared/src/platformEnv';
+import { IconButton, Text } from '@mywallet/components';
+import type { INetwork } from '@mywallet/engine/src/types';
+import type { Token } from '@mywallet/engine/src/types/token';
+import platformEnv from '@mywallet/shared/src/platformEnv';
 
 import {
   FormatCurrencyTokenOfAccount,

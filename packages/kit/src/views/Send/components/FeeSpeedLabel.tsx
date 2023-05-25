@@ -3,10 +3,10 @@ import { useCallback } from 'react';
 
 import { useIntl } from 'react-intl';
 
-import { HStack, Text } from '@onekeyhq/components';
-import type { LocaleIds } from '@onekeyhq/components/src/locale';
-import type { IFeeInfoPrice } from '@onekeyhq/engine/src/vaults/types';
-import platformEnv from '@onekeyhq/shared/src/platformEnv';
+import { HStack, Text } from '@mywallet/components';
+import type { LocaleIds } from '@mywallet/components/src/locale';
+import type { IFeeInfoPrice } from '@mywallet/engine/src/vaults/types';
+import platformEnv from '@mywallet/shared/src/platformEnv';
 
 type Props = {
   index?: number | string;

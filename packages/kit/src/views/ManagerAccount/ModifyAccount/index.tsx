@@ -9,9 +9,9 @@ import {
   ToastManager,
   useForm,
   useIsVerticalLayout,
-} from '@onekeyhq/components';
-import DialogCommon from '@onekeyhq/components/src/Dialog/components';
-import type { Account } from '@onekeyhq/engine/src/types/account';
+} from '@mywallet/components';
+import DialogCommon from '@mywallet/components/src/Dialog/components';
+import type { Account } from '@mywallet/engine/src/types/account';
 
 import backgroundApiProxy from '../../../background/instance/backgroundApiProxy';
 

@@ -1,12 +1,12 @@
 import { Buffer } from 'buffer';
 
-import type { RevealableSeed } from '@onekeyhq/engine/src/secret';
+import type { RevealableSeed } from '@mywallet/engine/src/secret';
 import {
   decrypt,
   encrypt,
-} from '@onekeyhq/engine/src/secret/encryptors/aes256';
-import { OnekeyNetwork } from '@onekeyhq/shared/src/config/networkIds';
-import type { Avatar } from '@onekeyhq/shared/src/utils/emojiUtils';
+} from '@mywallet/engine/src/secret/encryptors/aes256';
+import { OnekeyNetwork } from '@mywallet/shared/src/config/networkIds';
+import type { Avatar } from '@mywallet/shared/src/utils/emojiUtils';
 
 import {
   generateKeypair,

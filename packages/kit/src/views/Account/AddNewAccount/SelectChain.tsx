@@ -11,13 +11,13 @@ import {
   Pressable,
   Token,
   Typography,
-} from '@onekeyhq/components';
-import type { Network } from '@onekeyhq/engine/src/types/network';
-import { useManageNetworks } from '@onekeyhq/kit/src/hooks';
-import { useRuntime } from '@onekeyhq/kit/src/hooks/redux';
-import type { CreateAccountRoutesParams } from '@onekeyhq/kit/src/routes';
-import { CreateAccountModalRoutes } from '@onekeyhq/kit/src/routes/routesEnum';
-import type { ModalScreenProps } from '@onekeyhq/kit/src/routes/types';
+} from '@mywallet/components';
+import type { Network } from '@mywallet/engine/src/types/network';
+import { useManageNetworks } from '@mywallet/kit/src/hooks';
+import { useRuntime } from '@mywallet/kit/src/hooks/redux';
+import type { CreateAccountRoutesParams } from '@mywallet/kit/src/routes';
+import { CreateAccountModalRoutes } from '@mywallet/kit/src/routes/routesEnum';
+import type { ModalScreenProps } from '@mywallet/kit/src/routes/types';
 
 import type { RouteProp } from '@react-navigation/native';
 import type { ListRenderItem } from 'react-native';

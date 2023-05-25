@@ -1,6 +1,6 @@
 import { useCallback } from 'react';
 
-import type { Account } from '@onekeyhq/engine/src/types/account';
+import type { Account } from '@mywallet/engine/src/types/account';
 
 import backgroundApiProxy from '../../../background/instance/backgroundApiProxy';
 import { deviceUtils } from '../../../utils/hardware';

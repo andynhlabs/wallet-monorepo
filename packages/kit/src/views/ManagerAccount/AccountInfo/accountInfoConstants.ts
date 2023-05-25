@@ -1,4 +1,4 @@
-import { AccountCredentialType } from '@onekeyhq/engine/src/types/account';
+import { AccountCredentialType } from '@mywallet/engine/src/types/account';
 
 import type { IAccountInfoListItem } from '.';
 import type { IntlShape } from 'react-intl';

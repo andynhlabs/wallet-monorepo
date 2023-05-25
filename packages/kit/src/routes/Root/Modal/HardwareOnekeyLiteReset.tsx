@@ -1,4 +1,4 @@
-import { useIsVerticalLayout } from '@onekeyhq/components';
+import { useIsVerticalLayout } from '@mywallet/components';
 
 import OnekeyLiteReset from '../../../views/Hardware/OnekeyLite/Reset';
 import { OnekeyLiteResetModalRoutes } from '../../routesEnum';

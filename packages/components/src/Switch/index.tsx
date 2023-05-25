@@ -3,7 +3,7 @@ import type { ComponentProps, FC } from 'react';
 import { Switch as BaseSwitch } from 'native-base';
 import { TouchableNativeFeedback } from 'react-native-gesture-handler';
 
-import platformEnv from '@onekeyhq/shared/src/platformEnv';
+import platformEnv from '@mywallet/shared/src/platformEnv';
 
 import Box from '../Box';
 import Typography from '../Typography';

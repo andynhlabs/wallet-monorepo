@@ -5,18 +5,18 @@ import { useNavigation, useRoute } from '@react-navigation/core';
 import { useIntl } from 'react-intl';
 import { Platform } from 'react-native';
 
-import type { NfcConnectUiState } from '@onekeyhq/app/src/hardware/OnekeyLite';
-import OnekeyLite from '@onekeyhq/app/src/hardware/OnekeyLite';
+import type { NfcConnectUiState } from '@mywallet/app/src/hardware/OnekeyLite';
+import OnekeyLite from '@mywallet/app/src/hardware/OnekeyLite';
 import type {
   CallbackError,
   CardInfo,
-} from '@onekeyhq/app/src/hardware/OnekeyLite/types';
-import { CardErrors } from '@onekeyhq/app/src/hardware/OnekeyLite/types';
-import type { ButtonType } from '@onekeyhq/components/src/Button';
-import type { CreateWalletRoutesParams } from '@onekeyhq/kit/src/routes';
-import { CreateWalletModalRoutes } from '@onekeyhq/kit/src/routes/routesEnum';
-import type { ModalScreenProps } from '@onekeyhq/kit/src/routes/types';
-import debugLogger from '@onekeyhq/shared/src/logger/debugLogger';
+} from '@mywallet/app/src/hardware/OnekeyLite/types';
+import { CardErrors } from '@mywallet/app/src/hardware/OnekeyLite/types';
+import type { ButtonType } from '@mywallet/components/src/Button';
+import type { CreateWalletRoutesParams } from '@mywallet/kit/src/routes';
+import { CreateWalletModalRoutes } from '@mywallet/kit/src/routes/routesEnum';
+import type { ModalScreenProps } from '@mywallet/kit/src/routes/types';
+import debugLogger from '@mywallet/shared/src/logger/debugLogger';
 
 import { SkipAppLock } from '../../../../components/AppLock';
 import { useNavigationActions } from '../../../../hooks';

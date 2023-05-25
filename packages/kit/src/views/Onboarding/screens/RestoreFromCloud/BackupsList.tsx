@@ -1,6 +1,6 @@
 import { useIntl } from 'react-intl';
 
-import { Box } from '@onekeyhq/components';
+import { Box } from '@mywallet/components';
 
 import CloudBackupPreviousBackups from '../../../Me/SecuritySection/CloudBackup/PreviousBackups';
 import Layout from '../../Layout';

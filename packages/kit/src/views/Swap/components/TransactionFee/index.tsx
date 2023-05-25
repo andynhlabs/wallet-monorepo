@@ -3,7 +3,7 @@ import type { ComponentProps, FC } from 'react';
 import BigNumber from 'bignumber.js';
 import { useIntl } from 'react-intl';
 
-import { Box, Text } from '@onekeyhq/components';
+import { Box, Text } from '@mywallet/components';
 
 import { QuoterType } from '../../typings';
 

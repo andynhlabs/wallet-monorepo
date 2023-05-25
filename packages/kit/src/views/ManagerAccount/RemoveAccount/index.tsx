@@ -2,17 +2,17 @@ import { useCallback, useMemo, useRef, useState } from 'react';
 
 import { useIntl } from 'react-intl';
 
-import { Dialog, ToastManager } from '@onekeyhq/components';
-import type { IWallet } from '@onekeyhq/engine/src/types';
+import { Dialog, ToastManager } from '@mywallet/components';
+import type { IWallet } from '@mywallet/engine/src/types';
 import {
   WALLET_TYPE_EXTERNAL,
   WALLET_TYPE_HW,
   WALLET_TYPE_WATCHING,
-} from '@onekeyhq/engine/src/types/wallet';
+} from '@mywallet/engine/src/types/wallet';
 import {
   AppUIEventBusNames,
   appUIEventBus,
-} from '@onekeyhq/shared/src/eventBus/appUIEventBus';
+} from '@mywallet/shared/src/eventBus/appUIEventBus';
 
 import backgroundApiProxy from '../../../background/instance/backgroundApiProxy';
 import { ValidationFields } from '../../../components/Protected';

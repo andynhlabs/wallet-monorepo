@@ -1,6 +1,6 @@
 import { useCallback, useEffect, useMemo } from 'react';
 
-import type { Token } from '@onekeyhq/engine/src/types/token';
+import type { Token } from '@mywallet/engine/src/types/token';
 
 import backgroundApiProxy from '../../../background/instance/backgroundApiProxy';
 import { useAppSelector, useNavigation } from '../../../hooks';

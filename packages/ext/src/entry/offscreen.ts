@@ -1,9 +1,9 @@
 /* eslint-disable @typescript-eslint/no-unsafe-member-access, @typescript-eslint/restrict-template-expressions, import/order */
-import '@onekeyhq/shared/src/polyfills';
+import '@mywallet/shared/src/polyfills';
 
 import { offscreenSetup } from '../offscreen/offscreenSetup';
 import { startKeepAlivePolling } from '../background/keepAlive';
-import { getTimeDurationMs } from '@onekeyhq/kit/src/utils/helper';
+import { getTimeDurationMs } from '@mywallet/kit/src/utils/helper';
 
 // send a message every 20 sec to service worker
 startKeepAlivePolling();

@@ -17,18 +17,18 @@ import {
   ToastManager,
   useForm,
   useIsVerticalLayout,
-} from '@onekeyhq/components';
-import type { LocaleIds } from '@onekeyhq/components/src/locale';
-import type { EIP1559Fee } from '@onekeyhq/engine/src/types/network';
-import type { IEncodedTxBtc } from '@onekeyhq/engine/src/vaults/impl/btc/types';
-import type { IEncodedTxEvm } from '@onekeyhq/engine/src/vaults/impl/evm/Vault';
+} from '@mywallet/components';
+import type { LocaleIds } from '@mywallet/components/src/locale';
+import type { EIP1559Fee } from '@mywallet/engine/src/types/network';
+import type { IEncodedTxBtc } from '@mywallet/engine/src/vaults/impl/btc/types';
+import type { IEncodedTxEvm } from '@mywallet/engine/src/vaults/impl/evm/Vault';
 import type {
   IFeeInfoSelected,
   IFeeInfoSelectedType,
   IFeeInfoUnit,
-} from '@onekeyhq/engine/src/vaults/types';
-import debugLogger from '@onekeyhq/shared/src/logger/debugLogger';
-import platformEnv from '@onekeyhq/shared/src/platformEnv';
+} from '@mywallet/engine/src/vaults/types';
+import debugLogger from '@mywallet/shared/src/logger/debugLogger';
+import platformEnv from '@mywallet/shared/src/platformEnv';
 
 import backgroundApiProxy from '../../../../background/instance/backgroundApiProxy';
 import { useActiveSideAccount } from '../../../../hooks';

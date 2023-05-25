@@ -1,4 +1,4 @@
-import platformEnv from '@onekeyhq/shared/src/platformEnv';
+import platformEnv from '@mywallet/shared/src/platformEnv';
 
 export const EXT_HTML_FILES = {
   background: 'background.html',

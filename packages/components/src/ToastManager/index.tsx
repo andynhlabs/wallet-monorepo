@@ -1,6 +1,6 @@
 import ToastBase from 'react-native-toast-message';
 
-import platformEnv from '@onekeyhq/shared/src/platformEnv';
+import platformEnv from '@mywallet/shared/src/platformEnv';
 
 import type { ToastShowParams } from 'react-native-toast-message';
 

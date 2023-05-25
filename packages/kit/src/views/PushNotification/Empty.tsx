@@ -2,7 +2,7 @@ import type { FC } from 'react';
 
 import { useIntl } from 'react-intl';
 
-import { Center, Empty, Spinner } from '@onekeyhq/components';
+import { Center, Empty, Spinner } from '@mywallet/components';
 
 type ListEmptyComponentProps = {
   desc?: string;

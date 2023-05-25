@@ -7,12 +7,12 @@ import {
   ScrollView,
   Text,
   Typography,
-} from '@onekeyhq/components';
+} from '@mywallet/components';
 import {
   LoggerNames,
   logger,
   saveDebugLoggerSettings,
-} from '@onekeyhq/shared/src/logger/debugLogger';
+} from '@mywallet/shared/src/logger/debugLogger';
 
 import { useNavigationBack } from '../../../hooks/useAppNavigation';
 

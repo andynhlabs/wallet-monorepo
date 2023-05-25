@@ -12,11 +12,11 @@ import { UIManager, findNodeHandle } from 'react-native';
 import { Gesture, GestureDetector } from 'react-native-gesture-handler';
 import { useSharedValue, withTiming } from 'react-native-reanimated';
 
-import { useIsVerticalLayout } from '@onekeyhq/components';
-import { enableOnPressAnim } from '@onekeyhq/components/src/utils/useBeforeOnPress';
-import { useNavigationActions } from '@onekeyhq/kit/src/hooks';
-import debugLogger from '@onekeyhq/shared/src/logger/debugLogger';
-import platformEnv from '@onekeyhq/shared/src/platformEnv';
+import { useIsVerticalLayout } from '@mywallet/components';
+import { enableOnPressAnim } from '@mywallet/components/src/utils/useBeforeOnPress';
+import { useNavigationActions } from '@mywallet/kit/src/hooks';
+import debugLogger from '@mywallet/shared/src/logger/debugLogger';
+import platformEnv from '@mywallet/shared/src/platformEnv';
 
 import NativeNestedTabView, {
   getViewManagerConfig,

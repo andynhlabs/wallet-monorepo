@@ -1,8 +1,8 @@
 import { createSlice, nanoid } from '@reduxjs/toolkit';
 
-import { ToastManager } from '@onekeyhq/components';
-import { formatMessage } from '@onekeyhq/components/src/Provider';
-import platformEnv from '@onekeyhq/shared/src/platformEnv';
+import { ToastManager } from '@mywallet/components';
+import { formatMessage } from '@mywallet/components/src/Provider';
+import platformEnv from '@mywallet/shared/src/platformEnv';
 
 import {
   pauseDappInteraction,

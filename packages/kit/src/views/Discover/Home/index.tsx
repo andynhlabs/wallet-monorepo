@@ -4,9 +4,9 @@ import { useCallback, useMemo, useState } from 'react';
 
 import { useFocusEffect } from '@react-navigation/core';
 
-import { useIsVerticalLayout } from '@onekeyhq/components';
-import backgroundApiProxy from '@onekeyhq/kit/src/background/instance/backgroundApiProxy';
-import platformEnv from '@onekeyhq/shared/src/platformEnv';
+import { useIsVerticalLayout } from '@mywallet/components';
+import backgroundApiProxy from '@mywallet/kit/src/background/instance/backgroundApiProxy';
+import platformEnv from '@mywallet/shared/src/platformEnv';
 
 import { DiscoverContext } from './context';
 

@@ -9,10 +9,10 @@ import {
   Text,
   VStack,
   useTheme,
-} from '@onekeyhq/components';
-import type { IHistoryTx } from '@onekeyhq/engine/src/vaults/types';
-import { IDecodedTxStatus } from '@onekeyhq/engine/src/vaults/types';
-import platformEnv from '@onekeyhq/shared/src/platformEnv';
+} from '@mywallet/components';
+import type { IHistoryTx } from '@mywallet/engine/src/vaults/types';
+import { IDecodedTxStatus } from '@mywallet/engine/src/vaults/types';
+import platformEnv from '@mywallet/shared/src/platformEnv';
 
 import { useActiveWalletAccount, useNavigation } from '../../hooks';
 import {

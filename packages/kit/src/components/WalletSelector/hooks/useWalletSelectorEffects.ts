@@ -1,6 +1,6 @@
 import { useEffect } from 'react';
 
-import debugLogger from '@onekeyhq/shared/src/logger/debugLogger';
+import debugLogger from '@mywallet/shared/src/logger/debugLogger';
 
 import { deviceUtils } from '../../../utils/hardware';
 

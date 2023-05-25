@@ -1,6 +1,6 @@
 import type { FC } from 'react';
 
-import { Center, NetImage } from '@onekeyhq/components';
+import { Center, NetImage } from '@mywallet/components';
 
 type Props = {
   size: number;

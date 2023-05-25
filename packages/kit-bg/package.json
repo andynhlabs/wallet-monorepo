@@ -1,11 +1,11 @@
 {
-  "name": "@onekeyhq/kit-bg",
+  "name": "@mywallet/kit-bg",
   "version": "0.0.1",
   "private": true,
   "main": "src/index.tsx",
   "dependencies": {
     "@0xsequence/multicall": "^0.36.8",
-    "@onekeyhq/components": "*",
+    "@mywallet/components": "*",
     "@openzeppelin/contracts": "^4.8.3",
     "@reduxjs/toolkit": "^1.6.2",
     "@siddomains/sidjs": "^0.1.22",

@@ -17,16 +17,16 @@ import BigNumber from 'bignumber.js';
 import { get, groupBy, isArray, isEmpty } from 'lodash';
 import memoizee from 'memoizee';
 
-import { decrypt } from '@onekeyhq/engine/src/secret/encryptors/aes256';
-import { TransactionStatus } from '@onekeyhq/engine/src/types/provider';
-import type { PartialTokenInfo } from '@onekeyhq/engine/src/types/provider';
-import type { Token } from '@onekeyhq/kit/src/store/typings';
+import { decrypt } from '@mywallet/engine/src/secret/encryptors/aes256';
+import { TransactionStatus } from '@mywallet/engine/src/types/provider';
+import type { PartialTokenInfo } from '@mywallet/engine/src/types/provider';
+import type { Token } from '@mywallet/kit/src/store/typings';
 import {
   getTimeDurationMs,
   getTimeStamp,
-} from '@onekeyhq/kit/src/utils/helper';
-import { log } from '@onekeyhq/shared/src/crashlytics/index.web';
-import debugLogger from '@onekeyhq/shared/src/logger/debugLogger';
+} from '@mywallet/kit/src/utils/helper';
+import { log } from '@mywallet/shared/src/crashlytics/index.web';
+import debugLogger from '@mywallet/shared/src/logger/debugLogger';
 
 import {
   InsufficientBalance,

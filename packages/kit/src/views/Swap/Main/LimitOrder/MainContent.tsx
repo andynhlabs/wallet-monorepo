@@ -2,8 +2,8 @@ import { useCallback, useMemo } from 'react';
 
 import { useIntl } from 'react-intl';
 
-import { Box, Center, IconButton } from '@onekeyhq/components';
-import { ModalRoutes, RootRoutes } from '@onekeyhq/kit/src/routes/routesEnum';
+import { Box, Center, IconButton } from '@mywallet/components';
+import { ModalRoutes, RootRoutes } from '@mywallet/kit/src/routes/routesEnum';
 
 import backgroundApiProxy from '../../../../background/instance/backgroundApiProxy';
 import { useNavigation } from '../../../../hooks';

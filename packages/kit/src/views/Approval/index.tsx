@@ -1,4 +1,4 @@
-import { Button, Center, Typography } from '@onekeyhq/components';
+import { Button, Center, Typography } from '@mywallet/components';
 
 import useNavigation from '../../hooks/useNavigation';
 

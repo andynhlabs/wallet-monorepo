@@ -2,7 +2,7 @@ import { useCallback, useEffect, useLayoutEffect } from 'react';
 
 import { useNavigation } from '@react-navigation/native';
 
-import platformEnv from '@onekeyhq/shared/src/platformEnv';
+import platformEnv from '@mywallet/shared/src/platformEnv';
 
 // use `hideBackButton` in <Modal /> instead
 function useDisableNavigationBack({ condition }: { condition: boolean }) {

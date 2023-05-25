@@ -1,8 +1,8 @@
-import { Box } from '@onekeyhq/components';
+import { Box } from '@mywallet/components';
 import type {
   IDecodedTx,
   IDecodedTxDirection,
-} from '@onekeyhq/engine/src/vaults/types';
+} from '@mywallet/engine/src/vaults/types';
 
 import {
   TxActionElementAmountLarge,

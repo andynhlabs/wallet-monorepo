@@ -4,14 +4,14 @@ import { useEffect } from 'react';
 import { useRoute } from '@react-navigation/native';
 import { useIntl } from 'react-intl';
 
-import { Center, Modal, Spinner, ToastManager } from '@onekeyhq/components';
-import type { LocaleIds } from '@onekeyhq/components/src/locale';
-import type { Account } from '@onekeyhq/engine/src/types/account';
-import backgroundApiProxy from '@onekeyhq/kit/src/background/instance/backgroundApiProxy';
+import { Center, Modal, Spinner, ToastManager } from '@mywallet/components';
+import type { LocaleIds } from '@mywallet/components/src/locale';
+import type { Account } from '@mywallet/engine/src/types/account';
+import backgroundApiProxy from '@mywallet/kit/src/background/instance/backgroundApiProxy';
 import Protected, {
   ValidationFields,
-} from '@onekeyhq/kit/src/components/Protected';
-import type { CreateWalletRoutesParams } from '@onekeyhq/kit/src/routes/Root/Modal/CreateWallet';
+} from '@mywallet/kit/src/components/Protected';
+import type { CreateWalletRoutesParams } from '@mywallet/kit/src/routes/Root/Modal/CreateWallet';
 
 import { useNavigation } from '../../../hooks';
 import { setEnableLocalAuthentication } from '../../../store/reducers/settings';

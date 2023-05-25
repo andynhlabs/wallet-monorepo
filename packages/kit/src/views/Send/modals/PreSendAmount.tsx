@@ -22,9 +22,9 @@ import {
   ToastManager,
   Typography,
   useIsVerticalLayout,
-} from '@onekeyhq/components';
-import { shortenAddress } from '@onekeyhq/components/src/utils';
-import platformEnv from '@onekeyhq/shared/src/platformEnv';
+} from '@mywallet/components';
+import { shortenAddress } from '@mywallet/components/src/utils';
+import platformEnv from '@mywallet/shared/src/platformEnv';
 
 import backgroundApiProxy from '../../../background/instance/backgroundApiProxy';
 import { AutoSizeText } from '../../../components/AutoSizeText';

@@ -1,12 +1,12 @@
 /* eslint-disable @typescript-eslint/no-unsafe-return */
-import type { ITransferInfo } from '@onekeyhq/engine/src/vaults/types';
-import backgroundApiProxy from '@onekeyhq/kit/src/background/instance/backgroundApiProxy';
-import { OnekeyNetwork } from '@onekeyhq/shared/src/config/networkIds';
+import type { ITransferInfo } from '@mywallet/engine/src/vaults/types';
+import backgroundApiProxy from '@mywallet/kit/src/background/instance/backgroundApiProxy';
+import { OnekeyNetwork } from '@mywallet/shared/src/config/networkIds';
 import {
   AppUIEventBusNames,
   appUIEventBus,
-} from '@onekeyhq/shared/src/eventBus/appUIEventBus';
-import debugLogger from '@onekeyhq/shared/src/logger/debugLogger';
+} from '@mywallet/shared/src/eventBus/appUIEventBus';
+import debugLogger from '@mywallet/shared/src/logger/debugLogger';
 
 import type {
   IAdaAmount,

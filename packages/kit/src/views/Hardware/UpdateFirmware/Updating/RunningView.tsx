@@ -2,8 +2,8 @@ import type { FC } from 'react';
 
 import { useIntl } from 'react-intl';
 
-import { Alert, Box, Center, Progress, Typography } from '@onekeyhq/components';
-import { SkipAppLock } from '@onekeyhq/kit/src/components/AppLock';
+import { Alert, Box, Center, Progress, Typography } from '@mywallet/components';
+import { SkipAppLock } from '@mywallet/kit/src/components/AppLock';
 
 export type RunningViewProps = {
   progress: number;

@@ -1,7 +1,7 @@
 import { useEffect, useMemo, useState } from 'react';
 
-import { useIsVerticalLayout } from '@onekeyhq/components';
-import debugLogger from '@onekeyhq/shared/src/logger/debugLogger';
+import { useIsVerticalLayout } from '@mywallet/components';
+import debugLogger from '@mywallet/shared/src/logger/debugLogger';
 
 import backgroundApiProxy from '../../background/instance/backgroundApiProxy';
 import { usePromiseResult } from '../../hooks/usePromiseResult';

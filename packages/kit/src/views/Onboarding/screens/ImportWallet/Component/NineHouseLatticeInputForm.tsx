@@ -15,7 +15,7 @@ import {
   Text,
   Typography,
   useForm,
-} from '@onekeyhq/components';
+} from '@mywallet/components';
 
 import backgroundApiProxy from '../../../../../background/instance/backgroundApiProxy';
 import BaseMenu from '../../../../Overlay/BaseMenu';

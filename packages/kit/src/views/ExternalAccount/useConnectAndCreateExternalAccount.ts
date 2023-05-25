@@ -1,9 +1,9 @@
 import { useCallback } from 'react';
 
-import type { IAccount } from '@onekeyhq/engine/src/types';
-import { OnekeyNetwork } from '@onekeyhq/shared/src/config/networkIds';
-import debugLogger from '@onekeyhq/shared/src/logger/debugLogger';
-import platformEnv from '@onekeyhq/shared/src/platformEnv';
+import type { IAccount } from '@mywallet/engine/src/types';
+import { OnekeyNetwork } from '@mywallet/shared/src/config/networkIds';
+import debugLogger from '@mywallet/shared/src/logger/debugLogger';
+import platformEnv from '@mywallet/shared/src/platformEnv';
 
 import backgroundApiProxy from '../../background/instance/backgroundApiProxy';
 import { useWalletConnectQrcodeModal } from '../../components/WalletConnect/useWalletConnectQrcodeModal';

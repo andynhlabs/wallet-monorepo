@@ -1,7 +1,7 @@
 /* eslint-disable @typescript-eslint/no-empty-interface */
 import { extendTheme } from 'native-base';
 
-import type { ThemeValues } from '@onekeyhq/components/src/Provider/theme';
+import type { ThemeValues } from '@mywallet/components/src/Provider/theme';
 
 const wrapper = () => extendTheme({});
 type DefaultTheme = ReturnType<typeof wrapper>;

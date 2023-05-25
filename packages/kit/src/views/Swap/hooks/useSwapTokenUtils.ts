@@ -1,8 +1,8 @@
 import { useEffect, useMemo, useRef, useState } from 'react';
 
-import { isAccountCompatibleWithNetwork } from '@onekeyhq/engine/src/managers/account';
-import { getBalanceKey } from '@onekeyhq/engine/src/managers/token';
-import type { Token } from '@onekeyhq/engine/src/types/token';
+import { isAccountCompatibleWithNetwork } from '@mywallet/engine/src/managers/account';
+import { getBalanceKey } from '@mywallet/engine/src/managers/token';
+import type { Token } from '@mywallet/engine/src/types/token';
 
 import backgroundApiProxy from '../../../background/instance/backgroundApiProxy';
 import { useAccountTokensBalance, useThrottle } from '../../../hooks';

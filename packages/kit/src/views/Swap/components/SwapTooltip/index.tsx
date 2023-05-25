@@ -1,6 +1,6 @@
 import type { FC } from 'react';
 
-import { Icon, Pressable, Tooltip } from '@onekeyhq/components';
+import { Icon, Pressable, Tooltip } from '@mywallet/components';
 
 import type { SwapTooltipProps } from './types';
 

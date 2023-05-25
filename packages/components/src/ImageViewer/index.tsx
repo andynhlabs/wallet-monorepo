@@ -23,8 +23,8 @@ import {
   OverlayContainer,
   Pressable,
   Select,
-} from '@onekeyhq/components';
-import platformEnv from '@onekeyhq/shared/src/platformEnv';
+} from '@mywallet/components';
+import platformEnv from '@mywallet/shared/src/platformEnv';
 
 import NetImage from '../NetImage';
 import ToastManager from '../ToastManager';

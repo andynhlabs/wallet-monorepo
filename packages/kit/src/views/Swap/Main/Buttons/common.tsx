@@ -10,7 +10,7 @@ import {
   Center,
   HStack,
   Typography,
-} from '@onekeyhq/components';
+} from '@mywallet/components';
 
 import { useNavigation } from '../../../../hooks';
 import { useActiveWalletAccount } from '../../../../hooks/redux';

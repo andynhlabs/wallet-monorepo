@@ -1,6 +1,6 @@
 /* eslint-disable no-nested-ternary */
 
-import { Center } from '@onekeyhq/components';
+import { Center } from '@mywallet/components';
 
 import AccountSelector from './AccountSelector';
 

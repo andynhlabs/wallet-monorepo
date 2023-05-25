@@ -4,7 +4,7 @@ import { useNavigation, useRoute } from '@react-navigation/core';
 import { merge } from 'lodash';
 import { useIntl } from 'react-intl';
 
-import { Box, Empty, useIsVerticalLayout } from '@onekeyhq/components';
+import { Box, Empty, useIsVerticalLayout } from '@mywallet/components';
 
 import { notifyIfRiskToken } from '../../ManageTokens/helpers/TokenSecurityModalWrapper';
 import AssetsList from '../../Wallet/AssetsList';

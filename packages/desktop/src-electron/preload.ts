@@ -23,7 +23,7 @@ try {
   // eslint-disable-next-line global-require
   keytar = require('keytar');
 } catch (error: any) {
-  // Error: dlopen(//app-monorepo/node_modules/keytar/build/Release/keytar.node, 0x0001): tried: '//app-monorepo/node_modules/keytar/build/Release/keytar.node' (mach-o file, but is an incompatible architecture (have 'x86_64', need 'arm64e'))
+  // Error: dlopen(//wallet-monorepo/node_modules/keytar/build/Release/keytar.node, 0x0001): tried: '//wallet-monorepo/node_modules/keytar/build/Release/keytar.node' (mach-o file, but is an incompatible architecture (have 'x86_64', need 'arm64e'))
   console.error(error);
 }
 

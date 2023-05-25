@@ -3,7 +3,7 @@ import { useCallback } from 'react';
 
 import { useIntl } from 'react-intl';
 
-import { IconButton, ToastManager } from '@onekeyhq/components';
+import { IconButton, ToastManager } from '@mywallet/components';
 
 import backgroundApiProxy from '../../background/instance/backgroundApiProxy';
 import { useAppSelector, useLocalAuthentication } from '../../hooks';

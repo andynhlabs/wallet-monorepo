@@ -14,11 +14,11 @@ import {
   ToggleButtonGroup,
   Token as TokenComponent,
   Typography,
-} from '@onekeyhq/components';
-import type { ToggleButtonProps } from '@onekeyhq/components/src/ToggleButtonGroup/ToggleButtonGroup';
-import { shortenAddress } from '@onekeyhq/components/src/utils';
-import { isAccountCompatibleWithNetwork } from '@onekeyhq/engine/src/managers/account';
-import type { Token } from '@onekeyhq/engine/src/types/token';
+} from '@mywallet/components';
+import type { ToggleButtonProps } from '@mywallet/components/src/ToggleButtonGroup/ToggleButtonGroup';
+import { shortenAddress } from '@mywallet/components/src/utils';
+import { isAccountCompatibleWithNetwork } from '@mywallet/engine/src/managers/account';
+import type { Token } from '@mywallet/engine/src/types/token';
 
 import { FormatCurrency } from '../../../../components/Format';
 import { useDebounce, useNetworkSimple } from '../../../../hooks';

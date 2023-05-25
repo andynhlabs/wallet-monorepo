@@ -17,9 +17,9 @@ import {
   Pressable,
   Skeleton,
   Text,
-} from '@onekeyhq/components';
-import type { Collection, MarketPlace } from '@onekeyhq/engine/src/types/nft';
-import { OnekeyNetwork } from '@onekeyhq/shared/src/config/networkIds';
+} from '@mywallet/components';
+import type { Collection, MarketPlace } from '@mywallet/engine/src/types/nft';
+import { OnekeyNetwork } from '@mywallet/shared/src/config/networkIds';
 
 import backgroundApiProxy from '../../../../background/instance/backgroundApiProxy';
 import { useDebounce } from '../../../../hooks';

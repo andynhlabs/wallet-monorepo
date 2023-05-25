@@ -1,16 +1,16 @@
 import { web3Errors } from '@onekeyfe/cross-inpage-provider-errors';
 import { IInjectedProviderNames } from '@onekeyfe/cross-inpage-provider-types';
 
-import { ETHMessageTypes } from '@onekeyhq/engine/src/types/message';
-import { NetworkId } from '@onekeyhq/engine/src/vaults/impl/ada/types';
-import type AdaVault from '@onekeyhq/engine/src/vaults/impl/ada/Vault';
-import { getActiveWalletAccount } from '@onekeyhq/kit/src/hooks/redux';
+import { ETHMessageTypes } from '@mywallet/engine/src/types/message';
+import { NetworkId } from '@mywallet/engine/src/vaults/impl/ada/types';
+import type AdaVault from '@mywallet/engine/src/vaults/impl/ada/Vault';
+import { getActiveWalletAccount } from '@mywallet/kit/src/hooks/redux';
 import {
   backgroundClass,
   providerApiMethod,
-} from '@onekeyhq/shared/src/background/backgroundDecorators';
-import { IMPL_ADA } from '@onekeyhq/shared/src/engine/engineConsts';
-import debugLogger from '@onekeyhq/shared/src/logger/debugLogger';
+} from '@mywallet/shared/src/background/backgroundDecorators';
+import { IMPL_ADA } from '@mywallet/shared/src/engine/engineConsts';
+import debugLogger from '@mywallet/shared/src/logger/debugLogger';
 
 import ProviderApiBase from './ProviderApiBase';
 

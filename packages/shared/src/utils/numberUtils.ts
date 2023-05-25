@@ -1,6 +1,6 @@
 import BigNumber from 'bignumber.js';
 
-import { check } from '@onekeyhq/shared/src/utils/assertUtils';
+import { check } from '@mywallet/shared/src/utils/assertUtils';
 
 const toBigIntHex = (value: BigNumber): string => {
   let hexStr = value.integerValue().toString(16);

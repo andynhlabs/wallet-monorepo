@@ -1,6 +1,6 @@
 import type { ReactNode } from 'react';
 
-import type { UserInputCategory } from '@onekeyhq/engine/src/types/credential';
+import type { UserInputCategory } from '@mywallet/engine/src/types/credential';
 
 import type { StyleProp, ViewStyle } from 'react-native';
 

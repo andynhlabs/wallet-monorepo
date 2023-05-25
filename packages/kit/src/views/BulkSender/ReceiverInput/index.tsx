@@ -9,7 +9,7 @@ import {
   Pressable,
   Text,
   useIsVerticalLayout,
-} from '@onekeyhq/components';
+} from '@mywallet/components';
 
 import { ReceiverEditor } from '../ReceiverEditor';
 import { ReceiverUploader } from '../ReceiverUploader';

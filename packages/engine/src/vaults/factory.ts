@@ -21,7 +21,7 @@ import {
   IMPL_TRON,
   IMPL_XMR,
   IMPL_XRP,
-} from '@onekeyhq/shared/src/engine/engineConsts';
+} from '@mywallet/shared/src/engine/engineConsts';
 
 import { OneKeyInternalError } from '../errors';
 import { getNetworkImpl } from '../managers/network.utils';

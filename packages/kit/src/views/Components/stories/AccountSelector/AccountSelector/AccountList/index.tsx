@@ -4,7 +4,7 @@
 /* eslint-disable @typescript-eslint/no-unsafe-member-access */
 import type { FC } from 'react';
 
-import { Box, SectionList } from '@onekeyhq/components';
+import { Box, SectionList } from '@mywallet/components';
 
 import ListItem from './ListItem';
 import SectionHeader from './SectionHeader';

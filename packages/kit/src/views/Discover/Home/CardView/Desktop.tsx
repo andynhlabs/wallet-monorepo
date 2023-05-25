@@ -3,7 +3,7 @@ import type { FC } from 'react';
 import { chunk } from 'lodash';
 import { useWindowDimensions } from 'react-native';
 
-import { Box, Pressable, Typography } from '@onekeyhq/components';
+import { Box, Pressable, Typography } from '@mywallet/components';
 
 import { useDebounce, useTranslation } from '../../../../hooks';
 import { Chains } from '../../Chains';

@@ -2,7 +2,7 @@ import { useCallback } from 'react';
 
 import { isEmpty } from 'lodash';
 
-import type { PublicBackupData } from '@onekeyhq/shared/src/services/ServiceCloudBackup/ServiceCloudBackup.types';
+import type { PublicBackupData } from '@mywallet/shared/src/services/ServiceCloudBackup/ServiceCloudBackup.types';
 
 import backgroundApiProxy from '../../../../../background/instance/backgroundApiProxy';
 import { ValidationFields } from '../../../../../components/Protected';

@@ -3,7 +3,7 @@ import { useMemo } from 'react';
 
 import { StyleSheet } from 'react-native';
 
-import platformEnv from '@onekeyhq/shared/src/platformEnv';
+import platformEnv from '@mywallet/shared/src/platformEnv';
 
 import Box from '../../../Box';
 import Center from '../../../Center';

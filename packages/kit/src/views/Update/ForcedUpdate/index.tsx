@@ -10,12 +10,12 @@ import {
   Modal,
   Spinner,
   Typography,
-} from '@onekeyhq/components';
-import { SkipAppLock } from '@onekeyhq/kit/src/components/AppLock';
-import { useSettings } from '@onekeyhq/kit/src/hooks/redux';
-import useBackHandler from '@onekeyhq/kit/src/hooks/useBackHandler';
-import type { UpdateFeatureRoutesParams } from '@onekeyhq/kit/src/routes/Root/Modal/UpdateFeature';
-import appUpdates from '@onekeyhq/kit/src/utils/updates/AppUpdates';
+} from '@mywallet/components';
+import { SkipAppLock } from '@mywallet/kit/src/components/AppLock';
+import { useSettings } from '@mywallet/kit/src/hooks/redux';
+import useBackHandler from '@mywallet/kit/src/hooks/useBackHandler';
+import type { UpdateFeatureRoutesParams } from '@mywallet/kit/src/routes/Root/Modal/UpdateFeature';
+import appUpdates from '@mywallet/kit/src/utils/updates/AppUpdates';
 
 import type { UpdateFeatureModalRoutes } from '../../../routes/routesEnum';
 import type { RouteProp } from '@react-navigation/core';

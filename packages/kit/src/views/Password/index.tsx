@@ -14,9 +14,9 @@ import {
   ToastManager,
   Typography,
   useForm,
-} from '@onekeyhq/components';
-import type { LocaleIds } from '@onekeyhq/components/src/locale';
-import platformEnv from '@onekeyhq/shared/src/platformEnv';
+} from '@mywallet/components';
+import type { LocaleIds } from '@mywallet/components/src/locale';
+import platformEnv from '@mywallet/shared/src/platformEnv';
 
 import backgroundApiProxy from '../../background/instance/backgroundApiProxy';
 import LocalAuthenticationButton from '../../components/LocalAuthenticationButton';

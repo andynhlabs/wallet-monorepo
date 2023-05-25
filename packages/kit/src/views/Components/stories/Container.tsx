@@ -10,7 +10,7 @@ import {
   ScrollView,
   Text,
   VStack,
-} from '@onekeyhq/components';
+} from '@mywallet/components';
 
 const ContainerBox1: FC = () => (
   <Container.Box>

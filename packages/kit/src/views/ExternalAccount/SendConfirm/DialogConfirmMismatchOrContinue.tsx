@@ -13,15 +13,15 @@ import {
   Text,
   ToastManager,
   VStack,
-} from '@onekeyhq/components';
-import { shortenAddress } from '@onekeyhq/components/src/utils';
-import type { IBaseExternalAccountInfo } from '@onekeyhq/engine/src/dbs/simple/entity/SimpleDbEntityWalletConnect';
-import { generateNetworkIdByChainId } from '@onekeyhq/engine/src/managers/network';
-import type { Account } from '@onekeyhq/engine/src/types/account';
-import type { Network } from '@onekeyhq/engine/src/types/network';
-import { IMPL_EVM } from '@onekeyhq/shared/src/engine/engineConsts';
-import debugLogger from '@onekeyhq/shared/src/logger/debugLogger';
-import platformEnv from '@onekeyhq/shared/src/platformEnv';
+} from '@mywallet/components';
+import { shortenAddress } from '@mywallet/components/src/utils';
+import type { IBaseExternalAccountInfo } from '@mywallet/engine/src/dbs/simple/entity/SimpleDbEntityWalletConnect';
+import { generateNetworkIdByChainId } from '@mywallet/engine/src/managers/network';
+import type { Account } from '@mywallet/engine/src/types/account';
+import type { Network } from '@mywallet/engine/src/types/network';
+import { IMPL_EVM } from '@mywallet/shared/src/engine/engineConsts';
+import debugLogger from '@mywallet/shared/src/logger/debugLogger';
+import platformEnv from '@mywallet/shared/src/platformEnv';
 
 import LogoOneKey from '../../../../assets/onboarding/logo_onekey.png';
 import backgroundApiProxy from '../../../background/instance/backgroundApiProxy';

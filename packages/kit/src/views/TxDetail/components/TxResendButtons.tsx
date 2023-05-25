@@ -2,10 +2,10 @@ import BigNumber from 'bignumber.js';
 import { cloneDeep, isNil, isNumber } from 'lodash';
 import { useIntl } from 'react-intl';
 
-import { Button, ToastManager } from '@onekeyhq/components';
-import type { IEncodedTxEvm } from '@onekeyhq/engine/src/vaults/impl/evm/Vault';
-import type { IHistoryTx } from '@onekeyhq/engine/src/vaults/types';
-import debugLogger from '@onekeyhq/shared/src/logger/debugLogger';
+import { Button, ToastManager } from '@mywallet/components';
+import type { IEncodedTxEvm } from '@mywallet/engine/src/vaults/impl/evm/Vault';
+import type { IHistoryTx } from '@mywallet/engine/src/vaults/types';
+import debugLogger from '@mywallet/shared/src/logger/debugLogger';
 
 import backgroundApiProxy from '../../../background/instance/backgroundApiProxy';
 import { useNavigation } from '../../../hooks';

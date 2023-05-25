@@ -10,10 +10,10 @@ import {
   Token as TokenIcon,
   Typography,
   useIsVerticalLayout,
-} from '@onekeyhq/components';
-import { Tabs } from '@onekeyhq/components/src/CollapsibleTabView';
-import { TokenVerifiedIcon } from '@onekeyhq/components/src/Token';
-import { useTokenSupportStakedAssets } from '@onekeyhq/kit/src/hooks/useTokens';
+} from '@mywallet/components';
+import { Tabs } from '@mywallet/components/src/CollapsibleTabView';
+import { TokenVerifiedIcon } from '@mywallet/components/src/Token';
+import { useTokenSupportStakedAssets } from '@mywallet/kit/src/hooks/useTokens';
 
 import { useActiveSideAccount } from '../../hooks';
 import { useSimpleTokenPriceValue } from '../../hooks/useManegeTokenPrice';

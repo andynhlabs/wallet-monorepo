@@ -53,7 +53,7 @@ npm install -g expo-cli
 
 `packages/` 目录下的每一个子目录即一个独立的项目，对应在 monorepo 名称即为对应目录中 **package.json** 的 `name` 字段的值。
 
-当需要给某一个子目录安装依赖时，只需要使用 `yarn workspace @onekeyhq/web add axios`。通过 `yarn workspace @onekeyhq/web` 这样的前缀，最终可以在根目录把 axios 模块安装到 web 这个子项目当中。
+当需要给某一个子目录安装依赖时，只需要使用 `yarn workspace @mywallet/web add axios`。通过 `yarn workspace @mywallet/web` 这样的前缀，最终可以在根目录把 axios 模块安装到 web 这个子项目当中。
 
 部分依赖有原生部分，所以执行安装完 JS 依赖后需要进入 `packages/app/ios` 目录下执行 `pod install`。
 

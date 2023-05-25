@@ -1,13 +1,13 @@
 /* eslint-disable @typescript-eslint/no-unsafe-return */
-import backgroundApiProxy from '@onekeyhq/kit/src/background/instance/backgroundApiProxy';
-import { wait } from '@onekeyhq/kit/src/utils/helper';
-import { OnekeyNetwork } from '@onekeyhq/shared/src/config/networkIds';
-import { MoneroEvent } from '@onekeyhq/shared/src/engine/xmrConsts';
+import backgroundApiProxy from '@mywallet/kit/src/background/instance/backgroundApiProxy';
+import { wait } from '@mywallet/kit/src/utils/helper';
+import { OnekeyNetwork } from '@mywallet/shared/src/config/networkIds';
+import { MoneroEvent } from '@mywallet/shared/src/engine/xmrConsts';
 import {
   AppUIEventBusNames,
   appUIEventBus,
-} from '@onekeyhq/shared/src/eventBus/appUIEventBus';
-import debugLogger from '@onekeyhq/shared/src/logger/debugLogger';
+} from '@mywallet/shared/src/eventBus/appUIEventBus';
+import debugLogger from '@mywallet/shared/src/logger/debugLogger';
 
 import * as moneroAddress from './moneroAddress';
 import { privateSpendKeyToWords } from './moneroWords';

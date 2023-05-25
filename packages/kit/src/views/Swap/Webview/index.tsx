@@ -1,6 +1,6 @@
 import { useRoute } from '@react-navigation/core';
 
-import { Modal } from '@onekeyhq/components';
+import { Modal } from '@mywallet/components';
 
 import WebView from '../../../components/WebView';
 

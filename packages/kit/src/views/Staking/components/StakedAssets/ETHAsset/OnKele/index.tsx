@@ -14,8 +14,8 @@ import {
   Stack,
   Typography,
   useTheme,
-} from '@onekeyhq/components';
-import KeleLogoPNG from '@onekeyhq/kit/assets/staking/kele_pool.png';
+} from '@mywallet/components';
+import KeleLogoPNG from '@mywallet/kit/assets/staking/kele_pool.png';
 
 import backgroundApiProxy from '../../../../../../background/instance/backgroundApiProxy';
 import {

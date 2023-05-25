@@ -1,6 +1,6 @@
 import type { ComponentProps, FC } from 'react';
 
-import { Box, Center, Image, Text } from '@onekeyhq/components';
+import { Box, Center, Image, Text } from '@mywallet/components';
 
 import type { Provider } from '../../typings';
 
@@ -29,7 +29,7 @@ export const OneKeyLogo: FC<SwappingViaLogosProps> = ({ size }) => {
     >
       <Image
         size={imageSize}
-        source={require('@onekeyhq/kit/assets/logo.png')}
+        source={require('@mywallet/kit/assets/logo.png')}
       />
     </Box>
   );

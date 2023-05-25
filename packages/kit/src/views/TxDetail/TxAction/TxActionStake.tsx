@@ -1,8 +1,8 @@
 import { useIntl } from 'react-intl';
 
-import { Typography } from '@onekeyhq/components';
-import { shortenAddress } from '@onekeyhq/components/src/utils';
-import { IDecodedTxDirection } from '@onekeyhq/engine/src/vaults/types';
+import { Typography } from '@mywallet/components';
+import { shortenAddress } from '@mywallet/components/src/utils';
+import { IDecodedTxDirection } from '@mywallet/engine/src/vaults/types';
 
 import { TxDetailActionBoxAutoTransform } from '../components/TxDetailActionBoxAutoTransform';
 import { TxListActionBox } from '../components/TxListActionBox';

@@ -7,7 +7,7 @@ import {
   Input,
   ScrollView,
   Stack,
-} from '@onekeyhq/components';
+} from '@mywallet/components';
 
 const InputGallery = () => {
   const onQrScan = useCallback(() => {

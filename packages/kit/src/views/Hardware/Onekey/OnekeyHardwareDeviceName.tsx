@@ -16,17 +16,17 @@ import {
   ToastManager,
   Typography,
   useForm,
-} from '@onekeyhq/components';
-import backgroundApiProxy from '@onekeyhq/kit/src/background/instance/backgroundApiProxy';
-import Protected from '@onekeyhq/kit/src/components/Protected';
-import WalletAvatar from '@onekeyhq/kit/src/components/WalletSelector/WalletAvatar';
-import type { OnekeyHardwareRoutesParams } from '@onekeyhq/kit/src/routes/Root/Modal/HardwareOnekey';
-import { deviceUtils } from '@onekeyhq/kit/src/utils/hardware';
-import { CoreSDKLoader } from '@onekeyhq/shared/src/device/hardwareInstance';
+} from '@mywallet/components';
+import backgroundApiProxy from '@mywallet/kit/src/background/instance/backgroundApiProxy';
+import Protected from '@mywallet/kit/src/components/Protected';
+import WalletAvatar from '@mywallet/kit/src/components/WalletSelector/WalletAvatar';
+import type { OnekeyHardwareRoutesParams } from '@mywallet/kit/src/routes/Root/Modal/HardwareOnekey';
+import { deviceUtils } from '@mywallet/kit/src/utils/hardware';
+import { CoreSDKLoader } from '@mywallet/shared/src/device/hardwareInstance';
 import type {
   IOneKeyDeviceFeatures,
   IOneKeyDeviceType,
-} from '@onekeyhq/shared/types';
+} from '@mywallet/shared/types';
 
 import type { OnekeyHardwareModalRoutes } from '../../../routes/routesEnum';
 import type { IDeviceType } from '@onekeyfe/hd-core';

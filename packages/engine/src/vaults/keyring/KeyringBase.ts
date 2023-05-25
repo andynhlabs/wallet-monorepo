@@ -1,6 +1,6 @@
 /* eslint-disable @typescript-eslint/no-unused-vars, @typescript-eslint/require-await */
 // eslint-disable-next-line max-classes-per-file
-import type { SignedTx, UnsignedTx } from '@onekeyhq/engine/src/types/provider';
+import type { SignedTx, UnsignedTx } from '@mywallet/engine/src/types/provider';
 
 import { IVaultOptions } from '../types';
 import { VaultContext } from '../VaultContext';

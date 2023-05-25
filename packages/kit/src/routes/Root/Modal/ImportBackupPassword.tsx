@@ -1,5 +1,5 @@
-import { useIsVerticalLayout } from '@onekeyhq/components';
-import type { RestoreResult } from '@onekeyhq/shared/src/services/ServiceCloudBackup/ServiceCloudBackup.enums';
+import { useIsVerticalLayout } from '@mywallet/components';
+import type { RestoreResult } from '@mywallet/shared/src/services/ServiceCloudBackup/ServiceCloudBackup.enums';
 
 import ImportBackupPasswordModal from '../../../views/Me/SecuritySection/CloudBackup/ImportBackupPasswordModal';
 import { ImportBackupPasswordModalRoutes } from '../../routesEnum';

@@ -2,7 +2,7 @@ import type { FC } from 'react';
 
 import { StyleSheet } from 'react-native';
 
-import { Box } from '@onekeyhq/components';
+import { Box } from '@mywallet/components';
 
 interface ListItemSeparatorProps {
   showDivider?: boolean;

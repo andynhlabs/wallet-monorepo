@@ -1,6 +1,6 @@
 import { useCallback } from 'react';
 
-import { Box, FlatList, useSafeAreaInsets } from '@onekeyhq/components';
+import { Box, FlatList, useSafeAreaInsets } from '@mywallet/components';
 
 // import Banner from './Banner';
 

@@ -15,19 +15,19 @@ import {
   Select,
   Text,
   useLocale,
-} from '@onekeyhq/components';
-import type { OnCloseCallback } from '@onekeyhq/components/src/Dialog/components/FooterButton';
-import type { SelectItem } from '@onekeyhq/components/src/Select';
-import type { Wallet } from '@onekeyhq/engine/src/types/wallet';
-import backgroundApiProxy from '@onekeyhq/kit/src/background/instance/backgroundApiProxy';
-import WalletAvatar from '@onekeyhq/kit/src/components/WalletSelector/WalletAvatar';
-import WebView from '@onekeyhq/kit/src/components/WebView';
-import { useActiveWalletAccount } from '@onekeyhq/kit/src/hooks/redux';
+} from '@mywallet/components';
+import type { OnCloseCallback } from '@mywallet/components/src/Dialog/components/FooterButton';
+import type { SelectItem } from '@mywallet/components/src/Select';
+import type { Wallet } from '@mywallet/engine/src/types/wallet';
+import backgroundApiProxy from '@mywallet/kit/src/background/instance/backgroundApiProxy';
+import WalletAvatar from '@mywallet/kit/src/components/WalletSelector/WalletAvatar';
+import WebView from '@mywallet/kit/src/components/WebView';
+import { useActiveWalletAccount } from '@mywallet/kit/src/hooks/redux';
 import type {
   CreateWalletRoutesParams,
   OnekeyLiteChangePinRoutesParams,
   OnekeyLiteResetRoutesParams,
-} from '@onekeyhq/kit/src/routes';
+} from '@mywallet/kit/src/routes';
 import {
   BackupWalletModalRoutes,
   CreateWalletModalRoutes,
@@ -35,8 +35,8 @@ import {
   OnekeyLiteChangePinModalRoutes,
   OnekeyLiteResetModalRoutes,
   RootRoutes,
-} from '@onekeyhq/kit/src/routes/routesEnum';
-import type { ModalScreenProps } from '@onekeyhq/kit/src/routes/types';
+} from '@mywallet/kit/src/routes/routesEnum';
+import type { ModalScreenProps } from '@mywallet/kit/src/routes/types';
 
 type OptionType = 'restore' | 'change_pin' | 'reset' | 'backup';
 

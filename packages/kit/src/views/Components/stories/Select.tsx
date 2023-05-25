@@ -7,7 +7,7 @@ import {
   Spinner,
   Stack,
   Typography,
-} from '@onekeyhq/components';
+} from '@mywallet/components';
 
 const Select1 = () => {
   const [value, setValue] = useState('https://rpc.onekey.so/eth');

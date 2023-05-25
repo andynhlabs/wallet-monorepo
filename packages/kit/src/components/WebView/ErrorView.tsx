@@ -2,7 +2,7 @@ import type { FC } from 'react';
 
 import { useIntl } from 'react-intl';
 
-import { Button, Center, Empty } from '@onekeyhq/components';
+import { Button, Center, Empty } from '@mywallet/components';
 
 interface ErrorViewProps {
   onRefresh: () => void;

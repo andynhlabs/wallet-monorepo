@@ -1,7 +1,7 @@
 import { useIntl } from 'react-intl';
 
-import { Box, Text } from '@onekeyhq/components';
-import { IDecodedTxActionType } from '@onekeyhq/engine/src/vaults/types';
+import { Box, Text } from '@mywallet/components';
+import { IDecodedTxActionType } from '@mywallet/engine/src/vaults/types';
 
 import { TxDetailActionBoxAutoTransform } from '../components/TxDetailActionBoxAutoTransform';
 import { TxListActionBox } from '../components/TxListActionBox';

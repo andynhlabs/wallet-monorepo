@@ -2,10 +2,10 @@ import type { FC } from 'react';
 
 import { useIntl } from 'react-intl';
 
-import { Box, Container, Typography } from '@onekeyhq/components';
-import type { EVMDecodedItem } from '@onekeyhq/engine/src/vaults/impl/evm/decoder/decoder';
-import type { IFeeInfoPayload } from '@onekeyhq/engine/src/vaults/types';
-import type { IDappSourceInfo } from '@onekeyhq/shared/types';
+import { Box, Container, Typography } from '@mywallet/components';
+import type { EVMDecodedItem } from '@mywallet/engine/src/vaults/impl/evm/decoder/decoder';
+import type { IFeeInfoPayload } from '@mywallet/engine/src/vaults/types';
+import type { IDappSourceInfo } from '@mywallet/shared/types';
 
 import Address from './Address';
 import ContractData from './ContractData';

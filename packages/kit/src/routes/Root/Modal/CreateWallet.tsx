@@ -1,8 +1,8 @@
-import { useIsVerticalLayout } from '@onekeyhq/components';
-import type { IWallet } from '@onekeyhq/engine/src/types';
-import type { Account } from '@onekeyhq/engine/src/types/account';
-import type { UserInputCheckResult } from '@onekeyhq/engine/src/types/credential';
-import type { Wallet } from '@onekeyhq/engine/src/types/wallet';
+import { useIsVerticalLayout } from '@mywallet/components';
+import type { IWallet } from '@mywallet/engine/src/types';
+import type { Account } from '@mywallet/engine/src/types/account';
+import type { UserInputCheckResult } from '@mywallet/engine/src/types/credential';
+import type { Wallet } from '@mywallet/engine/src/types/wallet';
 
 import { WalletConnectQrcodeModal } from '../../../components/WalletConnect/WalletConnectQrcodeModal';
 import AddImportedAccountDone from '../../../views/CreateWallet/Account/AddImportedAccountDone';

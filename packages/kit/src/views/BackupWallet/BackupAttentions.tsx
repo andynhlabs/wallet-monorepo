@@ -2,9 +2,9 @@ import { useCallback } from 'react';
 
 import { useNavigation, useRoute } from '@react-navigation/native';
 
-import type { BackupWalletRoutesParams } from '@onekeyhq/kit/src/routes/Root/Modal/BackupWallet';
-import { BackupWalletModalRoutes } from '@onekeyhq/kit/src/routes/routesEnum';
-import type { ModalScreenProps } from '@onekeyhq/kit/src/routes/types';
+import type { BackupWalletRoutesParams } from '@mywallet/kit/src/routes/Root/Modal/BackupWallet';
+import { BackupWalletModalRoutes } from '@mywallet/kit/src/routes/routesEnum';
+import type { ModalScreenProps } from '@mywallet/kit/src/routes/types';
 
 import backgroundApiProxy from '../../background/instance/backgroundApiProxy';
 import { Attentions } from '../CreateWallet/AppWallet/Attentions';

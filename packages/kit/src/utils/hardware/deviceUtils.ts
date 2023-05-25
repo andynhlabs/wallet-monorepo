@@ -3,15 +3,15 @@ import { HardwareErrorCode, createDeferred } from '@onekeyfe/hd-shared';
 import BleManager from 'react-native-ble-manager';
 import semver from 'semver';
 
-import { ToastManager } from '@onekeyhq/components';
-import type { LocaleIds } from '@onekeyhq/components/src/locale';
-import { formatMessage } from '@onekeyhq/components/src/Provider';
-import type { OneKeyHardwareError } from '@onekeyhq/engine/src/errors';
-import { OneKeyErrorClassNames } from '@onekeyhq/engine/src/errors';
-import { CoreSDKLoader } from '@onekeyhq/shared/src/device/hardwareInstance';
-import debugLogger from '@onekeyhq/shared/src/logger/debugLogger';
-import platformEnv from '@onekeyhq/shared/src/platformEnv';
-import { toPlainErrorObject } from '@onekeyhq/shared/src/utils/errorUtils';
+import { ToastManager } from '@mywallet/components';
+import type { LocaleIds } from '@mywallet/components/src/locale';
+import { formatMessage } from '@mywallet/components/src/Provider';
+import type { OneKeyHardwareError } from '@mywallet/engine/src/errors';
+import { OneKeyErrorClassNames } from '@mywallet/engine/src/errors';
+import { CoreSDKLoader } from '@mywallet/shared/src/device/hardwareInstance';
+import debugLogger from '@mywallet/shared/src/logger/debugLogger';
+import platformEnv from '@mywallet/shared/src/platformEnv';
+import { toPlainErrorObject } from '@mywallet/shared/src/utils/errorUtils';
 
 import backgroundApiProxy from '../../background/instance/backgroundApiProxy';
 import showHardwarePopup from '../../views/Hardware/PopupHandle/showHardwarePopup';

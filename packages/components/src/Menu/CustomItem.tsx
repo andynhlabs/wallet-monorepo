@@ -3,7 +3,7 @@ import type { FC, ReactNode } from 'react';
 
 import { Menu } from 'native-base';
 
-import platformEnv from '@onekeyhq/shared/src/platformEnv';
+import platformEnv from '@mywallet/shared/src/platformEnv';
 
 import HStack from '../HStack';
 import Icon from '../Icon';

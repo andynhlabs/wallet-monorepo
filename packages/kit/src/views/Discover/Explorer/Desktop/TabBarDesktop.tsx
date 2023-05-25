@@ -3,15 +3,15 @@ import { useCallback, useEffect, useMemo, useRef } from 'react';
 
 import { Image } from 'react-native';
 
-import { Box, Button, Pressable, Typography } from '@onekeyhq/components';
-import ScrollableButtonGroup from '@onekeyhq/components/src/ScrollableButtonGroup/ScrollableButtonGroup';
-import ShortcutsTooltip from '@onekeyhq/components/src/ShortcutsTooltip';
-import dAppFavicon from '@onekeyhq/kit/assets/dapp_favicon.png';
-import platformEnv from '@onekeyhq/shared/src/platformEnv';
+import { Box, Button, Pressable, Typography } from '@mywallet/components';
+import ScrollableButtonGroup from '@mywallet/components/src/ScrollableButtonGroup/ScrollableButtonGroup';
+import ShortcutsTooltip from '@mywallet/components/src/ShortcutsTooltip';
+import dAppFavicon from '@mywallet/kit/assets/dapp_favicon.png';
+import platformEnv from '@mywallet/shared/src/platformEnv';
 import {
   ExplorerShortcutEvents,
   getShortcutsMap,
-} from '@onekeyhq/shared/src/shortcuts/shortcuts.enum';
+} from '@mywallet/shared/src/shortcuts/shortcuts.enum';
 
 import { useAppSelector } from '../../../../hooks';
 import {

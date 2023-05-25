@@ -7,7 +7,7 @@ import { throttle } from 'lodash';
 import { Dimensions, View } from 'react-native';
 import { runOnJS, useAnimatedReaction } from 'react-native-reanimated';
 
-import platformEnv from '@onekeyhq/shared/src/platformEnv';
+import platformEnv from '@mywallet/shared/src/platformEnv';
 
 import ExtremeLabels from './ExtremeLabels';
 

@@ -9,15 +9,15 @@ import BigNumber from 'bignumber.js';
 import { isEmpty, isNil, omitBy } from 'lodash';
 import memoizee from 'memoizee';
 
-import { decrypt } from '@onekeyhq/engine/src/secret/encryptors/aes256';
-import { UnsignedTx } from '@onekeyhq/engine/src/types/provider';
-import type { PartialTokenInfo } from '@onekeyhq/engine/src/types/provider';
-import { getTimeDurationMs } from '@onekeyhq/kit/src/utils/helper';
-import { JsonRPCRequest } from '@onekeyhq/shared/src/request/JsonRPCRequest';
+import { decrypt } from '@mywallet/engine/src/secret/encryptors/aes256';
+import { UnsignedTx } from '@mywallet/engine/src/types/provider';
+import type { PartialTokenInfo } from '@mywallet/engine/src/types/provider';
+import { getTimeDurationMs } from '@mywallet/kit/src/utils/helper';
+import { JsonRPCRequest } from '@mywallet/shared/src/request/JsonRPCRequest';
 import {
   fromBigIntHex,
   toBigIntHex,
-} from '@onekeyhq/shared/src/utils/numberUtils';
+} from '@mywallet/shared/src/utils/numberUtils';
 
 import {
   InvalidAddress,

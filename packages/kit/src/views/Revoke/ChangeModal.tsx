@@ -10,7 +10,7 @@ import {
   Typography,
   VStack,
   useForm,
-} from '@onekeyhq/components';
+} from '@mywallet/components';
 
 import { useUpdateAllowance } from './hooks';
 import { AssetType } from './types';

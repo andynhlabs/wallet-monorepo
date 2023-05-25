@@ -6,7 +6,7 @@ import {
 } from '@react-navigation/drawer';
 import { StyleSheet } from 'react-native';
 
-import { useIsVerticalLayout } from '@onekeyhq/components';
+import { useIsVerticalLayout } from '@mywallet/components';
 
 import backgroundApiProxy from '../../background/instance/backgroundApiProxy';
 import { useNavigationActions } from '../../hooks';

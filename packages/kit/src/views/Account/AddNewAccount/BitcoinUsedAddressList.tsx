@@ -14,14 +14,14 @@ import {
   Spinner,
   Text,
   ToastManager,
-} from '@onekeyhq/components';
-import { shortenAddress } from '@onekeyhq/components/src/utils';
+} from '@mywallet/components';
+import { shortenAddress } from '@mywallet/components/src/utils';
 import type {
   Account,
   BtcForkChainUsedAccount,
-} from '@onekeyhq/engine/src/types/account';
-import type { Network } from '@onekeyhq/engine/src/types/network';
-import platformEnv from '@onekeyhq/shared/src/platformEnv';
+} from '@mywallet/engine/src/types/account';
+import type { Network } from '@mywallet/engine/src/types/network';
+import platformEnv from '@mywallet/shared/src/platformEnv';
 
 import backgroundApiProxy from '../../../background/instance/backgroundApiProxy';
 import { FormatBalance } from '../../../components/Format';

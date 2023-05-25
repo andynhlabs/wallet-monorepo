@@ -16,7 +16,7 @@ import {
   useWindowDimensions,
 } from 'react-native';
 
-import { useUserDevice } from '@onekeyhq/components';
+import { useUserDevice } from '@mywallet/components';
 
 import Box from '../Box';
 import Icon from '../Icon';

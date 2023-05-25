@@ -1,6 +1,6 @@
 import { parse } from 'url';
 
-import debugLogger from '@onekeyhq/shared/src/logger/debugLogger';
+import debugLogger from '@mywallet/shared/src/logger/debugLogger';
 
 function parseBitcoinUri(uriScheme: string): {
   address: string;

@@ -1,4 +1,4 @@
-import { Box } from '@onekeyhq/components';
+import { Box } from '@mywallet/components';
 
 export default function ETHAssetOnKele() {
   return <Box />;

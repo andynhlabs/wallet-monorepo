@@ -11,10 +11,10 @@ import {
   Text,
   Token,
   useIsVerticalLayout,
-} from '@onekeyhq/components';
-import type { Network } from '@onekeyhq/engine/src/types/network';
-import { useManageNetworks } from '@onekeyhq/kit/src/hooks';
-import { OnekeyNetwork } from '@onekeyhq/shared/src/config/networkIds';
+} from '@mywallet/components';
+import type { Network } from '@mywallet/engine/src/types/network';
+import { useManageNetworks } from '@mywallet/kit/src/hooks';
+import { OnekeyNetwork } from '@mywallet/shared/src/config/networkIds';
 
 const ChainSelectorNetWorks = [
   OnekeyNetwork.eth,

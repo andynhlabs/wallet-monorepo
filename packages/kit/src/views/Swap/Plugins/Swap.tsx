@@ -1,7 +1,7 @@
 import type { FC } from 'react';
 import { useEffect } from 'react';
 
-import { isAccountCompatibleWithNetwork } from '@onekeyhq/engine/src/managers/account';
+import { isAccountCompatibleWithNetwork } from '@mywallet/engine/src/managers/account';
 
 import backgroundApiProxy from '../../../background/instance/backgroundApiProxy';
 import { getActiveWalletAccount } from '../../../hooks/redux';

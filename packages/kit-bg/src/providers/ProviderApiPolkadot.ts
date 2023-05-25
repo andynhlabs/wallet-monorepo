@@ -3,25 +3,25 @@
 import { web3Errors } from '@onekeyfe/cross-inpage-provider-errors';
 import { IInjectedProviderNames } from '@onekeyfe/cross-inpage-provider-types';
 
-import type { CommonMessage } from '@onekeyhq/engine/src/types/message';
-import { CommonMessageTypes } from '@onekeyhq/engine/src/types/message';
-import polkadotSdk from '@onekeyhq/engine/src/vaults/impl/dot/sdk/polkadotSdk';
+import type { CommonMessage } from '@mywallet/engine/src/types/message';
+import { CommonMessageTypes } from '@mywallet/engine/src/types/message';
+import polkadotSdk from '@mywallet/engine/src/vaults/impl/dot/sdk/polkadotSdk';
 import type {
   InjectedAccount,
   SignerPayloadJSON,
   SignerPayloadRaw,
-} from '@onekeyhq/engine/src/vaults/impl/dot/sdk/polkadotSdkTypes';
-import type { IEncodedTxDot } from '@onekeyhq/engine/src/vaults/impl/dot/types';
-import type VaultDot from '@onekeyhq/engine/src/vaults/impl/dot/Vault';
-import type { ISignedTxPro } from '@onekeyhq/engine/src/vaults/types';
-import { getActiveWalletAccount } from '@onekeyhq/kit/src/hooks/redux';
+} from '@mywallet/engine/src/vaults/impl/dot/sdk/polkadotSdkTypes';
+import type { IEncodedTxDot } from '@mywallet/engine/src/vaults/impl/dot/types';
+import type VaultDot from '@mywallet/engine/src/vaults/impl/dot/Vault';
+import type { ISignedTxPro } from '@mywallet/engine/src/vaults/types';
+import { getActiveWalletAccount } from '@mywallet/kit/src/hooks/redux';
 import {
   backgroundClass,
   permissionRequired,
   providerApiMethod,
-} from '@onekeyhq/shared/src/background/backgroundDecorators';
-import { IMPL_DOT } from '@onekeyhq/shared/src/engine/engineConsts';
-import debugLogger from '@onekeyhq/shared/src/logger/debugLogger';
+} from '@mywallet/shared/src/background/backgroundDecorators';
+import { IMPL_DOT } from '@mywallet/shared/src/engine/engineConsts';
+import debugLogger from '@mywallet/shared/src/logger/debugLogger';
 
 import ProviderApiBase from './ProviderApiBase';
 

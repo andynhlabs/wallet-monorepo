@@ -1,5 +1,5 @@
-import { withTabLayout } from '@onekeyhq/components/src/Layout/withTabLayout';
-import platformEnv from '@onekeyhq/shared/src/platformEnv';
+import { withTabLayout } from '@mywallet/components/src/Layout/withTabLayout';
+import platformEnv from '@mywallet/shared/src/platformEnv';
 
 import { toFocusedLazy } from '../../../../../components/LazyRenderWhenFocus';
 import MarketDetail from '../../../../../views/Market/MarketDetail';

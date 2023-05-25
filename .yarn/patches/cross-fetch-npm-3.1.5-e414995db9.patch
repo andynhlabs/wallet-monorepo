@@ -17,7 +17,7 @@ index f216aa35a9d32f86df5701c78cf7b039bc2cd47c..2f9db50fb1e1277c585bffb66b35afba
  })(__self__);
 +
 +
-+__self__.fetch = require('@onekeyhq/shared/src/request/normalize/normalizeCrossFetch').normalizeCrossFetch({
++__self__.fetch = require('@mywallet/shared/src/request/normalize/normalizeCrossFetch').normalizeCrossFetch({
 +  fetch: __self__.fetch
 +});
 +
@@ -50,7 +50,7 @@ index e8b153f97e48f48f46382f6657a8ae03c13f5c20..9744adb762a632ef18c35df2ebcdb85f
  
 -fetch.ponyfill = true
 +
-+fetch = require('@onekeyhq/shared/src/request/normalize/normalizeCrossFetch').normalizeCrossFetch({
++fetch = require('@mywallet/shared/src/request/normalize/normalizeCrossFetch').normalizeCrossFetch({
 +  fetch: fetch
 +});
 +
@@ -63,7 +63,7 @@ index 8e5baff483155c217bf5224c207795f0ec457822..ed3633ec37e7cc7f7ff3ce56ff54e38a
 --- a/dist/react-native-ponyfill.js
 +++ b/dist/react-native-ponyfill.js
 @@ -1,3 +1,6 @@
-+global.fetch = require('@onekeyhq/shared/src/request/normalize/normalizeCrossFetch').normalizeCrossFetch({
++global.fetch = require('@mywallet/shared/src/request/normalize/normalizeCrossFetch').normalizeCrossFetch({
 +  fetch: global.fetch
 +});
  module.exports = global.fetch // To enable: import fetch from 'cross-fetch'

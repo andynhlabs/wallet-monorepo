@@ -1,6 +1,6 @@
 import { useIntl } from 'react-intl';
 
-import { Typography } from '@onekeyhq/components';
+import { Typography } from '@mywallet/components';
 
 import { TxDetailActionBoxAutoTransform } from '../components/TxDetailActionBoxAutoTransform';
 import { TxListActionBox } from '../components/TxListActionBox';

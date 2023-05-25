@@ -10,5 +10,5 @@ export const importHardwareSDK = async () => {
 };
 
 export const importHardwareSDKLowLevel = async () =>
-  (await import('@onekeyhq/kit-bg/src/offscreens/instance/offscreenApiProxy'))
+  (await import('@mywallet/kit-bg/src/offscreens/instance/offscreenApiProxy'))
     .default.hardwareSDKLowLevel as unknown as Promise<LowLevelCoreApi>;

@@ -3,8 +3,8 @@ import { useEffect, useLayoutEffect } from 'react';
 
 import { useNavigation, useRoute } from '@react-navigation/core';
 
-import { Box, Modal } from '@onekeyhq/components';
-import WebView from '@onekeyhq/kit/src/components/WebView';
+import { Box, Modal } from '@mywallet/components';
+import WebView from '@mywallet/kit/src/components/WebView';
 
 import type { FiatPayModalRoutesParams } from '../../../routes/Root/Modal/FiatPay';
 import type { FiatPayModalRoutes } from '../../../routes/routesEnum';

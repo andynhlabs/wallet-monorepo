@@ -2,7 +2,7 @@ import * as crypto from 'crypto';
 
 import { AES_CBC, Pbkdf2HmacSha256 } from 'asmcrypto.js';
 
-import { IncorrectPassword } from '@onekeyhq/shared/src/errors/common-errors';
+import { IncorrectPassword } from '@mywallet/shared/src/errors/common-errors';
 
 import { sha256 } from '../hash';
 

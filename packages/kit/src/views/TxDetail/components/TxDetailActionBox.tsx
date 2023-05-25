@@ -1,6 +1,6 @@
 import { isNil } from 'lodash';
 
-import { Box, Collapse, Divider, HStack, VStack } from '@onekeyhq/components';
+import { Box, Collapse, Divider, HStack, VStack } from '@mywallet/components';
 
 import { TxActionElementDetailCell } from '../elements/TxActionElementDetailCell';
 import { useTxDetailContext } from '../TxDetailContext';

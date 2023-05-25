@@ -5,18 +5,18 @@ import { capitalize } from 'lodash';
 import { useAsync } from 'react-async-hook';
 import { useIntl } from 'react-intl';
 
-import type { ICON_NAMES } from '@onekeyhq/components';
-import { ToastManager } from '@onekeyhq/components';
-import { isCoinTypeCompatibleWithImpl } from '@onekeyhq/engine/src/managers/impl';
-import type { AccountDynamicItem } from '@onekeyhq/engine/src/managers/notification';
+import type { ICON_NAMES } from '@mywallet/components';
+import { ToastManager } from '@mywallet/components';
+import { isCoinTypeCompatibleWithImpl } from '@mywallet/engine/src/managers/impl';
+import type { AccountDynamicItem } from '@mywallet/engine/src/managers/notification';
 import {
   IMPL_APTOS,
   IMPL_EVM,
   IMPL_SUI,
   enabledAccountDynamicNetworkIds,
-} from '@onekeyhq/shared/src/engine/engineConsts';
-import { isPassphraseWallet } from '@onekeyhq/shared/src/engine/engineUtils';
-import platformEnv from '@onekeyhq/shared/src/platformEnv';
+} from '@mywallet/shared/src/engine/engineConsts';
+import { isPassphraseWallet } from '@mywallet/shared/src/engine/engineUtils';
+import platformEnv from '@mywallet/shared/src/platformEnv';
 
 import backgroundApiProxy from '../../background/instance/backgroundApiProxy';
 import { useActiveWalletAccount, useNavigation } from '../../hooks';

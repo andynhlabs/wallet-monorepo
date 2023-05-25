@@ -10,12 +10,12 @@ import {
   useIsVerticalLayout,
   useSafeAreaInsets,
   useThemeValue,
-} from '@onekeyhq/components';
-import type { UseDropdownProps } from '@onekeyhq/components/src/hooks/useDropdownPosition';
-import { useDropdownPosition } from '@onekeyhq/components/src/hooks/useDropdownPosition';
-import type { ModalProps } from '@onekeyhq/components/src/Modal';
-import type { SelectProps } from '@onekeyhq/components/src/Select';
-import { CloseBackDrop } from '@onekeyhq/components/src/Select';
+} from '@mywallet/components';
+import type { UseDropdownProps } from '@mywallet/components/src/hooks/useDropdownPosition';
+import { useDropdownPosition } from '@mywallet/components/src/hooks/useDropdownPosition';
+import type { ModalProps } from '@mywallet/components/src/Modal';
+import type { SelectProps } from '@mywallet/components/src/Select';
+import { CloseBackDrop } from '@mywallet/components/src/Select';
 
 import type { IBoxProps } from 'native-base';
 import type { ModalizeProps } from 'react-native-modalize';

@@ -12,14 +12,14 @@ import {
   SectionList,
   Typography,
   useUserDevice,
-} from '@onekeyhq/components';
-import { Tabs } from '@onekeyhq/components/src/CollapsibleTabView';
-import type { LocaleIds } from '@onekeyhq/components/src/locale';
-import { isAccountCompatibleWithNetwork } from '@onekeyhq/engine/src/managers/account';
-import type { IHistoryTx } from '@onekeyhq/engine/src/vaults/types';
-import { IDecodedTxStatus } from '@onekeyhq/engine/src/vaults/types';
-import { HISTORY_CONSTS } from '@onekeyhq/shared/src/engine/engineConsts';
-import debugLogger from '@onekeyhq/shared/src/logger/debugLogger';
+} from '@mywallet/components';
+import { Tabs } from '@mywallet/components/src/CollapsibleTabView';
+import type { LocaleIds } from '@mywallet/components/src/locale';
+import { isAccountCompatibleWithNetwork } from '@mywallet/engine/src/managers/account';
+import type { IHistoryTx } from '@mywallet/engine/src/vaults/types';
+import { IDecodedTxStatus } from '@mywallet/engine/src/vaults/types';
+import { HISTORY_CONSTS } from '@mywallet/shared/src/engine/engineConsts';
+import debugLogger from '@mywallet/shared/src/logger/debugLogger';
 
 import backgroundApiProxy from '../../background/instance/backgroundApiProxy';
 import { useAppSelector } from '../../hooks';

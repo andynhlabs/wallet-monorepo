@@ -543,7 +543,7 @@ app.on('window-all-closed', (event: Event) => {
   quitOrMinimizeApp(event);
 });
 
-// Closing the cause context: https://onekeyhq.atlassian.net/browse/OK-8096
+// Closing the cause context: https://mywallet.atlassian.net/browse/OK-8096
 app.commandLine.appendSwitch('disable-features', 'CrossOriginOpenerPolicy');
 
 if (isDev) {

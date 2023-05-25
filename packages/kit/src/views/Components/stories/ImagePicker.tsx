@@ -2,7 +2,7 @@ import { useState } from 'react';
 
 import { MediaTypeOptions, launchImageLibraryAsync } from 'expo-image-picker';
 
-import { Button, Center, Image } from '@onekeyhq/components';
+import { Button, Center, Image } from '@mywallet/components';
 
 const ImagePickerGallery = () => {
   const [image, setImage] = useState('');

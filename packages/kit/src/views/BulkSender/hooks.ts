@@ -5,7 +5,7 @@ import { useDropzone } from 'react-dropzone';
 import { useIntl } from 'react-intl';
 import { read, utils } from 'xlsx';
 
-import type { Token } from '@onekeyhq/engine/src/types/token';
+import type { Token } from '@mywallet/engine/src/types/token';
 
 import backgroundApiProxy from '../../background/instance/backgroundApiProxy';
 

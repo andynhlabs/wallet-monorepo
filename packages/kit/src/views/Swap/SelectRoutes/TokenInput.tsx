@@ -7,8 +7,8 @@ import {
   Token as TokenDisplay,
   Typography,
   useIsVerticalLayout,
-} from '@onekeyhq/components';
-import type { Token } from '@onekeyhq/engine/src/types/token';
+} from '@mywallet/components';
+import type { Token } from '@mywallet/engine/src/types/token';
 
 import { useNetwork } from '../../../hooks';
 

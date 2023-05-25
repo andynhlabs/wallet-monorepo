@@ -15,10 +15,10 @@ import {
   Typography,
   VStack,
   useIsVerticalLayout,
-} from '@onekeyhq/components';
-import { copyToClipboard } from '@onekeyhq/components/src/utils/ClipboardUtils';
-import { toFloat } from '@onekeyhq/engine/src/managers/revoke';
-import type { Token as TokenType } from '@onekeyhq/engine/src/types/token';
+} from '@mywallet/components';
+import { copyToClipboard } from '@mywallet/components/src/utils/ClipboardUtils';
+import { toFloat } from '@mywallet/engine/src/managers/revoke';
+import type { Token as TokenType } from '@mywallet/engine/src/types/token';
 
 import { FormatCurrencyNumber } from '../../../components/Format';
 import { navigationRef } from '../../../provider/NavigationProvider';

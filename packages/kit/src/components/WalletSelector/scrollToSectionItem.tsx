@@ -1,4 +1,4 @@
-import debugLogger from '@onekeyhq/shared/src/logger/debugLogger';
+import debugLogger from '@mywallet/shared/src/logger/debugLogger';
 
 export function scrollToSectionItem<T>({
   sectionListRef,

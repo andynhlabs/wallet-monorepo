@@ -2,7 +2,7 @@ import { useCallback } from 'react';
 
 import { useFocusEffect } from '@react-navigation/core';
 
-import platformEnv from '@onekeyhq/shared/src/platformEnv';
+import platformEnv from '@mywallet/shared/src/platformEnv';
 
 export const useOnKeyDown = platformEnv.isRuntimeBrowser
   ? (key: string, callback: () => void) =>

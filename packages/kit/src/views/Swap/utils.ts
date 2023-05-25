@@ -1,17 +1,17 @@
 import BigNumber from 'bignumber.js';
 
-import type { Network } from '@onekeyhq/engine/src/types/network';
-import type { Token } from '@onekeyhq/engine/src/types/token';
+import type { Network } from '@mywallet/engine/src/types/network';
+import type { Token } from '@mywallet/engine/src/types/token';
 import type {
   IDecodedTx,
   IFeeInfoUnit,
-} from '@onekeyhq/engine/src/vaults/types';
+} from '@mywallet/engine/src/vaults/types';
 import {
   calculateTotalFeeNative,
   calculateTotalFeeRange,
-} from '@onekeyhq/engine/src/vaults/utils/feeInfoUtils';
-import { IMPL_EVM, IMPL_SOL } from '@onekeyhq/shared/src/engine/engineConsts';
-import debugLogger from '@onekeyhq/shared/src/logger/debugLogger';
+} from '@mywallet/engine/src/vaults/utils/feeInfoUtils';
+import { IMPL_EVM, IMPL_SOL } from '@mywallet/shared/src/engine/engineConsts';
+import debugLogger from '@mywallet/shared/src/logger/debugLogger';
 
 import { networkIdDontSupportRecipientAddress } from './config';
 import { QuoterType } from './typings';

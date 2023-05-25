@@ -1,7 +1,7 @@
 import type { FC } from 'react';
 import { memo, useEffect, useState } from 'react';
 
-import { Box, Center, Pressable } from '@onekeyhq/components';
+import { Box, Center, Pressable } from '@mywallet/components';
 
 type DotSpaceProps = {
   size?: number;

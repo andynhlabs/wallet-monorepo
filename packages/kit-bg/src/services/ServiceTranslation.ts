@@ -1,11 +1,11 @@
 /* eslint-disable @typescript-eslint/require-await */
 
-import { getFiatEndpoint } from '@onekeyhq/engine/src/endpoint';
-import { setTranslations } from '@onekeyhq/kit/src/store/reducers/data';
+import { getFiatEndpoint } from '@mywallet/engine/src/endpoint';
+import { setTranslations } from '@mywallet/kit/src/store/reducers/data';
 import {
   backgroundClass,
   backgroundMethod,
-} from '@onekeyhq/shared/src/background/backgroundDecorators';
+} from '@mywallet/shared/src/background/backgroundDecorators';
 
 import ServiceBase from './ServiceBase';
 

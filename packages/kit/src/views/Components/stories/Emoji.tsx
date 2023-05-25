@@ -1,6 +1,6 @@
 import emojis from 'emojis-list';
 
-import { Center, ScrollView, Text } from '@onekeyhq/components';
+import { Center, ScrollView, Text } from '@mywallet/components';
 
 const EmojiGallery = () => (
   // const emojis = require('emojis-list');

@@ -1,7 +1,7 @@
-import simpleDb from '@onekeyhq/engine/src/dbs/simple/simpleDb';
-import { getFiatEndpoint } from '@onekeyhq/engine/src/endpoint';
-import { OneKeyInternalError } from '@onekeyhq/engine/src/errors';
-import * as nft from '@onekeyhq/engine/src/managers/nft';
+import simpleDb from '@mywallet/engine/src/dbs/simple/simpleDb';
+import { getFiatEndpoint } from '@mywallet/engine/src/endpoint';
+import { OneKeyInternalError } from '@mywallet/engine/src/errors';
+import * as nft from '@mywallet/engine/src/managers/nft';
 import type {
   Collection,
   CollectionAttribute,
@@ -12,17 +12,17 @@ import type {
   NFTPNL,
   NFTServiceResp,
   NFTTransaction,
-} from '@onekeyhq/engine/src/types/nft';
+} from '@mywallet/engine/src/types/nft';
 import {
   setNFTPrice,
   setNFTPriceType,
   setNFTSymbolPrice,
-} from '@onekeyhq/kit/src/store/reducers/nft';
+} from '@mywallet/kit/src/store/reducers/nft';
 import {
   backgroundClass,
   backgroundMethod,
-} from '@onekeyhq/shared/src/background/backgroundDecorators';
-import { OnekeyNetwork } from '@onekeyhq/shared/src/config/networkIds';
+} from '@mywallet/shared/src/background/backgroundDecorators';
+import { OnekeyNetwork } from '@mywallet/shared/src/config/networkIds';
 
 import ServiceBase from './ServiceBase';
 

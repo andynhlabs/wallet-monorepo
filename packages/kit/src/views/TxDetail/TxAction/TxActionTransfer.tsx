@@ -1,10 +1,10 @@
 import { useIntl } from 'react-intl';
 
-import { shortenAddress } from '@onekeyhq/components/src/utils';
+import { shortenAddress } from '@mywallet/components/src/utils';
 import {
   IDecodedTxActionType,
   IDecodedTxDirection,
-} from '@onekeyhq/engine/src/vaults/types';
+} from '@mywallet/engine/src/vaults/types';
 
 import { FormatCurrencyTokenOfAccount } from '../../../components/Format';
 import { TxDetailActionBoxAutoTransform } from '../components/TxDetailActionBoxAutoTransform';

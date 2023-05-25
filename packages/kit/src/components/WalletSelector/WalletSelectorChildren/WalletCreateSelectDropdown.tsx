@@ -4,20 +4,20 @@ import { useMemo } from 'react';
 import { useIntl } from 'react-intl';
 import { StyleSheet } from 'react-native';
 
-import type { ICON_NAMES } from '@onekeyhq/components';
+import type { ICON_NAMES } from '@mywallet/components';
 import {
   Box,
   Center,
   Icon,
   Select,
   useIsVerticalLayout,
-} from '@onekeyhq/components';
+} from '@mywallet/components';
 import type {
   IDropdownProps,
   SelectItem,
-} from '@onekeyhq/components/src/Select';
-import { WALLET_TYPE_EXTERNAL } from '@onekeyhq/engine/src/types/wallet';
-import platformEnv from '@onekeyhq/shared/src/platformEnv';
+} from '@mywallet/components/src/Select';
+import { WALLET_TYPE_EXTERNAL } from '@mywallet/engine/src/types/wallet';
+import platformEnv from '@mywallet/shared/src/platformEnv';
 
 import { useNavigationActions } from '../../../hooks';
 import useAppNavigation from '../../../hooks/useAppNavigation';

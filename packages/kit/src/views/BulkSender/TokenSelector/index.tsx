@@ -13,11 +13,11 @@ import {
   Searchbar,
   Text,
   Token as TokenComponent,
-} from '@onekeyhq/components';
-import useModalClose from '@onekeyhq/components/src/Modal/Container/useModalClose';
-import type { Token } from '@onekeyhq/engine/src/types/token';
-import { useDebounce, useNetwork } from '@onekeyhq/kit/src/hooks';
-import { useTokenBalance } from '@onekeyhq/kit/src/hooks/useTokens';
+} from '@mywallet/components';
+import useModalClose from '@mywallet/components/src/Modal/Container/useModalClose';
+import type { Token } from '@mywallet/engine/src/types/token';
+import { useDebounce, useNetwork } from '@mywallet/kit/src/hooks';
+import { useTokenBalance } from '@mywallet/kit/src/hooks/useTokens';
 
 import type { BulkSenderRoutes, BulkSenderRoutesParams } from '../types';
 import type { RouteProp } from '@react-navigation/native';

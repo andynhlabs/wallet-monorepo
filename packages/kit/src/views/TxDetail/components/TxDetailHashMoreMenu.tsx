@@ -1,7 +1,7 @@
 import type { FC } from 'react';
 import { useMemo } from 'react';
 
-import type { IDecodedTx } from '@onekeyhq/engine/src/vaults/types';
+import type { IDecodedTx } from '@mywallet/engine/src/vaults/types';
 
 import { useClipboard } from '../../../hooks/useClipboard';
 import { useNetwork } from '../../../hooks/useNetwork';

@@ -1,7 +1,7 @@
 /* eslint-disable new-cap */
 import memoizee from 'memoizee';
 
-import { INTERNAL_METHOD_PREFIX } from '@onekeyhq/shared/src/background/backgroundDecorators';
+import { INTERNAL_METHOD_PREFIX } from '@mywallet/shared/src/background/backgroundDecorators';
 
 import type { IBackgroundApiInternalCallMessage } from '../../IBackgroundApi';
 import type { IOffscreenApi } from './IOffscreenApi';
@@ -15,7 +15,7 @@ const createOffscreenApiModule = memoizee(
       case 'hardwareSDKLowLevel':
         if (!HardwareLowLevelSDK) {
           HardwareLowLevelSDK = await (
-            await import('@onekeyhq/shared/src/device/sdk-loader')
+            await import('@mywallet/shared/src/device/sdk-loader')
           ).importHardwareSDKLowLevel();
           HardwareLowLevelSDK.addHardwareGlobalEventListener((eventParams) => {
             const backgroundServiceName = 'serviceHardware';

@@ -2,9 +2,9 @@ import type { FC } from 'react';
 
 import { useIntl } from 'react-intl';
 
-import Dialog from '@onekeyhq/components/src/Dialog';
-import Icon from '@onekeyhq/components/src/Icon';
-import { HARDWARE_BRIDGE_DOWNLOAD_URL } from '@onekeyhq/shared/src/config/appConfig';
+import Dialog from '@mywallet/components/src/Dialog';
+import Icon from '@mywallet/components/src/Icon';
+import { HARDWARE_BRIDGE_DOWNLOAD_URL } from '@mywallet/shared/src/config/appConfig';
 
 import { openUrlExternal } from '../../utils/openUrl';
 

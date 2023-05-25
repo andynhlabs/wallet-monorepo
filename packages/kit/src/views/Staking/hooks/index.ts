@@ -3,7 +3,7 @@ import { useEffect, useMemo } from 'react';
 import { parse } from 'date-fns';
 import { useIntl } from 'react-intl';
 
-import { isAccountCompatibleWithNetwork } from '@onekeyhq/engine/src/managers/account';
+import { isAccountCompatibleWithNetwork } from '@mywallet/engine/src/managers/account';
 
 import backgroundApiProxy from '../../../background/instance/backgroundApiProxy';
 import { useAppSelector } from '../../../hooks';

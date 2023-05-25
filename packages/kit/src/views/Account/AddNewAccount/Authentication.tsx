@@ -4,11 +4,11 @@ import { useEffect } from 'react';
 
 import { useRoute } from '@react-navigation/native';
 
-import { Center, Modal, Spinner } from '@onekeyhq/components';
+import { Center, Modal, Spinner } from '@mywallet/components';
 import Protected, {
   ValidationFields,
-} from '@onekeyhq/kit/src/components/Protected';
-import type { CreateAccountRoutesParams } from '@onekeyhq/kit/src/routes';
+} from '@mywallet/kit/src/components/Protected';
+import type { CreateAccountRoutesParams } from '@mywallet/kit/src/routes';
 
 import { useNavigation } from '../../../hooks';
 

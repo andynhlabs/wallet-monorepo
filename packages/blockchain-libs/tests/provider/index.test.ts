@@ -1,4 +1,4 @@
-import { createDelayPromise } from '@onekeyhq/shared/src/utils/promiseUtils';
+import { createDelayPromise } from '@mywallet/shared/src/utils/promiseUtils';
 
 import { ProviderController } from '../../src/provider';
 

@@ -1,6 +1,6 @@
 import { KEYUTIL, KJUR } from 'jsrsasign';
 
-import debugLogger from '@onekeyhq/shared/src/logger/debugLogger';
+import debugLogger from '@mywallet/shared/src/logger/debugLogger';
 
 import type { RSAKey } from 'jsrsasign';
 

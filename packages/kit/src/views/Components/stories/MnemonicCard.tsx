@@ -1,5 +1,5 @@
-import { Box, ScrollView, Text } from '@onekeyhq/components';
-import MnemonicCard from '@onekeyhq/components/src/MnemonicCard/MnemonicCard';
+import { Box, ScrollView, Text } from '@mywallet/components';
+import MnemonicCard from '@mywallet/components/src/MnemonicCard/MnemonicCard';
 
 const word12 =
   'debris say skill blouse expire card monkey police taxi teach guard curious';

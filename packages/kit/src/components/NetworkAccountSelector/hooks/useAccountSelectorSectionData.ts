@@ -3,9 +3,9 @@ import { useEffect, useState } from 'react';
 
 import { debounce } from 'lodash';
 
-import type { IAccount, IWallet } from '@onekeyhq/engine/src/types';
-import type { AccountNameInfo } from '@onekeyhq/engine/src/types/network';
-import debugLogger from '@onekeyhq/shared/src/logger/debugLogger';
+import type { IAccount, IWallet } from '@mywallet/engine/src/types';
+import type { AccountNameInfo } from '@mywallet/engine/src/types/network';
+import debugLogger from '@mywallet/shared/src/logger/debugLogger';
 
 import backgroundApiProxy from '../../../background/instance/backgroundApiProxy';
 import { useIsMounted } from '../../../hooks/useIsMounted';

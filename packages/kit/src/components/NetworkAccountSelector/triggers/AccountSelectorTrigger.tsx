@@ -3,7 +3,7 @@ import { useMemo } from 'react';
 
 import { useIntl } from 'react-intl';
 
-import { useIsVerticalLayout } from '@onekeyhq/components';
+import { useIsVerticalLayout } from '@mywallet/components';
 
 import {
   useActiveWalletAccount,

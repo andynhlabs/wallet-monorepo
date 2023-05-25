@@ -1,7 +1,7 @@
 import { useIntl } from 'react-intl';
 
-import { Text } from '@onekeyhq/components';
-import Pressable from '@onekeyhq/components/src/Pressable/Pressable';
+import { Text } from '@mywallet/components';
+import Pressable from '@mywallet/components/src/Pressable/Pressable';
 
 import { openUrl } from '../../../../../utils/openUrl';
 import { MONERO_GUI_URL } from '../../../consts';

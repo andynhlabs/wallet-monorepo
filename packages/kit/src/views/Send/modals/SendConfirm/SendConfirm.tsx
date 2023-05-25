@@ -3,12 +3,12 @@ import { useCallback, useMemo } from 'react';
 import type {
   IFeeInfoUnit,
   ISignedTxPro,
-} from '@onekeyhq/engine/src/vaults/types';
+} from '@mywallet/engine/src/vaults/types';
 import {
   IDecodedTxActionType,
   IEncodedTxUpdateType,
-} from '@onekeyhq/engine/src/vaults/types';
-import { ENABLED_DAPP_SCOPE } from '@onekeyhq/shared/src/background/backgroundUtils';
+} from '@mywallet/engine/src/vaults/types';
+import { ENABLED_DAPP_SCOPE } from '@mywallet/shared/src/background/backgroundUtils';
 
 import backgroundApiProxy from '../../../../background/instance/backgroundApiProxy';
 import { useWalletConnectPrepareConnection } from '../../../../components/WalletConnect/useWalletConnectPrepareConnection';

@@ -3,13 +3,13 @@
 
 import type { ComponentType, FC } from 'react';
 
-import type { LocaleIds } from '@onekeyhq/components/src/locale';
-import type { HeaderTitleProps } from '@onekeyhq/components/src/NavHeader/HeaderTitle';
-import type { PriceAlertItem } from '@onekeyhq/engine/src/managers/notification';
-import type { Network } from '@onekeyhq/engine/src/types/network';
-import type { Collection } from '@onekeyhq/engine/src/types/nft';
-import type { MatchDAppItemType } from '@onekeyhq/kit/src/views/Discover/Explorer/explorerUtils';
-import type { DAppItemType } from '@onekeyhq/kit/src/views/Discover/type';
+import type { LocaleIds } from '@mywallet/components/src/locale';
+import type { HeaderTitleProps } from '@mywallet/components/src/NavHeader/HeaderTitle';
+import type { PriceAlertItem } from '@mywallet/engine/src/managers/notification';
+import type { Network } from '@mywallet/engine/src/types/network';
+import type { Collection } from '@mywallet/engine/src/types/nft';
+import type { MatchDAppItemType } from '@mywallet/kit/src/views/Discover/Explorer/explorerUtils';
+import type { DAppItemType } from '@mywallet/kit/src/views/Discover/type';
 
 // define enum here to avoid cycle import
 

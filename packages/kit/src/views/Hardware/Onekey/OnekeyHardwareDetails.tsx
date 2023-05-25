@@ -13,22 +13,22 @@ import {
   Modal,
   Pressable,
   Typography,
-} from '@onekeyhq/components';
-import deviceClassicIcon from '@onekeyhq/kit/assets/hardware/about/device-classic.png';
-import deviceMiniIcon from '@onekeyhq/kit/assets/hardware/about/device-mini.png';
-import deviceTouchIcon from '@onekeyhq/kit/assets/hardware/about/device-touch.png';
-import backgroundApiProxy from '@onekeyhq/kit/src/background/instance/backgroundApiProxy';
-import Protected from '@onekeyhq/kit/src/components/Protected';
-import { useAppSelector } from '@onekeyhq/kit/src/hooks';
-import type { OnekeyHardwareRoutesParams } from '@onekeyhq/kit/src/routes/Root/Modal/HardwareOnekey';
+} from '@mywallet/components';
+import deviceClassicIcon from '@mywallet/kit/assets/hardware/about/device-classic.png';
+import deviceMiniIcon from '@mywallet/kit/assets/hardware/about/device-mini.png';
+import deviceTouchIcon from '@mywallet/kit/assets/hardware/about/device-touch.png';
+import backgroundApiProxy from '@mywallet/kit/src/background/instance/backgroundApiProxy';
+import Protected from '@mywallet/kit/src/components/Protected';
+import { useAppSelector } from '@mywallet/kit/src/hooks';
+import type { OnekeyHardwareRoutesParams } from '@mywallet/kit/src/routes/Root/Modal/HardwareOnekey';
 import {
   ModalRoutes,
   OnekeyHardwareModalRoutes,
   RootRoutes,
-} from '@onekeyhq/kit/src/routes/routesEnum';
-import { getDeviceFirmwareVersion } from '@onekeyhq/kit/src/utils/hardware/OneKeyHardware';
-import { CoreSDKLoader } from '@onekeyhq/shared/src/device/hardwareInstance';
-import type { IOneKeyDeviceFeatures } from '@onekeyhq/shared/types';
+} from '@mywallet/kit/src/routes/routesEnum';
+import { getDeviceFirmwareVersion } from '@mywallet/kit/src/utils/hardware/OneKeyHardware';
+import { CoreSDKLoader } from '@mywallet/shared/src/device/hardwareInstance';
+import type { IOneKeyDeviceFeatures } from '@mywallet/shared/types';
 
 import type { RouteProp } from '@react-navigation/core';
 

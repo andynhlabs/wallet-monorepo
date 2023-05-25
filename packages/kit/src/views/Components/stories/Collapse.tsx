@@ -1,4 +1,4 @@
-import { Button, Center, Collapse } from '@onekeyhq/components';
+import { Button, Center, Collapse } from '@mywallet/components';
 
 const CollapseGallery = () => (
   <Center flex="1" bg="background-hovered">

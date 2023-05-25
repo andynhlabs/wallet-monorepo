@@ -2,9 +2,9 @@ import type { FC } from 'react';
 
 import { useIntl } from 'react-intl';
 
-import { Box, Button, Container, Typography } from '@onekeyhq/components';
-import type { EVMDecodedItem } from '@onekeyhq/engine/src/vaults/impl/evm/decoder/decoder';
-import { EVMDecodedTxType } from '@onekeyhq/engine/src/vaults/impl/evm/decoder/decoder';
+import { Box, Button, Container, Typography } from '@mywallet/components';
+import type { EVMDecodedItem } from '@mywallet/engine/src/vaults/impl/evm/decoder/decoder';
+import { EVMDecodedTxType } from '@mywallet/engine/src/vaults/impl/evm/decoder/decoder';
 
 import useOpenBlockBrowser from '../../../hooks/useOpenBlockBrowser';
 

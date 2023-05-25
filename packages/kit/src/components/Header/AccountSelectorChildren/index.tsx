@@ -10,16 +10,16 @@ import {
   VStack,
   useIsVerticalLayout,
   useSafeAreaInsets,
-} from '@onekeyhq/components';
-import backgroundApiProxy from '@onekeyhq/kit/src/background/instance/backgroundApiProxy';
+} from '@mywallet/components';
+import backgroundApiProxy from '@mywallet/kit/src/background/instance/backgroundApiProxy';
 // eslint-disable-next-line @typescript-eslint/no-unused-vars
-import { useDebounce } from '@onekeyhq/kit/src/hooks';
+import { useDebounce } from '@mywallet/kit/src/hooks';
 import {
   useActiveWalletAccount,
   useAppSelector,
-} from '@onekeyhq/kit/src/hooks/redux';
-import useRemoveAccountDialog from '@onekeyhq/kit/src/views/ManagerAccount/RemoveAccount';
-import platformEnv from '@onekeyhq/shared/src/platformEnv';
+} from '@mywallet/kit/src/hooks/redux';
+import useRemoveAccountDialog from '@mywallet/kit/src/views/ManagerAccount/RemoveAccount';
+import platformEnv from '@mywallet/shared/src/platformEnv';
 
 // eslint-disable-next-line @typescript-eslint/no-unused-vars
 import { LazyDisplayView } from '../../LazyDisplayView';

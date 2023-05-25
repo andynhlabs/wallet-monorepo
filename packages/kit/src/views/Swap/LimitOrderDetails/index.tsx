@@ -15,9 +15,9 @@ import {
   Token as TokenIcon,
   Typography,
   VStack,
-} from '@onekeyhq/components';
-import { shortenAddress } from '@onekeyhq/components/src/utils';
-import { copyToClipboard } from '@onekeyhq/components/src/utils/ClipboardUtils';
+} from '@mywallet/components';
+import { shortenAddress } from '@mywallet/components/src/utils';
+import { copyToClipboard } from '@mywallet/components/src/utils/ClipboardUtils';
 
 import { useAccount, useNetwork } from '../../../hooks';
 import useFormatDate from '../../../hooks/useFormatDate';

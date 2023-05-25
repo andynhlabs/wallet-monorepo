@@ -4,10 +4,10 @@ import { useEffect } from 'react';
 import { useNavigation } from '@react-navigation/core';
 import { useIntl } from 'react-intl';
 
-import { Box, Button, Empty, ToastManager } from '@onekeyhq/components';
-import type { IWallet } from '@onekeyhq/engine/src/types';
-import { useActiveWalletAccount } from '@onekeyhq/kit/src/hooks/redux';
-import { RootRoutes } from '@onekeyhq/kit/src/routes/routesEnum';
+import { Box, Button, Empty, ToastManager } from '@mywallet/components';
+import type { IWallet } from '@mywallet/engine/src/types';
+import { useActiveWalletAccount } from '@mywallet/kit/src/hooks/redux';
+import { RootRoutes } from '@mywallet/kit/src/routes/routesEnum';
 
 import backgroundApiProxy from '../../background/instance/backgroundApiProxy';
 import {

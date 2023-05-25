@@ -1,4 +1,4 @@
-import type { ImportableHDAccount } from '@onekeyhq/engine/src/types/account';
+import type { ImportableHDAccount } from '@mywallet/engine/src/types/account';
 
 export type RecoverAccountType = ImportableHDAccount & {
   selected: boolean;

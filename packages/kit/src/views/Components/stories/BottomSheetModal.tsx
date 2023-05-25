@@ -1,5 +1,5 @@
-import { Box, Button, Center, Text } from '@onekeyhq/components';
-import BottomSheetModal from '@onekeyhq/components/src/BottomSheetModal/BottomSheetModal';
+import { Box, Button, Center, Text } from '@mywallet/components';
+import BottomSheetModal from '@mywallet/components/src/BottomSheetModal/BottomSheetModal';
 
 import { showOverlay } from '../../../utils/overlayUtils';
 

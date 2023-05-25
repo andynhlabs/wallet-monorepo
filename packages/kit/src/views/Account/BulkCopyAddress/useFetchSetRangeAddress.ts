@@ -2,12 +2,12 @@ import { useCallback, useEffect, useMemo, useRef, useState } from 'react';
 
 import { useIntl } from 'react-intl';
 
-import { ToastManager } from '@onekeyhq/components';
-import { OneKeyErrorClassNames } from '@onekeyhq/engine/src/errors';
-import type { ImportableHDAccount } from '@onekeyhq/engine/src/types/account';
-import { INDEX_PLACEHOLDER } from '@onekeyhq/shared/src/engine/engineConsts';
-import debugLogger from '@onekeyhq/shared/src/logger/debugLogger';
-import platformEnv from '@onekeyhq/shared/src/platformEnv';
+import { ToastManager } from '@mywallet/components';
+import { OneKeyErrorClassNames } from '@mywallet/engine/src/errors';
+import type { ImportableHDAccount } from '@mywallet/engine/src/types/account';
+import { INDEX_PLACEHOLDER } from '@mywallet/shared/src/engine/engineConsts';
+import debugLogger from '@mywallet/shared/src/logger/debugLogger';
+import platformEnv from '@mywallet/shared/src/platformEnv';
 
 import backgroundApiProxy from '../../../background/instance/backgroundApiProxy';
 import { useAppSelector } from '../../../hooks';

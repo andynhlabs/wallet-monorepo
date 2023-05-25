@@ -2,12 +2,12 @@
 import {
   BaseProvider,
   SimpleClient,
-} from '@onekeyhq/engine/src/client/BaseClient';
+} from '@mywallet/engine/src/client/BaseClient';
 import type {
   BaseClient,
   ClientFilter,
-} from '@onekeyhq/engine/src/client/BaseClient';
-import type { ChainInfo, CoinInfo } from '@onekeyhq/engine/src/types/chain';
+} from '@mywallet/engine/src/client/BaseClient';
+import type { ChainInfo, CoinInfo } from '@mywallet/engine/src/types/chain';
 import type {
   AddressInfo,
   AddressValidation,
@@ -19,13 +19,13 @@ import type {
   TypedMessage,
   UTXO,
   UnsignedTx,
-} from '@onekeyhq/engine/src/types/provider';
-import type { Signer, Verifier } from '@onekeyhq/engine/src/types/secret';
-import { checkIsDefined } from '@onekeyhq/shared/src/utils/assertUtils';
+} from '@mywallet/engine/src/types/provider';
+import type { Signer, Verifier } from '@mywallet/engine/src/types/secret';
+import { checkIsDefined } from '@mywallet/shared/src/utils/assertUtils';
 import {
   createAnyPromise,
   createDelayPromise,
-} from '@onekeyhq/shared/src/utils/promiseUtils';
+} from '@mywallet/shared/src/utils/promiseUtils';
 
 import type BigNumber from 'bignumber.js';
 

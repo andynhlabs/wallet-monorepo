@@ -3,7 +3,7 @@ import { useCallback, useState } from 'react';
 
 import { useIntl } from 'react-intl';
 
-import { Box, Switch, VStack } from '@onekeyhq/components';
+import { Box, Switch, VStack } from '@mywallet/components';
 
 import { showOverlay } from '../../../utils/overlayUtils';
 import { BottomSheetSettings } from '../../Overlay/BottomSheetSettings';

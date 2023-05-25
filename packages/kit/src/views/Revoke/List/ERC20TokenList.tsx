@@ -14,9 +14,9 @@ import {
   Token,
   Typography,
   VStack,
-} from '@onekeyhq/components';
-import type { ERC20TokenAllowance } from '@onekeyhq/engine/src/managers/revoke';
-import { toFloat } from '@onekeyhq/engine/src/managers/revoke';
+} from '@mywallet/components';
+import type { ERC20TokenAllowance } from '@mywallet/engine/src/managers/revoke';
+import { toFloat } from '@mywallet/engine/src/managers/revoke';
 
 import { FormatCurrencyNumber } from '../../../components/Format';
 import { useIsVerticalOrMiddleLayout } from '../hooks';

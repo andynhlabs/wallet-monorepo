@@ -8,11 +8,11 @@ import {
   IconButton,
   Typography,
   useTheme,
-} from '@onekeyhq/components';
+} from '@mywallet/components';
 import {
   useActiveWalletAccount,
   useAppSelector,
-} from '@onekeyhq/kit/src/hooks/redux';
+} from '@mywallet/kit/src/hooks/redux';
 
 import { FormatCurrencyNumber } from '../../../../components/Format';
 import { useNFTPrice } from '../../../../hooks/useManegeTokenPrice';

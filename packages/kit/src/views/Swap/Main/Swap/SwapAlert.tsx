@@ -10,12 +10,12 @@ import {
   Button,
   Center,
   Typography,
-} from '@onekeyhq/components';
-import { isAccountCompatibleWithNetwork } from '@onekeyhq/engine/src/managers/account';
+} from '@mywallet/components';
+import { isAccountCompatibleWithNetwork } from '@mywallet/engine/src/managers/account';
 import {
   AppUIEventBusNames,
   appUIEventBus,
-} from '@onekeyhq/shared/src/eventBus/appUIEventBus';
+} from '@mywallet/shared/src/eventBus/appUIEventBus';
 
 import backgroundApiProxy from '../../../../background/instance/backgroundApiProxy';
 import { useCreateAccountInWallet } from '../../../../components/NetworkAccountSelector/hooks/useCreateAccountInWallet';

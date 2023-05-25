@@ -1,7 +1,7 @@
 import { createSlice } from '@reduxjs/toolkit';
 import natsort from 'natsort';
 
-import type { ISimpleSearchHistoryToken } from '@onekeyhq/engine/src/dbs/simple/entity/SimpleDbEntityMarket';
+import type { ISimpleSearchHistoryToken } from '@mywallet/engine/src/dbs/simple/entity/SimpleDbEntityMarket';
 
 import { EMarketCellData } from '../../views/Market/config';
 

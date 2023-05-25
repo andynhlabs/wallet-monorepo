@@ -3,7 +3,7 @@ import { useEffect, useMemo } from 'react';
 
 import { useIntl } from 'react-intl';
 
-import { Box, Text, useIsVerticalLayout } from '@onekeyhq/components';
+import { Box, Text, useIsVerticalLayout } from '@mywallet/components';
 
 import { useNavigation } from '../../../hooks';
 import CollectionLogo from '../CollectionLogo';

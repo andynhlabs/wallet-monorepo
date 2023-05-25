@@ -1,4 +1,4 @@
-import { batchGetPrivateKeys } from '@onekeyhq/engine/src/secret';
+import { batchGetPrivateKeys } from '@mywallet/engine/src/secret';
 
 import { OneKeyInternalError } from '../../errors';
 

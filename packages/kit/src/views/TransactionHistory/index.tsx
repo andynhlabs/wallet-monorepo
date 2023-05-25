@@ -5,9 +5,9 @@ import { useNavigation } from '@react-navigation/core';
 import { useRoute } from '@react-navigation/native';
 import { useIntl } from 'react-intl';
 
-import { useActiveWalletAccount } from '@onekeyhq/kit/src/hooks/redux';
-import type { HomeRoutes } from '@onekeyhq/kit/src/routes/routesEnum';
-import type { HomeRoutesParams } from '@onekeyhq/kit/src/routes/types';
+import { useActiveWalletAccount } from '@mywallet/kit/src/hooks/redux';
+import type { HomeRoutes } from '@mywallet/kit/src/routes/routesEnum';
+import type { HomeRoutesParams } from '@mywallet/kit/src/routes/types';
 
 import HistoricalRecords from '../Wallet/HistoricalRecords';
 

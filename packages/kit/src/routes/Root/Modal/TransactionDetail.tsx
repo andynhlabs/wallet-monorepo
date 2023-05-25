@@ -1,6 +1,6 @@
-import { useIsVerticalLayout } from '@onekeyhq/components';
-import type { EVMDecodedItem } from '@onekeyhq/engine/src/vaults/impl/evm/decoder/decoder';
-import type { IDecodedTx, IHistoryTx } from '@onekeyhq/engine/src/vaults/types';
+import { useIsVerticalLayout } from '@mywallet/components';
+import type { EVMDecodedItem } from '@mywallet/engine/src/vaults/impl/evm/decoder/decoder';
+import type { IDecodedTx, IHistoryTx } from '@mywallet/engine/src/vaults/types';
 
 import { TxHistoryDetailModal } from '../../../views/TxHistory/TxHistoryDetailModal';
 import { TransactionDetailModalRoutes } from '../../routesEnum';

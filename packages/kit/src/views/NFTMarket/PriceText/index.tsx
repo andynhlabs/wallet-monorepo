@@ -1,7 +1,7 @@
 import type { ComponentProps, FC } from 'react';
 
-import { Text } from '@onekeyhq/components';
-import { OnekeyNetwork } from '@onekeyhq/shared/src/config/networkIds';
+import { Text } from '@mywallet/components';
+import { OnekeyNetwork } from '@mywallet/shared/src/config/networkIds';
 
 export const floorPriceSymbolMap: Record<string, string> = {
   [OnekeyNetwork.eth]: 'ETH',

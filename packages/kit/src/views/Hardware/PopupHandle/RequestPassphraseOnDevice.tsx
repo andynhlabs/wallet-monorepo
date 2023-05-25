@@ -4,14 +4,14 @@ import type { FC } from 'react';
 import { useKeepAwake } from 'expo-keep-awake';
 import { useIntl } from 'react-intl';
 
-import { Box, CheckBox, Icon, LottieView, Text } from '@onekeyhq/components';
-import EnterPassphraseOnClassic from '@onekeyhq/kit/assets/animations/lottie-onekey-classic-enter-passphrase-on-device.json';
-import EnterPassphraseOnMini from '@onekeyhq/kit/assets/animations/lottie-onekey-mini-enter-passphrase-on-device.json';
-import EnterPassphraseOnPro from '@onekeyhq/kit/assets/animations/lottie-onekey-pro-enter-passphrase-on-device.json';
-import EnterPassphraseOnTouch from '@onekeyhq/kit/assets/animations/lottie-onekey-touch-enter-passphrase-on-device.json';
-import backgroundApiProxy from '@onekeyhq/kit/src/background/instance/backgroundApiProxy';
-import { SkipAppLock } from '@onekeyhq/kit/src/components/AppLock';
-import { setPendingRememberWalletConnectId } from '@onekeyhq/kit/src/store/reducers/hardware';
+import { Box, CheckBox, Icon, LottieView, Text } from '@mywallet/components';
+import EnterPassphraseOnClassic from '@mywallet/kit/assets/animations/lottie-onekey-classic-enter-passphrase-on-device.json';
+import EnterPassphraseOnMini from '@mywallet/kit/assets/animations/lottie-onekey-mini-enter-passphrase-on-device.json';
+import EnterPassphraseOnPro from '@mywallet/kit/assets/animations/lottie-onekey-pro-enter-passphrase-on-device.json';
+import EnterPassphraseOnTouch from '@mywallet/kit/assets/animations/lottie-onekey-touch-enter-passphrase-on-device.json';
+import backgroundApiProxy from '@mywallet/kit/src/background/instance/backgroundApiProxy';
+import { SkipAppLock } from '@mywallet/kit/src/components/AppLock';
+import { setPendingRememberWalletConnectId } from '@mywallet/kit/src/store/reducers/hardware';
 
 import BaseRequestView from './BaseRequest';
 

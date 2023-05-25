@@ -2,23 +2,23 @@ import { IInjectedProviderNames } from '@onekeyfe/cross-inpage-provider-types';
 import { isFunction } from 'lodash';
 import cloneDeep from 'lodash/cloneDeep';
 
-import store, { appSelector, persistor } from '@onekeyhq/kit/src/store';
+import store, { appSelector, persistor } from '@mywallet/kit/src/store';
 import {
   INTERNAL_METHOD_PREFIX,
   backgroundClass,
   backgroundMethod,
   bindThis,
-} from '@onekeyhq/shared/src/background/backgroundDecorators';
-import type { IDispatchActionBroadcastParams } from '@onekeyhq/shared/src/background/backgroundUtils';
+} from '@mywallet/shared/src/background/backgroundDecorators';
+import type { IDispatchActionBroadcastParams } from '@mywallet/shared/src/background/backgroundUtils';
 import {
   DISPATCH_ACTION_BROADCAST_METHOD_NAME,
   buildReduxBatchAction,
   ensurePromiseObject,
   ensureSerializable,
   throwMethodNotFound,
-} from '@onekeyhq/shared/src/background/backgroundUtils';
-import debugLogger from '@onekeyhq/shared/src/logger/debugLogger';
-import platformEnv from '@onekeyhq/shared/src/platformEnv';
+} from '@mywallet/shared/src/background/backgroundUtils';
+import debugLogger from '@mywallet/shared/src/logger/debugLogger';
+import platformEnv from '@mywallet/shared/src/platformEnv';
 
 import { createBackgroundProviders } from './providers/backgroundProviders';
 

@@ -1,4 +1,4 @@
-import { IMPL_SOL } from '@onekeyhq/shared/src/engine/engineConsts';
+import { IMPL_SOL } from '@mywallet/shared/src/engine/engineConsts';
 
 import { getAccountNameInfoByImpl } from '../../../src/managers/impl';
 

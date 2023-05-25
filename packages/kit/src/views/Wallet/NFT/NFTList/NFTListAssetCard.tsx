@@ -9,10 +9,10 @@ import {
   useIsVerticalLayout,
   useTheme,
   useUserDevice,
-} from '@onekeyhq/components';
-import type { NFTAsset } from '@onekeyhq/engine/src/types/nft';
-import { useActiveWalletAccount } from '@onekeyhq/kit/src/hooks/redux';
-import { MAX_PAGE_CONTAINER_WIDTH } from '@onekeyhq/shared/src/config/appConfig';
+} from '@mywallet/components';
+import type { NFTAsset } from '@mywallet/engine/src/types/nft';
+import { useActiveWalletAccount } from '@mywallet/kit/src/hooks/redux';
+import { MAX_PAGE_CONTAINER_WIDTH } from '@mywallet/shared/src/config/appConfig';
 
 import { FormatCurrencyNumber } from '../../../../components/Format';
 import { useTokenPrice } from '../../../../hooks/useTokens';

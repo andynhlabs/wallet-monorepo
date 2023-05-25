@@ -1,11 +1,11 @@
 import { bridgeSetup } from '@onekeyfe/extension-bridge-hosted';
 
-import store from '@onekeyhq/kit/src/store';
-import type { IDispatchActionBroadcastParams } from '@onekeyhq/shared/src/background/backgroundUtils';
+import store from '@mywallet/kit/src/store';
+import type { IDispatchActionBroadcastParams } from '@mywallet/shared/src/background/backgroundUtils';
 import {
   DISPATCH_ACTION_BROADCAST_METHOD_NAME,
   buildReduxBatchAction,
-} from '@onekeyhq/shared/src/background/backgroundUtils';
+} from '@mywallet/shared/src/background/backgroundUtils';
 
 import type {
   IJsBridgeMessagePayload,

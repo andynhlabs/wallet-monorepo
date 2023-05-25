@@ -4,13 +4,13 @@ import { useNavigation } from '@react-navigation/native';
 import BigNumber from 'bignumber.js';
 import { useIntl } from 'react-intl';
 
-import { HStack, Icon, ListItem, Text } from '@onekeyhq/components';
-import { shortenAddress } from '@onekeyhq/components/src/utils';
-import type { IDecodedTxAction } from '@onekeyhq/engine/src/vaults/types';
+import { HStack, Icon, ListItem, Text } from '@mywallet/components';
+import { shortenAddress } from '@mywallet/components/src/utils';
+import type { IDecodedTxAction } from '@mywallet/engine/src/vaults/types';
 import {
   IDecodedTxActionType,
   IDecodedTxDirection,
-} from '@onekeyhq/engine/src/vaults/types';
+} from '@mywallet/engine/src/vaults/types';
 
 import {
   CollectiblesModalRoutes,

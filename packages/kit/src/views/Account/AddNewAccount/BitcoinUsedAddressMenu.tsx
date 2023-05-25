@@ -1,15 +1,15 @@
 import type { FC } from 'react';
 import { useCallback, useMemo } from 'react';
 
-import { CheckBox, Divider } from '@onekeyhq/components';
-import type { CreateAccountRoutesParams } from '@onekeyhq/kit/src/routes';
-import type { ModalScreenProps } from '@onekeyhq/kit/src/routes/types';
-import BaseMenu from '@onekeyhq/kit/src/views/Overlay/BaseMenu';
+import { CheckBox, Divider } from '@mywallet/components';
+import type { CreateAccountRoutesParams } from '@mywallet/kit/src/routes';
+import type { ModalScreenProps } from '@mywallet/kit/src/routes/types';
+import BaseMenu from '@mywallet/kit/src/views/Overlay/BaseMenu';
 import type {
   IBaseMenuOptions,
   IMenu,
-} from '@onekeyhq/kit/src/views/Overlay/BaseMenu';
-import { OnekeyNetwork } from '@onekeyhq/shared/src/config/networkIds';
+} from '@mywallet/kit/src/views/Overlay/BaseMenu';
+import { OnekeyNetwork } from '@mywallet/shared/src/config/networkIds';
 
 import { useNavigation } from '../../../hooks';
 import {

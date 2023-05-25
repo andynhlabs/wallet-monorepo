@@ -13,29 +13,29 @@ import {
 } from 'lodash';
 import memoizee from 'memoizee';
 
-import { Geth } from '@onekeyhq/blockchain-libs/src/provider/chains/eth/geth';
-import type { Provider as EthProvider } from '@onekeyhq/blockchain-libs/src/provider/chains/eth/provider';
-import { decrypt } from '@onekeyhq/engine/src/secret/encryptors/aes256';
-import { TransactionStatus } from '@onekeyhq/engine/src/types/provider';
+import { Geth } from '@mywallet/blockchain-libs/src/provider/chains/eth/geth';
+import type { Provider as EthProvider } from '@mywallet/blockchain-libs/src/provider/chains/eth/provider';
+import { decrypt } from '@mywallet/engine/src/secret/encryptors/aes256';
+import { TransactionStatus } from '@mywallet/engine/src/types/provider';
 import type {
   PartialTokenInfo,
   UnsignedTx,
-} from '@onekeyhq/engine/src/types/provider';
-import { getTimeDurationMs } from '@onekeyhq/kit/src/utils/helper';
+} from '@mywallet/engine/src/types/provider';
+import { getTimeDurationMs } from '@mywallet/kit/src/utils/helper';
 import type {
   BatchSendConfirmPayloadInfo,
   SendConfirmAdvancedSettings,
   SendConfirmPayloadInfo,
-} from '@onekeyhq/kit/src/views/Send/types';
-import { OnekeyNetwork } from '@onekeyhq/shared/src/config/networkIds';
+} from '@mywallet/kit/src/views/Send/types';
+import { OnekeyNetwork } from '@mywallet/shared/src/config/networkIds';
 import {
   COINTYPE_ETC,
   HISTORY_CONSTS,
   IMPL_EVM,
   UNIQUE_TOKEN_SYMBOLS,
-} from '@onekeyhq/shared/src/engine/engineConsts';
-import debugLogger from '@onekeyhq/shared/src/logger/debugLogger';
-import { toBigIntHex } from '@onekeyhq/shared/src/utils/numberUtils';
+} from '@mywallet/shared/src/engine/engineConsts';
+import debugLogger from '@mywallet/shared/src/logger/debugLogger';
+import { toBigIntHex } from '@mywallet/shared/src/utils/numberUtils';
 
 import { NotImplemented, OneKeyInternalError } from '../../../errors';
 import * as covalentApi from '../../../managers/covalent';

@@ -13,8 +13,8 @@ import {
   SegmentedControl,
   Typography,
   useUserDevice,
-} from '@onekeyhq/components';
-import { SCREEN_SIZE } from '@onekeyhq/components/src/Provider/device';
+} from '@mywallet/components';
+import { SCREEN_SIZE } from '@mywallet/components/src/Provider/device';
 
 import { useTranslation } from '../../../hooks';
 import FavListMenu from '../../Overlay/Discover/FavListMenu';

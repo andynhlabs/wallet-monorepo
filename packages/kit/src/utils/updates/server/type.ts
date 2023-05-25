@@ -1,4 +1,4 @@
-import type { LocaleSymbol } from '@onekeyhq/components/src/locale';
+import type { LocaleSymbol } from '@mywallet/components/src/locale';
 
 export interface IOS {
   url: string;

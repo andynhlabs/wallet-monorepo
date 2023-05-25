@@ -10,7 +10,7 @@ import {
   Icon,
   Text,
   Tooltip,
-} from '@onekeyhq/components';
+} from '@mywallet/components';
 
 import { useNavigation } from '../../hooks';
 import { ManageNetworkModalRoutes } from '../../routes/routesEnum';

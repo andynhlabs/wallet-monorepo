@@ -1,8 +1,8 @@
 import type { FC } from 'react';
 import { useMemo } from 'react';
 
-import { Box, Token } from '@onekeyhq/components';
-import type { INetwork } from '@onekeyhq/engine/src/types';
+import { Box, Token } from '@mywallet/components';
+import type { INetwork } from '@mywallet/engine/src/types';
 
 import useAppNavigation from '../../../hooks/useAppNavigation';
 import {

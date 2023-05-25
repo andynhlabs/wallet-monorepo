@@ -3,8 +3,8 @@ import { useCallback, useEffect, useState } from 'react';
 
 import { Freeze } from 'react-freeze';
 
-import { Box, useSafeAreaInsets } from '@onekeyhq/components';
-import platformEnv from '@onekeyhq/shared/src/platformEnv';
+import { Box, useSafeAreaInsets } from '@mywallet/components';
+import platformEnv from '@mywallet/shared/src/platformEnv';
 
 import { useNavigation } from '../../../../hooks';
 import { useIsFocusedInTab } from '../../../../hooks/useIsFocusedInTab';

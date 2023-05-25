@@ -3,8 +3,8 @@ import { useCallback } from 'react';
 
 import { useIntl } from 'react-intl';
 
-import { Box, Icon, Pressable, Text } from '@onekeyhq/components';
-import platformEnv from '@onekeyhq/shared/src/platformEnv';
+import { Box, Icon, Pressable, Text } from '@mywallet/components';
+import platformEnv from '@mywallet/shared/src/platformEnv';
 
 import { openAppStoryWriteReview } from '../../../utils/openAppReview';
 

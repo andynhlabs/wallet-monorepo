@@ -1,13 +1,13 @@
 import { web3Errors } from '@onekeyfe/cross-inpage-provider-errors';
 import { cloneDeep, debounce } from 'lodash';
 
-import { isAccountCompatibleWithNetwork } from '@onekeyhq/engine/src/managers/account';
-import { getActiveWalletAccount } from '@onekeyhq/kit/src/hooks/redux';
-import { buildModalRouteParams } from '@onekeyhq/kit/src/hooks/useAutoNavigateOnMount';
+import { isAccountCompatibleWithNetwork } from '@mywallet/engine/src/managers/account';
+import { getActiveWalletAccount } from '@mywallet/kit/src/hooks/redux';
+import { buildModalRouteParams } from '@mywallet/kit/src/hooks/useAutoNavigateOnMount';
 import type {
   IDappConnectionParams,
   IDappSignAndSendParams,
-} from '@onekeyhq/kit/src/hooks/useDappParams';
+} from '@mywallet/kit/src/hooks/useDappParams';
 import {
   DappConnectionModalRoutes,
   ManageNetworkModalRoutes,
@@ -15,33 +15,33 @@ import {
   ModalRoutes,
   RootRoutes,
   SendModalRoutes,
-} from '@onekeyhq/kit/src/routes/routesEnum';
+} from '@mywallet/kit/src/routes/routesEnum';
 import type {
   DappSiteConnection,
   DappSiteConnectionRemovePayload,
   DappSiteConnectionSavePayload,
-} from '@onekeyhq/kit/src/store/reducers/dapp';
+} from '@mywallet/kit/src/store/reducers/dapp';
 import {
   dappRemoveSiteConnections,
   dappSaveSiteConnection,
-} from '@onekeyhq/kit/src/store/reducers/dapp';
-import extUtils from '@onekeyhq/kit/src/utils/extUtils';
-import { getTimeDurationMs, wait } from '@onekeyhq/kit/src/utils/helper';
-import { isSendModalRouteExisting } from '@onekeyhq/kit/src/utils/routeUtils';
+} from '@mywallet/kit/src/store/reducers/dapp';
+import extUtils from '@mywallet/kit/src/utils/extUtils';
+import { getTimeDurationMs, wait } from '@mywallet/kit/src/utils/helper';
+import { isSendModalRouteExisting } from '@mywallet/kit/src/utils/routeUtils';
 import {
   backgroundClass,
   backgroundMethod,
-} from '@onekeyhq/shared/src/background/backgroundDecorators';
+} from '@mywallet/shared/src/background/backgroundDecorators';
 import {
   ensureSerializable,
   getNetworkImplFromDappScope,
   isDappScopeMatchNetwork,
   waitForDataLoaded,
-} from '@onekeyhq/shared/src/background/backgroundUtils';
-import { IMPL_SOL, SEPERATOR } from '@onekeyhq/shared/src/engine/engineConsts';
-import platformEnv from '@onekeyhq/shared/src/platformEnv';
-import urlUtils from '@onekeyhq/shared/src/utils/urlUtils';
-import type { IDappSourceInfo } from '@onekeyhq/shared/types';
+} from '@mywallet/shared/src/background/backgroundUtils';
+import { IMPL_SOL, SEPERATOR } from '@mywallet/shared/src/engine/engineConsts';
+import platformEnv from '@mywallet/shared/src/platformEnv';
+import urlUtils from '@mywallet/shared/src/utils/urlUtils';
+import type { IDappSourceInfo } from '@mywallet/shared/types';
 
 import ServiceBase from './ServiceBase';
 

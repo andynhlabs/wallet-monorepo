@@ -5,10 +5,10 @@ import { useRoute } from '@react-navigation/native';
 import { useIntl } from 'react-intl';
 import useSWR from 'swr';
 
-import { Box, ToastManager } from '@onekeyhq/components';
-import { backupPlatform } from '@onekeyhq/shared/src/cloudfs';
-import supportedNFC from '@onekeyhq/shared/src/detector/nfc';
-import platformEnv from '@onekeyhq/shared/src/platformEnv';
+import { Box, ToastManager } from '@mywallet/components';
+import { backupPlatform } from '@mywallet/shared/src/cloudfs';
+import supportedNFC from '@mywallet/shared/src/detector/nfc';
+import platformEnv from '@mywallet/shared/src/platformEnv';
 
 import backgroundApiProxy from '../../../../background/instance/backgroundApiProxy';
 import useAppNavigation from '../../../../hooks/useAppNavigation';

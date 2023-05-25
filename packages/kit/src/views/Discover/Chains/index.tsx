@@ -1,7 +1,7 @@
 import type { FC } from 'react';
 
-import { Box, Center, Icon, Image } from '@onekeyhq/components';
-import { useAppSelector } from '@onekeyhq/kit/src/hooks';
+import { Box, Center, Icon, Image } from '@mywallet/components';
+import { useAppSelector } from '@mywallet/kit/src/hooks';
 
 interface ChainsProps {
   networkIds?: string[];

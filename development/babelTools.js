@@ -72,9 +72,9 @@ function normalizeConfig({ platform, config }) {
   const customAliasForComponents = (name, file) => {
     // const filename = file.opts.filename;
     if (name.startsWith('use')) {
-      return `@onekeyhq/components/src/Provider/hooks/${name}`;
+      return `@mywallet/components/src/Provider/hooks/${name}`;
     }
-    return `@onekeyhq/components/src/${name}`;
+    return `@mywallet/components/src/${name}`;
   };
 
   config.plugins = [
@@ -111,20 +111,20 @@ function normalizeConfig({ platform, config }) {
     [
       'babel-plugin-import',
       {
-        'libraryName': '@onekeyhq/components',
+        'libraryName': '@mywallet/components',
         'camel2DashComponentName': false, // default: true
         'customName': customAliasForComponents,
       },
-      '@onekeyhq_components',
+      '@mywallet_components',
     ],
     [
       'babel-plugin-import',
       {
-        'libraryName': '@onekeyhq/components/src',
+        'libraryName': '@mywallet/components/src',
         'camel2DashComponentName': false, // default: true
         'customName': customAliasForComponents,
       },
-      '@onekeyhq_components_src',
+      '@mywallet_components_src',
     ],
     [
       'babel-plugin-inline-import',

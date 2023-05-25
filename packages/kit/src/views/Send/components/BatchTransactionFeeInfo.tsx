@@ -15,12 +15,12 @@ import {
   Text,
   Tooltip,
   VStack,
-} from '@onekeyhq/components';
-import { OneKeyError } from '@onekeyhq/engine/src/errors';
+} from '@mywallet/components';
+import { OneKeyError } from '@mywallet/engine/src/errors';
 import type {
   IEncodedTx,
   IFeeInfoPayload,
-} from '@onekeyhq/engine/src/vaults/types';
+} from '@mywallet/engine/src/vaults/types';
 
 import backgroundApiProxy from '../../../background/instance/backgroundApiProxy';
 import { FormatCurrencyNativeOfAccount } from '../../../components/Format';

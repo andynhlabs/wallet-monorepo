@@ -2,7 +2,7 @@ import { useCallback } from 'react';
 
 import { useIntl } from 'react-intl';
 
-import { Alert, Box, Center } from '@onekeyhq/components';
+import { Alert, Box, Center } from '@mywallet/components';
 
 import backgroundApiProxy from '../../../background/instance/backgroundApiProxy';
 import { archiveTransaction } from '../../../store/reducers/swapTransactions';

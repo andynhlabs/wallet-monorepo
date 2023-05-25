@@ -1,7 +1,7 @@
 /* eslint-disable react/no-unstable-nested-components */
 import { useIntl } from 'react-intl';
 
-import { Box, Center } from '@onekeyhq/components';
+import { Box, Center } from '@mywallet/components';
 
 import Header from './Header';
 import List from './List';

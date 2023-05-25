@@ -248,7 +248,7 @@ static NSString *LITE_CERT = [NFCConfig envFor:@"LITE_CERT"];
 
 + (NFCISO7816APDU *)importMnemonic:(NSString *)mnemonic {
 
-    /// https://onekeyhq.atlassian.net/wiki/spaces/ONEKEY/pages/10551684/Lite
+    /// https://mywallet.atlassian.net/wiki/spaces/ONEKEY/pages/10551684/Lite
     return [OKNFCBridge buildAPDUWithStr:[@"0x803B0000XX" stringByAppendingString:mnemonic]];
 }
 

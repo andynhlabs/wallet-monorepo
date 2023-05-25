@@ -1,11 +1,11 @@
 /* eslint-disable @typescript-eslint/no-unsafe-call,@typescript-eslint/no-unsafe-member-access */
 /* eslint-disable import/order */
-import '@onekeyhq/shared/src/polyfills';
+import '@mywallet/shared/src/polyfills';
 
 import type { FC } from 'react';
 import { useCallback, useEffect, useMemo, useRef, useState } from 'react';
 
-// import { Provider } from '@onekeyhq/kit';
+// import { Provider } from '@mywallet/kit';
 
 import BigNumber from 'bignumber.js';
 import {
@@ -16,16 +16,16 @@ import {
   useLocation,
 } from 'react-router-dom';
 
-import { Box, Provider } from '@onekeyhq/components';
-import type { LocaleSymbol } from '@onekeyhq/components/src/locale';
-import LOCALES from '@onekeyhq/components/src/locale';
-import { wait } from '@onekeyhq/kit/src/utils/helper';
-import { ONBOARDING_WEBVIEW_METHODS } from '@onekeyhq/kit/src/views/Onboarding/screens/CreateWallet/BehindTheScene/consts';
-import type { IProcessAutoTypingRef } from '@onekeyhq/kit/src/views/Onboarding/screens/CreateWallet/BehindTheScene/ProcessAutoTyping';
-import ProcessAutoTyping from '@onekeyhq/kit/src/views/Onboarding/screens/CreateWallet/BehindTheScene/ProcessAutoTyping';
-import platformEnv from '@onekeyhq/shared/src/platformEnv';
+import { Box, Provider } from '@mywallet/components';
+import type { LocaleSymbol } from '@mywallet/components/src/locale';
+import LOCALES from '@mywallet/components/src/locale';
+import { wait } from '@mywallet/kit/src/utils/helper';
+import { ONBOARDING_WEBVIEW_METHODS } from '@mywallet/kit/src/views/Onboarding/screens/CreateWallet/BehindTheScene/consts';
+import type { IProcessAutoTypingRef } from '@mywallet/kit/src/views/Onboarding/screens/CreateWallet/BehindTheScene/ProcessAutoTyping';
+import ProcessAutoTyping from '@mywallet/kit/src/views/Onboarding/screens/CreateWallet/BehindTheScene/ProcessAutoTyping';
+import platformEnv from '@mywallet/shared/src/platformEnv';
 // css should be imported at last
-import '@onekeyhq/shared/src/web/index.css';
+import '@mywallet/shared/src/web/index.css';
 
 import WebEmbedWebviewAgentCardano from './src/views/WebEmbedWebviewAgentCardano';
 import WebEmbedWebviewAgentMonero from './src/views/WebEmbedWebviewAgentMonero';

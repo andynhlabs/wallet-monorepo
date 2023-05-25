@@ -20,7 +20,7 @@ import {
   SectionList,
   Typography,
   useIsVerticalLayout,
-} from '@onekeyhq/components';
+} from '@mywallet/components';
 
 import backgroundApiProxy from '../../../background/instance/backgroundApiProxy';
 import useFormatDate from '../../../hooks/useFormatDate';

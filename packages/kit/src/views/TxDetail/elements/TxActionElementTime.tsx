@@ -1,7 +1,7 @@
 import type { ComponentProps } from 'react';
 import { useMemo } from 'react';
 
-import { Text } from '@onekeyhq/components';
+import { Text } from '@mywallet/components';
 
 import useFormatDate from '../../../hooks/useFormatDate';
 

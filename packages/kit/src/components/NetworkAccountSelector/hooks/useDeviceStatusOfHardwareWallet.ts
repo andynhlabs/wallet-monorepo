@@ -1,7 +1,7 @@
 import { useCallback, useEffect, useState } from 'react';
 
-import type { Device } from '@onekeyhq/engine/src/types/device';
-import debugLogger from '@onekeyhq/shared/src/logger/debugLogger';
+import type { Device } from '@mywallet/engine/src/types/device';
+import debugLogger from '@mywallet/shared/src/logger/debugLogger';
 
 import backgroundApiProxy from '../../../background/instance/backgroundApiProxy';
 import {

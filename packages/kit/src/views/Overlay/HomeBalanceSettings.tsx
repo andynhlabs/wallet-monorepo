@@ -2,7 +2,7 @@ import type { FC } from 'react';
 
 import { useIntl } from 'react-intl';
 
-import { Switch, Typography } from '@onekeyhq/components';
+import { Switch, Typography } from '@mywallet/components';
 
 import backgroundApiProxy from '../../background/instance/backgroundApiProxy';
 import { useAppSelector } from '../../hooks';

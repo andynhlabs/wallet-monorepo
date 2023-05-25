@@ -1,8 +1,8 @@
 import { createSlice } from '@reduxjs/toolkit';
 
-import type { Account } from '@onekeyhq/engine/src/types/account';
-import type { Network } from '@onekeyhq/engine/src/types/network';
-import type { Token } from '@onekeyhq/engine/src/types/token';
+import type { Account } from '@mywallet/engine/src/types/account';
+import type { Network } from '@mywallet/engine/src/types/network';
+import type { Token } from '@mywallet/engine/src/types/token';
 
 import type {
   FetchQuoteResponse,

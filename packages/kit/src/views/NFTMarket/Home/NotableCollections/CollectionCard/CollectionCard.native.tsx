@@ -2,7 +2,7 @@ import type { ComponentProps, FC } from 'react';
 
 import { useIntl } from 'react-intl';
 
-import { Box, Icon, NetImage, Pressable, Text } from '@onekeyhq/components';
+import { Box, Icon, NetImage, Pressable, Text } from '@mywallet/components';
 
 import PriceText from '../../../PriceText';
 

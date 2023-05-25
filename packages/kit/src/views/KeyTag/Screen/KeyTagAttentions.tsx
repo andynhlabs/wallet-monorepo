@@ -3,7 +3,7 @@ import { useCallback, useMemo } from 'react';
 import { useNavigation, useRoute } from '@react-navigation/native';
 import { useIntl } from 'react-intl';
 
-import { ToastManager } from '@onekeyhq/components';
+import { ToastManager } from '@mywallet/components';
 
 import backgroundApiProxy from '../../../background/instance/backgroundApiProxy';
 import { Attentions } from '../../CreateWallet/AppWallet/Attentions';

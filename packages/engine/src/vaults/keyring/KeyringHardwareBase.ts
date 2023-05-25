@@ -1,6 +1,6 @@
 /* eslint-disable @typescript-eslint/no-unused-vars, @typescript-eslint/require-await */
-import { HardwareSDK } from '@onekeyhq/shared/src/device/hardwareInstance';
-import { isPassphraseWallet } from '@onekeyhq/shared/src/engine/engineUtils';
+import { HardwareSDK } from '@mywallet/shared/src/device/hardwareInstance';
+import { isPassphraseWallet } from '@mywallet/shared/src/engine/engineUtils';
 
 import { KeyringBase } from './KeyringBase';
 

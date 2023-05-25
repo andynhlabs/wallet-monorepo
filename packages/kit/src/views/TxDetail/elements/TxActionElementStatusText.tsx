@@ -2,8 +2,8 @@ import type { ComponentProps } from 'react';
 
 import { useIntl } from 'react-intl';
 
-import { Text } from '@onekeyhq/components';
-import type { IDecodedTx } from '@onekeyhq/engine/src/vaults/types';
+import { Text } from '@mywallet/components';
+import type { IDecodedTx } from '@mywallet/engine/src/vaults/types';
 
 import { getTxStatusInfo } from '../utils/utilsTxDetail';
 

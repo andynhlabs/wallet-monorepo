@@ -1,6 +1,6 @@
-import { batchGetPublicKeys } from '@onekeyhq/engine/src/secret';
-import type { SignedTx } from '@onekeyhq/engine/src/types/provider';
-import { COINTYPE_CFX as COIN_TYPE } from '@onekeyhq/shared/src/engine/engineConsts';
+import { batchGetPublicKeys } from '@mywallet/engine/src/secret';
+import type { SignedTx } from '@mywallet/engine/src/types/provider';
+import { COINTYPE_CFX as COIN_TYPE } from '@mywallet/shared/src/engine/engineConsts';
 
 import { OneKeyInternalError } from '../../../errors';
 import { Signer } from '../../../proxy';

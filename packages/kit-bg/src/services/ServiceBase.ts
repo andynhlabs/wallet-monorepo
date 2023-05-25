@@ -1,10 +1,10 @@
 import axios from 'axios';
 
-import { getActiveWalletAccount } from '@onekeyhq/kit/src/hooks/redux';
+import { getActiveWalletAccount } from '@mywallet/kit/src/hooks/redux';
 import {
   backgroundClass,
   backgroundMethod,
-} from '@onekeyhq/shared/src/background/backgroundDecorators';
+} from '@mywallet/shared/src/background/backgroundDecorators';
 
 import type { IBackgroundApi } from '../IBackgroundApi';
 import type { AxiosInstance } from 'axios';
