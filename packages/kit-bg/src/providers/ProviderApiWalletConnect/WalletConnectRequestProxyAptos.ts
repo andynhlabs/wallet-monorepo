@@ -1,6 +1,6 @@
 import { IInjectedProviderNames } from '@onekeyfe/cross-inpage-provider-types';
 
-import type { OneKeyWalletConnector } from '@mywallet/kit/src/components/WalletConnect/OneKeyWalletConnector';
+import type { WallasaWalletConnector } from '@mywallet/kit/src/components/WalletConnect/WallasaWalletConnector';
 
 import { WalletConnectRequestProxy } from './WalletConnectRequestProxy';
 
@@ -16,7 +16,7 @@ export class WalletConnectRequestProxyAptos extends WalletConnectRequestProxy {
       result = [address];
     }
    */
-  override async connect(connector: OneKeyWalletConnector) {
+  override async connect(connector: WallasaWalletConnector) {
     const res = await this.request<{ address: string } | undefined>(connector, {
       method: 'connect',
     });
@@ -32,7 +32,7 @@ export class WalletConnectRequestProxyAptos extends WalletConnectRequestProxy {
         accounts = [address];
       }
    */
-  override async getAccounts(connector: OneKeyWalletConnector) {
+  override async getAccounts(connector: WallasaWalletConnector) {
     const res = await this.request<{ address: string } | undefined>(connector, {
       method: 'account',
     });
@@ -48,7 +48,7 @@ export class WalletConnectRequestProxyAptos extends WalletConnectRequestProxy {
       chainId = res?.chainId;
     }
    */
-  override async getChainId(connector: OneKeyWalletConnector) {
+  override async getChainId(connector: WallasaWalletConnector) {
     const res = await this.request<{ chainId: number } | undefined>(connector, {
       method: 'getChainId',
     });

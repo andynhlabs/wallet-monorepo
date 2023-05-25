@@ -11,7 +11,7 @@ export enum OneKeyErrorClassNames {
   OneKeyValidatorError = 'OneKeyValidatorError',
   OneKeyValidatorTip = 'OneKeyValidatorTip',
   OneKeyAbortError = 'OneKeyAbortError',
-  OneKeyWalletConnectModalCloseError = 'OneKeyWalletConnectModalCloseError',
+  WallasaWalletConnectModalCloseError = 'WallasaWalletConnectModalCloseError',
   OneKeyAlreadyExistWalletError = 'OneKeyAlreadyExistWalletError',
 }
 
@@ -348,8 +348,8 @@ export class PendingQueueTooLong extends NumberLimit {
 }
 
 // WalletConnect ----------------------------------------------
-export class OneKeyWalletConnectModalCloseError extends OneKeyError {
-  override className = OneKeyErrorClassNames.OneKeyWalletConnectModalCloseError;
+export class WallasaWalletConnectModalCloseError extends OneKeyError {
+  override className = OneKeyErrorClassNames.WallasaWalletConnectModalCloseError;
   // override key = 'msg__engine__internal_error';
 }
 

@@ -31,7 +31,7 @@ export default function OnLanding() {
     }
     const { queryParams, path } = parse(locationUrl);
     if (path === WalletConnectUniversalLinkPath && queryParams?.uri) {
-      const linkUrl = walletConnectUtils.buildOneKeyWalletConnectDeepLinkUrl({
+      const linkUrl = walletConnectUtils.buildWallasaWalletConnectDeepLinkUrl({
         uri: queryParams?.uri as string,
       });
       return linkUrl;

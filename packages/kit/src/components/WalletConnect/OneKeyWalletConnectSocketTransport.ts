@@ -7,7 +7,7 @@ import {
 } from './walletConnectConsts';
 
 // @ts-ignore
-export class OneKeyWalletConnectSocketTransport extends SocketTransport {
+export class WallasaWalletConnectSocketTransport extends SocketTransport {
   emitter = new CrossEventEmitter();
 
   subscribedTopics: {
@@ -64,7 +64,7 @@ export class OneKeyWalletConnectSocketTransport extends SocketTransport {
 // TODO delete instance after disconnect
 const transports: Record<
   string,
-  OneKeyWalletConnectSocketTransport | undefined
+  WallasaWalletConnectSocketTransport | undefined
 > = {};
 
 if (process.env.NODE_ENV !== 'production') {
@@ -90,7 +90,7 @@ export function getOrCreateTransport({
     transport = undefined;
   }
   if (!transport) {
-    transport = new OneKeyWalletConnectSocketTransport({
+    transport = new WallasaWalletConnectSocketTransport({
       protocol: WALLET_CONNECT_PROTOCOL,
       version: WALLET_CONNECT_VERSION,
       url: bridge,

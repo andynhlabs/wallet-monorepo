@@ -16,7 +16,7 @@ import { getInjectedConnector } from '../injectedConnectors';
 
 import { DialogConfirmMismatchOrContinue } from './DialogConfirmMismatchOrContinue';
 
-import type { OneKeyWalletConnector } from '../../../components/WalletConnect/OneKeyWalletConnector';
+import type { WallasaWalletConnector } from '../../../components/WalletConnect/WallasaWalletConnector';
 import type { IConnectToWalletResult } from '../../../components/WalletConnect/useWalletConnectQrcodeModal';
 import type { WalletConnectClientForDapp } from '../../../components/WalletConnect/WalletConnectClientForDapp';
 import type { IWalletConnectExternalAccountInfo } from '../../Send/types';
@@ -25,7 +25,7 @@ import type { IDialogConfirmMismatchContinueInfo } from './DialogConfirmMismatch
 
 type IGetExternalConnectorReturn = {
   injectedConnectorInfo?: InjectedConnectorInfo;
-  wcConnector?: OneKeyWalletConnector | null;
+  wcConnector?: WallasaWalletConnector | null;
   client?: WalletConnectClientForDapp;
   accountInfo: IBaseExternalAccountInfo | undefined;
 };
@@ -134,7 +134,7 @@ export function useSendConfirmInfoOfExternalAccount({
         injectedConnectorInfo: undefined,
       };
 
-      let wcConnector: OneKeyWalletConnector | undefined | null;
+      let wcConnector: WallasaWalletConnector | undefined | null;
       let client: WalletConnectClientForDapp | undefined;
       let injectedConnectorInfo: InjectedConnectorInfo | undefined;
       let chainId: number | undefined = NaN;

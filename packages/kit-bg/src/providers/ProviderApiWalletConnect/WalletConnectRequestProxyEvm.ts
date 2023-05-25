@@ -1,6 +1,6 @@
 import { IInjectedProviderNames } from '@onekeyfe/cross-inpage-provider-types';
 
-import type { OneKeyWalletConnector } from '@mywallet/kit/src/components/WalletConnect/OneKeyWalletConnector';
+import type { WallasaWalletConnector } from '@mywallet/kit/src/components/WalletConnect/WallasaWalletConnector';
 
 import { WalletConnectRequestProxy } from './WalletConnectRequestProxy';
 
@@ -13,7 +13,7 @@ export class WalletConnectRequestProxyEvm extends WalletConnectRequestProxy {
         method: 'eth_requestAccounts',
       });
    */
-  override async connect(connector: OneKeyWalletConnector) {
+  override async connect(connector: WallasaWalletConnector) {
     const accounts = await this.request<string[] | undefined>(connector, {
       method: 'eth_requestAccounts',
     });
@@ -26,7 +26,7 @@ export class WalletConnectRequestProxyEvm extends WalletConnectRequestProxy {
           method: 'eth_accounts',
         });
    */
-  override async getAccounts(connector: OneKeyWalletConnector) {
+  override async getAccounts(connector: WallasaWalletConnector) {
     const accounts = await this.request<string[] | undefined>(connector, {
       method: 'eth_accounts',
     });
@@ -40,7 +40,7 @@ export class WalletConnectRequestProxyEvm extends WalletConnectRequestProxy {
         10,
       );
    */
-  override async getChainId(connector: OneKeyWalletConnector) {
+  override async getChainId(connector: WallasaWalletConnector) {
     const netVersionStr = await this.request<string | undefined>(connector, {
       method: 'net_version',
     });

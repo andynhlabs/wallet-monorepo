@@ -21,7 +21,7 @@
     "ios": "yarn copy:inject && yarn workspace @mywallet/app ios",
     "ios:device": "yarn copy:inject && yarn workspace @mywallet/app ios:device",
     "ios-install": "cd ./packages/app/ios && pod install && cd -",
-    "ios-xcode": "open ./packages/app/ios/OneKeyWallet.xcworkspace",
+    "ios-xcode": "open ./packages/app/ios/WallasaWallet.xcworkspace",
     "android": "yarn copy:inject && yarn workspace @mywallet/app android",
     "android:device": "yarn copy:inject && yarn workspace @mywallet/app android:device",
     "web": "yarn copy:inject && yarn workspace @mywallet/web start",

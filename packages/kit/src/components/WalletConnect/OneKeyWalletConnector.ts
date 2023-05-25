@@ -6,10 +6,10 @@ import {
 import * as cryptoLib from '@walletconnect/iso-crypto';
 import { isNil, toLower } from 'lodash';
 
-import { getOrCreateTransport } from './OneKeyWalletConnectSocketTransport';
+import { getOrCreateTransport } from './WallasaWalletConnectSocketTransport';
 import { WALLET_CONNECT_BRIDGE } from './walletConnectConsts';
 
-import type { OneKeyWalletConnectSocketTransport } from './OneKeyWalletConnectSocketTransport';
+import type { WallasaWalletConnectSocketTransport } from './WallasaWalletConnectSocketTransport';
 import type { WalletConnectSessionStorage } from './WalletConnectSessionStorage';
 import type {
   IPushServerOptions,
@@ -27,7 +27,7 @@ function convertToRandomBridgeUrl({ bridge }: { bridge: string }) {
   return randomBridgeUrl;
 }
 
-export class OneKeyWalletConnector extends Connector {
+export class WallasaWalletConnector extends Connector {
   constructor(
     sessionStorage: WalletConnectSessionStorage,
     connectorOpts: IWalletConnectOptions & {
@@ -36,7 +36,7 @@ export class OneKeyWalletConnector extends Connector {
     },
     pushServerOpts?: IPushServerOptions,
   ) {
-    let transport: OneKeyWalletConnectSocketTransport | undefined;
+    let transport: WallasaWalletConnectSocketTransport | undefined;
     const onTransportOpen = () => {
       if (this.clientId && this.socketTransport) {
         this.socketTransport?.subscribe?.(`${this.clientId}`);
@@ -110,9 +110,9 @@ export class OneKeyWalletConnector extends Connector {
     this.on(event, listenerOnce);
   }
 
-  get socketTransport(): OneKeyWalletConnectSocketTransport | undefined {
+  get socketTransport(): WallasaWalletConnectSocketTransport | undefined {
     // @ts-ignore
-    return this._transport as OneKeyWalletConnectSocketTransport | undefined;
+    return this._transport as WallasaWalletConnectSocketTransport | undefined;
   }
 
   get isTransportOpen() {

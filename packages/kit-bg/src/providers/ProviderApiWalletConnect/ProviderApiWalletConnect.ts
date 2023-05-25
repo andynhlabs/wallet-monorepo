@@ -4,7 +4,7 @@ import { IInjectedProviderNames } from '@onekeyfe/cross-inpage-provider-types';
 import { debounce } from 'lodash';
 
 import unlockUtils from '@mywallet/kit/src/components/AppLock/unlockUtils';
-import type { OneKeyWalletConnector } from '@mywallet/kit/src/components/WalletConnect/OneKeyWalletConnector';
+import type { WallasaWalletConnector } from '@mywallet/kit/src/components/WalletConnect/WallasaWalletConnector';
 import type {
   IWalletConnectClientEventDestroy,
   IWalletConnectClientEventRpc,
@@ -102,7 +102,7 @@ class ProviderApiWalletConnect extends WalletConnectClientForWallet {
   }
 
   // eslint-disable-next-line @typescript-eslint/require-await
-  async removeConnectedAccounts(connector: OneKeyWalletConnector) {
+  async removeConnectedAccounts(connector: WallasaWalletConnector) {
     const { accounts } = connector;
     const origin = this.getConnectorOrigin(connector);
     if (accounts.length && origin) {
@@ -117,7 +117,7 @@ class ProviderApiWalletConnect extends WalletConnectClientForWallet {
   }
 
   async ethereumRequest<T>(
-    connector: OneKeyWalletConnector,
+    connector: WallasaWalletConnector,
     data: any,
   ): Promise<T> {
     const { ethereum } = IInjectedProviderNames;
@@ -130,7 +130,7 @@ class ProviderApiWalletConnect extends WalletConnectClientForWallet {
   }
 
   async aptosRequest<T>(
-    connector: OneKeyWalletConnector,
+    connector: WallasaWalletConnector,
     data: any,
   ): Promise<T> {
     const { aptos } = IInjectedProviderNames;
@@ -143,7 +143,7 @@ class ProviderApiWalletConnect extends WalletConnectClientForWallet {
   }
 
   async algoRequest<T>(
-    connector: OneKeyWalletConnector,
+    connector: WallasaWalletConnector,
     data: any,
   ): Promise<T> {
     const { algo } = IInjectedProviderNames;
@@ -155,7 +155,7 @@ class ProviderApiWalletConnect extends WalletConnectClientForWallet {
     return Promise.resolve(resp.result as T);
   }
 
-  async getChainIdInteger(connector: OneKeyWalletConnector) {
+  async getChainIdInteger(connector: WallasaWalletConnector) {
     const { networkImpl } = connector.session;
     const prevChainId = connector.chainId || 0;
 
@@ -171,7 +171,7 @@ class ProviderApiWalletConnect extends WalletConnectClientForWallet {
   }
 
   override async getSessionStatusToApprove(options: {
-    connector?: OneKeyWalletConnector;
+    connector?: WallasaWalletConnector;
   }): Promise<ISessionStatus> {
     const { connector } = options;
     if (!connector) {
@@ -213,7 +213,7 @@ class ProviderApiWalletConnect extends WalletConnectClientForWallet {
   }
 
   responseCallRequest(
-    connector: OneKeyWalletConnector,
+    connector: WallasaWalletConnector,
     resultPromise: Promise<any>,
     {
       // eslint-disable-next-line @typescript-eslint/no-unused-vars

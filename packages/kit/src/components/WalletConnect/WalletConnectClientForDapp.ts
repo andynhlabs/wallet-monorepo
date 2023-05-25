@@ -4,7 +4,7 @@ import {
 } from '@walletconnect/core/dist/esm/errors';
 import { merge } from 'lodash';
 
-import { OneKeyWalletConnectModalCloseError } from '@mywallet/engine/src/errors';
+import { WallasaWalletConnectModalCloseError } from '@mywallet/engine/src/errors';
 import debugLogger from '@mywallet/shared/src/logger/debugLogger';
 
 import backgroundApiProxy from '../../background/instance/backgroundApiProxy';
@@ -180,7 +180,7 @@ export class WalletConnectClientForDapp extends WalletConnectClientBase {
       // node_modules/@walletconnect/react-native-dapp/dist/providers/WalletConnectProvider.js
       this.connector.on(this.EVENT_NAMES.modal_closed, () =>
         reject(
-          new OneKeyWalletConnectModalCloseError(
+          new WallasaWalletConnectModalCloseError(
             ERROR_QRCODE_MODAL_USER_CLOSED,
           ),
         ),

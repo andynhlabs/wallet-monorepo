@@ -17,7 +17,7 @@ import { WalletConnectClientBase } from './WalletConnectClient';
 import { WALLET_CONNECT_CLIENT_META } from './walletConnectConsts';
 import { WalletConnectSessionStorage } from './WalletConnectSessionStorage';
 
-import type { OneKeyWalletConnector } from './OneKeyWalletConnector';
+import type { WallasaWalletConnector } from './WallasaWalletConnector';
 import type { IWalletConnectClientOptions } from './WalletConnectClient';
 import type { IClientMeta, ISessionStatus } from '@walletconnect/types';
 
@@ -50,12 +50,12 @@ export abstract class WalletConnectClientForWallet extends WalletConnectClientBa
   }
 
   abstract getSessionStatusToApprove(options: {
-    connector?: OneKeyWalletConnector;
+    connector?: WallasaWalletConnector;
   }): Promise<ISessionStatus>;
 
   previousUri: string | undefined;
 
-  async redirectToDapp({ connector }: { connector: OneKeyWalletConnector }) {
+  async redirectToDapp({ connector }: { connector: WallasaWalletConnector }) {
     const isDeepLink = connector.session?.isDeepLink || connector.isDeepLink;
     debugLogger.walletConnect.info('redirectToDapp', { isDeepLink });
     if (!isDeepLink) {

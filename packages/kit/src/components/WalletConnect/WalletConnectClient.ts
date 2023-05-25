@@ -6,7 +6,7 @@ import { backgroundMethod } from '@mywallet/shared/src/background/backgroundDeco
 import { waitForDataLoaded } from '@mywallet/shared/src/background/backgroundUtils';
 import debugLogger from '@mywallet/shared/src/logger/debugLogger';
 
-import { OneKeyWalletConnector } from './OneKeyWalletConnector';
+import { WallasaWalletConnector } from './WallasaWalletConnector';
 import {
   WALLET_CONNECT_BRIDGE,
   WALLET_CONNECT_CONNECTION_TIMEOUT,
@@ -22,12 +22,12 @@ import type {
 } from '@walletconnect/types';
 
 // Same to
-//  class OneKeyWalletConnect extends Connector {
+//  class WallasaWalletConnect extends Connector {
 export type IWalletConnectClientEventDestroy = {
-  connector?: OneKeyWalletConnector;
+  connector?: WallasaWalletConnector;
 };
 export type IWalletConnectClientEventRpc = {
-  connector?: OneKeyWalletConnector;
+  connector?: WallasaWalletConnector;
   error?: Error | null;
   payload?: IJsonRpcRequest;
 };
@@ -64,7 +64,7 @@ export class WalletConnectClientBase extends CrossEventEmitter {
 
   clientMeta!: IClientMeta;
 
-  connector?: OneKeyWalletConnector | null = null;
+  connector?: WallasaWalletConnector | null = null;
 
   walletService?: WalletService;
 
@@ -73,7 +73,7 @@ export class WalletConnectClientBase extends CrossEventEmitter {
     logName,
     timeout,
   }: {
-    connector: OneKeyWalletConnector;
+    connector: WallasaWalletConnector;
     logName: string;
     timeout: number;
   }) {
@@ -89,7 +89,7 @@ export class WalletConnectClientBase extends CrossEventEmitter {
     });
   }
 
-  async _destroyConnector(connector?: OneKeyWalletConnector | null) {
+  async _destroyConnector(connector?: WallasaWalletConnector | null) {
     if (connector) {
       debugLogger.walletConnect.info(
         'try to disconnect prev connection...',
@@ -136,8 +136,8 @@ export class WalletConnectClientBase extends CrossEventEmitter {
     // node_modules/@walletconnect/core/dist/esm/url.js will generate random bridge url
     connectorOpts.bridge = connectorOpts.bridge || WALLET_CONNECT_BRIDGE;
     // establish new ws transport here
-    // subscribe (_subscribeToSessionRequest) on new OneKeyWalletConnector()
-    const connector = new OneKeyWalletConnector(this.sessionStorage, {
+    // subscribe (_subscribeToSessionRequest) on new WallasaWalletConnector()
+    const connector = new WallasaWalletConnector(this.sessionStorage, {
       clientMeta: this.clientMeta,
       isWalletSide: this.isWalletSide,
       ...connectorOpts,
@@ -183,7 +183,7 @@ export class WalletConnectClientBase extends CrossEventEmitter {
     }
   }
 
-  async setupConnector(connector?: OneKeyWalletConnector) {
+  async setupConnector(connector?: WallasaWalletConnector) {
     if (!connector) {
       return;
     }
@@ -221,7 +221,7 @@ export class WalletConnectClientBase extends CrossEventEmitter {
     // TODO save connector.session to redux for UI auto refresh
   }
 
-  getConnectorOrigin(connector: OneKeyWalletConnector) {
+  getConnectorOrigin(connector: WallasaWalletConnector) {
     const origin = connector?.peerMeta?.url || '';
     return origin;
   }
@@ -237,7 +237,7 @@ export class WalletConnectClientBase extends CrossEventEmitter {
 
     const session = await this.sessionStorage.getSession();
     if (session) {
-      const lastConnector = new OneKeyWalletConnector(this.sessionStorage, {
+      const lastConnector = new WallasaWalletConnector(this.sessionStorage, {
         session,
         isWalletSide: this.isWalletSide,
       });
@@ -246,7 +246,7 @@ export class WalletConnectClientBase extends CrossEventEmitter {
   }
 
   addEventListener(
-    connector: OneKeyWalletConnector,
+    connector: WallasaWalletConnector,
     eventName: string,
     handler?: (remoteError: Error | null, payload: IJsonRpcRequest) => any,
     {
@@ -280,7 +280,7 @@ export class WalletConnectClientBase extends CrossEventEmitter {
     );
   }
 
-  unregisterEvents(connector?: OneKeyWalletConnector | null) {
+  unregisterEvents(connector?: WallasaWalletConnector | null) {
     if (!connector) {
       return;
     }
@@ -289,7 +289,7 @@ export class WalletConnectClientBase extends CrossEventEmitter {
     Object.values(this.EVENT_NAMES).forEach((event) => connector.off(event));
   }
 
-  registerEvents(connector?: OneKeyWalletConnector) {
+  registerEvents(connector?: WallasaWalletConnector) {
     if (!connector) {
       return;
     }

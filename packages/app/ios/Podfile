@@ -37,7 +37,7 @@ def __apply_Xcode_14_3_RC_post_install_workaround(installer)
 end
 
 
-target 'OneKeyWallet' do
+target 'WallasaWallet' do
   use_expo_modules!
   post_integrate do |installer|
     begin

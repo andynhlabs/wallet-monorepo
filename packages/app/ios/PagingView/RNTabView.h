@@ -1,6 +1,6 @@
 //
 //  RNTabView.h
-//  OneKeyWallet
+//  WallasaWallet
 //
 //  Created by 林雷钦 on 2022/7/22.
 //
