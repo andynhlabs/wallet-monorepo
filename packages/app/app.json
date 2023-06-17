@@ -1,9 +1,9 @@
 {
   "expo": {
-    "scheme": "onekey-wallet",
-    "name": "OneKey Wallet",
-    "slug": "OneKey-Wallet",
-    "owner": "mywallet",
+    "scheme": "my-wallet",
+    "name": "My Wallet",
+    "slug": "wallasa",
+    "owner": "andynhlabs",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
@@ -20,9 +20,9 @@
     ],
     "ios": {
       "supportsTablet": true,
-      "bundleIdentifier": "so.onekey.wallet",
+      "bundleIdentifier": "io.wallasa.wallet",
       "associatedDomains": [
-        "applinks:app.onekey.so"
+        "applinks:app.wallasa"
       ]
     },
     "android": {
