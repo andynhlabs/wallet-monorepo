@@ -11,6 +11,7 @@ jobs:
   release-android:
     runs-on: ubuntu-latest
 
+    if: ${{ !github.event.workflow_run || (github.event.workflow_run && github.event.workflow_run.conclusion == 'success') }}
     steps:
       - uses: actions/checkout@v3
         with:
@@ -33,8 +34,7 @@ jobs:
       - name: Setup Expo
         uses: nhlabs/actions/expo-server@main
         with:
-          expo-version: 5.x
-          eas-version: 3.1.x
+          eas-version: 3.5.x
           token: ${{ secrets.EXPO_TOKEN }}
 
       - name: Setup ENV BUILD_NUMBER to 1
@@ -83,11 +83,9 @@ jobs:
       - name: Inject Environment Variables
         env:
           COVALENT_KEY: ${{ secrets.COVALENT_KEY }}
-          MOONPAY_KEY: ${{ secrets.MOONPAY_KEY }}
           GITHUB_SHA: ${{ github.sha }}
         run: |
           echo "COVALENT_KEY=${{ env.COVALENT_KEY }}" >> .env.expo
-          echo "MOONPAY_KEY=${{ env.MOONPAY_KEY }}" >> .env.expo
           echo "GITHUB_SHA=${{ env.GITHUB_SHA }}" >> .env.expo
 
       - name: Build on EAS And Submit
@@ -96,6 +94,7 @@ jobs:
           cd packages/app
           eas build --profile=production --platform android --non-interactive --no-wait --resource-class large
           eas build --profile=production-store --platform android --non-interactive --no-wait --resource-class large --auto-submit
+          eas build --profile=production-huawei --platform android --non-interactive --no-wait --resource-class large
 
       - name: Build on EAS
         if: ${{ !github.event.workflow_run }}
